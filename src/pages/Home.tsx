@@ -1,0 +1,394 @@
+import { motion, useScroll, useTransform } from "framer-motion";
+import { useRef } from "react";
+import { Link } from "react-router-dom";
+import { NEWS, POSITIONS, SITE, THEMES } from "../content/site";
+import { useMetrics } from "../lib/useData";
+import {
+  Chip,
+  Container,
+  GhostButton,
+  GradientButton,
+  Reveal,
+  SectionHeading,
+  StatTile,
+  TextLink,
+} from "../components/ui";
+import { ArrowRight } from "../components/Icons";
+
+/* ------------------------------------------------------------------ hero */
+
+function Hero() {
+  const ref = useRef<HTMLDivElement>(null);
+  const { scrollYProgress } = useScroll({ target: ref, offset: ["start start", "end start"] });
+  // The photograph drifts and dims as the copy scrolls off; a shallow parallax.
+  const y = useTransform(scrollYProgress, [0, 1], ["0%", "22%"]);
+  const opacity = useTransform(scrollYProgress, [0, 0.85], [1, 0.15]);
+
+  return (
+    <section ref={ref} className="relative flex min-h-[92vh] items-center overflow-hidden">
+      <motion.div className="absolute inset-0" style={{ y, opacity }}>
+        <img
+          src="/images/hero-leaf-insect.jpg"
+          alt="A leaf insect, Phyllium, photographed against black"
+          className="h-full w-full animate-slow-zoom object-cover"
+        />
+        <div className="absolute inset-0 bg-gradient-to-r from-ink via-ink/85 to-ink/20" />
+        <div className="absolute inset-0 bg-gradient-to-t from-ink via-transparent to-ink/60" />
+      </motion.div>
+
+      <Container className="relative pb-16 pt-28">
+        <motion.div
+          initial={{ opacity: 0, y: 30 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
+          className="max-w-3xl"
+        >
+          <div className="mb-5 flex items-center gap-3">
+            <span className="h-px w-10 bg-gold" />
+            <span className="text-xs font-semibold uppercase tracking-[0.24em] text-gold">
+              {SITE.university} · {SITE.city}
+            </span>
+          </div>
+
+          <h1 className="font-display text-[3.1rem] font-bold leading-[0.98] text-white sm:text-7xl md:text-[5.3rem]">
+            The <span className="text-gold">PEACE</span> Lab
+          </h1>
+
+          <p className="mt-5 max-w-xl font-display text-lg font-medium leading-snug text-cyan sm:text-xl">
+            Plasticity and Ecological Adaptations to Changing Environments
+          </p>
+
+          <p className="mt-6 max-w-xl text-[17px] leading-relaxed text-neutral-300">
+            We study how animals cope with a warming world, and where coping runs out. Our work spans
+            the whole life cycle, from the embryo to the adult, because the stage that fails first
+            sets the limit for the population.
+          </p>
+
+          <div className="mt-9 flex flex-wrap items-center gap-3">
+            <GradientButton to="/research">
+              Our research <ArrowRight />
+            </GradientButton>
+            <GhostButton to="/opportunities">Join the group</GhostButton>
+          </div>
+        </motion.div>
+      </Container>
+
+      <motion.div
+        className="absolute bottom-8 left-1/2 hidden -translate-x-1/2 sm:block"
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ delay: 1.1, duration: 0.8 }}
+      >
+        <div className="flex h-10 w-6 items-start justify-center rounded-full border border-neutral-600 p-1.5">
+          <motion.span
+            className="h-1.5 w-1 rounded-full bg-gold"
+            animate={{ y: [0, 12, 0] }}
+            transition={{ duration: 1.9, repeat: Infinity, ease: "easeInOut" }}
+          />
+        </div>
+      </motion.div>
+    </section>
+  );
+}
+
+/* --------------------------------------------------------------- mission */
+
+function Mission() {
+  return (
+    <section className="relative py-24">
+      <Container>
+        <Reveal>
+          <SectionHeading
+            eyebrow="What we do"
+            title={
+              <>
+                Climate change does not act on{" "}
+                <span className="brand-text">a single stage of life</span>.
+              </>
+            }
+          />
+        </Reveal>
+
+        <div className="mt-8 grid gap-10 lg:grid-cols-[1.15fr_1fr]">
+          <Reveal delay={0.1}>
+            <div className="prose-dark">
+              <p>
+                Heatwaves are becoming more frequent, more intense and longer, and they threaten the
+                persistence of animal populations. The central problem in global change biology is
+                not that we lack evidence of harm. It is that we still cannot say reliably which
+                species, which populations and which stages will fail first.
+              </p>
+              <p>
+                Embryos and larvae are often more sensitive to extreme heat than the adults they
+                become, yet developmental stages remain the least studied part of the life cycle.
+                Worse, the methods used to measure vulnerability in an embryo and in an adult have
+                rarely been comparable, so the difference between them could not be quantified.
+              </p>
+              <p>
+                We work on both halves of that problem. We build standardised methods that make
+                stages comparable, and we use them to ask how thermal sensitivity varies across the
+                life cycle, why it varies, and what that variation means for populations under
+                warming. Laboratory experiments, evidence synthesis and comparative analysis each
+                answer part of the question; none of them answers it alone.
+              </p>
+            </div>
+          </Reveal>
+
+          <Reveal delay={0.2}>
+            <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-1">
+              {[
+                {
+                  title: "Experiments",
+                  body: "Laboratory and field work on thermal tolerance, acclimation and developmental plasticity, in fishes, amphibians, reptiles and invertebrates.",
+                  color: "#FA6A03",
+                },
+                {
+                  title: "Synthesis",
+                  body: "Systematic reviews, meta-analyses and phylogenetic comparative methods that turn a scattered literature into a testable global pattern.",
+                  color: "#02B8A6",
+                },
+                {
+                  title: "Distributed science",
+                  body: "Coordinated experiments run by dozens of laboratories at once, through the Thermal Ecology Alliance, at a scale no single group can reach.",
+                  color: "#FAD103",
+                },
+              ].map((c) => (
+                <div key={c.title} className="card p-6">
+                  <div
+                    className="mb-3 h-1 w-10 rounded-full"
+                    style={{ backgroundColor: c.color }}
+                  />
+                  <h3 className="font-display text-lg font-semibold text-white">{c.title}</h3>
+                  <p className="mt-2 text-sm leading-relaxed text-neutral-400">{c.body}</p>
+                </div>
+              ))}
+            </div>
+          </Reveal>
+        </div>
+      </Container>
+    </section>
+  );
+}
+
+/* ---------------------------------------------------------------- themes */
+
+function Themes() {
+  return (
+    <section className="relative py-20">
+      <Container>
+        <Reveal>
+          <div className="flex flex-wrap items-end justify-between gap-6">
+            <SectionHeading eyebrow="Research" title="Six questions we keep coming back to" />
+            <TextLink to="/research">All research themes</TextLink>
+          </div>
+        </Reveal>
+
+        <div className="mt-12 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+          {THEMES.map((t, i) => (
+            <Reveal key={t.id} delay={i * 0.06}>
+              <Link
+                to={`/research#${t.id}`}
+                className="card group block h-full overflow-hidden"
+                style={{ borderColor: `${t.accent}26` }}
+              >
+                <div className="relative h-44 overflow-hidden">
+                  <img
+                    src={t.image}
+                    alt=""
+                    loading="lazy"
+                    className="h-full w-full object-cover opacity-75 transition duration-700 group-hover:scale-105 group-hover:opacity-100"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-panel via-panel/25 to-transparent" />
+                  <span className="absolute left-4 top-4 text-2xl">{t.emoji}</span>
+                </div>
+                <div className="p-5">
+                  <h3
+                    className="font-display text-[17px] font-semibold leading-snug text-white transition"
+                    style={{ textDecorationColor: t.accent }}
+                  >
+                    {t.title}
+                  </h3>
+                  <p className="mt-2 line-clamp-3 text-sm leading-relaxed text-neutral-400">
+                    {t.lead}
+                  </p>
+                  <div
+                    className="mt-4 flex items-center gap-1.5 text-sm font-semibold"
+                    style={{ color: t.accent }}
+                  >
+                    Read more
+                    <ArrowRight className="transition-transform duration-300 group-hover:translate-x-1" />
+                  </div>
+                </div>
+              </Link>
+            </Reveal>
+          ))}
+        </div>
+      </Container>
+    </section>
+  );
+}
+
+/* --------------------------------------------------------------- numbers */
+
+function Numbers() {
+  const metrics = useMetrics();
+  if (!metrics) return null;
+
+  return (
+    <section className="py-20">
+      <Container>
+        <Reveal>
+          <SectionHeading
+            eyebrow="By the numbers"
+            title="A global evidence base"
+            lead="These figures refresh nightly from OpenAlex. Nothing here is typed by hand."
+          />
+        </Reveal>
+        <Reveal delay={0.1}>
+          <div className="mt-10 grid grid-cols-2 gap-4 lg:grid-cols-4">
+            <StatTile value={metrics.works} label="Publications" color="#FAD103" />
+            <StatTile
+              value={metrics.citations.toLocaleString("en-GB")}
+              label="Citations"
+              color="#FA6A03"
+            />
+            <StatTile value={metrics.coAuthors} label="Co-authors" color="#02B8A6" />
+            <StatTile value={metrics.countries} label="Countries" color="#B80502" />
+          </div>
+        </Reveal>
+      </Container>
+    </section>
+  );
+}
+
+/* ------------------------------------------------------------- positions */
+
+function OpenPositions() {
+  const open = POSITIONS.filter((p) => p.status === "open");
+  if (open.length === 0) return null;
+
+  return (
+    <section className="py-20">
+      <Container>
+        <Reveal>
+          <div className="relative overflow-hidden rounded-3xl border border-gold/30 bg-gradient-to-br from-gold/[0.09] via-panel to-panel p-8 sm:p-12">
+            <div className="brand-gradient absolute inset-x-0 top-0 h-[3px]" />
+            <div className="flex flex-wrap items-start justify-between gap-8">
+              <div className="max-w-xl">
+                <Chip color="#FAD103">Now recruiting</Chip>
+                <h2 className="mt-4 font-display text-3xl font-bold leading-tight text-white sm:text-4xl">
+                  {open.length} funded {open.length === 1 ? "position" : "positions"} in Gothenburg
+                </h2>
+                <p className="mt-4 text-[16px] leading-relaxed text-neutral-300">
+                  We are recruiting {open.map((p) => p.kind.toLowerCase()).join(" and ")} researchers
+                  to work on thermal sensitivity across the life cycle. Applications close on{" "}
+                  <span className="font-semibold text-gold">{open[0].deadline}</span>.
+                </p>
+                <div className="mt-7">
+                  <GradientButton to="/opportunities">
+                    See the positions <ArrowRight />
+                  </GradientButton>
+                </div>
+              </div>
+
+              <ul className="w-full max-w-sm space-y-3">
+                {open.map((p) => (
+                  <li key={p.title} className="rounded-xl border border-white/10 bg-ink/60 p-4">
+                    <div className="flex items-center justify-between gap-3">
+                      <span className="font-display text-[15px] font-semibold text-white">
+                        {p.kind}
+                      </span>
+                      <span className="text-xs text-neutral-500">{p.duration}</span>
+                    </div>
+                    <p className="mt-1.5 text-sm text-neutral-400">{p.location}</p>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          </div>
+        </Reveal>
+      </Container>
+    </section>
+  );
+}
+
+/* ------------------------------------------------------------------ news */
+
+const TAG_COLOUR: Record<string, string> = {
+  Paper: "#02B8A6",
+  Position: "#FAD103",
+  Talk: "#FA6A03",
+  Award: "#B80502",
+  Media: "#B55EA8",
+  Lab: "#FAD103",
+  Network: "#02B8A6",
+};
+
+function LatestNews() {
+  const items = [...NEWS].sort((a, b) => b.date.localeCompare(a.date)).slice(0, 3);
+
+  return (
+    <section className="py-20">
+      <Container>
+        <Reveal>
+          <div className="flex flex-wrap items-end justify-between gap-6">
+            <SectionHeading eyebrow="News" title="Latest from the group" />
+            <TextLink to="/news" color="#02B8A6">
+              All news
+            </TextLink>
+          </div>
+        </Reveal>
+
+        <div className="mt-12 grid gap-5 md:grid-cols-3">
+          {items.map((n, i) => (
+            <Reveal key={n.title} delay={i * 0.07}>
+              <article className="card group flex h-full flex-col overflow-hidden">
+                {n.image && (
+                  <div className="h-36 overflow-hidden">
+                    <img
+                      src={n.image}
+                      alt=""
+                      loading="lazy"
+                      className="h-full w-full object-cover opacity-70 transition duration-700 group-hover:scale-105 group-hover:opacity-100"
+                    />
+                  </div>
+                )}
+                <div className="flex flex-1 flex-col p-5">
+                  <div className="flex items-center gap-3">
+                    <Chip color={TAG_COLOUR[n.tag] ?? "#FAD103"}>{n.tag}</Chip>
+                    <time className="text-xs text-neutral-500">
+                      {new Date(n.date).toLocaleDateString("en-GB", {
+                        day: "numeric",
+                        month: "short",
+                        year: "numeric",
+                      })}
+                    </time>
+                  </div>
+                  <h3 className="mt-3 font-display text-[17px] font-semibold leading-snug text-white">
+                    {n.title}
+                  </h3>
+                  <p className="mt-2 flex-1 text-sm leading-relaxed text-neutral-400">{n.body}</p>
+                </div>
+              </article>
+            </Reveal>
+          ))}
+        </div>
+      </Container>
+    </section>
+  );
+}
+
+/* ------------------------------------------------------------------ page */
+
+export default function Home() {
+  return (
+    <>
+      <Hero />
+      <Mission />
+      <Themes />
+      <Numbers />
+      <OpenPositions />
+      <LatestNews />
+    </>
+  );
+}

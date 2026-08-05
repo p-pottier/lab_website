@@ -1,0 +1,71 @@
+{
+ "updated": "2026-08-05",
+ "source": "OpenAlex",
+ "orcid": "0000-0003-2106-6597",
+ "citations": 1635,
+ "hIndex": 22,
+ "i10Index": 28,
+ "works": 68,
+ "articles": 34,
+ "preprints": 18,
+ "software": 4,
+ "firstAuthor": 19,
+ "coAuthors": 587,
+ "countries": 51,
+ "citationsByYear": [
+  {
+   "year": 2020,
+   "cited_by_count": 8
+  },
+  {
+   "year": 2021,
+   "cited_by_count": 9
+  },
+  {
+   "year": 2022,
+   "cited_by_count": 51
+  },
+  {
+   "year": 2023,
+   "cited_by_count": 228
+  },
+  {
+   "year": 2024,
+   "cited_by_count": 410
+  },
+  {
+   "year": 2025,
+   "cited_by_count": 549
+  },
+  {
+   "year": 2026,
+   "cited_by_count": 382
+  }
+ ],
+ "worksByYear": [
+  {
+   "year": 2021,
+   "works": 2
+  },
+  {
+   "year": 2022,
+   "works": 14
+  },
+  {
+   "year": 2023,
+   "works": 16
+  },
+  {
+   "year": 2024,
+   "works": 9
+  },
+  {
+   "year": 2025,
+   "works": 16
+  },
+  {
+   "year": 2026,
+   "works": 9
+  }
+ ]
+}

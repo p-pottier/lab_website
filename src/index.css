@@ -1,0 +1,137 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --gold: #fad103;
+    --cyan: #02b8a6;
+    --ember: #fa6a03;
+    --crimson: #b80502;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    /* the sticky header must never cover an anchor target */
+    scroll-padding-top: 90px;
+  }
+
+  html,
+  body,
+  #root {
+    background: #0a0a0a;
+    color: #f2f2f2;
+    min-height: 100%;
+  }
+
+  body {
+    font-family: Inter, system-ui, -apple-system, "Segoe UI", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
+  }
+
+  h1,
+  h2,
+  h3,
+  .font-display {
+    font-family: "Space Grotesk", Inter, system-ui, sans-serif;
+    letter-spacing: -0.02em;
+  }
+
+  ::selection {
+    background: var(--gold);
+    color: #0a0a0a;
+  }
+
+  /* Focus ring that stays visible on a black background */
+  :focus-visible {
+    outline: 2px solid var(--gold);
+    outline-offset: 3px;
+  }
+
+  ::-webkit-scrollbar {
+    width: 11px;
+    height: 11px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #0a0a0a;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #2e2e2e;
+    border-radius: 99px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: var(--gold);
+  }
+}
+
+@layer components {
+  /* The four-stop brand ramp used across TEA, reused here for rules and pills. */
+  .brand-gradient {
+    background-image: linear-gradient(
+      90deg,
+      #02b8a6 0%,
+      #fad103 33.33%,
+      #fa6a03 66.66%,
+      #b80502 100%
+    );
+  }
+
+  .brand-text {
+    background-image: linear-gradient(90deg, #fad103 0%, #fa6a03 55%, #02b8a6 100%);
+    background-size: 200% auto;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+
+  /* Card surface: near-black with a hairline edge that warms on hover. */
+  .card {
+    @apply relative rounded-2xl border border-edge bg-panel/70 transition duration-300;
+  }
+  .card:hover {
+    @apply border-gold/50 bg-panel;
+  }
+
+  /* Underline that grows from the left, used by the nav and inline links. */
+  .link-underline {
+    position: relative;
+  }
+  .link-underline::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+    height: 2px;
+    width: 100%;
+    background: var(--gold);
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.32s cubic-bezier(0.22, 1, 0.36, 1);
+  }
+  .link-underline:hover::after,
+  .link-underline[data-active="true"]::after {
+    transform: scaleX(1);
+  }
+
+  .prose-dark p {
+    @apply text-[17px] leading-[1.75] text-neutral-300;
+  }
+  .prose-dark p + p {
+    @apply mt-4;
+  }
+  .prose-dark a {
+    @apply text-gold underline decoration-gold/40 underline-offset-4 transition hover:decoration-gold;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

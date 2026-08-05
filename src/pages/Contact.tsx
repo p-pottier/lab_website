@@ -1,0 +1,121 @@
+import { LINKS, SITE } from "../content/site";
+import { Icon } from "../components/Icons";
+import { Container, GradientButton, PageHero, Reveal, SectionHeading } from "../components/ui";
+import { ArrowRight } from "../components/Icons";
+
+export default function Contact() {
+  return (
+    <>
+      <PageHero
+        eyebrow="Contact"
+        title="Get in touch"
+        lead="New collaborations, prospective students, journalists and anyone curious about the work: all welcome."
+        image="/images/research-plasticity.jpg"
+        height="h-[40vh] min-h-[280px]"
+      />
+
+      <Container className="py-16">
+        <div className="grid gap-10 lg:grid-cols-[1.1fr_1fr]">
+          <Reveal>
+            <div>
+              <SectionHeading title="Patrice Pottier" lead="Principal Investigator, PEACE Lab" />
+
+              <dl className="mt-8 space-y-6">
+                <div>
+                  <dt className="text-xs font-semibold uppercase tracking-[0.18em] text-neutral-500">
+                    Email
+                  </dt>
+                  <dd className="mt-1.5">
+                    <a
+                      href={`mailto:${SITE.email}`}
+                      className="text-lg font-medium text-gold transition hover:text-white"
+                    >
+                      {SITE.email}
+                    </a>
+                  </dd>
+                </div>
+
+                <div>
+                  <dt className="text-xs font-semibold uppercase tracking-[0.18em] text-neutral-500">
+                    Phone
+                  </dt>
+                  <dd className="mt-1.5 text-[16px] text-neutral-300">{SITE.phone}</dd>
+                </div>
+
+                <div>
+                  <dt className="text-xs font-semibold uppercase tracking-[0.18em] text-neutral-500">
+                    Address
+                  </dt>
+                  <dd className="mt-1.5 space-y-0.5 text-[16px] leading-relaxed text-neutral-300">
+                    {SITE.address.map((line) => (
+                      <div key={line}>{line}</div>
+                    ))}
+                  </dd>
+                </div>
+              </dl>
+
+              <div className="mt-9">
+                <GradientButton href={`mailto:${SITE.email}`}>
+                  Write to us <ArrowRight />
+                </GradientButton>
+              </div>
+            </div>
+          </Reveal>
+
+          <Reveal delay={0.1}>
+            <div>
+              <h2 className="font-display text-xl font-semibold text-white">Elsewhere on the web</h2>
+              <div className="mt-5 grid gap-3 sm:grid-cols-2">
+                {LINKS.map((l) => (
+                  <a
+                    key={l.href}
+                    href={l.href}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="card group flex items-center gap-4 p-4"
+                  >
+                    <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl border border-white/10 bg-ink text-neutral-400 transition group-hover:border-gold/50 group-hover:text-gold">
+                      <Icon name={l.icon} size={18} />
+                    </span>
+                    <span className="text-sm font-medium text-neutral-200 transition group-hover:text-white">
+                      {l.label}
+                    </span>
+                  </a>
+                ))}
+              </div>
+
+              <div className="card mt-6 p-6">
+                <h3 className="font-display text-lg font-semibold text-white">
+                  Prospective students and postdocs
+                </h3>
+                <p className="mt-2 text-sm leading-relaxed text-neutral-400">
+                  Read the Opportunities page first, then email me a short note about what interests
+                  you. Two funded positions are open, and I am glad to support fellowship
+                  applications from people who want to bring their own funding.
+                </p>
+              </div>
+
+              <div className="card mt-4 p-6">
+                <h3 className="font-display text-lg font-semibold text-white">
+                  Joining the Thermal Ecology Alliance
+                </h3>
+                <p className="mt-2 text-sm leading-relaxed text-neutral-400">
+                  The Alliance is open to any group working on how temperature shapes life. Sign up
+                  through the network's own site.
+                </p>
+                <a
+                  href="https://www.thermalecologyalliance.org/"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="mt-4 inline-block text-sm font-semibold text-cyan transition hover:text-white"
+                >
+                  thermalecologyalliance.org →
+                </a>
+              </div>
+            </div>
+          </Reveal>
+        </div>
+      </Container>
+    </>
+  );
+}

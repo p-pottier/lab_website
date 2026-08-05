@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <rect width="64" height="64" rx="14" fill="#0A0A0A"/>
+  <path d="M4 56h56" stroke="url(#g)" stroke-width="5" stroke-linecap="round"/>
+  <text x="32" y="42" font-family="Space Grotesk, Inter, sans-serif" font-size="34" font-weight="700"
+        fill="#FAD103" text-anchor="middle">P</text>
+  <defs>
+    <linearGradient id="g" x1="0" x2="1">
+      <stop offset="0%" stop-color="#02B8A6"/>
+      <stop offset="33%" stop-color="#FAD103"/>
+      <stop offset="66%" stop-color="#FA6A03"/>
+      <stop offset="100%" stop-color="#B80502"/>
+    </linearGradient>
+  </defs>
+</svg>
