@@ -1,4 +1,4 @@
-import { LINKS, SITE } from "../content/site";
+import { LINKS, PI, SITE } from "../content/site";
 import { Icon } from "../components/Icons";
 import { Container, GradientButton, PageHero, Reveal, SectionHeading } from "../components/ui";
 import { ArrowRight } from "../components/Icons";
@@ -18,6 +18,11 @@ export default function Contact() {
         <div className="grid gap-10 lg:grid-cols-[1.1fr_1fr]">
           <Reveal>
             <div>
+              <img
+                src={PI.photo}
+                alt="Patrice Pottier"
+                className="mb-7 h-36 w-36 rounded-2xl border border-white/10 object-cover"
+              />
               <SectionHeading title="Patrice Pottier" lead="Principal Investigator, PEACE Lab" />
 
               <dl className="mt-8 space-y-6">

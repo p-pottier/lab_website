@@ -217,31 +217,37 @@ export default function People() {
               />
             </Reveal>
 
-            {MAIN_COLLABORATORS.length > 0 ? (
-              <div className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-                {MAIN_COLLABORATORS.map((c, i) => (
-                  <Reveal key={c.name} delay={i * 0.05}>
-                    <div className="card flex h-full gap-4 p-5">
+            <div className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+              {MAIN_COLLABORATORS.map((c, i) => {
+                const link = c.href ?? c.orcid;
+                const initials = c.name
+                  .replace(/[^A-Za-zÀ-ɏ\- ]/g, "")
+                  .split(/[\s-]+/)
+                  .filter(Boolean)
+                  .map((w) => w[0])
+                  .filter((ch) => ch === ch.toUpperCase())
+                  .slice(0, 2)
+                  .join("");
+
+                return (
+                  <Reveal key={c.name} delay={Math.min(i, 8) * 0.04}>
+                    <div className="card flex h-full items-start gap-4 p-5">
                       {c.photo ? (
                         <img
                           src={c.photo}
                           alt={c.name}
-                          className="h-16 w-16 shrink-0 rounded-xl border border-white/10 object-cover"
+                          className="h-14 w-14 shrink-0 rounded-xl border border-white/10 object-cover"
                         />
                       ) : (
-                        <div className="flex h-16 w-16 shrink-0 items-center justify-center rounded-xl border border-cyan/25 bg-gradient-to-br from-cyan/15 to-gold/10 font-display text-lg font-bold text-cyan">
-                          {c.name
-                            .split(" ")
-                            .map((w) => w[0])
-                            .slice(0, 2)
-                            .join("")}
+                        <div className="flex h-14 w-14 shrink-0 items-center justify-center rounded-xl border border-cyan/25 bg-gradient-to-br from-cyan/15 to-gold/10 font-display text-base font-bold text-cyan">
+                          {initials}
                         </div>
                       )}
                       <div className="min-w-0">
-                        <h3 className="font-display text-[16px] font-semibold text-white">
-                          {c.href ? (
+                        <h3 className="font-display text-[15px] font-semibold leading-snug text-white">
+                          {link ? (
                             <a
-                              href={c.href}
+                              href={link}
                               target="_blank"
                               rel="noreferrer"
                               className="transition hover:text-gold"
@@ -252,29 +258,22 @@ export default function People() {
                             c.name
                           )}
                         </h3>
-                        {c.role && <p className="mt-0.5 text-sm text-cyan">{c.role}</p>}
-                        <p className="mt-0.5 text-sm leading-snug text-neutral-500">
-                          {c.affiliation}
-                        </p>
+                        <p className="mt-1 text-sm leading-snug text-neutral-500">{c.affiliation}</p>
                         {c.blurb && (
                           <p className="mt-2 text-sm leading-relaxed text-neutral-400">{c.blurb}</p>
                         )}
                       </div>
                     </div>
                   </Reveal>
-                ))}
-              </div>
-            ) : (
-              <Reveal>
-                <div className="mt-8 rounded-2xl border border-dashed border-neutral-700 p-8 text-sm leading-relaxed text-neutral-500">
-                  Nobody listed yet. Add entries to{" "}
-                  <code className="rounded bg-ink px-1.5 py-0.5 text-cyan">MAIN_COLLABORATORS</code>{" "}
-                  in <code className="rounded bg-ink px-1.5 py-0.5 text-cyan">src/content/site.ts</code>
-                  , with a name, affiliation and optionally a photograph in{" "}
-                  <code className="rounded bg-ink px-1.5 py-0.5 text-cyan">public/images/</code>.
-                </div>
-              </Reveal>
-            )}
+                );
+              })}
+            </div>
+
+            <Reveal>
+              <p className="mt-6 text-sm text-neutral-500">
+                And many more. The map above holds every co-author on record.
+              </p>
+            </Reveal>
           </div>
         </section>
       </Container>

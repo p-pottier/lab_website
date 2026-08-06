@@ -1,4 +1,4 @@
-import { MEDIA, OUTREACH, POSTERS } from "../content/site";
+import { MEDIA, OUTREACH, OUTREACH_PHOTO, POSTERS } from "../content/site";
 import { Container, PageHero, Reveal, SectionHeading, TextLink } from "../components/ui";
 import { ArrowRight } from "../components/Icons";
 
@@ -13,16 +13,35 @@ export default function Outreach() {
       />
 
       <Container className="py-16">
-        <Reveal>
-          <div className="prose-dark max-w-3xl">
-            <p>
-              Much of what limits thermal ecology is not a missing experiment. The experiments
-              already exist, but they are scattered, measured in incompatible ways, and drawn from a
-              narrow slice of the planet. Fixing that is community work, and it takes up a
-              substantial part of what this group does.
-            </p>
-          </div>
-        </Reveal>
+        <div className="grid items-center gap-10 lg:grid-cols-[1.05fr_1fr]">
+          <Reveal>
+            <div className="prose-dark">
+              <p>
+                Much of what limits thermal ecology is not a missing experiment. The experiments
+                already exist, but they are scattered, measured in incompatible ways, and drawn from
+                a narrow slice of the planet. Fixing that is community work, and it takes up a
+                substantial part of what this group does.
+              </p>
+              <p>
+                The rest is telling people what we found. Research that never leaves the journals it
+                was published in rarely changes anything.
+              </p>
+            </div>
+          </Reveal>
+
+          <Reveal delay={0.12}>
+            <figure className="overflow-hidden rounded-2xl border border-edge">
+              <img
+                src={OUTREACH_PHOTO.src}
+                alt={OUTREACH_PHOTO.caption}
+                className="w-full object-cover"
+              />
+              <figcaption className="bg-panel px-5 py-3 text-sm text-neutral-400">
+                {OUTREACH_PHOTO.caption}
+              </figcaption>
+            </figure>
+          </Reveal>
+        </div>
 
         <div className="mt-12 grid gap-5 lg:grid-cols-2">
           {OUTREACH.map((o, i) => (

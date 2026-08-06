@@ -219,6 +219,13 @@ export const CURRENT_MEMBERS: Person[] = [
     blurb: "",
     links: [],
   },
+  {
+    name: "Xinyi Liu",
+    role: "PhD student",
+    affiliation: "Australian National University",
+    blurb: "Co-supervised with Daniel Noble.",
+    links: [],
+  },
 ];
 
 export const PAST_MEMBERS: Person[] = [
@@ -239,23 +246,116 @@ export const PAST_MEMBERS: Person[] = [
  */
 export type Collaborator = {
   name: string;
-  role?: string;
   affiliation: string;
+  orcid?: string;
+  /** Optional portrait. Drop the file in public/images/ and point here. */
   photo?: string;
+  /** Personal or laboratory page, used in preference to the ORCID link. */
   href?: string;
   blurb?: string;
 };
 
+/**
+ * Affiliations and ORCID identifiers below were taken from the most recent
+ * co-authored paper on record, so they may lag a recent move.
+ */
 export const MAIN_COLLABORATORS: Collaborator[] = [
-  // Example of the shape; replace with the people you want highlighted.
-  // {
-  //   name: "Name Surname",
-  //   role: "Professor",
-  //   affiliation: "University",
-  //   photo: "/images/collaborator-name.jpg",
-  //   href: "https://example.org",
-  //   blurb: "One line on what we work on together.",
-  // },
+  {
+    name: "Shinichi Nakagawa",
+    affiliation: "Okinawa Institute of Science and Technology",
+    orcid: "https://orcid.org/0000-0002-7765-5182",
+  },
+  {
+    name: "Szymon M. Drobniak",
+    affiliation: "Jagiellonian University",
+    orcid: "https://orcid.org/0000-0001-8101-6247",
+  },
+  {
+    name: "Malgorzata Lagisz",
+    affiliation: "UNSW Sydney",
+    orcid: "https://orcid.org/0000-0002-3993-6127",
+  },
+  {
+    name: "Daniel W. A. Noble",
+    affiliation: "Australian National University",
+    orcid: "https://orcid.org/0000-0001-9460-8743",
+  },
+  {
+    name: "Fredrik Jutfelt",
+    affiliation: "University of Gothenburg",
+    orcid: "https://orcid.org/0000-0001-9838-3991",
+  },
+  {
+    name: "Nicholas C. Wu",
+    affiliation: "Murdoch University",
+    orcid: "https://orcid.org/0000-0002-7130-1279",
+    href: "https://www.nicholaswulab.com/",
+  },
+  {
+    name: "Lisa E. Schwanz",
+    affiliation: "UNSW Sydney",
+    orcid: "https://orcid.org/0000-0001-5864-7112",
+  },
+  {
+    name: "Michael Kearney",
+    affiliation: "University of Melbourne",
+    orcid: "https://orcid.org/0000-0002-3349-8744",
+  },
+  {
+    name: "Frank Seebacher",
+    affiliation: "University of Sydney",
+    orcid: "https://orcid.org/0000-0002-2281-9311",
+  },
+  {
+    name: "Katharina Ruthsatz",
+    affiliation: "Doñana Biological Station",
+    orcid: "https://orcid.org/0000-0002-3273-2826",
+  },
+  {
+    name: "Tatsuya Amano",
+    affiliation: "University of Queensland",
+    orcid: "https://orcid.org/0000-0001-6576-3410",
+  },
+  {
+    name: "Alex R. Gunderson",
+    affiliation: "Tulane University",
+    orcid: "https://orcid.org/0000-0002-0120-4246",
+  },
+  {
+    name: "Yefeng Yang",
+    affiliation: "UNSW Sydney",
+    orcid: "https://orcid.org/0000-0002-8610-4016",
+  },
+  {
+    name: "Kyle Morrison",
+    affiliation: "UNSW Sydney",
+    orcid: "https://orcid.org/0000-0002-3700-2398",
+  },
+  {
+    name: "April Robin Martinig",
+    affiliation: "UNSW Sydney",
+    orcid: "https://orcid.org/0000-0002-0972-6903",
+  },
+  {
+    name: "Zara-Louise Cowan",
+    affiliation: "University of Gothenburg",
+    orcid: "https://orcid.org/0000-0002-3862-7111",
+  },
+  {
+    name: "Pietro Pollo",
+    affiliation: "UNSW Sydney",
+    orcid: "https://orcid.org/0000-0001-6555-5400",
+  },
+  {
+    name: "Dylan Gomes",
+    affiliation: "NOAA National Marine Fisheries Service",
+    orcid: "https://orcid.org/0000-0002-2642-3728",
+  },
+  {
+    name: "John S. Terblanche",
+    affiliation: "Stellenbosch University",
+    orcid: "https://orcid.org/0000-0001-9665-9405",
+  },
 ];
 
 /* -------------------------------------------------------- publications -- */
@@ -592,20 +692,34 @@ export type Poster = {
 
 export const POSTERS: Poster[] = [
   {
+    title: "Join us: a distributed experiment on fish embryonic thermal tolerance",
+    event: "SEB Conference, Antwerp",
+    year: 2025,
+    image: "/posters/poster-seb2025.jpg",
+    pdf: "/posters/poster-seb2025.pdf",
+    note: "The recruitment call for the Thermal Ecology Alliance experiment now running.",
+  },
+  {
+    title: "Climate vulnerability of the world's amphibians: finding the missing pieces of an ecological puzzle",
+    event: "SEB Conference, Montpellier",
+    year: 2022,
+    image: "/posters/poster-seb2022.jpg",
+    pdf: "/posters/poster-seb2022.pdf",
+    note: "Published in Nature.",
+  },
+  {
     title:
       "Developmental plasticity in thermal tolerance: ontogenetic variation, persistence, and future directions",
-    event: "ESEB Congress",
+    event: "ESEB Congress, Prague",
     year: 2022,
     image: "/posters/poster-eseb2022.jpg",
     pdf: "/posters/poster-eseb2022.pdf",
     note: "Published in Ecology Letters.",
   },
-  {
-    title: "Climate vulnerability of the world's amphibians: finding the missing pieces of an ecological puzzle",
-    event: "SEB Annual Conference",
-    year: 2021,
-    image: "/posters/poster-seb2021.jpg",
-    pdf: "/posters/poster-seb2021.pdf",
-    note: "An updated version followed at SEB 2022. Published in Nature.",
-  },
 ];
+
+/** A single photograph used at the top of the Outreach page. */
+export const OUTREACH_PHOTO = {
+  src: "/images/seb2024-young-scientist-award.jpg",
+  caption: "Presenting for the Young Scientist Award at the SEB 2024 conference.",
+};

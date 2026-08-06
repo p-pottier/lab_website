@@ -2,7 +2,7 @@ import { motion, useScroll, useTransform } from "framer-motion";
 import { useRef } from "react";
 import { Link } from "react-router-dom";
 import { NEWS, POSITIONS, SITE, THEMES } from "../content/site";
-import { useMetrics } from "../lib/useData";
+import { useCollaborators } from "../lib/useData";
 import {
   Chip,
   Container,
@@ -199,7 +199,6 @@ function Themes() {
                     className="h-full w-full object-cover opacity-75 transition duration-700 group-hover:scale-105 group-hover:opacity-100"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-panel via-panel/25 to-transparent" />
-                  <span className="absolute left-4 top-4 text-2xl">{t.emoji}</span>
                 </div>
                 <div className="p-5">
                   <h3
@@ -230,30 +229,32 @@ function Themes() {
 
 /* --------------------------------------------------------------- numbers */
 
-function Numbers() {
-  const metrics = useMetrics();
-  if (!metrics) return null;
+function Network() {
+  const collab = useCollaborators();
+  if (!collab) return null;
 
   return (
     <section className="py-20">
       <Container>
         <Reveal>
           <SectionHeading
-            eyebrow="By the numbers"
-            title="A global evidence base"
-            lead="These figures refresh nightly from OpenAlex. Nothing here is typed by hand."
+            eyebrow="Collaboration"
+            title="A global collaborative network"
+            lead="Almost nothing here was done alone. These figures come from every co-authored paper on record, and refresh themselves."
           />
         </Reveal>
         <Reveal delay={0.1}>
-          <div className="mt-10 grid grid-cols-2 gap-4 lg:grid-cols-4">
-            <StatTile value={metrics.works} label="Publications" color="#FAD103" />
-            <StatTile
-              value={metrics.citations.toLocaleString("en-GB")}
-              label="Citations"
-              color="#FA6A03"
-            />
-            <StatTile value={metrics.coAuthors} label="Co-authors" color="#02B8A6" />
-            <StatTile value={metrics.countries} label="Countries" color="#B80502" />
+          <div className="mt-10 grid grid-cols-1 gap-4 sm:grid-cols-3">
+            <StatTile value={collab.total} label="Co-authors" color="#02B8A6" />
+            <StatTile value={collab.institutions} label="Institutions" color="#FAD103" />
+            <StatTile value={collab.countries} label="Countries" color="#FA6A03" />
+          </div>
+        </Reveal>
+        <Reveal delay={0.2}>
+          <div className="mt-6">
+            <TextLink to="/people" color="#02B8A6">
+              See the network
+            </TextLink>
           </div>
         </Reveal>
       </Container>
@@ -386,7 +387,7 @@ export default function Home() {
       <Hero />
       <Mission />
       <Themes />
-      <Numbers />
+      <Network />
       <OpenPositions />
       <LatestNews />
     </>
