@@ -84,6 +84,9 @@ function PubLinks({ pub }: { pub: Publication }) {
 /** Solid rules, cycling through the palette, rather than a repeated gradient. */
 const HIGHLIGHT_COLOURS = ["#02B8A6", "#FAD103", "#FA6A03"];
 
+/** Every box takes the same orange contour; only the rule and figure cycle. */
+const HIGHLIGHT_BORDER = "#FA6A03";
+
 function Highlight({ pub, index }: { pub: Publication; index: number }) {
   const colour = HIGHLIGHT_COLOURS[index % HIGHLIGHT_COLOURS.length];
 
@@ -94,7 +97,7 @@ function Highlight({ pub, index }: { pub: Publication; index: number }) {
       viewport={{ once: true }}
       transition={{ duration: 0.55, delay: index * 0.08 }}
       className="card relative flex h-full flex-col overflow-hidden p-6"
-      style={{ borderColor: `${colour}40` }}
+      style={{ borderColor: `${HIGHLIGHT_BORDER}59` }}
     >
       <div className="absolute inset-x-0 top-0 h-[3px]" style={{ backgroundColor: colour }} />
 
