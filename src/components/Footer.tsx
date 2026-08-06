@@ -1,6 +1,7 @@
 import { LINKS, SITE, type IconName } from "../content/site";
 import { Icon } from "./Icons";
 import { Acronym } from "./Header";
+import LogoMark from "./LogoMark";
 import { Container } from "./ui";
 
 /**
@@ -57,17 +58,22 @@ export default function Footer() {
         <div className="grid gap-10 md:grid-cols-[1.5fr_1fr_1fr]">
           <div>
             {/* matches the header wordmark exactly */}
-            <div className="flex items-baseline gap-2.5">
-              <span className="brand-text font-display text-2xl font-bold tracking-tight">
-                PEACE
-              </span>
-              <span className="text-[11px] font-medium uppercase tracking-[0.28em] text-cyan">
-                Lab
-              </span>
+            <div className="flex items-center gap-3.5">
+              <LogoMark size={62} />
+              <div>
+                <div className="flex items-baseline gap-2">
+                  <span className="brand-text font-display text-[27px] font-bold tracking-tight">
+                    PEACE
+                  </span>
+                  <span className="font-display text-[25px] font-normal leading-none text-white">
+                    lab
+                  </span>
+                </div>
+                <p className="mt-1 text-[11px] font-medium leading-tight tracking-wide text-white">
+                  <Acronym accent={false} twoLines />
+                </p>
+              </div>
             </div>
-            <p className="mt-2.5 max-w-sm text-[11px] font-medium leading-tight tracking-wide text-white">
-              <Acronym />
-            </p>
 
             <p className="mt-5 text-sm leading-relaxed text-neutral-500">
               {SITE.institution}

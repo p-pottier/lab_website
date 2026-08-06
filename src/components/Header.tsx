@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { Link, NavLink, useLocation } from "react-router-dom";
 import { AnimatePresence, motion } from "framer-motion";
 import { SITE } from "../content/site";
+import LogoMark from "./LogoMark";
 
 /** The wordmark also returns to the home page; this is the visible route to it. */
 const NAV = [
@@ -16,50 +17,63 @@ const NAV = [
 ];
 
 /**
- * The lab name spelled out, with the letters that make up PEACE picked out in
- * gold so the acronym is legible without being explained.
+ * The lab name spelled out. `accent` picks the initials of the five words that
+ * spell PEACE out in gold; the header and footer set it to false and run plain
+ * white, because the logo beside them already carries the colour.
  */
 export function Acronym({
   className = "",
   restClassName = "",
   goldClassName = "text-gold",
+  accent = true,
+  twoLines = false,
 }: {
   className?: string;
   restClassName?: string;
   goldClassName?: string;
+  accent?: boolean;
+  twoLines?: boolean;
 }) {
-  // Only the five words that carry the acronym take a gold initial.
-  const WORDS = [
+  const LINE_ONE = [
     ["P", "lasticity"],
     null,
     ["E", "cological"],
     ["A", "daptations"],
-    null,
-    ["C", "hanging"],
-    ["E", "nvironments"],
   ] as const;
-  const FILLER = ["and", "to"];
-  let fillerIndex = 0;
+  const LINE_TWO = [null, ["C", "hanging"], ["E", "nvironments"]] as const;
 
-  return (
-    <span className={className}>
-      {WORDS.map((w, i) => {
-        if (w === null) {
-          const word = FILLER[fillerIndex++];
-          return (
-            <span key={i} className={restClassName}>
-              {word}{" "}
-            </span>
-          );
-        }
+  const render = (words: readonly (readonly [string, string] | null)[], filler: string[]) => {
+    let fillerIndex = 0;
+    return words.map((w, i) => {
+      if (w === null) {
         return (
-          <span key={i}>
-            <span className={goldClassName}>{w[0]}</span>
-            <span className={restClassName}>{w[1]}</span>
-            {i < WORDS.length - 1 ? <span className={restClassName}> </span> : null}
+          <span key={i} className={restClassName}>
+            {filler[fillerIndex++]}{" "}
           </span>
         );
-      })}
+      }
+      return (
+        <span key={i}>
+          <span className={accent ? goldClassName : restClassName}>{w[0]}</span>
+          <span className={restClassName}>{w[1]}</span>
+          {i < words.length - 1 ? <span className={restClassName}> </span> : null}
+        </span>
+      );
+    });
+  };
+
+  if (!twoLines) {
+    return (
+      <span className={className}>
+        {render([...LINE_ONE, ...LINE_TWO], ["and", "to"])}
+      </span>
+    );
+  }
+
+  return (
+    <span className={`block ${className}`}>
+      <span className="block">{render(LINE_ONE, ["and"])}</span>
+      <span className="block">{render(LINE_TWO, ["to"])}</span>
     </span>
   );
 }
@@ -103,22 +117,26 @@ export default function Header() {
             : "border-b border-transparent bg-gradient-to-b from-ink/80 to-transparent"
         }`}
       >
-        <div className="mx-auto flex h-[90px] w-full max-w-content items-center justify-between px-5 sm:px-8">
+        <div className="mx-auto flex h-[96px] w-full max-w-content items-center justify-between px-5 sm:px-8">
           {/* Colours stay put on hover; only the weight changes. */}
-          <Link to="/" className="group block" aria-label="PEACE Lab, home">
-            <span className="flex items-baseline gap-2.5">
-              <span className="brand-text font-display text-[26px] font-bold leading-none tracking-tight">
-                PEACE
+          <Link to="/" className="group flex items-center gap-3.5" aria-label="PEACE lab, home">
+            <LogoMark size={62} priority />
+            <span className="block">
+              <span className="flex items-baseline gap-2">
+                <span className="brand-text font-display text-[27px] font-bold leading-none tracking-tight">
+                  PEACE
+                </span>
+                <span className="font-display text-[25px] font-normal leading-none text-white transition-all duration-200 group-hover:font-medium">
+                  lab
+                </span>
               </span>
-              <span className="text-[11px] font-medium uppercase tracking-[0.28em] text-cyan transition-all duration-200 group-hover:font-bold">
-                Lab
+              <span className="mt-1 hidden text-[11px] leading-tight tracking-wide text-white transition-all duration-200 sm:block">
+                <Acronym
+                  accent={false}
+                  twoLines
+                  restClassName="font-medium group-hover:font-semibold"
+                />
               </span>
-            </span>
-            <span className="mt-1.5 hidden max-w-[34rem] text-[11px] leading-tight tracking-wide text-white transition-all duration-200 sm:block">
-              <Acronym
-                restClassName="font-medium group-hover:font-semibold"
-                goldClassName="text-gold font-semibold group-hover:font-bold"
-              />
             </span>
           </Link>
 

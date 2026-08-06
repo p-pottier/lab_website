@@ -14,7 +14,10 @@ module.exports = {
       },
       fontFamily: {
         sans: ["Inter", "system-ui", "-apple-system", "Segoe UI", "sans-serif"],
-        display: ["Space Grotesk", "Inter", "system-ui", "sans-serif"],
+        // Congenial is served through Adobe Fonts; see the note in index.html.
+        // Until that kit is added the browser falls through to Space Grotesk,
+        // so nothing looks broken in the meantime.
+        display: ["congenial", "Space Grotesk", "Inter", "system-ui", "sans-serif"],
       },
       maxWidth: {
         content: "1180px",

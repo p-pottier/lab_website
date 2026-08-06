@@ -15,6 +15,7 @@ import {
 } from "../components/ui";
 import { ArrowRight } from "../components/Icons";
 import { Acronym } from "../components/Header";
+import LogoMark from "../components/LogoMark";
 
 /* ------------------------------------------------------------------ hero */
 
@@ -46,8 +47,17 @@ function Hero() {
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
-          className="max-w-3xl"
+          className="flex max-w-4xl flex-col items-start gap-8 lg:flex-row lg:items-center lg:gap-12"
         >
+          {/* Pulled left of the container on wide screens so the mark sits over
+              the photograph rather than inside the text column. */}
+          <LogoMark
+            size={300}
+            priority
+            className="-ml-2 w-[190px] sm:w-[240px] lg:-ml-32 lg:w-[300px] xl:-ml-44"
+          />
+
+          <div className="max-w-2xl">
           <div className="mb-5 flex items-center gap-3">
             <span className="h-px w-10 bg-gold" />
             <span className="text-xs font-semibold uppercase tracking-[0.24em] text-gold">
@@ -56,7 +66,8 @@ function Hero() {
           </div>
 
           <h1 className="font-display text-[3.1rem] font-bold leading-[0.98] text-white sm:text-7xl md:text-[5.3rem]">
-            The <span className="brand-title">PEACE</span> Lab
+            The <span className="brand-title">PEACE</span>{" "}
+            <span className="font-normal">lab</span>
           </h1>
 
           <p className="mt-5 max-w-2xl font-display text-xl font-medium leading-snug sm:text-2xl">
@@ -74,6 +85,7 @@ function Hero() {
               Our research <ArrowRight />
             </GradientButton>
             <GhostButton to="/opportunities">Join the group</GhostButton>
+          </div>
           </div>
         </motion.div>
       </Container>
