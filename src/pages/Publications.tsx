@@ -42,7 +42,11 @@ function Authors({ pub, max = 12 }: { pub: Publication; max?: number }) {
 
 /* ---------------------------------------------------------------- links */
 
-function PubLinks({ pub }: { pub: Publication }) {
+/**
+ * `showPreprint` is off for the pinned papers. They are all journal articles,
+ * and a link labelled "Preprint" beside them reads as though they are not.
+ */
+function PubLinks({ pub, showPreprint = true }: { pub: Publication; showPreprint?: boolean }) {
   return (
     <div className="mt-4 flex flex-wrap items-center gap-x-4 gap-y-2 text-sm">
       {pub.url && (
@@ -65,7 +69,7 @@ function PubLinks({ pub }: { pub: Publication }) {
           Full text
         </a>
       )}
-      {pub.preprintUrl && (
+      {showPreprint && pub.preprintUrl && (
         <a
           href={pub.preprintUrl}
           target="_blank"
@@ -97,7 +101,7 @@ function Highlight({ pub, index }: { pub: Publication; index: number }) {
       viewport={{ once: true }}
       transition={{ duration: 0.55, delay: index * 0.08 }}
       className="card relative flex h-full flex-col overflow-hidden p-6"
-      style={{ borderColor: `${HIGHLIGHT_BORDER}59` }}
+      style={{ borderColor: HIGHLIGHT_BORDER, borderWidth: 1.5 }}
     >
       <div className="absolute inset-x-0 top-0 h-[3px]" style={{ backgroundColor: colour }} />
 
@@ -124,7 +128,7 @@ function Highlight({ pub, index }: { pub: Publication; index: number }) {
         <Authors pub={pub} max={4} />
       </div>
 
-      <PubLinks pub={pub} />
+      <PubLinks pub={pub} showPreprint={false} />
     </motion.article>
   );
 }
