@@ -1,8 +1,8 @@
 /**
  * Everything on the site that is written by hand lives here.
  *
- * Publications, citation counts and the collaborator map are fetched from
- * OpenAlex instead and live in public/data (see scripts/fetch-data.mjs).
+ * Publications and the collaborator map are fetched from ORCID, Crossref and
+ * OpenAlex instead, and live in public/data (see scripts/fetch-data.mjs).
  * To change a person, a news item or a position, edit this file only.
  */
 
@@ -10,12 +10,11 @@ export const SITE = {
   shortName: "PEACE Lab",
   acronym: "PEACE",
   expansion: "Plasticity and Ecological Adaptations to Changing Environments",
-  tagline: "How plasticity and adaptation shape the fate of animals in a warming world.",
+  tagline: "How animals cope with rapidly changing environments, and how well they will cope next.",
   institution: "Department of Biological and Environmental Sciences",
   university: "University of Gothenburg",
   city: "Gothenburg, Sweden",
   email: "patrice.pottier@bioenv.gu.se",
-  phone: "+46 70 297 60 11",
   address: [
     "Department of Biological and Environmental Sciences",
     "University of Gothenburg",
@@ -54,7 +53,7 @@ export const LINKS: LinkItem[] = [
   { label: "Bluesky", href: "https://bsky.app/profile/patricepottier.bsky.social", icon: "bluesky" },
 ];
 
-/** Replace with a hosted PDF, or drop the file in public/ as cv.pdf. */
+/** Drop the file in public/ as cv.pdf, or point this at a hosted copy. */
 export const CV_URL = "/cv.pdf";
 
 /* -------------------------------------------------------------- research */
@@ -71,19 +70,19 @@ export type Theme = {
 
 export const THEMES: Theme[] = [
   {
-    id: "warming",
-    emoji: "🌡️",
-    title: "Vulnerability of ectotherms to global warming",
+    id: "life-stages",
+    emoji: "🐣",
+    title: "Thermal sensitivity across the life cycle",
     lead:
-      "Most of our work asks how much warming animals can take, and where the answer changes. Ectotherms — most fishes, reptiles, amphibians and invertebrates — tie their physiology directly to environmental temperature, which makes them a sharp lens on climate change.",
+      "Embryos, larvae and adults do not share a thermal limit, yet most projections of warming are built on adults alone. We develop methods that put every stage on the same axis, then use them to find the stage that fails first. That stage, not the average, sets the fate of the population.",
     questions: [
-      "How do extreme heat events affect different life stages?",
-      "What are the consequences of extreme heat for species interactions?",
-      "How can we best model heat damage and repair in vulnerability assessments?",
-      "How can we integrate plasticity and adaptation into those assessments?",
-      "Can past responses to climate change predict the future of biodiversity?",
+      "How does thermal sensitivity vary across the life cycle, and why?",
+      "When are the critical windows of sensitivity during development?",
+      "Is the evolution of heat tolerance decoupled across life stages?",
+      "What drives the mechanistic differences in heat tolerance between stages?",
+      "How does life-stage variation change projections of survival and redistribution?",
     ],
-    image: "/images/research-warming.jpg",
+    image: "/images/research-development.jpg",
     accent: "#FA6A03",
   },
   {
@@ -91,44 +90,44 @@ export const THEMES: Theme[] = [
     emoji: "☀️",
     title: "Plasticity and adaptation to changing temperatures",
     lead:
-      "Phenotypic plasticity and genetic adaptation are the two routes by which populations track a changing climate. We quantify what each route buys an organism, and where each one runs out.",
+      "Plasticity and genetic adaptation are the two routes by which populations track a changing climate. Both are routinely invoked as reasons for optimism. We quantify what each route actually buys an organism, and where it runs out.",
     questions: [
       "What explains the variation in plasticity within and across taxa?",
       "To what extent can life-history traits evolve in response to changing environments?",
       "Does plasticity in one trait trade off against plasticity in another?",
-      "What are the consequences of early developmental plasticity later in life?",
+      "How much of the projected impact of warming does plasticity offset?",
     ],
     image: "/images/research-plasticity.jpg",
     accent: "#FAD103",
   },
   {
     id: "reproduction",
-    emoji: "🥚",
+    emoji: "🔥",
     title: "The impacts of temperature on reproduction",
     lead:
-      "Fertility fails at temperatures below those that kill, in many species. Reproduction may therefore set the thermal limit that matters for population persistence, yet we know far less about it than about survival.",
+      "Fertility fails at temperatures well below those that kill. Reproduction may therefore set the thermal limit that decides whether a population persists, yet we know far less about it than about survival.",
     questions: [
       "Do animals recover reproductive function after an extreme heat event?",
       "Which physiological mechanisms cause reproduction to fail before survival?",
       "What explains sex differences in thermal fertility limits?",
-      "What do these limits mean for population fitness under warming?",
+      "What do these limits mean for population growth under warming?",
     ],
     image: "/images/research-reproduction.jpg",
     accent: "#B80502",
   },
   {
     id: "development",
-    emoji: "🐣",
+    emoji: "🥚",
     title: "Developmental responses to environmental stressors",
     lead:
-      "Early-life environments leave a long shadow on later phenotypes. Most projections of warming still focus on adults, or ignore the adaptive and non-adaptive processes that run early in life.",
+      "Early environments leave a long shadow on later phenotypes. Heat rarely arrives alone, however, and an embryo that survives a heatwave may still carry the cost into adulthood. We track those costs forward, and test whether they compound when stressors co-occur.",
     questions: [
       "What are the consequences of early developmental plasticity for later phenotypes?",
       "How does accounting for developmental plasticity change projected population dynamics?",
-      "To what extent do developmental responses to temperature vary across taxa?",
+      "How resilient are early life stages to co-occurring environmental stressors?",
       "Which environmental pressures drive the evolution of developmental plasticity?",
     ],
-    image: "/images/research-development.jpg",
+    image: "/images/frog-moss.jpg",
     accent: "#02B8A6",
   },
   {
@@ -136,7 +135,7 @@ export const THEMES: Theme[] = [
     emoji: "🌍",
     title: "Solving biases in the ecological literature",
     lead:
-      "Taxonomic and geographic biases run through nearly every ecological dataset. They directly limit what we can claim about global patterns, and therefore what we can say about climate change.",
+      "Taxonomic and geographic biases run through nearly every ecological dataset. They limit what we can honestly claim about global patterns, and therefore what we can say about climate change. We measure those biases, then build ways around them.",
     questions: [
       "How does ignoring taxonomic and geographic bias change ecological inference?",
       "Can distributed experiments improve taxonomic and geographic coverage?",
@@ -151,14 +150,30 @@ export const THEMES: Theme[] = [
     emoji: "📚",
     title: "Improving methods for evidence synthesis",
     lead:
-      "Publication rates now outpace our capacity to synthesise them. We build methods, software and workflows that keep comparative analysis and meta-analysis tractable.",
+      "Publication rates now outpace our capacity to synthesise them. We build the methods, software and workflows that keep meta-analysis and comparative analysis tractable as the literature grows.",
     questions: [
       "How can AI tools support evidence synthesis across multiple languages?",
       "Can targeted sampling cut screening effort without compromising inference?",
       "How do we best synthesise and model heterogeneous datasets?",
+      "How do we make synthesised evidence reusable rather than single-use?",
     ],
     image: "/images/research-synthesis.jpg",
     accent: "#FAD103",
+  },
+  {
+    id: "meta-science",
+    emoji: "🔬",
+    title: "Meta-science: studying how research gets done",
+    lead:
+      "The way we do research shapes what we find. We study the practices of our own field, from reporting standards to analytical variation between researchers, and we test which interventions make the evidence more robust.",
+    questions: [
+      "How much do results depend on who analyses the data?",
+      "Which reporting practices make a study reusable by someone else?",
+      "What keeps researchers from sharing data and code, and what would change that?",
+      "How do language and access policies shape whose science gets read?",
+    ],
+    image: "/images/wordcloud.png",
+    accent: "#B55EA8",
   },
 ];
 
@@ -180,7 +195,6 @@ export const PI: Person = {
   role: "Principal Investigator",
   affiliation: "Department of Biological and Environmental Sciences, University of Gothenburg",
   photo: "/images/patrice-pottier.webp",
-  blurb: "",
   links: [
     { label: "Curriculum vitae", href: CV_URL },
     { label: "Google Scholar", href: "https://scholar.google.com/citations?user=gg1rV3IAAAAJ&hl=en" },
@@ -189,12 +203,12 @@ export const PI: Person = {
   ],
 };
 
-/** Paragraphs shown under the PI photo on the People page. */
+/** Paragraphs shown beside the PI photo on the People page. */
 export const PI_BIO: string[] = [
-  "I lead the PEACE Lab at the University of Gothenburg, where we ask how plasticity and adaptation shape the vulnerability of animals to a warming climate. My work combines laboratory experiments with evidence synthesis and comparative analysis, across amphibians, reptiles, fishes and invertebrates.",
-  "Before Gothenburg I completed a PhD at UNSW Sydney with Shinichi Nakagawa and Szymon Drobniak, followed by postdoctoral positions at the Australian National University with Daniel Noble and at UNSW Sydney with Losia Lagisz and Shinichi Nakagawa. A Wenner-Gren Foundation fellowship then brought me to Sweden to work with Fredrik Jutfelt on heat tolerance across fish life stages.",
-  "I also founded and coordinate the Thermal Ecology Alliance, a global network running distributed experiments on thermal tolerance. The Alliance exists because the questions that matter most in thermal ecology are larger than any single laboratory: standardising how data are collected, cutting duplicated effort, and building datasets broad enough to test global patterns.",
-  "Beyond the science, I am an advocate for open research and serve on the board of SORTEE, the Society for Open, Reproducible, and Transparent Ecology and Evolutionary Biology. Above all I enjoy arguing about ideas with people who see the problem differently, and I am always glad to start a new collaboration.",
+  "I lead the PEACE Lab at the University of Gothenburg. My work asks how animals cope with environments that are changing faster than anything in their evolutionary history, and how far that capacity to cope will stretch. I combine laboratory experiments with evidence synthesis and comparative analysis, across amphibians, reptiles, fishes and invertebrates.",
+  "I did my PhD at UNSW Sydney with Shinichi Nakagawa and Szymon Drobniak, then held postdoctoral positions at the Australian National University with Daniel Noble and at UNSW Sydney with Losia Lagisz and Shinichi Nakagawa. A Wenner-Gren Foundation fellowship brought me to Sweden to work with Fredrik Jutfelt on heat tolerance across fish life stages.",
+  "I also founded and coordinate the Thermal Ecology Alliance, a global network that runs coordinated experiments on thermal tolerance. The Alliance exists because the questions that matter most in this field are bigger than any single laboratory. Standardising how data are collected, cutting duplicated effort and pooling results lets us test patterns that no group could test alone.",
+  "Curiosity has guided most of what I work on, and it has taken me some way from where I started. I care about open and inclusive research, and I enjoy arguing about ideas with people who see the problem differently. I am always glad to start a new collaboration.",
 ];
 
 export const CURRENT_MEMBERS: Person[] = [
@@ -216,6 +230,44 @@ export const PAST_MEMBERS: Person[] = [
     now: "",
     blurb: "",
   },
+];
+
+/**
+ * People we work with most closely. The map above this section is generated
+ * from every co-authored paper; this list is for the handful worth naming.
+ * Add a `photo` path (put the file in public/images/) to show a portrait.
+ */
+export type Collaborator = {
+  name: string;
+  role?: string;
+  affiliation: string;
+  photo?: string;
+  href?: string;
+  blurb?: string;
+};
+
+export const MAIN_COLLABORATORS: Collaborator[] = [
+  // Example of the shape; replace with the people you want highlighted.
+  // {
+  //   name: "Name Surname",
+  //   role: "Professor",
+  //   affiliation: "University",
+  //   photo: "/images/collaborator-name.jpg",
+  //   href: "https://example.org",
+  //   blurb: "One line on what we work on together.",
+  // },
+];
+
+/* -------------------------------------------------------- publications -- */
+
+/**
+ * DOIs of the papers pinned to the top of the Publications page. Order here is
+ * the order shown. Everything else comes from the generated data file.
+ */
+export const HIGHLIGHTED_DOIS: string[] = [
+  "10.1038/s41586-025-08665-0", // Vulnerability of amphibians to global warming, Nature
+  "10.1111/ele.14083", // Developmental plasticity in thermal tolerance, Ecology Letters
+  "10.1093/conphys/coag006", // Embryos are largely understudied, Conservation Physiology
 ];
 
 /* --------------------------------------------------------- opportunities */
@@ -244,12 +296,12 @@ export const POSITIONS: Position[] = [
     summary:
       "How and why does thermal sensitivity vary across the life cycle, and what does that mean for animal populations under climate change?",
     details: [
-      "Funded by the Swedish Research Council as part of a programme on the vulnerability of fish life stages to climate change.",
-      "The project combines empirical work with evidence synthesis and comparative analysis. Fish are the starting point; comparative work can range more widely, including freshwater and marine invertebrates.",
-      "Possible directions include standardised methods for measuring tolerance across life stages, critical windows of sensitivity during development, acclimation capacity within and across generations, the mechanistic drivers of stage differences, and translating laboratory measurements into field-relevant projections.",
-      "Supervised by Patrice Pottier and co-supervised by Prof. Fredrik Jutfelt, with weekly supervisory meetings, structured support early in each project, and a gradual transfer of responsibility as independence develops.",
-      "Based at Natrium in Gothenburg, with the option of running projects at the Kristineberg marine research station.",
-      "Start date is flexible, preferably before the end of 2026.",
+      "The Swedish Research Council funds this project, as part of a programme on the vulnerability of fish life stages to climate change.",
+      "The work combines experiments with evidence synthesis and comparative analysis. Fish are the starting point, but comparative questions can range wider, including freshwater and marine invertebrates.",
+      "Possible directions include standardising how tolerance is measured across stages, finding the critical windows of sensitivity during development, quantifying acclimation within and across generations, and translating laboratory measurements into field-relevant projections.",
+      "I supervise the project, with Prof. Fredrik Jutfelt as co-supervisor. Expect at least one supervisory meeting per week, close support early in each project, and responsibility handed over as your independence grows.",
+      "The position is based at Natrium in Gothenburg, with the option of running projects at the Kristineberg marine research station.",
+      "The start date is flexible, preferably before the end of 2026.",
     ],
     image: "/images/research-development.jpg",
   },
@@ -261,14 +313,14 @@ export const POSITIONS: Position[] = [
     deadline: "21 September 2026",
     status: "open",
     summary:
-      "A two-year, fully funded postdoc on thermal sensitivity across the life cycle, with room to shape the questions and to lead globally distributed experiments.",
+      "Two years to work on thermal sensitivity across the life cycle, with room to shape the questions and to lead globally distributed experiments.",
     details: [
-      "Funded by the Swedish Research Council, within the same programme on fish life stages and climate vulnerability.",
-      "The project is deliberately flexible in scope, and the postdoc is encouraged to develop original research questions rather than execute a fixed plan.",
-      "Directions include developing standardised methods for comparing vulnerability across life stages, quantifying resilience to co-occurring stressors, testing whether heat tolerance evolves independently across stages, building models that translate laboratory measurements into field projections, and synthesising published evidence.",
-      "The role carries leadership opportunities through the Thermal Ecology Alliance, including managing globally distributed experiments, along with the chance to co-supervise MSc and PhD students.",
-      "Open to researchers who completed a doctoral degree no more than three years before the closing date, with the usual allowances for leave.",
-      "Start date preferably before March 2027, with flexibility for notice periods and residence permits.",
+      "The Swedish Research Council funds this position, within the same programme on fish life stages and climate vulnerability.",
+      "The scope is deliberately open. I would rather you develop original questions than execute a plan I wrote.",
+      "Directions include comparing vulnerability across life stages, testing resilience to co-occurring stressors, asking whether heat tolerance evolves independently across stages, building models that translate laboratory data into field projections, and synthesising published evidence.",
+      "The role carries leadership opportunities through the Thermal Ecology Alliance, including running globally distributed experiments, and the chance to co-supervise MSc and PhD students.",
+      "Applicants should have completed a doctoral degree no more than three years before the closing date, with the usual allowances for parental leave, illness and similar circumstances.",
+      "The start date is preferably before March 2027, with flexibility for notice periods and residence permits.",
     ],
     image: "/images/research-warming.jpg",
   },
@@ -277,35 +329,35 @@ export const POSITIONS: Position[] = [
 /** Traits drawn from the two Gothenburg advertisements. */
 export const WHO_WE_LOOK_FOR = {
   lead:
-    "We care more about how you think than about what you have already published. Every qualification is assessed relative to opportunity: access to projects, laboratory time, programming, mobility and publication varies enormously between institutions, countries and personal circumstances, and the assessment weighs ideas and potential rather than counts and prestige.",
+    "How you think matters more here than what you have already published. We assess every qualification relative to opportunity, because access to projects, laboratory time, programming, travel and publication varies enormously between institutions, countries and personal circumstances. What we weigh is your ideas and your potential, not your publication count or the linearity of your path.",
   traits: [
     {
       title: "Curious and self-directed",
-      body: "You follow questions because they interest you, organise your own work, and are willing to build the independence the role asks for.",
+      body: "You follow questions because they interest you, you organise your own work, and you want to build the independence the role asks for.",
     },
     {
       title: "A critical thinker",
-      body: "You think carefully about the state of the evidence, enjoy problem solving, and are willing to explore concepts outside your immediate field.",
+      body: "You think carefully about the state of the evidence, you enjoy solving problems, and you are willing to read outside your field.",
     },
     {
       title: "Eager to learn new methods",
-      body: "You want to develop quantitative skills, in R or a comparable environment, and to work reproducibly whether or not you arrive already fluent.",
+      body: "You want to develop quantitative skills, in R or something comparable, and to work reproducibly. Arriving fluent is not a requirement.",
     },
     {
       title: "Motivated by the problem",
-      body: "You are engaged and enthusiastic about understanding, forecasting and mitigating the impacts of climate change on biodiversity.",
+      body: "You care about understanding, forecasting and mitigating the impacts of climate change on biodiversity.",
     },
     {
       title: "A good collaborator",
-      body: "You give and receive constructive feedback well, and work respectfully with people from different disciplinary, cultural and personal backgrounds.",
+      body: "You give and take constructive feedback well, and you work respectfully with people from different disciplinary, cultural and personal backgrounds.",
     },
     {
       title: "Committed to open science",
-      body: "You value scientific integrity, fairness and transparency, and want your work to be reusable by others.",
+      body: "You value integrity, fairness and transparency, and you want your work to be reusable by people you will never meet.",
     },
   ],
   closing:
-    "We value diversity and are committed to an inclusive research environment. We welcome applications from people of all backgrounds and identities, including people from diverse cultural and linguistic backgrounds, people with disabilities, neurodivergent people, and people of all genders, sexual orientations and ages.",
+    "We value diversity and we are committed to an inclusive research environment. We welcome applications from people of all backgrounds and identities, including people from diverse cultural and linguistic backgrounds, people with disabilities, neurodivergent people, and people of all genders, sexual orientations and ages.",
 };
 
 /* ----------------------------------------------------------- fellowships */
@@ -321,41 +373,65 @@ export type Fellowship = {
 
 /**
  * Schemes that could bring a postdoc or early-career researcher to the group.
- * Deadlines move each year, so the `when` field gives the usual window rather
- * than a fixed date. Check the funder's page before planning around it.
+ * Deadlines move each year, so `when` gives the usual window rather than a
+ * fixed date. Check the funder's page before planning around it.
  */
 export const FELLOWSHIPS: Fellowship[] = [
   {
     name: "Marie Skłodowska-Curie Postdoctoral Fellowship",
     funder: "European Commission, Horizon Europe",
     scope: "Europe",
-    who: "PhD holders moving to a new country; 2-year European fellowships",
+    who: "PhD holders moving to a new country; two-year European fellowships",
     when: "Deadline usually September",
     url: "https://marie-sklodowska-curie-actions.ec.europa.eu/actions/postdoctoral-fellowships",
   },
   {
-    name: "International Postdoc Grant",
-    funder: "Swedish Research Council (Vetenskapsrådet)",
+    name: "AXA Research Fund Postdoctoral Fellowship",
+    funder: "AXA Research Fund",
+    scope: "Global",
+    who: "Postdocs working on climate and environmental risk; hosted through the university",
+    when: "Institutional nomination, usually early in the year",
+    url: "https://www.axa-research.org/en/page/AXA-Fellowships",
+  },
+  {
+    name: "Schmidt Science Fellows",
+    funder: "Schmidt Sciences",
+    scope: "Global",
+    who: "Recent PhDs making a deliberate disciplinary pivot; one to two years",
+    when: "University nomination, usually mid-year",
+    url: "https://schmidtsciencefellows.org/",
+  },
+  {
+    name: "Vetenskapsrådet project and starting grants",
+    funder: "Swedish Research Council",
     scope: "Sweden",
-    who: "Researchers with a Swedish PhD spending time abroad, and returnees",
+    who: "Researchers building an independent programme in natural and engineering sciences",
+    when: "Main call usually opens in the new year",
+    url: "https://www.vr.se/english/applying-for-funding.html",
+  },
+  {
+    name: "Vetenskapsrådet International Postdoc Grant",
+    funder: "Swedish Research Council",
+    scope: "Sweden",
+    who: "Researchers with a Swedish PhD spending time abroad, and those returning",
     when: "Call usually opens in the new year",
     url: "https://www.vr.se/english/applying-for-funding.html",
+  },
+  {
+    name: "FORMAS mobility and early-career grants",
+    funder: "FORMAS",
+    scope: "Sweden",
+    who: "Early-career researchers in environment, agriculture and sustainability",
+    when: "Annual open call, deadline usually early in the year",
+    url: "https://formas.se/en/start-page.html",
   },
   {
     name: "Wenner-Gren Foundations Fellowships",
     funder: "Wenner-Gren Foundations",
     scope: "Sweden",
     who: "Postdoctoral researchers moving to or from Sweden",
-    when: "Two calls per year, typically spring and autumn",
+    when: "Two calls per year, usually spring and autumn",
     url: "https://www.swgc.org/",
-  },
-  {
-    name: "FORMAS Mobility Starting Grant",
-    funder: "FORMAS",
-    scope: "Sweden",
-    who: "Early-career researchers in environment and sustainability",
-    when: "Deadline usually early in the year",
-    url: "https://formas.se/en/start-page.html",
   },
   {
     name: "Carl Tryggers Foundation Postdoctoral Fellowship",
@@ -369,7 +445,7 @@ export const FELLOWSHIPS: Fellowship[] = [
     name: "EMBO Postdoctoral Fellowships",
     funder: "EMBO",
     scope: "Europe",
-    who: "Life scientists moving between countries; 2 years",
+    who: "Life scientists moving between countries; two years",
     when: "Two deadlines per year",
     url: "https://www.embo.org/funding/fellowships-grants-and-career-support/postdoctoral-fellowships/",
   },
@@ -377,7 +453,7 @@ export const FELLOWSHIPS: Fellowship[] = [
     name: "HFSP Postdoctoral Fellowships",
     funder: "Human Frontier Science Program",
     scope: "Global",
-    who: "Interdisciplinary projects in the life sciences; 3 years",
+    who: "Interdisciplinary projects in the life sciences; three years",
     when: "Registration usually May, submission August",
     url: "https://www.hfsp.org/funding/hfsp-funding/postdoctoral-fellowships",
   },
@@ -385,15 +461,15 @@ export const FELLOWSHIPS: Fellowship[] = [
     name: "Marie Skłodowska-Curie Global Fellowship",
     funder: "European Commission, Horizon Europe",
     scope: "Global",
-    who: "Outgoing phase outside Europe followed by a return year",
+    who: "An outgoing phase outside Europe followed by a return year",
     when: "Deadline usually September",
     url: "https://marie-sklodowska-curie-actions.ec.europa.eu/actions/postdoctoral-fellowships",
   },
   {
-    name: "Branco Weiss Fellowship — Society in Science",
+    name: "Branco Weiss Fellowship, Society in Science",
     funder: "ETH Zürich",
     scope: "Global",
-    who: "Early postdocs with an unconventional, socially relevant project; up to 5 years",
+    who: "Early postdocs with an unconventional, socially relevant project; up to five years",
     when: "Deadline usually January",
     url: "https://brancoweissfellowship.org/",
   },
@@ -420,7 +496,7 @@ export const NEWS: NewsItem[] = [
     tag: "Position",
     title: "Two positions open: one PhD and one postdoc",
     body:
-      "We are recruiting a PhD student and a two-year postdoctoral researcher to work on thermal sensitivity across the life cycle, both funded by the Swedish Research Council. Applications close on 21 September 2026.",
+      "We are recruiting a PhD student and a two-year postdoctoral researcher to work on thermal sensitivity across the life cycle. The Swedish Research Council funds both. Applications close on 21 September 2026.",
     href: "/opportunities",
     image: "/images/moth-gold.jpg",
   },
@@ -429,7 +505,7 @@ export const NEWS: NewsItem[] = [
     tag: "Lab",
     title: "The PEACE Lab starts at the University of Gothenburg",
     body:
-      "The group opens at the Department of Biological and Environmental Sciences, working on plasticity and ecological adaptation to changing environments.",
+      "The group opens at the Department of Biological and Environmental Sciences, working on how animals respond to rapidly changing environments.",
     image: "/images/hero-leaf-insect.jpg",
   },
   {
@@ -437,7 +513,7 @@ export const NEWS: NewsItem[] = [
     tag: "Network",
     title: "Thermal Ecology Alliance distributed experiment underway",
     body:
-      "Research groups across six continents are collecting standardised data on fish embryonic heat tolerance, building a dataset no single laboratory could assemble alone.",
+      "Research groups across six continents are collecting standardised data on fish embryonic heat tolerance. No single laboratory could assemble a dataset of this breadth alone.",
     href: "https://www.thermalecologyalliance.org/",
     image: "/images/research-development.jpg",
   },
@@ -458,31 +534,78 @@ export const OUTREACH: OutreachItem[] = [
     title: "Thermal Ecology Alliance",
     role: "Founder and coordinator",
     body:
-      "A global network of thermal ecologists running coordinated, distributed experiments. The Alliance standardises how thermal tolerance data are collected, cuts duplicated effort, and assembles datasets broad enough to test global patterns. It also functions as a community of practice, open to anyone working on how temperature shapes life.",
+      "A global network of thermal ecologists running coordinated, distributed experiments. The Alliance standardises how thermal tolerance data are collected, cuts duplicated effort, and assembles datasets broad enough to test global patterns. It is also a community of practice, open to anyone working on how temperature shapes life.",
     href: "https://www.thermalecologyalliance.org/",
     accent: "#FAD103",
   },
   {
-    title: "SORTEE",
-    role: "Board member",
+    title: "Open and reproducible research",
+    role: "Advocacy and practice",
     body:
-      "The Society for Open, Reproducible, and Transparent Ecology and Evolutionary Biology works to change research practice in our field, from code sharing to reporting standards. I serve on its board and contribute to its conferences and working groups.",
+      "We release the data, code and protocols behind our papers, and we build R packages and workflows so that others can rerun, check and reuse the analyses. Much of this work runs through SORTEE, the Society for Open, Reproducible, and Transparent Ecology and Evolutionary Biology, where I served on the board and remain active.",
     href: "https://www.sortee.org/",
     accent: "#02B8A6",
   },
   {
-    title: "Open and reproducible research",
-    role: "Practice",
+    title: "Writing for the public",
+    role: "Science communication",
     body:
-      "Data, code and protocols from the group are released openly. We build R packages and workflows so that the analyses behind our conclusions can be rerun, checked and reused by anyone who wants to.",
-    href: "https://github.com/p-pottier",
+      "Research that stays inside journals rarely changes anything. I write for general audiences, mostly in The Conversation, and speak to schools, community groups and the press about what climate change is doing to animals.",
     accent: "#FA6A03",
   },
   {
     title: "Peer review and editorial work",
     role: "Service",
     body:
-      "Reviewing for journals and funding bodies across ecology, evolution and conservation physiology, with a particular interest in raising the standard of evidence synthesis in the field.",
+      "I review for journals and funding bodies across ecology, evolution and conservation physiology. My particular interest is raising the standard of evidence synthesis, which is still uneven across our field.",
     accent: "#B80502",
+  },
+];
+
+/** Pieces written for general audiences. */
+export type MediaItem = { title: string; outlet: string; year: number; href: string };
+
+export const MEDIA: MediaItem[] = [
+  {
+    title: "Hot frogs and sizzling salamanders: climate change is pushing amphibians to their limits",
+    outlet: "The Conversation",
+    year: 2025,
+    href: "https://doi.org/10.64628/aa.hdtmdn6ed",
+  },
+  {
+    title: "Young cold-blooded animals are suffering the most as Earth heats up",
+    outlet: "The Conversation",
+    year: 2022,
+    href: "https://doi.org/10.64628/aa.mxhyh4jfh",
+  },
+];
+
+/** Conference posters. Thumbnails and PDFs live in public/posters. */
+export type Poster = {
+  title: string;
+  event: string;
+  year: number;
+  image?: string;
+  pdf: string;
+  note?: string;
+};
+
+export const POSTERS: Poster[] = [
+  {
+    title:
+      "Developmental plasticity in thermal tolerance: ontogenetic variation, persistence, and future directions",
+    event: "ESEB Congress",
+    year: 2022,
+    image: "/posters/poster-eseb2022.jpg",
+    pdf: "/posters/poster-eseb2022.pdf",
+    note: "Published in Ecology Letters.",
+  },
+  {
+    title: "Climate vulnerability of the world's amphibians: finding the missing pieces of an ecological puzzle",
+    event: "SEB Annual Conference",
+    year: 2021,
+    image: "/posters/poster-seb2021.jpg",
+    pdf: "/posters/poster-seb2021.pdf",
+    note: "An updated version followed at SEB 2022. Published in Nature.",
   },
 ];

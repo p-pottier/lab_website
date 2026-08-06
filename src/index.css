@@ -12,8 +12,8 @@
 
   html {
     scroll-behavior: smooth;
-    /* the sticky header must never cover an anchor target */
-    scroll-padding-top: 90px;
+    /* the fixed header must never cover an anchor target */
+    scroll-padding-top: 110px;
   }
 
   html,

@@ -87,10 +87,27 @@ console.log("\nContent checks");
 await page.goto(`${BASE}/publications`, { waitUntil: "networkidle" });
 await page.waitForTimeout(1200);
 const pubCount = await page.locator("article").count();
-const hIndex = await page.locator("text=h-index").count();
+const highlights = await page.locator('text="Selected papers"').count();
+const yearFilter = await page.locator('button:has-text("All years")').count();
 console.log(`  publications rendered: ${pubCount} ${pubCount > 20 ? "ok" : "FAIL"}`);
-console.log(`  h-index tile present:  ${hIndex > 0 ? "ok" : "FAIL"}`);
-if (pubCount <= 20 || hIndex === 0) failures++;
+console.log(`  selected papers block: ${highlights > 0 ? "ok" : "FAIL"}`);
+console.log(`  year filter present:   ${yearFilter > 0 ? "ok" : "FAIL"}`);
+if (pubCount <= 20 || highlights === 0 || yearFilter === 0) failures++;
+
+// The publication list must not carry software or dataset deposits.
+const junk = await page.evaluate(() =>
+  [...document.querySelectorAll("h3")]
+    .map((h) => h.textContent || "")
+    .filter((t) => /^Additional file|zenodo|CRAN|freqTLS/i.test(t))
+);
+console.log(`  no software/data rows: ${junk.length === 0 ? "ok" : `FAIL (${junk.join("; ")})`}`);
+if (junk.length) failures++;
+
+await page.goto(`${BASE}/outreach`, { waitUntil: "networkidle" });
+await page.waitForTimeout(800);
+const posters = await page.locator('a[href$=".pdf"]').count();
+console.log(`  posters linked:        ${posters} ${posters >= 2 ? "ok" : "FAIL"}`);
+if (posters < 2) failures++;
 
 await page.goto(`${BASE}/people`, { waitUntil: "networkidle" });
 await page.waitForTimeout(1500);

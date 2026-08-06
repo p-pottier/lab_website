@@ -1,0 +1,8 @@
+{
+  "_comment": "Preprint DOI -> published article DOI. Only needed when a paper was retitled so heavily during review that neither a title match nor a Crossref search finds it. Every pair below was checked by hand against the author lists. Add an entry whenever `npm run data` reports a preprint you know is now published.",
+
+  "10.32942/x2sp92": "10.1038/s41467-025-65746-4",
+  "10.31222/osf.io/n3cta": "10.1016/j.envint.2025.109935",
+  "10.31222/osf.io/n3cta_v2": "10.1016/j.envint.2025.109935",
+  "10.22541/au.164573834.49438532/v1": "10.1111/ele.14083"
+}

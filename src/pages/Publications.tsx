@@ -1,42 +1,30 @@
 import { useMemo, useState } from "react";
 import { motion } from "framer-motion";
-import { LINKS } from "../content/site";
-import { usePublications, useMetrics, type Publication } from "../lib/useData";
-import {
-  Chip,
-  Container,
-  GhostButton,
-  PageHero,
-  Reveal,
-  SectionHeading,
-  StatTile,
-} from "../components/ui";
+import { HIGHLIGHTED_DOIS, LINKS } from "../content/site";
+import { usePublications, type Publication } from "../lib/useData";
+import { Chip, Container, GhostButton, PageHero, Reveal } from "../components/ui";
 import { Icon } from "../components/Icons";
 
-const KIND_LABEL: Record<string, string> = {
-  all: "All",
-  article: "Journal articles",
-  preprint: "Preprints",
-  software: "Software & data",
-  chapter: "Chapters",
-};
-
+/** Preprints share the orange used for anything not yet peer reviewed. */
 const KIND_COLOUR: Record<string, string> = {
   article: "#FAD103",
-  preprint: "#02B8A6",
-  software: "#FA6A03",
+  preprint: "#FA6A03",
   chapter: "#B55EA8",
   other: "#6B7280",
 };
 
-type SortKey = "year" | "citations";
+const KIND_LABEL: Record<string, string> = {
+  article: "article",
+  preprint: "preprint",
+  chapter: "chapter",
+  other: "other",
+};
 
 /* ------------------------------------------------------------ author line */
 
-/** Renders the author list, marking the PI so a reader can find him quickly. */
-function Authors({ pub }: { pub: Publication }) {
-  const MAX = 12;
-  const shown = pub.authors.slice(0, MAX);
+/** Marks the PI so a reader can find him without reading every name. */
+function Authors({ pub, max = 12 }: { pub: Publication; max?: number }) {
+  const shown = pub.authors.slice(0, max);
   const hidden = pub.authors.length - shown.length;
 
   return (
@@ -52,6 +40,87 @@ function Authors({ pub }: { pub: Publication }) {
   );
 }
 
+/* ---------------------------------------------------------------- links */
+
+function PubLinks({ pub }: { pub: Publication }) {
+  return (
+    <div className="mt-4 flex flex-wrap items-center gap-x-4 gap-y-2 text-sm">
+      {pub.url && (
+        <a
+          href={pub.url}
+          target="_blank"
+          rel="noreferrer"
+          className="font-medium text-gold transition hover:text-white"
+        >
+          {pub.doi ? "DOI" : "Link"}
+        </a>
+      )}
+      {pub.oaUrl && (
+        <a
+          href={pub.oaUrl}
+          target="_blank"
+          rel="noreferrer"
+          className="font-medium text-cyan transition hover:text-white"
+        >
+          Full text
+        </a>
+      )}
+      {pub.preprintUrl && (
+        <a
+          href={pub.preprintUrl}
+          target="_blank"
+          rel="noreferrer"
+          className="font-medium text-neutral-400 transition hover:text-white"
+        >
+          Preprint
+        </a>
+      )}
+    </div>
+  );
+}
+
+/* ----------------------------------------------------------- highlights */
+
+function Highlight({ pub, index }: { pub: Publication; index: number }) {
+  return (
+    <motion.article
+      initial={{ opacity: 0, y: 20 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      viewport={{ once: true }}
+      transition={{ duration: 0.55, delay: index * 0.08 }}
+      className="card relative flex h-full flex-col overflow-hidden p-6"
+      style={{ borderColor: "#FAD10340" }}
+    >
+      <div className="brand-gradient absolute inset-x-0 top-0 h-[3px]" />
+
+      <div className="flex items-baseline justify-between gap-3">
+        <span className="font-display text-3xl font-bold leading-none text-gold">
+          {pub.citations}
+        </span>
+        <span className="text-[11px] font-semibold uppercase tracking-[0.14em] text-neutral-500">
+          citations
+        </span>
+      </div>
+
+      <p className="mt-4 text-xs font-semibold uppercase tracking-[0.14em] text-cyan">
+        {pub.journal} · {pub.year}
+      </p>
+
+      <h3 className="mt-2 font-display text-lg font-semibold leading-snug text-white">
+        <a href={pub.url ?? "#"} target="_blank" rel="noreferrer" className="transition hover:text-gold">
+          {pub.title}
+        </a>
+      </h3>
+
+      <div className="mt-3 flex-1">
+        <Authors pub={pub} max={4} />
+      </div>
+
+      <PubLinks pub={pub} />
+    </motion.article>
+  );
+}
+
 /* ------------------------------------------------------------------- card */
 
 function PubCard({ pub, rank }: { pub: Publication; rank: number }) {
@@ -61,16 +130,15 @@ function PubCard({ pub, rank }: { pub: Publication; rank: number }) {
   return (
     <motion.article
       layout
-      initial={{ opacity: 0, y: 16 }}
+      initial={{ opacity: 0, y: 14 }}
       animate={{ opacity: 1, y: 0 }}
-      transition={{ duration: 0.4, delay: Math.min(rank, 8) * 0.03 }}
+      transition={{ duration: 0.35, delay: Math.min(rank, 8) * 0.03 }}
       className="card p-5 sm:p-6"
       style={{ borderColor: `${colour}22` }}
     >
       <div className="flex flex-col gap-5 sm:flex-row">
-        {/* citation gutter */}
-        <div className="flex shrink-0 flex-row items-center gap-4 sm:w-[86px] sm:flex-col sm:items-start sm:gap-3">
-          <div className="text-left">
+        <div className="flex shrink-0 flex-row items-center gap-4 sm:w-[84px] sm:flex-col sm:items-start">
+          <div>
             <div className="font-display text-2xl font-bold leading-none" style={{ color: colour }}>
               {pub.citations}
             </div>
@@ -78,21 +146,11 @@ function PubCard({ pub, rank }: { pub: Publication; rank: number }) {
               {pub.citations === 1 ? "citation" : "citations"}
             </div>
           </div>
-          {pub.altmetric && pub.altmetric.score > 0 && (
-            <div className="text-left">
-              <div className="font-display text-lg font-bold leading-none text-neutral-300">
-                {pub.altmetric.score}
-              </div>
-              <div className="mt-1 text-[10px] font-medium uppercase tracking-[0.14em] text-neutral-500">
-                attention
-              </div>
-            </div>
-          )}
         </div>
 
         <div className="min-w-0 flex-1">
           <div className="mb-2.5 flex flex-wrap items-center gap-2">
-            <Chip color={colour}>{pub.kind === "software" ? "Software / data" : pub.kind}</Chip>
+            <Chip color={colour}>{KIND_LABEL[pub.kind] ?? pub.kind}</Chip>
             {pub.year && <span className="text-xs text-neutral-500">{pub.year}</span>}
             {pub.isOA && (
               <span className="text-[11px] font-semibold uppercase tracking-[0.12em] text-cyan">
@@ -103,12 +161,7 @@ function PubCard({ pub, rank }: { pub: Publication; rank: number }) {
 
           <h3 className="font-display text-[17px] font-semibold leading-snug text-white sm:text-lg">
             {pub.url ? (
-              <a
-                href={pub.url}
-                target="_blank"
-                rel="noreferrer"
-                className="transition hover:text-gold"
-              >
+              <a href={pub.url} target="_blank" rel="noreferrer" className="transition hover:text-gold">
                 {pub.title}
               </a>
             ) : (
@@ -129,41 +182,12 @@ function PubCard({ pub, rank }: { pub: Publication; rank: number }) {
             </p>
           )}
 
-          <div className="mt-4 flex flex-wrap items-center gap-x-4 gap-y-2 text-sm">
-            {pub.url && (
-              <a
-                href={pub.url}
-                target="_blank"
-                rel="noreferrer"
-                className="font-medium text-gold transition hover:text-white"
-              >
-                {pub.doi ? "DOI" : "Link"}
-              </a>
-            )}
-            {pub.oaUrl && (
-              <a
-                href={pub.oaUrl}
-                target="_blank"
-                rel="noreferrer"
-                className="font-medium text-cyan transition hover:text-white"
-              >
-                Full text
-              </a>
-            )}
-            {pub.preprintUrl && (
-              <a
-                href={pub.preprintUrl}
-                target="_blank"
-                rel="noreferrer"
-                className="font-medium text-neutral-400 transition hover:text-white"
-              >
-                Preprint
-              </a>
-            )}
+          <div className="flex flex-wrap items-center gap-x-4">
+            <PubLinks pub={pub} />
             {pub.abstract && (
               <button
                 onClick={() => setOpen((v) => !v)}
-                className="font-medium text-neutral-400 transition hover:text-white"
+                className="mt-4 text-sm font-medium text-neutral-400 transition hover:text-white"
               >
                 {open ? "Hide abstract" : "Abstract"}
               </button>
@@ -185,88 +209,35 @@ function PubCard({ pub, rank }: { pub: Publication; rank: number }) {
   );
 }
 
-/* -------------------------------------------------------- citations chart */
-
-function CitationChart({ data }: { data: { year: number; cited_by_count: number }[] }) {
-  if (data.length === 0) return null;
-  const max = Math.max(...data.map((d) => d.cited_by_count), 1);
-  const thisYear = new Date().getFullYear();
-
-  return (
-    <div className="card p-6">
-      <div className="flex flex-wrap items-baseline justify-between gap-x-4 gap-y-1">
-        <div>
-          <h3 className="font-display text-lg font-semibold text-white">
-            Citations received per year
-          </h3>
-          <p className="mt-1 text-xs text-neutral-500">
-            Source: OpenAlex. {thisYear} runs to date, so its bar is incomplete.
-          </p>
-        </div>
-        <span className="text-xs text-neutral-500">
-          peak {max.toLocaleString("en-GB")} in {data.find((d) => d.cited_by_count === max)?.year}
-        </span>
-      </div>
-
-      {/* The bar track needs an explicit height: percentage heights resolve
-          against it, so the row of year labels sits outside the track. */}
-      <div className="mt-6 flex h-44 items-end gap-2 sm:gap-3">
-        {data.map((d, i) => (
-          <div key={d.year} className="group relative flex h-full flex-1 items-end">
-            <span className="pointer-events-none absolute inset-x-0 -top-1 text-center text-[11px] font-semibold text-neutral-400 opacity-0 transition group-hover:opacity-100">
-              {d.cited_by_count.toLocaleString("en-GB")}
-            </span>
-            <motion.div
-              className={`brand-gradient w-full rounded-t-md transition group-hover:opacity-100 ${
-                d.year === thisYear ? "opacity-50" : "opacity-85"
-              }`}
-              initial={{ height: 0 }}
-              whileInView={{ height: `${Math.max((d.cited_by_count / max) * 100, 1.5)}%` }}
-              viewport={{ once: true, margin: "-40px" }}
-              transition={{ duration: 0.75, delay: i * 0.06, ease: [0.22, 1, 0.36, 1] }}
-            />
-          </div>
-        ))}
-      </div>
-
-      <div className="mt-2 flex gap-2 sm:gap-3">
-        {data.map((d) => (
-          <span
-            key={d.year}
-            className={`flex-1 text-center text-[11px] ${
-              d.year === thisYear ? "text-neutral-600" : "text-neutral-500"
-            }`}
-          >
-            {d.year}
-            {d.year === thisYear ? "*" : ""}
-          </span>
-        ))}
-      </div>
-    </div>
-  );
-}
-
 /* ------------------------------------------------------------------- page */
 
 export default function Publications() {
   const data = usePublications();
-  const metrics = useMetrics();
-  const [kind, setKind] = useState("all");
-  const [sort, setSort] = useState<SortKey>("year");
+  const [year, setYear] = useState<number | "all">("all");
   const [query, setQuery] = useState("");
 
   const pubs = data?.publications ?? [];
 
-  const counts = useMemo(() => {
-    const c: Record<string, number> = { all: pubs.length };
-    for (const p of pubs) c[p.kind] = (c[p.kind] ?? 0) + 1;
-    return c;
+  const highlights = useMemo(
+    () =>
+      HIGHLIGHTED_DOIS.map((doi) => pubs.find((p) => p.doi === doi.toLowerCase())).filter(
+        (p): p is Publication => Boolean(p)
+      ),
+    [pubs]
+  );
+
+  const years = useMemo(() => {
+    const counts = new Map<number, number>();
+    for (const p of pubs) {
+      if (p.year) counts.set(p.year, (counts.get(p.year) ?? 0) + 1);
+    }
+    return [...counts.entries()].sort((a, b) => b[0] - a[0]);
   }, [pubs]);
 
   const filtered = useMemo(() => {
     const q = query.trim().toLowerCase();
     return pubs
-      .filter((p) => kind === "all" || p.kind === kind)
+      .filter((p) => year === "all" || p.year === year)
       .filter(
         (p) =>
           !q ||
@@ -274,15 +245,10 @@ export default function Publications() {
           p.authorLine.toLowerCase().includes(q) ||
           (p.journal ?? "").toLowerCase().includes(q)
       )
-      .sort((a, b) =>
-        sort === "citations"
-          ? b.citations - a.citations
-          : (b.year ?? 0) - (a.year ?? 0) || b.citations - a.citations
-      );
-  }, [pubs, kind, sort, query]);
+      .sort((a, b) => (b.year ?? 0) - (a.year ?? 0) || b.citations - a.citations);
+  }, [pubs, year, query]);
 
   const grouped = useMemo(() => {
-    if (sort !== "year") return null;
     const map = new Map<number, Publication[]>();
     for (const p of filtered) {
       const y = p.year ?? 0;
@@ -290,7 +256,7 @@ export default function Publications() {
       map.get(y)!.push(p);
     }
     return [...map.entries()].sort((a, b) => b[0] - a[0]);
-  }, [filtered, sort]);
+  }, [filtered]);
 
   const scholar = LINKS.find((l) => l.icon === "scholar");
   const orcid = LINKS.find((l) => l.icon === "orcid");
@@ -299,38 +265,34 @@ export default function Publications() {
     <>
       <PageHero
         eyebrow="Publications"
-        title="Everything we have published"
-        lead="This list is generated from OpenAlex and refreshes every night, so it never falls behind. Citation counts come from the same source."
+        title="Papers"
+        lead="This list is built from ORCID, Crossref and OpenAlex, and refreshes every night. Preprints move to their published version as soon as a journal accepts them."
         image="/images/research-synthesis.jpg"
+        height="h-[40vh] min-h-[280px]"
       />
 
-      <Container className="py-16">
-        {/* metrics */}
-        {metrics && (
-          <Reveal>
-            <div className="grid grid-cols-2 gap-4 lg:grid-cols-4">
-              <StatTile value={metrics.works} label="Publications" color="#FAD103" />
-              <StatTile
-                value={metrics.citations.toLocaleString("en-GB")}
-                label="Citations"
-                color="#FA6A03"
-              />
-              <StatTile value={metrics.hIndex ?? "—"} label="h-index" color="#02B8A6" />
-              <StatTile value={metrics.i10Index ?? "—"} label="i10-index" color="#B80502" />
+      <Container className="py-14">
+        {/* ------------------------------------------------------ highlights */}
+        {highlights.length > 0 && (
+          <section className="mb-16">
+            <Reveal>
+              <div className="mb-7 flex items-center gap-3">
+                <span className="h-px w-8 bg-gold" />
+                <h2 className="text-xs font-semibold uppercase tracking-[0.22em] text-gold">
+                  Selected papers
+                </h2>
+              </div>
+            </Reveal>
+            <div className="grid gap-5 md:grid-cols-3">
+              {highlights.map((p, i) => (
+                <Highlight key={p.id} pub={p} index={i} />
+              ))}
             </div>
-          </Reveal>
+          </section>
         )}
 
-        {metrics && metrics.citationsByYear.length > 0 && (
-          <Reveal delay={0.1}>
-            <div className="mt-5">
-              <CitationChart data={metrics.citationsByYear} />
-            </div>
-          </Reveal>
-        )}
-
-        <Reveal delay={0.15}>
-          <div className="mt-5 flex flex-wrap items-center gap-3">
+        <Reveal>
+          <div className="flex flex-wrap items-center gap-3">
             {scholar && (
               <GhostButton href={scholar.href}>
                 <Icon name="scholar" size={16} /> Google Scholar
@@ -341,57 +303,56 @@ export default function Publications() {
                 <Icon name="orcid" size={16} /> ORCID
               </GhostButton>
             )}
-            {metrics && (
-              <span className="text-xs text-neutral-500">Last updated {metrics.updated}</span>
+            {data && (
+              <span className="text-xs text-neutral-500">
+                {pubs.length} works · updated {data.updated}
+              </span>
             )}
           </div>
         </Reveal>
 
-        {/* controls */}
-        <Reveal delay={0.2}>
-          <div className="sticky top-[74px] z-20 mt-14 -mx-2 rounded-2xl border border-white/10 bg-ink/85 px-4 py-4 backdrop-blur-xl">
+        {/* --------------------------------------------------------- filters */}
+        <Reveal delay={0.1}>
+          <div className="sticky top-[92px] z-20 -mx-2 mt-8 rounded-2xl border border-white/10 bg-ink/90 px-4 py-4 backdrop-blur-xl">
             <div className="flex flex-wrap items-center gap-2">
-              {Object.entries(KIND_LABEL).map(([key, label]) => {
-                const n = counts[key] ?? 0;
-                if (key !== "all" && n === 0) return null;
-                const active = kind === key;
-                return (
-                  <button
-                    key={key}
-                    onClick={() => setKind(key)}
-                    className={`rounded-full border px-4 py-2 text-sm font-medium transition ${
-                      active
-                        ? "border-gold bg-gold text-ink"
-                        : "border-neutral-700 text-neutral-300 hover:border-neutral-500 hover:text-white"
-                    }`}
-                  >
-                    {label}
-                    <span className={active ? "ml-1.5 opacity-70" : "ml-1.5 text-neutral-500"}>
-                      {n}
-                    </span>
-                  </button>
-                );
-              })}
-
-              <div className="ml-auto flex flex-wrap items-center gap-2">
-                <input
-                  value={query}
-                  onChange={(e) => setQuery(e.target.value)}
-                  placeholder="Search title, author, journal…"
-                  className="w-full rounded-full border border-neutral-700 bg-panel px-4 py-2 text-sm text-white placeholder:text-neutral-600 focus:border-gold focus:outline-none sm:w-64"
-                />
+              <button
+                onClick={() => setYear("all")}
+                className={`rounded-full border px-4 py-2 text-sm font-medium transition ${
+                  year === "all"
+                    ? "border-gold bg-gold text-ink"
+                    : "border-neutral-700 text-neutral-300 hover:border-neutral-500 hover:text-white"
+                }`}
+              >
+                All years
+              </button>
+              {years.map(([y, n]) => (
                 <button
-                  onClick={() => setSort(sort === "year" ? "citations" : "year")}
-                  className="rounded-full border border-neutral-700 px-4 py-2 text-sm font-medium text-neutral-300 transition hover:border-cyan hover:text-cyan"
+                  key={y}
+                  onClick={() => setYear(y)}
+                  className={`rounded-full border px-3.5 py-2 text-sm font-medium transition ${
+                    year === y
+                      ? "border-gold bg-gold text-ink"
+                      : "border-neutral-700 text-neutral-300 hover:border-neutral-500 hover:text-white"
+                  }`}
                 >
-                  Sort: {sort === "year" ? "newest" : "most cited"}
+                  {y}
+                  <span className={year === y ? "ml-1.5 opacity-70" : "ml-1.5 text-neutral-500"}>
+                    {n}
+                  </span>
                 </button>
-              </div>
+              ))}
+
+              <input
+                value={query}
+                onChange={(e) => setQuery(e.target.value)}
+                placeholder="Search title, author, journal…"
+                className="ml-auto w-full rounded-full border border-neutral-700 bg-panel px-4 py-2 text-sm text-white placeholder:text-neutral-600 focus:border-gold focus:outline-none sm:w-64"
+              />
             </div>
           </div>
         </Reveal>
 
-        {/* list */}
+        {/* ------------------------------------------------------------ list */}
         <div className="mt-10">
           {!data && <p className="py-16 text-center text-neutral-500">Loading publications…</p>}
 
@@ -401,36 +362,21 @@ export default function Publications() {
             </p>
           )}
 
-          {grouped
-            ? grouped.map(([year, items]) => (
-                <section key={year} className="mb-12">
-                  <div className="mb-5 flex items-center gap-4">
-                    <h2 className="font-display text-2xl font-bold text-white">{year || "In press"}</h2>
-                    <div className="h-px flex-1 bg-gradient-to-r from-gold/40 to-transparent" />
-                    <span className="text-sm text-neutral-500">{items.length}</span>
-                  </div>
-                  <div className="space-y-4">
-                    {items.map((p, i) => (
-                      <PubCard key={p.id} pub={p} rank={i} />
-                    ))}
-                  </div>
-                </section>
-              ))
-            : filtered.map((p, i) => (
-                <div key={p.id} className="mb-4">
-                  <PubCard pub={p} rank={i} />
-                </div>
-              ))}
+          {grouped.map(([y, items]) => (
+            <section key={y} className="mb-12">
+              <div className="mb-5 flex items-center gap-4">
+                <h2 className="font-display text-2xl font-bold text-white">{y || "In press"}</h2>
+                <div className="h-px flex-1 bg-gradient-to-r from-gold/40 to-transparent" />
+                <span className="text-sm text-neutral-500">{items.length}</span>
+              </div>
+              <div className="space-y-4">
+                {items.map((p, i) => (
+                  <PubCard key={p.id} pub={p} rank={i} />
+                ))}
+              </div>
+            </section>
+          ))}
         </div>
-
-        <Reveal>
-          <div className="mt-12 rounded-2xl border border-white/10 bg-panel/50 p-6">
-            <SectionHeading
-              title="How this page stays current"
-              lead="A scheduled job queries OpenAlex once a night for every work linked to the group's ORCID record, merges preprints with their published versions, and rewrites the data file behind this page. Adding a paper to ORCID is the only step needed to make it appear here."
-            />
-          </div>
-        </Reveal>
       </Container>
     </>
   );

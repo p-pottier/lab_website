@@ -4,6 +4,7 @@ import { Icon } from "./Icons";
 import { Container } from "./ui";
 
 const PAGES = [
+  { to: "/", label: "Home" },
   { to: "/research", label: "Research" },
   { to: "/people", label: "People" },
   { to: "/publications", label: "Publications" },
@@ -27,7 +28,7 @@ export default function Footer() {
               </span>
             </div>
             <p className="mt-3 max-w-sm text-sm leading-relaxed text-neutral-400">
-              {SITE.expansion}. {SITE.tagline}
+              {SITE.expansion}
             </p>
             <p className="mt-4 text-sm text-neutral-500">
               {SITE.institution}

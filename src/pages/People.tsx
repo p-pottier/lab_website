@@ -1,6 +1,22 @@
-import { CURRENT_MEMBERS, PAST_MEMBERS, PI, PI_BIO, type Person } from "../content/site";
+import {
+  CURRENT_MEMBERS,
+  CV_URL,
+  MAIN_COLLABORATORS,
+  PAST_MEMBERS,
+  PI,
+  PI_BIO,
+  type Person,
+} from "../content/site";
 import CollaboratorMap from "../components/CollaboratorMap";
-import { Container, GhostButton, PageHero, Reveal, SectionHeading } from "../components/ui";
+import {
+  Container,
+  GhostButton,
+  GradientButton,
+  PageHero,
+  Reveal,
+  SectionHeading,
+} from "../components/ui";
+import { Icon } from "../components/Icons";
 
 /** Initials stand in until a photograph is supplied. */
 function Avatar({ person, size = 96 }: { person: Person; size?: number }) {
@@ -119,7 +135,10 @@ export default function People() {
                   ))}
                 </div>
 
-                <div className="mt-7 flex flex-wrap gap-3">
+                <div className="mt-7 flex flex-wrap items-center gap-3">
+                  <GradientButton href={CV_URL}>
+                    <Icon name="cv" size={16} /> Curriculum vitae
+                  </GradientButton>
                   <GhostButton href="https://www.thermalecologyalliance.org/">
                     Thermal Ecology Alliance
                   </GhostButton>
@@ -188,6 +207,75 @@ export default function People() {
               <CollaboratorMap />
             </div>
           </Reveal>
+
+          {/* the handful worth naming, edited by hand in src/content/site.ts */}
+          <div className="mt-14">
+            <Reveal>
+              <SectionHeading
+                title="People we work with most closely"
+                lead="A few of the collaborators behind the projects on this site."
+              />
+            </Reveal>
+
+            {MAIN_COLLABORATORS.length > 0 ? (
+              <div className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+                {MAIN_COLLABORATORS.map((c, i) => (
+                  <Reveal key={c.name} delay={i * 0.05}>
+                    <div className="card flex h-full gap-4 p-5">
+                      {c.photo ? (
+                        <img
+                          src={c.photo}
+                          alt={c.name}
+                          className="h-16 w-16 shrink-0 rounded-xl border border-white/10 object-cover"
+                        />
+                      ) : (
+                        <div className="flex h-16 w-16 shrink-0 items-center justify-center rounded-xl border border-cyan/25 bg-gradient-to-br from-cyan/15 to-gold/10 font-display text-lg font-bold text-cyan">
+                          {c.name
+                            .split(" ")
+                            .map((w) => w[0])
+                            .slice(0, 2)
+                            .join("")}
+                        </div>
+                      )}
+                      <div className="min-w-0">
+                        <h3 className="font-display text-[16px] font-semibold text-white">
+                          {c.href ? (
+                            <a
+                              href={c.href}
+                              target="_blank"
+                              rel="noreferrer"
+                              className="transition hover:text-gold"
+                            >
+                              {c.name}
+                            </a>
+                          ) : (
+                            c.name
+                          )}
+                        </h3>
+                        {c.role && <p className="mt-0.5 text-sm text-cyan">{c.role}</p>}
+                        <p className="mt-0.5 text-sm leading-snug text-neutral-500">
+                          {c.affiliation}
+                        </p>
+                        {c.blurb && (
+                          <p className="mt-2 text-sm leading-relaxed text-neutral-400">{c.blurb}</p>
+                        )}
+                      </div>
+                    </div>
+                  </Reveal>
+                ))}
+              </div>
+            ) : (
+              <Reveal>
+                <div className="mt-8 rounded-2xl border border-dashed border-neutral-700 p-8 text-sm leading-relaxed text-neutral-500">
+                  Nobody listed yet. Add entries to{" "}
+                  <code className="rounded bg-ink px-1.5 py-0.5 text-cyan">MAIN_COLLABORATORS</code>{" "}
+                  in <code className="rounded bg-ink px-1.5 py-0.5 text-cyan">src/content/site.ts</code>
+                  , with a name, affiliation and optionally a photograph in{" "}
+                  <code className="rounded bg-ink px-1.5 py-0.5 text-cyan">public/images/</code>.
+                </div>
+              </Reveal>
+            )}
+          </div>
         </section>
       </Container>
     </>

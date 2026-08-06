@@ -59,9 +59,9 @@ function Hero() {
           </p>
 
           <p className="mt-6 max-w-xl text-[17px] leading-relaxed text-neutral-300">
-            We study how animals cope with a warming world, and where coping runs out. Our work spans
-            the whole life cycle, from the embryo to the adult, because the stage that fails first
-            sets the limit for the population.
+            We study how biodiversity responds to rapidly changing environments. Our aim is to
+            understand how animals cope with those changes, across scales from the cell to the
+            globe, so that their resilience can be predicted rather than guessed at.
           </p>
 
           <div className="mt-9 flex flex-wrap items-center gap-3">
@@ -102,8 +102,8 @@ function Mission() {
             eyebrow="What we do"
             title={
               <>
-                Climate change does not act on{" "}
-                <span className="brand-text">a single stage of life</span>.
+                Environments are changing faster than{" "}
+                <span className="brand-text">anything animals have faced before</span>.
               </>
             }
           />
@@ -113,23 +113,23 @@ function Mission() {
           <Reveal delay={0.1}>
             <div className="prose-dark">
               <p>
-                Heatwaves are becoming more frequent, more intense and longer, and they threaten the
-                persistence of animal populations. The central problem in global change biology is
-                not that we lack evidence of harm. It is that we still cannot say reliably which
-                species, which populations and which stages will fail first.
+                Climate change is redrawing where animals can live, breed and survive. The central
+                problem in global change biology is not a shortage of evidence that harm is
+                happening. It is that we still cannot say reliably which species, which populations
+                and which stages of life will fail first.
               </p>
               <p>
-                Embryos and larvae are often more sensitive to extreme heat than the adults they
-                become, yet developmental stages remain the least studied part of the life cycle.
-                Worse, the methods used to measure vulnerability in an embryo and in an adult have
-                rarely been comparable, so the difference between them could not be quantified.
+                Answering that requires working at more than one scale. A heat-tolerance limit
+                measured in the laboratory means little until we know what temperatures an animal
+                actually experiences, how much of the difference plasticity can absorb, and whether
+                the pattern holds across the tree of life. We therefore move between the individual,
+                the population and the globe, rather than settling in one of them.
               </p>
               <p>
-                We work on both halves of that problem. We build standardised methods that make
-                stages comparable, and we use them to ask how thermal sensitivity varies across the
-                life cycle, why it varies, and what that variation means for populations under
-                warming. Laboratory experiments, evidence synthesis and comparative analysis each
-                answer part of the question; none of them answers it alone.
+                Our goal is prediction. We want to say, with a number and an interval attached, how
+                resilient a population is to the environment it is heading into. Ectotherms are our
+                main system, because their physiology is tied directly to environmental temperature,
+                and that makes them the sharpest available test of the question.
               </p>
             </div>
           </Reveal>
@@ -144,7 +144,7 @@ function Mission() {
                 },
                 {
                   title: "Synthesis",
-                  body: "Systematic reviews, meta-analyses and phylogenetic comparative methods that turn a scattered literature into a testable global pattern.",
+                  body: "Systematic reviews, meta-analyses and phylogenetic comparative methods that turn a scattered literature into a pattern we can test.",
                   color: "#02B8A6",
                 },
                 {
@@ -178,7 +178,7 @@ function Themes() {
       <Container>
         <Reveal>
           <div className="flex flex-wrap items-end justify-between gap-6">
-            <SectionHeading eyebrow="Research" title="Six questions we keep coming back to" />
+            <SectionHeading eyebrow="Research" title="The questions we keep coming back to" />
             <TextLink to="/research">All research themes</TextLink>
           </div>
         </Reveal>

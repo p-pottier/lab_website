@@ -37,13 +37,6 @@ export default function Contact() {
 
                 <div>
                   <dt className="text-xs font-semibold uppercase tracking-[0.18em] text-neutral-500">
-                    Phone
-                  </dt>
-                  <dd className="mt-1.5 text-[16px] text-neutral-300">{SITE.phone}</dd>
-                </div>
-
-                <div>
-                  <dt className="text-xs font-semibold uppercase tracking-[0.18em] text-neutral-500">
                     Address
                   </dt>
                   <dd className="mt-1.5 space-y-0.5 text-[16px] leading-relaxed text-neutral-300">
@@ -89,8 +82,8 @@ export default function Contact() {
                   Prospective students and postdocs
                 </h3>
                 <p className="mt-2 text-sm leading-relaxed text-neutral-400">
-                  Read the Opportunities page first, then email me a short note about what interests
-                  you. Two funded positions are open, and I am glad to support fellowship
+                  Read the Opportunities page first, then send me a short note about what interests
+                  you. Two funded positions are open. I am also glad to support fellowship
                   applications from people who want to bring their own funding.
                 </p>
               </div>

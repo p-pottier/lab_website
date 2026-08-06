@@ -3,8 +3,9 @@ import { Link, NavLink, useLocation } from "react-router-dom";
 import { AnimatePresence, motion } from "framer-motion";
 import { SITE } from "../content/site";
 
-/** Home is reachable through the wordmark, so it is deliberately absent here. */
+/** The wordmark also returns to the home page; this is the visible route to it. */
 const NAV = [
+  { to: "/", label: "Home" },
   { to: "/research", label: "Research" },
   { to: "/people", label: "People" },
   { to: "/publications", label: "Publications" },
@@ -53,13 +54,18 @@ export default function Header() {
             : "border-b border-transparent bg-gradient-to-b from-ink/80 to-transparent"
         }`}
       >
-        <div className="mx-auto flex h-[72px] w-full max-w-content items-center justify-between px-5 sm:px-8">
-          <Link to="/" className="group flex items-baseline gap-2.5" aria-label="PEACE Lab, home">
-            <span className="font-display text-[26px] font-bold leading-none tracking-tight text-gold transition group-hover:text-white">
-              PEACE
+        <div className="mx-auto flex h-[90px] w-full max-w-content items-center justify-between px-5 sm:px-8">
+          <Link to="/" className="group block" aria-label="PEACE Lab, home">
+            <span className="flex items-baseline gap-2.5">
+              <span className="font-display text-[26px] font-bold leading-none tracking-tight text-gold transition group-hover:text-white">
+                PEACE
+              </span>
+              <span className="text-[11px] font-medium uppercase tracking-[0.28em] text-neutral-400 transition group-hover:text-cyan">
+                Lab
+              </span>
             </span>
-            <span className="hidden text-[11px] font-medium uppercase tracking-[0.28em] text-neutral-400 transition group-hover:text-cyan sm:inline">
-              Lab
+            <span className="mt-1.5 hidden max-w-[34rem] text-[11px] font-medium leading-tight tracking-wide text-neutral-500 transition group-hover:text-neutral-300 sm:block">
+              Plasticity and Ecological Adaptations to Changing Environments
             </span>
           </Link>
 
@@ -68,6 +74,7 @@ export default function Header() {
               <NavLink
                 key={item.to}
                 to={item.to}
+                end={item.to === "/"}
                 className={({ isActive }) =>
                   `link-underline text-[15px] font-medium transition-colors ${
                     isActive ? "text-gold" : "text-neutral-300 hover:text-white"
@@ -132,8 +139,9 @@ export default function Header() {
                 >
                   <NavLink
                     to={item.to}
+                    end={item.to === "/"}
                     className={({ isActive }) =>
-                      `block border-b border-white/5 py-4 font-display text-3xl font-semibold ${
+                      `block border-b border-white/5 py-3.5 font-display text-[1.75rem] font-semibold ${
                         isActive ? "text-gold" : "text-neutral-200"
                       }`
                     }
