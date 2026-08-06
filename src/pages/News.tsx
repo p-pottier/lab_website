@@ -31,16 +31,26 @@ function NewsCard({ item, index }: { item: NewsItem; index: number }) {
       className="card group flex h-full flex-col overflow-hidden"
       style={{ borderColor: `${colour}26` }}
     >
-      {item.image && (
-        <div className="h-44 overflow-hidden">
-          <img
-            src={item.image}
-            alt=""
-            loading="lazy"
-            className="h-full w-full object-cover opacity-70 transition duration-700 group-hover:scale-105 group-hover:opacity-100"
-          />
-        </div>
-      )}
+      {item.image &&
+        (item.imageFit === "contain" ? (
+          <div className="flex h-44 items-center justify-center bg-white/[0.04] px-10">
+            <img
+              src={item.image}
+              alt=""
+              loading="lazy"
+              className="max-h-16 w-full object-contain opacity-90 transition duration-500 group-hover:opacity-100"
+            />
+          </div>
+        ) : (
+          <div className="h-44 overflow-hidden">
+            <img
+              src={item.image}
+              alt=""
+              loading="lazy"
+              className="h-full w-full object-cover opacity-70 transition duration-700 group-hover:scale-105 group-hover:opacity-100"
+            />
+          </div>
+        ))}
       <div className="flex flex-1 flex-col p-6">
         <div className="flex flex-wrap items-center gap-3">
           <Chip color={colour}>{item.tag}</Chip>

@@ -437,7 +437,7 @@ export const POSITIONS: Position[] = [
       "Applicants should have completed a doctoral degree no more than three years before the closing date, with the usual allowances for parental leave, illness and similar circumstances.",
       "The start date is preferably before March 2027, with flexibility for notice periods and residence permits.",
     ],
-    image: "/images/portfolio-banner.webp",
+    image: "/images/opportunities-banner.webp",
   },
 ];
 
@@ -722,6 +722,8 @@ export type NewsItem = {
   body: string;
   href?: string;
   image?: string;
+  /** "contain" suits a logo, which must not be cropped. Photographs use cover. */
+  imageFit?: "cover" | "contain";
 };
 
 /**
@@ -761,6 +763,17 @@ export const NEWS: NewsItem[] = [
     body:
       "A great week of catching up with old friends and meeting new ones. The talks from fish physiologists working all over the world left me full of ideas to chase.",
     image: "/images/news-icbf.jpg",
+  },
+  {
+    // TODO: correct this date; it is a placeholder set before the lab opened.
+    date: "2026-04-15",
+    tag: "Award",
+    title: "Strategic recruitment grant from the Swedish Research Council",
+    body:
+      "Vetenskapsrådet awarded Patrice a strategic recruitment grant covering five years of employment and a startup fund. The grant is what makes the PEACE lab possible, paying for its first positions and the equipment to get the laboratory running.",
+    href: "https://www.vr.se/english.html",
+    image: "/images/vr-logo.svg",
+    imageFit: "contain",
   },
   {
     date: "2026-06-01",

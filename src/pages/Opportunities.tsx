@@ -118,7 +118,7 @@ export default function Opportunities() {
         eyebrow="Opportunities"
         title="Join the group"
         lead="Two funded positions are open in Gothenburg, and there are several routes in for researchers who bring their own funding."
-        image="/images/opportunities-banner.webp"
+        image="/images/portfolio-banner.webp"
       />
 
       <Container className="py-16">

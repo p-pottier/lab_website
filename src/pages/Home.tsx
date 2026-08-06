@@ -374,16 +374,26 @@ function LatestNews() {
           {items.map((n, i) => (
             <Reveal key={n.title} delay={i * 0.07}>
               <article className="card group flex h-full flex-col overflow-hidden">
-                {n.image && (
-                  <div className="h-36 overflow-hidden">
-                    <img
-                      src={n.image}
-                      alt=""
-                      loading="lazy"
-                      className="h-full w-full object-cover opacity-70 transition duration-700 group-hover:scale-105 group-hover:opacity-100"
-                    />
-                  </div>
-                )}
+                {n.image &&
+                  (n.imageFit === "contain" ? (
+                    <div className="flex h-36 items-center justify-center bg-white/[0.04] px-10">
+                      <img
+                        src={n.image}
+                        alt=""
+                        loading="lazy"
+                        className="max-h-14 w-full object-contain opacity-90"
+                      />
+                    </div>
+                  ) : (
+                    <div className="h-36 overflow-hidden">
+                      <img
+                        src={n.image}
+                        alt=""
+                        loading="lazy"
+                        className="h-full w-full object-cover opacity-70 transition duration-700 group-hover:scale-105 group-hover:opacity-100"
+                      />
+                    </div>
+                  ))}
                 <div className="flex flex-1 flex-col p-5">
                   <div className="flex items-center gap-3">
                     <Chip color={TAG_COLOUR[n.tag] ?? "#FAD103"}>{n.tag}</Chip>
