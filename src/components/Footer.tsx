@@ -1,26 +1,60 @@
-import { Link } from "react-router-dom";
-import { LINKS, SITE } from "../content/site";
+import { LINKS, SITE, type IconName } from "../content/site";
 import { Icon } from "./Icons";
 import { Acronym } from "./Header";
 import { Container } from "./ui";
 
-const PAGES = [
-  { to: "/", label: "Home" },
-  { to: "/research", label: "Research" },
-  { to: "/people", label: "People" },
-  { to: "/publications", label: "Publications" },
-  { to: "/outreach", label: "Outreach" },
-  { to: "/opportunities", label: "Opportunities" },
-  { to: "/news", label: "News" },
-  { to: "/contact", label: "Contact" },
-];
+/**
+ * The two link columns, named by icon so they follow whatever LINKS holds.
+ * Email is appended because it is a mailto rather than a profile.
+ */
+const COLUMN_ONE: IconName[] = ["scholar", "orcid", "github"];
+const COLUMN_TWO: IconName[] = ["tea", "bluesky"];
+
+function LinkColumn({ icons, withEmail = false }: { icons: IconName[]; withEmail?: boolean }) {
+  const items = icons
+    .map((icon) => LINKS.find((l) => l.icon === icon))
+    .filter((l): l is (typeof LINKS)[number] => Boolean(l));
+
+  return (
+    <ul className="space-y-2.5">
+      {items.map((l) => (
+        <li key={l.href}>
+          <a
+            href={l.href}
+            target="_blank"
+            rel="noreferrer"
+            className="group inline-flex items-center gap-2.5 text-sm text-neutral-300 transition hover:text-gold"
+          >
+            <span className="text-neutral-500 transition group-hover:text-gold">
+              <Icon name={l.icon} size={16} />
+            </span>
+            {l.label}
+          </a>
+        </li>
+      ))}
+      {withEmail && (
+        <li>
+          <a
+            href={`mailto:${SITE.email}`}
+            className="group inline-flex items-center gap-2.5 text-sm text-neutral-300 transition hover:text-gold"
+          >
+            <span className="text-neutral-500 transition group-hover:text-gold">
+              <Icon name="mail" size={16} />
+            </span>
+            Email
+          </a>
+        </li>
+      )}
+    </ul>
+  );
+}
 
 export default function Footer() {
   return (
     <footer className="relative mt-24 border-t border-white/10 bg-ink">
       <div className="brand-gradient absolute inset-x-0 top-0 h-[2px] opacity-60" />
       <Container className="py-14">
-        <div className="grid gap-10 md:grid-cols-[1.4fr_1fr_1fr]">
+        <div className="grid gap-10 md:grid-cols-[1.5fr_1fr_1fr]">
           <div>
             {/* matches the header wordmark exactly */}
             <div className="flex items-baseline gap-2.5">
@@ -34,70 +68,32 @@ export default function Footer() {
             <p className="mt-2.5 max-w-sm text-[11px] font-medium leading-tight tracking-wide text-white">
               <Acronym />
             </p>
-            <p className="mt-4 text-sm text-neutral-500">
+
+            <p className="mt-5 text-sm leading-relaxed text-neutral-500">
               {SITE.institution}
               <br />
               {SITE.university}, {SITE.city}
             </p>
+            <a
+              href={`mailto:${SITE.email}`}
+              className="mt-2 inline-block text-sm text-neutral-400 transition hover:text-gold"
+            >
+              {SITE.email}
+            </a>
           </div>
 
-          <div>
-            <h3 className="mb-4 text-xs font-semibold uppercase tracking-[0.2em] text-neutral-500">
-              Pages
-            </h3>
-            <ul className="space-y-2.5">
-              {PAGES.map((p) => (
-                <li key={p.to}>
-                  <Link
-                    to={p.to}
-                    className="text-sm text-neutral-300 transition hover:text-gold"
-                  >
-                    {p.label}
-                  </Link>
-                </li>
-              ))}
-            </ul>
+          <div className="md:pt-1">
+            <LinkColumn icons={COLUMN_ONE} />
           </div>
 
-          <div>
-            <h3 className="mb-4 text-xs font-semibold uppercase tracking-[0.2em] text-neutral-500">
-              Elsewhere
-            </h3>
-            <ul className="space-y-2.5">
-              {LINKS.map((l) => (
-                <li key={l.href}>
-                  <a
-                    href={l.href}
-                    target="_blank"
-                    rel="noreferrer"
-                    className="group inline-flex items-center gap-2.5 text-sm text-neutral-300 transition hover:text-gold"
-                  >
-                    <span className="text-neutral-500 transition group-hover:text-gold">
-                      <Icon name={l.icon} size={16} />
-                    </span>
-                    {l.label}
-                  </a>
-                </li>
-              ))}
-              <li>
-                <a
-                  href={`mailto:${SITE.email}`}
-                  className="group inline-flex items-center gap-2.5 text-sm text-neutral-300 transition hover:text-gold"
-                >
-                  <span className="text-neutral-500 transition group-hover:text-gold">
-                    <Icon name="mail" size={16} />
-                  </span>
-                  Email
-                </a>
-              </li>
-            </ul>
+          <div className="md:pt-1">
+            <LinkColumn icons={COLUMN_TWO} withEmail />
           </div>
         </div>
 
         <div className="mt-12 flex flex-col gap-3 border-t border-white/5 pt-6 text-xs text-neutral-500 sm:flex-row sm:items-center sm:justify-between">
           <p>
-            © {new Date().getFullYear()} PEACE Lab · Patrice Pottier ·{" "}
-            {SITE.university}
+            © {new Date().getFullYear()} PEACE Lab · Patrice Pottier · {SITE.university}
           </p>
           <p>
             Publications and collaborators update automatically from{" "}
