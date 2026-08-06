@@ -172,7 +172,7 @@ export const THEMES: Theme[] = [
       "What keeps researchers from sharing data and code, and what would change that?",
       "How do language and access policies shape whose science gets read?",
     ],
-    image: "/images/wordcloud_brain.png",
+    image: "/images/wordcloud.png",
     accent: "#B55EA8",
   },
 ];
@@ -434,7 +434,7 @@ export const POSITIONS: Position[] = [
       "Applicants should have completed a doctoral degree no more than three years before the closing date, with the usual allowances for parental leave, illness and similar circumstances.",
       "The start date is preferably before March 2027, with flexibility for notice periods and residence permits.",
     ],
-    image: "/images/research-warming.jpg",
+    image: "/images/opportunities-banner.webp",
   },
 ];
 
@@ -710,9 +710,11 @@ export const CONFERENCES: Conference[] = [
 
 /* ------------------------------------------------------------------ news */
 
+export type NewsTag = "Paper" | "Opportunities" | "Events" | "Award" | "Media" | "Lab";
+
 export type NewsItem = {
   date: string; // ISO date, drives ordering
-  tag: "Paper" | "Position" | "Talk" | "Award" | "Media" | "Lab" | "Network";
+  tag: NewsTag;
   title: string;
   body: string;
   href?: string;
@@ -726,12 +728,36 @@ export type NewsItem = {
 export const NEWS: NewsItem[] = [
   {
     date: "2026-08-01",
-    tag: "Position",
+    tag: "Opportunities",
     title: "Two positions open: one PhD and one postdoc",
     body:
       "We are recruiting a PhD student and a two-year postdoctoral researcher to work on thermal sensitivity across the life cycle. The Swedish Research Council funds both. Applications close on 21 September 2026.",
     href: "/opportunities",
-    image: "/images/moth-gold.jpg",
+    image: "/images/fish-eggs-tea.jpg",
+  },
+  {
+    date: "2026-07-20",
+    tag: "Events",
+    title: "Patrice returned from Bamfield Marine Sciences Centre",
+    body:
+      "An excellent couple of weeks on Vancouver Island, giving a seminar and teaching on the Ecological Data Synthesis course with Jenn Sunday and Nikki Moore. Few things sharpen your own thinking like watching students take a method apart.",
+    image: "/images/news-bamfield-trip.jpg",
+  },
+  {
+    date: "2026-07-12",
+    tag: "Events",
+    title: "Patrice returned from the FIN club writing retreat",
+    body:
+      "A brilliant few days writing on Vancouver Island after ICBF, with colleagues who are also friends. Retreats like this get more done than a month of ordinary weeks.",
+    image: "/images/news-bamfield-seminar.jpg",
+  },
+  {
+    date: "2026-07-05",
+    tag: "Events",
+    title: "Patrice attended the International Congress on the Biology of Fish in Vancouver",
+    body:
+      "A great week of catching up with old friends and meeting new ones. The talks from fish physiologists working all over the world left me full of ideas to chase.",
+    image: "/images/fish-trevally.jpg",
   },
   {
     date: "2026-06-01",
@@ -739,11 +765,11 @@ export const NEWS: NewsItem[] = [
     title: "The PEACE Lab starts at the University of Gothenburg",
     body:
       "The group opens at the Department of Biological and Environmental Sciences, working on how animals respond to rapidly changing environments.",
-    image: "/images/hero-leaf-insect.jpg",
+    image: "/images/fish-eggs.jpg",
   },
   {
     date: "2026-03-01",
-    tag: "Network",
+    tag: "Opportunities",
     title: "Thermal Ecology Alliance distributed experiment underway",
     body:
       "Research groups across six continents are collecting standardised data on fish embryonic heat tolerance. No single laboratory could assemble a dataset of this breadth alone.",

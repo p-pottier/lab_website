@@ -104,17 +104,21 @@ export default function Header() {
         }`}
       >
         <div className="mx-auto flex h-[90px] w-full max-w-content items-center justify-between px-5 sm:px-8">
+          {/* Colours stay put on hover; only the weight changes. */}
           <Link to="/" className="group block" aria-label="PEACE Lab, home">
             <span className="flex items-baseline gap-2.5">
               <span className="brand-text font-display text-[26px] font-bold leading-none tracking-tight">
                 PEACE
               </span>
-              <span className="text-[11px] font-medium uppercase tracking-[0.28em] text-neutral-400 transition group-hover:text-cyan">
+              <span className="text-[11px] font-medium uppercase tracking-[0.28em] text-cyan transition-all duration-200 group-hover:font-bold">
                 Lab
               </span>
             </span>
-            <span className="mt-1.5 hidden max-w-[34rem] text-[11px] font-medium leading-tight tracking-wide text-neutral-500 transition group-hover:text-neutral-300 sm:block">
-              <Acronym />
+            <span className="mt-1.5 hidden max-w-[34rem] text-[11px] leading-tight tracking-wide text-white transition-all duration-200 sm:block">
+              <Acronym
+                restClassName="font-medium group-hover:font-semibold"
+                goldClassName="text-gold font-semibold group-hover:font-bold"
+              />
             </span>
           </Link>
 

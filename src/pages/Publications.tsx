@@ -1,7 +1,7 @@
 import { useMemo, useState } from "react";
 import { motion } from "framer-motion";
 import { HIGHLIGHTED_DOIS, LINKS } from "../content/site";
-import { usePublications, type Publication } from "../lib/useData";
+import { titleKey, usePublications, useScholar, type Publication } from "../lib/useData";
 import { Chip, Container, GhostButton, PageHero, Reveal } from "../components/ui";
 import { Icon } from "../components/Icons";
 
@@ -216,7 +216,22 @@ export default function Publications() {
   const [year, setYear] = useState<number | "all">("all");
   const [query, setQuery] = useState("");
 
-  const pubs = data?.publications ?? [];
+  const scholarData = useScholar();
+
+  /**
+   * Google Scholar indexes more sources than OpenAlex, so its counts run
+   * higher and are what most readers expect. Use them where a title matches,
+   * and fall back to OpenAlex everywhere else.
+   */
+  const pubs = useMemo(() => {
+    const base = data?.publications ?? [];
+    if (!scholarData) return base;
+    const byKey = new Map(scholarData.publications.map((p) => [p.key, p.citations]));
+    return base.map((p) => {
+      const hit = byKey.get(titleKey(p.title));
+      return hit != null && hit > p.citations ? { ...p, citations: hit } : p;
+    });
+  }, [data, scholarData]);
 
   const highlights = useMemo(
     () =>
@@ -267,7 +282,7 @@ export default function Publications() {
         eyebrow="Publications"
         title="Papers"
         lead="This list is built from ORCID, Crossref and OpenAlex, and refreshes every night. Preprints move to their published version as soon as a journal accepts them."
-        image="/images/wordcloud_heart.png"
+        image="/images/wordcloud.png"
         height="h-[40vh] min-h-[280px]"
       />
 
@@ -321,6 +336,7 @@ export default function Publications() {
             {data && (
               <span className="text-xs text-neutral-500">
                 {pubs.length} works · updated {data.updated}
+                {scholarData && ` · Scholar counts from ${scholarData.updated}`}
               </span>
             )}
           </div>

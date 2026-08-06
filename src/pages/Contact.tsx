@@ -1,4 +1,4 @@
-import { LINKS, PI, SITE } from "../content/site";
+import { LINKS, SITE } from "../content/site";
 import { Icon } from "../components/Icons";
 import { Container, GradientButton, PageHero, Reveal, SectionHeading } from "../components/ui";
 import { ArrowRight } from "../components/Icons";
@@ -19,9 +19,9 @@ export default function Contact() {
           <Reveal>
             <div>
               <img
-                src={PI.photo}
+                src="/images/patrice-portrait.jpg"
                 alt="Patrice Pottier"
-                className="mb-7 h-36 w-36 rounded-2xl border border-white/10 object-cover"
+                className="mb-7 h-44 w-44 rounded-2xl border border-white/10 object-cover"
               />
               <SectionHeading title="Patrice Pottier" lead="Principal Investigator, PEACE Lab" />
 
@@ -82,8 +82,8 @@ export default function Contact() {
                 ))}
               </div>
 
-              <div className="card mt-6 p-6">
-                <h3 className="font-display text-lg font-semibold text-white">
+              <div className="card mt-6 border-cyan/40 bg-cyan/[0.04] p-6 hover:border-cyan">
+                <h3 className="font-display text-lg font-semibold text-cyan">
                   Prospective students and postdocs
                 </h3>
                 <p className="mt-2 text-sm leading-relaxed text-neutral-400">
@@ -93,8 +93,8 @@ export default function Contact() {
                 </p>
               </div>
 
-              <div className="card mt-4 p-6">
-                <h3 className="font-display text-lg font-semibold text-white">
+              <div className="card mt-4 border-ember/40 bg-ember/[0.04] p-6 hover:border-ember">
+                <h3 className="font-display text-lg font-semibold text-ember">
                   Joining the Thermal Ecology Alliance
                 </h3>
                 <p className="mt-2 text-sm leading-relaxed text-neutral-400">

@@ -77,29 +77,50 @@
     );
   }
 
-  /* Gradient lettering, used for the wordmark and for page titles. */
+  /* Gradient lettering: cyan to yellow to orange to red, as on the rules. */
   .brand-text {
-    background-image: linear-gradient(90deg, #fad103 0%, #fa6a03 55%, #02b8a6 100%);
-    background-size: 200% auto;
+    background-image: linear-gradient(
+      95deg,
+      #02b8a6 0%,
+      #fad103 34%,
+      #fa6a03 68%,
+      #b80502 100%
+    );
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
   }
 
-  /* A slower, wider sweep for headings, so the colour reads across long words. */
+  /* Same ramp for headings, angled a little so it reads across long titles. */
   .brand-title {
     background-image: linear-gradient(
       100deg,
-      #fad103 0%,
-      #fa6a03 38%,
-      #b80502 62%,
-      #02b8a6 100%
+      #02b8a6 0%,
+      #fad103 34%,
+      #fa6a03 68%,
+      #b80502 100%
     );
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
     /* descenders get clipped without a little breathing room */
     padding-bottom: 0.08em;
+  }
+
+  /* Fades an image into the page on every edge, so it has no visible border. */
+  .feather-edges {
+    -webkit-mask-image: radial-gradient(
+      ellipse 78% 76% at 50% 48%,
+      #000 42%,
+      rgba(0, 0, 0, 0.75) 62%,
+      transparent 88%
+    );
+    mask-image: radial-gradient(
+      ellipse 78% 76% at 50% 48%,
+      #000 42%,
+      rgba(0, 0, 0, 0.75) 62%,
+      transparent 88%
+    );
   }
 
   /* Card surface: near-black with a hairline edge that warms on hover. */

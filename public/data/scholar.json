@@ -1,0 +1,323 @@
+{
+ "updated": "2026-08-06",
+ "source": "Google Scholar via scholarly",
+ "scholarId": "gg1rV3IAAAAJ",
+ "citations": 2011,
+ "citations5y": 1996,
+ "hIndex": 21,
+ "i10Index": 25,
+ "publications": [
+  {
+   "title": "Why don't we share data and code? Perceived barriers and benefits to public archiving practices",
+   "key": "why don share data code perceived barriers benefits public archiving practices",
+   "year": 2022,
+   "citations": 225
+  },
+  {
+   "title": "orchaRd 2.0: An R package for visualizing meta-analyses with orchard plots",
+   "key": "orchard package visualizing meta analyses orchard plots",
+   "year": 2023,
+   "citations": 211
+  },
+  {
+   "title": "Developmental plasticity in thermal tolerance: Ontogenetic variation, persistence, and future directions",
+   "key": "developmental plasticity thermal tolerance ontogenetic variation persistence future directions",
+   "year": 2022,
+   "citations": 163
+  },
+  {
+   "title": "Meta-analysis reveals weak but pervasive plasticity in insect thermal limits",
+   "key": "meta analysis reveals weak but pervasive plasticity insect thermal limits",
+   "year": 2022,
+   "citations": 153
+  },
+  {
+   "title": "Same data, different analysts: variation in effect sizes due to analytical decisions in ecology and evolutionary biology",
+   "key": "same data different analysts variation effect sizes due analytical decisions ecology evolutionary biology",
+   "year": 2025,
+   "citations": 143
+  },
+  {
+   "title": "Vulnerability of amphibians to global warming",
+   "key": "vulnerability amphibians global warming",
+   "year": 2025,
+   "citations": 111
+  },
+  {
+   "title": "The impact of rising temperatures on the prevalence of coral diseases and its predictability: A global meta‐analysis",
+   "key": "impact rising temperatures prevalence coral diseases its predictability global meta analysis",
+   "year": 2023,
+   "citations": 95
+  },
+  {
+   "title": "Method Reporting with Initials for Transparency (MeRIT) promotes more granularity and accountability for author contributions",
+   "key": "method reporting initials transparency merit promotes more granularity accountability author contributions",
+   "year": 2023,
+   "citations": 93
+  },
+  {
+   "title": "The role of non-English-language science in informing national biodiversity assessments",
+   "key": "role non english language science informing national biodiversity assessments",
+   "year": 2023,
+   "citations": 91
+  },
+  {
+   "title": "Sexual (in) equality? A meta‐analysis of sex differences in thermal acclimation capacity across ectotherms",
+   "key": "sexual equality meta analysis sex differences thermal acclimation capacity ectotherms",
+   "year": 2021,
+   "citations": 87
+  },
+  {
+   "title": "Academic publishing requires linguistically inclusive policies",
+   "key": "academic publishing requires linguistically inclusive policies",
+   "year": 2024,
+   "citations": 79
+  },
+  {
+   "title": "Title, abstract and keywords: a practical guide to maximize the visibility and impact of academic papers",
+   "key": "title abstract keywords practical guide maximize visibility impact academic papers",
+   "year": 2024,
+   "citations": 78
+  },
+  {
+   "title": "A comprehensive database of amphibian heat tolerance",
+   "key": "comprehensive database amphibian heat tolerance",
+   "year": 2022,
+   "citations": 61
+  },
+  {
+   "title": "Meta-analytic approaches and effect sizes to account for ‘nuisance heterogeneity’in comparative physiology",
+   "key": "meta analytic approaches effect sizes account nuisance heterogeneity comparative physiology",
+   "year": 2022,
+   "citations": 51
+  },
+  {
+   "title": "A systematic map of studies testing the relationship between temperature and animal reproduction",
+   "key": "systematic map studies testing relationship between temperature animal reproduction",
+   "year": 2024,
+   "citations": 45
+  },
+  {
+   "title": "Four principles for improved statistical ecology",
+   "key": "four principles improved statistical ecology",
+   "year": 2024,
+   "citations": 43
+  },
+  {
+   "title": "Methodological inconsistencies define thermal bottlenecks in fish life cycle: a comment on Dahlke et al. 2020",
+   "key": "methodological inconsistencies define thermal bottlenecks fish life cycle comment dahlke 2020",
+   "year": 2022,
+   "citations": 39
+  },
+  {
+   "title": "Thermal processing reduces PFAS concentrations in blue food–A systematic review and meta-analysis",
+   "key": "thermal processing reduces pfas concentrations blue food systematic review meta analysis",
+   "year": 2022,
+   "citations": 31
+  },
+  {
+   "title": "Unravelling the magnitude and drivers of PFAS trophic magnification: a meta-analysis",
+   "key": "unravelling magnitude drivers pfas trophic magnification meta analysis",
+   "year": 2025,
+   "citations": 27
+  },
+  {
+   "title": "Systematic approaches to assessing high-temperature limits to fertility in animals",
+   "key": "systematic approaches assessing high temperature limits fertility animals",
+   "year": 2024,
+   "citations": 25
+  },
+  {
+   "title": "New horizons for comparative studies and meta-analyses",
+   "key": "new horizons comparative studies meta analyses",
+   "year": 2023,
+   "citations": 25
+  },
+  {
+   "title": "Developmental environments do not affect thermal physiological traits in reptiles: an experimental test and meta-analysis",
+   "key": "developmental environments not affect thermal physiological traits reptiles experimental test meta analysis",
+   "year": 2023,
+   "citations": 17
+  },
+  {
+   "title": "Keep calm, we know each other: kin recognition affects aggressiveness and conflict resolution in a solitary parasitoid",
+   "key": "keep calm know each other kin recognition affects aggressiveness conflict resolution solitary parasitoid",
+   "year": 2019,
+   "citations": 16
+  },
+  {
+   "title": "Let the most motivated win: resource value components affect contest outcome in a parasitoid wasp",
+   "key": "let most motivated win resource value components affect contest outcome parasitoid wasp",
+   "year": 2018,
+   "citations": 16
+  },
+  {
+   "title": "Reporting guidelines for terrestrial respirometry: Building openness, transparency of metabolic rate and evaporative water loss data",
+   "key": "reporting guidelines terrestrial respirometry building openness transparency metabolic rate evaporative water loss data",
+   "year": 2024,
+   "citations": 14
+  },
+  {
+   "title": "Embryos are largely understudied in a representative sample of journals in conservation physiology",
+   "key": "embryos largely understudied representative sample journals conservation physiology",
+   "year": 2026,
+   "citations": 7
+  },
+  {
+   "title": "Marine infrastructure support fewer producers and more filter feeders than natural habitats: a review and meta-analysis",
+   "key": "marine infrastructure support fewer producers more filter feeders than natural habitats review meta analysis",
+   "year": 2024,
+   "citations": 7
+  },
+  {
+   "title": "Native and commercial microbial inoculants show equal effects on plant growth in dryland ecosystems",
+   "key": "native commercial microbial inoculants show equal effects plant growth dryland ecosystems",
+   "year": 2023,
+   "citations": 7
+  },
+  {
+   "title": "Harnessing meta-analyses’ insights in ecology and evolution research",
+   "key": "harnessing meta analyses insights ecology evolution research",
+   "year": 2025,
+   "citations": 6
+  },
+  {
+   "title": "The promise of community-driven preprints in ecology and evolution",
+   "key": "promise community driven preprints ecology evolution",
+   "year": 2024,
+   "citations": 6
+  },
+  {
+   "title": "Mapping literature reviews on coral health: A review map, critical appraisal and bibliometric analysis",
+   "key": "mapping literature reviews coral health review map critical appraisal bibliometric analysis",
+   "year": 2023,
+   "citations": 6
+  },
+  {
+   "title": "Mapping literature reviews on coral health: Protocol for a review map, critical appraisal and bibliometric analysis",
+   "key": "mapping literature reviews coral health protocol review map critical appraisal bibliometric analysis",
+   "year": 2022,
+   "citations": 6
+  },
+  {
+   "title": "AmphiTherm: a comprehensive database of amphibian thermal tolerance and preference",
+   "key": "amphitherm comprehensive database amphibian thermal tolerance preference",
+   "year": 2025,
+   "citations": 5
+  },
+  {
+   "title": "Dragon Kill Points: applying a transparent working template to relieve authorship stress",
+   "key": "dragon kill points applying transparent working template relieve authorship stress",
+   "year": 2025,
+   "citations": 5
+  },
+  {
+   "title": "MATES: A tool for appraising the completeness with which a meta-analysis has been reported",
+   "key": "mates tool appraising completeness which meta analysis has been reported",
+   "year": 2025,
+   "citations": 4
+  },
+  {
+   "title": "Priced out of belonging? Insufficient concessions on membership fees across international societies in ecology and evolution",
+   "key": "priced out belonging insufficient concessions membership fees international societies ecology evolution",
+   "year": 2025,
+   "citations": 4
+  },
+  {
+   "title": "Extreme Heat as the New Normal: A Methodological Roadmap Incorporating Behavior, Physiology, and Species Distributions",
+   "key": "extreme heat new normal methodological roadmap incorporating behavior physiology species distributions",
+   "year": 2026,
+   "citations": 2
+  },
+  {
+   "title": "Extensive climate-induced range shifts in butterflies across the globe",
+   "key": "extensive climate induced range shifts butterflies globe",
+   "year": 2025,
+   "citations": 2
+  },
+  {
+   "title": "Sex‐Specific Effects of Social Environment on Behaviour and Their Correlations in Drosophila melanogaster",
+   "key": "sex specific effects social environment behaviour their correlations drosophila melanogaster",
+   "year": 2025,
+   "citations": 2
+  },
+  {
+   "title": "Quantifying between-individual variation using high-throughput phenotyping of behavioural traits in the fruit fly (Drosophila melanogaster)",
+   "key": "quantifying between individual variation high throughput phenotyping behavioural traits fruit fly drosophila melanogaster",
+   "year": 2022,
+   "citations": 2
+  },
+  {
+   "title": "Natural developmental temperatures of ectotherms: A systematic map and comparative analysis",
+   "key": "natural developmental temperatures ectotherms systematic map comparative analysis",
+   "year": 2025,
+   "citations": 1
+  },
+  {
+   "title": "Life cycle complexity drives variation in thermal tolerance and plasticity",
+   "key": "life cycle complexity drives variation thermal tolerance plasticity",
+   "year": 2026,
+   "citations": 0
+  },
+  {
+   "title": "Heritabilities and genetic correlations of Drosophila melanogaster locomotory behaviour traits: a high-throughput phenotyping approach",
+   "key": "heritabilities genetic correlations drosophila melanogaster locomotory behaviour traits high throughput phenotyping approach",
+   "year": 2026,
+   "citations": 0
+  },
+  {
+   "title": "A flexible modelling framework for estimating thermal tolerance and sensitivity",
+   "key": "flexible modelling framework estimating thermal tolerance sensitivity",
+   "year": 2026,
+   "citations": 0
+  },
+  {
+   "title": "Sharing Credit in Arctic Research: Lessons from Dragon Kill Points",
+   "key": "sharing credit arctic research lessons dragon kill points",
+   "year": 2026,
+   "citations": 0
+  },
+  {
+   "title": "AmphiTherm: amphibian thermal tolerance and preference",
+   "key": "amphitherm amphibian thermal tolerance preference",
+   "year": 2025,
+   "citations": 0
+  },
+  {
+   "title": "code from: The promise of community-driven preprints in ecology and evolution",
+   "key": "code promise community driven preprints ecology evolution",
+   "year": 2024,
+   "citations": 0
+  },
+  {
+   "title": "Plasticity and resilience of ectotherms to climate change",
+   "key": "plasticity resilience ectotherms climate change",
+   "year": 2024,
+   "citations": 0
+  },
+  {
+   "title": "p-pottier/AmphiTherm: AmphiTherm",
+   "key": "pottier amphitherm amphitherm",
+   "year": null,
+   "citations": 0
+  },
+  {
+   "title": "p-pottier/Vulnerability_amphibians_global_warming: v1. 0.0",
+   "key": "pottier vulnerability amphibians global warming",
+   "year": null,
+   "citations": 0
+  },
+  {
+   "title": "p-pottier/Amphibian_upper_thermal_limits: v1. 0",
+   "key": "pottier amphibian upper thermal limits",
+   "year": null,
+   "citations": 0
+  },
+  {
+   "title": "p-pottier/Dev_plasticity_thermal_tolerance: Developmental plasticity in thermal tolerance: ontogenetic variation, persistence, and future directions",
+   "key": "pottier dev plasticity thermal tolerance developmental plasticity thermal tolerance ontogenetic variation persistence future directions",
+   "year": null,
+   "citations": 0
+  }
+ ]
+}

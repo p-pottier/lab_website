@@ -207,11 +207,25 @@ export default function Outreach() {
           </Reveal>
 
           <Reveal delay={0.1}>
-            <div className="mt-8 rounded-2xl border border-dashed border-neutral-700 p-8 text-sm leading-relaxed text-neutral-500">
-              Nothing listed yet. Entries would go in{" "}
+            <figure className="mt-8 overflow-hidden rounded-2xl border border-edge bg-panel">
+              <img
+                src="/images/talk-seb.jpg"
+                alt="Patrice Pottier speaking at the SEB annual conference"
+                className="aspect-[16/9] w-full object-cover"
+                loading="lazy"
+              />
+              <figcaption className="px-5 py-3.5 text-sm leading-snug text-neutral-400">
+                Speaking at the SEB annual conference.
+              </figcaption>
+            </figure>
+          </Reveal>
+
+          <Reveal delay={0.15}>
+            <p className="mt-5 text-sm leading-relaxed text-neutral-500">
+              A full list of talks and teaching will go here. Entries belong in{" "}
               <code className="rounded bg-ink px-1.5 py-0.5 text-cyan">src/content/site.ts</code>, in
               the same form as the posters above.
-            </div>
+            </p>
           </Reveal>
         </section>
       </Container>

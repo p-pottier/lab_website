@@ -114,3 +114,40 @@ export function useCollaborators() {
 export function useWorldAtlas() {
   return useJSON<any>("/data/countries-110m.json");
 }
+
+/* --------------------------------------------------------------- scholar */
+
+export type ScholarData = {
+  updated: string;
+  source: string;
+  scholarId: string;
+  citations: number;
+  citations5y: number | null;
+  hIndex: number | null;
+  i10Index: number | null;
+  publications: { title: string; key: string; year: number | null; citations: number }[];
+};
+
+/**
+ * Google Scholar counts, refreshed by hand with scripts/scholar_refresh.py.
+ * The file is optional: without it the site falls back to OpenAlex.
+ */
+export function useScholar() {
+  return useJSON<ScholarData>("/data/scholar.json");
+}
+
+const STOP = new Set([
+  "a","an","the","of","in","on","for","and","to","with","across","using","from",
+  "is","are","by","at","as","that",
+]);
+
+/** Same normalisation as the Python script, so the keys line up. */
+export function titleKey(title: string) {
+  return (title || "")
+    .toLowerCase()
+    .normalize("NFKD")
+    .replace(/[^a-z0-9 ]+/g, " ")
+    .split(/\s+/)
+    .filter((w) => w.length > 2 && !STOP.has(w))
+    .join(" ");
+}

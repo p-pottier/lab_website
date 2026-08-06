@@ -6,13 +6,12 @@ import { Chip, Container, PageHero, Reveal } from "../components/ui";
 import { ArrowRight } from "../components/Icons";
 
 const TAG_COLOUR: Record<NewsItem["tag"], string> = {
-  Paper: "#02B8A6",
-  Position: "#FAD103",
-  Talk: "#FA6A03",
+  Paper: "#FAD103",
+  Opportunities: "#FA6A03",
+  Events: "#02B8A6",
   Award: "#B80502",
   Media: "#B55EA8",
   Lab: "#FAD103",
-  Network: "#02B8A6",
 };
 
 function formatDate(iso: string) {
@@ -117,7 +116,7 @@ export default function News() {
         eyebrow="News"
         title="What is happening"
         lead="Papers, positions, talks and everything else worth mentioning, newest first."
-        image="/images/frog-moss.jpg"
+        image="/images/hero-leaf-insect.jpg"
         height="h-[40vh] min-h-[280px]"
       />
 

@@ -32,10 +32,13 @@ function Hero() {
         <img
           src="/images/fish-eggs.jpg"
           alt="Developing fish embryos inside their eggs"
-          className="h-full w-full animate-slow-zoom object-cover"
+          className="h-full w-full object-cover"
         />
-        <div className="absolute inset-0 bg-gradient-to-r from-ink via-ink/85 to-ink/20" />
-        <div className="absolute inset-0 bg-gradient-to-t from-ink via-transparent to-ink/60" />
+        {/* Three overlapping washes so the photograph dissolves into the page
+            on every side rather than ending on a visible edge. */}
+        <div className="absolute inset-0 bg-gradient-to-r from-ink via-ink/80 to-ink/15" />
+        <div className="absolute inset-0 bg-gradient-to-t from-ink via-ink/25 to-ink/75" />
+        <div className="absolute inset-x-0 bottom-0 h-56 bg-gradient-to-t from-ink to-transparent" />
       </motion.div>
 
       <Container className="relative pb-16 pt-28">
@@ -48,7 +51,7 @@ function Hero() {
           <div className="mb-5 flex items-center gap-3">
             <span className="h-px w-10 bg-gold" />
             <span className="text-xs font-semibold uppercase tracking-[0.24em] text-gold">
-              {SITE.university} · {SITE.city}
+              {SITE.university} · Sweden
             </span>
           </div>
 
@@ -57,7 +60,7 @@ function Hero() {
           </h1>
 
           <p className="mt-5 max-w-2xl font-display text-xl font-medium leading-snug sm:text-2xl">
-            <Acronym restClassName="text-cyan" goldClassName="text-gold" />
+            <Acronym restClassName="text-white" goldClassName="text-gold" />
           </p>
 
           <p className="mt-6 max-w-xl text-[17px] leading-relaxed text-neutral-300">
@@ -167,6 +170,21 @@ function Mission() {
             </div>
           </Reveal>
         </div>
+
+        {/* Built from the titles and abstracts of our own papers. The mask
+            feathers every edge so it rises out of the section rather than
+            sitting on it as a picture. */}
+        <Reveal>
+          <div className="pointer-events-none relative -mt-6 flex justify-center sm:-mt-10">
+            <img
+              src="/images/wordcloud.png"
+              alt="A word cloud built from the titles of the group's papers"
+              className="feather-edges w-full max-w-3xl opacity-95"
+              loading="lazy"
+            />
+            <div className="absolute inset-x-0 bottom-0 h-24 bg-gradient-to-t from-ink to-transparent" />
+          </div>
+        </Reveal>
       </Container>
     </section>
   );
@@ -178,18 +196,6 @@ function Themes() {
   return (
     <section className="relative py-20">
       <Container>
-        {/* the word cloud is drawn from our own paper titles and abstracts */}
-        <Reveal>
-          <div className="mb-14 flex justify-center">
-            <img
-              src="/images/wordcloud_brain.png"
-              alt="A word cloud in the shape of a brain, built from the group's paper titles"
-              className="w-full max-w-2xl opacity-90"
-              loading="lazy"
-            />
-          </div>
-        </Reveal>
-
         <Reveal>
           <div className="flex flex-wrap items-end justify-between gap-6">
             <SectionHeading eyebrow="Research" title="The questions we keep coming back to" />
@@ -330,13 +336,12 @@ function OpenPositions() {
 /* ------------------------------------------------------------------ news */
 
 const TAG_COLOUR: Record<string, string> = {
-  Paper: "#02B8A6",
-  Position: "#FAD103",
-  Talk: "#FA6A03",
+  Paper: "#FAD103",
+  Opportunities: "#FA6A03",
+  Events: "#02B8A6",
   Award: "#B80502",
   Media: "#B55EA8",
   Lab: "#FAD103",
-  Network: "#02B8A6",
 };
 
 function LatestNews() {
