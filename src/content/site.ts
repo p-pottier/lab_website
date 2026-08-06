@@ -435,7 +435,7 @@ export const POSITIONS: Position[] = [
       "Applicants should have completed a doctoral degree no more than three years before the closing date, with the usual allowances for parental leave, illness and similar circumstances.",
       "The start date is preferably before March 2027, with flexibility for notice periods and residence permits.",
     ],
-    image: "/images/opportunities-banner.webp",
+    image: "/images/portfolio-banner.webp",
   },
 ];
 
