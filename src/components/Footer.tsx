@@ -104,6 +104,24 @@ export default function Footer() {
           <p>
             Publications and collaborators update automatically from{" "}
             <a
+              href="https://orcid.org/0000-0003-2106-6597"
+              target="_blank"
+              rel="noreferrer"
+              className="text-neutral-400 underline decoration-neutral-700 underline-offset-2 transition hover:text-gold"
+            >
+              ORCID
+            </a>
+            ,{" "}
+            <a
+              href="https://www.crossref.org/"
+              target="_blank"
+              rel="noreferrer"
+              className="text-neutral-400 underline decoration-neutral-700 underline-offset-2 transition hover:text-gold"
+            >
+              Crossref
+            </a>{" "}
+            and{" "}
+            <a
               href="https://openalex.org/"
               target="_blank"
               rel="noreferrer"

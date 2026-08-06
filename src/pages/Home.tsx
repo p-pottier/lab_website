@@ -65,13 +65,13 @@ function Hero() {
             </span>
           </div>
 
-          <h1 className="font-display text-[3.1rem] font-black leading-[0.98] text-white sm:text-7xl md:text-[5.3rem]">
-            The <span className="brand-title">PEACE</span>{" "}
-            <span className="font-normal">lab</span>
+          {/* Only the acronym itself takes the heavy weight. */}
+          <h1 className="font-display text-[3.1rem] font-normal leading-[0.98] text-white sm:text-7xl md:text-[5.3rem]">
+            The <span className="brand-title font-black">PEACE</span> lab
           </h1>
 
           <p className="mt-5 max-w-2xl font-display text-xl font-medium leading-snug sm:text-2xl">
-            <Acronym restClassName="text-white" goldClassName="text-gold" />
+            <Acronym twoLines restClassName="text-white" goldClassName="text-gold" />
           </p>
 
           <p className="mt-6 max-w-xl text-[17px] leading-relaxed text-neutral-300">
@@ -271,7 +271,7 @@ function Network() {
           <SectionHeading
             eyebrow="Collaboration"
             title="A global collaborative network"
-            lead="Almost nothing here was done alone. These figures come from every co-authored paper on record, and refresh themselves."
+            lead="Almost nothing here was done alone. These figures come from every co-authored paper on record, counted nightly from OpenAlex."
           />
         </Reveal>
         <Reveal delay={0.1}>

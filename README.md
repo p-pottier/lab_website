@@ -13,6 +13,10 @@ npm run data       # refreshes publications, metrics and collaborators
 npm run typecheck
 ```
 
+Headings are set in Congenial, licensed through Adobe Fonts and loaded from the
+Typekit link in `index.html`. If that kit is ever removed the site falls back to
+Space Grotesk on its own.
+
 `node scripts/smoke.mjs` loads every page in a real browser, reports console
 errors and broken requests, and writes screenshots to `.smoke/`. Run it before
 pushing anything that touches layout.
@@ -64,10 +68,19 @@ Three behaviours worth knowing about:
 - **Software, datasets and supplementary files are excluded**, along with
   conference abstracts and The Conversation pieces. Those last two are listed
   under Outreach instead.
-- **Citations come from OpenAlex, not Google Scholar.** Scholar has no public
-  API and blocks scraping, so its numbers cannot be fetched honestly. Its counts
-  run higher because it indexes theses, reports and preprint servers more
-  aggressively. Both links appear on the Publications page.
+- **Citation counts come from Google Scholar, refreshed by hand.** Scholar has
+  no API and blocks automated access, so this is deliberately a manual step:
+
+  ```bash
+  python scripts/scholar_refresh.py     # needs: pip install scholarly
+  ```
+
+  It writes `public/data/scholar.json`, and the Publications page prefers those
+  counts over OpenAlex wherever a title matches. Everything still works if the
+  file is absent or stale, so run it every few weeks rather than nightly. It is
+  **not** in the GitHub Action, because Scholar blocks shared runner IP
+  addresses far faster than a home connection. If it ever reports a refusal,
+  wait a few hours rather than retrying.
 - **Altmetric attention scores are off by default.** Altmetric closed its free
   API on 10 November 2025. Add an `ALTMETRIC_KEY` repository secret to switch
   them back on; without it the step is skipped.

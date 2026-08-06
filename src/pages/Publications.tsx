@@ -286,7 +286,7 @@ export default function Publications() {
       <PageHero
         eyebrow="Publications"
         title="Papers"
-        lead="This list is built from ORCID, Crossref and OpenAlex, and refreshes every night. Preprints move to their published version as soon as a journal accepts them."
+        lead="This list is built from ORCID, Crossref and OpenAlex, and refreshes every night. Preprints move to their published version as soon as a journal accepts them. Citation counts come from Google Scholar."
         image="/images/chameleon.webp"
         height="h-[40vh] min-h-[280px]"
       />
@@ -340,8 +340,8 @@ export default function Publications() {
             )}
             {data && (
               <span className="text-xs text-neutral-500">
-                {pubs.length} works · updated {data.updated}
-                {scholarData && ` · Scholar counts from ${scholarData.updated}`}
+                {pubs.length} works · list updated {data.updated}
+                {scholarData && ` · citations from Google Scholar, ${scholarData.updated}`}
               </span>
             )}
           </div>
