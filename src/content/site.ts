@@ -195,8 +195,8 @@ export const PI: Person = {
   role: "Principal Investigator",
   affiliation: "Department of Biological and Environmental Sciences, University of Gothenburg",
   photo: "/images/patrice-pottier.webp",
+  // The CV sits on its own button below the biography, so it is not repeated here.
   links: [
-    { label: "Curriculum vitae", href: CV_URL },
     { label: "Google Scholar", href: "https://scholar.google.com/citations?user=gg1rV3IAAAAJ&hl=en" },
     { label: "ORCID", href: "https://orcid.org/0000-0003-2106-6597" },
     { label: "Email", href: "mailto:patrice.pottier@bioenv.gu.se" },
@@ -733,7 +733,7 @@ export const NEWS: NewsItem[] = [
     body:
       "We are recruiting a PhD student and a two-year postdoctoral researcher to work on thermal sensitivity across the life cycle. The Swedish Research Council funds both. Applications close on 21 September 2026.",
     href: "/opportunities",
-    image: "/images/fish-eggs-tea.jpg",
+    image: "/images/opportunities-banner.webp",
   },
   {
     date: "2026-07-20",
@@ -749,7 +749,6 @@ export const NEWS: NewsItem[] = [
     title: "Patrice returned from the FIN club writing retreat",
     body:
       "A brilliant few days writing on Vancouver Island after ICBF, with colleagues who are also friends. Retreats like this get more done than a month of ordinary weeks.",
-    image: "/images/news-bamfield-seminar.jpg",
   },
   {
     date: "2026-07-05",
@@ -757,7 +756,6 @@ export const NEWS: NewsItem[] = [
     title: "Patrice attended the International Congress on the Biology of Fish in Vancouver",
     body:
       "A great week of catching up with old friends and meeting new ones. The talks from fish physiologists working all over the world left me full of ideas to chase.",
-    image: "/images/fish-trevally.jpg",
   },
   {
     date: "2026-06-01",

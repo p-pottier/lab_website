@@ -282,7 +282,7 @@ export default function Publications() {
         eyebrow="Publications"
         title="Papers"
         lead="This list is built from ORCID, Crossref and OpenAlex, and refreshes every night. Preprints move to their published version as soon as a journal accepts them."
-        image="/images/wordcloud.png"
+        image="/images/chameleon.webp"
         height="h-[40vh] min-h-[280px]"
       />
 

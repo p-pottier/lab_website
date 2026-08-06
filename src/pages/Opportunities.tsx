@@ -118,7 +118,7 @@ export default function Opportunities() {
         eyebrow="Opportunities"
         title="Join the group"
         lead="Two funded positions are open in Gothenburg, and there are several routes in for researchers who bring their own funding."
-        image="/images/chameleon.webp"
+        image="/images/opportunities-banner.webp"
       />
 
       <Container className="py-16">
@@ -248,29 +248,49 @@ export default function Opportunities() {
           </Reveal>
 
           <Reveal delay={0.1}>
-            <div className="mt-10 grid gap-4 md:grid-cols-2">
-              {SHORT_VISITS.map((v) => (
-                <a
-                  key={v.name}
-                  href={v.url}
-                  target="_blank"
-                  rel="noreferrer"
-                  className="card group flex flex-col p-5"
-                >
-                  <div className="flex items-start justify-between gap-4">
-                    <h3 className="font-display text-[16px] font-semibold leading-snug text-white transition group-hover:text-gold">
-                      {v.name}
-                    </h3>
-                    <span className="shrink-0 rounded-full border border-cyan/40 bg-cyan/10 px-2.5 py-1 text-[11px] font-semibold text-cyan">
-                      {v.duration}
-                    </span>
-                  </div>
-                  <p className="mt-1.5 text-xs uppercase tracking-[0.12em] text-neutral-500">
-                    {v.funder}
-                  </p>
-                  <p className="mt-3 text-sm leading-relaxed text-neutral-400">{v.who}</p>
-                </a>
-              ))}
+            <div className="mt-10 overflow-hidden rounded-2xl border border-edge">
+              <table className="w-full border-collapse text-left">
+                <thead>
+                  <tr className="border-b border-edge bg-panel">
+                    <th className="px-5 py-4 text-xs font-semibold uppercase tracking-[0.15em] text-neutral-500">
+                      Scheme
+                    </th>
+                    <th className="hidden px-5 py-4 text-xs font-semibold uppercase tracking-[0.15em] text-neutral-500 md:table-cell">
+                      Who it is for
+                    </th>
+                    <th className="px-5 py-4 text-xs font-semibold uppercase tracking-[0.15em] text-neutral-500">
+                      Length
+                    </th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {SHORT_VISITS.map((v) => (
+                    <tr
+                      key={v.name}
+                      className="border-b border-white/5 transition last:border-0 hover:bg-white/[0.03]"
+                    >
+                      <td className="px-5 py-4">
+                        <a
+                          href={v.url}
+                          target="_blank"
+                          rel="noreferrer"
+                          className="font-medium text-white transition hover:text-gold"
+                        >
+                          {v.name}
+                        </a>
+                        <div className="mt-1 text-xs text-neutral-500">{v.funder}</div>
+                        <div className="mt-2 text-sm text-neutral-400 md:hidden">{v.who}</div>
+                      </td>
+                      <td className="hidden px-5 py-4 text-sm text-neutral-400 md:table-cell">
+                        {v.who}
+                      </td>
+                      <td className="whitespace-nowrap px-5 py-4 text-sm font-medium text-cyan">
+                        {v.duration}
+                      </td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
             </div>
           </Reveal>
         </section>

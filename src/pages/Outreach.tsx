@@ -209,13 +209,13 @@ export default function Outreach() {
           <Reveal delay={0.1}>
             <figure className="mt-8 overflow-hidden rounded-2xl border border-edge bg-panel">
               <img
-                src="/images/talk-seb.jpg"
-                alt="Patrice Pottier speaking at the SEB annual conference"
+                src="/images/seb-conference-2024.jpg"
+                alt="Patrice Pottier presenting to a full auditorium at the SEB 2024 conference in Prague"
                 className="aspect-[16/9] w-full object-cover"
                 loading="lazy"
               />
               <figcaption className="px-5 py-3.5 text-sm leading-snug text-neutral-400">
-                Speaking at the SEB annual conference.
+                Presenting at the SEB annual conference in Prague, 2024.
               </figcaption>
             </figure>
           </Reveal>

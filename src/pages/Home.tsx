@@ -114,7 +114,7 @@ function Mission() {
           />
         </Reveal>
 
-        <div className="mt-8 grid gap-10 lg:grid-cols-[1.15fr_1fr]">
+        <div className="relative z-10 mt-8 grid gap-10 lg:grid-cols-[1.15fr_1fr]">
           <Reveal delay={0.1}>
             <div className="prose-dark">
               <p>
@@ -175,14 +175,13 @@ function Mission() {
             feathers every edge so it rises out of the section rather than
             sitting on it as a picture. */}
         <Reveal>
-          <div className="pointer-events-none relative -mt-6 flex justify-center sm:-mt-10">
+          <div className="pointer-events-none relative z-0 mt-10 flex justify-center sm:mt-14">
             <img
               src="/images/wordcloud.png"
               alt="A word cloud built from the titles of the group's papers"
-              className="feather-edges w-full max-w-3xl opacity-95"
+              className="feather-edges w-full max-w-3xl opacity-90"
               loading="lazy"
             />
-            <div className="absolute inset-x-0 bottom-0 h-24 bg-gradient-to-t from-ink to-transparent" />
           </div>
         </Reveal>
       </Container>
