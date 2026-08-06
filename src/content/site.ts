@@ -739,7 +739,7 @@ export const NEWS: NewsItem[] = [
   {
     date: "2026-07-20",
     tag: "Events",
-    title: "Patrice returned from Bamfield Marine Sciences Centre",
+    title: "Patrice attended the Ecological Data Synthesis course at Bamfield",
     body:
       "An excellent couple of weeks on Vancouver Island, giving a seminar and teaching on the Ecological Data Synthesis course with Jenn Sunday and Nikki Moore. Few things sharpen your own thinking like watching students take a method apart.",
     image: "/images/news-bamfield-trip.jpg",
@@ -747,7 +747,7 @@ export const NEWS: NewsItem[] = [
   {
     date: "2026-07-12",
     tag: "Events",
-    title: "Patrice returned from the FIN club writing retreat",
+    title: "Patrice attended the FIN club writing retreat",
     body:
       "A brilliant few days writing on Vancouver Island after ICBF, with colleagues who are also friends. Retreats like this get more done than a month of ordinary weeks.",
     image: "/images/news-fin-club.jpg",

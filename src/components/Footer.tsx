@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import { LINKS, SITE } from "../content/site";
 import { Icon } from "./Icons";
+import { Acronym } from "./Header";
 import { Container } from "./ui";
 
 const PAGES = [
@@ -21,14 +22,17 @@ export default function Footer() {
       <Container className="py-14">
         <div className="grid gap-10 md:grid-cols-[1.4fr_1fr_1fr]">
           <div>
+            {/* matches the header wordmark exactly */}
             <div className="flex items-baseline gap-2.5">
-              <span className="font-display text-2xl font-bold text-gold">PEACE</span>
-              <span className="text-[11px] font-medium uppercase tracking-[0.28em] text-neutral-400">
+              <span className="brand-text font-display text-2xl font-bold tracking-tight">
+                PEACE
+              </span>
+              <span className="text-[11px] font-medium uppercase tracking-[0.28em] text-cyan">
                 Lab
               </span>
             </div>
-            <p className="mt-3 max-w-sm text-sm leading-relaxed text-neutral-400">
-              {SITE.expansion}
+            <p className="mt-2.5 max-w-sm text-[11px] font-medium leading-tight tracking-wide text-white">
+              <Acronym />
             </p>
             <p className="mt-4 text-sm text-neutral-500">
               {SITE.institution}

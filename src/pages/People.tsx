@@ -46,13 +46,19 @@ function Avatar({ person, size = 96 }: { person: Person; size?: number }) {
   );
 }
 
+/** Sized to hold a paragraph of self-introduction, not just a name and title. */
 function MemberCard({ person, muted = false }: { person: Person; muted?: boolean }) {
   return (
-    <div className="card flex gap-5 p-5">
-      <Avatar person={person} size={84} />
-      <div className="min-w-0">
-        <h3 className="font-display text-lg font-semibold text-white">{person.name}</h3>
-        <p className="mt-0.5 text-sm font-medium" style={{ color: muted ? "#02B8A6" : "#FAD103" }}>
+    <div
+      className={`card flex flex-col gap-5 p-7 sm:flex-row ${muted ? "" : "min-h-[260px]"}`}
+    >
+      <Avatar person={person} size={muted ? 96 : 132} />
+      <div className="min-w-0 flex-1">
+        <h3 className="font-display text-xl font-semibold text-white">{person.name}</h3>
+        <p
+          className="mt-1 text-sm font-medium"
+          style={{ color: muted ? "#02B8A6" : "#FAD103" }}
+        >
           {person.role}
         </p>
         {person.affiliation && (
@@ -61,10 +67,10 @@ function MemberCard({ person, muted = false }: { person: Person; muted?: boolean
         {person.years && <p className="mt-1 text-xs text-neutral-600">{person.years}</p>}
         {person.now && <p className="mt-1 text-sm text-neutral-400">Now: {person.now}</p>}
         {person.blurb && (
-          <p className="mt-3 text-sm leading-relaxed text-neutral-400">{person.blurb}</p>
+          <p className="mt-4 text-[15px] leading-relaxed text-neutral-400">{person.blurb}</p>
         )}
         {person.links && person.links.length > 0 && (
-          <div className="mt-3 flex flex-wrap gap-x-4 gap-y-1">
+          <div className="mt-4 flex flex-wrap gap-x-4 gap-y-1">
             {person.links.map((l) => (
               <a
                 key={l.href}
@@ -161,7 +167,7 @@ export default function People() {
               </Reveal>
             ))}
             <Reveal delay={CURRENT_MEMBERS.length * 0.06}>
-              <div className="card flex h-full flex-col justify-center border-dashed p-7">
+              <div className="card flex h-full min-h-[260px] flex-col justify-center border-dashed p-7">
                 <h3 className="font-display text-lg font-semibold text-white">
                   There is room for you here
                 </h3>

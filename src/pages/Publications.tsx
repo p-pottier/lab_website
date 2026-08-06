@@ -81,7 +81,12 @@ function PubLinks({ pub }: { pub: Publication }) {
 
 /* ----------------------------------------------------------- highlights */
 
+/** Solid rules, cycling through the palette, rather than a repeated gradient. */
+const HIGHLIGHT_COLOURS = ["#02B8A6", "#FAD103", "#FA6A03"];
+
 function Highlight({ pub, index }: { pub: Publication; index: number }) {
+  const colour = HIGHLIGHT_COLOURS[index % HIGHLIGHT_COLOURS.length];
+
   return (
     <motion.article
       initial={{ opacity: 0, y: 20 }}
@@ -89,12 +94,12 @@ function Highlight({ pub, index }: { pub: Publication; index: number }) {
       viewport={{ once: true }}
       transition={{ duration: 0.55, delay: index * 0.08 }}
       className="card relative flex h-full flex-col overflow-hidden p-6"
-      style={{ borderColor: "#FAD10340" }}
+      style={{ borderColor: `${colour}40` }}
     >
-      <div className="brand-gradient absolute inset-x-0 top-0 h-[3px]" />
+      <div className="absolute inset-x-0 top-0 h-[3px]" style={{ backgroundColor: colour }} />
 
       <div className="flex items-baseline justify-between gap-3">
-        <span className="font-display text-3xl font-bold leading-none text-gold">
+        <span className="font-display text-3xl font-bold leading-none" style={{ color: colour }}>
           {pub.citations}
         </span>
         <span className="text-[11px] font-semibold uppercase tracking-[0.14em] text-neutral-500">
