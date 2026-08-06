@@ -267,7 +267,7 @@ export default function Publications() {
         eyebrow="Publications"
         title="Papers"
         lead="This list is built from ORCID, Crossref and OpenAlex, and refreshes every night. Preprints move to their published version as soon as a journal accepts them."
-        image="/images/research-synthesis.jpg"
+        image="/images/wordcloud_heart.png"
         height="h-[40vh] min-h-[280px]"
       />
 
@@ -283,11 +283,26 @@ export default function Publications() {
                 </h2>
               </div>
             </Reveal>
+            {/* Three across, then any remainder centred rather than left in a
+                row with a gap on the right. */}
             <div className="grid gap-5 md:grid-cols-3">
-              {highlights.map((p, i) => (
+              {highlights.slice(0, 3).map((p, i) => (
                 <Highlight key={p.id} pub={p} index={i} />
               ))}
             </div>
+
+            {highlights.length > 3 && (
+              <div className="mt-5 flex flex-wrap justify-center gap-5">
+                {highlights.slice(3).map((p, i) => (
+                  <div
+                    key={p.id}
+                    className="w-full md:w-[calc((100%-2.5rem)/3)] lg:w-[calc((100%-2.5rem)/3)]"
+                  >
+                    <Highlight pub={p} index={i + 3} />
+                  </div>
+                ))}
+              </div>
+            )}
           </section>
         )}
 

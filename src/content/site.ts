@@ -172,7 +172,7 @@ export const THEMES: Theme[] = [
       "What keeps researchers from sharing data and code, and what would change that?",
       "How do language and access policies shape whose science gets read?",
     ],
-    image: "/images/wordcloud.png",
+    image: "/images/wordcloud_brain.png",
     accent: "#B55EA8",
   },
 ];
@@ -216,7 +216,7 @@ export const CURRENT_MEMBERS: Person[] = [
     name: "Leon Pfeufer",
     role: "PhD student",
     affiliation: "University of Gothenburg",
-    blurb: "",
+    blurb: "Co-supervised with Fredrik Jutfelt.",
     links: [],
   },
   {
@@ -256,40 +256,47 @@ export type Collaborator = {
 };
 
 /**
- * Affiliations and ORCID identifiers below were taken from the most recent
- * co-authored paper on record, so they may lag a recent move.
+ * Affiliations follow OpenAlex's last-known institution rather than the one on
+ * a joint paper, so they track a move. Run `node scripts/collaborator-info.mjs`
+ * to re-check them, and to look for portraits on each person's linked pages.
  */
 export const MAIN_COLLABORATORS: Collaborator[] = [
   {
     name: "Shinichi Nakagawa",
-    affiliation: "Okinawa Institute of Science and Technology",
+    affiliation: "University of Alberta",
     orcid: "https://orcid.org/0000-0002-7765-5182",
+    href: "http://www.i-deel.org/",
   },
   {
     name: "Szymon M. Drobniak",
     affiliation: "Jagiellonian University",
     orcid: "https://orcid.org/0000-0001-8101-6247",
+    photo: "/images/collaborators/szymon-m-drobniak.jpg",
   },
   {
     name: "Malgorzata Lagisz",
-    affiliation: "UNSW Sydney",
+    affiliation: "University of Alberta",
     orcid: "https://orcid.org/0000-0002-3993-6127",
+    href: "http://mlagisz.weebly.com/",
   },
   {
     name: "Daniel W. A. Noble",
     affiliation: "Australian National University",
     orcid: "https://orcid.org/0000-0001-9460-8743",
+    href: "https://sites.google.com/view/noblelab/home",
   },
   {
     name: "Fredrik Jutfelt",
     affiliation: "University of Gothenburg",
     orcid: "https://orcid.org/0000-0001-9838-3991",
+    photo: "/images/collaborators/fredrik-jutfelt.jpg",
   },
   {
     name: "Nicholas C. Wu",
     affiliation: "Murdoch University",
     orcid: "https://orcid.org/0000-0002-7130-1279",
     href: "https://www.nicholaswulab.com/",
+    photo: "/images/collaborators/nicholas-c-wu.jpg",
   },
   {
     name: "Lisa E. Schwanz",
@@ -315,6 +322,7 @@ export const MAIN_COLLABORATORS: Collaborator[] = [
     name: "Tatsuya Amano",
     affiliation: "University of Queensland",
     orcid: "https://orcid.org/0000-0001-6576-3410",
+    photo: "/images/collaborators/tatsuya-amano.jpg",
   },
   {
     name: "Alex R. Gunderson",
@@ -328,17 +336,18 @@ export const MAIN_COLLABORATORS: Collaborator[] = [
   },
   {
     name: "Kyle Morrison",
-    affiliation: "UNSW Sydney",
+    affiliation: "University of Alberta",
     orcid: "https://orcid.org/0000-0002-3700-2398",
   },
   {
     name: "April Robin Martinig",
-    affiliation: "UNSW Sydney",
+    affiliation: "Université de Sherbrooke",
     orcid: "https://orcid.org/0000-0002-0972-6903",
+    href: "http://martinig.weebly.com",
   },
   {
     name: "Zara-Louise Cowan",
-    affiliation: "University of Gothenburg",
+    affiliation: "Ludwig-Maximilians-Universität München",
     orcid: "https://orcid.org/0000-0002-3862-7111",
   },
   {
@@ -350,6 +359,7 @@ export const MAIN_COLLABORATORS: Collaborator[] = [
     name: "Dylan Gomes",
     affiliation: "NOAA National Marine Fisheries Service",
     orcid: "https://orcid.org/0000-0002-2642-3728",
+    href: "https://dylangegomes.wixsite.com/home",
   },
   {
     name: "John S. Terblanche",
@@ -368,6 +378,8 @@ export const HIGHLIGHTED_DOIS: string[] = [
   "10.1038/s41586-025-08665-0", // Vulnerability of amphibians to global warming, Nature
   "10.1111/ele.14083", // Developmental plasticity in thermal tolerance, Ecology Letters
   "10.1093/conphys/coag006", // Embryos are largely understudied, Conservation Physiology
+  "10.1016/j.cois.2026.101523", // Life cycle complexity, Current Opinion in Insect Science
+  "10.1016/j.tree.2023.12.004", // New horizons for comparative studies, TREE
 ];
 
 /* --------------------------------------------------------- opportunities */
@@ -572,6 +584,127 @@ export const FELLOWSHIPS: Fellowship[] = [
     who: "Early postdocs with an unconventional, socially relevant project; up to five years",
     when: "Deadline usually January",
     url: "https://brancoweissfellowship.org/",
+  },
+];
+
+/* --------------------------------------------------------- short visits */
+
+export type Visit = {
+  name: string;
+  funder: string;
+  duration: string;
+  who: string;
+  url: string;
+};
+
+/**
+ * Schemes that fund a stay in the group rather than a full position. Durations
+ * and eligibility change, so treat these as a starting point.
+ */
+export const SHORT_VISITS: Visit[] = [
+  {
+    name: "Fulbright Postdoctoral Scholarship",
+    funder: "Fulbright Commission",
+    duration: "4 to 8 months",
+    who: "US researchers visiting Sweden, and Swedish researchers visiting the US",
+    url: "https://www.fulbright.se/",
+  },
+  {
+    name: "Travelling Fellowships",
+    funder: "The Company of Biologists",
+    duration: "1 to 3 months",
+    who: "Graduate students and postdocs collaborating in another laboratory",
+    url: "https://www.biologists.com/travelling-fellowships/",
+  },
+  {
+    name: "ECR Visiting Fellowships",
+    funder: "The Company of Biologists",
+    duration: "1 to 3 months",
+    who: "Early-career researchers learning a new technique or building a collaboration",
+    url: "https://www.biologists.com/grants/",
+  },
+  {
+    name: "Research Grants and Small Research Grants",
+    funder: "Fisheries Society of the British Isles",
+    duration: "Project-length, typically under a year",
+    who: "Fish biologists at any career stage",
+    url: "https://fsbi.org.uk/grants/",
+  },
+  {
+    name: "Travel and research scholarships",
+    funder: "Helge Ax:son Johnsons stiftelse",
+    duration: "Short stays",
+    who: "Researchers working in or with Sweden",
+    url: "https://www.haxsonj.se/",
+  },
+  {
+    name: "Scientific Exchange Grants",
+    funder: "EMBO",
+    duration: "1 to 6 months",
+    who: "PhD students and postdocs visiting a laboratory in another country",
+    url: "https://www.embo.org/funding/fellowships-grants-and-career-support/scientific-exchange-grants/",
+  },
+  {
+    name: "Research Grants for Doctoral Candidates and Short-Term Grants",
+    funder: "DAAD",
+    duration: "1 to 6 months",
+    who: "Researchers based in Germany",
+    url: "https://www.daad.de/en/",
+  },
+  {
+    name: "Short-Term Fellowships",
+    funder: "Federation of European Biochemical Societies",
+    duration: "Up to 3 months",
+    who: "Researchers in FEBS member countries",
+    url: "https://www.febs.org/our-actions/fellowships/",
+  },
+  {
+    name: "Research Mobility Grants",
+    funder: "European Society for Evolutionary Biology",
+    duration: "Short visits",
+    who: "ESEB members, particularly students and early-career researchers",
+    url: "https://eseb.org/prizes-funding/",
+  },
+  {
+    name: "Erasmus+ staff and doctoral mobility",
+    funder: "European Commission",
+    duration: "Days to months",
+    who: "Staff and doctoral candidates at participating European universities",
+    url: "https://erasmus-plus.ec.europa.eu/",
+  },
+];
+
+/* ------------------------------------------------------------ conferences */
+
+export type Conference = {
+  name: string;
+  acronym: string;
+  when: string;
+  where: string;
+  url?: string;
+};
+
+/** Meetings we expect to attend. Useful for anyone who wants to find us. */
+export const CONFERENCES: Conference[] = [
+  {
+    name: "Annual Meeting of the Society for Experimental Biology",
+    acronym: "SEB",
+    when: "July 2027",
+    where: "Glasgow, United Kingdom",
+    url: "https://www.sebiology.org/events",
+  },
+  {
+    name: "Congress of the European Society for Evolutionary Biology",
+    acronym: "ESEB",
+    when: "August 2027",
+    where: "Gothenburg, Sweden",
+    url: "https://eseb.org/meetings/",
+  },
+  {
+    name: "International Congress on the Biology of Fish",
+    acronym: "ICBF",
+    when: "July 2028",
+    where: "Manaus, Brazil",
   },
 ];
 

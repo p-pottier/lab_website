@@ -1,4 +1,4 @@
-import { MEDIA, OUTREACH, OUTREACH_PHOTO, POSTERS } from "../content/site";
+import { CONFERENCES, MEDIA, OUTREACH, OUTREACH_PHOTO, POSTERS } from "../content/site";
 import { Container, PageHero, Reveal, SectionHeading, TextLink } from "../components/ui";
 import { ArrowRight } from "../components/Icons";
 
@@ -13,9 +13,9 @@ export default function Outreach() {
       />
 
       <Container className="py-16">
-        <div className="grid items-center gap-10 lg:grid-cols-[1.05fr_1fr]">
+        <div className="grid gap-10 lg:grid-cols-[1fr_1fr] lg:items-start">
           <Reveal>
-            <div className="prose-dark">
+            <div className="prose-dark lg:pt-2">
               <p>
                 Much of what limits thermal ecology is not a missing experiment. The experiments
                 already exist, but they are scattered, measured in incompatible ways, and drawn from
@@ -30,13 +30,13 @@ export default function Outreach() {
           </Reveal>
 
           <Reveal delay={0.12}>
-            <figure className="overflow-hidden rounded-2xl border border-edge">
+            <figure className="overflow-hidden rounded-2xl border border-edge bg-panel">
               <img
                 src={OUTREACH_PHOTO.src}
                 alt={OUTREACH_PHOTO.caption}
-                className="w-full object-cover"
+                className="aspect-[3/2] w-full object-cover object-[50%_28%]"
               />
-              <figcaption className="bg-panel px-5 py-3 text-sm text-neutral-400">
+              <figcaption className="px-5 py-3.5 text-sm leading-snug text-neutral-400">
                 {OUTREACH_PHOTO.caption}
               </figcaption>
             </figure>
@@ -120,6 +120,49 @@ export default function Outreach() {
               </Reveal>
             ))}
           </div>
+        </section>
+
+        {/* -------------------------------------------------------- conferences */}
+        <section className="mt-24">
+          <Reveal>
+            <SectionHeading
+              eyebrow="Coming up"
+              title="Where to find us next"
+              lead="Meetings we plan to attend. Say hello, or write ahead if you would like to meet there."
+            />
+          </Reveal>
+
+          <Reveal delay={0.1}>
+            <div className="mt-8 overflow-hidden rounded-2xl border border-edge">
+              {CONFERENCES.map((c) => {
+                const Row = (
+                  <>
+                    <span className="shrink-0 font-display text-lg font-bold text-gold sm:w-20">
+                      {c.acronym}
+                    </span>
+                    <span className="min-w-0 flex-1">
+                      <span className="block font-medium text-neutral-200 transition group-hover:text-gold">
+                        {c.name}
+                      </span>
+                      <span className="mt-0.5 block text-sm text-neutral-500">{c.where}</span>
+                    </span>
+                    <span className="shrink-0 text-sm font-semibold text-cyan">{c.when}</span>
+                  </>
+                );
+                const cls =
+                  "group flex flex-col gap-2 border-b border-white/5 p-5 transition last:border-0 hover:bg-white/[0.03] sm:flex-row sm:items-center sm:gap-6";
+                return c.url ? (
+                  <a key={c.name} href={c.url} target="_blank" rel="noreferrer" className={cls}>
+                    {Row}
+                  </a>
+                ) : (
+                  <div key={c.name} className={cls}>
+                    {Row}
+                  </div>
+                );
+              })}
+            </div>
+          </Reveal>
         </section>
 
         {/* -------------------------------------------------------------- media */}

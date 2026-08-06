@@ -90,7 +90,7 @@ export default function People() {
         eyebrow="People"
         title="The group"
         lead="A small team in Gothenburg, working inside a much larger network of collaborators."
-        image="/images/ideel-lab.jpg"
+        image="/images/fish-trevally.jpg"
       />
 
       <Container className="py-16">

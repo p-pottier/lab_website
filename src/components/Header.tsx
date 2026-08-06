@@ -15,6 +15,55 @@ const NAV = [
   { to: "/contact", label: "Contact" },
 ];
 
+/**
+ * The lab name spelled out, with the letters that make up PEACE picked out in
+ * gold so the acronym is legible without being explained.
+ */
+export function Acronym({
+  className = "",
+  restClassName = "",
+  goldClassName = "text-gold",
+}: {
+  className?: string;
+  restClassName?: string;
+  goldClassName?: string;
+}) {
+  // Only the five words that carry the acronym take a gold initial.
+  const WORDS = [
+    ["P", "lasticity"],
+    null,
+    ["E", "cological"],
+    ["A", "daptations"],
+    null,
+    ["C", "hanging"],
+    ["E", "nvironments"],
+  ] as const;
+  const FILLER = ["and", "to"];
+  let fillerIndex = 0;
+
+  return (
+    <span className={className}>
+      {WORDS.map((w, i) => {
+        if (w === null) {
+          const word = FILLER[fillerIndex++];
+          return (
+            <span key={i} className={restClassName}>
+              {word}{" "}
+            </span>
+          );
+        }
+        return (
+          <span key={i}>
+            <span className={goldClassName}>{w[0]}</span>
+            <span className={restClassName}>{w[1]}</span>
+            {i < WORDS.length - 1 ? <span className={restClassName}> </span> : null}
+          </span>
+        );
+      })}
+    </span>
+  );
+}
+
 export default function Header() {
   const [scrolled, setScrolled] = useState(false);
   const [open, setOpen] = useState(false);
@@ -57,7 +106,7 @@ export default function Header() {
         <div className="mx-auto flex h-[90px] w-full max-w-content items-center justify-between px-5 sm:px-8">
           <Link to="/" className="group block" aria-label="PEACE Lab, home">
             <span className="flex items-baseline gap-2.5">
-              <span className="font-display text-[26px] font-bold leading-none tracking-tight text-gold transition group-hover:text-white">
+              <span className="brand-text font-display text-[26px] font-bold leading-none tracking-tight">
                 PEACE
               </span>
               <span className="text-[11px] font-medium uppercase tracking-[0.28em] text-neutral-400 transition group-hover:text-cyan">
@@ -65,7 +114,7 @@ export default function Header() {
               </span>
             </span>
             <span className="mt-1.5 hidden max-w-[34rem] text-[11px] font-medium leading-tight tracking-wide text-neutral-500 transition group-hover:text-neutral-300 sm:block">
-              Plasticity and Ecological Adaptations to Changing Environments
+              <Acronym />
             </span>
           </Link>
 

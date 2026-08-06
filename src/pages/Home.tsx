@@ -14,6 +14,7 @@ import {
   TextLink,
 } from "../components/ui";
 import { ArrowRight } from "../components/Icons";
+import { Acronym } from "../components/Header";
 
 /* ------------------------------------------------------------------ hero */
 
@@ -27,9 +28,10 @@ function Hero() {
   return (
     <section ref={ref} className="relative flex min-h-[92vh] items-center overflow-hidden">
       <motion.div className="absolute inset-0" style={{ y, opacity }}>
+        {/* Swap back to /images/hero-leaf-insect.jpg if the eggs do not work. */}
         <img
-          src="/images/hero-leaf-insect.jpg"
-          alt="A leaf insect, Phyllium, photographed against black"
+          src="/images/fish-eggs.jpg"
+          alt="Developing fish embryos inside their eggs"
           className="h-full w-full animate-slow-zoom object-cover"
         />
         <div className="absolute inset-0 bg-gradient-to-r from-ink via-ink/85 to-ink/20" />
@@ -51,11 +53,11 @@ function Hero() {
           </div>
 
           <h1 className="font-display text-[3.1rem] font-bold leading-[0.98] text-white sm:text-7xl md:text-[5.3rem]">
-            The <span className="text-gold">PEACE</span> Lab
+            The <span className="brand-title">PEACE</span> Lab
           </h1>
 
-          <p className="mt-5 max-w-xl font-display text-lg font-medium leading-snug text-cyan sm:text-xl">
-            Plasticity and Ecological Adaptations to Changing Environments
+          <p className="mt-5 max-w-2xl font-display text-xl font-medium leading-snug sm:text-2xl">
+            <Acronym restClassName="text-cyan" goldClassName="text-gold" />
           </p>
 
           <p className="mt-6 max-w-xl text-[17px] leading-relaxed text-neutral-300">
@@ -176,6 +178,18 @@ function Themes() {
   return (
     <section className="relative py-20">
       <Container>
+        {/* the word cloud is drawn from our own paper titles and abstracts */}
+        <Reveal>
+          <div className="mb-14 flex justify-center">
+            <img
+              src="/images/wordcloud_brain.png"
+              alt="A word cloud in the shape of a brain, built from the group's paper titles"
+              className="w-full max-w-2xl opacity-90"
+              loading="lazy"
+            />
+          </div>
+        </Reveal>
+
         <Reveal>
           <div className="flex flex-wrap items-end justify-between gap-6">
             <SectionHeading eyebrow="Research" title="The questions we keep coming back to" />

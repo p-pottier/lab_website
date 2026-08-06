@@ -1,6 +1,13 @@
 import { useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
-import { FELLOWSHIPS, POSITIONS, SITE, WHO_WE_LOOK_FOR, type Position } from "../content/site";
+import {
+  FELLOWSHIPS,
+  POSITIONS,
+  SHORT_VISITS,
+  SITE,
+  WHO_WE_LOOK_FOR,
+  type Position,
+} from "../content/site";
 import {
   Chip,
   Container,
@@ -226,6 +233,44 @@ export default function Opportunities() {
                   ))}
                 </tbody>
               </table>
+            </div>
+          </Reveal>
+        </section>
+
+        {/* ------------------------------------------------- short visits */}
+        <section className="mt-24">
+          <Reveal>
+            <SectionHeading
+              eyebrow="Short-term visits"
+              title="Come and work with us for a few months"
+              lead="Not every collaboration needs a contract. Several schemes fund a stay of a few weeks to several months, which is long enough to run an experiment, learn a method or start a synthesis together. Write to me before applying, since most of these ask for a host letter."
+            />
+          </Reveal>
+
+          <Reveal delay={0.1}>
+            <div className="mt-10 grid gap-4 md:grid-cols-2">
+              {SHORT_VISITS.map((v) => (
+                <a
+                  key={v.name}
+                  href={v.url}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="card group flex flex-col p-5"
+                >
+                  <div className="flex items-start justify-between gap-4">
+                    <h3 className="font-display text-[16px] font-semibold leading-snug text-white transition group-hover:text-gold">
+                      {v.name}
+                    </h3>
+                    <span className="shrink-0 rounded-full border border-cyan/40 bg-cyan/10 px-2.5 py-1 text-[11px] font-semibold text-cyan">
+                      {v.duration}
+                    </span>
+                  </div>
+                  <p className="mt-1.5 text-xs uppercase tracking-[0.12em] text-neutral-500">
+                    {v.funder}
+                  </p>
+                  <p className="mt-3 text-sm leading-relaxed text-neutral-400">{v.who}</p>
+                </a>
+              ))}
             </div>
           </Reveal>
         </section>

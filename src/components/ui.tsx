@@ -253,7 +253,7 @@ export function PageHero({
               </span>
             </div>
           )}
-          <h1 className="max-w-4xl text-4xl font-bold leading-[1.06] text-white sm:text-5xl md:text-6xl">
+          <h1 className="brand-title max-w-4xl text-4xl font-bold leading-[1.06] sm:text-5xl md:text-6xl">
             {title}
           </h1>
           {lead && (
