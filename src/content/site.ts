@@ -749,6 +749,7 @@ export const NEWS: NewsItem[] = [
     title: "Patrice returned from the FIN club writing retreat",
     body:
       "A brilliant few days writing on Vancouver Island after ICBF, with colleagues who are also friends. Retreats like this get more done than a month of ordinary weeks.",
+    image: "/images/news-fin-club.jpg",
   },
   {
     date: "2026-07-05",
@@ -756,6 +757,7 @@ export const NEWS: NewsItem[] = [
     title: "Patrice attended the International Congress on the Biology of Fish in Vancouver",
     body:
       "A great week of catching up with old friends and meeting new ones. The talks from fish physiologists working all over the world left me full of ideas to chase.",
+    image: "/images/news-icbf.jpg",
   },
   {
     date: "2026-06-01",
