@@ -216,6 +216,7 @@ export const CURRENT_MEMBERS: Person[] = [
     name: "Leon Pfeufer",
     role: "PhD student",
     affiliation: "University of Gothenburg",
+    photo: "/images/leon-pfeufer.jpg",
     blurb: "Co-supervised with Fredrik Jutfelt.",
     links: [],
   },
