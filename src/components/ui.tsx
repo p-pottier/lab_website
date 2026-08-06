@@ -71,7 +71,7 @@ export function SectionHeading({
           </span>
         </div>
       )}
-      <h2 className="text-3xl font-semibold leading-[1.12] text-white sm:text-4xl md:text-[2.75rem]">
+      <h2 className="font-display text-3xl font-bold leading-[1.12] text-white sm:text-4xl md:text-[2.75rem]">
         {title}
       </h2>
       {lead && <p className="mt-4 text-[17px] leading-relaxed text-neutral-400">{lead}</p>}
@@ -253,7 +253,7 @@ export function PageHero({
               </span>
             </div>
           )}
-          <h1 className="brand-title max-w-4xl text-4xl font-bold leading-[1.06] sm:text-5xl md:text-6xl">
+          <h1 className="brand-title max-w-4xl text-4xl font-black leading-[1.06] sm:text-5xl md:text-6xl">
             {title}
           </h1>
           {lead && (

@@ -62,7 +62,7 @@ export default function Footer() {
               <LogoMark size={62} />
               <div>
                 <div className="flex items-baseline gap-2">
-                  <span className="brand-text font-display text-[27px] font-bold tracking-tight">
+                  <span className="brand-text font-display text-[27px] font-black tracking-tight">
                     PEACE
                   </span>
                   <span className="font-display text-[25px] font-normal leading-none text-white">

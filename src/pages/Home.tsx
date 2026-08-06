@@ -65,7 +65,7 @@ function Hero() {
             </span>
           </div>
 
-          <h1 className="font-display text-[3.1rem] font-bold leading-[0.98] text-white sm:text-7xl md:text-[5.3rem]">
+          <h1 className="font-display text-[3.1rem] font-black leading-[0.98] text-white sm:text-7xl md:text-[5.3rem]">
             The <span className="brand-title">PEACE</span>{" "}
             <span className="font-normal">lab</span>
           </h1>

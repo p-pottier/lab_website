@@ -123,7 +123,7 @@ export default function Header() {
             <LogoMark size={62} priority />
             <span className="block">
               <span className="flex items-baseline gap-2">
-                <span className="brand-text font-display text-[27px] font-bold leading-none tracking-tight">
+                <span className="brand-text font-display text-[27px] font-black leading-none tracking-tight">
                   PEACE
                 </span>
                 <span className="font-display text-[25px] font-normal leading-none text-white transition-all duration-200 group-hover:font-medium">
