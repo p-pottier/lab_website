@@ -1001,7 +1001,7 @@ export const SERVICE: Engagement[] = [
     year: "2020-2026",
     kind: "Peer review",
     title:
-      "American Naturalist, Biological Conservation, Biological Reviews, Biology Letters, Current Opinion in Insect Science, Ecology Letters, Integrative and Comparative Biology, Global Change Biology, Journal of Animal Ecology, Journal of Evolutionary Biology, Journal of Experimental Zoology Part A, Journal of Thermal Biology, Marine Environmental Research, Nature Ecology and Evolution, PeerJ",
+      "American Naturalist, Biological Conservation, Biological Reviews, Biology Letters, Biology Open, Conservation Physiology, Current Opinion in Insect Science, Ecology Letters, Global Change Biology, Integrative and Comparative Biology, Journal of Animal Ecology, Journal of Evolutionary Biology, Journal of Experimental Zoology Part A, Journal of Thermal Biology, Marine Environmental Research, Methods in Ecology and Evolution, Nature Ecology and Evolution, PeerJ",
     detail: "",
   },
 ];
