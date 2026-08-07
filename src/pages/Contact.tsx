@@ -22,7 +22,10 @@ export default function Contact() {
                 alt="Patrice Pottier"
                 className="mb-8 w-full max-w-xs rounded-2xl border border-white/10 object-cover"
               />
-              <SectionHeading title="Patrice Pottier" lead="Principal Investigator, PEACE Lab" />
+              <SectionHeading
+                title="Patrice Pottier"
+                lead="Associate senior lecturer, PEACE lab"
+              />
 
               <dl className="mt-8 space-y-6">
                 <div>

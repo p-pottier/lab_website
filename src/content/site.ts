@@ -221,7 +221,7 @@ export type Person = {
 
 export const PI: Person = {
   name: "Patrice Pottier",
-  role: "Principal Investigator",
+  role: "Associate senior lecturer",
   affiliation: "Department of Biological and Environmental Sciences, University of Gothenburg",
   photo: "/images/patrice-pottier.webp",
   // The CV sits on its own button below the biography, so it is not repeated here.
