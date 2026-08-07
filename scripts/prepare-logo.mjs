@@ -48,8 +48,22 @@ const result = await page.evaluate(
       const brightness = Math.max(d[i], d[i + 1], d[i + 2]);
       // Keep whichever is lower: an already-transparent pixel stays transparent.
       const next = Math.min(d[i + 3], brightness);
-      if (next !== d[i + 3]) keyed++;
+      if (next === d[i + 3]) continue;
+      keyed++;
       d[i + 3] = next;
+
+      /*
+       * Un-premultiply. Compositing colour C at alpha a over black yields C*a,
+       * so keying alone would darken every pixel by its own brightness. Scaling
+       * the channels by 255/brightness cancels that exactly, and the pixel
+       * composites back to the colour the artwork was drawn in.
+       */
+      if (next > 0) {
+        const gain = 255 / next;
+        d[i] = Math.min(255, Math.round(d[i] * gain));
+        d[i + 1] = Math.min(255, Math.round(d[i + 1] * gain));
+        d[i + 2] = Math.min(255, Math.round(d[i + 2] * gain));
+      }
     }
     sctx.putImageData(img, 0, 0);
 
