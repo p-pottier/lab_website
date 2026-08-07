@@ -20,9 +20,9 @@ import {
 import { ArrowRight } from "../components/Icons";
 
 const SCOPE_COLOUR: Record<string, string> = {
-  Sweden: "#FAD103",
-  Europe: "#02B8A6",
-  Global: "#FA6A03",
+  Sweden: "#EE9B00",
+  Europe: "#0A9396",
+  Global: "#CA6702",
 };
 
 function PositionCard({ position }: { position: Position }) {
@@ -40,8 +40,8 @@ function PositionCard({ position }: { position: Position }) {
 
         <div className="p-6 sm:p-8">
           <div className="flex flex-wrap items-center gap-3">
-            <Chip color="#FAD103">{position.kind}</Chip>
-            <Chip color="#02B8A6">Open</Chip>
+            <Chip color="#EE9B00">{position.kind}</Chip>
+            <Chip color="#0A9396">Open</Chip>
             <span className="text-sm text-neutral-500">{position.duration}</span>
           </div>
 

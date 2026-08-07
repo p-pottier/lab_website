@@ -3,11 +3,24 @@ module.exports = {
   content: ["./index.html", "./src/**/*.{ts,tsx,js,jsx}"],
   theme: {
     extend: {
+      /*
+       * The eight-stop palette, teal through sand to red.
+       *
+       * The four role names are kept from the previous palette so nothing had
+       * to be renamed across the components; only their values changed.
+       * Previous values, if you want them back:
+       *   gold #FAD103   cyan #02B8A6   ember #FA6A03   crimson #B80502
+       * The old ramp ran: #02B8A6 0%, #FAD103 34%, #FA6A03 68%, #B80502 100%.
+       */
       colors: {
-        gold: "#FAD103",
-        cyan: "#02B8A6",
-        ember: "#FA6A03",
-        crimson: "#B80502",
+        gold: "#EE9B00", // primary accent
+        cyan: "#0A9396", // secondary accent
+        ember: "#CA6702", // tertiary accent
+        crimson: "#AE2012", // alert and emphasis
+        deep: "#005F73", // darkest stop, fills only
+        mint: "#94D2BD",
+        sand: "#E9D8A6",
+        brick: "#BB3E03",
         ink: "#0A0A0A",
         panel: "#141414",
         edge: "#242424",

@@ -16,14 +16,12 @@ import { ArrowRight } from "../components/Icons";
 import { Acronym } from "../components/Header";
 import LogoMark from "../components/LogoMark";
 
-/*
- * PALETTE TEST, HOME PAGE ONLY. The CSS gradients follow --brand-stops, which
- * index.css overrides under .home-palette; these are the solid accents that
- * are set in JavaScript, drawn from the same eight colours. Revert by putting
- * the original hex values back: gold #FAD103, cyan #02B8A6, ember #FA6A03,
- * crimson #B80502.
+/**
+ * The site palette, for the accents that are set in JavaScript rather than
+ * through a Tailwind class. The same eight colours drive --brand-stops in
+ * index.css and the colour names in tailwind.config.cjs.
  */
-const HOME_ACCENTS = {
+const ACCENTS = {
   deep: "#005f73",
   teal: "#0a9396",
   mint: "#94d2bd",
@@ -76,10 +74,10 @@ function Hero() {
 
           <div className="max-w-2xl">
           <div className="mb-5 flex items-center gap-3">
-            <span className="h-px w-10" style={{ backgroundColor: HOME_ACCENTS.amber }} />
+            <span className="h-px w-10" style={{ backgroundColor: ACCENTS.amber }} />
             <span
               className="text-xs font-semibold uppercase tracking-[0.24em]"
-              style={{ color: HOME_ACCENTS.amber }}
+              style={{ color: ACCENTS.amber }}
             >
               {SITE.university} · Sweden
             </span>
@@ -124,7 +122,7 @@ function Hero() {
         <div className="flex h-10 w-6 items-start justify-center rounded-full border border-neutral-600 p-1.5">
           <motion.span
             className="h-1.5 w-1 rounded-full"
-            style={{ backgroundColor: HOME_ACCENTS.amber }}
+            style={{ backgroundColor: ACCENTS.amber }}
             animate={{ y: [0, 12, 0] }}
             transition={{ duration: 1.9, repeat: Infinity, ease: "easeInOut" }}
           />
@@ -187,17 +185,17 @@ function Mission() {
                 {
                   title: "Experiments",
                   body: "Laboratory and field work to quantify how animals, mostly fish and invertebrates, tolerate temperature extremes and adjust their physiology in response to changing environments.",
-                  color: HOME_ACCENTS.amber,
+                  color: ACCENTS.amber,
                 },
                 {
                   title: "Synthesis",
                   body: "Systematic reviews, meta-analyses and phylogenetic comparative analyses to establish generality at broader scales.",
-                  color: HOME_ACCENTS.teal,
+                  color: ACCENTS.teal,
                 },
                 {
                   title: "Distributed science",
                   body: "Globally distributed experiments coordinated through the Thermal Ecology Alliance to standardise methods, solve geographical biases, and answer questions no individual lab could tackle alone.",
-                  color: HOME_ACCENTS.sand,
+                  color: ACCENTS.sand,
                 },
               ].map((c) => (
                 <div key={c.title} className="card p-6">
@@ -249,14 +247,14 @@ function Network() {
         </Reveal>
         <Reveal delay={0.1}>
           <div className="mt-10 grid grid-cols-1 gap-4 sm:grid-cols-3">
-            <StatTile value={collab.total} label="Co-authors" color={HOME_ACCENTS.teal} />
-            <StatTile value={collab.institutions} label="Institutions" color={HOME_ACCENTS.sand} />
-            <StatTile value={collab.countries} label="Countries" color={HOME_ACCENTS.rust} />
+            <StatTile value={collab.total} label="Co-authors" color={ACCENTS.teal} />
+            <StatTile value={collab.institutions} label="Institutions" color={ACCENTS.sand} />
+            <StatTile value={collab.countries} label="Countries" color={ACCENTS.rust} />
           </div>
         </Reveal>
         <Reveal delay={0.2}>
           <div className="mt-6">
-            <TextLink to="/people" color="#02B8A6">
+            <TextLink to="/people" color="#0A9396">
               See the network
             </TextLink>
           </div>
@@ -278,18 +276,18 @@ function OpenPositions() {
         <Reveal>
           <div
             className="relative overflow-hidden rounded-3xl border bg-gradient-to-br from-white/[0.05] via-panel to-panel p-8 sm:p-12"
-            style={{ borderColor: `${HOME_ACCENTS.amber}4D` }}
+            style={{ borderColor: `${ACCENTS.amber}4D` }}
           >
             <div className="brand-gradient absolute inset-x-0 top-0 h-[3px]" />
             <div className="flex flex-wrap items-start justify-between gap-8">
               <div className="max-w-xl">
-                <Chip color={HOME_ACCENTS.amber}>Now recruiting</Chip>
+                <Chip color={ACCENTS.amber}>Now recruiting</Chip>
                 <h2 className="mt-4 font-display text-3xl font-bold leading-tight text-white sm:text-4xl">
                   {open.length} funded {open.length === 1 ? "position" : "positions"} in Gothenburg
                 </h2>
                 <p className="mt-4 text-[16px] leading-relaxed text-neutral-300">
                   We are recruiting a PhD student and a postdoctoral researcher! Applications close
-                  on <span className="font-semibold" style={{ color: HOME_ACCENTS.amber }}>
+                  on <span className="font-semibold" style={{ color: ACCENTS.amber }}>
                     {open[0].deadline}
                   </span>.
                 </p>
@@ -324,12 +322,12 @@ function OpenPositions() {
 /* ------------------------------------------------------------------ news */
 
 const TAG_COLOUR: Record<string, string> = {
-  Paper: HOME_ACCENTS.sand,
-  Opportunities: HOME_ACCENTS.amber,
-  Events: HOME_ACCENTS.teal,
-  Award: HOME_ACCENTS.red,
-  Media: HOME_ACCENTS.mint,
-  Lab: HOME_ACCENTS.sand,
+  Paper: ACCENTS.sand,
+  Opportunities: ACCENTS.amber,
+  Events: ACCENTS.teal,
+  Award: ACCENTS.red,
+  Media: ACCENTS.mint,
+  Lab: ACCENTS.sand,
 };
 
 function LatestNews() {
@@ -341,7 +339,7 @@ function LatestNews() {
         <Reveal>
           <div className="flex flex-wrap items-end justify-between gap-6">
             <SectionHeading eyebrow="News" title="Latest from the group" />
-            <TextLink to="/news" color={HOME_ACCENTS.teal}>
+            <TextLink to="/news" color={ACCENTS.teal}>
               All news
             </TextLink>
           </div>
@@ -373,7 +371,7 @@ function LatestNews() {
                   ))}
                 <div className="flex flex-1 flex-col p-5">
                   <div className="flex items-center gap-3">
-                    <Chip color={TAG_COLOUR[n.tag] ?? "#FAD103"}>{n.tag}</Chip>
+                    <Chip color={TAG_COLOUR[n.tag] ?? "#EE9B00"}>{n.tag}</Chip>
                     <time className="text-xs text-neutral-500">
                       {new Date(n.date).toLocaleDateString("en-GB", {
                         day: "numeric",

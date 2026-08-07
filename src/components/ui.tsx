@@ -141,7 +141,7 @@ export function GhostButton({
 
 export function Chip({
   children,
-  color = "#FAD103",
+  color = "#EE9B00",
   className = "",
 }: {
   children: ReactNode;
@@ -163,7 +163,7 @@ export function Chip({
 export function StatTile({
   value,
   label,
-  color = "#FAD103",
+  color = "#EE9B00",
   sub,
 }: {
   value: ReactNode;
@@ -194,7 +194,7 @@ export function TextLink({
   children,
   to,
   href,
-  color = "#FAD103",
+  color = "#EE9B00",
 }: {
   children: ReactNode;
   to?: string;

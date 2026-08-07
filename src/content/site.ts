@@ -83,7 +83,7 @@ export const THEMES: Theme[] = [
       "How does life-stage variation change projections of survival and redistribution?",
     ],
     image: "/images/research-development.jpg",
-    accent: "#FA6A03",
+    accent: "#CA6702",
   },
   {
     id: "plasticity",
@@ -98,7 +98,7 @@ export const THEMES: Theme[] = [
       "How much of the projected impact of warming does plasticity offset?",
     ],
     image: "/images/research-plasticity.jpg",
-    accent: "#FAD103",
+    accent: "#EE9B00",
   },
   {
     id: "reproduction",
@@ -113,7 +113,7 @@ export const THEMES: Theme[] = [
       "What do these limits mean for population growth under warming?",
     ],
     image: "/images/research-reproduction.jpg",
-    accent: "#B80502",
+    accent: "#AE2012",
   },
   {
     id: "development",
@@ -128,7 +128,7 @@ export const THEMES: Theme[] = [
       "Which environmental pressures drive the evolution of developmental plasticity?",
     ],
     image: "/images/research-development-frogspawn.jpg",
-    accent: "#02B8A6",
+    accent: "#0A9396",
   },
   {
     id: "redistribution",
@@ -143,7 +143,7 @@ export const THEMES: Theme[] = [
       "When will the limits of species redistribution be reached?",
     ],
     image: "/images/research-redistribution.jpg",
-    accent: "#FA6A03",
+    accent: "#CA6702",
   },
   {
     id: "knowledge-action",
@@ -157,7 +157,7 @@ export const THEMES: Theme[] = [
       "What are future research priorities for conservation and management?",
     ],
     image: "/images/research-knowledge-action.jpg",
-    accent: "#B55EA8",
+    accent: "#94D2BD",
   },
   {
     id: "bias",
@@ -172,7 +172,7 @@ export const THEMES: Theme[] = [
       "How much coverage do we gain by synthesising non-English literature?",
     ],
     image: "/images/research-bias.jpg",
-    accent: "#02B8A6",
+    accent: "#0A9396",
   },
   {
     id: "synthesis",
@@ -187,7 +187,7 @@ export const THEMES: Theme[] = [
       "How do we make synthesised evidence reusable rather than single-use?",
     ],
     image: "/images/research-synthesis.jpg",
-    accent: "#FAD103",
+    accent: "#EE9B00",
   },
   {
     id: "meta-science",
@@ -202,7 +202,7 @@ export const THEMES: Theme[] = [
       "How do language and access policies shape whose science gets read?",
     ],
     image: "/images/wordcloud.png",
-    accent: "#B55EA8",
+    accent: "#94D2BD",
   },
 ];
 
@@ -715,7 +715,7 @@ export const OUTREACH: OutreachItem[] = [
     body:
       "The Thermal Ecology Alliance is a global collaborative initiative aiming to bring together people committed to predicting, communicating, and mitigating the impacts of changing temperatures on biodiversity. The goal of this initiative is to promote more inclusive collaborations, promote distributed experiments, and foster community discussions to tackle pressing ecological challenges.",
     href: "https://www.thermalecologyalliance.org/",
-    accent: "#FAD103",
+    accent: "#EE9B00",
   },
   {
     title: "Open and reproducible research",
@@ -723,21 +723,21 @@ export const OUTREACH: OutreachItem[] = [
     body:
       "We publish the data, code and protocols behind all of our papers, and we build R packages and workflows so that others can adapt and reuse our analyses. Much of the effort to promote open science has been motivated by the Society for Open, Reliable and Transparent Ecology and Evolutionary Biology (SORTEE), where Patrice served as a board and committee member.",
     href: "https://www.sortee.org/",
-    accent: "#02B8A6",
+    accent: "#0A9396",
   },
   {
     title: "Communicating with the public",
     role: "Science communication",
     body:
       "Research published in scientific journals rarely reaches non-academic audiences. We like to write for general audiences and speak to the public about how climate change affects our biodiversity, and what measures we can take to preserve our natural wonders.",
-    accent: "#FA6A03",
+    accent: "#CA6702",
   },
   {
     title: "Peer review and editorial work",
     role: "Service",
     body:
       "We review for scientific journals and funding bodies. We believe peer review is an essential part of academic service, and are grateful to all those who have reviewed our own papers.",
-    accent: "#B80502",
+    accent: "#AE2012",
   },
 ];
 

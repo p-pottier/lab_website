@@ -4,30 +4,31 @@
 
 @layer base {
   :root {
-    --gold: #fad103;
-    --cyan: #02b8a6;
-    --ember: #fa6a03;
-    --crimson: #b80502;
+    --gold: #ee9b00;
+    --cyan: #0a9396;
+    --ember: #ca6702;
+    --crimson: #ae2012;
 
     /* Section eyebrows and rules read this; gradients read the stops. */
-    --accent: #fad103;
+    --accent: #ee9b00;
 
     /* Every gradient on the site reads its stops from here. */
-    --brand-stops: #02b8a6 0%, #fad103 34%, #fa6a03 68%, #b80502 100%;
-  }
-
-  /*
-   * PALETTE TEST, HOME PAGE ONLY. App.tsx puts this class on the page wrapper
-   * when the route is "/", so the header, hero and rules below it pick up the
-   * eight-stop ramp while every other page keeps the original four.
-   * To revert: delete this block and the `home-palette` class in App.tsx, and
-   * the HOME_ACCENTS constant in pages/Home.tsx.
-   */
-  .home-palette {
-    --accent: #ee9b00;
     --brand-stops: #005f73 0%, #0a9396 14%, #94d2bd 29%, #e9d8a6 43%, #ee9b00 57%,
       #ca6702 71%, #bb3e03 86%, #ae2012 100%;
   }
+
+  /*
+   * PREVIOUS PALETTE, kept so it can be put back in one edit. Paste these four
+   * declarations over the ones above, and swap the hex values listed in the
+   * comment in tailwind.config.cjs.
+   *
+   *   --gold: #fad103;
+   *   --cyan: #02b8a6;
+   *   --ember: #fa6a03;
+   *   --crimson: #b80502;
+   *   --accent: #fad103;
+   *   --brand-stops: #02b8a6 0%, #fad103 34%, #fa6a03 68%, #b80502 100%;
+   */
 
   html {
     scroll-behavior: smooth;

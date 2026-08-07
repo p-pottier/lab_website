@@ -8,7 +8,16 @@ const WIDTH = 980;
 const HEIGHT = 500;
 
 /** Four-stop brand ramp, matching the pills and rules elsewhere on the site. */
-const STOPS = ["#02B8A6", "#FAD103", "#FA6A03", "#B80502"];
+const STOPS = [
+  "#005F73",
+  "#0A9396",
+  "#94D2BD",
+  "#E9D8A6",
+  "#EE9B00",
+  "#CA6702",
+  "#BB3E03",
+  "#AE2012",
+];
 
 function rampColour(t: number) {
   const x = Math.max(0, Math.min(1, t)) * (STOPS.length - 1);
@@ -108,9 +117,9 @@ export default function CollaboratorMap() {
   return (
     <div>
       <div className="grid grid-cols-3 gap-4">
-        <StatTile value={data.total} label="Co-authors" color="#02B8A6" />
-        <StatTile value={data.institutions} label="Institutions" color="#FAD103" />
-        <StatTile value={data.countries} label="Countries" color="#FA6A03" />
+        <StatTile value={data.total} label="Co-authors" color="#0A9396" />
+        <StatTile value={data.institutions} label="Institutions" color="#EE9B00" />
+        <StatTile value={data.countries} label="Countries" color="#CA6702" />
       </div>
 
       <div

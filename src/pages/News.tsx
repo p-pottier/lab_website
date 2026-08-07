@@ -6,12 +6,12 @@ import { Chip, Container, PageHero, Reveal } from "../components/ui";
 import { ArrowRight } from "../components/Icons";
 
 const TAG_COLOUR: Record<NewsItem["tag"], string> = {
-  Paper: "#FAD103",
-  Opportunities: "#FA6A03",
-  Events: "#02B8A6",
-  Award: "#B80502",
-  Media: "#B55EA8",
-  Lab: "#FAD103",
+  Paper: "#EE9B00",
+  Opportunities: "#CA6702",
+  Events: "#0A9396",
+  Award: "#AE2012",
+  Media: "#94D2BD",
+  Lab: "#EE9B00",
 };
 
 function formatDate(iso: string) {

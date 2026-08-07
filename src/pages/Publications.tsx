@@ -7,9 +7,9 @@ import { Icon } from "../components/Icons";
 
 /** Preprints share the orange used for anything not yet peer reviewed. */
 const KIND_COLOUR: Record<string, string> = {
-  article: "#FAD103",
-  preprint: "#FA6A03",
-  chapter: "#B55EA8",
+  article: "#EE9B00",
+  preprint: "#CA6702",
+  chapter: "#94D2BD",
   other: "#6B7280",
 };
 
@@ -89,7 +89,7 @@ function PubLinks({ pub, showPreprint = true }: { pub: Publication; showPreprint
 /* ----------------------------------------------------------- highlights */
 
 /** Pinned papers are all one colour: contour, top rule and citation figure. */
-const HIGHLIGHT_BORDER = "#FA6A03";
+const HIGHLIGHT_BORDER = "#CA6702";
 
 function Highlight({ pub, index }: { pub: Publication; index: number }) {
   const colour = HIGHLIGHT_BORDER;

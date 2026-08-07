@@ -14,7 +14,7 @@ import { Container, PageHero, Reveal, SectionHeading, TextLink } from "../compon
 import { ArrowRight } from "../components/Icons";
 
 /** Shared table for talks, workshops, teaching and service. */
-function EngagementTable({ items, accent = "#FAD103" }: { items: Engagement[]; accent?: string }) {
+function EngagementTable({ items, accent = "#EE9B00" }: { items: Engagement[]; accent?: string }) {
   return (
     <div className="mt-8 overflow-hidden rounded-2xl border border-edge">
       {items.map((e, i) => (
@@ -206,14 +206,14 @@ export default function Outreach() {
             />
           </Reveal>
           <Reveal delay={0.1}>
-            <EngagementTable items={TALKS} accent="#FAD103" />
+            <EngagementTable items={TALKS} accent="#EE9B00" />
           </Reveal>
 
           <Reveal delay={0.15}>
             <h3 className="mt-12 font-display text-xl font-semibold text-white">
               Workshops and symposia organised
             </h3>
-            <EngagementTable items={WORKSHOPS} accent="#02B8A6" />
+            <EngagementTable items={WORKSHOPS} accent="#0A9396" />
           </Reveal>
         </section>
 
@@ -223,7 +223,7 @@ export default function Outreach() {
             <SectionHeading eyebrow="Teaching" title="Courses and units" />
           </Reveal>
           <Reveal delay={0.1}>
-            <EngagementTable items={TEACHING} accent="#FA6A03" />
+            <EngagementTable items={TEACHING} accent="#CA6702" />
           </Reveal>
         </section>
 
@@ -264,7 +264,7 @@ export default function Outreach() {
             <SectionHeading eyebrow="Service" title="Outreach and peer review" />
           </Reveal>
           <Reveal delay={0.1}>
-            <EngagementTable items={SERVICE} accent="#B55EA8" />
+            <EngagementTable items={SERVICE} accent="#94D2BD" />
           </Reveal>
         </section>
       </Container>

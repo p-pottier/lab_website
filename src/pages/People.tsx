@@ -59,7 +59,7 @@ function MemberCard({ person, muted = false }: { person: Person; muted?: boolean
         <h3 className="font-display text-xl font-semibold text-white">{person.name}</h3>
         <p
           className="mt-1 text-sm font-medium"
-          style={{ color: muted ? "#02B8A6" : "#FAD103" }}
+          style={{ color: muted ? "#0A9396" : "#EE9B00" }}
         >
           {person.role}
         </p>
