@@ -224,12 +224,15 @@ export function PageHero({
   lead,
   image,
   height = "h-[46vh] min-h-[320px]",
+  imageOpacity = 0.6,
 }: {
   eyebrow?: string;
   title: string;
   lead?: string;
   image: string;
   height?: string;
+  /** Raise this for a dark photograph that would otherwise read as texture. */
+  imageOpacity?: number;
 }) {
   // A <section>, not a <header>: the site navigation is already the page banner.
   // pt-[96px] clears the fixed header, so a short banner cannot slide under it.
@@ -241,7 +244,8 @@ export function PageHero({
         <img
           src={image}
           alt=""
-          className="h-full w-full animate-slow-zoom object-cover opacity-60"
+          className="h-full w-full animate-slow-zoom object-cover"
+          style={{ opacity: imageOpacity }}
         />
         <div className="absolute inset-0 bg-gradient-to-t from-ink via-ink/70 to-ink/25" />
         {/* keeps the navigation legible over a pale or busy photograph */}

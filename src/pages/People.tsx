@@ -101,6 +101,7 @@ export default function People() {
         title="Our research group"
         lead="We are based at the University of Gothenburg, but we also work with a growing network of collaborators globally."
         image="/images/people-lionfish.jpg"
+        imageOpacity={0.85}
       />
 
       <Container className="py-16">
