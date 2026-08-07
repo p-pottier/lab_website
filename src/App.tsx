@@ -23,8 +23,13 @@ function ScrollToTop() {
 }
 
 export default function App() {
+  // Palette test: the home page swaps --brand-stops for an eight-colour ramp.
+  // Remove `home-palette` here and its block in index.css to revert.
+  const { pathname } = useLocation();
+  const home = pathname === "/";
+
   return (
-    <div className="flex min-h-screen flex-col bg-ink">
+    <div className={`flex min-h-screen flex-col bg-ink ${home ? "home-palette" : ""}`}>
       <ScrollToTop />
       <Header />
       <main id="main" className="flex-1">

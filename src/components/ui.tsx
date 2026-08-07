@@ -65,8 +65,11 @@ export function SectionHeading({
         <div
           className={`mb-3 flex items-center gap-3 ${centered ? "justify-center" : ""}`}
         >
-          <span className="h-px w-8 bg-gold" />
-          <span className="text-xs font-semibold uppercase tracking-[0.22em] text-gold">
+          <span className="h-px w-8" style={{ backgroundColor: "var(--accent)" }} />
+          <span
+            className="text-xs font-semibold uppercase tracking-[0.22em]"
+            style={{ color: "var(--accent)" }}
+          >
             {eyebrow}
           </span>
         </div>
@@ -252,8 +255,11 @@ export function PageHero({
         >
           {eyebrow && (
             <div className="mb-3 flex items-center gap-3">
-              <span className="h-px w-8 bg-gold" />
-              <span className="text-xs font-semibold uppercase tracking-[0.22em] text-gold">
+              <span className="h-px w-8" style={{ backgroundColor: "var(--accent)" }} />
+              <span
+            className="text-xs font-semibold uppercase tracking-[0.22em]"
+            style={{ color: "var(--accent)" }}
+          >
                 {eyebrow}
               </span>
             </div>

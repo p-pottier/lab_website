@@ -16,6 +16,24 @@ import { ArrowRight } from "../components/Icons";
 import { Acronym } from "../components/Header";
 import LogoMark from "../components/LogoMark";
 
+/*
+ * PALETTE TEST, HOME PAGE ONLY. The CSS gradients follow --brand-stops, which
+ * index.css overrides under .home-palette; these are the solid accents that
+ * are set in JavaScript, drawn from the same eight colours. Revert by putting
+ * the original hex values back: gold #FAD103, cyan #02B8A6, ember #FA6A03,
+ * crimson #B80502.
+ */
+const HOME_ACCENTS = {
+  deep: "#005f73",
+  teal: "#0a9396",
+  mint: "#94d2bd",
+  sand: "#e9d8a6",
+  amber: "#ee9b00",
+  rust: "#ca6702",
+  brick: "#bb3e03",
+  red: "#ae2012",
+};
+
 /* ------------------------------------------------------------------ hero */
 
 function Hero() {
@@ -58,8 +76,11 @@ function Hero() {
 
           <div className="max-w-2xl">
           <div className="mb-5 flex items-center gap-3">
-            <span className="h-px w-10 bg-gold" />
-            <span className="text-xs font-semibold uppercase tracking-[0.24em] text-gold">
+            <span className="h-px w-10" style={{ backgroundColor: HOME_ACCENTS.amber }} />
+            <span
+              className="text-xs font-semibold uppercase tracking-[0.24em]"
+              style={{ color: HOME_ACCENTS.amber }}
+            >
               {SITE.university} · Sweden
             </span>
           </div>
@@ -70,7 +91,11 @@ function Hero() {
           </h1>
 
           <p className="mt-5 max-w-2xl font-display text-xl font-medium leading-snug sm:text-2xl">
-            <Acronym twoLines restClassName="text-white" goldClassName="text-gold" />
+            <Acronym
+              twoLines
+              restClassName="text-white"
+              goldClassName="text-[color:var(--accent)]"
+            />
           </p>
 
           <p className="mt-6 max-w-xl text-[17px] leading-relaxed text-neutral-300">
@@ -98,7 +123,8 @@ function Hero() {
       >
         <div className="flex h-10 w-6 items-start justify-center rounded-full border border-neutral-600 p-1.5">
           <motion.span
-            className="h-1.5 w-1 rounded-full bg-gold"
+            className="h-1.5 w-1 rounded-full"
+            style={{ backgroundColor: HOME_ACCENTS.amber }}
             animate={{ y: [0, 12, 0] }}
             transition={{ duration: 1.9, repeat: Infinity, ease: "easeInOut" }}
           />
@@ -161,17 +187,17 @@ function Mission() {
                 {
                   title: "Experiments",
                   body: "Laboratory and field work to quantify how animals, mostly fish and invertebrates, tolerate temperature extremes and adjust their physiology in response to changing environments.",
-                  color: "#FA6A03",
+                  color: HOME_ACCENTS.amber,
                 },
                 {
                   title: "Synthesis",
                   body: "Systematic reviews, meta-analyses and phylogenetic comparative analyses to establish generality at broader scales.",
-                  color: "#02B8A6",
+                  color: HOME_ACCENTS.teal,
                 },
                 {
                   title: "Distributed science",
                   body: "Globally distributed experiments coordinated through the Thermal Ecology Alliance to standardise methods, solve geographical biases, and answer questions no individual lab could tackle alone.",
-                  color: "#FAD103",
+                  color: HOME_ACCENTS.sand,
                 },
               ].map((c) => (
                 <div key={c.title} className="card p-6">
@@ -223,9 +249,9 @@ function Network() {
         </Reveal>
         <Reveal delay={0.1}>
           <div className="mt-10 grid grid-cols-1 gap-4 sm:grid-cols-3">
-            <StatTile value={collab.total} label="Co-authors" color="#02B8A6" />
-            <StatTile value={collab.institutions} label="Institutions" color="#FAD103" />
-            <StatTile value={collab.countries} label="Countries" color="#FA6A03" />
+            <StatTile value={collab.total} label="Co-authors" color={HOME_ACCENTS.teal} />
+            <StatTile value={collab.institutions} label="Institutions" color={HOME_ACCENTS.sand} />
+            <StatTile value={collab.countries} label="Countries" color={HOME_ACCENTS.rust} />
           </div>
         </Reveal>
         <Reveal delay={0.2}>
@@ -250,17 +276,22 @@ function OpenPositions() {
     <section className="py-20">
       <Container>
         <Reveal>
-          <div className="relative overflow-hidden rounded-3xl border border-gold/30 bg-gradient-to-br from-gold/[0.09] via-panel to-panel p-8 sm:p-12">
+          <div
+            className="relative overflow-hidden rounded-3xl border bg-gradient-to-br from-white/[0.05] via-panel to-panel p-8 sm:p-12"
+            style={{ borderColor: `${HOME_ACCENTS.amber}4D` }}
+          >
             <div className="brand-gradient absolute inset-x-0 top-0 h-[3px]" />
             <div className="flex flex-wrap items-start justify-between gap-8">
               <div className="max-w-xl">
-                <Chip color="#FAD103">Now recruiting</Chip>
+                <Chip color={HOME_ACCENTS.amber}>Now recruiting</Chip>
                 <h2 className="mt-4 font-display text-3xl font-bold leading-tight text-white sm:text-4xl">
                   {open.length} funded {open.length === 1 ? "position" : "positions"} in Gothenburg
                 </h2>
                 <p className="mt-4 text-[16px] leading-relaxed text-neutral-300">
                   We are recruiting a PhD student and a postdoctoral researcher! Applications close
-                  on <span className="font-semibold text-gold">{open[0].deadline}</span>.
+                  on <span className="font-semibold" style={{ color: HOME_ACCENTS.amber }}>
+                    {open[0].deadline}
+                  </span>.
                 </p>
                 <div className="mt-7">
                   <GradientButton to="/opportunities">
@@ -293,12 +324,12 @@ function OpenPositions() {
 /* ------------------------------------------------------------------ news */
 
 const TAG_COLOUR: Record<string, string> = {
-  Paper: "#FAD103",
-  Opportunities: "#FA6A03",
-  Events: "#02B8A6",
-  Award: "#B80502",
-  Media: "#B55EA8",
-  Lab: "#FAD103",
+  Paper: HOME_ACCENTS.sand,
+  Opportunities: HOME_ACCENTS.amber,
+  Events: HOME_ACCENTS.teal,
+  Award: HOME_ACCENTS.red,
+  Media: HOME_ACCENTS.mint,
+  Lab: HOME_ACCENTS.sand,
 };
 
 function LatestNews() {
@@ -310,7 +341,7 @@ function LatestNews() {
         <Reveal>
           <div className="flex flex-wrap items-end justify-between gap-6">
             <SectionHeading eyebrow="News" title="Latest from the group" />
-            <TextLink to="/news" color="#02B8A6">
+            <TextLink to="/news" color={HOME_ACCENTS.teal}>
               All news
             </TextLink>
           </div>

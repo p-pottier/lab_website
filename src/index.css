@@ -8,6 +8,25 @@
     --cyan: #02b8a6;
     --ember: #fa6a03;
     --crimson: #b80502;
+
+    /* Section eyebrows and rules read this; gradients read the stops. */
+    --accent: #fad103;
+
+    /* Every gradient on the site reads its stops from here. */
+    --brand-stops: #02b8a6 0%, #fad103 34%, #fa6a03 68%, #b80502 100%;
+  }
+
+  /*
+   * PALETTE TEST, HOME PAGE ONLY. App.tsx puts this class on the page wrapper
+   * when the route is "/", so the header, hero and rules below it pick up the
+   * eight-stop ramp while every other page keeps the original four.
+   * To revert: delete this block and the `home-palette` class in App.tsx, and
+   * the HOME_ACCENTS constant in pages/Home.tsx.
+   */
+  .home-palette {
+    --accent: #ee9b00;
+    --brand-stops: #005f73 0%, #0a9396 14%, #94d2bd 29%, #e9d8a6 43%, #ee9b00 57%,
+      #ca6702 71%, #bb3e03 86%, #ae2012 100%;
   }
 
   html {
@@ -66,40 +85,22 @@
 }
 
 @layer components {
-  /* The four-stop brand ramp used across TEA, reused here for rules and pills. */
+  /* The brand ramp used across TEA, reused here for rules and pills. */
   .brand-gradient {
-    background-image: linear-gradient(
-      90deg,
-      #02b8a6 0%,
-      #fad103 33.33%,
-      #fa6a03 66.66%,
-      #b80502 100%
-    );
+    background-image: linear-gradient(90deg, var(--brand-stops));
   }
 
-  /* Gradient lettering: cyan to yellow to orange to red, as on the rules. */
+  /* Gradient lettering, same ramp as the rules. */
   .brand-text {
-    background-image: linear-gradient(
-      95deg,
-      #02b8a6 0%,
-      #fad103 34%,
-      #fa6a03 68%,
-      #b80502 100%
-    );
+    background-image: linear-gradient(95deg, var(--brand-stops));
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
   }
 
-  /* Same ramp for headings, angled a little so it reads across long titles. */
+  /* Angled a little more, so the colour reads across a long heading. */
   .brand-title {
-    background-image: linear-gradient(
-      100deg,
-      #02b8a6 0%,
-      #fad103 34%,
-      #fa6a03 68%,
-      #b80502 100%
-    );
+    background-image: linear-gradient(100deg, var(--brand-stops));
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;

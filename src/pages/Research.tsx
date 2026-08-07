@@ -103,7 +103,7 @@ export default function Research() {
           <div className="mt-20 rounded-2xl border border-white/10 bg-panel/50 p-8">
             <SectionHeading
               title="Working across taxa, on purpose"
-              lead="Fishes are the starting point for most of our funded work, but the comparative questions run wider. Amphibians, reptiles and invertebrates all appear in our datasets, because a pattern that holds in one clade and fails in another tells us more than either result alone."
+              lead="While a lot of our experimental work currently focuses on fish and aquatic invertebrates, we enjoy working across taxa to better assess the generality of patterns between species."
             />
           </div>
         </Reveal>
