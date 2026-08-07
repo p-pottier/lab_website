@@ -127,7 +127,7 @@ export const THEMES: Theme[] = [
       "How resilient are early life stages to co-occurring environmental stressors?",
       "Which environmental pressures drive the evolution of developmental plasticity?",
     ],
-    image: "/images/frog-moss.jpg",
+    image: "/images/research-development-frogspawn.jpg",
     accent: "#02B8A6",
   },
   {
@@ -142,7 +142,7 @@ export const THEMES: Theme[] = [
       "Which functional traits better predict species range shifts and range contractions?",
       "When will the limits of species redistribution be reached?",
     ],
-    image: "/images/research-warming.jpg",
+    image: "/images/research-redistribution.jpg",
     accent: "#FA6A03",
   },
   {
@@ -156,7 +156,7 @@ export const THEMES: Theme[] = [
       "How can we optimise the co-production of knowledge?",
       "What are future research priorities for conservation and management?",
     ],
-    image: "/images/frog-moss.jpg",
+    image: "/images/research-knowledge-action.jpg",
     accent: "#B55EA8",
   },
   {

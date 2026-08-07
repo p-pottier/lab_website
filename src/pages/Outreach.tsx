@@ -220,7 +220,7 @@ export default function Outreach() {
         {/* ----------------------------------------------------------- teaching */}
         <section className="mt-24">
           <Reveal>
-            <SectionHeading eyebrow="Teaching" title="Courses we have taught" />
+            <SectionHeading eyebrow="Teaching" title="Courses and units" />
           </Reveal>
           <Reveal delay={0.1}>
             <EngagementTable items={TEACHING} accent="#FA6A03" />
