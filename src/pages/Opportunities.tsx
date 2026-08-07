@@ -127,7 +127,7 @@ export default function Opportunities() {
           <SectionHeading
             eyebrow="Funded positions"
             title={`${open.length} open ${open.length === 1 ? "position" : "positions"}`}
-            lead="Both positions sit within a Swedish Research Council programme on the vulnerability of fish life stages to climate change. Both are flexible in scope."
+            lead="Both positions are funded by the Swedish Research Council, for projects related to the vulnerability of different life stages to climate change. Projects are flexible in scope."
           />
         </Reveal>
 
@@ -144,7 +144,7 @@ export default function Opportunities() {
           <Reveal>
             <SectionHeading
               eyebrow="Who we are looking for"
-              title="Ideas and potential, not publication counts"
+              title="Ideas, drive, and potential, not metrics"
               lead={WHO_WE_LOOK_FOR.lead}
             />
           </Reveal>
@@ -162,8 +162,12 @@ export default function Opportunities() {
           </div>
 
           <Reveal delay={0.2}>
-            <div className="mt-6 rounded-2xl border border-cyan/25 bg-cyan/[0.05] p-6">
-              <p className="text-[15px] leading-relaxed text-neutral-300">
+            <div className="relative mt-6 overflow-hidden rounded-2xl border-2 border-cyan/50 bg-cyan/[0.08] p-7 sm:p-8">
+              <div className="brand-gradient absolute inset-x-0 top-0 h-[3px]" />
+              <h3 className="font-display text-lg font-bold text-cyan">
+                Everyone is welcome here
+              </h3>
+              <p className="mt-3 text-[16px] leading-relaxed text-neutral-200">
                 {WHO_WE_LOOK_FOR.closing}
               </p>
             </div>
@@ -176,7 +180,7 @@ export default function Opportunities() {
             <SectionHeading
               eyebrow="Bring your own funding"
               title="Fellowship schemes worth considering"
-              lead="If neither advertised position fits, a fellowship may. These schemes have funded researchers in groups like ours; deadlines shift each year, so check the funder's page before planning around one. I am glad to help develop a proposal, and the earlier we start the better it goes."
+              lead="We encourage prospective postdocs to apply for their own funding, and we are happy to support you in writing fellowships."
             />
           </Reveal>
 
@@ -243,7 +247,7 @@ export default function Opportunities() {
             <SectionHeading
               eyebrow="Short-term visits"
               title="Come and work with us for a few months"
-              lead="Not every collaboration needs a contract. Several schemes fund a stay of a few weeks to several months, which is long enough to run an experiment, learn a method or start a synthesis together. Write to me before applying, since most of these ask for a host letter."
+              lead="There are opportunities to come and visit the PEACE lab for a short stay. We would be happy to support your application."
             />
           </Reveal>
 
@@ -302,9 +306,8 @@ export default function Opportunities() {
               Not sure whether you fit?
             </h2>
             <p className="mt-4 max-w-2xl text-[16px] leading-relaxed text-neutral-300">
-              Write anyway. A short email describing what you find interesting and what you would
-              want to work on tells me far more than a CV does. Master's students and visiting
-              researchers are welcome to get in touch as well.
+              Get in touch! A short email describing what you find interesting and what you would
+              want to work on tells me far more than a CV does.
             </p>
             <div className="mt-7 flex flex-wrap gap-3">
               <GradientButton href={`mailto:${SITE.email}`}>

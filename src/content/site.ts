@@ -90,7 +90,7 @@ export const THEMES: Theme[] = [
     emoji: "☀️",
     title: "Plasticity and adaptation to changing temperatures",
     lead:
-      "Phenotypic plasticity and genetic adaptation are the two main routes through which animals can keep pace with a changing climate. However, we still know little about how much these mechanisms can buffer the impacts of climate change, and what limits them. We quantify the benefits and limits of plasticity and adaptation across species, traits and environments.",
+      "Phenotypic plasticity and genetic adaptation are two main mechanisms by which animals can keep pace with a changing climate. However, we still know little about how much these mechanisms can buffer the impacts of climate change, and what limits these adaptive responses. We quantify the benefits and limits of plasticity and adaptation across species, traits, and environments.",
     questions: [
       "What explains the variation in plasticity within and across taxa?",
       "To what extent can life-history traits evolve in response to changing environments?",
@@ -105,7 +105,7 @@ export const THEMES: Theme[] = [
     emoji: "🔥",
     title: "The impacts of temperature on reproduction",
     lead:
-      "Fertility often fails at temperatures well below those that kill. Reproduction may therefore set the thermal limit that decides whether a population persists. However, reproduction remains far less studied than survival. We quantify how extreme heat affects reproductive function, identify the mechanisms responsible, and assess what these limits mean for population growth under warming.",
+      "Reproduction fails at temperatures well below survival limits in many species. Therefore, reproductive thermal limits may be important predictors of population abundance and distribution under climate change. However, we still know little about how climate change impacts reproduction in ectothermic animals. We quantify how extreme heat affects reproductive function, and what this means for population persistence and distribution.",
     questions: [
       "Do animals recover reproductive function after an extreme heat event?",
       "Which physiological mechanisms cause reproduction to fail before survival?",
@@ -120,7 +120,7 @@ export const THEMES: Theme[] = [
     emoji: "🥚",
     title: "Developmental responses to environmental stressors",
     lead:
-      "Early-life environments can have strong and long-lasting effects on later phenotypes. However, heat rarely arrives alone, and embryos that survive a heatwave may still carry the costs into adulthood. We track these carry-over effects through the life cycle, and test whether they compound when stressors co-occur.",
+      "Early-life environments can have strong and long-lasting effects on later phenotypes. However, most predictions of the impacts of climate change on populations ignore the importance of developmental plasticity for species resilience. We are interested in understanding the importance of developmental plasticity and carry-over effects through the life cycle, in the context of climate change.",
     questions: [
       "What are the consequences of early developmental plasticity for later phenotypes?",
       "How does accounting for developmental plasticity change projected population dynamics?",
@@ -131,11 +131,40 @@ export const THEMES: Theme[] = [
     accent: "#02B8A6",
   },
   {
+    id: "redistribution",
+    emoji: "🧭",
+    title: "Understanding species (re)distribution",
+    lead:
+      "Climate change is responsible for global shifts in the distribution of biodiversity. Understanding past and future distributions is key to predicting the impacts of climate change on society and human well-being. We are interested in understanding the ecological and evolutionary drivers of species (re)distribution across taxa.",
+    questions: [
+      "Can we predict distributional limits from tolerance traits?",
+      "Can we use current knowledge to predict future range shifts?",
+      "Which functional traits better predict species range shifts and range contractions?",
+      "When will the limits of species redistribution be reached?",
+    ],
+    image: "/images/research-warming.jpg",
+    accent: "#FA6A03",
+  },
+  {
+    id: "knowledge-action",
+    emoji: "🤝",
+    title: "Bridging the knowledge-action gap",
+    lead:
+      "Biodiversity management is hindered by the limited translation of scientific findings into decision making, the knowledge-action gap, because outputs are often inaccessible, overly technical, or misaligned with the scale at which management decisions occur. We aim to develop tools to facilitate the co-production of knowledge and translate research outcomes into conservation, management, and policy.",
+    questions: [
+      "What are the needs of decision makers for effective knowledge transfer?",
+      "How can we optimise the co-production of knowledge?",
+      "What are future research priorities for conservation and management?",
+    ],
+    image: "/images/frog-moss.jpg",
+    accent: "#B55EA8",
+  },
+  {
     id: "bias",
     emoji: "🌍",
     title: "Solving biases in the ecological literature",
     lead:
-      "Taxonomic and geographical biases are ubiquitous in ecological datasets. These biases directly limit our ability to establish global patterns, and therefore what we can claim about climate change. We quantify these biases, assess how they influence ecological inference, and develop approaches to overcome them.",
+      "Taxonomic and geographic biases are pervasive in ecological datasets. These biases directly limit our ability to establish global patterns in species resilience. We quantify these biases, assess how they influence our ecological inferences, and develop approaches to overcome them.",
     questions: [
       "How does ignoring taxonomic and geographic bias change ecological inference?",
       "Can distributed experiments improve taxonomic and geographic coverage?",
@@ -150,7 +179,7 @@ export const THEMES: Theme[] = [
     emoji: "📚",
     title: "Improving methods for evidence synthesis",
     lead:
-      "Publication rates are increasing exponentially, which challenges our ability to synthesise comprehensive datasets for comparative analyses and meta-analyses. We develop methods, software and workflows to keep evidence synthesis tractable, and to ensure that synthesised evidence can be reused rather than rebuilt each time.",
+      "Publication rates are increasing exponentially, which challenges our ability to synthesise datasets from the literature for comparative studies and meta-analyses. We aim to develop methods, software, and workflows to keep evidence synthesis tractable.",
     questions: [
       "How can AI tools support evidence synthesis across multiple languages?",
       "Can targeted sampling cut screening effort without compromising inference?",
@@ -163,9 +192,9 @@ export const THEMES: Theme[] = [
   {
     id: "meta-science",
     emoji: "🔬",
-    title: "Meta-science: studying how research gets done",
+    title: "Studying how research is done through meta-science",
     lead:
-      "The way we do research shapes what we find. We study the practices of our own field, from reporting standards to the variation introduced by analytical choices, and test which interventions make evidence more robust, transparent and reusable.",
+      "The way we do research shapes what we find. We study research practices in ecology and evolutionary biology, from reporting standards to the variation introduced by analytical choices, and identify solutions to make evidence more robust, transparent, and interoperable.",
     questions: [
       "How much do results depend on who analyses the data?",
       "Which reporting practices make a study reusable by someone else?",
@@ -203,7 +232,11 @@ export const PI: Person = {
   ],
 };
 
-/** Paragraphs shown beside the PI photo on the People page. */
+/** Always visible beside the PI photo. */
+export const PI_INTRO =
+  "I am currently leading the PEACE lab at the University of Gothenburg. My research interests have always been broad, and I have always let myself be guided by my curiosity. I have taken a keen interest in improving our ability to quantify the impacts of climate change on biodiversity, because I care deeply about protecting our precious natural world. I enjoy learning new methods and working across scales, from laboratory experiments to comparative analyses, and across a broad range of taxa. Above all, I love discussing ideas and collaborating with other scientists. I recently founded the Thermal Ecology Alliance, a platform to facilitate more inclusive collaborations and discussions in the field, and I am beyond excited about what comes next!";
+
+/** Revealed by the "Learn more about me" button, below the intro. */
 export const PI_BIO: string[] = [
   "I am originally from France, where I did my BSc (2014-2017) and MSc (2017-2019) at the University of Tours. After a short research visit at the University of Alabama in the US (2018-2019), I started my PhD at the University of New South Wales in Australia (2020-2024). After a brief postdoc period split between UNSW and the Australian National University (2024-2025), I moved to the University of Gothenburg in Sweden (2025-current) with a Wenner-Gren postdoctoral fellowship. I recently received a strategic recruitment grant from the Swedish Research Council to start the PEACE lab. I have been extremely grateful to have been mentored by some of the kindest and most generous supervisors over the years. I would not be here without the support and care of Marlene Goubault (MSc supervisor), Ryan Earley (MSc supervisor), Shinichi Nakagawa (PhD supervisor), Szymon Drobniak (PhD supervisor), Daniel Noble (postdoc supervisor) and Fredrik Jutfelt (postdoc supervisor).",
   "My research interests have always been broad, and I have always let myself be guided by my curiosity. I have taken a keen interest in improving our ability to quantify the impacts of climate change on biodiversity, because I care deeply about protecting our precious natural world. I have become fascinated by what drives variation in the ability of different species to cope with extreme heat, and how species differ in their capacity to respond to environmental change through plasticity and adaptation. Recently, I have also been interested in quantifying how resilience varies within species, with a particular focus on how different life stages vary in their capacity to tolerate acute and chronic warming, and the importance of such variation for species resilience. I enjoy learning new methods and working across scales, from laboratory experiments to comparative analyses, and across a broad range of taxa. Above all, I love discussing ideas and collaborating with other scientists. I believe we need to unite forces and listen to a diversity of perspectives if we want to make important new discoveries and tackle pressing ecological challenges such as climate change. This is the primary reason I founded the Thermal Ecology Alliance, a platform to facilitate more inclusive collaborations and discussions in the field, and I am beyond excited about what comes next.",
@@ -218,7 +251,7 @@ export const CURRENT_MEMBERS: Person[] = [
     affiliation: "University of Gothenburg",
     photo: "/images/leon-pfeufer.jpg",
     blurb:
-      "Leon is studying the physiological mechanisms that set heat tolerance limits, and how fish adapt to changing environments across generations. He has studied which organs fail first under gradual warming, is currently conducting a meta-analysis of the evidence on oxygen- and capacity-limited thermal tolerance (OCLTT), and will soon investigate physiological changes in evolved lines of zebrafish selected for increased growth. Co-supervised with Fredrik Jutfelt.",
+      "Leon is studying the physiological mechanisms that set heat tolerance limits, and how fish adapt to changing environments across generations. He has studied which organs fail first under gradual warming, is currently conducting a meta-analysis of the evidence on oxygen- and capacity-limited thermal tolerance (OCLTT), and will soon investigate physiological changes in evolved lines of zebrafish selected for increased growth. Leon is co-supervised with Fredrik Jutfelt.",
     links: [],
   },
   {
@@ -227,7 +260,7 @@ export const CURRENT_MEMBERS: Person[] = [
     affiliation: "Australian National University",
     photo: "/images/xinyi-liu.jpg",
     blurb:
-      "Xinyi is studying the impacts of microplastics on freshwater and marine organisms. She is conducting a meta-analysis of the impacts of freshwater microplastics on life-history traits, and will soon run experiments with interacting environmental stressors. Co-supervised with Daniel Noble.",
+      "Xinyi is studying the impacts of microplastics on freshwater and marine organisms. She is conducting a meta-analysis of the impacts of freshwater microplastics on life-history traits, and will soon run experiments on freshwater invertebrates to quantify how changing temperatures affect the toxicity of microplastics. Xinyi is co-supervised with Daniel Noble.",
     links: [],
   },
 ];
@@ -242,135 +275,6 @@ export const PAST_MEMBERS: Person[] = [
     now: "",
     blurb:
       "Joelle did her MSc in the PEACE lab, where she studied how thermal tolerance varies across embryonic stages of zebrafish. She identified critical windows of sensitivity to extreme heat, and is currently preparing a manuscript for publication.",
-  },
-];
-
-/**
- * People we work with most closely. The map above this section is generated
- * from every co-authored paper; this list is for the handful worth naming.
- * Add a `photo` path (put the file in public/images/) to show a portrait.
- */
-export type Collaborator = {
-  name: string;
-  affiliation: string;
-  orcid?: string;
-  /** Optional portrait. Drop the file in public/images/ and point here. */
-  photo?: string;
-  /** Personal or laboratory page, used in preference to the ORCID link. */
-  href?: string;
-  blurb?: string;
-};
-
-/**
- * Affiliations follow OpenAlex's last-known institution rather than the one on
- * a joint paper, so they track a move. Run `node scripts/collaborator-info.mjs`
- * to re-check them, and to look for portraits on each person's linked pages.
- */
-export const MAIN_COLLABORATORS: Collaborator[] = [
-  {
-    name: "Shinichi Nakagawa",
-    affiliation: "University of Alberta",
-    orcid: "https://orcid.org/0000-0002-7765-5182",
-    href: "http://www.i-deel.org/",
-  },
-  {
-    name: "Szymon M. Drobniak",
-    affiliation: "Jagiellonian University",
-    orcid: "https://orcid.org/0000-0001-8101-6247",
-    photo: "/images/collaborators/szymon-m-drobniak.jpg",
-  },
-  {
-    name: "Malgorzata Lagisz",
-    affiliation: "University of Alberta",
-    orcid: "https://orcid.org/0000-0002-3993-6127",
-    href: "http://mlagisz.weebly.com/",
-  },
-  {
-    name: "Daniel W. A. Noble",
-    affiliation: "Australian National University",
-    orcid: "https://orcid.org/0000-0001-9460-8743",
-    href: "https://sites.google.com/view/noblelab/home",
-  },
-  {
-    name: "Fredrik Jutfelt",
-    affiliation: "University of Gothenburg",
-    orcid: "https://orcid.org/0000-0001-9838-3991",
-    photo: "/images/collaborators/fredrik-jutfelt.jpg",
-  },
-  {
-    name: "Nicholas C. Wu",
-    affiliation: "Murdoch University",
-    orcid: "https://orcid.org/0000-0002-7130-1279",
-    href: "https://www.nicholaswulab.com/",
-    photo: "/images/collaborators/nicholas-c-wu.jpg",
-  },
-  {
-    name: "Lisa E. Schwanz",
-    affiliation: "UNSW Sydney",
-    orcid: "https://orcid.org/0000-0001-5864-7112",
-  },
-  {
-    name: "Michael Kearney",
-    affiliation: "University of Melbourne",
-    orcid: "https://orcid.org/0000-0002-3349-8744",
-  },
-  {
-    name: "Frank Seebacher",
-    affiliation: "University of Sydney",
-    orcid: "https://orcid.org/0000-0002-2281-9311",
-  },
-  {
-    name: "Katharina Ruthsatz",
-    affiliation: "Doñana Biological Station",
-    orcid: "https://orcid.org/0000-0002-3273-2826",
-  },
-  {
-    name: "Tatsuya Amano",
-    affiliation: "University of Queensland",
-    orcid: "https://orcid.org/0000-0001-6576-3410",
-    photo: "/images/collaborators/tatsuya-amano.jpg",
-  },
-  {
-    name: "Alex R. Gunderson",
-    affiliation: "Tulane University",
-    orcid: "https://orcid.org/0000-0002-0120-4246",
-  },
-  {
-    name: "Yefeng Yang",
-    affiliation: "UNSW Sydney",
-    orcid: "https://orcid.org/0000-0002-8610-4016",
-  },
-  {
-    name: "Kyle Morrison",
-    affiliation: "University of Alberta",
-    orcid: "https://orcid.org/0000-0002-3700-2398",
-  },
-  {
-    name: "April Robin Martinig",
-    affiliation: "Université de Sherbrooke",
-    orcid: "https://orcid.org/0000-0002-0972-6903",
-    href: "http://martinig.weebly.com",
-  },
-  {
-    name: "Zara-Louise Cowan",
-    affiliation: "Ludwig-Maximilians-Universität München",
-    orcid: "https://orcid.org/0000-0002-3862-7111",
-  },
-  {
-    name: "Pietro Pollo",
-    affiliation: "UNSW Sydney",
-    orcid: "https://orcid.org/0000-0001-6555-5400",
-  },
-  {
-    name: "Dylan Gomes",
-    affiliation: "NOAA National Marine Fisheries Service",
-    orcid: "https://orcid.org/0000-0002-2642-3728",
-    href: "https://dylangegomes.wixsite.com/home",
-  },
-  {
-    name: "John S. Terblanche",
-    affiliation: "Stellenbosch University",
-    orcid: "https://orcid.org/0000-0001-9665-9405",
   },
 ];
 
@@ -412,14 +316,12 @@ export const POSITIONS: Position[] = [
     deadline: "21 September 2026",
     status: "open",
     summary:
-      "How and why does thermal sensitivity vary across the life cycle, and what does that mean for animal populations under climate change?",
+      "An opportunity to understand how and why thermal sensitivity varies across the life cycle, and what this means for animal populations under climate change.",
     details: [
-      "The Swedish Research Council funds this project, as part of a programme on the vulnerability of fish life stages to climate change.",
-      "The work combines experiments with evidence synthesis and comparative analysis. Fish are the starting point, but comparative questions can range wider, including freshwater and marine invertebrates.",
-      "Possible directions include standardising how tolerance is measured across stages, finding the critical windows of sensitivity during development, quantifying acclimation within and across generations, and translating laboratory measurements into field-relevant projections.",
-      "I supervise the project, with Prof. Fredrik Jutfelt as co-supervisor. Expect at least one supervisory meeting per week, close support early in each project, and responsibility handed over as your independence grows.",
-      "The position is based at Natrium in Gothenburg, with the option of running projects at the Kristineberg marine research station.",
-      "The start date is flexible, preferably before the end of 2026.",
+      "This PhD project is fully funded by the Swedish Research Council, as part of a programme on the vulnerability of fish life stages to climate change.",
+      "The PhD project is expected to combine experiments with evidence synthesis and comparative analyses. While some aspects of the project will have to touch on variation in thermal sensitivity between life stages, the project is flexible in scope, and I welcome students to come up with their own research ideas.",
+      "This project will be co-supervised by Fredrik Jutfelt, and based at Natrium in Gothenburg. There will also be opportunities to conduct projects at the Kristineberg marine station.",
+      "The start date is flexible, but preferably before the end of 2026.",
     ],
     image: "/images/research-development.jpg",
   },
@@ -431,14 +333,13 @@ export const POSITIONS: Position[] = [
     deadline: "21 September 2026",
     status: "open",
     summary:
-      "Two years to work on thermal sensitivity across the life cycle, with room to shape the questions and to lead globally distributed experiments.",
+      "An opportunity to integrate ecological and climatic data across life stages to predict global vulnerability to climate change.",
     details: [
-      "The Swedish Research Council funds this position, within the same programme on fish life stages and climate vulnerability.",
-      "The scope is deliberately open. I would rather you develop original questions than execute a plan I wrote.",
-      "Directions include comparing vulnerability across life stages, testing resilience to co-occurring stressors, asking whether heat tolerance evolves independently across stages, building models that translate laboratory data into field projections, and synthesising published evidence.",
-      "The role carries leadership opportunities through the Thermal Ecology Alliance, including running globally distributed experiments, and the chance to co-supervise MSc and PhD students.",
-      "Applicants should have completed a doctoral degree no more than three years before the closing date, with the usual allowances for parental leave, illness and similar circumstances.",
-      "The start date is preferably before March 2027, with flexibility for notice periods and residence permits.",
+      "This postdoc project is fully funded by the Swedish Research Council, as part of a programme on the vulnerability of fish life stages to climate change.",
+      "The postdoc project is expected to combine experiments with evidence synthesis and comparative analyses. While some aspects of the project will have to touch on variation in thermal sensitivity between life stages, the project is flexible in scope, and I welcome applicants to come up with their own research ideas.",
+      "The applicant will also have opportunities to take on leadership roles through the Thermal Ecology Alliance, including managing distributed experiments, and the chance to co-supervise MSc and PhD students.",
+      "This project will be co-supervised by Fredrik Jutfelt, and based at Natrium in Gothenburg. There will also be opportunities to conduct projects at the Kristineberg marine station.",
+      "The start date is flexible, but preferably before March 2027. Applicants should have completed a doctoral degree no more than three years before the start of the position.",
     ],
     image: "/images/opportunities-banner.webp",
   },
@@ -447,19 +348,19 @@ export const POSITIONS: Position[] = [
 /** Traits drawn from the two Gothenburg advertisements. */
 export const WHO_WE_LOOK_FOR = {
   lead:
-    "How you think matters more here than what you have already published. We assess every qualification relative to opportunity, because access to projects, laboratory time, programming, travel and publication varies enormously between institutions, countries and personal circumstances. What we weigh is your ideas and your potential, not your publication count or the linearity of your path.",
+    "How you think and your initiatives matter more than what you have published. We recognise that academic metrics are difficult to compare because of unequal access to opportunities. Therefore, we are primarily looking for people who are highly motivated, curious, and driven by their ideas, not publication counts.",
   traits: [
     {
       title: "Curious and self-directed",
-      body: "You follow questions because they interest you, you organise your own work, and you want to build the independence the role asks for.",
+      body: "You are creative, independent, and eager to design your own research projects.",
     },
     {
       title: "A critical thinker",
-      body: "You think carefully about the state of the evidence, you enjoy solving problems, and you are willing to read outside your field.",
+      body: "You think critically about the state of evidence, enjoy solving problems, and are willing to explore ideas outside your comfort zone.",
     },
     {
       title: "Eager to learn new methods",
-      body: "You want to develop quantitative skills, in R or something comparable, and to work reproducibly. Arriving fluent is not a requirement.",
+      body: "You are eager to develop quantitative skills in R or similar environments, and to work reproducibly.",
     },
     {
       title: "Motivated by the problem",
@@ -467,15 +368,15 @@ export const WHO_WE_LOOK_FOR = {
     },
     {
       title: "A good collaborator",
-      body: "You give and take constructive feedback well, and you work respectfully with people from different disciplinary, cultural and personal backgrounds.",
+      body: "You can give and receive constructive feedback, and you work respectfully with people from different disciplinary, cultural, and personal backgrounds.",
     },
     {
       title: "Committed to open science",
-      body: "You value integrity, fairness and transparency, and you want your work to be reusable by people you will never meet.",
+      body: "You value scientific integrity, fairness, and transparency, and you value helping others through your work.",
     },
   ],
   closing:
-    "We value diversity and we are committed to an inclusive research environment. We welcome applications from people of all backgrounds and identities, including people from diverse cultural and linguistic backgrounds, people with disabilities, neurodivergent people, and people of all genders, sexual orientations and ages.",
+    "We value diversity and we are committed to an inclusive research environment. We welcome applications from people of all backgrounds and identities, including people from diverse cultural and linguistic backgrounds, people with disabilities, neurodivergent people, and people of all genders, sexual orientations and ages. We have zero tolerance against any form of harassment, hate, discrimination, or unfair treatment.",
 };
 
 /* ----------------------------------------------------------- fellowships */
@@ -739,16 +640,16 @@ export const NEWS: NewsItem[] = [
     tag: "Opportunities",
     title: "Two positions open: one PhD and one postdoc",
     body:
-      "We are recruiting a PhD student and a two-year postdoctoral researcher to work on thermal sensitivity across the life cycle. The Swedish Research Council funds both. Applications close on 21 September 2026.",
+      "We are recruiting a PhD student and a postdoctoral researcher. Both are funded by a grant from the Swedish Research Council, but are flexible in scope. Applications close on 21 September 2026.",
     href: "/opportunities",
     image: "/images/opportunities-banner.webp",
   },
   {
     date: "2026-07-20",
     tag: "Events",
-    title: "Patrice attended the Ecological Data Synthesis course at Bamfield",
+    title: "Patrice attended the Ecological Data Synthesis course in Bamfield",
     body:
-      "An excellent couple of weeks on Vancouver Island, giving a seminar and teaching on the Ecological Data Synthesis course with Jenn Sunday and Nikki Moore. Few things sharpen your own thinking like watching students take a method apart.",
+      "I had an absolute blast giving a seminar and teaching for the Ecological Data Synthesis course at the Bamfield Marine Sciences Centre. I was invited by Jenn Sunday, and had the chance to meet many amazing colleagues, including Nikki Moore and Amanda Bates. I look forward to coming back to Bamfield!",
     image: "/images/news-bamfield-trip.jpg",
   },
   {
@@ -756,7 +657,7 @@ export const NEWS: NewsItem[] = [
     tag: "Events",
     title: "Patrice attended the FIN club writing retreat",
     body:
-      "A brilliant few days writing on Vancouver Island after ICBF, with colleagues who are also friends. Retreats like this get more done than a month of ordinary weeks.",
+      "I had so much fun catching up with ecophysiologist friends on Vancouver Island after the ICBF conference. We managed to work on multiple projects, and saw countless eagles, black bears, and other critters. I am feeling fortunate to attend working groups like this!",
     image: "/images/news-fin-club.jpg",
   },
   {
@@ -764,7 +665,7 @@ export const NEWS: NewsItem[] = [
     tag: "Events",
     title: "Patrice attended the International Congress on the Biology of Fish in Vancouver",
     body:
-      "A great week of catching up with old friends and meeting new ones. The talks from fish physiologists working all over the world left me full of ideas to chase.",
+      "Had an amazing week catching up with old friends and meeting new ones. I was lucky to give a talk on embryonic heat tolerance in fish, and organise a symposium on the vulnerability of early life stages to global change. I am now full of ideas for future projects!",
     image: "/images/news-icbf.jpg",
   },
   {
@@ -783,7 +684,7 @@ export const NEWS: NewsItem[] = [
     tag: "Lab",
     title: "The PEACE Lab starts at the University of Gothenburg",
     body:
-      "The group opens at the Department of Biological and Environmental Sciences, working on how animals respond to rapidly changing environments.",
+      "The PEACE lab has just spawned in the Department of Biological and Environmental Sciences at the University of Gothenburg. I am really excited for what comes next!",
     image: "/images/fish-eggs.jpg",
   },
   {
@@ -791,7 +692,7 @@ export const NEWS: NewsItem[] = [
     tag: "Opportunities",
     title: "Thermal Ecology Alliance distributed experiment underway",
     body:
-      "Research groups across six continents are collecting standardised data on fish embryonic heat tolerance. No single laboratory could assemble a dataset of this breadth alone.",
+      "We are running a distributed experiment on the heat tolerance of fish embryos through the Thermal Ecology Alliance. Please reach out if you are interested in participating!",
     href: "https://www.thermalecologyalliance.org/",
     image: "/images/research-development.jpg",
   },
@@ -812,7 +713,7 @@ export const OUTREACH: OutreachItem[] = [
     title: "Thermal Ecology Alliance",
     role: "Founder and coordinator",
     body:
-      "A global network of thermal ecologists running coordinated, distributed experiments. The Alliance standardises how thermal tolerance data are collected, cuts duplicated effort, and assembles datasets broad enough to test global patterns. It is also a community of practice, open to anyone working on how temperature shapes life.",
+      "The Thermal Ecology Alliance is a global collaborative initiative aiming to bring together people committed to predicting, communicating, and mitigating the impacts of changing temperatures on biodiversity. The goal of this initiative is to promote more inclusive collaborations, promote distributed experiments, and foster community discussions to tackle pressing ecological challenges.",
     href: "https://www.thermalecologyalliance.org/",
     accent: "#FAD103",
   },
@@ -820,22 +721,22 @@ export const OUTREACH: OutreachItem[] = [
     title: "Open and reproducible research",
     role: "Advocacy and practice",
     body:
-      "We release the data, code and protocols behind our papers, and we build R packages and workflows so that others can rerun, check and reuse the analyses. Much of this work runs through SORTEE, the Society for Open, Reproducible, and Transparent Ecology and Evolutionary Biology, where I served on the board and remain active.",
+      "We publish the data, code and protocols behind all of our papers, and we build R packages and workflows so that others can adapt and reuse our analyses. Much of the effort to promote open science has been motivated by the Society for Open, Reliable and Transparent Ecology and Evolutionary Biology (SORTEE), where Patrice served as a board and committee member.",
     href: "https://www.sortee.org/",
     accent: "#02B8A6",
   },
   {
-    title: "Writing for the public",
+    title: "Communicating with the public",
     role: "Science communication",
     body:
-      "Research that stays inside journals rarely changes anything. I write for general audiences, mostly in The Conversation, and speak to schools, community groups and the press about what climate change is doing to animals.",
+      "Research published in scientific journals rarely reaches non-academic audiences. We like to write for general audiences and speak to the public about how climate change affects our biodiversity, and what measures we can take to preserve our natural wonders.",
     accent: "#FA6A03",
   },
   {
     title: "Peer review and editorial work",
     role: "Service",
     body:
-      "I review for journals and funding bodies across ecology, evolution and conservation physiology. My particular interest is raising the standard of evidence synthesis, which is still uneven across our field.",
+      "We review for scientific journals and funding bodies. We believe peer review is an essential part of academic service, and are grateful to all those who have reviewed our own papers.",
     accent: "#B80502",
   },
 ];
@@ -844,6 +745,12 @@ export const OUTREACH: OutreachItem[] = [
 export type MediaItem = { title: string; outlet: string; year: number; href: string };
 
 export const MEDIA: MediaItem[] = [
+  {
+    title: "Assessing amphibian vulnerability requires knowledge across all life stages",
+    outlet: "FrogLog, IUCN Amphibian Specialist Group",
+    year: 2025,
+    href: "https://www.iucn-amphibians.org/wp-content/uploads/sites/4/2025/12/FrogLog-127-12th-December-2025.pdf",
+  },
   {
     title: "Hot frogs and sizzling salamanders: climate change is pushing amphibians to their limits",
     outlet: "The Conversation",
@@ -875,7 +782,7 @@ export const POSTERS: Poster[] = [
     year: 2025,
     image: "/posters/poster-seb2025.jpg",
     pdf: "/posters/poster-seb2025.pdf",
-    note: "The recruitment call for the Thermal Ecology Alliance experiment now running.",
+    note: "Presented by Patrice Pottier.",
   },
   {
     title: "Climate vulnerability of the world's amphibians: finding the missing pieces of an ecological puzzle",
@@ -883,7 +790,7 @@ export const POSTERS: Poster[] = [
     year: 2022,
     image: "/posters/poster-seb2022.jpg",
     pdf: "/posters/poster-seb2022.pdf",
-    note: "Published in Nature.",
+    note: "Presented by Patrice Pottier.",
   },
   {
     title:
@@ -892,7 +799,210 @@ export const POSTERS: Poster[] = [
     year: 2022,
     image: "/posters/poster-eseb2022.jpg",
     pdf: "/posters/poster-eseb2022.pdf",
-    note: "Published in Ecology Letters.",
+    note: "Presented by Patrice Pottier.",
+  },
+];
+
+/* ------------------------------------------------- talks, teaching, service */
+
+/**
+ * One shape for every dated list on the Outreach page. `kind` opens the entry,
+ * `detail` carries the venue and any co-organisers.
+ */
+export type Engagement = {
+  year: string;
+  kind: string;
+  title: string;
+  detail: string;
+};
+
+export const TALKS: Engagement[] = [
+  {
+    year: "2026",
+    kind: "Invited speaker",
+    title: "The Thermal Ecology Alliance",
+    detail:
+      "Workshop on temperature responses across disciplines and scales, Bolin Centre for Climate Research (15 min). Stockholm, Sweden.",
+  },
+  {
+    year: "2026",
+    kind: "Invited speaker",
+    title: "Plasticity and resilience of ectotherms to climate warming",
+    detail: "Seminar at the Bamfield Marine Sciences Centre (45 min). Bamfield, Canada.",
+  },
+  {
+    year: "2024",
+    kind: "Invited speaker",
+    title: "How vulnerable are amphibians to global warming?",
+    detail:
+      "Society for Experimental Biology conference, Young Scientist Award session (20 min). Prague, Czechia.",
+  },
+  {
+    year: "2023",
+    kind: "Plenary speaker",
+    title: "Plasticity and resilience of ectotherms to global warming",
+    detail:
+      "Genetics, Ecology, Microbiology, Medicine, Zoology conference (60 min). Melbourne, Australia.",
+  },
+  {
+    year: "2022",
+    kind: "Plenary speaker",
+    title: "Developmental plasticity in thermal tolerance",
+    detail:
+      "Australasian Evolution Society conference, Early Career Researcher Excellence award (30 min). Canberra, Australia.",
+  },
+  {
+    year: "2022",
+    kind: "Invited speaker",
+    title:
+      "Developmental plasticity in thermal tolerance: ontogenetic variation, persistence, and future directions",
+    detail: "Society for Experimental Biology conference (30 min). Montpellier, France.",
+  },
+  {
+    year: "2022",
+    kind: "Invited speaker",
+    title: "Pre-registration: why it is for you too",
+    detail:
+      "Society for Open, Reliable, and Transparent Ecology and Evolutionary Biology conference (15 min). Online.",
+  },
+];
+
+export const WORKSHOPS: Engagement[] = [
+  {
+    year: "2026",
+    kind: "Workshop",
+    title: "Introduction to systematic reviews and meta-analyses",
+    detail:
+      "Invited 1.5-day workshop, Lund University. Co-organised with Daniel Noble. Lund, Sweden.",
+  },
+  {
+    year: "2026",
+    kind: "Symposium",
+    title: "Vulnerability and adaptations of developmental stages to global change stressors",
+    detail:
+      "International Congress on the Biology of Fish. Co-organised with Jérémy de Bonville and Zara Cowan. Vancouver, Canada.",
+  },
+  {
+    year: "2025",
+    kind: "Symposium",
+    title: "Vulnerability and adaptations of early-life stages to environmental stressors",
+    detail:
+      "Society for Experimental Biology conference. Co-organised with Jérémy de Bonville and Zara Cowan. Antwerp, Belgium.",
+  },
+  {
+    year: "2023",
+    kind: "Symposium",
+    title: "Plasticity and resilience of developmental stages to climate change",
+    detail:
+      "Society for Experimental Biology conference. Co-organised with Katharina Ruthsatz. Edinburgh, United Kingdom.",
+  },
+  {
+    year: "2023",
+    kind: "Workshop",
+    title: "Mapping the impacts of anthropogenic threats on biodiversity",
+    detail: "Self-organised. Sydney, Australia.",
+  },
+  {
+    year: "2023",
+    kind: "Workshop",
+    title: "How to make your science more open?",
+    detail: "UNSW Skill Transfer workshop. Sydney, Australia.",
+  },
+  {
+    year: "2023",
+    kind: "Workshop",
+    title: "Geographical biases in global ecological syntheses",
+    detail: "UNSW Evolution & Ecology Research Centre. Smiths Lake, Australia.",
+  },
+];
+
+export const TEACHING: Engagement[] = [
+  { year: "2025", kind: "Tutor", title: "BIO515, Research Skills in Biology", detail: "University of Gothenburg." },
+  { year: "2023", kind: "Tutor", title: "SCIF1131, Introductory Skills for Science", detail: "University of New South Wales." },
+  { year: "2023", kind: "Tutor", title: "SCIF1111, Perspectives in Medical Science, Scientific Literacy", detail: "University of New South Wales." },
+  { year: "2023", kind: "Demonstrator", title: "MFAC1501, Introduction to Microbiology", detail: "University of New South Wales." },
+  { year: "2023", kind: "Demonstrator", title: "BABS1201, Molecules, Cells and Genes", detail: "University of New South Wales." },
+  { year: "2023", kind: "Demonstrator, invigilator", title: "MSCI0501, The Marine Environment", detail: "University of New South Wales." },
+  { year: "2022", kind: "Demonstrator", title: "MFAC1527, Society & Health", detail: "University of New South Wales." },
+  { year: "2022", kind: "Demonstrator", title: "MFAC1522, Beginnings, Growth and Development B", detail: "University of New South Wales." },
+  { year: "2022", kind: "Demonstrator", title: "MFAC1521, Beginnings, Growth and Development B", detail: "University of New South Wales." },
+  { year: "2022", kind: "Tutor", title: "SCIF1131, Perspectives in Medical Science, Scientific Literacy", detail: "University of New South Wales." },
+];
+
+export const SERVICE: Engagement[] = [
+  {
+    year: "2023-2026",
+    kind: "Board of directors",
+    title: "Society for Open, Reliable, and Transparent Ecology and Evolutionary Biology",
+    detail: "",
+  },
+  {
+    year: "2025",
+    kind: "Guest editor",
+    title:
+      "Special issue: ontogenetic variation in thermal biology, assessing life stage-specific adaptations and sensitivity in animals",
+    detail: "Journal of Thermal Biology.",
+  },
+  {
+    year: "2022-2023",
+    kind: "Equity, Diversity and Inclusion Committee",
+    title: "UNSW Science",
+    detail: "",
+  },
+  {
+    year: "2023",
+    kind: "Radio interview",
+    title: "Why open science?",
+    detail: "Eastside Radio FM, Boiling Point.",
+  },
+  {
+    year: "2022",
+    kind: "Awards Committee",
+    title: "Society for Open, Reliable, and Transparent Ecology and Evolutionary Biology",
+    detail: "",
+  },
+  {
+    year: "2022",
+    kind: "Equity, Diversity and Inclusion Committee",
+    title: "Society for Open, Reliable, and Transparent Ecology and Evolutionary Biology",
+    detail: "",
+  },
+  {
+    year: "2022-2023",
+    kind: "Postgraduate Committee",
+    title: "UNSW Evolution & Ecology Research Centre",
+    detail: "",
+  },
+  {
+    year: "2022",
+    kind: "Skype a Scientist",
+    title: "LadyGrove Park primary school",
+    detail: "Didcot, United Kingdom.",
+  },
+  {
+    year: "2022",
+    kind: "Skype a Scientist",
+    title: "ISS International School",
+    detail: "Singapore.",
+  },
+  {
+    year: "2022",
+    kind: "Pint of Science",
+    title: "Can animals cope with climate change?",
+    detail: "Sydney, Australia.",
+  },
+  {
+    year: "2020",
+    kind: "BatteryLow",
+    title: "Playing video games for science",
+    detail: "Live stream on Twitch. Sydney, Australia.",
+  },
+  {
+    year: "2020-2026",
+    kind: "Peer review",
+    title:
+      "American Naturalist, Biological Conservation, Biological Reviews, Biology Letters, Current Opinion in Insect Science, Ecology Letters, Integrative and Comparative Biology, Global Change Biology, Journal of Animal Ecology, Journal of Evolutionary Biology, Journal of Experimental Zoology Part A, Journal of Thermal Biology, Marine Environmental Research, Nature Ecology and Evolution, PeerJ",
+    detail: "",
   },
 ];
 

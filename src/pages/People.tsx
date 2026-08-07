@@ -1,10 +1,12 @@
+import { useState } from "react";
+import { AnimatePresence, motion } from "framer-motion";
 import {
   CURRENT_MEMBERS,
   CV_URL,
-  MAIN_COLLABORATORS,
   PAST_MEMBERS,
   PI,
   PI_BIO,
+  PI_INTRO,
   type Person,
 } from "../content/site";
 import CollaboratorMap from "../components/CollaboratorMap";
@@ -16,7 +18,7 @@ import {
   Reveal,
   SectionHeading,
 } from "../components/ui";
-import { Icon } from "../components/Icons";
+import { ArrowRight, Icon } from "../components/Icons";
 
 /** Initials stand in until a photograph is supplied. */
 function Avatar({ person, size = 96 }: { person: Person; size?: number }) {
@@ -90,12 +92,14 @@ function MemberCard({ person, muted = false }: { person: Person; muted?: boolean
 }
 
 export default function People() {
+  const [bioOpen, setBioOpen] = useState(false);
+
   return (
     <>
       <PageHero
         eyebrow="People"
         title="Our team"
-        lead="We are based at the University of Gothenburg, but we also work with a large and growing network of collaborators globally."
+        lead="We are based at the University of Gothenburg, but we also work with a growing network of collaborators globally."
         image="/images/fish-trevally.jpg"
       />
 
@@ -136,10 +140,38 @@ export default function People() {
                 <p className="mt-2 text-sm text-neutral-500">{PI.affiliation}</p>
 
                 <div className="prose-dark mt-6">
-                  {PI_BIO.map((p, i) => (
-                    <p key={i}>{p}</p>
-                  ))}
+                  <p>{PI_INTRO}</p>
                 </div>
+
+                <button
+                  onClick={() => setBioOpen((v) => !v)}
+                  className="group mt-5 inline-flex items-center gap-2 text-sm font-semibold text-cyan transition hover:text-white"
+                >
+                  {bioOpen ? "Show less" : "Learn more about me"}
+                  <ArrowRight
+                    className={`transition-transform duration-300 ${
+                      bioOpen ? "rotate-90" : "group-hover:translate-x-1"
+                    }`}
+                  />
+                </button>
+
+                <AnimatePresence initial={false}>
+                  {bioOpen && (
+                    <motion.div
+                      initial={{ opacity: 0, height: 0 }}
+                      animate={{ opacity: 1, height: "auto" }}
+                      exit={{ opacity: 0, height: 0 }}
+                      transition={{ duration: 0.4, ease: [0.22, 1, 0.36, 1] }}
+                      className="overflow-hidden"
+                    >
+                      <div className="prose-dark mt-5 border-l-2 border-cyan/30 pl-5">
+                        {PI_BIO.map((p, i) => (
+                          <p key={i}>{p}</p>
+                        ))}
+                      </div>
+                    </motion.div>
+                  )}
+                </AnimatePresence>
 
                 <div className="mt-7 flex flex-wrap items-center gap-3">
                   <GradientButton href={CV_URL}>
@@ -204,7 +236,7 @@ export default function People() {
           <Reveal>
             <SectionHeading
               eyebrow="Collaborators"
-              title="A team inside a global collaborative network"
+              title="A global collaborative network"
               lead="None of our work would be possible without the expertise and contributions of our collaborators. We have been very fortunate to work with many researchers from all across the globe, and would love to establish new collaborations."
             />
           </Reveal>
@@ -214,73 +246,6 @@ export default function People() {
             </div>
           </Reveal>
 
-          {/* the handful worth naming, edited by hand in src/content/site.ts */}
-          <div className="mt-14">
-            <Reveal>
-              <SectionHeading
-                title="People we work with most closely"
-                lead="A few of the collaborators behind the projects on this site."
-              />
-            </Reveal>
-
-            <div className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-              {MAIN_COLLABORATORS.map((c, i) => {
-                const link = c.href ?? c.orcid;
-                const initials = c.name
-                  .replace(/[^A-Za-zÀ-ɏ\- ]/g, "")
-                  .split(/[\s-]+/)
-                  .filter(Boolean)
-                  .map((w) => w[0])
-                  .filter((ch) => ch === ch.toUpperCase())
-                  .slice(0, 2)
-                  .join("");
-
-                return (
-                  <Reveal key={c.name} delay={Math.min(i, 8) * 0.04}>
-                    <div className="card flex h-full items-start gap-4 p-5">
-                      {c.photo ? (
-                        <img
-                          src={c.photo}
-                          alt={c.name}
-                          className="h-14 w-14 shrink-0 rounded-xl border border-white/10 object-cover"
-                        />
-                      ) : (
-                        <div className="flex h-14 w-14 shrink-0 items-center justify-center rounded-xl border border-cyan/25 bg-gradient-to-br from-cyan/15 to-gold/10 font-display text-base font-bold text-cyan">
-                          {initials}
-                        </div>
-                      )}
-                      <div className="min-w-0">
-                        <h3 className="font-display text-[15px] font-semibold leading-snug text-white">
-                          {link ? (
-                            <a
-                              href={link}
-                              target="_blank"
-                              rel="noreferrer"
-                              className="transition hover:text-gold"
-                            >
-                              {c.name}
-                            </a>
-                          ) : (
-                            c.name
-                          )}
-                        </h3>
-                        <p className="mt-1 text-sm leading-snug text-neutral-500">{c.affiliation}</p>
-                        {c.blurb && (
-                          <p className="mt-2 text-sm leading-relaxed text-neutral-400">{c.blurb}</p>
-                        )}
-                      </div>
-                    </div>
-                  </Reveal>
-                );
-              })}
-            </div>
-
-            <Reveal>
-              <p className="mt-6 text-sm text-neutral-500">
-                And many more. The map above holds every co-author on record.
-              </p>
-            </Reveal>
-          </div>
         </section>
       </Container>
     </>

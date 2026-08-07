@@ -105,7 +105,7 @@ function Highlight({ pub, index }: { pub: Publication; index: number }) {
     >
       <div className="absolute inset-x-0 top-0 h-[3px]" style={{ backgroundColor: colour }} />
 
-      <div className="flex items-baseline justify-between gap-3">
+      <div className="flex items-baseline justify-end gap-2">
         <span className="font-display text-3xl font-bold leading-none" style={{ color: colour }}>
           {pub.citations}
         </span>
@@ -293,7 +293,7 @@ export default function Publications() {
       <PageHero
         eyebrow="Publications"
         title="The papers we publish"
-        lead="This list is built from ORCID, Crossref and OpenAlex, and refreshes every night. Preprints move to their published version as soon as a journal accepts them. Citation counts come from Google Scholar."
+        lead="We take pride in publishing our results to make them available to the community."
         image="/images/chameleon.jpg"
         height="h-[40vh] min-h-[280px]"
       />
@@ -347,7 +347,8 @@ export default function Publications() {
             )}
             {data && (
               <span className="text-xs text-neutral-500">
-                {pubs.length} works · list updated {data.updated}
+                {pubs.length} works · list updated {data.updated} from ORCID, Crossref and
+                OpenAlex
                 {scholarData && ` · citations from Google Scholar, ${scholarData.updated}`}
               </span>
             )}

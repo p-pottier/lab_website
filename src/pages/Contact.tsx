@@ -9,7 +9,6 @@ export default function Contact() {
       <PageHero
         eyebrow="Contact"
         title="Get in touch"
-        lead="New collaborations, prospective students, journalists and anyone curious about the work: all welcome."
         image="/images/research-plasticity.jpg"
         height="h-[40vh] min-h-[280px]"
       />
@@ -87,9 +86,10 @@ export default function Contact() {
                   Prospective students and postdocs
                 </h3>
                 <p className="mt-2 text-sm leading-relaxed text-neutral-400">
-                  Read the Opportunities page first, then send me a short note about what interests
-                  you. Two funded positions are open. I am also glad to support fellowship
-                  applications from people who want to bring their own funding.
+                  Please consult the Opportunities and Research pages first, then send me a short
+                  email with your CV and your research interests. Two funded positions are currently
+                  open. I am also glad to support fellowship or grant applications for people who
+                  want to bring their own funding.
                 </p>
               </div>
 
@@ -98,8 +98,8 @@ export default function Contact() {
                   Joining the Thermal Ecology Alliance
                 </h3>
                 <p className="mt-2 text-sm leading-relaxed text-neutral-400">
-                  The Alliance is open to any group working on how temperature shapes life. Sign up
-                  through the network's own site.
+                  Anyone interested in how temperature shapes life can join the Thermal Ecology
+                  Alliance. Please sign up through the Alliance's website.
                 </p>
                 <a
                   href="https://www.thermalecologyalliance.org/"

@@ -238,9 +238,28 @@ export default function CollaboratorMap() {
         </div>
       )}
 
-      <p className="mt-4 text-xs text-neutral-500">
-        Built from every co-authored work in OpenAlex, using the institution recorded on each
-        paper. Click a country to list its researchers. Last updated {data.updated}.
+      <p className="mt-4 text-xs leading-relaxed text-neutral-500">
+        Click a country to list its researchers. This map is generated automatically from every
+        co-authored work on record, using the institution each co-author reported on the paper.
+        Publications come from{" "}
+        <a
+          href="https://orcid.org/0000-0003-2106-6597"
+          target="_blank"
+          rel="noreferrer"
+          className="underline decoration-neutral-700 underline-offset-2 transition hover:text-gold"
+        >
+          ORCID
+        </a>{" "}
+        and Crossref; co-authors and affiliations come from{" "}
+        <a
+          href="https://openalex.org/"
+          target="_blank"
+          rel="noreferrer"
+          className="underline decoration-neutral-700 underline-offset-2 transition hover:text-gold"
+        >
+          OpenAlex
+        </a>
+        . Last updated {data.updated}.
       </p>
     </div>
   );

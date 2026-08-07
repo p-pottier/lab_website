@@ -229,8 +229,11 @@ export function PageHero({
   height?: string;
 }) {
   // A <section>, not a <header>: the site navigation is already the page banner.
+  // pt-[96px] clears the fixed header, so a short banner cannot slide under it.
   return (
-    <section className={`relative flex items-end overflow-hidden ${height}`}>
+    <section
+      className={`relative flex items-end overflow-hidden pt-[96px] ${height}`}
+    >
       <div className="absolute inset-0">
         <img
           src={image}
@@ -238,6 +241,8 @@ export function PageHero({
           className="h-full w-full animate-slow-zoom object-cover opacity-60"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-ink via-ink/70 to-ink/25" />
+        {/* keeps the navigation legible over a pale or busy photograph */}
+        <div className="absolute inset-x-0 top-0 h-32 bg-gradient-to-b from-ink to-transparent" />
       </div>
       <Container className="relative pb-10 sm:pb-14">
         <motion.div

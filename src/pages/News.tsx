@@ -70,7 +70,7 @@ function NewsCard({ item, index }: { item: NewsItem; index: number }) {
             className="mt-5 inline-flex items-center gap-1.5 text-sm font-semibold"
             style={{ color: colour }}
           >
-            {external ? "Read more" : "Go to page"}
+            {external ? "Read more" : "Learn more"}
             <ArrowRight className="transition-transform duration-300 group-hover:translate-x-1" />
           </span>
         )}
@@ -172,15 +172,6 @@ export default function News() {
           <p className="py-20 text-center text-neutral-500">No items with that tag yet.</p>
         )}
 
-        <Reveal>
-          <div className="mt-20 rounded-2xl border border-white/10 bg-panel/50 p-6 text-sm text-neutral-500">
-            <span className="font-semibold text-neutral-300">Adding a news item:</span> open{" "}
-            <code className="rounded bg-ink px-1.5 py-0.5 text-cyan">src/content/site.ts</code>,
-            copy any block in the <code className="rounded bg-ink px-1.5 py-0.5 text-cyan">NEWS</code>{" "}
-            array, and change the date, tag, title and text. The date sets the position, the tag sets
-            the colour, and the image is optional.
-          </div>
-        </Reveal>
       </Container>
     </>
   );

@@ -1,6 +1,47 @@
-import { CONFERENCES, MEDIA, OUTREACH, OUTREACH_PHOTO, POSTERS } from "../content/site";
+import {
+  CONFERENCES,
+  MEDIA,
+  OUTREACH,
+  OUTREACH_PHOTO,
+  POSTERS,
+  SERVICE,
+  TALKS,
+  TEACHING,
+  WORKSHOPS,
+  type Engagement,
+} from "../content/site";
 import { Container, PageHero, Reveal, SectionHeading, TextLink } from "../components/ui";
 import { ArrowRight } from "../components/Icons";
+
+/** Shared table for talks, workshops, teaching and service. */
+function EngagementTable({ items, accent = "#FAD103" }: { items: Engagement[]; accent?: string }) {
+  return (
+    <div className="mt-8 overflow-hidden rounded-2xl border border-edge">
+      {items.map((e, i) => (
+        <div
+          key={`${e.year}-${e.title}-${i}`}
+          className="flex flex-col gap-1.5 border-b border-white/5 p-5 transition last:border-0 hover:bg-white/[0.03] sm:flex-row sm:gap-6"
+        >
+          <span
+            className="shrink-0 font-display text-sm font-bold sm:w-24"
+            style={{ color: accent }}
+          >
+            {e.year}
+          </span>
+          <span className="min-w-0 flex-1">
+            <span className="block text-xs font-semibold uppercase tracking-[0.14em] text-neutral-500">
+              {e.kind}
+            </span>
+            <span className="mt-1 block font-medium leading-snug text-neutral-200">{e.title}</span>
+            {e.detail && (
+              <span className="mt-1 block text-sm leading-snug text-neutral-500">{e.detail}</span>
+            )}
+          </span>
+        </div>
+      ))}
+    </div>
+  );
+}
 
 export default function Outreach() {
   return (
@@ -8,7 +49,7 @@ export default function Outreach() {
       <PageHero
         eyebrow="Outreach"
         title="Beyond scientific papers"
-        lead="Building networks, changing research practice, and getting the evidence to the people who need it."
+        lead="We are also actively involved in communicating our science, building networks, and changing research practice."
         image="/images/research-bias.jpg"
       />
 
@@ -17,14 +58,9 @@ export default function Outreach() {
           <Reveal>
             <div className="prose-dark lg:pt-2">
               <p>
-                Much of what limits thermal ecology is not a missing experiment. The experiments
-                already exist, but they are scattered, measured in incompatible ways, and drawn from
-                a narrow slice of the planet. Fixing that is community work, and it takes up a
-                substantial part of what this group does.
-              </p>
-              <p>
-                The rest is telling people what we found. Research that never leaves the journals it
-                was published in rarely changes anything.
+                Scientific publishing is a key part of our academic responsibilities, but we also
+                enjoy communicating our science to broad audiences and contributing to advocacy to
+                ensure that research becomes more open, reliable, and inclusive.
               </p>
             </div>
           </Reveal>
@@ -71,11 +107,7 @@ export default function Outreach() {
         {/* ------------------------------------------------------------ posters */}
         <section className="mt-24">
           <Reveal>
-            <SectionHeading
-              eyebrow="Posters"
-              title="Work presented at conferences"
-              lead="Each poster is a snapshot of a project mid-flight. Most of them became papers."
-            />
+            <SectionHeading eyebrow="Posters" title="Work presented at conferences" />
           </Reveal>
 
           <div className="mt-10 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
@@ -128,7 +160,7 @@ export default function Outreach() {
             <SectionHeading
               eyebrow="Coming up"
               title="Where to find us next"
-              lead="Meetings we plan to attend. Say hello, or write ahead if you would like to meet there."
+              lead="Some of the meetings we plan to attend. Come say hi, or please write ahead if you would like to meet there!"
             />
           </Reveal>
 
@@ -137,7 +169,7 @@ export default function Outreach() {
               {CONFERENCES.map((c) => {
                 const Row = (
                   <>
-                    <span className="shrink-0 font-display text-lg font-bold text-gold sm:w-20">
+                    <span className="shrink-0 font-display text-lg font-bold text-ember sm:w-20">
                       {c.acronym}
                     </span>
                     <span className="min-w-0 flex-1">
@@ -165,12 +197,42 @@ export default function Outreach() {
           </Reveal>
         </section>
 
+        {/* --------------------------------------------- presentations, workshops */}
+        <section className="mt-24">
+          <Reveal>
+            <SectionHeading
+              eyebrow="Presentations and workshops"
+              title="Invited talks, workshops, and symposia"
+            />
+          </Reveal>
+          <Reveal delay={0.1}>
+            <EngagementTable items={TALKS} accent="#FAD103" />
+          </Reveal>
+
+          <Reveal delay={0.15}>
+            <h3 className="mt-12 font-display text-xl font-semibold text-white">
+              Workshops and symposia organised
+            </h3>
+            <EngagementTable items={WORKSHOPS} accent="#02B8A6" />
+          </Reveal>
+        </section>
+
+        {/* ----------------------------------------------------------- teaching */}
+        <section className="mt-24">
+          <Reveal>
+            <SectionHeading eyebrow="Teaching" title="Courses we have taught" />
+          </Reveal>
+          <Reveal delay={0.1}>
+            <EngagementTable items={TEACHING} accent="#FA6A03" />
+          </Reveal>
+        </section>
+
         {/* -------------------------------------------------------------- media */}
         {MEDIA.length > 0 && (
           <section className="mt-24">
             <Reveal>
               <SectionHeading
-                eyebrow="Writing for the public"
+                eyebrow="Communicating with the public"
                 title="Articles for general audiences"
               />
             </Reveal>
@@ -184,7 +246,7 @@ export default function Outreach() {
                   rel="noreferrer"
                   className="group flex flex-col gap-1 border-b border-white/5 p-5 transition last:border-0 hover:bg-white/[0.03] sm:flex-row sm:items-center sm:gap-6"
                 >
-                  <span className="shrink-0 text-xs font-semibold uppercase tracking-[0.14em] text-ember sm:w-40">
+                  <span className="shrink-0 text-xs font-semibold uppercase tracking-[0.14em] text-ember sm:w-56">
                     {m.outlet} · {m.year}
                   </span>
                   <span className="font-medium text-neutral-200 transition group-hover:text-gold">
@@ -196,36 +258,13 @@ export default function Outreach() {
           </section>
         )}
 
-        {/* --------------------------------------------------------- talks stub */}
+        {/* ------------------------------------------------- service and review */}
         <section className="mt-24">
           <Reveal>
-            <SectionHeading
-              eyebrow="Talks and teaching"
-              title="Invited talks, workshops and teaching"
-              lead="This section is waiting to be filled. Add invited talks, conference symposia, workshops and public engagement here, or remove it if it stays empty."
-            />
+            <SectionHeading eyebrow="Service" title="Outreach and peer review" />
           </Reveal>
-
           <Reveal delay={0.1}>
-            <figure className="mt-8 overflow-hidden rounded-2xl border border-edge bg-panel">
-              <img
-                src="/images/seb-conference-2024.jpg"
-                alt="Patrice Pottier presenting to a full auditorium at the SEB 2024 conference in Prague"
-                className="aspect-[16/9] w-full object-cover"
-                loading="lazy"
-              />
-              <figcaption className="px-5 py-3.5 text-sm leading-snug text-neutral-400">
-                Presenting at the SEB annual conference in Prague, 2024.
-              </figcaption>
-            </figure>
-          </Reveal>
-
-          <Reveal delay={0.15}>
-            <p className="mt-5 text-sm leading-relaxed text-neutral-500">
-              A full list of talks and teaching will go here. Entries belong in{" "}
-              <code className="rounded bg-ink px-1.5 py-0.5 text-cyan">src/content/site.ts</code>, in
-              the same form as the posters above.
-            </p>
+            <EngagementTable items={SERVICE} accent="#B55EA8" />
           </Reveal>
         </section>
       </Container>
