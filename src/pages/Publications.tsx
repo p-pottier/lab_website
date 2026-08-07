@@ -5,10 +5,13 @@ import { titleKey, usePublications, useScholar, type Publication } from "../lib/
 import { Chip, Container, GhostButton, PageHero, Reveal } from "../components/ui";
 import { Icon } from "../components/Icons";
 
-/** Preprints share the orange used for anything not yet peer reviewed. */
+/**
+ * Preprints take the pale sand, which separates them from the amber used for
+ * articles far better than the rust did.
+ */
 const KIND_COLOUR: Record<string, string> = {
   article: "#EE9B00",
-  preprint: "#CA6702",
+  preprint: "#E9D8A6",
   chapter: "#94D2BD",
   other: "#6B7280",
 };
