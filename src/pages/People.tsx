@@ -98,7 +98,7 @@ export default function People() {
     <>
       <PageHero
         eyebrow="People"
-        title="Our team"
+        title="Our research group"
         lead="We are based at the University of Gothenburg, but we also work with a growing network of collaborators globally."
         image="/images/fish-trevally.jpg"
       />

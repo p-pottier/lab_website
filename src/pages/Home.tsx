@@ -195,7 +195,7 @@ function Mission() {
                 {
                   title: "Distributed science",
                   body: "Globally distributed experiments coordinated through the Thermal Ecology Alliance to standardise methods, solve geographical biases, and answer questions no individual lab could tackle alone.",
-                  color: ACCENTS.sand,
+                  color: ACCENTS.rust,
                 },
               ].map((c) => (
                 <div key={c.title} className="card p-6">

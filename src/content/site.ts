@@ -820,50 +820,50 @@ export const TALKS: Engagement[] = [
   {
     year: "2026",
     kind: "Invited speaker",
-    title: "The Thermal Ecology Alliance",
-    detail:
-      "Workshop on temperature responses across disciplines and scales, Bolin Centre for Climate Research (15 min). Stockholm, Sweden.",
+    title: "Plasticity and resilience of ectotherms to climate warming",
+    detail: "Seminar at the Bamfield Marine Sciences Centre. Bamfield, Canada.",
   },
   {
     year: "2026",
     kind: "Invited speaker",
-    title: "Plasticity and resilience of ectotherms to climate warming",
-    detail: "Seminar at the Bamfield Marine Sciences Centre (45 min). Bamfield, Canada.",
+    title: "The Thermal Ecology Alliance",
+    detail:
+      "Workshop on temperature responses across disciplines and scales, Bolin Centre for Climate Research. Stockholm, Sweden.",
   },
   {
     year: "2024",
     kind: "Invited speaker",
     title: "How vulnerable are amphibians to global warming?",
     detail:
-      "Society for Experimental Biology conference, Young Scientist Award session (20 min). Prague, Czechia.",
+      "Society for Experimental Biology conference, Young Scientist Award session. Prague, Czechia.",
   },
   {
     year: "2023",
     kind: "Plenary speaker",
     title: "Plasticity and resilience of ectotherms to global warming",
     detail:
-      "Genetics, Ecology, Microbiology, Medicine, Zoology conference (60 min). Melbourne, Australia.",
+      "Genetics, Ecology, Microbiology, Medicine, Zoology conference. Melbourne, Australia.",
   },
   {
     year: "2022",
     kind: "Plenary speaker",
     title: "Developmental plasticity in thermal tolerance",
     detail:
-      "Australasian Evolution Society conference, Early Career Researcher Excellence award (30 min). Canberra, Australia.",
+      "Australasian Evolution Society conference, Early Career Researcher Excellence award. Canberra, Australia.",
   },
   {
     year: "2022",
     kind: "Invited speaker",
     title:
       "Developmental plasticity in thermal tolerance: ontogenetic variation, persistence, and future directions",
-    detail: "Society for Experimental Biology conference (30 min). Montpellier, France.",
+    detail: "Society for Experimental Biology conference. Montpellier, France.",
   },
   {
     year: "2022",
     kind: "Invited speaker",
-    title: "Pre-registration: why it is for you too",
+    title: "Pre-registration: why it is for you too!",
     detail:
-      "Society for Open, Reliable, and Transparent Ecology and Evolutionary Biology conference (15 min). Online.",
+      "Society for Open, Reliable, and Transparent Ecology and Evolutionary Biology conference. Online.",
   },
 ];
 
