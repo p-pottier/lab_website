@@ -21,7 +21,7 @@ export default function Contact() {
               <img
                 src="/images/patrice-portrait.jpg"
                 alt="Patrice Pottier"
-                className="mb-7 h-44 w-44 rounded-2xl border border-white/10 object-cover"
+                className="mb-8 w-full max-w-xs rounded-2xl border border-white/10 object-cover"
               />
               <SectionHeading title="Patrice Pottier" lead="Principal Investigator, PEACE Lab" />
 

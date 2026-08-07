@@ -76,8 +76,9 @@ function Hero() {
 
           <p className="mt-6 max-w-xl text-[17px] leading-relaxed text-neutral-300">
             We study how biodiversity responds to rapidly changing environments. Our aim is to
-            understand how animals cope with those changes, across scales from the cell to the
-            globe, so that their resilience can be predicted rather than guessed at.
+            understand how animals cope with environmental change, from the mechanistic to the
+            global scale, so we can better predict and mitigate the impacts of climate change on our
+            precious biodiversity.
           </p>
 
           <div className="mt-9 flex flex-wrap items-center gap-3">
@@ -130,23 +131,24 @@ function Mission() {
           <Reveal delay={0.1}>
             <div className="prose-dark">
               <p>
-                Climate change is redrawing where animals can live, breed and survive. The central
-                problem in global change biology is not a shortage of evidence that harm is
-                happening. It is that we still cannot say reliably which species, which populations
-                and which stages of life will fail first.
+                Climate change is not only increasing average temperatures, but also the frequency,
+                intensity and duration of extreme weather events. In every part of the world, these
+                changes have been redrawing where animals can survive, leading to geographical and
+                phenological shifts, population declines, and extinctions. In this landscape, a
+                major challenge in global change biology is to predict which species, populations
+                and geographical regions will be most severely impacted, so we can design effective
+                mitigation and conservation strategies.
               </p>
               <p>
-                Answering that requires working at more than one scale. A heat-tolerance limit
-                measured in the laboratory means little until we know what temperatures an animal
-                actually experiences, how much of the difference plasticity can absorb, and whether
-                the pattern holds across the tree of life. We therefore move between the individual,
-                the population and the globe, rather than settling in one of them.
+                Addressing this challenge requires working at multiple scales. We need to understand
+                how resilient animals are to rapid environmental changes, how patterns vary across
+                the tree of life, and what mechanisms drive variation in resilience within and among
+                species.
               </p>
               <p>
-                Our goal is prediction. We want to say, with a number and an interval attached, how
-                resilient a population is to the environment it is heading into. Ectotherms are our
-                main system, because their physiology is tied directly to environmental temperature,
-                and that makes them the sharpest available test of the question.
+                In the PEACE lab, we study how biodiversity tolerates, responds and adapts to rapid
+                environmental changes, from the individual to the community level. Ectotherms are our
+                main system, but we also explore some questions across broader taxonomic levels.
               </p>
             </div>
           </Reveal>
