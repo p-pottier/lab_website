@@ -116,7 +116,7 @@ export default function Opportunities() {
     <>
       <PageHero
         eyebrow="Opportunities"
-        title="Join the group"
+        title="Join the PEACE lab"
         lead="Two funded positions are open in Gothenburg, and there are several routes in for researchers who bring their own funding."
         image="/images/portfolio-banner.webp"
       />

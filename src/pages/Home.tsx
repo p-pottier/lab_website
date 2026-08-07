@@ -84,7 +84,7 @@ function Hero() {
             <GradientButton to="/research">
               Our research <ArrowRight />
             </GradientButton>
-            <GhostButton to="/opportunities">Join the group</GhostButton>
+            <GhostButton to="/opportunities">Join the PEACE lab</GhostButton>
           </div>
           </div>
         </motion.div>

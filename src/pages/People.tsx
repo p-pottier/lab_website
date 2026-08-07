@@ -94,7 +94,7 @@ export default function People() {
     <>
       <PageHero
         eyebrow="People"
-        title="The group"
+        title="Our team"
         lead="A small team in Gothenburg, working inside a much larger network of collaborators."
         image="/images/fish-trevally.jpg"
       />

@@ -43,10 +43,13 @@ function Authors({ pub, max = 12 }: { pub: Publication; max?: number }) {
 /* ---------------------------------------------------------------- links */
 
 /**
- * `showPreprint` is off for the pinned papers. They are all journal articles,
- * and a link labelled "Preprint" beside them reads as though they are not.
+ * The preprint link earns its place only when it is the sole free route to the
+ * paper. A published, open-access article does not need it, and beside a pinned
+ * paper it reads as though the work were still unpublished, so the highlights
+ * switch it off outright.
  */
 function PubLinks({ pub, showPreprint = true }: { pub: Publication; showPreprint?: boolean }) {
+  const preprintIsUseful = showPreprint && Boolean(pub.preprintUrl) && !pub.isOA;
   return (
     <div className="mt-4 flex flex-wrap items-center gap-x-4 gap-y-2 text-sm">
       {pub.url && (
@@ -69,9 +72,9 @@ function PubLinks({ pub, showPreprint = true }: { pub: Publication; showPreprint
           Full text
         </a>
       )}
-      {showPreprint && pub.preprintUrl && (
+      {preprintIsUseful && (
         <a
-          href={pub.preprintUrl}
+          href={pub.preprintUrl!}
           target="_blank"
           rel="noreferrer"
           className="font-medium text-neutral-400 transition hover:text-white"
@@ -85,14 +88,11 @@ function PubLinks({ pub, showPreprint = true }: { pub: Publication; showPreprint
 
 /* ----------------------------------------------------------- highlights */
 
-/** Solid rules, cycling through the palette, rather than a repeated gradient. */
-const HIGHLIGHT_COLOURS = ["#02B8A6", "#FAD103", "#FA6A03"];
-
-/** Every box takes the same orange contour; only the rule and figure cycle. */
+/** Pinned papers are all one colour: contour, top rule and citation figure. */
 const HIGHLIGHT_BORDER = "#FA6A03";
 
 function Highlight({ pub, index }: { pub: Publication; index: number }) {
-  const colour = HIGHLIGHT_COLOURS[index % HIGHLIGHT_COLOURS.length];
+  const colour = HIGHLIGHT_BORDER;
 
   return (
     <motion.article
@@ -292,7 +292,7 @@ export default function Publications() {
     <>
       <PageHero
         eyebrow="Publications"
-        title="Papers"
+        title="The papers we publish"
         lead="This list is built from ORCID, Crossref and OpenAlex, and refreshes every night. Preprints move to their published version as soon as a journal accepts them. Citation counts come from Google Scholar."
         image="/images/chameleon.webp"
         height="h-[40vh] min-h-[280px]"

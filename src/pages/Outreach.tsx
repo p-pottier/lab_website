@@ -7,7 +7,7 @@ export default function Outreach() {
     <>
       <PageHero
         eyebrow="Outreach"
-        title="Beyond our own papers"
+        title="Beyond scientific papers"
         lead="Building networks, changing research practice, and getting the evidence to the people who need it."
         image="/images/research-bias.jpg"
       />
