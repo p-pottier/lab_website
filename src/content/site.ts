@@ -205,10 +205,10 @@ export const PI: Person = {
 
 /** Paragraphs shown beside the PI photo on the People page. */
 export const PI_BIO: string[] = [
-  "I lead the PEACE Lab at the University of Gothenburg. My work asks how animals cope with environments that are changing faster than anything in their evolutionary history, and how far that capacity to cope will stretch. I combine laboratory experiments with evidence synthesis and comparative analysis, across amphibians, reptiles, fishes and invertebrates.",
-  "I did my PhD at UNSW Sydney with Shinichi Nakagawa and Szymon Drobniak, then held postdoctoral positions at the Australian National University with Daniel Noble and at UNSW Sydney with Losia Lagisz and Shinichi Nakagawa. A Wenner-Gren Foundation fellowship brought me to Sweden to work with Fredrik Jutfelt on heat tolerance across fish life stages.",
-  "I also founded and coordinate the Thermal Ecology Alliance, a global network that runs coordinated experiments on thermal tolerance. The Alliance exists because the questions that matter most in this field are bigger than any single laboratory. Standardising how data are collected, cutting duplicated effort and pooling results lets us test patterns that no group could test alone.",
-  "Curiosity has guided most of what I work on, and it has taken me some way from where I started. I care about open and inclusive research, and I enjoy arguing about ideas with people who see the problem differently. I am always glad to start a new collaboration.",
+  "I am originally from France, where I did my BSc (2014-2017) and MSc (2017-2019) at the University of Tours. After a short research visit at the University of Alabama in the US (2018-2019), I started my PhD at the University of New South Wales in Australia (2020-2024). After a brief postdoc period split between UNSW and the Australian National University (2024-2025), I moved to the University of Gothenburg in Sweden (2025-current) with a Wenner-Gren postdoctoral fellowship. I recently received a strategic recruitment grant from the Swedish Research Council to start the PEACE lab. I have been extremely grateful to have been mentored by some of the kindest and most generous supervisors over the years. I would not be here without the support and care of Marlene Goubault (MSc supervisor), Ryan Earley (MSc supervisor), Shinichi Nakagawa (PhD supervisor), Szymon Drobniak (PhD supervisor), Daniel Noble (postdoc supervisor) and Fredrik Jutfelt (postdoc supervisor).",
+  "My research interests have always been broad, and I have always let myself be guided by my curiosity. I have taken a keen interest in improving our ability to quantify the impacts of climate change on biodiversity, because I care deeply about protecting our precious natural world. I have become fascinated by what drives variation in the ability of different species to cope with extreme heat, and how species differ in their capacity to respond to environmental change through plasticity and adaptation. Recently, I have also been interested in quantifying how resilience varies within species, with a particular focus on how different life stages vary in their capacity to tolerate acute and chronic warming, and the importance of such variation for species resilience. I enjoy learning new methods and working across scales, from laboratory experiments to comparative analyses, and across a broad range of taxa. Above all, I love discussing ideas and collaborating with other scientists. I believe we need to unite forces and listen to a diversity of perspectives if we want to make important new discoveries and tackle pressing ecological challenges such as climate change. This is the primary reason I founded the Thermal Ecology Alliance, a platform to facilitate more inclusive collaborations and discussions in the field, and I am beyond excited about what comes next.",
+  "I am also passionate about interdisciplinary research, and enjoy working on projects that help us promote more robust, open and inclusive research. This has led me to become an advocate for Open Science and a former board member of The Society for Open, Reproducible, and Transparent Ecology and Evolutionary Biology (SORTEE).",
+  "Outside of academia, I love spending time surrounded by nature, discovering new cultures, and trying all the cuisines the world has to offer.",
 ];
 
 export const CURRENT_MEMBERS: Person[] = [
@@ -217,7 +217,8 @@ export const CURRENT_MEMBERS: Person[] = [
     role: "PhD student",
     affiliation: "University of Gothenburg",
     photo: "/images/leon-pfeufer.jpg",
-    blurb: "Co-supervised with Fredrik Jutfelt.",
+    blurb:
+      "Leon is studying the physiological mechanisms that set heat tolerance limits, and how fish adapt to changing environments across generations. He has studied which organs fail first under gradual warming, is currently conducting a meta-analysis of the evidence on oxygen- and capacity-limited thermal tolerance (OCLTT), and will soon investigate physiological changes in evolved lines of zebrafish selected for increased growth. Co-supervised with Fredrik Jutfelt.",
     links: [],
   },
   {
@@ -225,7 +226,8 @@ export const CURRENT_MEMBERS: Person[] = [
     role: "PhD student",
     affiliation: "Australian National University",
     photo: "/images/xinyi-liu.jpg",
-    blurb: "Co-supervised with Daniel Noble.",
+    blurb:
+      "Xinyi is studying the impacts of microplastics on freshwater and marine organisms. She is conducting a meta-analysis of the impacts of freshwater microplastics on life-history traits, and will soon run experiments with interacting environmental stressors. Co-supervised with Daniel Noble.",
     links: [],
   },
 ];
@@ -238,7 +240,8 @@ export const PAST_MEMBERS: Person[] = [
     photo: "/images/joelle-zurcher.jpg",
     years: "",
     now: "",
-    blurb: "",
+    blurb:
+      "Joelle did her MSc in the PEACE lab, where she studied how thermal tolerance varies across embryonic stages of zebrafish. She identified critical windows of sensitivity to extreme heat, and is currently preparing a manuscript for publication.",
   },
 ];
 

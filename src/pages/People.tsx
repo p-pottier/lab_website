@@ -95,7 +95,7 @@ export default function People() {
       <PageHero
         eyebrow="People"
         title="Our team"
-        lead="A small team in Gothenburg, working inside a much larger network of collaborators."
+        lead="We are based at the University of Gothenburg, but we also work with a large and growing network of collaborators globally."
         image="/images/fish-trevally.jpg"
       />
 
@@ -158,7 +158,7 @@ export default function People() {
         {/* ------------------------------------------------------- current */}
         <section className="mt-20">
           <Reveal>
-            <SectionHeading eyebrow="Current members" title="Who is here now" />
+            <SectionHeading eyebrow="Current" title="Current members" />
           </Reveal>
           <div className="mt-8 grid gap-4 lg:grid-cols-2">
             {CURRENT_MEMBERS.map((m, i) => (
@@ -168,12 +168,12 @@ export default function People() {
             ))}
             <Reveal delay={CURRENT_MEMBERS.length * 0.06}>
               <div className="card flex h-full min-h-[260px] flex-col justify-center border-dashed p-7">
-                <h3 className="font-display text-lg font-semibold text-white">
-                  There is room for you here
+                <h3 className="font-display text-lg font-semibold text-gold">
+                  There is room for you here!
                 </h3>
                 <p className="mt-2 text-sm leading-relaxed text-neutral-400">
-                  We are recruiting a PhD student and a postdoctoral researcher, and we are always
-                  glad to hear from people who want to bring their own fellowship.
+                  We are recruiting a PhD student and a postdoctoral researcher, and we gladly
+                  welcome people who want to bring their own funding to conduct research in the lab.
                 </p>
                 <div className="mt-5">
                   <GhostButton to="/opportunities">See open positions</GhostButton>
@@ -204,8 +204,8 @@ export default function People() {
           <Reveal>
             <SectionHeading
               eyebrow="Collaborators"
-              title="A network, not a laboratory"
-              lead="The questions we care about are larger than any single group, so most of our work is shared. This map is built automatically from every co-authored paper on record."
+              title="A team inside a global collaborative network"
+              lead="None of our work would be possible without the expertise and contributions of our collaborators. We have been very fortunate to work with many researchers from all across the globe, and would love to establish new collaborations."
             />
           </Reveal>
           <Reveal delay={0.1}>
