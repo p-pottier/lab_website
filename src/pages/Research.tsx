@@ -6,8 +6,7 @@ export default function Research() {
     <>
       <PageHero
         eyebrow="Research"
-        title="What we work on"
-        lead="Several threads run through everything the group does. They overlap by design: the same organisms, the same methods, and one problem approached from different sides."
+        title="What we are interested in"
         image="/images/research-warming.jpg"
       />
 
@@ -15,21 +14,25 @@ export default function Research() {
         <Reveal>
           <div className="prose-dark max-w-3xl">
             <p>
-              Our central question is easy to state and hard to answer. How do animals cope with
-              rapidly changing environments, and how far does that capacity stretch before a
-              population starts to decline?
+              The central goal of our research is to generate robust and accurate predictions of how
+              climate change is affecting, and will affect, animal biodiversity.
             </p>
             <p>
-              Answering it takes three kinds of work at once. Experiments establish what an organism
-              can tolerate and how that tolerance shifts with the environment it developed in.
-              Synthesis pools what the field already knows, and exposes where the evidence is too
-              biased to support a global claim. Methods work makes the first two comparable, so that
-              results from different laboratories, taxa and life stages can sit on the same axis.
+              We address these aims through empirical research and synthesis. We conduct laboratory
+              experiments to quantify how well animals tolerate environmental change, how tolerance
+              varies within and across species, how tolerance shifts through plasticity and
+              adaptation, and which physiological mechanisms drive that variation. We also enjoy
+              field work to characterise the conditions animals experience in their natural
+              environments, and to link natural history to environmental resilience.
             </p>
             <p>
-              We also turn the same scrutiny on ourselves. How research gets done shapes what it
-              finds, so part of our work asks which practices make evidence in our field robust
-              enough to act on.
+              We conduct evidence syntheses, meta-analyses and phylogenetic comparative analyses to
+              pool published datasets, test hypotheses, and generate predictions at broad scales.
+              This is an incredible way to test the generality of empirical patterns, identify groups
+              or areas that may be more vulnerable, and propose new directions for the field. We also
+              lead globally distributed experiments to collect new data with standardised methods, so
+              we can collaborate internationally, fill existing knowledge gaps and test new and
+              exciting questions.
             </p>
           </div>
         </Reveal>

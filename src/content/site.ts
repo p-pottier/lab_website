@@ -74,7 +74,7 @@ export const THEMES: Theme[] = [
     emoji: "🐣",
     title: "Thermal sensitivity across the life cycle",
     lead:
-      "Embryos, larvae and adults do not share a thermal limit, yet most projections of warming are built on adults alone. We develop methods that put every stage on the same axis, then use them to find the stage that fails first. That stage, not the average, sets the fate of the population.",
+      "Embryos, larvae, juveniles and adults vary in their ability to cope with environmental stress. However, predictive models of climate change impacts often ignore the sensitivity of early-life stages. We develop new methods and assess the sensitivity of different life stages to identify critical windows of vulnerability to climate change across various species.",
     questions: [
       "How does thermal sensitivity vary across the life cycle, and why?",
       "When are the critical windows of sensitivity during development?",
@@ -90,7 +90,7 @@ export const THEMES: Theme[] = [
     emoji: "☀️",
     title: "Plasticity and adaptation to changing temperatures",
     lead:
-      "Plasticity and genetic adaptation are the two routes by which populations track a changing climate. Both are routinely invoked as reasons for optimism. We quantify what each route actually buys an organism, and where it runs out.",
+      "Phenotypic plasticity and genetic adaptation are the two main routes through which animals can keep pace with a changing climate. However, we still know little about how much these mechanisms can buffer the impacts of climate change, and what limits them. We quantify the benefits and limits of plasticity and adaptation across species, traits and environments.",
     questions: [
       "What explains the variation in plasticity within and across taxa?",
       "To what extent can life-history traits evolve in response to changing environments?",
@@ -105,7 +105,7 @@ export const THEMES: Theme[] = [
     emoji: "🔥",
     title: "The impacts of temperature on reproduction",
     lead:
-      "Fertility fails at temperatures well below those that kill. Reproduction may therefore set the thermal limit that decides whether a population persists, yet we know far less about it than about survival.",
+      "Fertility often fails at temperatures well below those that kill. Reproduction may therefore set the thermal limit that decides whether a population persists. However, reproduction remains far less studied than survival. We quantify how extreme heat affects reproductive function, identify the mechanisms responsible, and assess what these limits mean for population growth under warming.",
     questions: [
       "Do animals recover reproductive function after an extreme heat event?",
       "Which physiological mechanisms cause reproduction to fail before survival?",
@@ -120,7 +120,7 @@ export const THEMES: Theme[] = [
     emoji: "🥚",
     title: "Developmental responses to environmental stressors",
     lead:
-      "Early environments leave a long shadow on later phenotypes. Heat rarely arrives alone, however, and an embryo that survives a heatwave may still carry the cost into adulthood. We track those costs forward, and test whether they compound when stressors co-occur.",
+      "Early-life environments can have strong and long-lasting effects on later phenotypes. However, heat rarely arrives alone, and embryos that survive a heatwave may still carry the costs into adulthood. We track these carry-over effects through the life cycle, and test whether they compound when stressors co-occur.",
     questions: [
       "What are the consequences of early developmental plasticity for later phenotypes?",
       "How does accounting for developmental plasticity change projected population dynamics?",
@@ -135,7 +135,7 @@ export const THEMES: Theme[] = [
     emoji: "🌍",
     title: "Solving biases in the ecological literature",
     lead:
-      "Taxonomic and geographic biases run through nearly every ecological dataset. They limit what we can honestly claim about global patterns, and therefore what we can say about climate change. We measure those biases, then build ways around them.",
+      "Taxonomic and geographical biases are ubiquitous in ecological datasets. These biases directly limit our ability to establish global patterns, and therefore what we can claim about climate change. We quantify these biases, assess how they influence ecological inference, and develop approaches to overcome them.",
     questions: [
       "How does ignoring taxonomic and geographic bias change ecological inference?",
       "Can distributed experiments improve taxonomic and geographic coverage?",
@@ -150,7 +150,7 @@ export const THEMES: Theme[] = [
     emoji: "📚",
     title: "Improving methods for evidence synthesis",
     lead:
-      "Publication rates now outpace our capacity to synthesise them. We build the methods, software and workflows that keep meta-analysis and comparative analysis tractable as the literature grows.",
+      "Publication rates are increasing exponentially, which challenges our ability to synthesise comprehensive datasets for comparative analyses and meta-analyses. We develop methods, software and workflows to keep evidence synthesis tractable, and to ensure that synthesised evidence can be reused rather than rebuilt each time.",
     questions: [
       "How can AI tools support evidence synthesis across multiple languages?",
       "Can targeted sampling cut screening effort without compromising inference?",
@@ -165,7 +165,7 @@ export const THEMES: Theme[] = [
     emoji: "🔬",
     title: "Meta-science: studying how research gets done",
     lead:
-      "The way we do research shapes what we find. We study the practices of our own field, from reporting standards to analytical variation between researchers, and we test which interventions make the evidence more robust.",
+      "The way we do research shapes what we find. We study the practices of our own field, from reporting standards to the variation introduced by analytical choices, and test which interventions make evidence more robust, transparent and reusable.",
     questions: [
       "How much do results depend on who analyses the data?",
       "Which reporting practices make a study reusable by someone else?",

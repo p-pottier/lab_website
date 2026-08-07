@@ -294,7 +294,7 @@ export default function Publications() {
         eyebrow="Publications"
         title="The papers we publish"
         lead="This list is built from ORCID, Crossref and OpenAlex, and refreshes every night. Preprints move to their published version as soon as a journal accepts them. Citation counts come from Google Scholar."
-        image="/images/chameleon.webp"
+        image="/images/chameleon.jpg"
         height="h-[40vh] min-h-[280px]"
       />
 

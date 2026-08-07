@@ -1,7 +1,6 @@
 import { motion, useScroll, useTransform } from "framer-motion";
 import { useRef } from "react";
-import { Link } from "react-router-dom";
-import { NEWS, POSITIONS, SITE, THEMES } from "../content/site";
+import { NEWS, POSITIONS, SITE } from "../content/site";
 import { useCollaborators } from "../lib/useData";
 import {
   Chip,
@@ -148,7 +147,10 @@ function Mission() {
               <p>
                 In the PEACE lab, we study how biodiversity tolerates, responds and adapts to rapid
                 environmental changes, from the individual to the community level. Ectotherms are our
-                main system, but we also explore some questions across broader taxonomic levels.
+                main system, but we also explore some questions across broader taxonomic levels. We
+                take pride in collaborating with scientists from all across the globe, and believe
+                uniting forces is the best way to make new discoveries and tackle pressing
+                ecological challenges.
               </p>
             </div>
           </Reveal>
@@ -158,17 +160,17 @@ function Mission() {
               {[
                 {
                   title: "Experiments",
-                  body: "Laboratory and field work on thermal tolerance, acclimation and developmental plasticity, in fishes, amphibians, reptiles and invertebrates.",
+                  body: "Laboratory and field work to quantify how animals, mostly fish and invertebrates, tolerate temperature extremes and adjust their physiology in response to changing environments.",
                   color: "#FA6A03",
                 },
                 {
                   title: "Synthesis",
-                  body: "Systematic reviews, meta-analyses and phylogenetic comparative methods that turn a scattered literature into a pattern we can test.",
+                  body: "Systematic reviews, meta-analyses and phylogenetic comparative analyses to establish generality at broader scales.",
                   color: "#02B8A6",
                 },
                 {
                   title: "Distributed science",
-                  body: "Coordinated experiments run by dozens of laboratories at once, through the Thermal Ecology Alliance, at a scale no single group can reach.",
+                  body: "Globally distributed experiments coordinated through the Thermal Ecology Alliance to standardise methods, solve geographical biases, and answer questions no individual lab could tackle alone.",
                   color: "#FAD103",
                 },
               ].map((c) => (
@@ -203,63 +205,6 @@ function Mission() {
   );
 }
 
-/* ---------------------------------------------------------------- themes */
-
-function Themes() {
-  return (
-    <section className="relative py-20">
-      <Container>
-        <Reveal>
-          <div className="flex flex-wrap items-end justify-between gap-6">
-            <SectionHeading eyebrow="Research" title="The questions we keep coming back to" />
-            <TextLink to="/research">All research themes</TextLink>
-          </div>
-        </Reveal>
-
-        <div className="mt-12 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
-          {THEMES.map((t, i) => (
-            <Reveal key={t.id} delay={i * 0.06}>
-              <Link
-                to={`/research#${t.id}`}
-                className="card group block h-full overflow-hidden"
-                style={{ borderColor: `${t.accent}26` }}
-              >
-                <div className="relative h-44 overflow-hidden">
-                  <img
-                    src={t.image}
-                    alt=""
-                    loading="lazy"
-                    className="h-full w-full object-cover opacity-75 transition duration-700 group-hover:scale-105 group-hover:opacity-100"
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-panel via-panel/25 to-transparent" />
-                </div>
-                <div className="p-5">
-                  <h3
-                    className="font-display text-[17px] font-semibold leading-snug text-white transition"
-                    style={{ textDecorationColor: t.accent }}
-                  >
-                    {t.title}
-                  </h3>
-                  <p className="mt-2 line-clamp-3 text-sm leading-relaxed text-neutral-400">
-                    {t.lead}
-                  </p>
-                  <div
-                    className="mt-4 flex items-center gap-1.5 text-sm font-semibold"
-                    style={{ color: t.accent }}
-                  >
-                    Read more
-                    <ArrowRight className="transition-transform duration-300 group-hover:translate-x-1" />
-                  </div>
-                </div>
-              </Link>
-            </Reveal>
-          ))}
-        </div>
-      </Container>
-    </section>
-  );
-}
-
 /* --------------------------------------------------------------- numbers */
 
 function Network() {
@@ -273,7 +218,7 @@ function Network() {
           <SectionHeading
             eyebrow="Collaboration"
             title="A global collaborative network"
-            lead="Almost nothing here was done alone. These figures come from every co-authored paper on record, counted nightly from OpenAlex."
+            lead="Nothing we do would be possible without the help of our precious collaborators. We have been fortunate to work with some of the most brilliant and generous scientists from all over the world, and take pride in establishing new collaborations."
           />
         </Reveal>
         <Reveal delay={0.1}>
@@ -314,9 +259,8 @@ function OpenPositions() {
                   {open.length} funded {open.length === 1 ? "position" : "positions"} in Gothenburg
                 </h2>
                 <p className="mt-4 text-[16px] leading-relaxed text-neutral-300">
-                  We are recruiting {open.map((p) => p.kind.toLowerCase()).join(" and ")} researchers
-                  to work on thermal sensitivity across the life cycle. Applications close on{" "}
-                  <span className="font-semibold text-gold">{open[0].deadline}</span>.
+                  We are recruiting a PhD student and a postdoctoral researcher! Applications close
+                  on <span className="font-semibold text-gold">{open[0].deadline}</span>.
                 </p>
                 <div className="mt-7">
                   <GradientButton to="/opportunities">
@@ -428,7 +372,6 @@ export default function Home() {
     <>
       <Hero />
       <Mission />
-      <Themes />
       <Network />
       <OpenPositions />
       <LatestNews />
