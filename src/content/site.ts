@@ -636,7 +636,7 @@ export type NewsItem = {
  */
 export const NEWS: NewsItem[] = [
   {
-    date: "2026-08-01",
+    date: "2026-08-21",
     tag: "Opportunities",
     title: "Two positions open: one PhD and one postdoc",
     body:
@@ -645,7 +645,7 @@ export const NEWS: NewsItem[] = [
     image: "/images/opportunities-banner.webp",
   },
   {
-    date: "2026-07-20",
+    date: "2026-07-28",
     tag: "Events",
     title: "Patrice attended the Ecological Data Synthesis course in Bamfield",
     body:
@@ -653,7 +653,7 @@ export const NEWS: NewsItem[] = [
     image: "/images/news-bamfield-trip.jpg",
   },
   {
-    date: "2026-07-12",
+    date: "2026-07-20",
     tag: "Events",
     title: "Patrice attended the FIN club writing retreat",
     body:
@@ -661,7 +661,7 @@ export const NEWS: NewsItem[] = [
     image: "/images/news-fin-club.jpg",
   },
   {
-    date: "2026-07-05",
+    date: "2026-07-10",
     tag: "Events",
     title: "Patrice attended the International Congress on the Biology of Fish in Vancouver",
     body:
@@ -669,8 +669,7 @@ export const NEWS: NewsItem[] = [
     image: "/images/news-icbf.jpg",
   },
   {
-    // TODO: correct this date; it is a placeholder set before the lab opened.
-    date: "2026-04-15",
+    date: "2026-07-01",
     tag: "Award",
     title: "Strategic recruitment grant from the Swedish Research Council",
     body:
@@ -680,7 +679,7 @@ export const NEWS: NewsItem[] = [
     imageFit: "contain",
   },
   {
-    date: "2026-06-01",
+    date: "2026-07-01",
     tag: "Lab",
     title: "The PEACE Lab starts at the University of Gothenburg",
     body:
