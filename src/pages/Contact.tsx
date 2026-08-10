@@ -51,6 +51,18 @@ export default function Contact() {
                       <div key={line}>{line}</div>
                     ))}
                   </dd>
+                  <a
+                    href="https://www.gu.se/en"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="mt-5 block w-[180px] opacity-80 transition hover:opacity-100"
+                  >
+                    <img
+                      src="/images/gu-logo.png"
+                      alt="University of Gothenburg"
+                      className="w-full"
+                    />
+                  </a>
                 </div>
               </dl>
 

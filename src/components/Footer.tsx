@@ -86,6 +86,17 @@ export default function Footer() {
             >
               {SITE.email}
             </a>
+
+            {/* The university's own white-on-transparent lockup, so it needs no
+                panel behind it on the dark page. */}
+            <a
+              href="https://www.gu.se/en"
+              target="_blank"
+              rel="noreferrer"
+              className="mt-7 block w-[150px] opacity-70 transition hover:opacity-100"
+            >
+              <img src="/images/gu-logo.png" alt="University of Gothenburg" className="w-full" />
+            </a>
           </div>
 
           <div className="md:pt-1">
