@@ -1009,5 +1009,5 @@ export const SERVICE: Engagement[] = [
 /** A single photograph used at the top of the Outreach page. */
 export const OUTREACH_PHOTO = {
   src: "/images/seb2024-young-scientist-award.jpg",
-  caption: "Presenting for the Young Scientist Award at the SEB 2024 conference.",
+  caption: "Presenting at the SEB conference in Prague (2024).",
 };
