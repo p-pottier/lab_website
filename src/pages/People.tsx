@@ -169,6 +169,14 @@ export default function People() {
                         {PI_BIO.map((p, i) => (
                           <p key={i}>{p}</p>
                         ))}
+                        {/* Portrait orientation, so it is capped rather than
+                            run full width, which would tower over the text. */}
+                        <img
+                          src="/images/patrice-canada.jpg"
+                          alt="Patrice Pottier above Peyto Lake in the Canadian Rockies"
+                          loading="lazy"
+                          className="mt-6 w-full max-w-sm rounded-2xl border border-white/10 object-cover"
+                        />
                       </div>
                     </motion.div>
                   )}
