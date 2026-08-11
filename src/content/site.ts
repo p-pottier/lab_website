@@ -131,6 +131,21 @@ export const THEMES: Theme[] = [
     accent: "#0A9396",
   },
   {
+    id: "lab-to-field",
+    emoji: "🌡️",
+    title: "Translating laboratory measurements to the field",
+    lead:
+      "A major challenge in experimental biology is to generate estimates that can directly help predictions of resilience in the wild. We are interested in increasing the ecological relevance of laboratory experiments, and validating predictions in the field.",
+    questions: [
+      "How can we account for plasticity and physiological repair under fluctuating thermal regimes?",
+      "Do thermal load sensitivity models accurately predict survival during heatwaves?",
+      "How much do broad-scale climate data differ from local-scale temperature measurements?",
+      "How can we best quantify and account for thermal heterogeneity in natural environments?",
+    ],
+    image: "/images/research-lab-to-field.jpg",
+    accent: "#94D2BD",
+  },
+  {
     id: "redistribution",
     emoji: "🧭",
     title: "Understanding species (re)distribution",
