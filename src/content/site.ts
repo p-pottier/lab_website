@@ -267,7 +267,7 @@ export const CURRENT_MEMBERS: Person[] = [
     photo: "/images/leon-pfeufer.jpg",
     blurb:
       "Leon is studying the physiological mechanisms that set heat tolerance limits, and how fish adapt to changing environments across generations. He has studied which organs fail first under gradual warming, is currently conducting a meta-analysis of the evidence on oxygen- and capacity-limited thermal tolerance (OCLTT), and will soon investigate physiological changes in evolved lines of zebrafish selected for increased growth. Leon is co-supervised with Fredrik Jutfelt.",
-    links: [],
+    links: [{ label: "Email", href: "mailto:leon.pfeufer@bioenv.gu.se" }],
   },
   {
     name: "Xinyi Liu",
@@ -276,13 +276,13 @@ export const CURRENT_MEMBERS: Person[] = [
     photo: "/images/xinyi-liu.jpg",
     blurb:
       "Xinyi is studying the impacts of microplastics on freshwater and marine organisms. She is conducting a meta-analysis of the impacts of freshwater microplastics on life-history traits, and will soon run experiments on freshwater invertebrates to quantify how changing temperatures affect the toxicity of microplastics. Xinyi is co-supervised with Daniel Noble.",
-    links: [],
+    links: [{ label: "Email", href: "mailto:xinyiliu1201@gmail.com" }],
   },
 ];
 
 export const PAST_MEMBERS: Person[] = [
   {
-    name: "Joelle Zurcher",
+    name: "Joelle Zürcher",
     role: "Former member",
     affiliation: "University of Gothenburg",
     photo: "/images/joelle-zurcher.jpg",
@@ -290,6 +290,7 @@ export const PAST_MEMBERS: Person[] = [
     now: "",
     blurb:
       "Joelle did her MSc in the PEACE lab, where she studied how thermal tolerance varies across embryonic stages of zebrafish. She identified critical windows of sensitivity to extreme heat, and is currently preparing a manuscript for publication.",
+    links: [{ label: "Email", href: "mailto:guszurjo@student.gu.se" }],
   },
 ];
 
