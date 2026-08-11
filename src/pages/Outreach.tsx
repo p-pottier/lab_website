@@ -29,7 +29,11 @@ function EngagementTable({ items, accent = "#EE9B00" }: { items: Engagement[]; a
             {e.year}
           </span>
           <span className="min-w-0 flex-1">
-            <span className="block text-xs font-semibold uppercase tracking-[0.14em] text-neutral-500">
+            {/* Same colour as the year beside it; neutral-500 was too dim to read. */}
+            <span
+              className="block text-xs font-semibold uppercase tracking-[0.14em]"
+              style={{ color: accent }}
+            >
               {e.kind}
             </span>
             <span className="mt-1 block font-medium leading-snug text-neutral-200">{e.title}</span>
