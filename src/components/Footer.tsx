@@ -93,7 +93,7 @@ export default function Footer() {
               href="https://www.gu.se/en"
               target="_blank"
               rel="noreferrer"
-              className="mt-7 block w-[150px] opacity-70 transition hover:opacity-100"
+              className="mt-6 block w-[104px] opacity-70 transition hover:opacity-100"
             >
               <img src="/images/gu-logo.png" alt="University of Gothenburg" className="w-full" />
             </a>
