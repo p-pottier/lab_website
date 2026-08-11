@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, type ReactNode } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import {
   CURRENT_MEMBERS,
@@ -21,7 +21,7 @@ import {
 import { ArrowRight, Icon } from "../components/Icons";
 
 /** Initials stand in until a photograph is supplied. */
-function Avatar({ person, size = 96 }: { person: Person; size?: number }) {
+function Avatar({ person }: { person: Person }) {
   const initials = person.name
     .split(" ")
     .map((w) => w[0])
@@ -33,59 +33,77 @@ function Avatar({ person, size = 96 }: { person: Person; size?: number }) {
       <img
         src={person.photo}
         alt={person.name}
-        className="rounded-2xl border border-white/10 object-cover"
-        style={{ width: size, height: size }}
+        className="aspect-square w-full max-w-[220px] rounded-2xl border border-white/10 object-cover"
       />
     );
   }
   return (
-    <div
-      className="flex shrink-0 items-center justify-center rounded-2xl border border-gold/25 bg-gradient-to-br from-gold/15 to-cyan/10 font-display font-bold text-gold"
-      style={{ width: size, height: size, fontSize: size * 0.3 }}
-    >
+    <div className="flex aspect-square w-full max-w-[220px] items-center justify-center rounded-2xl border border-gold/25 bg-gradient-to-br from-gold/15 to-cyan/10 font-display text-5xl font-bold text-gold">
       {initials}
     </div>
   );
 }
 
-/** Sized to hold a paragraph of self-introduction, not just a name and title. */
-function MemberCard({ person, muted = false }: { person: Person; muted?: boolean }) {
+/**
+ * One card per person, one per row, identical in size and layout whether the
+ * person is the PI, a student or an alumnus. `children` carries anything extra
+ * a particular person needs, such as the PI's expandable biography.
+ */
+function MemberCard({
+  person,
+  muted = false,
+  children,
+}: {
+  person: Person;
+  muted?: boolean;
+  children?: ReactNode;
+}) {
   return (
-    <div
-      className={`card flex flex-col gap-5 p-7 sm:flex-row ${muted ? "" : "min-h-[260px]"}`}
-    >
-      <Avatar person={person} size={muted ? 96 : 132} />
-      <div className="min-w-0 flex-1">
-        <h3 className="font-display text-xl font-semibold text-white">{person.name}</h3>
-        <p
-          className="mt-1 text-sm font-medium"
-          style={{ color: muted ? "#0A9396" : "#EE9B00" }}
-        >
-          {person.role}
-        </p>
-        {person.affiliation && (
-          <p className="mt-1 text-sm text-neutral-500">{person.affiliation}</p>
-        )}
-        {person.years && <p className="mt-1 text-xs text-neutral-600">{person.years}</p>}
-        {person.now && <p className="mt-1 text-sm text-neutral-400">Now: {person.now}</p>}
-        {person.blurb && (
-          <p className="mt-4 text-[15px] leading-relaxed text-neutral-400">{person.blurb}</p>
-        )}
-        {person.links && person.links.length > 0 && (
-          <div className="mt-4 flex flex-wrap gap-x-4 gap-y-1">
-            {person.links.map((l) => (
-              <a
-                key={l.href}
-                href={l.href}
-                target="_blank"
-                rel="noreferrer"
-                className="text-sm font-medium text-neutral-400 transition hover:text-gold"
-              >
-                {l.label}
-              </a>
-            ))}
-          </div>
-        )}
+    <div className="card overflow-hidden">
+      <div className="grid gap-8 p-7 sm:p-9 lg:grid-cols-[220px_1fr]">
+        <div>
+          <Avatar person={person} />
+          {person.links && person.links.length > 0 && (
+            <div className="mt-5 flex flex-col gap-2">
+              {person.links.map((l) => (
+                <a
+                  key={l.href}
+                  href={l.href}
+                  target={l.href.startsWith("mailto") ? undefined : "_blank"}
+                  rel="noreferrer"
+                  className="text-sm font-medium text-neutral-300 transition hover:text-gold"
+                >
+                  {l.label} →
+                </a>
+              ))}
+            </div>
+          )}
+        </div>
+
+        <div>
+          <span
+            className="text-xs font-semibold uppercase tracking-[0.2em]"
+            style={{ color: muted ? "#0A9396" : "#EE9B00" }}
+          >
+            {person.role}
+          </span>
+          <h3 className="mt-2 font-display text-3xl font-bold text-white sm:text-4xl">
+            {person.name}
+          </h3>
+          {person.affiliation && (
+            <p className="mt-2 text-sm text-neutral-500">{person.affiliation}</p>
+          )}
+          {person.years && <p className="mt-1 text-xs text-neutral-600">{person.years}</p>}
+          {person.now && <p className="mt-1 text-sm text-neutral-400">Now: {person.now}</p>}
+
+          {person.blurb && (
+            <div className="prose-dark mt-6">
+              <p>{person.blurb}</p>
+            </div>
+          )}
+
+          {children}
+        </div>
       </div>
     </div>
   );
@@ -99,51 +117,23 @@ export default function People() {
       <PageHero
         eyebrow="People"
         title="Our research group"
-        lead="We are based at the University of Gothenburg, but we also work with a growing network of collaborators globally."
+        lead="The PEACE lab aims to foster a positive, collaborative, and supportive research environment for all. We believe the best ideas emerge from social interactions and we are lucky to host wonderful people!"
         image="/images/people-lionfish.jpg"
         imageOpacity={0.85}
       />
 
       <Container className="py-16">
-        {/* ------------------------------------------------------------ PI */}
-        <Reveal>
-          <div className="card overflow-hidden">
-            <div className="brand-gradient h-[3px] w-full" />
-            <div className="grid gap-8 p-7 sm:p-9 lg:grid-cols-[220px_1fr]">
-              <div>
-                <img
-                  src={PI.photo}
-                  alt={PI.name}
-                  className="w-full max-w-[220px] rounded-2xl border border-white/10 object-cover"
-                />
-                <div className="mt-5 flex flex-col gap-2">
-                  {PI.links?.map((l) => (
-                    <a
-                      key={l.href}
-                      href={l.href}
-                      target={l.href.startsWith("mailto") ? undefined : "_blank"}
-                      rel="noreferrer"
-                      className="text-sm font-medium text-neutral-300 transition hover:text-gold"
-                    >
-                      {l.label} →
-                    </a>
-                  ))}
-                </div>
-              </div>
+        {/* ------------------------------------------------------- current */}
+        <section>
+          <Reveal>
+            <SectionHeading eyebrow="Current" title="Current members" />
+          </Reveal>
 
-              <div>
-                <span className="text-xs font-semibold uppercase tracking-[0.2em] text-gold">
-                  {PI.role}
-                </span>
-                <h2 className="mt-2 font-display text-3xl font-bold text-white sm:text-4xl">
-                  {PI.name}
-                </h2>
-                <p className="mt-2 text-sm text-neutral-500">{PI.affiliation}</p>
-
-                <div className="prose-dark mt-6">
-                  <p>{PI_INTRO}</p>
-                </div>
-
+          <div className="mt-8 space-y-5">
+            {/* The PI sits in the list with everyone else; only the expandable
+                biography and the CV button mark the card out. */}
+            <Reveal>
+              <MemberCard person={{ ...PI, blurb: PI_INTRO }}>
                 <button
                   onClick={() => setBioOpen((v) => !v)}
                   className="group mt-5 inline-flex items-center gap-2 text-sm font-semibold text-cyan transition hover:text-white"
@@ -191,28 +181,21 @@ export default function People() {
                   </GhostButton>
                   <GhostButton href="https://www.sortee.org/">SORTEE</GhostButton>
                 </div>
-              </div>
-            </div>
-          </div>
-        </Reveal>
+              </MemberCard>
+            </Reveal>
 
-        {/* ------------------------------------------------------- current */}
-        <section className="mt-20">
-          <Reveal>
-            <SectionHeading eyebrow="Current" title="Current members" />
-          </Reveal>
-          <div className="mt-8 grid gap-4 lg:grid-cols-2">
             {CURRENT_MEMBERS.map((m, i) => (
-              <Reveal key={m.name} delay={i * 0.06}>
+              <Reveal key={m.name} delay={(i + 1) * 0.06}>
                 <MemberCard person={m} />
               </Reveal>
             ))}
-            <Reveal delay={CURRENT_MEMBERS.length * 0.06}>
-              <div className="card flex h-full min-h-[260px] flex-col justify-center border-dashed p-7">
-                <h3 className="font-display text-lg font-semibold text-gold">
+
+            <Reveal delay={(CURRENT_MEMBERS.length + 1) * 0.06}>
+              <div className="card border-dashed p-7 sm:p-9">
+                <h3 className="font-display text-xl font-semibold text-gold">
                   There is room for you here!
                 </h3>
-                <p className="mt-2 text-sm leading-relaxed text-neutral-400">
+                <p className="mt-3 max-w-2xl text-[15px] leading-relaxed text-neutral-400">
                   We are recruiting a PhD student and a postdoctoral researcher, and we gladly
                   welcome people who want to bring their own funding to conduct research in the lab.
                 </p>
@@ -230,7 +213,7 @@ export default function People() {
             <Reveal>
               <SectionHeading eyebrow="Alumni" title="Past members" />
             </Reveal>
-            <div className="mt-8 grid gap-4 lg:grid-cols-2">
+            <div className="mt-8 space-y-5">
               {PAST_MEMBERS.map((m, i) => (
                 <Reveal key={m.name} delay={i * 0.06}>
                   <MemberCard person={m} muted />
@@ -254,7 +237,6 @@ export default function People() {
               <CollaboratorMap />
             </div>
           </Reveal>
-
         </section>
       </Container>
     </>
