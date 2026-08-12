@@ -7,6 +7,7 @@ import {
   PI,
   PI_BIO,
   PI_INTRO,
+  PI_PHOTOS,
   type Person,
 } from "../content/site";
 import CollaboratorMap from "../components/CollaboratorMap";
@@ -159,14 +160,19 @@ export default function People() {
                         {PI_BIO.map((p, i) => (
                           <p key={i}>{p}</p>
                         ))}
-                        {/* Portrait orientation, so it is capped rather than
-                            run full width, which would tower over the text. */}
-                        <img
-                          src="/images/patrice-canada.jpg"
-                          alt="Patrice Pottier above Peyto Lake in the Canadian Rockies"
-                          loading="lazy"
-                          className="mt-6 w-full max-w-sm rounded-2xl border border-white/10 object-cover"
-                        />
+                        {/* All three are portrait, so they run as a strip with a
+                            shared aspect ratio rather than at their own heights. */}
+                        <div className="mt-7 grid gap-3 sm:grid-cols-3">
+                          {PI_PHOTOS.map((photo) => (
+                            <img
+                              key={photo.src}
+                              src={photo.src}
+                              alt={photo.alt}
+                              loading="lazy"
+                              className="aspect-[3/4] w-full rounded-xl border border-white/10 object-cover"
+                            />
+                          ))}
+                        </div>
                       </div>
                     </motion.div>
                   )}

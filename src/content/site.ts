@@ -256,7 +256,23 @@ export const PI_BIO: string[] = [
   "I am originally from France, where I did my BSc (2014-2017) and MSc (2017-2019) at the University of Tours. After a short research visit at the University of Alabama in the US (2018-2019), I started my PhD at the University of New South Wales in Australia (2020-2024). After a brief postdoc period split between UNSW and the Australian National University (2024-2025), I moved to the University of Gothenburg in Sweden (2025-current) with a Wenner-Gren postdoctoral fellowship. I recently received a strategic recruitment grant from the Swedish Research Council to start the PEACE lab. I have been extremely grateful to have been mentored by some of the kindest and most generous supervisors over the years. I would not be here without the support and care of Marlene Goubault (MSc supervisor), Ryan Earley (MSc supervisor), Shinichi Nakagawa (PhD supervisor), Szymon Drobniak (PhD supervisor), Daniel Noble (postdoc supervisor) and Fredrik Jutfelt (postdoc supervisor).",
   "My research interests have always been broad, and I have always let myself be guided by my curiosity. I have taken a keen interest in improving our ability to quantify the impacts of climate change on biodiversity, because I care deeply about protecting our precious natural world. I have become fascinated by what drives variation in the ability of different species to cope with extreme heat, and how species differ in their capacity to respond to environmental change through plasticity and adaptation. Recently, I have also been interested in quantifying how resilience varies within species, with a particular focus on how different life stages vary in their capacity to tolerate acute and chronic warming, and the importance of such variation for species resilience. I enjoy learning new methods and working across scales, from laboratory experiments to comparative analyses, and across a broad range of taxa. Above all, I love discussing ideas and collaborating with other scientists. I believe we need to unite forces and listen to a diversity of perspectives if we want to make important new discoveries and tackle pressing ecological challenges such as climate change. This is the primary reason I founded the Thermal Ecology Alliance, a platform to facilitate more inclusive collaborations and discussions in the field, and I am beyond excited about what comes next.",
   "I am also passionate about interdisciplinary research, and enjoy working on projects that help us promote more robust, open and inclusive research. This has led me to become an advocate for Open Science and a former board member of The Society for Open, Reproducible, and Transparent Ecology and Evolutionary Biology (SORTEE).",
-  "Outside of academia, I love spending time surrounded by nature, discovering new cultures, and trying all the cuisines the world has to offer.",
+  "Outside of academia, I love spending time in nature. I particularly enjoy surfing, hiking, camping, observing wildlife, and picking wild mushrooms. I also love meeting new people, interacting with animals, discovering new cultures, and trying all the craft beers and cuisines the world has to offer.",
+];
+
+/** Shown at the end of the expanded biography. */
+export const PI_PHOTOS: { src: string; alt: string }[] = [
+  {
+    src: "/images/patrice-canada.jpg",
+    alt: "Patrice Pottier above Peyto Lake in the Canadian Rockies",
+  },
+  {
+    src: "/images/patrice-mushrooms.jpg",
+    alt: "Patrice Pottier holding wild mushrooms picked on a hillside in northern Norway",
+  },
+  {
+    src: "/images/patrice-cow.jpg",
+    alt: "Patrice Pottier crouching beside a cow lying in a field",
+  },
 ];
 
 export const CURRENT_MEMBERS: Person[] = [
