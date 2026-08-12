@@ -278,6 +278,14 @@ export const CURRENT_MEMBERS: Person[] = [
       "Xinyi is studying the impacts of microplastics on freshwater and marine organisms. She is conducting a meta-analysis of the impacts of freshwater microplastics on life-history traits, and will soon run experiments on freshwater invertebrates to quantify how changing temperatures affect the toxicity of microplastics. Xinyi is co-supervised with Daniel Noble.",
     links: [{ label: "Email", href: "mailto:xinyiliu1201@gmail.com" }],
   },
+  {
+    name: "Emil Larsson",
+    role: "Research assistant",
+    affiliation: "University of Gothenburg",
+    photo: "/images/emil-larsson.jpg",
+    blurb: "Emil is a research assistant caring for the fish and helping with the experiments.",
+    links: [],
+  },
 ];
 
 export const PAST_MEMBERS: Person[] = [
