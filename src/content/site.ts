@@ -284,7 +284,7 @@ export const CURRENT_MEMBERS: Person[] = [
     affiliation: "University of Gothenburg",
     photo: "/images/emil-larsson.jpg",
     blurb:
-      "Emil looks after our zebrafish colony and keeps the experiments running. He maintains the aquarium facility, breeds and raises the fish we work with, and helps run the assays that turn them into data. The quality of our results starts with the quality of his animal care.",
+      "Emil looks after our zebrafish colony and keeps the experiments running. He maintains the aquarium facility, breeds and raises the fish we work with, and helps run the assays. The quality of our results starts with the quality of his animal care.",
     links: [],
   },
 ];
