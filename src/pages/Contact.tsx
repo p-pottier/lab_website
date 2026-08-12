@@ -68,7 +68,7 @@ export default function Contact() {
 
               <div className="mt-9">
                 <GradientButton href={`mailto:${SITE.email}`}>
-                  Shoot me an email <ArrowRight />
+                  Write me an email <ArrowRight />
                 </GradientButton>
               </div>
             </div>
