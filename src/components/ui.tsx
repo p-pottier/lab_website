@@ -223,22 +223,27 @@ export function PageHero({
   title,
   lead,
   image,
-  height = "h-[46vh] min-h-[320px]",
+  height = "min-h-[420px]",
   imageOpacity = 0.6,
 }: {
   eyebrow?: string;
   title: string;
   lead?: string;
   image: string;
+  /** A minimum height. The banner grows if the text needs more room. */
   height?: string;
   /** Raise this for a dark photograph that would otherwise read as texture. */
   imageOpacity?: number;
 }) {
   // A <section>, not a <header>: the site navigation is already the page banner.
-  // pt-[96px] clears the fixed header, so a short banner cannot slide under it.
+  //
+  // The text is anchored to the TOP, not the bottom. Bottom-anchoring inside a
+  // fixed height made the gap below the navigation depend on how many lines the
+  // lead ran to, so it varied from 71px to 174px between pages. The padding is
+  // the 98px header plus a 96px gap, which is identical on every page.
   return (
     <section
-      className={`relative flex items-end overflow-hidden pt-[96px] ${height}`}
+      className={`relative flex items-start overflow-hidden pb-14 pt-[194px] ${height}`}
     >
       <div className="absolute inset-0">
         <img
@@ -251,7 +256,7 @@ export function PageHero({
         {/* keeps the navigation legible over a pale or busy photograph */}
         <div className="absolute inset-x-0 top-0 h-32 bg-gradient-to-b from-ink to-transparent" />
       </div>
-      <Container className="relative pb-10 sm:pb-14">
+      <Container className="relative">
         <motion.div
           initial={{ opacity: 0, y: 26 }}
           animate={{ opacity: 1, y: 0 }}

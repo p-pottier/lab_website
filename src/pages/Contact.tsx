@@ -10,7 +10,7 @@ export default function Contact() {
         eyebrow="Contact"
         title="Get in touch"
         image="/images/research-plasticity.jpg"
-        height="h-[40vh] min-h-[280px]"
+        height="min-h-[380px]"
       />
 
       <Container className="py-16">

@@ -298,7 +298,7 @@ export default function Publications() {
         title="The papers we publish"
         lead="We take pride in publishing our results to make them available to the community."
         image="/images/chameleon.jpg"
-        height="h-[40vh] min-h-[280px]"
+        height="min-h-[380px]"
       />
 
       <Container className="py-14">

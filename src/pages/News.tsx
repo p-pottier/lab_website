@@ -127,7 +127,7 @@ export default function News() {
         title="What is happening"
         lead="Papers, positions, talks and everything else worth mentioning, newest first."
         image="/images/hero-leaf-insect.jpg"
-        height="h-[40vh] min-h-[280px]"
+        height="min-h-[380px]"
       />
 
       <Container className="py-16">
