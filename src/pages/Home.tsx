@@ -1,6 +1,7 @@
 import { motion, useScroll, useTransform } from "framer-motion";
 import { useRef } from "react";
-import { NEWS, POSITIONS, SITE } from "../content/site";
+import { Link } from "react-router-dom";
+import { NEWS, PI, POSITIONS, SITE } from "../content/site";
 import { useCollaborators } from "../lib/useData";
 import {
   Chip,
@@ -101,6 +102,19 @@ function Hero() {
             understand how animals cope with environmental change, from the mechanistic to the
             global scale, so we can better predict and mitigate the impacts of climate change on our
             precious biodiversity.
+          </p>
+
+          {/* Names the PI in the hero, so a first-time visitor knows whose lab
+              this is without opening the People page. */}
+          <p className="mt-5 text-[15px] leading-relaxed text-neutral-400">
+            The lab is led by{" "}
+            <Link
+              to="/people"
+              className="font-semibold text-white underline decoration-[color:var(--accent)] decoration-2 underline-offset-4 transition hover:text-[color:var(--accent)]"
+            >
+              {PI.name}
+            </Link>
+            {" "}at the {SITE.university}.
           </p>
 
           <div className="mt-9 flex flex-wrap items-center gap-3">
