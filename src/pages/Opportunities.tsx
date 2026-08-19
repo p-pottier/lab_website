@@ -27,6 +27,7 @@ const SCOPE_COLOUR: Record<string, string> = {
 
 function PositionCard({ position }: { position: Position }) {
   const [open, setOpen] = useState(false);
+  const askHref = `mailto:${SITE.email}?subject=${encodeURIComponent(position.title)}`;
 
   return (
     <article className="card overflow-hidden">
@@ -83,22 +84,38 @@ function PositionCard({ position }: { position: Position }) {
                 transition={{ duration: 0.35, ease: [0.22, 1, 0.36, 1] }}
                 className="mt-5 space-y-3 overflow-hidden border-l-2 border-cyan/30 pl-5"
               >
-                {position.details.map((d) => (
-                  <li key={d} className="text-[15px] leading-relaxed text-neutral-400">
-                    {d}
-                  </li>
-                ))}
+                {position.details.map((d) =>
+                  typeof d === "string" ? (
+                    <li key={d} className="text-[15px] leading-relaxed text-neutral-400">
+                      {d}
+                    </li>
+                  ) : (
+                    <li key={d.lead} className="text-[15px] leading-relaxed text-neutral-400">
+                      {d.lead}
+                      <ul className="mt-3 list-disc space-y-1.5 pl-5 marker:text-cyan/70">
+                        {d.items.map((item) => (
+                          <li key={item} className="pl-1 text-[14.5px] leading-relaxed">
+                            {item}
+                          </li>
+                        ))}
+                      </ul>
+                    </li>
+                  ),
+                )}
               </motion.ul>
             )}
           </AnimatePresence>
 
           <div className="mt-7 flex flex-wrap gap-3">
-            {position.applyUrl ? (
+            {position.applyUrl && (
               <GradientButton href={position.applyUrl}>
-                Apply <ArrowRight />
+                Apply for this position <ArrowRight />
               </GradientButton>
+            )}
+            {position.applyUrl ? (
+              <GhostButton href={askHref}>Ask about this position</GhostButton>
             ) : (
-              <GradientButton href={`mailto:${SITE.email}?subject=${encodeURIComponent(position.title)}`}>
+              <GradientButton href={askHref}>
                 Ask about this position <ArrowRight />
               </GradientButton>
             )}

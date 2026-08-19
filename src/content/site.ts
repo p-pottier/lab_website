@@ -335,6 +335,12 @@ export const HIGHLIGHTED_DOIS: string[] = [
 
 /* --------------------------------------------------------- opportunities */
 
+/**
+ * One block inside a position's expanded description. A plain string is a
+ * paragraph; the object form is a lead-in sentence followed by bullets.
+ */
+export type PositionDetail = string | { lead: string; items: string[] };
+
 export type Position = {
   title: string;
   kind: string;
@@ -343,9 +349,38 @@ export type Position = {
   deadline: string;
   status: "open" | "closing" | "upcoming" | "closed";
   summary: string;
-  details: string[];
+  details: PositionDetail[];
   applyUrl?: string;
   image?: string;
+};
+
+/**
+ * Possible research directions, shown under both advertised positions. This is
+ * a menu rather than a plan: applicants pick from it or propose their own.
+ */
+const RESEARCH_DIRECTIONS = [
+  "Developing standardised methods for comparing climate vulnerability across life stages",
+  "Identifying critical windows of sensitivity during embryonic and larval development",
+  "Quantifying the capacity for embryos to acclimate to changing environments within- and across generations",
+  "Quantifying the consequences of early-life stress on later life stages",
+  "Quantifying the resilience of early-life stages to co-occurring environmental stressors",
+  "Identifying if the evolution of heat tolerance is decoupled across life stages",
+  "Identifying the mechanistic drivers of heat tolerance differences among life stages",
+  "Quantifying thermal fertility limits and how they correlate with population vulnerability to environmental change",
+  "Building models to translate laboratory measurements of thermal sensitivity to predictions of vulnerability under natural conditions",
+  "Characterising thermal exposure and responses to extreme heat events in the field",
+  "Contributing to coordinated experiments involving researchers from multiple countries",
+  "Synthesising published evidence through systematic reviews, meta-analyses, and comparative studies",
+  "Using phylogenetic comparative methods, environmental data, and climate models to identify species and regions vulnerable to climate change",
+  "Using comparative analyses to understand the drivers of variation in thermal sensitivity within and across species",
+  "Quantifying the consequences of life-stage variation in thermal sensitivity for species (re)distribution, survival, and extinction",
+  "Building databases, tools, and software to promote the reusability of evidence",
+  "Developing tools to facilitate knowledge exchange and collaborations across disciplines, and the translation of research outcomes into conservation, management and policy",
+];
+
+const DIRECTIONS_BLOCK = {
+  lead: "Depending on the successful applicant's interests, possible research directions include (but are not limited to):",
+  items: RESEARCH_DIRECTIONS,
 };
 
 export const POSITIONS: Position[] = [
@@ -361,9 +396,12 @@ export const POSITIONS: Position[] = [
     details: [
       "This PhD project is fully funded by the Swedish Research Council, as part of a programme on the vulnerability of fish life stages to climate change.",
       "The PhD project is expected to combine experiments with evidence synthesis and comparative analyses. While some aspects of the project will have to touch on variation in thermal sensitivity between life stages, the project is flexible in scope, and I welcome students to come up with their own research ideas.",
+      DIRECTIONS_BLOCK,
       "This project will be co-supervised by Fredrik Jutfelt, and based at Natrium in Gothenburg. There will also be opportunities to conduct projects at the Kristineberg marine station.",
       "The start date is flexible, but preferably before the end of 2026.",
     ],
+    applyUrl:
+      "https://web103.reachmee.com/ext/I005/1035/job?site=7&lang=UK&validator=9b89bead79bb7258ad55c8d75228e5b7&job_id=41267",
     image: "/images/research-development.jpg",
   },
   {
@@ -378,10 +416,14 @@ export const POSITIONS: Position[] = [
     details: [
       "This postdoc project is fully funded by the Swedish Research Council, as part of a programme on the vulnerability of fish life stages to climate change.",
       "The postdoc project is expected to combine experiments with evidence synthesis and comparative analyses. While some aspects of the project will have to touch on variation in thermal sensitivity between life stages, the project is flexible in scope, and I welcome applicants to come up with their own research ideas.",
+      DIRECTIONS_BLOCK,
       "The applicant will also have opportunities to take on leadership roles through the Thermal Ecology Alliance, including managing distributed experiments, and the chance to co-supervise MSc and PhD students.",
       "This project will be co-supervised by Fredrik Jutfelt, and based at Natrium in Gothenburg. There will also be opportunities to conduct projects at the Kristineberg marine station.",
       "The start date is flexible, but preferably before March 2027. Applicants should have completed a doctoral degree no more than three years before the start of the position.",
     ],
+    // The University of Gothenburg advertisement. The "Apply for this
+    // position" button appears only once this is a non-empty URL.
+    applyUrl: "",
     image: "/images/opportunities-banner.webp",
   },
 ];
