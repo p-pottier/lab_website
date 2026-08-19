@@ -96,9 +96,10 @@ to `main`. The site is served at https://patricepottierlab.com, a Namecheap
 domain whose DNS points at the four GitHub Pages A records and whose `www`
 subdomain is a CNAME to `p-pottier.github.io`.
 
-The custom domain is set through the `cname` input in the workflow, not in the
-repository settings. Each deploy replaces the whole site, so a CNAME file
-written by the settings page would be lost on the next push.
+The custom domain lives in `public/CNAME`, which Vite copies into `dist`. Each
+deploy replaces the whole site, so a CNAME file written through the repository
+settings page would be lost on the next push. `actions/deploy-pages` has no
+`cname` input.
 
 Routing is client-side, so `dist/404.html` is a copy of `index.html`. That is
 what makes a direct visit to `/people` work on Pages.
