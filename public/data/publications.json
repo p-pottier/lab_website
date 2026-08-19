@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-05",
+ "updated": "2026-08-19",
  "publications": [
   {
    "id": "10.1093/conphys/coag006",
@@ -107,7 +107,7 @@
    "isOA": true,
    "oaUrl": "https://doi.org/10.1093/conphys/coag006",
    "url": "https://doi.org/10.1093/conphys/coag006",
-   "citations": 5,
+   "citations": 6,
    "abstract": "Abstract Understanding how animals respond to environmental stressors across their life cycle is essential for predicting species' vulnerability to climate change. Here, we systematically reviewed the literature to quantify the variation in research effort on different life stages in the field of conservation physiology. Specifically, we reviewed experimental studies measuring physiological and life-history responses to climatic stressors across three representative scientific journals: Conservation Physiology, Journal of Thermal Biology and Journal of Experimental Biology. Our systematic map of 1276 studies revealed a pronounced underrepresentation of studies on embryos, representing only 8% to 9% of studies. This pattern was remarkably consistent across all axes considered (i.e. journals, taxonomic groups, physiological traits and environmental stressors). We also found that 80% of studies only investigated single life stages, and over 5% of studies did not clearly report the life stage(s) used. Despite the increasing recognition of the ecological importance and sensitivity of early life stages to environmental stressors, we found no evidence that research on embryos has gained traction over the past decade (2013–2024). We argue that these ontogenetic biases likely reflect a combination of historical precedents and enduring methodological and logistical constraints that continue to shape research agendas. To build a more holistic understanding across the life cycle, we: (i) call for a paradigm shift placing embryos at the center of experimental agendas, (ii) outline emerging methodological advances that increase the feasibility of research on early life stages, (iii) demonstrate how studies on embryos align with ethical considerations for animal research, (iv) highlight perspectives for future evidence syntheses and study reporting and (v) promote investigations of the mechanisms underlying physiological variation across ontogeny. Closing the ontogenetic gap will be key to improving our ability to predict population-level impacts of climate change and guiding more effective conservation and management interventions.",
    "preprintUrl": "https://doi.org/10.32942/x2kp96",
    "altmetric": null
@@ -329,6 +329,502 @@
    "altmetric": null
   },
   {
+   "id": "10.1038/s41559-026-03117-y",
+   "doi": "10.1038/s41559-026-03117-y",
+   "title": "Extensive climate-induced range shifts in butterflies across the globe",
+   "authors": [
+    {
+     "name": "Shawan Chowdhury",
+     "orcid": "https://orcid.org/0000-0003-2936-5786",
+     "isSelf": false
+    },
+    {
+     "name": "Upama Aich",
+     "orcid": "https://orcid.org/0000-0003-2576-0922",
+     "isSelf": false
+    },
+    {
+     "name": "Laura H. Antão",
+     "orcid": null,
+     "isSelf": false
+    },
+    {
+     "name": "Stefan Pinkert",
+     "orcid": "https://orcid.org/0000-0002-8348-2337",
+     "isSelf": false
+    },
+    {
+     "name": "Perpetra Akite",
+     "orcid": null,
+     "isSelf": false
+    },
+    {
+     "name": "Gilberto S. S. Almeida",
+     "orcid": "https://orcid.org/0000-0003-2146-3023",
+     "isSelf": false
+    },
+    {
+     "name": "Tatsuya Amano",
+     "orcid": "https://orcid.org/0000-0001-6576-3410",
+     "isSelf": false
+    },
+    {
+     "name": "Andras Ambrus",
+     "orcid": null,
+     "isSelf": false
+    },
+    {
+     "name": "Jade A. T. Badon",
+     "orcid": null,
+     "isSelf": false
+    },
+    {
+     "name": "Seung-Yun Baek",
+     "orcid": "https://orcid.org/0009-0000-9575-3395",
+     "isSelf": false
+    },
+    {
+     "name": "Maksims Balalaikins",
+     "orcid": "https://orcid.org/0000-0003-4143-1061",
+     "isSelf": false
+    },
+    {
+     "name": "Michal Barták",
+     "orcid": "https://orcid.org/0000-0002-1824-0112",
+     "isSelf": false
+    },
+    {
+     "name": "Vijay Barve",
+     "orcid": "https://orcid.org/0000-0002-4852-2567",
+     "isSelf": false
+    },
+    {
+     "name": "Michał Bełcik",
+     "orcid": null,
+     "isSelf": false
+    },
+    {
+     "name": "Timothy C. Bonebrake",
+     "orcid": null,
+     "isSelf": false
+    },
+    {
+     "name": "Simona Bonelli",
+     "orcid": null,
+     "isSelf": false
+    },
+    {
+     "name": "Diana E. Bowler",
+     "orcid": null,
+     "isSelf": false
+    },
+    {
+     "name": "Michael F. Braby",
+     "orcid": null,
+     "isSelf": false
+    },
+    {
+     "name": "Roger Caritg",
+     "orcid": null,
+     "isSelf": false
+    },
+    {
+     "name": "Sei-Woong Choi",
+     "orcid": null,
+     "isSelf": false
+    },
+    {
+     "name": "Wen-Chen Chu",
+     "orcid": null,
+     "isSelf": false
+    },
+    {
+     "name": "Eloisa Clain",
+     "orcid": null,
+     "isSelf": false
+    },
+    {
+     "name": "Steve Collins",
+     "orcid": null,
+     "isSelf": false
+    },
+    {
+     "name": "Johnattan H. Cumplido",
+     "orcid": null,
+     "isSelf": false
+    },
+    {
+     "name": "Leonardo Dapporto",
+     "orcid": null,
+     "isSelf": false
+    },
+    {
+     "name": "Gideon G. Deme",
+     "orcid": "https://orcid.org/0000-0002-0537-6707",
+     "isSelf": false
+    },
+    {
+     "name": "Matthias Dolek",
+     "orcid": "https://orcid.org/0000-0003-3778-9482",
+     "isSelf": false
+    },
+    {
+     "name": "Aleksandra Dolezal",
+     "orcid": "https://orcid.org/0000-0002-1388-3610",
+     "isSelf": false
+    },
+    {
+     "name": "Fahmi Idris Firdaus",
+     "orcid": "https://orcid.org/0000-0001-6073-7643",
+     "isSelf": false
+    },
+    {
+     "name": "Markus Franzén",
+     "orcid": null,
+     "isSelf": false
+    },
+    {
+     "name": "André V. L. Freitas",
+     "orcid": "https://orcid.org/0000-0002-5763-4990",
+     "isSelf": false
+    },
+    {
+     "name": "Richard A. Fuller",
+     "orcid": "https://orcid.org/0000-0001-9468-9678",
+     "isSelf": false
+    },
+    {
+     "name": "Luisa Gensch",
+     "orcid": null,
+     "isSelf": false
+    },
+    {
+     "name": "Eliza Grames",
+     "orcid": null,
+     "isSelf": false
+    },
+    {
+     "name": "Elia Guariento",
+     "orcid": "https://orcid.org/0000-0003-1060-9816",
+     "isSelf": false
+    },
+    {
+     "name": "Bryan Haywood",
+     "orcid": null,
+     "isSelf": false
+    },
+    {
+     "name": "Shiran Hershcovich",
+     "orcid": null,
+     "isSelf": false
+    },
+    {
+     "name": "Kerstin Jantke",
+     "orcid": "https://orcid.org/0000-0002-3126-3888",
+     "isSelf": false
+    },
+    {
+     "name": "Eddie John",
+     "orcid": "https://orcid.org/0009-0009-0179-0124",
+     "isSelf": false
+    },
+    {
+     "name": "Henrik Kalivoda",
+     "orcid": null,
+     "isSelf": false
+    },
+    {
+     "name": "Azadeh Karimi",
+     "orcid": null,
+     "isSelf": false
+    },
+    {
+     "name": "Ryosuke Katayose",
+     "orcid": null,
+     "isSelf": false
+    },
+    {
+     "name": "Akito Y. Kawahara",
+     "orcid": "https://orcid.org/0000-0002-3724-4610",
+     "isSelf": false
+    },
+    {
+     "name": "Sujan Khanal",
+     "orcid": null,
+     "isSelf": false
+    },
+    {
+     "name": "Krushnamegh Kunte",
+     "orcid": "https://orcid.org/0000-0002-3860-6118",
+     "isSelf": false
+    },
+    {
+     "name": "Lionel L’Hoste",
+     "orcid": "https://orcid.org/0000-0003-0239-9468",
+     "isSelf": false
+    },
+    {
+     "name": "Magdalena Lenda",
+     "orcid": null,
+     "isSelf": false
+    },
+    {
+     "name": "Jorge L. León-Cortés",
+     "orcid": null,
+     "isSelf": false
+    },
+    {
+     "name": "Da-Li Lin",
+     "orcid": null,
+     "isSelf": false
+    },
+    {
+     "name": "Yuet Fung Ling",
+     "orcid": null,
+     "isSelf": false
+    },
+    {
+     "name": "Maria Lucia Lorini",
+     "orcid": null,
+     "isSelf": false
+    },
+    {
+     "name": "Dirk Maes",
+     "orcid": "https://orcid.org/0000-0002-7947-3788",
+     "isSelf": false
+    },
+    {
+     "name": "Dino Martins",
+     "orcid": "https://orcid.org/0000-0003-1581-1642",
+     "isSelf": false
+    },
+    {
+     "name": "Thomas Merckx",
+     "orcid": "https://orcid.org/0000-0002-6195-3302",
+     "isSelf": false
+    },
+    {
+     "name": "Xavier Mestdagh",
+     "orcid": "https://orcid.org/0000-0001-7270-8997",
+     "isSelf": false
+    },
+    {
+     "name": "Yeray Monasterio",
+     "orcid": null,
+     "isSelf": false
+    },
+    {
+     "name": "Akihiro Nakamura",
+     "orcid": "https://orcid.org/0000-0001-7349-5102",
+     "isSelf": false
+    },
+    {
+     "name": "Rachel R. Y. Oh",
+     "orcid": "https://orcid.org/0000-0003-2716-7727",
+     "isSelf": false
+    },
+    {
+     "name": "Lars B. Pettersson",
+     "orcid": "https://orcid.org/0000-0001-5745-508X",
+     "isSelf": false
+    },
+    {
+     "name": "Jeffrey S. Pippen",
+     "orcid": "https://orcid.org/0009-0005-3099-4995",
+     "isSelf": false
+    },
+    {
+     "name": "Clara Pladevall",
+     "orcid": "https://orcid.org/0000-0003-0220-0260",
+     "isSelf": false
+    },
+    {
+     "name": "Ingrid L. Pollet",
+     "orcid": "https://orcid.org/0000-0001-7207-8294",
+     "isSelf": false
+    },
+    {
+     "name": "Patrice Pottier",
+     "orcid": "https://orcid.org/0000-0003-2106-6597",
+     "isSelf": true
+    },
+    {
+     "name": "Muhammad A. Rafi",
+     "orcid": "https://orcid.org/0000-0001-5559-1416",
+     "isSelf": false
+    },
+    {
+     "name": "Danielle L. Ramos",
+     "orcid": "https://orcid.org/0000-0002-8009-5200",
+     "isSelf": false
+    },
+    {
+     "name": "Tharindu Ranasinghe",
+     "orcid": "https://orcid.org/0000-0002-9495-9401",
+     "isSelf": false
+    },
+    {
+     "name": "Fanie Rautenbach",
+     "orcid": "https://orcid.org/0000-0003-4227-2648",
+     "isSelf": false
+    },
+    {
+     "name": "Martin Reith",
+     "orcid": null,
+     "isSelf": false
+    },
+    {
+     "name": "Abubakar S. Ringim",
+     "orcid": "https://orcid.org/0000-0003-0968-0842",
+     "isSelf": false
+    },
+    {
+     "name": "Federico Riva",
+     "orcid": "https://orcid.org/0000-0002-1724-4293",
+     "isSelf": false
+    },
+    {
+     "name": "David B. Roy",
+     "orcid": "https://orcid.org/0000-0002-5147-0331",
+     "isSelf": false
+    },
+    {
+     "name": "Nils Ryrholm",
+     "orcid": "https://orcid.org/0000-0002-0385-295X",
+     "isSelf": false
+    },
+    {
+     "name": "Marjo Saastamoinen",
+     "orcid": "https://orcid.org/0000-0001-7009-2527",
+     "isSelf": false
+    },
+    {
+     "name": "Josef Settele",
+     "orcid": "https://orcid.org/0000-0002-8624-4983",
+     "isSelf": false
+    },
+    {
+     "name": "William Sidemo-Holm",
+     "orcid": null,
+     "isSelf": false
+    },
+    {
+     "name": "Piotr Skorka",
+     "orcid": null,
+     "isSelf": false
+    },
+    {
+     "name": "Nigel E. Stork",
+     "orcid": null,
+     "isSelf": false
+    },
+    {
+     "name": "Sanej P. Suwal",
+     "orcid": null,
+     "isSelf": false
+    },
+    {
+     "name": "Giedrius Švitra",
+     "orcid": null,
+     "isSelf": false
+    },
+    {
+     "name": "Ann B. Swengel",
+     "orcid": null,
+     "isSelf": false
+    },
+    {
+     "name": "Scott R. Swengel",
+     "orcid": "https://orcid.org/0000-0003-0688-3572",
+     "isSelf": false
+    },
+    {
+     "name": "Nicolas Titeux",
+     "orcid": null,
+     "isSelf": false
+    },
+    {
+     "name": "Robert Tropek",
+     "orcid": "https://orcid.org/0000-0001-7499-6259",
+     "isSelf": false
+    },
+    {
+     "name": "Olga Tzortzakaki",
+     "orcid": "https://orcid.org/0000-0003-1933-0133",
+     "isSelf": false
+    },
+    {
+     "name": "Chris van Swaay",
+     "orcid": null,
+     "isSelf": false
+    },
+    {
+     "name": "Rudi Verovnik",
+     "orcid": null,
+     "isSelf": false
+    },
+    {
+     "name": "Jerome L. Wiedmann",
+     "orcid": null,
+     "isSelf": false
+    },
+    {
+     "name": "Martin Wiemers",
+     "orcid": "https://orcid.org/0000-0001-5272-3903",
+     "isSelf": false
+    },
+    {
+     "name": "Masaya Yago",
+     "orcid": "https://orcid.org/0000-0002-2168-9009",
+     "isSelf": false
+    },
+    {
+     "name": "Hossein Yazdandad",
+     "orcid": null,
+     "isSelf": false
+    },
+    {
+     "name": "Oz B. Yehuda",
+     "orcid": null,
+     "isSelf": false
+    },
+    {
+     "name": "Konstantina Zografou",
+     "orcid": null,
+     "isSelf": false
+    },
+    {
+     "name": "Aletta Bonn",
+     "orcid": "https://orcid.org/0000-0002-8345-4600",
+     "isSelf": false
+    },
+    {
+     "name": "Guy Pe’er",
+     "orcid": null,
+     "isSelf": false
+    },
+    {
+     "name": "Jonathan Lenoir",
+     "orcid": "https://orcid.org/0000-0003-0638-9582",
+     "isSelf": false
+    }
+   ],
+   "authorLine": "Shawan Chowdhury, Upama Aich, Laura H. Antão, Stefan Pinkert, Perpetra Akite, Gilberto S. S. Almeida, Tatsuya Amano, Andras Ambrus, Jade A. T. Badon, Seung-Yun Baek, Maksims Balalaikins, Michal Barták, Vijay Barve, Michał Bełcik, Timothy C. Bonebrake, Simona Bonelli, Diana E. Bowler, Michael F. Braby, Roger Caritg, Sei-Woong Choi, Wen-Chen Chu, Eloisa Clain, Steve Collins, Johnattan H. Cumplido, Leonardo Dapporto, Gideon G. Deme, Matthias Dolek, Aleksandra Dolezal, Fahmi Idris Firdaus, Markus Franzén, André V. L. Freitas, Richard A. Fuller, Luisa Gensch, Eliza Grames, Elia Guariento, Bryan Haywood, Shiran Hershcovich, Kerstin Jantke, Eddie John, Henrik Kalivoda, Azadeh Karimi, Ryosuke Katayose, Akito Y. Kawahara, Sujan Khanal, Krushnamegh Kunte, Lionel L’Hoste, Magdalena Lenda, Jorge L. León-Cortés, Da-Li Lin, Yuet Fung Ling, Maria Lucia Lorini, Dirk Maes, Dino Martins, Thomas Merckx, Xavier Mestdagh, Yeray Monasterio, Akihiro Nakamura, Rachel R. Y. Oh, Lars B. Pettersson, Jeffrey S. Pippen, Clara Pladevall, Ingrid L. Pollet, Patrice Pottier, Muhammad A. Rafi, Danielle L. Ramos, Tharindu Ranasinghe, Fanie Rautenbach, Martin Reith, Abubakar S. Ringim, Federico Riva, David B. Roy, Nils Ryrholm, Marjo Saastamoinen, Josef Settele, William Sidemo-Holm, Piotr Skorka, Nigel E. Stork, Sanej P. Suwal, Giedrius Švitra, Ann B. Swengel, Scott R. Swengel, Nicolas Titeux, Robert Tropek, Olga Tzortzakaki, Chris van Swaay, Rudi Verovnik, Jerome L. Wiedmann, Martin Wiemers, Masaya Yago, Hossein Yazdandad, Oz B. Yehuda, Konstantina Zografou, Aletta Bonn, Guy Pe’er, Jonathan Lenoir",
+   "journal": "Nature Ecology & Evolution",
+   "year": 2026,
+   "volume": null,
+   "issue": null,
+   "pages": null,
+   "kind": "article",
+   "isOA": true,
+   "oaUrl": "https://www.nature.com/articles/s41559-026-03117-y.pdf",
+   "url": "https://doi.org/10.1038/s41559-026-03117-y",
+   "citations": 1,
+   "abstract": "Global changes are leading to widespread species redistribution. Comprehensive assessments of range shift dynamics and their drivers are difficult, partly due to the variation in range shift detection over space and taxa. Here we compile documented range shift records for 1,758 butterfly species from 105 countries and territories, representing ~10% of the known diversity of these insects. Most species (80%) experienced range expansions, and most range shifts (79%) were associated with climate change and extreme weather events. A substantial proportion of species in our dataset contracted their ranges (27%) or shifted along elevational gradients (22%). We report widespread horizontal range expansions and contractions across tropical countries, with less evidence for elevational range shifts. We show that a clearer picture of range shift dynamics emerged only through the combination of different types of data, with expert assessments and non-English studies alleviating potential biases. Our findings of climate-driven range shifts call for concerted efforts to improve inclusive data monitoring and conservation efforts, especially for tropical countries, where human-induced land-use changes exert additional critical pressure.",
+   "preprintUrl": null,
+   "altmetric": null
+  },
+  {
    "id": "10.1093/icb/icag045",
    "doi": "10.1093/icb/icag045",
    "title": "Extreme Heat as the New Normal: A Methodological Roadmap Incorporating Behavior, Physiology, and Species Distributions",
@@ -382,6 +878,117 @@
    "citations": 1,
    "abstract": "Abstract A defining feature of climate change is the increasing frequency, intensity, and severity of extreme weather events. Among them, extreme heat is recognized as a critical driver of ecological and evolutionary change. Intense heat episodes can exceed physiological limits, alter animal movement, restructure geographic ranges, and increase extinction risk more than gradual changes to mean temperatures. Yet links between extreme heat events and organismal biology remain limited, in part because definitions and metrics are not standardized, and user-friendly workflows and guides are lacking for many biologists. We present a methodological roadmap, with reproducible code, for integrating extreme heat into studies of behavior, physiology, biophysical ecology, species distribution models (SDMs), and population dynamics. First, we provide standardized computational approaches to define and quantify extreme heat. Second, we fit species distribution models for California quail ( Callipepla californica ) that include an extreme heat metric and showcase improved predictions of habitat suitability, particularly at range edges. Third, we compute biophysical simulations to quantify exposure to thermal stress in Sleepy lizards ( Tiliqua rugosa ) across distinct macro- and microclimates. Finally, accounting for temporal autocorrelation in temperature profiles in population simulation models, we show that clustered heat extremes—missed by averages—can increase the risk of population collapse. As extreme heat events become more common, incorporating their dynamics is essential for understanding ecological and evolutionary change, designing experiments across species’ geographic ranges, and supporting conservation in a rapidly warming world. Together, these case studies illustrate a reproducible, organism-informed roadmap to integrate extreme heat into predictions of ecological impacts and inference across levels of biological organization under ongoing climate change.",
    "preprintUrl": "https://doi.org/10.64898/2026.02.25.707770",
+   "altmetric": null
+  },
+  {
+   "id": "10.1111/1365-2656.70332",
+   "doi": "10.1111/1365-2656.70332",
+   "title": "Limited capacity for rapid acclimation to marine heatwaves in coastal invertebrates",
+   "authors": [
+    {
+     "name": "Mafalda Tomás",
+     "orcid": "https://orcid.org/0000-0002-1898-4779",
+     "isSelf": false
+    },
+    {
+     "name": "Patrice Pottier",
+     "orcid": "https://orcid.org/0000-0003-2106-6597",
+     "isSelf": true
+    },
+    {
+     "name": "Alexandro Autiero",
+     "orcid": "https://orcid.org/0009-0003-7329-8215",
+     "isSelf": false
+    },
+    {
+     "name": "Elena Tamarit‐Castro",
+     "orcid": "https://orcid.org/0000-0003-4391-1480",
+     "isSelf": false
+    },
+    {
+     "name": "Alex A. Berry",
+     "orcid": "https://orcid.org/0009-0008-4477-4012",
+     "isSelf": false
+    },
+    {
+     "name": "Tamzin A. Blewett",
+     "orcid": "https://orcid.org/0000-0001-6834-1571",
+     "isSelf": false
+    },
+    {
+     "name": "Ivan Cadonic",
+     "orcid": "https://orcid.org/0000-0001-9897-2737",
+     "isSelf": false
+    },
+    {
+     "name": "Dustin Doty",
+     "orcid": "https://orcid.org/0009-0002-5130-2415",
+     "isSelf": false
+    },
+    {
+     "name": "Maryane Gradito",
+     "orcid": "https://orcid.org/0009-0004-6609-0229",
+     "isSelf": false
+    },
+    {
+     "name": "Elizabeth C. Hoots",
+     "orcid": "https://orcid.org/0000-0001-5698-1395",
+     "isSelf": false
+    },
+    {
+     "name": "Luis L. Kuchenmüller",
+     "orcid": "https://orcid.org/0000-0003-1850-5341",
+     "isSelf": false
+    },
+    {
+     "name": "Sidney Martin",
+     "orcid": "https://orcid.org/0009-0000-8623-6126",
+     "isSelf": false
+    },
+    {
+     "name": "Vincent Mélançon",
+     "orcid": "https://orcid.org/0000-0001-6831-0871",
+     "isSelf": false
+    },
+    {
+     "name": "Juliane Vigneault",
+     "orcid": "https://orcid.org/0009-0000-0968-0119",
+     "isSelf": false
+    },
+    {
+     "name": "Timothy D. Clark",
+     "orcid": "https://orcid.org/0000-0001-8738-3347",
+     "isSelf": false
+    },
+    {
+     "name": "Zara‐Louise Cowan",
+     "orcid": "https://orcid.org/0000-0002-3862-7111",
+     "isSelf": false
+    },
+    {
+     "name": "Fredrik Jutfelt",
+     "orcid": "https://orcid.org/0000-0001-9838-3991",
+     "isSelf": false
+    },
+    {
+     "name": "Leon Green",
+     "orcid": "https://orcid.org/0000-0002-3328-3655",
+     "isSelf": false
+    }
+   ],
+   "authorLine": "Mafalda Tomás, Patrice Pottier, Alexandro Autiero, Elena Tamarit‐Castro, Alex A. Berry, Tamzin A. Blewett, Ivan Cadonic, Dustin Doty, Maryane Gradito, Elizabeth C. Hoots, Luis L. Kuchenmüller, Sidney Martin, Vincent Mélançon, Juliane Vigneault, Timothy D. Clark, Zara‐Louise Cowan, Fredrik Jutfelt, Leon Green",
+   "journal": "Journal of Animal Ecology",
+   "year": 2026,
+   "volume": null,
+   "issue": null,
+   "pages": null,
+   "kind": "article",
+   "isOA": false,
+   "oaUrl": null,
+   "url": "https://doi.org/10.1111/1365-2656.70332",
+   "citations": 0,
+   "abstract": null,
+   "preprintUrl": null,
    "altmetric": null
   },
   {
@@ -2234,7 +2841,7 @@
    "isOA": true,
    "oaUrl": "https://link.springer.com/content/pdf/10.1186/s12915-024-02101-x.pdf",
    "url": "https://doi.org/10.1186/s12915-024-02101-x",
-   "citations": 94,
+   "citations": 95,
    "abstract": "Although variation in effect sizes and predicted values among studies of similar phenomena is inevitable, such variation far exceeds what might be produced by sampling error alone. One possible explanation for variation among results is differences among researchers in the decisions they make regarding statistical analyses. A growing array of studies has explored this analytical variability in different fields and has found substantial variability among results despite analysts having the same data and research question. Many of these studies have been in the social sciences, but one small \"many analyst\" study found similar variability in ecology. We expanded the scope of this prior work by implementing a large-scale empirical exploration of the variation in effect sizes and model predictions generated by the analytical decisions of different researchers in ecology and evolutionary biology. We used two unpublished datasets, one from evolutionary ecology (blue tit, Cyanistes caeruleus, to compare sibling number and nestling growth) and one from conservation ecology (Eucalyptus, to compare grass cover and tree seedling recruitment). The project leaders recruited 174 analyst teams, comprising 246 analysts, to investigate the answers to prespecified research questions. Analyses conducted by these teams yielded 141 usable effects (compatible with our meta-analyses and with all necessary information provided) for the blue tit dataset, and 85 usable effects for the Eucalyptus dataset. We found substantial heterogeneity among results for both datasets, although the patterns of variation differed between them. For the blue tit analyses, the average effect was convincingly negative, with less growth for nestlings living with more siblings, but there was near continuous variation in effect size from large negative effects to effects near zero, and even effects crossing the traditional threshold of statistical significance in the opposite direction. In contrast, the average relationship between grass cover and Eucalyptus seedling number was only slightly negative and not convincingly different from zero, and most effects ranged from weakly negative to weakly positive, with about a third of effects crossing the traditional threshold of significance in one direction or the other. However, there were also several striking outliers in the Eucalyptus dataset, with effects far from zero. For both datasets, we found substantial variation in the variable selection and random effects structures among analyses, as well as in the ratings of the analytical methods by peer reviewers, but we found no strong relationship between any of these and deviation from the meta-analytic mean. In other words, analyses with results that were far from the mean were no more or less likely to have dissimilar variable sets, use random effects in their models, or receive poor peer reviews than those analyses that found results that were close to the mean. The existence of substantial variability among analysis outcomes raises important questions about how ecologists and evolutionary biologists should interpret published results, and how they should conduct analyses in the future.",
    "preprintUrl": "https://doi.org/10.32942/x2gg62",
    "altmetric": null
@@ -2303,9 +2910,9 @@
    "pages": "954-961",
    "kind": "article",
    "isOA": true,
-   "oaUrl": "https://www.nature.com/articles/s41586-025-08665-0.pdf",
+   "oaUrl": "https://doi.org/10.1038/s41586-025-08665-0",
    "url": "https://doi.org/10.1038/s41586-025-08665-0",
-   "citations": 71,
+   "citations": 73,
    "abstract": "Abstract Amphibians are the most threatened vertebrates, yet their resilience to rising temperatures remains poorly understood 1,2 . This is primarily because knowledge of thermal tolerance is taxonomically and geographically biased 3 , compromising global climate vulnerability assessments. Here we used a phylogenetically informed data-imputation approach to predict the heat tolerance of 60% of amphibian species and assessed their vulnerability to daily temperature variations in thermal refugia. We found that 104 out of 5,203 species (2%) are currently exposed to overheating events in shaded terrestrial conditions. Despite accounting for heat-tolerance plasticity, a 4 °C global temperature increase would create a step change in impact severity, pushing 7.5% of species beyond their physiological limits. In the Southern Hemisphere, tropical species encounter disproportionally more overheating events, while non-tropical species are more susceptible in the Northern Hemisphere. These findings challenge evidence for a general latitudinal gradient in overheating risk 4–6 and underscore the importance of considering climatic variability in vulnerability assessments. We provide conservative estimates assuming access to cool shaded microenvironments. Thus, the impacts of global warming will probably exceed our projections. Our microclimate-explicit analyses demonstrate that vegetation and water bodies are critical in buffering amphibians during heat waves. Immediate action is needed to preserve and manage these microhabitat features.",
    "preprintUrl": "https://doi.org/10.32942/x2t02t",
    "altmetric": null
@@ -2381,7 +2988,7 @@
    "isOA": true,
    "oaUrl": "https://doi.org/10.1038/s41467-025-65746-4",
    "url": "https://doi.org/10.1038/s41467-025-65746-4",
-   "citations": 23,
+   "citations": 26,
    "abstract": "Per- and polyfluoroalkyl substances (PFAS) threaten ecosystems worldwide due to their persistence, bioaccumulation, and toxicity. Through a global-scale meta-analysis of 119 aquatic and terrestrial food webs from 64 studies, we analyse 1009 trophic magnification factors (TMFs) for 72 PFAS and identify key variability drivers. On average, PFAS concentrations double with each trophic level increase (mean TMF = 2.00, 95% CI:1.64-2.45), though magnification varies considerably by compound. Notably, the industrial alternative F-53B exhibits the highest magnification (TMF = 3.07, 95% CI:2.41-3.92), a critical finding given its expanding use and minimal regulatory scrutiny. Methodological disparities across studies emerge as the dominant source of TMF variability. Our models explain 85% of the variation in TMFs, underscoring predictive capacity. This synthesis establishes PFAS as persistent trophic multipliers and provides a framework to prioritise high-risk compounds and harmonise biomagnification assessments. Our results call for consideration of stricter PFAS regulation to curb cascading ecological and health impacts. PFAS are “forever chemicals” that build up in living things and can move through food webs. This study shows their levels roughly double with each step up the food chain, highlighting widespread chemical magnification in nature.",
    "preprintUrl": "https://doi.org/10.32942/x2sp92",
    "altmetric": null
@@ -3107,502 +3714,6 @@
    "altmetric": null
   },
   {
-   "id": "10.32942/x2fh2k",
-   "doi": "10.32942/x2fh2k",
-   "title": "Extensive climate-induced range shifts in butterflies across the globe",
-   "authors": [
-    {
-     "name": "Shawan Chowdhury",
-     "orcid": "https://orcid.org/0000-0003-2936-5786",
-     "isSelf": false
-    },
-    {
-     "name": "Upama Aich",
-     "orcid": null,
-     "isSelf": false
-    },
-    {
-     "name": "Laura Antão",
-     "orcid": null,
-     "isSelf": false
-    },
-    {
-     "name": "Stefan Pinkert",
-     "orcid": null,
-     "isSelf": false
-    },
-    {
-     "name": "Perpetra Akite",
-     "orcid": null,
-     "isSelf": false
-    },
-    {
-     "name": "Gilberto Almeira",
-     "orcid": null,
-     "isSelf": false
-    },
-    {
-     "name": "Tatsuya Amano",
-     "orcid": null,
-     "isSelf": false
-    },
-    {
-     "name": "Andras Ambrus",
-     "orcid": null,
-     "isSelf": false
-    },
-    {
-     "name": "Jade A.T. Badon",
-     "orcid": null,
-     "isSelf": false
-    },
-    {
-     "name": "Seung-Yun Baek",
-     "orcid": null,
-     "isSelf": false
-    },
-    {
-     "name": "Maksims Balalaikins",
-     "orcid": null,
-     "isSelf": false
-    },
-    {
-     "name": "Michal Barták",
-     "orcid": null,
-     "isSelf": false
-    },
-    {
-     "name": "Vijay Barve",
-     "orcid": null,
-     "isSelf": false
-    },
-    {
-     "name": "Michał Bełcik",
-     "orcid": null,
-     "isSelf": false
-    },
-    {
-     "name": "Timothy Bonebrake",
-     "orcid": null,
-     "isSelf": false
-    },
-    {
-     "name": "Simona Bonelli",
-     "orcid": null,
-     "isSelf": false
-    },
-    {
-     "name": "Diana Bowler",
-     "orcid": null,
-     "isSelf": false
-    },
-    {
-     "name": "Michael Braby",
-     "orcid": null,
-     "isSelf": false
-    },
-    {
-     "name": "Roger Cartig",
-     "orcid": null,
-     "isSelf": false
-    },
-    {
-     "name": "Sei-Woong Choi",
-     "orcid": null,
-     "isSelf": false
-    },
-    {
-     "name": "Wen-Chen Chu",
-     "orcid": null,
-     "isSelf": false
-    },
-    {
-     "name": "Eloisa Clain",
-     "orcid": null,
-     "isSelf": false
-    },
-    {
-     "name": "Steve Collins",
-     "orcid": null,
-     "isSelf": false
-    },
-    {
-     "name": "Johnattan Cumplido",
-     "orcid": null,
-     "isSelf": false
-    },
-    {
-     "name": "Leonardo Dapporto",
-     "orcid": null,
-     "isSelf": false
-    },
-    {
-     "name": "Gideon Gywa",
-     "orcid": null,
-     "isSelf": false
-    },
-    {
-     "name": "Matthias Dolek",
-     "orcid": null,
-     "isSelf": false
-    },
-    {
-     "name": "Aleksandra Dolezal",
-     "orcid": null,
-     "isSelf": false
-    },
-    {
-     "name": "Fahmi Firdaus",
-     "orcid": null,
-     "isSelf": false
-    },
-    {
-     "name": "Markus Franzén",
-     "orcid": null,
-     "isSelf": false
-    },
-    {
-     "name": "André Freitas",
-     "orcid": null,
-     "isSelf": false
-    },
-    {
-     "name": "Richard Fuller",
-     "orcid": null,
-     "isSelf": false
-    },
-    {
-     "name": "Luisa Gensch",
-     "orcid": null,
-     "isSelf": false
-    },
-    {
-     "name": "Eliza Grames",
-     "orcid": null,
-     "isSelf": false
-    },
-    {
-     "name": "Elia Guariento",
-     "orcid": null,
-     "isSelf": false
-    },
-    {
-     "name": "Bryan Haywood",
-     "orcid": null,
-     "isSelf": false
-    },
-    {
-     "name": "Shiran Hershcovich",
-     "orcid": null,
-     "isSelf": false
-    },
-    {
-     "name": "Kerstin Jantke",
-     "orcid": null,
-     "isSelf": false
-    },
-    {
-     "name": "Eddie John",
-     "orcid": null,
-     "isSelf": false
-    },
-    {
-     "name": "Henrik kalivoda",
-     "orcid": null,
-     "isSelf": false
-    },
-    {
-     "name": "Azadeh Karimi",
-     "orcid": null,
-     "isSelf": false
-    },
-    {
-     "name": "Ryosuke Katayose",
-     "orcid": null,
-     "isSelf": false
-    },
-    {
-     "name": "Akito Kawahara",
-     "orcid": null,
-     "isSelf": false
-    },
-    {
-     "name": "Sujan Khanal",
-     "orcid": null,
-     "isSelf": false
-    },
-    {
-     "name": "Krushnamegh Kunte",
-     "orcid": null,
-     "isSelf": false
-    },
-    {
-     "name": "Lionel L'Hoste",
-     "orcid": null,
-     "isSelf": false
-    },
-    {
-     "name": "Magdalena Lenda",
-     "orcid": null,
-     "isSelf": false
-    },
-    {
-     "name": "Jorge León-Cortés",
-     "orcid": null,
-     "isSelf": false
-    },
-    {
-     "name": "Dali Lin",
-     "orcid": null,
-     "isSelf": false
-    },
-    {
-     "name": "Yuet Ling",
-     "orcid": null,
-     "isSelf": false
-    },
-    {
-     "name": "Maria Lucia Lorini",
-     "orcid": null,
-     "isSelf": false
-    },
-    {
-     "name": "Dirk Maes",
-     "orcid": null,
-     "isSelf": false
-    },
-    {
-     "name": "Dino Martins",
-     "orcid": null,
-     "isSelf": false
-    },
-    {
-     "name": "Thomas Merckx",
-     "orcid": null,
-     "isSelf": false
-    },
-    {
-     "name": "Xavier Mestdagh",
-     "orcid": null,
-     "isSelf": false
-    },
-    {
-     "name": "Yeray Monasterio",
-     "orcid": null,
-     "isSelf": false
-    },
-    {
-     "name": "Akihiro Nakamura",
-     "orcid": null,
-     "isSelf": false
-    },
-    {
-     "name": "Rachel Oh",
-     "orcid": null,
-     "isSelf": false
-    },
-    {
-     "name": "Lars Pettersson",
-     "orcid": null,
-     "isSelf": false
-    },
-    {
-     "name": "Jeffrey Pippen",
-     "orcid": null,
-     "isSelf": false
-    },
-    {
-     "name": "Clara Pladevall",
-     "orcid": null,
-     "isSelf": false
-    },
-    {
-     "name": "Ingrid Pollet",
-     "orcid": null,
-     "isSelf": false
-    },
-    {
-     "name": "Patrice Pottier",
-     "orcid": "https://orcid.org/0000-0003-2106-6597",
-     "isSelf": true
-    },
-    {
-     "name": "Muhammad Ather Rafi",
-     "orcid": null,
-     "isSelf": false
-    },
-    {
-     "name": "Danielle Ramos",
-     "orcid": null,
-     "isSelf": false
-    },
-    {
-     "name": "Tharindu Ranasinghe",
-     "orcid": null,
-     "isSelf": false
-    },
-    {
-     "name": "Fanie Rautenbach",
-     "orcid": null,
-     "isSelf": false
-    },
-    {
-     "name": "Martin Reith",
-     "orcid": null,
-     "isSelf": false
-    },
-    {
-     "name": "Abubakar Ringim",
-     "orcid": null,
-     "isSelf": false
-    },
-    {
-     "name": "Federico Riva",
-     "orcid": null,
-     "isSelf": false
-    },
-    {
-     "name": "David Roy",
-     "orcid": null,
-     "isSelf": false
-    },
-    {
-     "name": "Nils Ryrholm",
-     "orcid": null,
-     "isSelf": false
-    },
-    {
-     "name": "Marjo Saastamoinen",
-     "orcid": null,
-     "isSelf": false
-    },
-    {
-     "name": "Josef Settele",
-     "orcid": null,
-     "isSelf": false
-    },
-    {
-     "name": "William Sidemo-Holm",
-     "orcid": null,
-     "isSelf": false
-    },
-    {
-     "name": "Piotr Skorka",
-     "orcid": null,
-     "isSelf": false
-    },
-    {
-     "name": "Nigel Stork",
-     "orcid": null,
-     "isSelf": false
-    },
-    {
-     "name": "Sanej Suwal",
-     "orcid": null,
-     "isSelf": false
-    },
-    {
-     "name": "Giedrius Švitra",
-     "orcid": null,
-     "isSelf": false
-    },
-    {
-     "name": "Ann Swengel",
-     "orcid": null,
-     "isSelf": false
-    },
-    {
-     "name": "Scott Swengel",
-     "orcid": null,
-     "isSelf": false
-    },
-    {
-     "name": "Nicolas Titeux",
-     "orcid": null,
-     "isSelf": false
-    },
-    {
-     "name": "Robert Tropek",
-     "orcid": null,
-     "isSelf": false
-    },
-    {
-     "name": "Olga Tzortzakaki",
-     "orcid": null,
-     "isSelf": false
-    },
-    {
-     "name": "Chris van Swaay",
-     "orcid": null,
-     "isSelf": false
-    },
-    {
-     "name": "Rudi Verovnik",
-     "orcid": null,
-     "isSelf": false
-    },
-    {
-     "name": "Jerome Wiedmann",
-     "orcid": null,
-     "isSelf": false
-    },
-    {
-     "name": "Martin Wiemers",
-     "orcid": null,
-     "isSelf": false
-    },
-    {
-     "name": "Masaya Yago",
-     "orcid": null,
-     "isSelf": false
-    },
-    {
-     "name": "Hossein Yazdandad",
-     "orcid": null,
-     "isSelf": false
-    },
-    {
-     "name": "Oz Yehuda",
-     "orcid": null,
-     "isSelf": false
-    },
-    {
-     "name": "Konstantina Zografou",
-     "orcid": null,
-     "isSelf": false
-    },
-    {
-     "name": "Aletta Bonn",
-     "orcid": null,
-     "isSelf": false
-    },
-    {
-     "name": "Guy Pe'er",
-     "orcid": null,
-     "isSelf": false
-    },
-    {
-     "name": "Jonathan Lenoir",
-     "orcid": "https://orcid.org/0000-0003-0638-9582",
-     "isSelf": false
-    }
-   ],
-   "authorLine": "Shawan Chowdhury, Upama Aich, Laura Antão, Stefan Pinkert, Perpetra Akite, Gilberto Almeira, Tatsuya Amano, Andras Ambrus, Jade A.T. Badon, Seung-Yun Baek, Maksims Balalaikins, Michal Barták, Vijay Barve, Michał Bełcik, Timothy Bonebrake, Simona Bonelli, Diana Bowler, Michael Braby, Roger Cartig, Sei-Woong Choi, Wen-Chen Chu, Eloisa Clain, Steve Collins, Johnattan Cumplido, Leonardo Dapporto, Gideon Gywa, Matthias Dolek, Aleksandra Dolezal, Fahmi Firdaus, Markus Franzén, André Freitas, Richard Fuller, Luisa Gensch, Eliza Grames, Elia Guariento, Bryan Haywood, Shiran Hershcovich, Kerstin Jantke, Eddie John, Henrik kalivoda, Azadeh Karimi, Ryosuke Katayose, Akito Kawahara, Sujan Khanal, Krushnamegh Kunte, Lionel L'Hoste, Magdalena Lenda, Jorge León-Cortés, Dali Lin, Yuet Ling, Maria Lucia Lorini, Dirk Maes, Dino Martins, Thomas Merckx, Xavier Mestdagh, Yeray Monasterio, Akihiro Nakamura, Rachel Oh, Lars Pettersson, Jeffrey Pippen, Clara Pladevall, Ingrid Pollet, Patrice Pottier, Muhammad Ather Rafi, Danielle Ramos, Tharindu Ranasinghe, Fanie Rautenbach, Martin Reith, Abubakar Ringim, Federico Riva, David Roy, Nils Ryrholm, Marjo Saastamoinen, Josef Settele, William Sidemo-Holm, Piotr Skorka, Nigel Stork, Sanej Suwal, Giedrius Švitra, Ann Swengel, Scott Swengel, Nicolas Titeux, Robert Tropek, Olga Tzortzakaki, Chris van Swaay, Rudi Verovnik, Jerome Wiedmann, Martin Wiemers, Masaya Yago, Hossein Yazdandad, Oz Yehuda, Konstantina Zografou, Aletta Bonn, Guy Pe'er, Jonathan Lenoir",
-   "journal": null,
-   "year": 2025,
-   "volume": null,
-   "issue": null,
-   "pages": null,
-   "kind": "preprint",
-   "isOA": true,
-   "oaUrl": "https://ecoevorxiv.org/repository/object/10370/download/19132/",
-   "url": "https://doi.org/10.32942/x2fh2k",
-   "citations": 1,
-   "abstract": "Ongoing global change is leading to the widespread redistribution of species1,2. Assessments of shifts in species geographic ranges, however, remain taxonomically biased and geographically limited2, especially for insects. We conducted a global synthesis on butterfly range shifts using a combination of multi-lingual review in 15 languages and expert assessments, compiling data on range shifts for 1758 species (10% of described butterfly species) from 109 countries over the last three decades. In 5 of these countries, over 50% of butterfly species shifted their ranges. Overall, most species showed horizontal range expansion (81%), while 27% contracted their range and 22% shifted in elevation. Expansions were primarily reported in tropical species-rich regions, while 19% of species displayed multiple, concurrent range shifts in different countries, highlighting the complexity of these responses. In addition, there was also variation across families - while one-third of the documented species are nymphalids, pierids and papilionids had the highest proportion of species, experiencing range shift. We pinpoint nine drivers of species redistribution, with climate change and severe weather as most prominent. We suggest a future-focused conservation strategy that emphasises monitoring expansion in underrepresented regions and megadiverse countries, leveraging citizen science, and integrating range shifts into conservation planning.",
-   "preprintUrl": null,
-   "altmetric": null
-  },
-  {
    "id": "10.32942/x2ws91",
    "doi": "10.32942/x2ws91",
    "title": "Natural developmental temperatures of ectotherms: A systematic map and comparative analysis",
@@ -3837,7 +3948,7 @@
    "pages": "20232840",
    "kind": "article",
    "isOA": true,
-   "oaUrl": "https://royalsocietypublishing.org/doi/pdf/10.1098/rspb.2023.2840",
+   "oaUrl": "https://doi.org/10.1098/rspb.2023.2840",
    "url": "https://doi.org/10.1098/rspb.2023.2840",
    "citations": 66,
    "abstract": "Scientific knowledge is produced in multiple languages but is predominantly published in English. This practice creates a language barrier to generate and transfer scientific knowledge between communities with diverse linguistic backgrounds, hindering the ability of scholars and communities to address global challenges and achieve diversity and equity in science, technology, engineering and mathematics (STEM). To overcome those barriers, publishers and journals should provide a fair system that supports non-native English speakers and disseminates knowledge across the globe. We surveyed policies of 736 journals in biological sciences to assess their linguistic inclusivity, identify predictors of inclusivity, and propose actions to overcome language barriers in academic publishing. Our assessment revealed a grim landscape where most journals were making minimal efforts to overcome language barriers. The impact factor of journals was negatively associated with adopting a number of inclusive policies whereas ownership by a scientific society tended to have a positive association. Contrary to our expectations, the proportion of both open access articles and editors based in non-English speaking countries did not have a major positive association with the adoption of linguistically inclusive policies. We proposed a set of actions to overcome language barriers in academic publishing, including the renegotiation of power dynamics between publishers and editorial boards.",
@@ -3933,9 +4044,9 @@
    "pages": "20241222",
    "kind": "article",
    "isOA": true,
-   "oaUrl": "https://royalsocietypublishing.org/doi/pdf/10.1098/rspb.2024.1222",
+   "oaUrl": "https://doi.org/10.1098/rspb.2024.1222",
    "url": "https://doi.org/10.1098/rspb.2024.1222",
-   "citations": 46,
+   "citations": 48,
    "abstract": "In a growing digital landscape, enhancing the discoverability and resonance of scientific articles is essential. Here, we offer 10 recommendations to amplify the discoverability of studies in search engines and databases. Particularly, we argue that the strategic use and placement of key terms in the title, abstract and keyword sections can boost indexing and appeal. By surveying 230 journals in ecology and evolutionary biology, we found that current author guidelines may unintentionally limit article findability. Our survey of 5323 studies revealed that authors frequently exhaust abstract word limits-particularly those capped under 250 words. This suggests that current guidelines may be overly restrictive and not optimized to increase the dissemination and discoverability of digital publications. Additionally, 92% of studies used redundant keywords in the title or abstract, undermining optimal indexing in databases. We encourage adopting structured abstracts to maximize the incorporation of key terms in titles, abstracts and keywords. In addition, we encourage the relaxation of abstract and keyword limitations in journals with strict guidelines, and the inclusion of multilingual abstracts to broaden global accessibility. These recommendations to editors are designed to improve article engagement and facilitate evidence synthesis, thereby aligning scientific publishing with the modern needs of academic research.",
    "preprintUrl": "https://doi.org/10.1101/2023.10.02.559861",
    "altmetric": null
@@ -4292,7 +4403,7 @@
    "isOA": true,
    "oaUrl": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/2041-210X.14270",
    "url": "https://doi.org/10.1111/2041-210x.14270",
-   "citations": 36,
+   "citations": 37,
    "abstract": "Abstract Increasing attention has been drawn to the misuse of statistical methods over recent years, with particular concern about the prevalence of practices such as poor experimental design, cherry picking and inadequate reporting. These failures are largely unintentional and no more common in ecology than in other scientific disciplines, with many of them easily remedied given the right guidance. Originating from a discussion at the 2020 International Statistical Ecology Conference, we show how ecologists can build their research following four guiding principles for impactful statistical research practices: (1) define a focussed research question, then plan sampling and analysis to answer it; (2) develop a model that accounts for the distribution and dependence of your data; (3) emphasise effect sizes to replace statistical significance with ecological relevance; and (4) report your methods and findings in sufficient detail so that your research is valid and reproducible. These principles provide a framework for experimental design and reporting that guards against unsound practices. Starting with a well‐defined research question allows researchers to create an efficient study to answer it, and guards against poor research practices that lead to poor estimation of the direction, magnitude, and uncertainty of ecological relationships, and to poor replicability. Correct and appropriate statistical models give sound conclusions. Good reporting practices and a focus on ecological relevance make results impactful and replicable. Illustrated with two examples—an experiment to study the impact of disturbance on upland wetlands, and an observational study on blue tit colouring—this paper explains the rationale for the selection and use of effective statistical practices and provides practical guidance for ecologists seeking to improve their use of statistical methods.",
    "preprintUrl": "https://doi.org/10.48550/arxiv.2302.01528",
    "altmetric": null
@@ -4358,7 +4469,7 @@
    "isOA": true,
    "oaUrl": "http://www.cell.com/article/S016953472300335X/pdf",
    "url": "https://doi.org/10.1016/j.tree.2023.12.004",
-   "citations": 21,
+   "citations": 22,
    "abstract": "Comparative analyses and meta-analyses are key tools to elucidate broad biological principles, yet the two approaches often appear different in purpose. We propose an integrated approach that can generate deeper insights into eco-evolutionary processes. Marrying comparative and meta-analytic approaches will allow for 1) a more accurate investigation of drivers of biological variation; 2) a greater ability to account for sources of non-independence in experimental data; 3) more effective control of publication bias; and 4) improved transparency and reproducibility. Stronger integration of meta-analytic and comparative studies can also broaden the scope from species-centric investigations to community-level responses and function-valued traits (e.g., reaction norms). We illuminate commonalities, differences, and the transformative potential of combining these methodologies for advancing ecology and evolutionary biology.",
    "preprintUrl": "https://doi.org/10.32942/x25599",
    "altmetric": null
@@ -4687,7 +4798,7 @@
    "isOA": true,
    "oaUrl": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/2041-210X.14152",
    "url": "https://doi.org/10.1111/2041-210x.14152",
-   "citations": 181,
+   "citations": 184,
    "abstract": "Abstract Although meta‐analysis has become an essential tool in ecology and evolution, reporting of meta‐analytic results can still be much improved. To aid this, we have introduced the orchard plot, which presents not only overall estimates and their confidence intervals, but also shows corresponding heterogeneity (as prediction intervals) and individual effect sizes. Here, we have added significant enhancements by integrating many new functionalities into orchaRd 2.0 . This updated version allows the visualisation of heteroscedasticity (different variances across levels of a categorical moderator), marginal estimates (e.g. marginalising out effects other than the one visualised), conditional estimates (i.e. estimates of different groups conditioned upon specific values of a continuous variable) and visualisations of all types of interactions between two categorical/continuous moderators. orchaRd 2.0 has additional functions which calculate key statistics from multilevel meta‐analytic models such as I 2 and R 2 . Importantly, orchaRd 2.0 contributes to better reporting by complying with PRISMA‐EcoEvo (preferred reporting items for systematic reviews and meta‐analyses in ecology and evolution). Taken together, orchaRd 2.0 can improve the presentation of meta‐analytic results and facilitate the exploration of previously neglected patterns. In addition, as a part of a literature survey, we found that graphical packages are rarely cited (~3%). We plea that researchers credit developers and maintainers of graphical packages, for example, by citations in a figure legend, acknowledging the use of relevant packages.",
    "preprintUrl": "https://doi.org/10.32942/x2qc7k",
    "altmetric": null
@@ -5022,7 +5133,7 @@
    "pages": "845-854",
    "kind": "article",
    "isOA": true,
-   "oaUrl": "https://ruj.uj.edu.pl/xmlui/handle/item/319793",
+   "oaUrl": "https://www.dora.lib4ri.ch/wsl/dload/wsl:32987/PDF2/view",
    "url": "https://doi.org/10.1038/s41893-023-01087-8",
    "citations": 73,
    "abstract": null,
@@ -5375,7 +5486,7 @@
    "isOA": true,
    "oaUrl": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/ele.14083",
    "url": "https://doi.org/10.1111/ele.14083",
-   "citations": 143,
+   "citations": 144,
    "abstract": "Understanding the factors affecting thermal tolerance is crucial for predicting the impact climate change will have on ectotherms. However, the role developmental plasticity plays in allowing populations to cope with thermal extremes is poorly understood. Here, we meta-analyse how thermal tolerance is initially and persistently impacted by early (embryonic and juvenile) thermal environments by using data from 150 experimental studies on 138 ectothermic species. Thermal tolerance only increased by 0.13°C per 1°C change in developmental temperature and substantial variation in plasticity (~36%) was the result of shared evolutionary history and species ecology. Aquatic ectotherms were more than three times as plastic as terrestrial ectotherms. Notably, embryos expressed weaker but more heterogenous plasticity than older life stages, with numerous responses appearing as non-adaptive. While developmental temperatures did not have persistent effects on thermal tolerance overall, persistent effects were vastly under-studied, and their direction and magnitude varied with ontogeny. Embryonic stages may represent a critical window of vulnerability to changing environments and we urge researchers to consider early life stages when assessing the climate vulnerability of ectotherms. Overall, our synthesis suggests that developmental changes in thermal tolerance rarely reach levels of perfect compensation and may provide limited benefit in changing environments.",
    "preprintUrl": "https://doi.org/10.22541/au.164573834.49438532/v1",
    "altmetric": null
@@ -5414,9 +5525,9 @@
    "pages": "5292",
    "kind": "article",
    "isOA": true,
-   "oaUrl": "https://www.nature.com/articles/s41467-022-32953-2.pdf",
+   "oaUrl": "https://doi.org/10.1038/s41467-022-32953-2",
    "url": "https://doi.org/10.1038/s41467-022-32953-2",
-   "citations": 136,
+   "citations": 138,
    "abstract": "Extreme temperature events are increasing in frequency and intensity due to climate change. Such events threaten insects, including pollinators, pests and disease vectors. Insect critical thermal limits can be enhanced through acclimation, yet evidence that plasticity aids survival at extreme temperatures is limited. Here, using meta-analyses across 1374 effect sizes, 74 studies and 102 species, we show that thermal limit plasticity is pervasive but generally weak: per 1 °C rise in acclimation temperature, critical thermal maximum increases by 0.09 °C; and per 1 °C decline, critical thermal minimum decreases by 0.15 °C. Moreover, small but significant publication bias suggests that the magnitude of plasticity is marginally overestimated. We find juvenile insects are more plastic than adults, highlighting that physiological responses of insects vary through ontogeny. Overall, we show critical thermal limit plasticity is likely of limited benefit to insects during extreme climatic events, yet we need more studies in under-represented taxa and geographic regions.",
    "preprintUrl": null,
    "altmetric": null
@@ -5548,7 +5659,7 @@
    "isOA": true,
    "oaUrl": "https://journals.biologists.com/jeb/article-pdf/225/Suppl_1/jeb243225/2135035/jeb243225.pdf",
    "url": "https://doi.org/10.1242/jeb.243225",
-   "citations": 47,
+   "citations": 48,
    "abstract": "Meta-analysis is a powerful tool used to generate quantitatively informed answers to pressing global challenges. By distilling data from broad sets of research designs and study systems into standardised effect sizes, meta-analyses provide physiologists with opportunities to estimate overall effect sizes and understand the drivers of effect variability. Despite this ambition, research designs in the field of comparative physiology can appear, at the outset, as being vastly different to each other because of 'nuisance heterogeneity' (e.g. different temperatures or treatment dosages used across studies). Methodological differences across studies have led many to believe that meta-analysis is an exercise in comparing 'apples with oranges'. Here, we dispel this myth by showing how standardised effect sizes can be used in conjunction with multilevel meta-regression models to both account for the factors driving differences across studies and make them more comparable. We assess the prevalence of nuisance heterogeneity in the comparative physiology literature - showing it is common and often not accounted for in analyses. We then formalise effect size measures (e.g. the temperature coefficient, Q10) that provide comparative physiologists with a means to remove nuisance heterogeneity without the need to resort to more complex statistical models that may be harder to interpret. We also describe more general approaches that can be applied to a variety of different contexts to derive new effect sizes and sampling variances, opening up new possibilities for quantitative synthesis. By using effect sizes that account for components of effect heterogeneity, in combination with existing meta-analytic models, comparative physiologists can explore exciting new questions while making results from large-scale data sets more accessible, comparable and widely interpretable.",
    "preprintUrl": null,
    "altmetric": null
@@ -5656,7 +5767,7 @@
    "oaUrl": null,
    "url": "https://doi.org/10.1016/j.envpol.2022.119081",
    "citations": 26,
-   "abstract": "Per- and polyfluoroalkyl substances (PFAS) are ubiquitous in the environment and often ingested with food. PFAS exposure in people can have detrimental health consequences. Therefore, reducing PFAS burdens in food items is of great importance to public health. Here, we investigated whether cooking reduces PFAS concentrations in animal-derived food products by synthesizing experimental studies. Further, we examined the moderating effects of the following five variables: cooking time, liquid / food item ratio, cooking temperature, carbon chain length of PFAS and the cooking category (oil-based, water-based &amp;amp; no-liquid cooking). In our systematic review searches (including the grey literature), we obtained 512 effect sizes from 10 relevant studies. These studies exclusively explored changes in PFAS concentrations in cooked seafood and freshwater fish. Our phylogenetically controlled multilevel-meta-analysis has revealed that, on average, cooking reduced PFAS concentrations by 28%, although heterogeneity among effect sizes was very high (I2 = 94.65%). Our five moderators cumulatively explained 36% of the observed heterogeneity. Specifically, an increase in cooking time and liquid / animal tissue ratio, as well as shorter carbon chain length of PFAS (when cooked with oil) were associated with significant reductions in PFAS concentrations. The effects of different ways of cooking depended on the other moderators, while the effect of cooking temperature itself was not significant. Overall, cooking can reduce PFAS concentrations in blue food (seafood and freshwater fish). However, it is important to note that complete PFAS elimination requires unrealistically long cooking times and large liquid / animal tissue ratios. Currently, literature on the impact of cooking of terrestrial animal produce on PFAS concentrations is lacking, which limits the inference and generalisation of our meta-analysis. However, our work represents the first step towards developing guidelines to reduce PFAS in food via cooking exclusively with common kitchen items and techniques.",
+   "abstract": "Per- and polyfluoroalkyl substances (PFAS) are ubiquitous in the environment and often ingested with food. PFAS exposure in people can have detrimental health consequences. Therefore, reducing PFAS burdens in food items is of great importance to public health. Here, we investigated whether cooking reduces PFAS concentrations in animal-derived food products by synthesizing experimental studies. Further, we examined the moderating effects of the following five variables: cooking time, liquid / food item ratio, cooking temperature, carbon chain length of PFAS and the cooking category (oil-based, water-based &amp; no-liquid cooking). In our systematic review searches (including the grey literature), we obtained 512 effect sizes from 10 relevant studies. These studies exclusively explored changes in PFAS concentrations in cooked seafood and freshwater fish. Our phylogenetically controlled multilevel-meta-analysis has revealed that, on average, cooking reduced PFAS concentrations by 28%, although heterogeneity among effect sizes was very high (I2 = 94.65%). Our five moderators cumulatively explained 36% of the observed heterogeneity. Specifically, an increase in cooking time and liquid / animal tissue ratio, as well as shorter carbon chain length of PFAS (when cooked with oil) were associated with significant reductions in PFAS concentrations. The effects of different ways of cooking depended on the other moderators, while the effect of cooking temperature itself was not significant. Overall, cooking can reduce PFAS concentrations in blue food (seafood and freshwater fish). However, it is important to note that complete PFAS elimination requires unrealistically long cooking times and large liquid / animal tissue ratios. Currently, literature on the impact of cooking of terrestrial animal produce on PFAS concentrations is lacking, which limits the inference and generalisation of our meta-analysis. However, our work represents the first step towards developing guidelines to reduce PFAS in food via cooking exclusively with common kitchen items and techniques.",
    "preprintUrl": "https://doi.org/10.32942/osf.io/yqspb",
    "altmetric": null
   },
