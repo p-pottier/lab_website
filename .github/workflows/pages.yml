@@ -42,6 +42,8 @@ jobs:
     steps:
       - id: deployment
         uses: actions/deploy-pages@v4
-        # Once a domain is bought, add it here so Pages writes the CNAME file:
-        # with:
-        #   cname: peacelab.org
+        # The deploy overwrites the whole site, so the custom domain has to be
+        # set here rather than in the repository settings, or the CNAME file
+        # disappears on every push.
+        with:
+          cname: patricepottierlab.com
