@@ -65,12 +65,12 @@ function Hero() {
           transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
           className="flex max-w-4xl flex-col items-start gap-8 lg:flex-row lg:items-center lg:gap-12"
         >
-          {/* Pulled left of the container on wide screens so the mark sits over
-              the photograph rather than inside the text column. */}
+          {/* hero-mark-bleed carries the leftward pull; see index.css for why
+              it is capped rather than a fixed negative margin. */}
           <LogoMark
             size={300}
             priority
-            className="-ml-2 w-[190px] sm:w-[240px] lg:-ml-32 lg:w-[300px] xl:-ml-44"
+            className="hero-mark-bleed w-[190px] sm:w-[240px] lg:w-[300px]"
           />
 
           <div className="max-w-2xl">
