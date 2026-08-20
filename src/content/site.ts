@@ -421,9 +421,8 @@ export const POSITIONS: Position[] = [
       "This project will be co-supervised by Fredrik Jutfelt, and based at Natrium in Gothenburg. There will also be opportunities to conduct projects at the Kristineberg marine station.",
       "The start date is flexible, but preferably before March 2027. Applicants should have completed a doctoral degree no more than three years before the start of the position.",
     ],
-    // The University of Gothenburg advertisement. The "Apply for this
-    // position" button appears only once this is a non-empty URL.
-    applyUrl: "",
+    applyUrl:
+      "https://web103.reachmee.com/ext/I005/1035/job?site=7&lang=UK&validator=9b89bead79bb7258ad55c8d75228e5b7&job_id=41279",
     image: "/images/opportunities-banner.webp",
   },
 ];
