@@ -101,8 +101,15 @@ deploy replaces the whole site, so a CNAME file written through the repository
 settings page would be lost on the next push. `actions/deploy-pages` has no
 `cname` input.
 
-Routing is client-side, so `dist/404.html` is a copy of `index.html`. That is
-what makes a direct visit to `/people` work on Pages.
+Routing is client-side, but GitHub Pages cannot rewrite. Serving a copy of
+`index.html` as `404.html` makes a deep link render while Pages still answers
+HTTP 404, and a crawler drops a 404 whatever the body says.
+
+`scripts/prerender-routes.mjs` therefore writes a real `dist/<route>/index.html`
+for each route, so every URL answers 200 and carries its own title, description
+and canonical before any JavaScript runs. It also writes the noindex `404.html`
+and `sitemap.xml`. Routes come from `src/content/route-meta.json`, which the app
+reads too, so the sitemap cannot list a page the build did not emit.
 
 ## Design
 
