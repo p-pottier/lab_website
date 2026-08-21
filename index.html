@@ -4,20 +4,96 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <title>PEACE Lab — Plasticity and Ecological Adaptations to Changing Environments</title>
+    <!-- PageMeta in src/App.tsx rewrites the title, description, canonical and
+         og tags on every navigation. What follows is the home page, and what a
+         crawler sees before the JavaScript runs. -->
+    <title>PEACE Lab | Patrice Pottier, University of Gothenburg</title>
     <meta
       name="description"
-      content="The PEACE Lab studies how plasticity and adaptation shape the vulnerability of animals to climate change, across every stage of life. Led by Patrice Pottier at the University of Gothenburg."
+      content="The PEACE Lab, led by Patrice Pottier at the University of Gothenburg, studies how plasticity and adaptation shape animal vulnerability to climate change."
     />
     <meta name="author" content="Patrice Pottier" />
+    <link rel="canonical" href="https://patricepottierlab.com/" />
+
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="PEACE Lab — Plasticity and Ecological Adaptations to Changing Environments" />
+    <meta property="og:site_name" content="PEACE Lab" />
+    <meta property="og:url" content="https://patricepottierlab.com/" />
+    <meta property="og:title" content="PEACE Lab | Patrice Pottier, University of Gothenburg" />
     <meta
       property="og:description"
       content="How plasticity and adaptation shape the vulnerability of animals to climate change, across every stage of life."
     />
-    <meta property="og:image" content="/images/hero-leaf-insect.jpg" />
+    <!-- Absolute, because link previews are fetched by servers that have no
+         page context to resolve a relative path against. -->
+    <meta property="og:image" content="https://patricepottierlab.com/images/fish-eggs.jpg" />
+    <meta property="og:image:alt" content="Developing fish embryos inside their eggs" />
     <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:image" content="https://patricepottierlab.com/images/fish-eggs.jpg" />
+
+    <!-- Tells a search engine that this domain and the person already known
+         from ORCID, Scholar and the Gothenburg staff page are the same entity.
+         Without sameAs there is nothing tying a new domain to an existing name. -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Patrice Pottier",
+        "givenName": "Patrice",
+        "familyName": "Pottier",
+        "url": "https://patricepottierlab.com/",
+        "image": "https://patricepottierlab.com/images/patrice-pottier.webp",
+        "jobTitle": "Associate senior lecturer",
+        "email": "patrice.pottier@bioenv.gu.se",
+        "worksFor": {
+          "@type": "CollegeOrUniversity",
+          "name": "University of Gothenburg",
+          "url": "https://www.gu.se/"
+        },
+        "affiliation": {
+          "@type": "Organization",
+          "name": "Department of Biological and Environmental Sciences, University of Gothenburg"
+        },
+        "knowsAbout": [
+          "Thermal biology",
+          "Climate change biology",
+          "Developmental plasticity",
+          "Meta-analysis",
+          "Ecophysiology"
+        ],
+        "identifier": "https://orcid.org/0000-0003-2106-6597",
+        "sameAs": [
+          "https://orcid.org/0000-0003-2106-6597",
+          "https://scholar.google.com/citations?user=gg1rV3IAAAAJ&hl=en",
+          "https://www.gu.se/en/about/find-staff/patricepottier",
+          "https://github.com/p-pottier",
+          "https://www.researchgate.net/profile/Patrice-Pottier",
+          "https://bsky.app/profile/patricepottier.bsky.social",
+          "https://theconversation.com/profiles/patrice-pottier-1377408"
+        ]
+      }
+    </script>
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "ResearchOrganization",
+        "name": "PEACE Lab",
+        "alternateName": "Plasticity and Ecological Adaptations to Changing Environments",
+        "url": "https://patricepottierlab.com/",
+        "logo": "https://patricepottierlab.com/images/logo-mark.png",
+        "founder": { "@type": "Person", "name": "Patrice Pottier" },
+        "parentOrganization": {
+          "@type": "CollegeOrUniversity",
+          "name": "University of Gothenburg"
+        },
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Medicinaregatan 7B, Natrium",
+          "addressLocality": "Gothenburg",
+          "addressCountry": "SE"
+        }
+      }
+    </script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
