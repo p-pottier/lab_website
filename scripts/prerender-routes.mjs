@@ -37,8 +37,16 @@ function swap(html, pattern, replacement, label) {
   return html.replace(pattern, replacement);
 }
 
+/**
+ * Pages redirects /people to /people/, so the trailing-slash form is the URL it
+ * settles on, and the only one a canonical or a sitemap should name.
+ */
+function urlFor(path) {
+  return path === "/" ? `${siteUrl}/` : `${siteUrl}${path}/`;
+}
+
 function pageFor(path, { title, description }, { canonical = true } = {}) {
-  const url = `${siteUrl}${path}`;
+  const url = urlFor(path);
   let html = shell;
   html = swap(html, /<title>[^<]*<\/title>/, `<title>${title}</title>`, "title");
   html = swap(
@@ -91,7 +99,7 @@ const lastmod = new Date().toISOString().slice(0, 10);
 const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 ${Object.keys(routes)
-  .map((p) => `  <url>\n    <loc>${siteUrl}${p}</loc>\n    <lastmod>${lastmod}</lastmod>\n  </url>`)
+  .map((p) => `  <url>\n    <loc>${urlFor(p)}</loc>\n    <lastmod>${lastmod}</lastmod>\n  </url>`)
   .join("\n")}
 </urlset>
 `;

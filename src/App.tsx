@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import { Route, Routes, useLocation } from "react-router-dom";
-import { NOT_FOUND_META, ROUTE_META, SITE_URL } from "./content/seo";
+import { NOT_FOUND_META, ROUTE_META, canonicalUrl, normalisePath } from "./content/seo";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Home from "./pages/Home";
@@ -50,9 +50,9 @@ function PageMeta() {
   const { pathname } = useLocation();
 
   useEffect(() => {
-    const known = ROUTE_META[pathname];
+    const known = ROUTE_META[normalisePath(pathname)];
     const meta = known ?? NOT_FOUND_META;
-    const url = `${SITE_URL}${pathname}`;
+    const url = canonicalUrl(pathname);
 
     document.title = meta.title;
     setMetaTag("name", "description", meta.description);

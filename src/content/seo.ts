@@ -22,3 +22,20 @@ export const ROUTE_META: Record<string, RouteMeta> = meta.routes;
 
 /** Unknown paths get a title but no canonical, so they cannot dilute a real page. */
 export const NOT_FOUND_META: RouteMeta = meta.notFound;
+
+/**
+ * Drops a trailing slash so a path can be looked up in ROUTE_META.
+ *
+ * GitHub Pages serves /people from people/index.html and redirects /people to
+ * /people/, so the running app sees the slashed form while the keys here do not
+ * carry one. Without this, every deep link matched the not-found metadata.
+ */
+export function normalisePath(pathname: string): string {
+  return pathname.length > 1 && pathname.endsWith("/") ? pathname.slice(0, -1) : pathname;
+}
+
+/** The URL Pages actually settles on, which is the one a canonical must name. */
+export function canonicalUrl(pathname: string): string {
+  const path = normalisePath(pathname);
+  return path === "/" ? `${SITE_URL}/` : `${SITE_URL}${path}/`;
+}
