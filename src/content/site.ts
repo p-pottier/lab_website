@@ -1092,3 +1092,13 @@ export const OUTREACH_PHOTO = {
   src: "/images/seb2024-young-scientist-award.jpg",
   caption: "Presenting at the SEB conference in Prague (2024).",
 };
+
+/**
+ * Opens the talks and workshops section. The caption is the mood; the alt text
+ * carries the facts, because a screen reader gets nothing from the caption.
+ */
+export const CONFERENCE_PHOTO = {
+  src: "/images/seb2024-with-kyle.jpg",
+  alt: "Patrice Pottier and Kyle Morrison at the SEB annual conference in Prague, 2024",
+  caption: "Enjoying conferences with friends!",
+};

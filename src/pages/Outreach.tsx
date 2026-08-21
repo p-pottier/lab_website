@@ -1,5 +1,6 @@
 import {
   CONFERENCES,
+  CONFERENCE_PHOTO,
   MEDIA,
   OUTREACH,
   OUTREACH_PHOTO,
@@ -203,6 +204,23 @@ export default function Outreach() {
 
         {/* --------------------------------------------- presentations, workshops */}
         <section className="mt-24">
+          <Reveal>
+            {/* Matched to the SEB photo above, which is one column of a two-column
+                grid with a gap-10 gutter. Same arithmetic, so the two figures
+                render at identical widths at every viewport. */}
+            <figure className="mb-10 w-full overflow-hidden rounded-2xl border border-edge bg-panel lg:w-[calc((100%-2.5rem)/2)]">
+              <img
+                src={CONFERENCE_PHOTO.src}
+                alt={CONFERENCE_PHOTO.alt}
+                loading="lazy"
+                className="aspect-[3/2] w-full object-cover"
+              />
+              <figcaption className="px-5 py-3.5 text-sm leading-snug text-neutral-400">
+                {CONFERENCE_PHOTO.caption}
+              </figcaption>
+            </figure>
+          </Reveal>
+
           <Reveal>
             <SectionHeading
               eyebrow="Presentations and workshops"
