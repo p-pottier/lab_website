@@ -1,123 +1,83 @@
-# PEACE Lab website
+<div align="center">
 
-The site for the PEACE Lab (Plasticity and Ecological Adaptations to Changing Environments),
-University of Gothenburg. React, Vite, Tailwind and Framer Motion, deployed to GitHub Pages.
+<img src="public/images/logo-mark.png" alt="PEACE Lab logo" width="180">
 
-## Running it
+# The PEACE Lab
 
-```bash
-npm install
-npm run dev        # http://localhost:5173
-npm run build      # writes dist/, then copies index.html to 404.html
-npm run data       # refreshes publications, metrics and collaborators
-npm run typecheck
-```
+**Plasticity and Ecological Adaptations to Changing Environments**
 
-Headings are set in Congenial, licensed through Adobe Fonts and loaded from the
-Typekit link in `index.html`. If that kit is ever removed the site falls back to
-Space Grotesk on its own.
+Department of Biological and Environmental Sciences<br>
+University of Gothenburg, Sweden
 
-`node scripts/smoke.mjs` loads every page in a real browser, reports console
-errors and broken requests, and writes screenshots to `.smoke/`. Run it before
-pushing anything that touches layout.
+[**patricepottierlab.com**](https://patricepottierlab.com)
 
-## Where the content lives
+</div>
 
-Everything written by hand sits in **`src/content/site.ts`**. That one file holds
-the people, news items, positions, fellowship schemes, research themes, outreach
-entries and every external link. Editing it is the normal way to update the site.
+---
 
-| Change | Edit |
-| --- | --- |
-| Add a news item | `NEWS` array, newest first; date sets the order, tag sets the colour |
-| Add a group member | `CURRENT_MEMBERS`, or move an entry to `PAST_MEMBERS` |
-| Name a key collaborator | `MAIN_COLLABORATORS`, shown under the map on the People page |
-| Pin a paper to the top of Publications | `HIGHLIGHTED_DOIS`, in the order you want them |
-| Change a position | `POSITIONS` |
-| Add a fellowship scheme | `FELLOWSHIPS` |
-| Reword a research theme | `THEMES` |
-| Add a poster or a media piece | `POSTERS` or `MEDIA`; PDFs go in `public/posters/` |
-| Swap a photograph | drop the file in `public/images/`, reference it as `/images/name.jpg` |
+We study how biodiversity responds to rapidly changing environments. Our aim is
+to understand how animals cope with environmental change, from the mechanistic
+to the global scale, so we can better predict and mitigate the impacts of
+climate change on our precious biodiversity.
 
-Publications and collaborators are **not** in that file. They are generated.
+The lab is led by [Patrice Pottier](https://patricepottierlab.com/people/), and
+works across laboratory experiments, evidence synthesis and comparative
+analyses, on amphibians, fish, reptiles and invertebrates.
 
-## How publications stay current
+## What we work on
 
-`scripts/fetch-data.mjs` uses three sources, because no single one is enough:
+Our research runs along ten themes, grouped into three strands.
 
-| Source | What it provides |
-| --- | --- |
-| ORCID | the curated list of what counts as ours, used as the spine |
-| Crossref | authoritative metadata, and the journal version of a retitled preprint |
-| OpenAlex | citation counts, abstracts, and co-author affiliations for the map |
+**How animals cope with heat**
 
-It writes three files into `public/data`: `publications.json`, `metrics.json`
-and `collaborators.json`. `.github/workflows/refresh-data.yml` runs it nightly
-and commits any change. Adding a paper to ORCID is enough to make it appear.
+- Thermal sensitivity across the life cycle
+- Plasticity and adaptation to changing temperatures
+- The impacts of temperature on reproduction
+- Developmental responses to environmental stressors
 
-Three behaviours worth knowing about:
+**From the laboratory to the world**
 
-- **Preprints are folded into their published version.** Neither ORCID nor
-  OpenAlex links the two for EcoEvoRxiv, bioRxiv or Authorea deposits, so the
-  script matches them itself: first on an identical title with shared authors,
-  then through a Crossref bibliographic search. Papers retitled beyond
-  recognition in review need one line in `scripts/preprint-merges.json`, and
-  every run prints the preprints it could not resolve so you can spot new ones.
-  This step also recovers articles that OpenAlex has not yet attached to the
-  author record.
-- **Software, datasets and supplementary files are excluded**, along with
-  conference abstracts and The Conversation pieces. Those last two are listed
-  under Outreach instead.
-- **Citation counts come from Google Scholar, refreshed by hand.** Scholar has
-  no API and blocks automated access, so this is deliberately a manual step:
+- Translating laboratory measurements to the field
+- Understanding species (re)distribution
+- Bridging the knowledge-action gap
 
-  ```bash
-  python scripts/scholar_refresh.py     # needs: pip install scholarly
-  ```
+**Better evidence**
 
-  It writes `public/data/scholar.json`, and the Publications page prefers those
-  counts over OpenAlex wherever a title matches. Everything still works if the
-  file is absent or stale, so run it every few weeks rather than nightly. It is
-  **not** in the GitHub Action, because Scholar blocks shared runner IP
-  addresses far faster than a home connection. If it ever reports a refusal,
-  wait a few hours rather than retrying.
-- **Altmetric attention scores are off by default.** Altmetric closed its free
-  API on 10 November 2025. Add an `ALTMETRIC_KEY` repository secret to switch
-  them back on; without it the step is skipped.
+- Solving biases in the ecological literature
+- Improving methods for evidence synthesis
+- Studying how research is done through meta-science
 
-`public/data/countries-110m.json` is a vendored copy of Natural Earth's 110m
-country boundaries, used by the collaborator map so the page does not depend on
-a CDN.
+Each theme is written up with its open questions on the
+[research page](https://patricepottierlab.com/research/).
 
-## Deployment
+## Join us
 
-`.github/workflows/pages.yml` builds and publishes to GitHub Pages on every push
-to `main`. The site is served at https://patricepottierlab.com, a Namecheap
-domain whose DNS points at the four GitHub Pages A records and whose `www`
-subdomain is a CNAME to `p-pottier.github.io`.
+Two funded positions are open at the University of Gothenburg, both closing on
+**21 September 2026**: a four-year PhD position and a two-year postdoctoral
+position, funded by the Swedish Research Council. There are also fellowship
+routes for researchers bringing their own funding, and short-term visits.
 
-The custom domain lives in `public/CNAME`, which Vite copies into `dist`. Each
-deploy replaces the whole site, so a CNAME file written through the repository
-settings page would be lost on the next push. `actions/deploy-pages` has no
-`cname` input.
+We care more about how you think than about what you have published. Details
+and the application links are on the
+[opportunities page](https://patricepottierlab.com/opportunities/).
 
-Routing is client-side, but GitHub Pages cannot rewrite. Serving a copy of
-`index.html` as `404.html` makes a deep link render while Pages still answers
-HTTP 404, and a crawler drops a 404 whatever the body says.
+## About this repository
 
-`scripts/prerender-routes.mjs` therefore writes a real `dist/<route>/index.html`
-for each route, so every URL answers 200 and carries its own title, description
-and canonical before any JavaScript runs. It also writes the noindex `404.html`
-and `sitemap.xml`. Routes come from `src/content/route-meta.json`, which the app
-reads too, so the sitemap cannot list a page the build did not emit.
+This repository holds the source of the lab website. It is a React and Vite
+application, styled with Tailwind, deployed to GitHub Pages on every push to
+`main`. Publications, citation counts and the collaborator map are rebuilt
+nightly from ORCID, Crossref and OpenAlex, so the site stays current without
+anyone editing it.
 
-## Design
+You are welcome to read the code or borrow from it. If something here is useful
+for your own academic site, take it.
 
-Black background, gold `#FAD103` for primary emphasis, cyan `#02B8A6` for
-secondary, with orange `#FA6A03` and red `#B80502` completing the four-stop
-gradient used on rules, pills and the map legend. The palette is carried over
-from the Thermal Ecology Alliance site so the two read as related.
+## Elsewhere
 
-The header is fixed and stays visible on scroll. Motion is used sparingly:
-a parallax hero, reveal-on-scroll for sections, and a staggered mobile menu.
-Everything respects `prefers-reduced-motion`.
+[Website](https://patricepottierlab.com) ·
+[Google Scholar](https://scholar.google.com/citations?user=gg1rV3IAAAAJ&hl=en) ·
+[ORCID](https://orcid.org/0000-0003-2106-6597) ·
+[Bluesky](https://bsky.app/profile/patricepottier.bsky.social) ·
+[Thermal Ecology Alliance](https://www.thermalecologyalliance.org/)
+
+Get in touch at [patrice.pottier@bioenv.gu.se](mailto:patrice.pottier@bioenv.gu.se).
