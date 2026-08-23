@@ -238,7 +238,7 @@ export const PI: Person = {
   name: "Patrice Pottier",
   role: "Associate senior lecturer",
   affiliation: "Department of Biological and Environmental Sciences, University of Gothenburg",
-  photo: "/images/patrice-pottier.webp",
+  photo: "/images/patrice-pottier.jpg",
   // The CV sits on its own button below the biography, so it is not repeated here.
   links: [
     { label: "Google Scholar", href: "https://scholar.google.com/citations?user=gg1rV3IAAAAJ&hl=en" },
