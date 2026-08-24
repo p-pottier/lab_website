@@ -1,12 +1,12 @@
 {
- "updated": "2026-08-23",
+ "updated": "2026-08-24",
  "total": 587,
  "countries": 63,
- "institutions": 288,
+ "institutions": 287,
  "byCountry": {
   "Japan": 8,
   "Poland": 7,
-  "Australia": 120,
+  "Australia": 119,
   "Germany": 36,
   "Sweden": 26,
   "United Kingdom": 50,
@@ -7498,12 +7498,12 @@
    "openalex": "https://openalex.org/A5078269788",
    "works": 1,
    "lastYear": 2026,
-   "institution": "La Trobe University",
-   "city": "Melbourne",
-   "country": "Australia",
-   "countryCode": "AU",
-   "lat": -37.814,
-   "lon": 144.96332
+   "institution": null,
+   "city": null,
+   "country": null,
+   "countryCode": null,
+   "lat": null,
+   "lon": null
   },
   {
    "name": "Veronica Zamora‐Gutierrez",
