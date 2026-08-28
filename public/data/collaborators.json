@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-27",
+ "updated": "2026-08-28",
  "total": 587,
  "countries": 63,
  "institutions": 287,
@@ -79,8 +79,8 @@
    "city": "Onna",
    "country": "Japan",
    "countryCode": "JP",
-   "lat": 26.475950241088867,
-   "lon": 127.852783203125
+   "lat": 26.47595,
+   "lon": 127.85278
   },
   {
    "name": "Szymon M. Drobniak",
@@ -248,8 +248,8 @@
    "city": "Richmond",
    "country": "Australia",
    "countryCode": "AU",
-   "lat": -33.59955978393555,
-   "lon": 150.7514190673828
+   "lat": -33.59956,
+   "lon": 150.75142
   },
   {
    "name": "Rose E. O’Dea",
@@ -261,8 +261,8 @@
    "city": "Berlin",
    "country": "Germany",
    "countryCode": "DE",
-   "lat": 52.491519927978516,
-   "lon": 13.276505470275879
+   "lat": 52.52437,
+   "lon": 13.41053
   },
   {
    "name": "Tracy D. Ainsworth",
@@ -365,8 +365,8 @@
    "city": "San Nicolás de los Garza",
    "country": "Mexico",
    "countryCode": "MX",
-   "lat": 25.741670608520508,
-   "lon": -100.3022232055664
+   "lat": 25.74167,
+   "lon": -100.30222
   },
   {
    "name": "Dylan Gomes",
@@ -417,8 +417,8 @@
    "city": "Bayreuth",
    "country": "Germany",
    "countryCode": "DE",
-   "lat": 49.947818756103516,
-   "lon": 11.578929901123047
+   "lat": 49.94782,
+   "lon": 11.57893
   },
   {
    "name": "Matthieu Paquet",
@@ -534,8 +534,8 @@
    "city": "Bristol",
    "country": "United Kingdom",
    "countryCode": "GB",
-   "lat": 51.45125198364258,
-   "lon": -2.599884033203125
+   "lat": 51.45523,
+   "lon": -2.59665
   },
   {
    "name": "Hsien‐Yung Lin",
@@ -612,8 +612,8 @@
    "city": "Rasht",
    "country": "Iran",
    "countryCode": "IR",
-   "lat": 37.19422149658203,
-   "lon": 49.63624954223633
+   "lat": 37.27611,
+   "lon": 49.58862
   },
   {
    "name": "Steven A. Ramm",
@@ -768,8 +768,8 @@
    "city": "Rio de Janeiro",
    "country": "Brazil",
    "countryCode": "BR",
-   "lat": -22.90641975402832,
-   "lon": -43.18223190307617
+   "lat": -22.90642,
+   "lon": -43.18223
   },
   {
    "name": "Brian Gallagher",
@@ -1015,8 +1015,8 @@
    "city": "Quezon City",
    "country": "Philippines",
    "countryCode": "PH",
-   "lat": 14.654861450195312,
-   "lon": 121.06446838378906
+   "lat": 14.6488,
+   "lon": 121.0509
   },
   {
    "name": "Joanna IntHout",
@@ -1678,8 +1678,8 @@
    "city": "Pomona",
    "country": "United States",
    "countryCode": "US",
-   "lat": 34.06210708618164,
-   "lon": -117.82123565673828
+   "lat": 34.05529,
+   "lon": -117.75228
   },
   {
    "name": "Andrew E. McKechnie",
@@ -2185,8 +2185,8 @@
    "city": "Wallingford",
    "country": "United Kingdom",
    "countryCode": "GB",
-   "lat": 51.59981918334961,
-   "lon": -1.1247999668121338
+   "lat": 51.59982,
+   "lon": -1.1248
   },
   {
    "name": "Elvira D’Bastiani",
@@ -2822,8 +2822,8 @@
    "city": "Rostock",
    "country": "Germany",
    "countryCode": "DE",
-   "lat": 54.08869934082031,
-   "lon": 12.14048957824707
+   "lat": 54.0887,
+   "lon": 12.14049
   },
   {
    "name": "Katharina Ruthsatz",
@@ -2887,8 +2887,8 @@
    "city": "Trondheim",
    "country": "Norway",
    "countryCode": "NO",
-   "lat": 63.43048858642578,
-   "lon": 10.395059585571289
+   "lat": 63.43049,
+   "lon": 10.39506
   },
   {
    "name": "Kok Sin Woon",
@@ -2939,8 +2939,8 @@
    "city": "Bengaluru",
    "country": "India",
    "countryCode": "IN",
-   "lat": 13.02127456665039,
-   "lon": 77.56576538085938
+   "lat": 12.97194,
+   "lon": 77.59369
   },
   {
    "name": "L. Francisco Henao‐Díaz",
@@ -3199,8 +3199,8 @@
    "city": "Mishima",
    "country": "Japan",
    "countryCode": "JP",
-   "lat": 35.116668701171875,
-   "lon": 138.9166717529297
+   "lat": 35.11667,
+   "lon": 138.91667
   },
   {
    "name": "Matt Lloyd Jones",
@@ -3277,8 +3277,8 @@
    "city": "Indianapolis",
    "country": "United States",
    "countryCode": "US",
-   "lat": 39.76837921142578,
-   "lon": -86.15804290771484
+   "lat": 39.76838,
+   "lon": -86.15804
   },
   {
    "name": "Melina de Souza Leite",
@@ -4044,8 +4044,8 @@
    "city": "Créteil",
    "country": "France",
    "countryCode": "FR",
-   "lat": 48.792659759521484,
-   "lon": 2.4656898975372314
+   "lat": 48.79266,
+   "lon": 2.46569
   },
   {
    "name": "Z. Valentina Zizzari",
@@ -4395,8 +4395,8 @@
    "city": "Edinburg",
    "country": "United States",
    "countryCode": "US",
-   "lat": 26.301740646362305,
-   "lon": -98.16333770751953
+   "lat": 26.30174,
+   "lon": -98.16334
   },
   {
    "name": "Ann B. Swengel",
@@ -4421,8 +4421,8 @@
    "city": "Freiburg im Breisgau",
    "country": "Germany",
    "countryCode": "DE",
-   "lat": 47.99589920043945,
-   "lon": 7.852220058441162
+   "lat": 47.9959,
+   "lon": 7.85222
   },
   {
    "name": "Antje Girndt",
@@ -4512,8 +4512,8 @@
    "city": "Beijing",
    "country": "China",
    "countryCode": "CN",
-   "lat": 39.907501220703125,
-   "lon": 116.39723205566406
+   "lat": 39.9075,
+   "lon": 116.39723
   },
   {
    "name": "Baojun Sun",
@@ -5344,8 +5344,8 @@
    "city": "Rio de Janeiro",
    "country": "Brazil",
    "countryCode": "BR",
-   "lat": -22.90641975402832,
-   "lon": -43.18223190307617
+   "lat": -22.90642,
+   "lon": -43.18223
   },
   {
    "name": "Graham W. Prescott",
@@ -5955,8 +5955,8 @@
    "city": "Mumbai",
    "country": "India",
    "countryCode": "IN",
-   "lat": 19.072830200195312,
-   "lon": 72.88260650634766
+   "lat": 19.07283,
+   "lon": 72.88261
   },
   {
    "name": "Lars Pettersson",
@@ -6202,8 +6202,8 @@
    "city": "Curitiba",
    "country": "Brazil",
    "countryCode": "BR",
-   "lat": -25.427780151367188,
-   "lon": -49.2730598449707
+   "lat": -25.42778,
+   "lon": -49.27306
   },
   {
    "name": "Manuela Santana",
@@ -6241,8 +6241,8 @@
    "city": "Rio de Janeiro",
    "country": "Brazil",
    "countryCode": "BR",
-   "lat": -22.90641975402832,
-   "lon": -43.18223190307617
+   "lat": -22.90642,
+   "lon": -43.18223
   },
   {
    "name": "Mariana Mayer‐Pinto",
@@ -6384,8 +6384,8 @@
    "city": "Melbourne",
    "country": "Australia",
    "countryCode": "AU",
-   "lat": -37.81399917602539,
-   "lon": 144.96331787109375
+   "lat": -37.814,
+   "lon": 144.96332
   },
   {
    "name": "Matthew T. Taylor",
@@ -6878,8 +6878,8 @@
    "city": "Sydney",
    "country": "Australia",
    "countryCode": "AU",
-   "lat": -33.81703186035156,
-   "lon": 151.1826934814453
+   "lat": -33.86785,
+   "lon": 151.20732
   },
   {
    "name": "Ricardo A. Correia",
@@ -7346,8 +7346,8 @@
    "city": "St Petersburg",
    "country": "Russia",
    "countryCode": "RU",
-   "lat": 59.938629150390625,
-   "lon": 30.314130783081055
+   "lat": 59.93863,
+   "lon": 30.31413
   },
   {
    "name": "Sylvaine Giakoumi",
@@ -7450,8 +7450,8 @@
    "city": "Brussels",
    "country": "Belgium",
    "countryCode": "BE",
-   "lat": 50.85044860839844,
-   "lon": 4.348780155181885
+   "lat": 50.85045,
+   "lon": 4.34878
   },
   {
    "name": "Timothy C. Bonebrake",

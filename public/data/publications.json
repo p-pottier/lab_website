@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-27",
+ "updated": "2026-08-28",
  "publications": [
   {
    "id": "10.1093/conphys/coag006",
@@ -1272,6 +1272,62 @@
    "url": "https://doi.org/10.32942/x20q2m",
    "citations": 0,
    "abstract": "Quantifying animals' capacity to evolve in response to changing environments is central to predicting ecological responses to climate change. However, empirical evidence for evolutionary responses to changing temperatures remains mixed, and we know little about how selection alters trait variance or generates trade-offs among traits. Here, we conducted a systematic review and meta-analysis of 44 experimental evolution studies to quantify how three key life-history traits—body size, fecundity, and survival—respond to multi-generational exposure to warm or cold temperature regimes. Contrary to our predictions, we found only weak evidence for directional evolution of these traits in changing environments, and no evidence for trade-offs. Across traits—particularly for body size—changes in trait means and variance were small, heterogeneous, and largely unexplained by moderators expected to influence the strength or detectability of evolutionary responses, including the magnitude of temperature change, and the number of generations of selection. Although responses to cooler temperatures were more consistent than responses to warming, this pattern was based on limited data and should be interpreted cautiously. Our results suggest that empirical support for directional evolutionary trait responses to changing temperatures is weak, making broad generalisations across species and contexts difficult. Considerable unexplained heterogeneity further indicates that evolutionary responses may be context-dependent, potentially shaped by the genetic background of source populations or uncaptured methodological variation. Our synthesis adds to growing evidence that many animal populations have limited capacity for rapid evolutionary adaptation and must instead rely predominantly on phenotypic plasticity to buffer the impacts of climate change.",
+   "preprintUrl": null,
+   "altmetric": null
+  },
+  {
+   "id": "10.32942/x2509k",
+   "doi": "10.32942/x2509k",
+   "title": "Heat tolerance in bees: a meta-analysis of ecological, evolutionary, and methodological drivers",
+   "authors": [
+    {
+     "name": "Suntaree Karnchananiyom",
+     "orcid": null,
+     "isSelf": false
+    },
+    {
+     "name": "Natapot Warrit",
+     "orcid": null,
+     "isSelf": false
+    },
+    {
+     "name": "Patrice Pottier",
+     "orcid": "https://orcid.org/0000-0003-2106-6597",
+     "isSelf": true
+    },
+    {
+     "name": "Kanuengnit Wayo",
+     "orcid": null,
+     "isSelf": false
+    },
+    {
+     "name": "Carmen da Silva",
+     "orcid": null,
+     "isSelf": false
+    },
+    {
+     "name": "Vanessa Kellermann",
+     "orcid": null,
+     "isSelf": false
+    },
+    {
+     "name": "Alyssa Stewart",
+     "orcid": "https://orcid.org/0000-0002-7266-1081",
+     "isSelf": false
+    }
+   ],
+   "authorLine": "Suntaree Karnchananiyom, Natapot Warrit, Patrice Pottier, Kanuengnit Wayo, Carmen da Silva, Vanessa Kellermann, Alyssa Stewart",
+   "journal": null,
+   "year": 2026,
+   "volume": null,
+   "issue": null,
+   "pages": null,
+   "kind": "preprint",
+   "isOA": false,
+   "oaUrl": "https://doi.org/10.32942/x2509k",
+   "url": "https://doi.org/10.32942/x2509k",
+   "citations": 0,
+   "abstract": null,
    "preprintUrl": null,
    "altmetric": null
   },
@@ -4620,7 +4676,7 @@
    "isOA": true,
    "oaUrl": "https://academic.oup.com/jeb/advance-article-pdf/doi/10.1093/jeb/voae021/56671509/voae021.pdf",
    "url": "https://doi.org/10.1093/jeb/voae021",
-   "citations": 20,
+   "citations": 21,
    "abstract": "Critical thermal limits (CTLs) gauge the physiological impact of temperature on survival or critical biological function, aiding predictions of species range shifts and climatic resilience. Two recent Drosophila species studies, using similar approaches to determine temperatures that induce sterility (thermal fertility limits [TFLs]), reveal that TFLs are often lower than CTLs and that TFLs better predict both current species distributions and extinction probability. Moreover, many studies show fertility is more sensitive at less extreme temperatures than survival (thermal sensitivity of fertility [TSF]). These results present a more pessimistic outlook on the consequences of climate change. However, unlike CTLs, TFL data are limited to Drosophila, and variability in TSF methods poses challenges in predicting species responses to increasing temperature. To address these data and methodological gaps, we propose 3 standardized approaches for assessing thermal impacts on fertility. We focus on adult obligate sexual terrestrial invertebrates but also provide modifications for other animal groups and life-history stages. We first outline a \"gold-standard\" protocol for determining TFLs, focussing on the effects of short-term heat shocks and simulating more frequent extreme heat events predicted by climate models. As this approach may be difficult to apply to some organisms, we then provide a standardized TSF protocol. Finally, we provide a framework to quantify fertility loss in response to extreme heat events in nature, given the limitations in laboratory approaches. Applying these standardized approaches across many taxa, similar to CTLs, will allow robust tests of the impact of fertility loss on species responses to increasing temperatures.",
    "preprintUrl": null,
    "altmetric": null
@@ -4930,6 +4986,62 @@
    "altmetric": null
   },
   {
+   "id": "10.1111/ele.14266",
+   "doi": "10.1111/ele.14266",
+   "title": "The impact of rising temperatures on the prevalence of coral diseases and its predictability: A global meta‐analysis",
+   "authors": [
+    {
+     "name": "Samantha Burke",
+     "orcid": "https://orcid.org/0000-0001-6902-974X",
+     "isSelf": false
+    },
+    {
+     "name": "Patrice Pottier",
+     "orcid": "https://orcid.org/0000-0003-2106-6597",
+     "isSelf": true
+    },
+    {
+     "name": "Malgorzata Lagisz",
+     "orcid": "https://orcid.org/0000-0002-3993-6127",
+     "isSelf": false
+    },
+    {
+     "name": "Erin L. Macartney",
+     "orcid": "https://orcid.org/0000-0003-3866-143X",
+     "isSelf": false
+    },
+    {
+     "name": "Tracy Ainsworth",
+     "orcid": "https://orcid.org/0000-0001-6476-9263",
+     "isSelf": false
+    },
+    {
+     "name": "Szymon M. Drobniak",
+     "orcid": "https://orcid.org/0000-0001-8101-6247",
+     "isSelf": false
+    },
+    {
+     "name": "Shinichi Nakagawa",
+     "orcid": "https://orcid.org/0000-0002-7765-5182",
+     "isSelf": false
+    }
+   ],
+   "authorLine": "Samantha Burke, Patrice Pottier, Malgorzata Lagisz, Erin L. Macartney, Tracy Ainsworth, Szymon M. Drobniak, Shinichi Nakagawa",
+   "journal": "Ecology Letters",
+   "year": 2023,
+   "volume": "26",
+   "issue": "8",
+   "pages": "1466-1481",
+   "kind": "article",
+   "isOA": true,
+   "oaUrl": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/ele.14266",
+   "url": "https://doi.org/10.1111/ele.14266",
+   "citations": 74,
+   "abstract": "Coral reefs are under threat from disease as climate change alters environmental conditions. Rising temperatures exacerbate coral disease, but this relationship is likely complex as other factors also influence coral disease prevalence. To better understand this relationship, we meta-analytically examined 108 studies for changes in global coral disease over time alongside temperature, expressed using average summer sea surface temperature (SST) and cumulative heat stress as weekly sea surface temperature anomalies (WSSTAs). We found that both rising average summer SST and WSSTA were associated with global increases in the mean and variability in coral disease prevalence. Global coral disease prevalence tripled, reaching 9.92% in the 25 years examined, and the effect of 'year' became more stable (i.e. prevalence has lower variance over time), contrasting the effects of the two temperature stressors. Regional patterns diverged over time and differed in response to average summer SST. Our model predicted that, under the same trajectory, 76.8% of corals would be diseased globally by 2100, even assuming moderate average summer SST and WSSTA. These results highlight the need for urgent action to mitigate coral disease. Mitigating the impact of rising ocean temperatures on coral disease is a complex challenge requiring global discussion and further study.",
+   "preprintUrl": "https://doi.org/10.32942/x2hp4p",
+   "altmetric": null
+  },
+  {
    "id": "10.1038/s41893-023-01087-8",
    "doi": "10.1038/s41893-023-01087-8",
    "title": "The role of non-English-language science in informing national biodiversity assessments",
@@ -5138,62 +5250,6 @@
    "citations": 73,
    "abstract": null,
    "preprintUrl": null,
-   "altmetric": null
-  },
-  {
-   "id": "10.1111/ele.14266",
-   "doi": "10.1111/ele.14266",
-   "title": "The impact of rising temperatures on the prevalence of coral diseases and its predictability: A global meta‐analysis",
-   "authors": [
-    {
-     "name": "Samantha Burke",
-     "orcid": "https://orcid.org/0000-0001-6902-974X",
-     "isSelf": false
-    },
-    {
-     "name": "Patrice Pottier",
-     "orcid": "https://orcid.org/0000-0003-2106-6597",
-     "isSelf": true
-    },
-    {
-     "name": "Malgorzata Lagisz",
-     "orcid": "https://orcid.org/0000-0002-3993-6127",
-     "isSelf": false
-    },
-    {
-     "name": "Erin L. Macartney",
-     "orcid": "https://orcid.org/0000-0003-3866-143X",
-     "isSelf": false
-    },
-    {
-     "name": "Tracy Ainsworth",
-     "orcid": "https://orcid.org/0000-0001-6476-9263",
-     "isSelf": false
-    },
-    {
-     "name": "Szymon M. Drobniak",
-     "orcid": "https://orcid.org/0000-0001-8101-6247",
-     "isSelf": false
-    },
-    {
-     "name": "Shinichi Nakagawa",
-     "orcid": "https://orcid.org/0000-0002-7765-5182",
-     "isSelf": false
-    }
-   ],
-   "authorLine": "Samantha Burke, Patrice Pottier, Malgorzata Lagisz, Erin L. Macartney, Tracy Ainsworth, Szymon M. Drobniak, Shinichi Nakagawa",
-   "journal": "Ecology Letters",
-   "year": 2023,
-   "volume": "26",
-   "issue": "8",
-   "pages": "1466-1481",
-   "kind": "article",
-   "isOA": true,
-   "oaUrl": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/ele.14266",
-   "url": "https://doi.org/10.1111/ele.14266",
-   "citations": 73,
-   "abstract": "Coral reefs are under threat from disease as climate change alters environmental conditions. Rising temperatures exacerbate coral disease, but this relationship is likely complex as other factors also influence coral disease prevalence. To better understand this relationship, we meta-analytically examined 108 studies for changes in global coral disease over time alongside temperature, expressed using average summer sea surface temperature (SST) and cumulative heat stress as weekly sea surface temperature anomalies (WSSTAs). We found that both rising average summer SST and WSSTA were associated with global increases in the mean and variability in coral disease prevalence. Global coral disease prevalence tripled, reaching 9.92% in the 25 years examined, and the effect of 'year' became more stable (i.e. prevalence has lower variance over time), contrasting the effects of the two temperature stressors. Regional patterns diverged over time and differed in response to average summer SST. Our model predicted that, under the same trajectory, 76.8% of corals would be diseased globally by 2100, even assuming moderate average summer SST and WSSTA. These results highlight the need for urgent action to mitigate coral disease. Mitigating the impact of rising ocean temperatures on coral disease is a complex challenge requiring global discussion and further study.",
-   "preprintUrl": "https://doi.org/10.32942/x2hp4p",
    "altmetric": null
   },
   {
