@@ -1,12 +1,12 @@
 {
- "updated": "2026-08-29",
- "total": 587,
- "countries": 63,
- "institutions": 287,
+ "updated": "2026-08-30",
+ "total": 593,
+ "countries": 64,
+ "institutions": 291,
  "byCountry": {
   "Japan": 8,
   "Poland": 7,
-  "Australia": 119,
+  "Australia": 121,
   "Germany": 36,
   "Sweden": 26,
   "United Kingdom": 50,
@@ -41,6 +41,7 @@
   "Denmark": 3,
   "Vietnam": 1,
   "Malaysia": 2,
+  "Thailand": 4,
   "Kazakhstan": 1,
   "Andorra": 2,
   "Taiwan": 4,
@@ -4347,6 +4348,19 @@
    "lon": 101.84300231933594
   },
   {
+   "name": "Alyssa B. Stewart",
+   "orcid": "https://orcid.org/0000-0002-7266-1081",
+   "openalex": "https://openalex.org/A5071740179",
+   "works": 1,
+   "lastYear": 2026,
+   "institution": "Mahidol University",
+   "city": "Bangkok",
+   "country": "Thailand",
+   "countryCode": "TH",
+   "lat": 13.75398,
+   "lon": 100.50144
+  },
+  {
    "name": "Amélie Fontaine",
    "orcid": "https://orcid.org/0000-0002-9713-5301",
    "openalex": "https://openalex.org/A5066713320",
@@ -4618,6 +4632,19 @@
    "countryCode": null,
    "lat": null,
    "lon": null
+  },
+  {
+   "name": "Carmen Silva",
+   "orcid": null,
+   "openalex": "https://openalex.org/A5138684053",
+   "works": 1,
+   "lastYear": 2026,
+   "institution": "Macquarie University",
+   "city": "Sydney",
+   "country": "Australia",
+   "countryCode": "AU",
+   "lat": -33.86785,
+   "lon": 151.20732
   },
   {
    "name": "Carolyn Claire Isabelle Burns",
@@ -5881,6 +5908,19 @@
    "lon": 8.53333
   },
   {
+   "name": "Kanuengnit Wayo",
+   "orcid": "https://orcid.org/0000-0002-3860-2125",
+   "openalex": "https://openalex.org/A5074077754",
+   "works": 1,
+   "lastYear": 2026,
+   "institution": "Walailak University",
+   "city": "Nakhon Si Thammarat",
+   "country": "Thailand",
+   "countryCode": "TH",
+   "lat": 8.43333,
+   "lon": 99.96667
+  },
+  {
    "name": "Kerstin Jantke",
    "orcid": "https://orcid.org/0000-0002-3126-3888",
    "openalex": "https://openalex.org/A5074080296",
@@ -6609,6 +6649,19 @@
    "lon": 17.63889
   },
   {
+   "name": "Natapot Warrit",
+   "orcid": "https://orcid.org/0000-0002-6338-1782",
+   "openalex": "https://openalex.org/A5023709391",
+   "works": 1,
+   "lastYear": 2026,
+   "institution": "Chulalongkorn University",
+   "city": "Bangkok",
+   "country": "Thailand",
+   "countryCode": "TH",
+   "lat": 13.75398,
+   "lon": 100.50144
+  },
+  {
    "name": "Ndayizeye Blaise",
    "orcid": null,
    "openalex": "https://openalex.org/A5068040126",
@@ -7311,6 +7364,19 @@
    "lon": 39.18624
   },
   {
+   "name": "Suntaree Karnchananiyom",
+   "orcid": null,
+   "openalex": "https://openalex.org/A5092823880",
+   "works": 1,
+   "lastYear": 2026,
+   "institution": "Mahidol University",
+   "city": "Bangkok",
+   "country": "Thailand",
+   "countryCode": "TH",
+   "lat": 13.75398,
+   "lon": 100.50144
+  },
+  {
    "name": "Susan E. Everingham",
    "orcid": "https://orcid.org/0000-0002-4780-2700",
    "openalex": "https://openalex.org/A5050976346",
@@ -7504,6 +7570,19 @@
    "countryCode": null,
    "lat": null,
    "lon": null
+  },
+  {
+   "name": "Vanessa Kellermann",
+   "orcid": null,
+   "openalex": "https://openalex.org/A5137132263",
+   "works": 1,
+   "lastYear": 2026,
+   "institution": "La Trobe University",
+   "city": "Melbourne",
+   "country": "Australia",
+   "countryCode": "AU",
+   "lat": -37.814,
+   "lon": 144.96332
   },
   {
    "name": "Veronica Zamora‐Gutierrez",

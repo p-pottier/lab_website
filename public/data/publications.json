@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-29",
+ "updated": "2026-08-30",
  "publications": [
   {
    "id": "10.1093/conphys/coag006",
@@ -1323,11 +1323,11 @@
    "issue": null,
    "pages": null,
    "kind": "preprint",
-   "isOA": false,
-   "oaUrl": "https://doi.org/10.32942/x2509k",
+   "isOA": true,
+   "oaUrl": "https://ecoevorxiv.org/repository/object/14671/download/25518/",
    "url": "https://doi.org/10.32942/x2509k",
    "citations": 0,
-   "abstract": null,
+   "abstract": "Climate change poses a growing threat to bees, which provide essential pollination services in natural and agricultural ecosystems. Although the critical thermal maximum (CTmax) is widely used to assess the vulnerability of pollinators to climate change, we lack a comprehensive understanding of the factors shaping heat tolerance across bee species globally. We conducted a systematic review and meta-analysis of experimental CTmax measurements, extracting 339 effect sizes from 35 studies spanning 198 bee species. Across all moderator variables tested, we found that only three variables were significantly associated with variation in heat tolerance: nesting behaviour, climate zone, and ramping rate. On average, the CTmax of below-ground nesting bees was 1.3oC lower than that of above-ground nesters. This difference was most pronounced in solitary species and weaker in eusocial species, which may benefit from colony-level behavioural thermoregulation. Tropical species had slightly lower CTmax than temperate species, while species distributed across both tropical and temperate regions had the highest thermal tolerance. We also found that CTmax increased strongly with ramping rate, consistent with predictions of heat injury accumulation during dynamic assays. However, sex, body size, and five other methodological factors were not significantly associated with variation in CTmax, which may reflect species-specific responses differing in direction and magnitude, obscuring any overall pattern. We also found that variation in heat tolerance is strongly phylogenetically structured (43% of explained heterogeneity), suggesting that evolutionary adaptation to historical environmental conditions has shaped present-day thermal limits. Our synthesis identified substantial geographic and taxonomic biases, highlighting key priorities for future experimental research. By identifying important ecological drivers of heat tolerance evolution, our study provides a foundation for predicting bee heat tolerance and potential vulnerability to climate change.",
    "preprintUrl": null,
    "altmetric": null
   },
@@ -2968,7 +2968,7 @@
    "isOA": true,
    "oaUrl": "https://doi.org/10.1038/s41586-025-08665-0",
    "url": "https://doi.org/10.1038/s41586-025-08665-0",
-   "citations": 76,
+   "citations": 77,
    "abstract": "Abstract Amphibians are the most threatened vertebrates, yet their resilience to rising temperatures remains poorly understood 1,2 . This is primarily because knowledge of thermal tolerance is taxonomically and geographically biased 3 , compromising global climate vulnerability assessments. Here we used a phylogenetically informed data-imputation approach to predict the heat tolerance of 60% of amphibian species and assessed their vulnerability to daily temperature variations in thermal refugia. We found that 104 out of 5,203 species (2%) are currently exposed to overheating events in shaded terrestrial conditions. Despite accounting for heat-tolerance plasticity, a 4 °C global temperature increase would create a step change in impact severity, pushing 7.5% of species beyond their physiological limits. In the Southern Hemisphere, tropical species encounter disproportionally more overheating events, while non-tropical species are more susceptible in the Northern Hemisphere. These findings challenge evidence for a general latitudinal gradient in overheating risk 4–6 and underscore the importance of considering climatic variability in vulnerability assessments. We provide conservative estimates assuming access to cool shaded microenvironments. Thus, the impacts of global warming will probably exceed our projections. Our microclimate-explicit analyses demonstrate that vegetation and water bodies are critical in buffering amphibians during heat waves. Immediate action is needed to preserve and manage these microhabitat features.",
    "preprintUrl": "https://doi.org/10.32942/x2t02t",
    "altmetric": null
@@ -4102,7 +4102,7 @@
    "isOA": true,
    "oaUrl": "https://doi.org/10.1098/rspb.2024.1222",
    "url": "https://doi.org/10.1098/rspb.2024.1222",
-   "citations": 50,
+   "citations": 51,
    "abstract": "In a growing digital landscape, enhancing the discoverability and resonance of scientific articles is essential. Here, we offer 10 recommendations to amplify the discoverability of studies in search engines and databases. Particularly, we argue that the strategic use and placement of key terms in the title, abstract and keyword sections can boost indexing and appeal. By surveying 230 journals in ecology and evolutionary biology, we found that current author guidelines may unintentionally limit article findability. Our survey of 5323 studies revealed that authors frequently exhaust abstract word limits-particularly those capped under 250 words. This suggests that current guidelines may be overly restrictive and not optimized to increase the dissemination and discoverability of digital publications. Additionally, 92% of studies used redundant keywords in the title or abstract, undermining optimal indexing in databases. We encourage adopting structured abstracts to maximize the incorporation of key terms in titles, abstracts and keywords. In addition, we encourage the relaxation of abstract and keyword limitations in journals with strict guidelines, and the inclusion of multilingual abstracts to broaden global accessibility. These recommendations to editors are designed to improve article engagement and facilitate evidence synthesis, thereby aligning scientific publishing with the modern needs of academic research.",
    "preprintUrl": "https://doi.org/10.1101/2023.10.02.559861",
    "altmetric": null
@@ -4854,7 +4854,7 @@
    "isOA": true,
    "oaUrl": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/2041-210X.14152",
    "url": "https://doi.org/10.1111/2041-210x.14152",
-   "citations": 185,
+   "citations": 186,
    "abstract": "Abstract Although meta‐analysis has become an essential tool in ecology and evolution, reporting of meta‐analytic results can still be much improved. To aid this, we have introduced the orchard plot, which presents not only overall estimates and their confidence intervals, but also shows corresponding heterogeneity (as prediction intervals) and individual effect sizes. Here, we have added significant enhancements by integrating many new functionalities into orchaRd 2.0 . This updated version allows the visualisation of heteroscedasticity (different variances across levels of a categorical moderator), marginal estimates (e.g. marginalising out effects other than the one visualised), conditional estimates (i.e. estimates of different groups conditioned upon specific values of a continuous variable) and visualisations of all types of interactions between two categorical/continuous moderators. orchaRd 2.0 has additional functions which calculate key statistics from multilevel meta‐analytic models such as I 2 and R 2 . Importantly, orchaRd 2.0 contributes to better reporting by complying with PRISMA‐EcoEvo (preferred reporting items for systematic reviews and meta‐analyses in ecology and evolution). Taken together, orchaRd 2.0 can improve the presentation of meta‐analytic results and facilitate the exploration of previously neglected patterns. In addition, as a part of a literature survey, we found that graphical packages are rarely cited (~3%). We plea that researchers credit developers and maintainers of graphical packages, for example, by citations in a figure legend, acknowledging the use of relevant packages.",
    "preprintUrl": "https://doi.org/10.32942/x2qc7k",
    "altmetric": null
