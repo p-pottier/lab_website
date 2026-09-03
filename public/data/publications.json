@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-02",
+ "updated": "2026-09-03",
  "publications": [
   {
    "id": "10.1093/conphys/coag006",
@@ -4102,7 +4102,7 @@
    "isOA": true,
    "oaUrl": "https://doi.org/10.1098/rspb.2024.1222",
    "url": "https://doi.org/10.1098/rspb.2024.1222",
-   "citations": 51,
+   "citations": 52,
    "abstract": "In a growing digital landscape, enhancing the discoverability and resonance of scientific articles is essential. Here, we offer 10 recommendations to amplify the discoverability of studies in search engines and databases. Particularly, we argue that the strategic use and placement of key terms in the title, abstract and keyword sections can boost indexing and appeal. By surveying 230 journals in ecology and evolutionary biology, we found that current author guidelines may unintentionally limit article findability. Our survey of 5323 studies revealed that authors frequently exhaust abstract word limits-particularly those capped under 250 words. This suggests that current guidelines may be overly restrictive and not optimized to increase the dissemination and discoverability of digital publications. Additionally, 92% of studies used redundant keywords in the title or abstract, undermining optimal indexing in databases. We encourage adopting structured abstracts to maximize the incorporation of key terms in titles, abstracts and keywords. In addition, we encourage the relaxation of abstract and keyword limitations in journals with strict guidelines, and the inclusion of multilingual abstracts to broaden global accessibility. These recommendations to editors are designed to improve article engagement and facilitate evidence synthesis, thereby aligning scientific publishing with the modern needs of academic research.",
    "preprintUrl": "https://doi.org/10.1101/2023.10.02.559861",
    "altmetric": null
@@ -5486,7 +5486,7 @@
    "isOA": true,
    "oaUrl": "https://doi.org/10.1098/rspb.2022.1113",
    "url": "https://doi.org/10.1098/rspb.2022.1113",
-   "citations": 188,
+   "citations": 189,
    "abstract": "The biological sciences community is increasingly recognizing the value of open, reproducible and transparent research practices for science and society at large. Despite this recognition, many researchers fail to share their data and code publicly. This pattern may arise from knowledge barriers about how to archive data and code, concerns about its reuse, and misaligned career incentives. Here, we define, categorize and discuss barriers to data and code sharing that are relevant to many research fields. We explore how real and perceived barriers might be overcome or reframed in the light of the benefits relative to costs. By elucidating these barriers and the contexts in which they arise, we can take steps to mitigate them and align our actions with the goals of open science, both as individual scientists and as a scientific community.",
    "preprintUrl": "https://doi.org/10.31222/osf.io/gaj43",
    "altmetric": null
@@ -5583,7 +5583,7 @@
    "isOA": true,
    "oaUrl": "https://doi.org/10.1038/s41467-022-32953-2",
    "url": "https://doi.org/10.1038/s41467-022-32953-2",
-   "citations": 138,
+   "citations": 139,
    "abstract": "Extreme temperature events are increasing in frequency and intensity due to climate change. Such events threaten insects, including pollinators, pests and disease vectors. Insect critical thermal limits can be enhanced through acclimation, yet evidence that plasticity aids survival at extreme temperatures is limited. Here, using meta-analyses across 1374 effect sizes, 74 studies and 102 species, we show that thermal limit plasticity is pervasive but generally weak: per 1 °C rise in acclimation temperature, critical thermal maximum increases by 0.09 °C; and per 1 °C decline, critical thermal minimum decreases by 0.15 °C. Moreover, small but significant publication bias suggests that the magnitude of plasticity is marginally overestimated. We find juvenile insects are more plastic than adults, highlighting that physiological responses of insects vary through ontogeny. Overall, we show critical thermal limit plasticity is likely of limited benefit to insects during extreme climatic events, yet we need more studies in under-represented taxa and geographic regions.",
    "preprintUrl": null,
    "altmetric": null
@@ -5659,7 +5659,7 @@
    "isOA": true,
    "oaUrl": "https://www.nature.com/articles/s41597-022-01704-9.pdf",
    "url": "https://doi.org/10.1038/s41597-022-01704-9",
-   "citations": 56,
+   "citations": 57,
    "abstract": "Rising temperatures represent a significant threat to the survival of ectothermic animals. As such, upper thermal limits represent an important trait to assess the vulnerability of ectotherms to changing temperatures. For instance, one may use upper thermal limits to estimate current and future thermal safety margins (i.e., the proximity of upper thermal limits to experienced temperatures), use this trait together with other physiological traits in species distribution models, or investigate the plasticity and evolvability of these limits for buffering the impacts of changing temperatures. While datasets on thermal tolerance limits have been previously compiled, they sometimes report single estimates for a given species, do not present measures of data dispersion, and are biased towards certain parts of the globe. To overcome these limitations, we systematically searched the literature in seven languages to produce the most comprehensive dataset to date on amphibian upper thermal limits, spanning 3,095 estimates across 616 species. This resource will represent a useful tool to evaluate the vulnerability of amphibians, and ectotherms more generally, to changing temperatures.",
    "preprintUrl": null,
    "altmetric": null
