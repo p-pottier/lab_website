@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-05",
+ "updated": "2026-09-06",
  "publications": [
   {
    "id": "10.1093/conphys/coag006",
@@ -5486,7 +5486,7 @@
    "isOA": true,
    "oaUrl": "https://doi.org/10.1098/rspb.2022.1113",
    "url": "https://doi.org/10.1098/rspb.2022.1113",
-   "citations": 189,
+   "citations": 190,
    "abstract": "The biological sciences community is increasingly recognizing the value of open, reproducible and transparent research practices for science and society at large. Despite this recognition, many researchers fail to share their data and code publicly. This pattern may arise from knowledge barriers about how to archive data and code, concerns about its reuse, and misaligned career incentives. Here, we define, categorize and discuss barriers to data and code sharing that are relevant to many research fields. We explore how real and perceived barriers might be overcome or reframed in the light of the benefits relative to costs. By elucidating these barriers and the contexts in which they arise, we can take steps to mitigate them and align our actions with the goals of open science, both as individual scientists and as a scientific community.",
    "preprintUrl": "https://doi.org/10.31222/osf.io/gaj43",
    "altmetric": null
