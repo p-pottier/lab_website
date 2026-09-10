@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-09",
+ "updated": "2026-09-10",
  "publications": [
   {
    "id": "10.1093/conphys/coag006",
@@ -110,222 +110,6 @@
    "citations": 6,
    "abstract": "Abstract Understanding how animals respond to environmental stressors across their life cycle is essential for predicting species' vulnerability to climate change. Here, we systematically reviewed the literature to quantify the variation in research effort on different life stages in the field of conservation physiology. Specifically, we reviewed experimental studies measuring physiological and life-history responses to climatic stressors across three representative scientific journals: Conservation Physiology, Journal of Thermal Biology and Journal of Experimental Biology. Our systematic map of 1276 studies revealed a pronounced underrepresentation of studies on embryos, representing only 8% to 9% of studies. This pattern was remarkably consistent across all axes considered (i.e. journals, taxonomic groups, physiological traits and environmental stressors). We also found that 80% of studies only investigated single life stages, and over 5% of studies did not clearly report the life stage(s) used. Despite the increasing recognition of the ecological importance and sensitivity of early life stages to environmental stressors, we found no evidence that research on embryos has gained traction over the past decade (2013–2024). We argue that these ontogenetic biases likely reflect a combination of historical precedents and enduring methodological and logistical constraints that continue to shape research agendas. To build a more holistic understanding across the life cycle, we: (i) call for a paradigm shift placing embryos at the center of experimental agendas, (ii) outline emerging methodological advances that increase the feasibility of research on early life stages, (iii) demonstrate how studies on embryos align with ethical considerations for animal research, (iv) highlight perspectives for future evidence syntheses and study reporting and (v) promote investigations of the mechanisms underlying physiological variation across ontogeny. Closing the ontogenetic gap will be key to improving our ability to predict population-level impacts of climate change and guiding more effective conservation and management interventions.",
    "preprintUrl": "https://doi.org/10.32942/x2kp96",
-   "altmetric": null
-  },
-  {
-   "id": "10.1016/j.envint.2025.109935",
-   "doi": "10.1016/j.envint.2025.109935",
-   "title": "MATES: A tool for appraising the completeness with which a meta-analysis has been reported",
-   "authors": [
-    {
-     "name": "Kyle Morrison",
-     "orcid": "https://orcid.org/0000-0002-3700-2398",
-     "isSelf": false
-    },
-    {
-     "name": "Patrice Pottier",
-     "orcid": "https://orcid.org/0000-0003-2106-6597",
-     "isSelf": true
-    },
-    {
-     "name": "Pietro Pollo",
-     "orcid": "https://orcid.org/0000-0001-6555-5400",
-     "isSelf": false
-    },
-    {
-     "name": "Lorenzo Ricolfi",
-     "orcid": "https://orcid.org/0000-0001-7101-3309",
-     "isSelf": false
-    },
-    {
-     "name": "Coralie Williams",
-     "orcid": "https://orcid.org/0000-0003-1312-4953",
-     "isSelf": false
-    },
-    {
-     "name": "Yefeng Yang",
-     "orcid": "https://orcid.org/0000-0002-8610-4016",
-     "isSelf": false
-    },
-    {
-     "name": "Damien Beillouin",
-     "orcid": "https://orcid.org/0000-0003-2014-3482",
-     "isSelf": false
-    },
-    {
-     "name": "Simone Jaqueline Cardoso",
-     "orcid": "https://orcid.org/0000-0002-9009-6098",
-     "isSelf": false
-    },
-    {
-     "name": "Verónica Ferreira",
-     "orcid": "https://orcid.org/0000-0001-7688-2626",
-     "isSelf": false
-    },
-    {
-     "name": "Brian Gallagher",
-     "orcid": "https://orcid.org/0000-0002-9990-8363",
-     "isSelf": false
-    },
-    {
-     "name": "Jelaine L. Gan",
-     "orcid": "https://orcid.org/0000-0002-2472-8990",
-     "isSelf": false
-    },
-    {
-     "name": "Guang Hao",
-     "orcid": "https://orcid.org/0000-0003-3780-0223",
-     "isSelf": false
-    },
-    {
-     "name": "Mojtaba Keikha",
-     "orcid": "https://orcid.org/0000-0003-1464-0810",
-     "isSelf": false
-    },
-    {
-     "name": "Betina Kozlowsky-Suzuki",
-     "orcid": "https://orcid.org/0000-0002-6403-4619",
-     "isSelf": false
-    },
-    {
-     "name": "T.M. Kiran Kumara",
-     "orcid": "https://orcid.org/0000-0002-0676-7873",
-     "isSelf": false
-    },
-    {
-     "name": "Francesco Latterini",
-     "orcid": "https://orcid.org/0000-0001-7401-8754",
-     "isSelf": false
-    },
-    {
-     "name": "Alexandro B. Leverkus",
-     "orcid": "https://orcid.org/0000-0001-5452-3614",
-     "isSelf": false
-    },
-    {
-     "name": "Erin L. Macartney",
-     "orcid": "https://orcid.org/0000-0003-3866-143X",
-     "isSelf": false
-    },
-    {
-     "name": "Silvina Magdalena Manrique",
-     "orcid": "https://orcid.org/0000-0003-4590-8648",
-     "isSelf": false
-    },
-    {
-     "name": "April Robin Martinig",
-     "orcid": "https://orcid.org/0000-0002-0972-6903",
-     "isSelf": false
-    },
-    {
-     "name": "Ayumi Mizuno",
-     "orcid": "https://orcid.org/0000-0003-0822-5637",
-     "isSelf": false
-    },
-    {
-     "name": "Shanika Nanayakkara",
-     "orcid": "https://orcid.org/0000-0002-5479-9650",
-     "isSelf": false
-    },
-    {
-     "name": "Evangelia Ntzani",
-     "orcid": "https://orcid.org/0000-0003-3712-4181",
-     "isSelf": false
-    },
-    {
-     "name": "Dakis-Yaoba Ouédraogo",
-     "orcid": "https://orcid.org/0000-0003-2674-2259",
-     "isSelf": false
-    },
-    {
-     "name": "Edward Pursell",
-     "orcid": "https://orcid.org/0000-0003-3748-0864",
-     "isSelf": false
-    },
-    {
-     "name": "Zachary Simpson",
-     "orcid": "https://orcid.org/0000-0001-8075-810X",
-     "isSelf": false
-    },
-    {
-     "name": "Harriet Sleight",
-     "orcid": "https://orcid.org/0000-0003-2810-0217",
-     "isSelf": false
-    },
-    {
-     "name": "Kok Sin Woon",
-     "orcid": "https://orcid.org/0000-0003-0149-6661",
-     "isSelf": false
-    },
-    {
-     "name": "Ziqian Xia",
-     "orcid": "https://orcid.org/0000-0002-9551-0024",
-     "isSelf": false
-    },
-    {
-     "name": "Mona Ghannad",
-     "orcid": "https://orcid.org/0000-0002-5848-3477",
-     "isSelf": false
-    },
-    {
-     "name": "Eliza Grames",
-     "orcid": "https://orcid.org/0000-0003-1743-6815",
-     "isSelf": false
-    },
-    {
-     "name": "Emily Alden Hennessy",
-     "orcid": "https://orcid.org/0000-0002-5146-5823",
-     "isSelf": false
-    },
-    {
-     "name": "Joanna IntHout",
-     "orcid": "https://orcid.org/0000-0002-6127-0747",
-     "isSelf": false
-    },
-    {
-     "name": "David Moher",
-     "orcid": "https://orcid.org/0000-0003-2434-4206",
-     "isSelf": false
-    },
-    {
-     "name": "Rose E. O’Dea",
-     "orcid": "https://orcid.org/0000-0001-8177-5075",
-     "isSelf": false
-    },
-    {
-     "name": "Matthew J. Page",
-     "orcid": "https://orcid.org/0000-0002-4242-7526",
-     "isSelf": false
-    },
-    {
-     "name": "Paul Whaley",
-     "orcid": "https://orcid.org/0000-0003-4021-0785",
-     "isSelf": false
-    },
-    {
-     "name": "Malgorzata Lagisz",
-     "orcid": "https://orcid.org/0000-0002-3993-6127",
-     "isSelf": false
-    },
-    {
-     "name": "Shinichi Nakagawa",
-     "orcid": "https://orcid.org/0000-0002-7765-5182",
-     "isSelf": false
-    }
-   ],
-   "authorLine": "Kyle Morrison, Patrice Pottier, Pietro Pollo, Lorenzo Ricolfi, Coralie Williams, Yefeng Yang, Damien Beillouin, Simone Jaqueline Cardoso, Verónica Ferreira, Brian Gallagher, Jelaine L. Gan, Guang Hao, Mojtaba Keikha, Betina Kozlowsky-Suzuki, T.M. Kiran Kumara, Francesco Latterini, Alexandro B. Leverkus, Erin L. Macartney, Silvina Magdalena Manrique, April Robin Martinig, Ayumi Mizuno, Shanika Nanayakkara, Evangelia Ntzani, Dakis-Yaoba Ouédraogo, Edward Pursell, Zachary Simpson, Harriet Sleight, Kok Sin Woon, Ziqian Xia, Mona Ghannad, Eliza Grames, Emily Alden Hennessy, Joanna IntHout, David Moher, Rose E. O’Dea, Matthew J. Page, Paul Whaley, Malgorzata Lagisz, Shinichi Nakagawa",
-   "journal": "Environment International",
-   "year": 2026,
-   "volume": "207",
-   "issue": null,
-   "pages": "109935",
-   "kind": "article",
-   "isOA": true,
-   "oaUrl": "https://doi.org/10.1016/j.envint.2025.109935",
-   "url": "https://doi.org/10.1016/j.envint.2025.109935",
-   "citations": 2,
-   "abstract": "Meta-analysis is commonly a core component of systematic reviews and has become an important method to reconcile conflicting findings, increase statistical power, and chart new research directions. However, poor reporting practices make it challenging to evaluate the validity of meta-analyses. Despite the existence of reporting checklists, a specifically designed tool has yet to be developed to appraise the completeness with which a meta-analysis has been reported. To bridge this gap, we introduce the Meta-analysis Appraisal Tool for Environmental Sciences (MATES). To develop MATES, we adapted a Delphi process involving experts in meta-analysis methodologies, researchers with experience in guideline/appraisal tool development, and editors of relevant journals. The Delphi process had five steps, including three workshops (11-16 participants), a survey (193 participants), and a validation task (30 participants). This iterative development process resulted in a 14-item appraisal tool that reflects the environmental science and research syntheses community's consensus on essential elements to appraise the completeness with which a meta-analysis has been reported. Validation across 50 meta-analyses demonstrated that the tool is repeatable (average agreement rate: 88.97 %) and time-efficient to implement (17.00 ± 12.23 min). We also outline guidance for interpreting MATES results, describe its potential applications, and reflect on the development process. The authors provide practical implementation guidance for each MATES item, illustrated with real examples in the supplementary material. We also report an extended development methodology to support reproducibility. Finally, we built created a ShinyApp that includes both a training module and an application tool to enhance the usability of MATES (https://kylemorrisonisshiny99.shinyapps.io/MATES_shiny/). Overall, MATES provides authors, readers, stakeholders, and editors with a reliable and accessible tool for appraising the completeness with which a meta-analysis in environmental sciences has been reported.",
-   "preprintUrl": "https://doi.org/10.31222/osf.io/n3cta_v2",
    "altmetric": null
   },
   {
@@ -819,9 +603,225 @@
    "isOA": true,
    "oaUrl": "https://www.nature.com/articles/s41559-026-03117-y.pdf",
    "url": "https://doi.org/10.1038/s41559-026-03117-y",
-   "citations": 1,
+   "citations": 2,
    "abstract": "Global changes are leading to widespread species redistribution. Comprehensive assessments of range shift dynamics and their drivers are difficult, partly due to the variation in range shift detection over space and taxa. Here we compile documented range shift records for 1,758 butterfly species from 105 countries and territories, representing ~10% of the known diversity of these insects. Most species (80%) experienced range expansions, and most range shifts (79%) were associated with climate change and extreme weather events. A substantial proportion of species in our dataset contracted their ranges (27%) or shifted along elevational gradients (22%). We report widespread horizontal range expansions and contractions across tropical countries, with less evidence for elevational range shifts. We show that a clearer picture of range shift dynamics emerged only through the combination of different types of data, with expert assessments and non-English studies alleviating potential biases. Our findings of climate-driven range shifts call for concerted efforts to improve inclusive data monitoring and conservation efforts, especially for tropical countries, where human-induced land-use changes exert additional critical pressure.",
    "preprintUrl": null,
+   "altmetric": null
+  },
+  {
+   "id": "10.1016/j.envint.2025.109935",
+   "doi": "10.1016/j.envint.2025.109935",
+   "title": "MATES: A tool for appraising the completeness with which a meta-analysis has been reported",
+   "authors": [
+    {
+     "name": "Kyle Morrison",
+     "orcid": "https://orcid.org/0000-0002-3700-2398",
+     "isSelf": false
+    },
+    {
+     "name": "Patrice Pottier",
+     "orcid": "https://orcid.org/0000-0003-2106-6597",
+     "isSelf": true
+    },
+    {
+     "name": "Pietro Pollo",
+     "orcid": "https://orcid.org/0000-0001-6555-5400",
+     "isSelf": false
+    },
+    {
+     "name": "Lorenzo Ricolfi",
+     "orcid": "https://orcid.org/0000-0001-7101-3309",
+     "isSelf": false
+    },
+    {
+     "name": "Coralie Williams",
+     "orcid": "https://orcid.org/0000-0003-1312-4953",
+     "isSelf": false
+    },
+    {
+     "name": "Yefeng Yang",
+     "orcid": "https://orcid.org/0000-0002-8610-4016",
+     "isSelf": false
+    },
+    {
+     "name": "Damien Beillouin",
+     "orcid": "https://orcid.org/0000-0003-2014-3482",
+     "isSelf": false
+    },
+    {
+     "name": "Simone Jaqueline Cardoso",
+     "orcid": "https://orcid.org/0000-0002-9009-6098",
+     "isSelf": false
+    },
+    {
+     "name": "Verónica Ferreira",
+     "orcid": "https://orcid.org/0000-0001-7688-2626",
+     "isSelf": false
+    },
+    {
+     "name": "Brian Gallagher",
+     "orcid": "https://orcid.org/0000-0002-9990-8363",
+     "isSelf": false
+    },
+    {
+     "name": "Jelaine L. Gan",
+     "orcid": "https://orcid.org/0000-0002-2472-8990",
+     "isSelf": false
+    },
+    {
+     "name": "Guang Hao",
+     "orcid": "https://orcid.org/0000-0003-3780-0223",
+     "isSelf": false
+    },
+    {
+     "name": "Mojtaba Keikha",
+     "orcid": "https://orcid.org/0000-0003-1464-0810",
+     "isSelf": false
+    },
+    {
+     "name": "Betina Kozlowsky-Suzuki",
+     "orcid": "https://orcid.org/0000-0002-6403-4619",
+     "isSelf": false
+    },
+    {
+     "name": "T.M. Kiran Kumara",
+     "orcid": "https://orcid.org/0000-0002-0676-7873",
+     "isSelf": false
+    },
+    {
+     "name": "Francesco Latterini",
+     "orcid": "https://orcid.org/0000-0001-7401-8754",
+     "isSelf": false
+    },
+    {
+     "name": "Alexandro B. Leverkus",
+     "orcid": "https://orcid.org/0000-0001-5452-3614",
+     "isSelf": false
+    },
+    {
+     "name": "Erin L. Macartney",
+     "orcid": "https://orcid.org/0000-0003-3866-143X",
+     "isSelf": false
+    },
+    {
+     "name": "Silvina Magdalena Manrique",
+     "orcid": "https://orcid.org/0000-0003-4590-8648",
+     "isSelf": false
+    },
+    {
+     "name": "April Robin Martinig",
+     "orcid": "https://orcid.org/0000-0002-0972-6903",
+     "isSelf": false
+    },
+    {
+     "name": "Ayumi Mizuno",
+     "orcid": "https://orcid.org/0000-0003-0822-5637",
+     "isSelf": false
+    },
+    {
+     "name": "Shanika Nanayakkara",
+     "orcid": "https://orcid.org/0000-0002-5479-9650",
+     "isSelf": false
+    },
+    {
+     "name": "Evangelia Ntzani",
+     "orcid": "https://orcid.org/0000-0003-3712-4181",
+     "isSelf": false
+    },
+    {
+     "name": "Dakis-Yaoba Ouédraogo",
+     "orcid": "https://orcid.org/0000-0003-2674-2259",
+     "isSelf": false
+    },
+    {
+     "name": "Edward Pursell",
+     "orcid": "https://orcid.org/0000-0003-3748-0864",
+     "isSelf": false
+    },
+    {
+     "name": "Zachary Simpson",
+     "orcid": "https://orcid.org/0000-0001-8075-810X",
+     "isSelf": false
+    },
+    {
+     "name": "Harriet Sleight",
+     "orcid": "https://orcid.org/0000-0003-2810-0217",
+     "isSelf": false
+    },
+    {
+     "name": "Kok Sin Woon",
+     "orcid": "https://orcid.org/0000-0003-0149-6661",
+     "isSelf": false
+    },
+    {
+     "name": "Ziqian Xia",
+     "orcid": "https://orcid.org/0000-0002-9551-0024",
+     "isSelf": false
+    },
+    {
+     "name": "Mona Ghannad",
+     "orcid": "https://orcid.org/0000-0002-5848-3477",
+     "isSelf": false
+    },
+    {
+     "name": "Eliza Grames",
+     "orcid": "https://orcid.org/0000-0003-1743-6815",
+     "isSelf": false
+    },
+    {
+     "name": "Emily Alden Hennessy",
+     "orcid": "https://orcid.org/0000-0002-5146-5823",
+     "isSelf": false
+    },
+    {
+     "name": "Joanna IntHout",
+     "orcid": "https://orcid.org/0000-0002-6127-0747",
+     "isSelf": false
+    },
+    {
+     "name": "David Moher",
+     "orcid": "https://orcid.org/0000-0003-2434-4206",
+     "isSelf": false
+    },
+    {
+     "name": "Rose E. O’Dea",
+     "orcid": "https://orcid.org/0000-0001-8177-5075",
+     "isSelf": false
+    },
+    {
+     "name": "Matthew J. Page",
+     "orcid": "https://orcid.org/0000-0002-4242-7526",
+     "isSelf": false
+    },
+    {
+     "name": "Paul Whaley",
+     "orcid": "https://orcid.org/0000-0003-4021-0785",
+     "isSelf": false
+    },
+    {
+     "name": "Malgorzata Lagisz",
+     "orcid": "https://orcid.org/0000-0002-3993-6127",
+     "isSelf": false
+    },
+    {
+     "name": "Shinichi Nakagawa",
+     "orcid": "https://orcid.org/0000-0002-7765-5182",
+     "isSelf": false
+    }
+   ],
+   "authorLine": "Kyle Morrison, Patrice Pottier, Pietro Pollo, Lorenzo Ricolfi, Coralie Williams, Yefeng Yang, Damien Beillouin, Simone Jaqueline Cardoso, Verónica Ferreira, Brian Gallagher, Jelaine L. Gan, Guang Hao, Mojtaba Keikha, Betina Kozlowsky-Suzuki, T.M. Kiran Kumara, Francesco Latterini, Alexandro B. Leverkus, Erin L. Macartney, Silvina Magdalena Manrique, April Robin Martinig, Ayumi Mizuno, Shanika Nanayakkara, Evangelia Ntzani, Dakis-Yaoba Ouédraogo, Edward Pursell, Zachary Simpson, Harriet Sleight, Kok Sin Woon, Ziqian Xia, Mona Ghannad, Eliza Grames, Emily Alden Hennessy, Joanna IntHout, David Moher, Rose E. O’Dea, Matthew J. Page, Paul Whaley, Malgorzata Lagisz, Shinichi Nakagawa",
+   "journal": "Environment International",
+   "year": 2026,
+   "volume": "207",
+   "issue": null,
+   "pages": "109935",
+   "kind": "article",
+   "isOA": true,
+   "oaUrl": "https://doi.org/10.1016/j.envint.2025.109935",
+   "url": "https://doi.org/10.1016/j.envint.2025.109935",
+   "citations": 2,
+   "abstract": "Meta-analysis is commonly a core component of systematic reviews and has become an important method to reconcile conflicting findings, increase statistical power, and chart new research directions. However, poor reporting practices make it challenging to evaluate the validity of meta-analyses. Despite the existence of reporting checklists, a specifically designed tool has yet to be developed to appraise the completeness with which a meta-analysis has been reported. To bridge this gap, we introduce the Meta-analysis Appraisal Tool for Environmental Sciences (MATES). To develop MATES, we adapted a Delphi process involving experts in meta-analysis methodologies, researchers with experience in guideline/appraisal tool development, and editors of relevant journals. The Delphi process had five steps, including three workshops (11-16 participants), a survey (193 participants), and a validation task (30 participants). This iterative development process resulted in a 14-item appraisal tool that reflects the environmental science and research syntheses community's consensus on essential elements to appraise the completeness with which a meta-analysis has been reported. Validation across 50 meta-analyses demonstrated that the tool is repeatable (average agreement rate: 88.97 %) and time-efficient to implement (17.00 ± 12.23 min). We also outline guidance for interpreting MATES results, describe its potential applications, and reflect on the development process. The authors provide practical implementation guidance for each MATES item, illustrated with real examples in the supplementary material. We also report an extended development methodology to support reproducibility. Finally, we built created a ShinyApp that includes both a training module and an application tool to enhance the usability of MATES (https://kylemorrisonisshiny99.shinyapps.io/MATES_shiny/). Overall, MATES provides authors, readers, stakeholders, and editors with a reliable and accessible tool for appraising the completeness with which a meta-analysis in environmental sciences has been reported.",
+   "preprintUrl": "https://doi.org/10.31222/osf.io/n3cta_v2",
    "altmetric": null
   },
   {
@@ -2897,7 +2897,7 @@
    "isOA": true,
    "oaUrl": "https://link.springer.com/content/pdf/10.1186/s12915-024-02101-x.pdf",
    "url": "https://doi.org/10.1186/s12915-024-02101-x",
-   "citations": 95,
+   "citations": 96,
    "abstract": "Although variation in effect sizes and predicted values among studies of similar phenomena is inevitable, such variation far exceeds what might be produced by sampling error alone. One possible explanation for variation among results is differences among researchers in the decisions they make regarding statistical analyses. A growing array of studies has explored this analytical variability in different fields and has found substantial variability among results despite analysts having the same data and research question. Many of these studies have been in the social sciences, but one small \"many analyst\" study found similar variability in ecology. We expanded the scope of this prior work by implementing a large-scale empirical exploration of the variation in effect sizes and model predictions generated by the analytical decisions of different researchers in ecology and evolutionary biology. We used two unpublished datasets, one from evolutionary ecology (blue tit, Cyanistes caeruleus, to compare sibling number and nestling growth) and one from conservation ecology (Eucalyptus, to compare grass cover and tree seedling recruitment). The project leaders recruited 174 analyst teams, comprising 246 analysts, to investigate the answers to prespecified research questions. Analyses conducted by these teams yielded 141 usable effects (compatible with our meta-analyses and with all necessary information provided) for the blue tit dataset, and 85 usable effects for the Eucalyptus dataset. We found substantial heterogeneity among results for both datasets, although the patterns of variation differed between them. For the blue tit analyses, the average effect was convincingly negative, with less growth for nestlings living with more siblings, but there was near continuous variation in effect size from large negative effects to effects near zero, and even effects crossing the traditional threshold of statistical significance in the opposite direction. In contrast, the average relationship between grass cover and Eucalyptus seedling number was only slightly negative and not convincingly different from zero, and most effects ranged from weakly negative to weakly positive, with about a third of effects crossing the traditional threshold of significance in one direction or the other. However, there were also several striking outliers in the Eucalyptus dataset, with effects far from zero. For both datasets, we found substantial variation in the variable selection and random effects structures among analyses, as well as in the ratings of the analytical methods by peer reviewers, but we found no strong relationship between any of these and deviation from the meta-analytic mean. In other words, analyses with results that were far from the mean were no more or less likely to have dissimilar variable sets, use random effects in their models, or receive poor peer reviews than those analyses that found results that were close to the mean. The existence of substantial variability among analysis outcomes raises important questions about how ecologists and evolutionary biologists should interpret published results, and how they should conduct analyses in the future.",
    "preprintUrl": "https://doi.org/10.32942/x2gg62",
    "altmetric": null
