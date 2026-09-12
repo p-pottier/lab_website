@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-11",
+ "updated": "2026-09-12",
  "publications": [
   {
    "id": "10.1093/conphys/coag006",
@@ -2968,7 +2968,7 @@
    "isOA": true,
    "oaUrl": "https://doi.org/10.1038/s41586-025-08665-0",
    "url": "https://doi.org/10.1038/s41586-025-08665-0",
-   "citations": 77,
+   "citations": 78,
    "abstract": "Abstract Amphibians are the most threatened vertebrates, yet their resilience to rising temperatures remains poorly understood 1,2 . This is primarily because knowledge of thermal tolerance is taxonomically and geographically biased 3 , compromising global climate vulnerability assessments. Here we used a phylogenetically informed data-imputation approach to predict the heat tolerance of 60% of amphibian species and assessed their vulnerability to daily temperature variations in thermal refugia. We found that 104 out of 5,203 species (2%) are currently exposed to overheating events in shaded terrestrial conditions. Despite accounting for heat-tolerance plasticity, a 4 °C global temperature increase would create a step change in impact severity, pushing 7.5% of species beyond their physiological limits. In the Southern Hemisphere, tropical species encounter disproportionally more overheating events, while non-tropical species are more susceptible in the Northern Hemisphere. These findings challenge evidence for a general latitudinal gradient in overheating risk 4–6 and underscore the importance of considering climatic variability in vulnerability assessments. We provide conservative estimates assuming access to cool shaded microenvironments. Thus, the impacts of global warming will probably exceed our projections. Our microclimate-explicit analyses demonstrate that vegetation and water bodies are critical in buffering amphibians during heat waves. Immediate action is needed to preserve and manage these microhabitat features.",
    "preprintUrl": "https://doi.org/10.32942/x2t02t",
    "altmetric": null
