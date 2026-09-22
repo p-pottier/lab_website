@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-21",
+ "updated": "2026-09-22",
  "total": 593,
  "countries": 65,
  "institutions": 298,
@@ -85,7 +85,7 @@
    "lon": 127.85278
   },
   {
-   "name": "Szymon M. Drobniak",
+   "name": "Szymon Marian Drobniak",
    "orcid": "https://orcid.org/0000-0001-8101-6247",
    "openalex": "https://openalex.org/A5052648587",
    "works": 54,
@@ -111,7 +111,7 @@
    "lon": 151.20732
   },
   {
-   "name": "Samantha Burke",
+   "name": "Samantha M. Burke",
    "orcid": "https://orcid.org/0000-0001-6902-974X",
    "openalex": "https://openalex.org/A5022410213",
    "works": 34,
@@ -267,7 +267,7 @@
    "lon": 13.41053
   },
   {
-   "name": "Tracy D. Ainsworth",
+   "name": "Tracy Danielle Ainsworth",
    "orcid": "https://orcid.org/0000-0001-6476-9263",
    "openalex": "https://openalex.org/A5086425135",
    "works": 10,
@@ -371,7 +371,7 @@
    "lon": -100.30222
   },
   {
-   "name": "Dylan Gomes",
+   "name": "Dylan G. E. Gomes",
    "orcid": "https://orcid.org/0000-0002-2642-3728",
    "openalex": "https://openalex.org/A5074386555",
    "works": 5,
@@ -515,7 +515,7 @@
   },
   {
    "name": "Eliza Grames",
-   "orcid": null,
+   "orcid": "https://orcid.org/0000-0003-1743-6815",
    "openalex": "https://openalex.org/A5019569959",
    "works": 4,
    "lastYear": 2026,
@@ -644,8 +644,8 @@
    "lon": 8.19149
   },
   {
-   "name": "Yong Lin",
-   "orcid": null,
+   "name": "Yong Q. Lin",
+   "orcid": "https://orcid.org/0000-0002-2839-5740",
    "openalex": "https://openalex.org/A5048622739",
    "works": 4,
    "lastYear": 2026,
@@ -709,7 +709,7 @@
    "lon": -2.79902
   },
   {
-   "name": "Alistair M. Senior",
+   "name": "Alistair McNair Senior",
    "orcid": "https://orcid.org/0000-0001-9805-7280",
    "openalex": "https://openalex.org/A5030763843",
    "works": 3,
@@ -722,7 +722,7 @@
    "lon": 151.20732
   },
   {
-   "name": "Amanda Bretman",
+   "name": "Amanda J. Bretman",
    "orcid": "https://orcid.org/0000-0002-4421-3337",
    "openalex": "https://openalex.org/A5008689070",
    "works": 3,
@@ -762,7 +762,7 @@
   },
   {
    "name": "Betina Kozlowsky-Suzuki",
-   "orcid": null,
+   "orcid": "https://orcid.org/0000-0002-6403-4619",
    "openalex": "https://openalex.org/A5115859095",
    "works": 3,
    "lastYear": 2025,
@@ -775,7 +775,7 @@
   },
   {
    "name": "Brian Gallagher",
-   "orcid": null,
+   "orcid": "https://orcid.org/0000-0002-9990-8363",
    "openalex": "https://openalex.org/A5091799149",
    "works": 3,
    "lastYear": 2025,
@@ -814,7 +814,7 @@
   },
   {
    "name": "Dakis-Yaoba Ouédraogo",
-   "orcid": null,
+   "orcid": "https://orcid.org/0000-0003-2674-2259",
    "openalex": "https://openalex.org/A5115859097",
    "works": 3,
    "lastYear": 2025,
@@ -839,19 +839,6 @@
    "lon": 2.3488
   },
   {
-   "name": "David Berger",
-   "orcid": "https://orcid.org/0000-0003-0196-6109",
-   "openalex": "https://openalex.org/A5006823603",
-   "works": 3,
-   "lastYear": 2024,
-   "institution": "Uppsala University",
-   "city": "Uppsala",
-   "country": "Sweden",
-   "countryCode": "SE",
-   "lat": 59.85882,
-   "lon": 17.63889
-  },
-  {
    "name": "David Moher",
    "orcid": "https://orcid.org/0000-0003-2434-4206",
    "openalex": "https://openalex.org/A5068353058",
@@ -863,6 +850,19 @@
    "countryCode": "CA",
    "lat": 45.41117,
    "lon": -75.69812
+  },
+  {
+   "name": "David W. Berger",
+   "orcid": "https://orcid.org/0000-0003-0196-6109",
+   "openalex": "https://openalex.org/A5006823603",
+   "works": 3,
+   "lastYear": 2024,
+   "institution": "Uppsala University",
+   "city": "Uppsala",
+   "country": "Sweden",
+   "countryCode": "SE",
+   "lat": 59.85882,
+   "lon": 17.63889
   },
   {
    "name": "Eli S.J. Thoré",
@@ -891,7 +891,7 @@
    "lon": 144.96332
   },
   {
-   "name": "Emily A. Hennessy",
+   "name": "Emily Alden Hennessy",
    "orcid": "https://orcid.org/0000-0002-5146-5823",
    "openalex": "https://openalex.org/A5080066340",
    "works": 3,
@@ -943,7 +943,7 @@
    "lon": 17.08949089050293
   },
   {
-   "name": "Gordana Popović",
+   "name": "Gordana C. Popovic",
    "orcid": "https://orcid.org/0000-0002-1376-1058",
    "openalex": "https://openalex.org/A5065769946",
    "works": 3,
@@ -983,7 +983,7 @@
   },
   {
    "name": "Harriet Sleight",
-   "orcid": null,
+   "orcid": "https://orcid.org/0000-0003-2810-0217",
    "openalex": "https://openalex.org/A5115859098",
    "works": 3,
    "lastYear": 2025,
@@ -1424,7 +1424,7 @@
    "lon": 151.2073211669922
   },
   {
-   "name": "Tiago A. Marques",
+   "name": "Tiago André Marques",
    "orcid": "https://orcid.org/0000-0002-2581-1972",
    "openalex": "https://openalex.org/A5028673313",
    "works": 3,
@@ -1477,7 +1477,7 @@
   },
   {
    "name": "Zachary Simpson",
-   "orcid": null,
+   "orcid": "https://orcid.org/0000-0001-8075-810X",
    "openalex": "https://openalex.org/A5066487122",
    "works": 3,
    "lastYear": 2025,
@@ -1503,7 +1503,7 @@
   },
   {
    "name": "Aimee Chhen",
-   "orcid": null,
+   "orcid": "https://orcid.org/0009-0003-1850-1786",
    "openalex": "https://openalex.org/A5092456941",
    "works": 2,
    "lastYear": 2026,
@@ -1554,7 +1554,7 @@
    "lon": -90.07507
   },
   {
-   "name": "Alexander Elsy",
+   "name": "Alexander D. Elsy",
    "orcid": "https://orcid.org/0000-0002-2816-9495",
    "openalex": "https://openalex.org/A5080725262",
    "works": 2,
@@ -1567,7 +1567,7 @@
    "lon": 8.55
   },
   {
-   "name": "Alexandra A. de Sousa",
+   "name": "Alexandra Allison de Sousa",
    "orcid": "https://orcid.org/0000-0003-2379-3894",
    "openalex": "https://openalex.org/A5017592797",
    "works": 2,
@@ -1983,7 +1983,7 @@
    "lon": 153.02809
   },
   {
-   "name": "Connor D. Crouch",
+   "name": "Connor Davidson Crouch",
    "orcid": "https://orcid.org/0000-0003-0353-5820",
    "openalex": "https://openalex.org/A5062192125",
    "works": 2,
@@ -2126,7 +2126,7 @@
    "lon": -3.19648
   },
   {
-   "name": "Dustin Gannon",
+   "name": "Dustin G. Gannon",
    "orcid": "https://orcid.org/0000-0002-6936-8626",
    "openalex": "https://openalex.org/A5056992660",
    "works": 2,
@@ -2165,7 +2165,7 @@
    "lon": -4.25763
   },
   {
-   "name": "Ekaterina Ovsyanikova",
+   "name": "Ekaterina N. Ovsyanikova",
    "orcid": "https://orcid.org/0000-0002-6893-0955",
    "openalex": "https://openalex.org/A5044139382",
    "works": 2,
@@ -2217,7 +2217,7 @@
    "lon": -79.84963
   },
   {
-   "name": "Emma J. Hudgins",
+   "name": "Emma Judith Hudgins",
    "orcid": "https://orcid.org/0000-0002-8402-5111",
    "openalex": "https://openalex.org/A5012811435",
    "works": 2,
@@ -2243,7 +2243,7 @@
    "lon": 11.00783
   },
   {
-   "name": "Erik Svensson",
+   "name": "ERIK I. SVENSSON",
    "orcid": "https://orcid.org/0000-0001-9006-016X",
    "openalex": "https://openalex.org/A5015610644",
    "works": 2,
@@ -2321,7 +2321,7 @@
    "lon": 13.410530090332031
   },
   {
-   "name": "Fiona Fidler",
+   "name": "Fiona M. Fidler",
    "orcid": "https://orcid.org/0000-0002-2700-2562",
    "openalex": "https://openalex.org/A5006406097",
    "works": 2,
@@ -2360,7 +2360,7 @@
    "lon": 151.20732
   },
   {
-   "name": "Frederick Dadzie",
+   "name": "Frederick Asankom Dadzie",
    "orcid": "https://orcid.org/0000-0001-6130-9907",
    "openalex": "https://openalex.org/A5081321539",
    "works": 2,
@@ -2400,7 +2400,7 @@
   },
   {
    "name": "Gideon Gywa",
-   "orcid": null,
+   "orcid": "https://orcid.org/0000-0002-0537-6707",
    "openalex": "https://openalex.org/A5099113092",
    "works": 2,
    "lastYear": 2026,
@@ -2451,7 +2451,7 @@
    "lon": -123.26204
   },
   {
-   "name": "Hannah Fraser",
+   "name": "Hannah S. Fraser",
    "orcid": "https://orcid.org/0000-0003-2443-4463",
    "openalex": "https://openalex.org/A5089837795",
    "works": 2,
@@ -2594,19 +2594,6 @@
    "lon": -123.11934
   },
   {
-   "name": "J. L. Smith",
-   "orcid": "https://orcid.org/0009-0009-2388-2134",
-   "openalex": "https://openalex.org/A5008912128",
-   "works": 2,
-   "lastYear": 2024,
-   "institution": "University of Hull",
-   "city": "Hull",
-   "country": "United Kingdom",
-   "countryCode": "GB",
-   "lat": 53.7446,
-   "lon": -0.33525
-  },
-  {
    "name": "Jake M. Martin",
    "orcid": "https://orcid.org/0000-0001-9544-9094",
    "openalex": "https://openalex.org/A5044851460",
@@ -2646,6 +2633,19 @@
    "lon": -0.12574
   },
   {
+   "name": "Jamie L. Smith",
+   "orcid": "https://orcid.org/0009-0009-2388-2134",
+   "openalex": "https://openalex.org/A5008912128",
+   "works": 2,
+   "lastYear": 2024,
+   "institution": "University of Hull",
+   "city": "Hull",
+   "country": "United Kingdom",
+   "countryCode": "GB",
+   "lat": 53.7446,
+   "lon": -0.33525
+  },
+  {
    "name": "Jaramar Villarreal‐Rosas",
    "orcid": "https://orcid.org/0000-0001-6056-3268",
    "openalex": "https://openalex.org/A5011161248",
@@ -2672,7 +2672,7 @@
    "lon": -82.55402374267578
   },
   {
-   "name": "Jennifer S. Powers",
+   "name": "Jennifer Sarah Powers",
    "orcid": "https://orcid.org/0000-0003-3451-4803",
    "openalex": "https://openalex.org/A5067968850",
    "works": 2,
@@ -2854,7 +2854,7 @@
    "lon": 153.02809
   },
   {
-   "name": "Kimberly Cressman",
+   "name": "Kimberly A. Cressman",
    "orcid": "https://orcid.org/0000-0002-8083-2434",
    "openalex": "https://openalex.org/A5062386385",
    "works": 2,
@@ -3023,7 +3023,7 @@
    "lon": 11.300000190734863
   },
   {
-   "name": "Luna L. Sánchez‐Reyes",
+   "name": "Luna Luisa Sanchez Reyes",
    "orcid": "https://orcid.org/0000-0001-7668-2528",
    "openalex": "https://openalex.org/A5052346049",
    "works": 2,
@@ -3387,7 +3387,7 @@
    "lon": -6.24889
   },
   {
-   "name": "Nussaïbah B. Raja",
+   "name": "Nussaïbah Begum Raja",
    "orcid": "https://orcid.org/0000-0002-0000-3944",
    "openalex": "https://openalex.org/A5003814650",
    "works": 2,
@@ -3478,7 +3478,7 @@
    "lon": -34.949527740478516
   },
   {
-   "name": "Peter A. Vesk",
+   "name": "Peter Anton Vesk",
    "orcid": "https://orcid.org/0000-0003-2008-7062",
    "openalex": "https://openalex.org/A5055395818",
    "works": 2,
@@ -3517,7 +3517,7 @@
    "lon": 25.46816
   },
   {
-   "name": "Pietro B. D’Amelio",
+   "name": "Pietro Bruno D'Amelio",
    "orcid": "https://orcid.org/0000-0002-4095-6088",
    "openalex": "https://openalex.org/A5021326920",
    "works": 2,
@@ -3712,7 +3712,7 @@
    "lon": 7.68682
   },
   {
-   "name": "Sara Gandy",
+   "name": "Sara Louise Gandy",
    "orcid": "https://orcid.org/0000-0003-2579-4479",
    "openalex": "https://openalex.org/A5018629087",
    "works": 2,
@@ -3790,7 +3790,7 @@
    "lon": 8.53333
   },
   {
-   "name": "Simon C. Griffith",
+   "name": "Simon Charles Griffith",
    "orcid": "https://orcid.org/0000-0001-7612-4999",
    "openalex": "https://openalex.org/A5075126259",
    "works": 2,
@@ -3907,7 +3907,7 @@
    "lon": 151.20732
   },
   {
-   "name": "Timm F. Döbert",
+   "name": "Timm Fabian Döbert",
    "orcid": "https://orcid.org/0000-0002-1601-8665",
    "openalex": "https://openalex.org/A5074851435",
    "works": 2,
@@ -4050,7 +4050,7 @@
    "lon": 2.46569
   },
   {
-   "name": "Z. Valentina Zizzari",
+   "name": "Zaira Valentina Zizzari",
    "orcid": "https://orcid.org/0000-0002-9945-3071",
    "openalex": "https://openalex.org/A5001209042",
    "works": 2,
@@ -4115,19 +4115,6 @@
    "lon": 151.20732
   },
   {
-   "name": "A. Dobson",
-   "orcid": "https://orcid.org/0000-0003-1541-927X",
-   "openalex": "https://openalex.org/A5087812035",
-   "works": 1,
-   "lastYear": 2025,
-   "institution": "University of Glasgow",
-   "city": "Glasgow",
-   "country": "United Kingdom",
-   "countryCode": "GB",
-   "lat": 55.86515,
-   "lon": -4.25763
-  },
-  {
    "name": "Aaron Willcox",
    "orcid": "https://orcid.org/0000-0003-2536-2596",
    "openalex": "https://openalex.org/A5070327503",
@@ -4142,7 +4129,7 @@
   },
   {
    "name": "Abubakar Ringim",
-   "orcid": null,
+   "orcid": "https://orcid.org/0000-0003-0968-0842",
    "openalex": "https://openalex.org/A5048716085",
    "works": 1,
    "lastYear": 2026,
@@ -4165,6 +4152,19 @@
    "countryCode": "DE",
    "lat": 51.05089,
    "lon": 13.73832
+  },
+  {
+   "name": "Adam J Dobson",
+   "orcid": "https://orcid.org/0000-0003-1541-927X",
+   "openalex": "https://openalex.org/A5087812035",
+   "works": 1,
+   "lastYear": 2025,
+   "institution": "University of Glasgow",
+   "city": "Glasgow",
+   "country": "United Kingdom",
+   "countryCode": "GB",
+   "lat": 55.86515,
+   "lon": -4.25763
   },
   {
    "name": "Adriana Vergés",
@@ -4232,7 +4232,7 @@
    "lon": 0.11667
   },
   {
-   "name": "Aleksandra Dolezal",
+   "name": "Aleksandra J. Dolezal",
    "orcid": "https://orcid.org/0000-0002-1388-3610",
    "openalex": "https://openalex.org/A5028232292",
    "works": 1,
@@ -4271,7 +4271,7 @@
    "lon": 7.745530128479004
   },
   {
-   "name": "Alexandra G. Duffy",
+   "name": "Alexandra Grace Duffy",
    "orcid": "https://orcid.org/0000-0002-7069-5384",
    "openalex": "https://openalex.org/A5043846842",
    "works": 1,
@@ -4389,7 +4389,7 @@
   },
   {
    "name": "André Freitas",
-   "orcid": "https://orcid.org/0009-0003-8427-3478",
+   "orcid": "https://orcid.org/0000-0002-5763-4990",
    "openalex": "https://openalex.org/A5101698877",
    "works": 1,
    "lastYear": 2026,
@@ -4401,7 +4401,7 @@
    "lon": -47.06083
   },
   {
-   "name": "Andrea Contina",
+   "name": "Andrea J. Contina",
    "orcid": "https://orcid.org/0000-0002-0484-6711",
    "openalex": "https://openalex.org/A5020004054",
    "works": 1,
@@ -4454,7 +4454,7 @@
   },
   {
    "name": "Avishikta Chakraborty",
-   "orcid": null,
+   "orcid": "https://orcid.org/0000-0001-9053-8522",
    "openalex": "https://openalex.org/A5126379534",
    "works": 1,
    "lastYear": 2026,
@@ -4532,7 +4532,7 @@
   },
   {
    "name": "Baojun Sun",
-   "orcid": null,
+   "orcid": "https://orcid.org/0000-0002-7318-6059",
    "openalex": "https://openalex.org/A5112215598",
    "works": 1,
    "lastYear": 2026,
@@ -4583,6 +4583,19 @@
    "lon": 7.68682
   },
   {
+   "name": "Bruno A. R. Soares",
+   "orcid": "https://orcid.org/0000-0003-2737-1154",
+   "openalex": "https://openalex.org/A5076891892",
+   "works": 1,
+   "lastYear": 2024,
+   "institution": "Swedish University of Agricultural Sciences",
+   "city": "Uppsala",
+   "country": "Sweden",
+   "countryCode": "SE",
+   "lat": 59.85882,
+   "lon": 17.63889
+  },
+  {
    "name": "Bruno Eleres Soares",
    "orcid": "https://orcid.org/0000-0001-5678-0403",
    "openalex": "https://openalex.org/A5062113641",
@@ -4594,19 +4607,6 @@
    "countryCode": "CA",
    "lat": 50.45008087158203,
    "lon": -104.6177978515625
-  },
-  {
-   "name": "Bruno Soares",
-   "orcid": "https://orcid.org/0000-0003-2737-1154",
-   "openalex": "https://openalex.org/A5076891892",
-   "works": 1,
-   "lastYear": 2024,
-   "institution": "Swedish University of Agricultural Sciences",
-   "city": "Uppsala",
-   "country": "Sweden",
-   "countryCode": "SE",
-   "lat": 59.85882,
-   "lon": 17.63889
   },
   {
    "name": "Bryan T Haywood",
@@ -4830,7 +4830,7 @@
    "lon": 33.7952766418457
   },
   {
-   "name": "Daniel G. Hamilton",
+   "name": "Daniel George Hamilton",
    "orcid": "https://orcid.org/0000-0001-8104-474X",
    "openalex": "https://openalex.org/A5083857825",
    "works": 1,
@@ -4844,7 +4844,7 @@
   },
   {
    "name": "Daniel Gliksman",
-   "orcid": null,
+   "orcid": "https://orcid.org/0000-0002-6388-3416",
    "openalex": "https://openalex.org/A5078974966",
    "works": 1,
    "lastYear": 2023,
@@ -4974,7 +4974,7 @@
   },
   {
    "name": "Diego Ellis Soto",
-   "orcid": null,
+   "orcid": "https://orcid.org/0000-0003-4766-021X",
    "openalex": "https://openalex.org/A5109616702",
    "works": 1,
    "lastYear": 2026,
@@ -5259,7 +5259,7 @@
    "lon": -75.6981201171875
   },
   {
-   "name": "Felicia Lasmana",
+   "name": "Felicia P. S. Lasmana",
    "orcid": "https://orcid.org/0000-0002-9291-4293",
    "openalex": "https://openalex.org/A5009824949",
    "works": 1,
@@ -5364,7 +5364,7 @@
   },
   {
    "name": "Gilberto Almeira",
-   "orcid": null,
+   "orcid": "https://orcid.org/0000-0003-2146-3023",
    "openalex": "https://openalex.org/A5119784463",
    "works": 1,
    "lastYear": 2026,
@@ -5428,7 +5428,7 @@
    "lon": 126.9784
   },
   {
-   "name": "Harrison Goldspiel",
+   "name": "Harrison B. Goldspiel",
    "orcid": "https://orcid.org/0000-0001-9193-8165",
    "openalex": "https://openalex.org/A5039826712",
    "works": 1,
@@ -5701,7 +5701,7 @@
    "lon": -74.45182
   },
   {
-   "name": "Jerome Wiedmann",
+   "name": "Jerome L. Wiedmann",
    "orcid": null,
    "openalex": "https://openalex.org/A5055203077",
    "works": 1,
@@ -5988,7 +5988,7 @@
   },
   {
    "name": "Krushnamegh Kunte",
-   "orcid": null,
+   "orcid": "https://orcid.org/0000-0002-3860-6118",
    "openalex": "https://openalex.org/A5066687230",
    "works": 1,
    "lastYear": 2026,
@@ -6000,7 +6000,7 @@
    "lon": 72.88261
   },
   {
-   "name": "Lars Pettersson",
+   "name": "LARS B. PETTERSSON",
    "orcid": "https://orcid.org/0000-0001-5745-508X",
    "openalex": "https://openalex.org/A5022635963",
    "works": 1,
@@ -6169,7 +6169,7 @@
    "lon": null
   },
   {
-   "name": "Magdalena Lenda",
+   "name": "Magdalena Lidia Lenda",
    "orcid": "https://orcid.org/0000-0001-7824-7220",
    "openalex": "https://openalex.org/A5072557414",
    "works": 1,
@@ -6222,7 +6222,7 @@
   },
   {
    "name": "Malgorzata Lagisz",
-   "orcid": null,
+   "orcid": "https://orcid.org/0000-0002-3993-6127",
    "openalex": "https://openalex.org/A5130389617",
    "works": 1,
    "lastYear": 2026,
@@ -6364,7 +6364,7 @@
    "lon": 15.62157
   },
   {
-   "name": "Martín A. Núñez",
+   "name": "Martín Andrés Nuñez",
    "orcid": "https://orcid.org/0000-0003-0324-5479",
    "openalex": "https://openalex.org/A5026832761",
    "works": 1,
@@ -6416,7 +6416,7 @@
    "lon": 139.69171
   },
   {
-   "name": "Matthew J. Page",
+   "name": "Matthew James Page",
    "orcid": "https://orcid.org/0000-0002-4242-7526",
    "openalex": "https://openalex.org/A5089979303",
    "works": 1,
@@ -6547,7 +6547,7 @@
   },
   {
    "name": "Miriam Muñoz-Rojas",
-   "orcid": null,
+   "orcid": "https://orcid.org/0000-0002-9746-5191",
    "openalex": "https://openalex.org/A5069598240",
    "works": 1,
    "lastYear": 2023,
@@ -6677,7 +6677,7 @@
   },
   {
    "name": "Nicholas C Wu",
-   "orcid": null,
+   "orcid": "https://orcid.org/0000-0002-7130-1279",
    "openalex": "https://openalex.org/A5126394569",
    "works": 1,
    "lastYear": 2026,
@@ -6755,7 +6755,7 @@
   },
   {
    "name": "Orla McKibbin",
-   "orcid": null,
+   "orcid": "https://orcid.org/0009-0006-4622-4810",
    "openalex": "https://openalex.org/A5107511006",
    "works": 1,
    "lastYear": 2024,
@@ -6949,7 +6949,7 @@
    "lon": 22.26869
   },
   {
-   "name": "Ricardo Cruz‐Correia",
+   "name": "Ricardo Joao Cruz-Correia",
    "orcid": "https://orcid.org/0000-0002-3764-5158",
    "openalex": "https://openalex.org/A5048922185",
    "works": 1,
@@ -7067,7 +7067,7 @@
   },
   {
    "name": "S. S. Killen",
-   "orcid": null,
+   "orcid": "https://orcid.org/0000-0003-4949-3988",
    "openalex": "https://openalex.org/A5054198511",
    "works": 1,
    "lastYear": 2026,
@@ -7210,7 +7210,7 @@
   },
   {
    "name": "Shinichi Nakagawa",
-   "orcid": null,
+   "orcid": "https://orcid.org/0000-0002-7765-5182",
    "openalex": "https://openalex.org/A5130350144",
    "works": 1,
    "lastYear": 2026,
@@ -7431,7 +7431,7 @@
   },
   {
    "name": "Szymon M. Drobniak",
-   "orcid": null,
+   "orcid": "https://orcid.org/0000-0001-8101-6247",
    "openalex": "https://openalex.org/A5121044971",
    "works": 1,
    "lastYear": 2026,
@@ -7599,7 +7599,7 @@
    "lon": -99.12766
   },
   {
-   "name": "Vijay Barve",
+   "name": "Vijay V. Barve",
    "orcid": "https://orcid.org/0000-0002-4852-2567",
    "openalex": "https://openalex.org/A5085476288",
    "works": 1,
@@ -7625,7 +7625,7 @@
    "lon": -122.5697021484375
   },
   {
-   "name": "Vikram P. Narayan",
+   "name": "Vikram Pratap Narayan",
    "orcid": "https://orcid.org/0000-0002-3543-2394",
    "openalex": "https://openalex.org/A5034784566",
    "works": 1,

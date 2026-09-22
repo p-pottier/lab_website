@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-21",
+ "updated": "2026-09-22",
  "publications": [
   {
    "id": "10.1093/conphys/coag006",
@@ -6006,7 +6006,7 @@
    "isOA": true,
    "oaUrl": "https://www.sciencedirect.com/science/article/am/pii/S0003347219300910?via%3Dihub",
    "url": "https://doi.org/10.1016/j.anbehav.2019.03.012",
-   "citations": 16,
+   "citations": 17,
    "abstract": null,
    "preprintUrl": null,
    "altmetric": null
@@ -6042,7 +6042,7 @@
    "isOA": true,
    "oaUrl": "https://academic.oup.com/beheco/article-pdf/29/5/1088/25696142/ary084.pdf",
    "url": "https://doi.org/10.1093/beheco/ary084",
-   "citations": 18,
+   "citations": 19,
    "abstract": "Studying physical contests for indivisible resources is a major theme in behavioral ecology. Intensity (aggressiveness) and outcome of such contests may be influenced by individual abilities to gain and keep the resource (resource-holding potential, RHP), but also by the value they place in the resource (resource value, RV). Contestants can assess resource quality directly (objective RV) or estimate it according to their physiological status and their experience (subjective RV). In some parasitoid species, adult females fight for hosts on which they lay eggs and feed. Here, we studied contests between 2 females of the solitary parasitoid Eupelmus vuilleti when exploiting simultaneously a host: a fourth instar larva or a pupa of the cowpea seed beetle Callosobruchus maculatus. We first demonstrated that fourth instar larvae represent a resource of higher objective RV because offspring that developed on such hosts were heavier. We then showed that both objective (host quality) and subjective (initial egg load and habitat quality) RV did not influence oviposition decisions, but interacted to affect aggressiveness and contest outcome. Females won more frequently when they had more mature eggs than their opponent, but this effect was less pronounced when fighting for a high-quality host. In addition, females from high-quality habitat were more aggressive and more frequently won contests over low-quality hosts, whereas females from low-quality habitat were more aggressive and more frequently won contests over high-quality hosts. This experiment thus highlights the complex relationships existing between key factors that affect animals’ conflict resolution.",
    "preprintUrl": null,
    "altmetric": null
