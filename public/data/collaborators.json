@@ -1,6 +1,6 @@
 {
- "updated": "2026-09-23",
- "total": 593,
+ "updated": "2026-09-24",
+ "total": 592,
  "countries": 63,
  "institutions": 286,
  "byCountry": {
@@ -14,7 +14,7 @@
   "United States": 75,
   "France": 17,
   "New Zealand": 3,
-  "Canada": 31,
+  "Canada": 30,
   "Switzerland": 11,
   "Iran": 4,
   "Spain": 5,
@@ -99,7 +99,7 @@
    "name": "Malgorzata Lagisz",
    "orcid": "https://orcid.org/0000-0002-3993-6127",
    "openalex": "https://openalex.org/A5007515715",
-   "works": 46,
+   "works": 48,
    "lastYear": 2026,
    "institution": "UNSW Sydney",
    "city": "Sydney",
@@ -742,8 +742,8 @@
    "city": "Norwich",
    "country": "United Kingdom",
    "countryCode": "GB",
-   "lat": 52.627830505371094,
-   "lon": 1.2983399629592896
+   "lat": 52.62783,
+   "lon": 1.29834
   },
   {
    "name": "Berta Canal Domènech",
@@ -781,8 +781,8 @@
    "city": "Montreal",
    "country": "Canada",
    "countryCode": "CA",
-   "lat": 45.50883865356445,
-   "lon": -73.58780670166016
+   "lat": 45.50884,
+   "lon": -73.58781
   },
   {
    "name": "Clelia Gasparini",
@@ -1145,8 +1145,8 @@
    "city": "Norwich",
    "country": "United Kingdom",
    "countryCode": "GB",
-   "lat": 52.627830505371094,
-   "lon": 1.2983399629592896
+   "lat": 52.62783,
+   "lon": 1.29834
   },
   {
    "name": "Matthew D. Taylor",
@@ -1691,8 +1691,8 @@
    "city": "Pretoria",
    "country": "South Africa",
    "countryCode": "ZA",
-   "lat": -25.73721694946289,
-   "lon": 28.275968551635742
+   "lat": -25.74486,
+   "lon": 28.18783
   },
   {
    "name": "Aneesh P. H. Bose",
@@ -1873,8 +1873,8 @@
    "city": "Wuhan",
    "country": "China",
    "countryCode": "CN",
-   "lat": 30.542654037475586,
-   "lon": 114.4202651977539
+   "lat": 30.58333,
+   "lon": 114.26667
   },
   {
    "name": "Camille Bordes",
@@ -3073,19 +3073,6 @@
    "lon": -1.89983
   },
   {
-   "name": "Malgorzata Lagisz",
-   "orcid": null,
-   "openalex": "https://openalex.org/A5126551012",
-   "works": 2,
-   "lastYear": 2026,
-   "institution": "University of Alberta",
-   "city": "Edmonton",
-   "country": "Canada",
-   "countryCode": "CA",
-   "lat": 53.55014,
-   "lon": -113.46871
-  },
-  {
    "name": "Marc Gilles",
    "orcid": "https://orcid.org/0000-0003-4222-9754",
    "openalex": "https://openalex.org/A5078868659",
@@ -3433,8 +3420,8 @@
    "city": "Valencia",
    "country": "Spain",
    "countryCode": "ES",
-   "lat": 39.47391128540039,
-   "lon": -0.3796600103378296
+   "lat": 39.47391,
+   "lon": -0.37966
   },
   {
    "name": "Paula Andrea Martinez",
@@ -4187,8 +4174,8 @@
    "city": "Mengla",
    "country": "China",
    "countryCode": "CN",
-   "lat": 21.93402862548828,
-   "lon": 101.25299072265625
+   "lat": 21.46234,
+   "lon": 101.5637
   },
   {
    "name": "Akito Y. Kawahara",
@@ -4538,8 +4525,8 @@
    "city": "Almaty",
    "country": "Kazakhstan",
    "countryCode": "KZ",
-   "lat": 43.25,
-   "lon": 76.91667175292969
+   "lat": 43.25249,
+   "lon": 76.9115
   },
   {
    "name": "Bawan Amin",
@@ -4881,8 +4868,8 @@
   },
   {
    "name": "David Berger",
-   "orcid": null,
-   "openalex": "https://openalex.org/A5144372417",
+   "orcid": "https://orcid.org/0000-0003-0196-6109",
+   "openalex": "https://openalex.org/A5135168554",
    "works": 1,
    "lastYear": 2026,
    "institution": "Uppsala University",
@@ -5227,8 +5214,8 @@
    "city": "Cape Town",
    "country": "South Africa",
    "countryCode": "ZA",
-   "lat": -33.925838470458984,
-   "lon": 18.423219680786133
+   "lat": -33.92584,
+   "lon": 18.42322
   },
   {
    "name": "Farah Abdel Samad",
@@ -5323,8 +5310,8 @@
   },
   {
    "name": "Geoffroy Citegetse",
-   "orcid": null,
-   "openalex": "https://openalex.org/A5069045953",
+   "orcid": "https://orcid.org/0000-0002-2870-6166",
+   "openalex": "https://openalex.org/A5065328254",
    "works": 1,
    "lastYear": 2023,
    "institution": "BirdLife International",
@@ -5557,7 +5544,7 @@
   },
   {
    "name": "Jade A.T. Badon",
-   "orcid": null,
+   "orcid": "https://orcid.org/0000-0002-0529-0778",
    "openalex": "https://openalex.org/A5106152829",
    "works": 1,
    "lastYear": 2026,
@@ -6579,8 +6566,8 @@
    "city": "Islamabad",
    "country": "Pakistan",
    "countryCode": "PK",
-   "lat": 33.72148132324219,
-   "lon": 73.04328918457031
+   "lat": 33.72148,
+   "lon": 73.04329
   },
   {
    "name": "Munemitsu Akasaka",
@@ -6605,8 +6592,8 @@
    "city": "Bhubaneswar",
    "country": "India",
    "countryCode": "IN",
-   "lat": 20.315000534057617,
-   "lon": 85.81700134277344
+   "lat": 20.27241,
+   "lon": 85.83385
   },
   {
    "name": "Natalie M. Claunch",
@@ -7177,8 +7164,8 @@
    "city": "Muan",
    "country": "South Korea",
    "countryCode": "KR",
-   "lat": 34.910404205322266,
-   "lon": 126.43608093261719
+   "lat": 34.99014,
+   "lon": 126.47899
   },
   {
    "name": "Seung‐Yun Baek",
@@ -7441,9 +7428,9 @@
    "lon": 19.93658
   },
   {
-   "name": "T.M. Kiran Kumara",
+   "name": "T. M. Kiran Kumara",
    "orcid": null,
-   "openalex": "https://openalex.org/A5120620575",
+   "openalex": "https://openalex.org/A5109578819",
    "works": 1,
    "lastYear": 2025,
    "institution": "Indian Council of Agricultural Research",
@@ -7619,8 +7606,8 @@
    "city": "Novato",
    "country": "United States",
    "countryCode": "US",
-   "lat": 38.107421875,
-   "lon": -122.5697021484375
+   "lat": 38.10742,
+   "lon": -122.5697
   },
   {
    "name": "Vikram Pratap Narayan",
@@ -7632,8 +7619,8 @@
    "city": "Novato",
    "country": "United States",
    "countryCode": "US",
-   "lat": 38.107421875,
-   "lon": -122.5697021484375
+   "lat": 38.10742,
+   "lon": -122.5697
   },
   {
    "name": "Wen-Chen Chu",
@@ -7762,8 +7749,8 @@
    "city": "Tsukuba",
    "country": "Japan",
    "countryCode": "JP",
-   "lat": 36.050418853759766,
-   "lon": 140.1185302734375
+   "lat": 36.08333,
+   "lon": 140.11667
   },
   {
    "name": "Zhenzhuo Xian",
