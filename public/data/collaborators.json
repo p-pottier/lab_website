@@ -1,6 +1,6 @@
 {
- "updated": "2026-09-24",
- "total": 592,
+ "updated": "2026-09-25",
+ "total": 590,
  "countries": 63,
  "institutions": 286,
  "byCountry": {
@@ -9,7 +9,7 @@
   "Australia": 121,
   "Germany": 39,
   "Sweden": 26,
-  "United Kingdom": 53,
+  "United Kingdom": 51,
   "Mexico": 5,
   "United States": 75,
   "France": 17,
@@ -1240,6 +1240,19 @@
    "lon": -123.11934
   },
   {
+   "name": "Natalie Pilakouta",
+   "orcid": "https://orcid.org/0000-0001-8503-520X",
+   "openalex": "https://openalex.org/A5026638760",
+   "works": 3,
+   "lastYear": 2026,
+   "institution": "University of St Andrews",
+   "city": "St Andrews",
+   "country": "United Kingdom",
+   "countryCode": "GB",
+   "lat": 56.33871,
+   "lon": -2.79902
+  },
+  {
    "name": "Paul Whaley",
    "orcid": "https://orcid.org/0000-0003-4021-0785",
    "openalex": "https://openalex.org/A5025222313",
@@ -1812,6 +1825,19 @@
    "lon": -71.10561
   },
   {
+   "name": "Avishikta Chakraborty",
+   "orcid": "https://orcid.org/0000-0001-9053-8522",
+   "openalex": "https://openalex.org/A5011035472",
+   "works": 2,
+   "lastYear": 2026,
+   "institution": "University College London",
+   "city": "London",
+   "country": "United Kingdom",
+   "countryCode": "GB",
+   "lat": 51.50853,
+   "lon": -0.12574
+  },
+  {
    "name": "Bernd J. Berauer",
    "orcid": "https://orcid.org/0000-0002-9472-1532",
    "openalex": "https://openalex.org/A5004505583",
@@ -2009,7 +2035,7 @@
   {
    "name": "Coralie Williams",
    "orcid": null,
-   "openalex": "https://openalex.org/A5126542854",
+   "openalex": "https://openalex.org/A5137374964",
    "works": 2,
    "lastYear": 2026,
    "institution": "UNSW Sydney",
@@ -3307,19 +3333,6 @@
    "lon": 174.76349
   },
   {
-   "name": "Natalie Pilakouta",
-   "orcid": "https://orcid.org/0000-0001-8503-520X",
-   "openalex": "https://openalex.org/A5026638760",
-   "works": 2,
-   "lastYear": 2024,
-   "institution": "University of St Andrews",
-   "city": "St Andrews",
-   "country": "United Kingdom",
-   "countryCode": "GB",
-   "lat": 56.33871,
-   "lon": -2.79902
-  },
-  {
    "name": "Nayara Braga Emídio",
    "orcid": "https://orcid.org/0000-0001-7835-9636",
    "openalex": "https://openalex.org/A5065830368",
@@ -4438,32 +4451,6 @@
    "lon": null
   },
   {
-   "name": "Avishikta Chakraborty",
-   "orcid": "https://orcid.org/0000-0001-9053-8522",
-   "openalex": "https://openalex.org/A5126379534",
-   "works": 1,
-   "lastYear": 2026,
-   "institution": "University College London",
-   "city": "London",
-   "country": "United Kingdom",
-   "countryCode": "GB",
-   "lat": 51.50853,
-   "lon": -0.12574
-  },
-  {
-   "name": "Avishikta Chakraborty",
-   "orcid": "https://orcid.org/0000-0001-9053-8522",
-   "openalex": "https://openalex.org/A5011035472",
-   "works": 1,
-   "lastYear": 2025,
-   "institution": "University College London",
-   "city": "London",
-   "country": "United Kingdom",
-   "countryCode": "GB",
-   "lat": 51.50853,
-   "lon": -0.12574
-  },
-  {
    "name": "Avneet Kaur",
    "orcid": "https://orcid.org/0000-0001-5055-419X",
    "openalex": "https://openalex.org/A5101717012",
@@ -5127,9 +5114,9 @@
    "lon": -90.51326751708984
   },
   {
-   "name": "Erik Svensson",
+   "name": "Erik I. Svensson",
    "orcid": null,
-   "openalex": "https://openalex.org/A5144324704",
+   "openalex": "https://openalex.org/A5136339600",
    "works": 1,
    "lastYear": 2026,
    "institution": "Lund University",
@@ -6141,9 +6128,9 @@
    "lon": 10.21076
   },
   {
-   "name": "Mads Schou",
-   "orcid": null,
-   "openalex": "https://openalex.org/A5144373781",
+   "name": "Mads F. Schou",
+   "orcid": "https://orcid.org/0000-0001-5521-5269",
+   "openalex": "https://openalex.org/A5137493466",
    "works": 1,
    "lastYear": 2026,
    "institution": null,
@@ -6607,19 +6594,6 @@
    "countryCode": "US",
    "lat": 29.65163,
    "lon": -82.32483
-  },
-  {
-   "name": "Natalie Pilakouta",
-   "orcid": null,
-   "openalex": "https://openalex.org/A5144385381",
-   "works": 1,
-   "lastYear": 2026,
-   "institution": "University of St Andrews",
-   "city": "St Andrews",
-   "country": "United Kingdom",
-   "countryCode": "GB",
-   "lat": 56.33871,
-   "lon": -2.79902
   },
   {
    "name": "Natalie van Dis",

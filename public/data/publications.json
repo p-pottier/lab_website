@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-24",
+ "updated": "2026-09-25",
  "publications": [
   {
    "id": "10.1093/conphys/coag006",
@@ -107,7 +107,7 @@
    "isOA": true,
    "oaUrl": "https://doi.org/10.1093/conphys/coag006",
    "url": "https://doi.org/10.1093/conphys/coag006",
-   "citations": 6,
+   "citations": 7,
    "abstract": "Abstract Understanding how animals respond to environmental stressors across their life cycle is essential for predicting species' vulnerability to climate change. Here, we systematically reviewed the literature to quantify the variation in research effort on different life stages in the field of conservation physiology. Specifically, we reviewed experimental studies measuring physiological and life-history responses to climatic stressors across three representative scientific journals: Conservation Physiology, Journal of Thermal Biology and Journal of Experimental Biology. Our systematic map of 1276 studies revealed a pronounced underrepresentation of studies on embryos, representing only 8% to 9% of studies. This pattern was remarkably consistent across all axes considered (i.e. journals, taxonomic groups, physiological traits and environmental stressors). We also found that 80% of studies only investigated single life stages, and over 5% of studies did not clearly report the life stage(s) used. Despite the increasing recognition of the ecological importance and sensitivity of early life stages to environmental stressors, we found no evidence that research on embryos has gained traction over the past decade (2013–2024). We argue that these ontogenetic biases likely reflect a combination of historical precedents and enduring methodological and logistical constraints that continue to shape research agendas. To build a more holistic understanding across the life cycle, we: (i) call for a paradigm shift placing embryos at the center of experimental agendas, (ii) outline emerging methodological advances that increase the feasibility of research on early life stages, (iii) demonstrate how studies on embryos align with ethical considerations for animal research, (iv) highlight perspectives for future evidence syntheses and study reporting and (v) promote investigations of the mechanisms underlying physiological variation across ontogeny. Closing the ontogenetic gap will be key to improving our ability to predict population-level impacts of climate change and guiding more effective conservation and management interventions.",
    "preprintUrl": "https://doi.org/10.32942/x2kp96",
    "altmetric": null
@@ -5542,7 +5542,7 @@
    "isOA": true,
    "oaUrl": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/ele.14083",
    "url": "https://doi.org/10.1111/ele.14083",
-   "citations": 147,
+   "citations": 148,
    "abstract": "Understanding the factors affecting thermal tolerance is crucial for predicting the impact climate change will have on ectotherms. However, the role developmental plasticity plays in allowing populations to cope with thermal extremes is poorly understood. Here, we meta-analyse how thermal tolerance is initially and persistently impacted by early (embryonic and juvenile) thermal environments by using data from 150 experimental studies on 138 ectothermic species. Thermal tolerance only increased by 0.13°C per 1°C change in developmental temperature and substantial variation in plasticity (~36%) was the result of shared evolutionary history and species ecology. Aquatic ectotherms were more than three times as plastic as terrestrial ectotherms. Notably, embryos expressed weaker but more heterogenous plasticity than older life stages, with numerous responses appearing as non-adaptive. While developmental temperatures did not have persistent effects on thermal tolerance overall, persistent effects were vastly under-studied, and their direction and magnitude varied with ontogeny. Embryonic stages may represent a critical window of vulnerability to changing environments and we urge researchers to consider early life stages when assessing the climate vulnerability of ectotherms. Overall, our synthesis suggests that developmental changes in thermal tolerance rarely reach levels of perfect compensation and may provide limited benefit in changing environments.",
    "preprintUrl": "https://doi.org/10.22541/au.164573834.49438532/v1",
    "altmetric": null
@@ -5756,7 +5756,7 @@
    "isOA": true,
    "oaUrl": "https://ruj.uj.edu.pl/xmlui/handle/item/307718",
    "url": "https://doi.org/10.1007/s10682-022-10157-w",
-   "citations": 30,
+   "citations": 31,
    "abstract": "Comparative analyses require researchers to not only ensure data quality, but also to make prudent and justifiable assumptions about data comparability. A failure to do so can lead to unreliable conclusions. As a case in point, we comment on a study that estimated the vulnerability of the world’s fish species to climate change using comparison between life stages (Dahlke et al. 2020, Science 369: 65-70). We highlight concerns with the data quality and argue that the metrics used to investigate ontogenetic differences in thermal tolerance were incomparable and confounded. Therefore, we provide caution when interpreting their results in the light of climate vulnerability. We suggest potential remedies and recommend thermal tolerance metrics that may be comparable across life stages. We also encourage the creation of guidelines to design, report, and assess comparative analyses to increase their reliability and reproducibility.",
    "preprintUrl": "https://doi.org/10.32942/osf.io/hya68",
    "altmetric": null
