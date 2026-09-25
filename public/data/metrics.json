@@ -6,15 +6,15 @@
   "OpenAlex"
  ],
  "orcid": "0000-0003-2106-6597",
- "citations": 1702,
+ "citations": 1705,
  "hIndex": 22,
  "i10Index": 28,
  "works": 46,
  "articles": 39,
  "preprints": 7,
  "firstAuthor": 11,
- "coAuthors": 590,
- "countries": 63,
+ "coAuthors": 557,
+ "countries": 62,
  "citationsByYear": [
   {
    "year": 2020,
@@ -42,7 +42,7 @@
   },
   {
    "year": 2026,
-   "cited_by_count": 439
+   "cited_by_count": 440
   }
  ]
 }

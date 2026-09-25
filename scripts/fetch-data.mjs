@@ -638,11 +638,13 @@ async function buildCollaborators(works, selfName) {
         name,
         orcid: a.author?.orcid || null,
         openalex: a.author?.id || null,
-        works: 0,
+        workIds: new Set(),
         lastYear: 0,
         institutions: new Map(),
       };
-      rec.works += 1;
+      // Counting work ids rather than authorships keeps the total right when a
+      // person is listed twice on one paper, and makes merging exact.
+      if (w.id) rec.workIds.add(w.id);
       rec.lastYear = Math.max(rec.lastYear, w.publication_year ?? 0);
       for (const inst of a.institutions || []) {
         if (!inst.id) continue;
@@ -656,6 +658,8 @@ async function buildCollaborators(works, selfName) {
       people.set(key, rec);
     }
   }
+
+  await dedupePeople(people);
 
   const geo = new Map();
   const ids = [...instIds];
@@ -688,7 +692,7 @@ async function buildCollaborators(works, selfName) {
         name: p.name,
         orcid: p.orcid,
         openalex: p.openalex,
-        works: p.works,
+        works: p.workIds.size,
         lastYear: p.lastYear,
         institution: primary?.name || null,
         city: primary?.city || null,
@@ -714,6 +718,272 @@ async function buildCollaborators(works, selfName) {
     byCountry,
     collaborators,
   };
+}
+
+/* ---------------------------------------------------- co-author dedupe -- */
+
+/**
+ * Strips the differences that separate one person's OpenAlex entities from
+ * each other: case, accents, and the non-ASCII hyphens Wiley and Crossref put
+ * in surnames (U+2010 in "Abbey‐Lee", U+2013 in some Chinese given names).
+ */
+function normName(s) {
+  return (s || "")
+    .normalize("NFKD")
+    .replace(/[̀-ͯ]/g, "")
+    .replace(/[‐‑‒–—]/g, "-")
+    .toLowerCase()
+    .replace(/[.\-']/g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+/**
+ * Do two display names belong to the same person?
+ *
+ * A shared ORCID is not enough on its own. OpenAlex attaches Jessica Abbott's
+ * ORCID to a Robin Abbey-Lee entity, and merging on the identifier alone would
+ * delete a real collaborator. Requiring the surnames to agree blocks that,
+ * while the prefix test still joins a truncated surname to its full form
+ * ("Gideon Gywa" to "Gideon Gywa Deme").
+ */
+function namesCompatible(a, b) {
+  const na = normName(a);
+  const nb = normName(b);
+  if (!na || !nb) return false;
+  if (na === nb) return true;
+  if (na.startsWith(`${nb} `) || nb.startsWith(`${na} `)) return true;
+
+  const ta = na.split(" ");
+  const tb = nb.split(" ");
+  if (ta[ta.length - 1] !== tb[tb.length - 1]) return false;
+
+  // Surnames agree, so accept initials against a spelled-out given name
+  // ("S. S. Killen" and "Shaun S. Killen") but not two different people.
+  const ia = ta.slice(0, -1);
+  const ib = tb.slice(0, -1);
+  if (!ia.length || !ib.length) return true;
+  return ia[0][0] === ib[0][0];
+}
+
+const bareOrcid = (o) => (o || "").split("/").pop() || null;
+
+/**
+ * Picks the fuller of two spellings of one person's name.
+ *
+ * The entity with the most papers is not the one with the best name: OpenAlex
+ * files Gideon Gywa Deme's larger entity under a truncated "Gideon Gywa". Prefer
+ * more name parts, then spelled-out given names over initials, then ordinary
+ * case over the block capitals some publishers send.
+ */
+function fullerName(a, b) {
+  if (!b) return a;
+  if (!a) return b;
+  const parts = (s) => normName(s).split(" ").filter(Boolean);
+  const initials = (s) => parts(s).filter((t) => t.length === 1).length;
+  const shouting = (s) => s === s.toUpperCase() && s !== s.toLowerCase();
+
+  if (parts(a).length !== parts(b).length) return parts(a).length > parts(b).length ? a : b;
+  if (initials(a) !== initials(b)) return initials(a) < initials(b) ? a : b;
+  if (shouting(a) !== shouting(b)) return shouting(a) ? b : a;
+  return a;
+}
+
+/**
+ * Folds the several OpenAlex author entities that stand for one person into a
+ * single record, in place.
+ *
+ * OpenAlex is the only source that carries co-author affiliations, and its
+ * author entities are not one-to-one with people: Shinichi Nakagawa had three.
+ * Left alone, the home page counts him three times.
+ *
+ * Two rules run automatically, and both are conservative:
+ *
+ *   1. entities sharing an ORCID, when the names are compatible;
+ *   2. entities whose names match once normalised, when one carries no ORCID.
+ *
+ * Anything else is reported rather than guessed. Two entities with one name and
+ * two ORCIDs are either one person registered twice or two people who share a
+ * name, and the data cannot tell you which. Those go in
+ * scripts/collaborator-merges.json once checked by hand.
+ */
+async function dedupePeople(people) {
+  const overrides = JSON.parse(
+    await readFile(resolve(HERE, "collaborator-merges.json"), "utf8").catch(() => "{}")
+  );
+
+  const parent = new Map([...people.keys()].map((k) => [k, k]));
+  const find = (k) => {
+    while (parent.get(k) !== k) {
+      parent.set(k, parent.get(parent.get(k)));
+      k = parent.get(k);
+    }
+    return k;
+  };
+  const members = (root) => [...people.keys()].filter((k) => find(k) === root);
+
+  const pairKey = (a, b) => [a, b].sort().join("\u0000");
+  const forbidden = new Set();
+  for (const entry of overrides.distinct || []) {
+    const ids = (entry.ids || []).map(expandId);
+    for (const a of ids) for (const b of ids) if (a !== b) forbidden.add(pairKey(a, b));
+  }
+
+  const join = (a, b) => {
+    const ra = find(a);
+    const rb = find(b);
+    if (ra === rb) return false;
+    for (const x of members(ra)) {
+      for (const y of members(rb)) if (forbidden.has(pairKey(x, y))) return false;
+    }
+    // Keep the entity with more papers as the root, so its name, ORCID and
+    // institution order survive the collapse.
+    const [keep, drop] =
+      people.get(ra).workIds.size >= people.get(rb).workIds.size ? [ra, rb] : [rb, ra];
+    parent.set(drop, keep);
+    return true;
+  };
+
+  let byOrcid = 0;
+  let byName = 0;
+
+  /* --- 1. entities sharing an ORCID --- */
+  const orcidGroups = new Map();
+  for (const [k, p] of people) {
+    const id = bareOrcid(p.orcid);
+    if (!id) continue;
+    if (!orcidGroups.has(id)) orcidGroups.set(id, []);
+    orcidGroups.get(id).push(k);
+  }
+  const unresolvedOrcid = [];
+  for (const [id, keys] of orcidGroups) {
+    if (keys.length < 2) continue;
+    const base = keys.reduce((a, b) =>
+      people.get(a).workIds.size >= people.get(b).workIds.size ? a : b
+    );
+    for (const k of keys) {
+      if (k === base) continue;
+      if (namesCompatible(people.get(base).name, people.get(k).name)) {
+        if (join(base, k)) byOrcid++;
+      } else {
+        unresolvedOrcid.push([id, base, k, people.get(base).name, people.get(k).name]);
+      }
+    }
+  }
+
+  /* --- 2. name variants where one entity carries no ORCID --- */
+  const nameGroups = new Map();
+  for (const [k, p] of people) {
+    const n = normName(p.name);
+    if (!n) continue;
+    if (!nameGroups.has(n)) nameGroups.set(n, []);
+    nameGroups.get(n).push(k);
+  }
+  const unresolvedName = [];
+  for (const keys of nameGroups.values()) {
+    if (keys.length < 2) continue;
+    const withOrcid = keys.filter((k) => bareOrcid(people.get(k).orcid));
+    const without = keys.filter((k) => !bareOrcid(people.get(k).orcid));
+    const ids = new Set(withOrcid.map((k) => bareOrcid(people.get(k).orcid)));
+
+    if (without.length) {
+      // One entity with an ORCID and one without is the common OpenAlex split.
+      // Two rival ORCIDs make the target ambiguous, so leave it for a human.
+      if (ids.size <= 1) {
+        const pool = withOrcid.length ? withOrcid : keys;
+        const base = pool.reduce((a, b) =>
+          people.get(a).workIds.size >= people.get(b).workIds.size ? a : b
+        );
+        for (const k of keys) if (k !== base && join(base, k)) byName++;
+      }
+    }
+    if (ids.size > 1) unresolvedName.push([people.get(keys[0]).name, keys, [...ids]]);
+  }
+
+  /* --- 3. hand-checked corrections --- */
+  let byHand = 0;
+  for (const entry of overrides.merge || []) {
+    const ids = (entry.ids || []).map(expandId).filter((k) => people.has(k));
+    if (ids.length < 2) continue;
+    // The first id is canonical, so seed the root with it and let the rest
+    // follow, whatever their paper counts say.
+    const base = ids[0];
+    for (const k of ids.slice(1)) {
+      const ra = find(base);
+      const rb = find(k);
+      if (ra === rb) continue;
+      parent.set(rb, ra);
+      byHand++;
+    }
+  }
+
+  /* --- 4. report only what the overrides did not already settle --- */
+  const stillApart = (keys) => new Set(keys.map(find)).size > 1;
+  const openOrcid = unresolvedOrcid.filter(([, a, b]) => stillApart([a, b]));
+  const openName = unresolvedName.filter(([, keys]) => stillApart(keys));
+
+  /*
+   * An entity with neither an ORCID nor an OpenAlex id can only be matched on
+   * its name, and a given name is not a stable thing to match on: OpenAlex
+   * carries Szymon Drobniak's diminutive "Szymek" as a separate person. Merging
+   * on a surname and a shared initial would also join two siblings in one lab,
+   * so these are reported for confirmation rather than joined.
+   */
+  const surnameOf = (s) => normName(s).split(" ").pop();
+  const candidates = [];
+  for (const [k, p] of people) {
+    if (p.orcid || p.openalex || find(k) !== k) continue;
+    // Group by root, because the entities merged above are still in the map
+    // at this point and would otherwise look like several rival matches.
+    const near = new Set(
+      [...people.keys()]
+        .filter((o) => find(o) !== find(k) && surnameOf(people.get(o).name) === surnameOf(p.name))
+        .map(find)
+    );
+    if (near.size !== 1) continue;
+    const other = people.get([...near][0]);
+    if (namesCompatible(p.name, other.name)) candidates.push([p.name, other.name]);
+  }
+
+  /* --- 5. collapse each group into its root --- */
+  const before = people.size;
+  for (const k of [...people.keys()]) {
+    const root = find(k);
+    if (root === k) continue;
+    const keep = people.get(root);
+    const drop = people.get(k);
+    for (const id of drop.workIds) keep.workIds.add(id);
+    keep.lastYear = Math.max(keep.lastYear, drop.lastYear);
+    for (const [id, inst] of drop.institutions) {
+      if (!keep.institutions.has(id)) keep.institutions.set(id, inst);
+    }
+    keep.orcid = keep.orcid || drop.orcid;
+    keep.openalex = keep.openalex || drop.openalex;
+    keep.name = fullerName(keep.name, drop.name);
+    people.delete(k);
+  }
+
+  console.log(
+    `  merged ${before - people.size} duplicate author entities ` +
+      `(${byOrcid} by ORCID, ${byName} by name, ${byHand} by hand)`
+  );
+  for (const [id, , , a, b] of openOrcid) {
+    console.log(`    kept apart: "${a}" and "${b}" share ${id} but are not the same name`);
+  }
+  for (const [name, , ids] of openName) {
+    console.log(`    unresolved: "${name}" holds ${ids.length} ORCIDs (${ids.join(", ")})`);
+  }
+  for (const [a, b] of candidates) {
+    console.log(`    possible pair: "${a}" has no identifier and may be "${b}"`);
+  }
+  if (openName.length || candidates.length) {
+    console.log("    resolve these in scripts/collaborator-merges.json once checked by hand");
+  }
+}
+
+/** Accepts a bare OpenAlex id or a display name, and returns the map key. */
+function expandId(v) {
+  return /^A\d+$/.test(v) ? `https://openalex.org/${v}` : v;
 }
 
 main().catch((err) => {

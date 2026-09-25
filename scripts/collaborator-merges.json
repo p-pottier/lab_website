@@ -1,0 +1,25 @@
+{
+  "_comment": "Hand-checked corrections to the automatic co-author deduplication. OpenAlex mints more than one author entity for the same person, so the script folds entities together when they share an ORCID and the names are compatible, or when one entity carries no ORCID and the names match. Two cases still need a human: entities the rules cannot safely join, and entities they would wrongly join. Add to `merge` when `npm run data` reports an unresolved same-name pair you have checked. Add to `distinct` when OpenAlex has attached one person's ORCID to another person's entity.",
+
+  "_keys": "An entity is named by its OpenAlex author id (A5087260005, not the full URL). Entities OpenAlex left without an id are named by their display name exactly as it appears in collaborators.json, including any non-ASCII hyphen.",
+
+  "_mergeFormat": "Each entry joins every listed entity into one person. The first id is canonical: its ORCID and institution are the ones kept, and the fullest spelling of the name wins.",
+  "merge": [
+    {
+      "why": "OpenAlex files Szymon Drobniak's papers under six spellings, and the entity carrying the Polish diminutive Szymek has neither an ORCID nor an OpenAlex id, so no automatic rule can reach it. The two never appear together on one paper, and the middle name matches.",
+      "ids": ["A5052648587", "Szymek Marian Drobniak"]
+    },
+    {
+      "why": "One person, two entities separated only by the hyphen character in the surname (U+2010 against U+002D). They carry different ORCIDs, so the automatic rules leave them apart: the id-less entity was given Jessica Abbott's ORCID by OpenAlex. A5030341892 is canonical because 0000-0002-1799-1440 is Abbey-Lee's own ORCID.",
+      "ids": ["A5030341892", "Robin N. Abbey-Lee"]
+    }
+  ],
+
+  "_distinctFormat": "Each entry keeps the listed entities apart, whatever the automatic rules conclude.",
+  "distinct": [
+    {
+      "why": "OpenAlex attaches ORCID 0000-0002-8743-2089 to both Jessica K. Abbott and an Abbey-Lee entity. The ORCID registry confirms it belongs to Jessica Abbott. The name guard already blocks the merge; this entry records the finding so it stays blocked if the names ever converge.",
+      "ids": ["A5087260005", "Robin N. Abbey-Lee"]
+    }
+  ]
+}
