@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-26",
+ "updated": "2026-09-27",
  "publications": [
   {
    "id": "10.1093/conphys/coag006",
@@ -110,6 +110,62 @@
    "citations": 7,
    "abstract": "Abstract Understanding how animals respond to environmental stressors across their life cycle is essential for predicting species' vulnerability to climate change. Here, we systematically reviewed the literature to quantify the variation in research effort on different life stages in the field of conservation physiology. Specifically, we reviewed experimental studies measuring physiological and life-history responses to climatic stressors across three representative scientific journals: Conservation Physiology, Journal of Thermal Biology and Journal of Experimental Biology. Our systematic map of 1276 studies revealed a pronounced underrepresentation of studies on embryos, representing only 8% to 9% of studies. This pattern was remarkably consistent across all axes considered (i.e. journals, taxonomic groups, physiological traits and environmental stressors). We also found that 80% of studies only investigated single life stages, and over 5% of studies did not clearly report the life stage(s) used. Despite the increasing recognition of the ecological importance and sensitivity of early life stages to environmental stressors, we found no evidence that research on embryos has gained traction over the past decade (2013–2024). We argue that these ontogenetic biases likely reflect a combination of historical precedents and enduring methodological and logistical constraints that continue to shape research agendas. To build a more holistic understanding across the life cycle, we: (i) call for a paradigm shift placing embryos at the center of experimental agendas, (ii) outline emerging methodological advances that increase the feasibility of research on early life stages, (iii) demonstrate how studies on embryos align with ethical considerations for animal research, (iv) highlight perspectives for future evidence syntheses and study reporting and (v) promote investigations of the mechanisms underlying physiological variation across ontogeny. Closing the ontogenetic gap will be key to improving our ability to predict population-level impacts of climate change and guiding more effective conservation and management interventions.",
    "preprintUrl": "https://doi.org/10.32942/x2kp96",
+   "altmetric": null
+  },
+  {
+   "id": "10.1093/icb/icag045",
+   "doi": "10.1093/icb/icag045",
+   "title": "Extreme Heat as the New Normal: A Methodological Roadmap Incorporating Behavior, Physiology, and Species Distributions",
+   "authors": [
+    {
+     "name": "Diego Ellis-Soto",
+     "orcid": "https://orcid.org/0000-0003-4766-021X",
+     "isSelf": false
+    },
+    {
+     "name": "Daniel W A Noble",
+     "orcid": null,
+     "isSelf": false
+    },
+    {
+     "name": "Pieter A Arnold",
+     "orcid": "https://orcid.org/0000-0002-6158-7752",
+     "isSelf": false
+    },
+    {
+     "name": "Patrice Pottier",
+     "orcid": "https://orcid.org/0000-0003-2106-6597",
+     "isSelf": true
+    },
+    {
+     "name": "Alison J Robey",
+     "orcid": null,
+     "isSelf": false
+    },
+    {
+     "name": "Christina Prokopenko",
+     "orcid": null,
+     "isSelf": false
+    },
+    {
+     "name": "Jeremy Cohen",
+     "orcid": null,
+     "isSelf": false
+    }
+   ],
+   "authorLine": "Diego Ellis-Soto, Daniel W A Noble, Pieter A Arnold, Patrice Pottier, Alison J Robey, Christina Prokopenko, Jeremy Cohen",
+   "journal": "Integrative And Comparative Biology",
+   "year": 2026,
+   "volume": "66",
+   "issue": null,
+   "pages": null,
+   "kind": "article",
+   "isOA": false,
+   "oaUrl": null,
+   "url": "https://doi.org/10.1093/icb/icag045",
+   "citations": 4,
+   "abstract": "A defining feature of climate change is the increasing frequency, intensity, and severity of extreme weather events. Among them, extreme heat is recognized as a critical driver of ecological and evolutionary change. Intense heat episodes can exceed physiological limits, alter animal movement, restructure geographic ranges, and increase extinction risk more than gradual changes to mean temperatures. Yet links between extreme heat events and organismal biology remain limited, in part because definitions and metrics are not standardized, and user-friendly workflows and guides are lacking for many biologists. We present a methodological roadmap, with reproducible code, for integrating extreme heat into studies of behavior, physiology, biophysical ecology, species distribution models (SDMs), and population dynamics. First, we provide standardized computational approaches to define and quantify extreme heat. Second, we fit SDMs for California quail (Callipepla californica) that include an extreme heat metric and showcase improved predictions of habitat suitability, particularly at range edges. Third, we compute biophysical simulations to quantify exposure to thermal stress in sleepy lizards (Tiliqua rugosa) across distinct macro- and microclimates. Finally, accounting for temporal autocorrelation in temperature profiles in population simulation models, we show that clustered heat extremes-missed by averages-can increase the risk of population collapse. As extreme heat events become more common, incorporating their dynamics is essential for understanding ecological and evolutionary change, designing experiments across species' geographic ranges, and supporting conservation in a rapidly warming world. Together, these case studies illustrate a reproducible, organism-informed roadmap to integrate extreme heat into predictions of ecological impacts and inference across levels of biological organization under ongoing climate change.",
+   "preprintUrl": "https://doi.org/10.64898/2026.02.25.707770",
    "altmetric": null
   },
   {
@@ -825,59 +881,54 @@
    "altmetric": null
   },
   {
-   "id": "10.1093/icb/icag045",
-   "doi": "10.1093/icb/icag045",
-   "title": "Extreme Heat as the New Normal: A Methodological Roadmap Incorporating Behavior, Physiology, and Species Distributions",
+   "id": "10.1016/j.cois.2026.101523",
+   "doi": "10.1016/j.cois.2026.101523",
+   "title": "Life cycle complexity drives variation in thermal tolerance and plasticity",
    "authors": [
-    {
-     "name": "Diego Ellis-Soto",
-     "orcid": "https://orcid.org/0000-0003-4766-021X",
-     "isSelf": false
-    },
-    {
-     "name": "Daniel W A Noble",
-     "orcid": null,
-     "isSelf": false
-    },
-    {
-     "name": "Pieter A Arnold",
-     "orcid": "https://orcid.org/0000-0002-6158-7752",
-     "isSelf": false
-    },
     {
      "name": "Patrice Pottier",
      "orcid": "https://orcid.org/0000-0003-2106-6597",
      "isSelf": true
     },
     {
-     "name": "Alison J Robey",
+     "name": "Vanessa Kellermann",
      "orcid": null,
      "isSelf": false
     },
     {
-     "name": "Christina Prokopenko",
+     "name": "Daniel WA Noble",
      "orcid": null,
      "isSelf": false
     },
     {
-     "name": "Jeremy Cohen",
+     "name": "Carla M Sgrò",
+     "orcid": null,
+     "isSelf": false
+    },
+    {
+     "name": "John S Terblanche",
+     "orcid": null,
+     "isSelf": false
+    },
+    {
+     "name": "Belinda van Heerwaarden",
      "orcid": null,
      "isSelf": false
     }
    ],
-   "authorLine": "Diego Ellis-Soto, Daniel W A Noble, Pieter A Arnold, Patrice Pottier, Alison J Robey, Christina Prokopenko, Jeremy Cohen",
-   "journal": "Integrative And Comparative Biology",
+   "authorLine": "Patrice Pottier, Vanessa Kellermann, Daniel WA Noble, Carla M Sgrò, John S Terblanche, Belinda van Heerwaarden",
+   "journal": "Current Opinion in Insect Science",
    "year": 2026,
-   "volume": "66",
+   "volume": "76",
    "issue": null,
-   "pages": null,
+   "pages": "101523",
    "kind": "article",
-   "isOA": false,
-   "oaUrl": null,
-   "url": "https://doi.org/10.1093/icb/icag045",
+   "isOA": true,
+   "oaUrl": "https://doi.org/10.1016/j.cois.2026.101523",
+   "url": "https://doi.org/10.1016/j.cois.2026.101523",
    "citations": 1,
-   "abstract": "Abstract A defining feature of climate change is the increasing frequency, intensity, and severity of extreme weather events. Among them, extreme heat is recognized as a critical driver of ecological and evolutionary change. Intense heat episodes can exceed physiological limits, alter animal movement, restructure geographic ranges, and increase extinction risk more than gradual changes to mean temperatures. Yet links between extreme heat events and organismal biology remain limited, in part because definitions and metrics are not standardized, and user-friendly workflows and guides are lacking for many biologists. We present a methodological roadmap, with reproducible code, for integrating extreme heat into studies of behavior, physiology, biophysical ecology, species distribution models (SDMs), and population dynamics. First, we provide standardized computational approaches to define and quantify extreme heat. Second, we fit species distribution models for California quail ( Callipepla californica ) that include an extreme heat metric and showcase improved predictions of habitat suitability, particularly at range edges. Third, we compute biophysical simulations to quantify exposure to thermal stress in Sleepy lizards ( Tiliqua rugosa ) across distinct macro- and microclimates. Finally, accounting for temporal autocorrelation in temperature profiles in population simulation models, we show that clustered heat extremes—missed by averages—can increase the risk of population collapse. As extreme heat events become more common, incorporating their dynamics is essential for understanding ecological and evolutionary change, designing experiments across species’ geographic ranges, and supporting conservation in a rapidly warming world. Together, these case studies illustrate a reproducible, organism-informed roadmap to integrate extreme heat into predictions of ecological impacts and inference across levels of biological organization under ongoing climate change.",
-   "preprintUrl": "https://doi.org/10.64898/2026.02.25.707770",
+   "abstract": "Accumulating evidence suggests that heat tolerance varies substantially across insect development, yet patterns of variation remain difficult to generalise across species. We discuss how the diversity of insect developmental strategies shapes both the intensity and predictability of thermal environments across ontogeny, and how this likely generates variation in heat tolerance, plasticity and carry-over effects. We hypothesise that large developmental variation is expected in holometabolous insects and in species undergoing pronounced microhabitat or diel activity transitions. These transitions can modify heat exposure, behavioural thermoregulatory abilities and the physiological or genetic regulatory network underlying heat tolerance, weakening correlations among life stages. We discuss when carry-over effects are likely to be adaptive, highlighting the importance of environmental predictability, ecological similarity among stages and the balance between heat injury and repair. We argue that an ontogenetic perspective capturing the microenvironmental conditions experienced by each life stage is essential for predicting insect vulnerability to extreme heat.",
+   "preprintUrl": "https://doi.org/10.32942/x2936q",
    "altmetric": null
   },
   {
@@ -983,63 +1034,58 @@
    "issue": null,
    "pages": null,
    "kind": "article",
-   "isOA": false,
-   "oaUrl": null,
+   "isOA": true,
+   "oaUrl": "https://doi.org/10.1111/1365-2656.70332",
    "url": "https://doi.org/10.1111/1365-2656.70332",
    "citations": 0,
-   "abstract": null,
+   "abstract": "Abstract Marine heatwaves are increasing in frequency and intensity worldwide and represent a growing threat to coastal ecosystems and the animals inhabiting them. The vulnerability of marine species to these events depends on several factors, including upper thermal tolerance, the thermal sensitivity of physiological performance, and the capacity for rapid physiological acclimation. We examined upper thermal tolerance and short‐term acclimation capacity in 10 mobile macroinvertebrate species inhabiting shallow coastal ecosystems in the Northeast Atlantic. Individuals were exposed either to ambient thermal conditions at 15°C or to a simulated short‐term marine heatwave of 5 days at 5°C above ambient temperature. We then measured critical thermal maxima (CT max ) to quantify thermal limits and acclimation responses. Across species, CT max increased significantly following heatwave exposure, showing that these coastal invertebrates can undergo rapid physiological adjustment. However, the magnitude of the acclimation response was modest, indicating that short‐term plasticity provides only limited protection against acute thermal extremes. These limited acclimation responses suggest that some coastal invertebrates may remain vulnerable to intensifying marine heatwaves, particularly taxa with narrow thermal safety margins. Our findings provide an ecologically relevant assessment of thermal performance in coastal invertebrates and contribute to predictions of how nearshore communities may respond to accelerating ocean warming.",
    "preprintUrl": null,
    "altmetric": null
   },
   {
-   "id": "10.1016/j.cois.2026.101523",
-   "doi": "10.1016/j.cois.2026.101523",
-   "title": "Life cycle complexity drives variation in thermal tolerance and plasticity",
+   "id": "10.1016/j.jtherbio.2026.104574",
+   "doi": "10.1016/j.jtherbio.2026.104574",
+   "title": "Ontogenetic variation in thermal biology: assessing life stage-specific adaptations and sensitivity in animals",
    "authors": [
     {
+     "name": "Flemming T. Dahlke",
+     "orcid": null,
+     "isSelf": false
+    },
+    {
+     "name": "Zara-Louise Cowan",
+     "orcid": null,
+     "isSelf": false
+    },
+    {
      "name": "Patrice Pottier",
-     "orcid": "https://orcid.org/0000-0003-2106-6597",
+     "orcid": null,
      "isSelf": true
     },
     {
-     "name": "Vanessa Kellermann",
+     "name": "Katharina Ruthsatz",
      "orcid": null,
      "isSelf": false
     },
     {
-     "name": "Daniel WA Noble",
-     "orcid": null,
-     "isSelf": false
-    },
-    {
-     "name": "Carla M Sgrò",
-     "orcid": null,
-     "isSelf": false
-    },
-    {
-     "name": "John S Terblanche",
-     "orcid": null,
-     "isSelf": false
-    },
-    {
-     "name": "Belinda van Heerwaarden",
+     "name": "Elisa Thoral",
      "orcid": null,
      "isSelf": false
     }
    ],
-   "authorLine": "Patrice Pottier, Vanessa Kellermann, Daniel WA Noble, Carla M Sgrò, John S Terblanche, Belinda van Heerwaarden",
-   "journal": "Current Opinion in Insect Science",
+   "authorLine": "Flemming T. Dahlke, Zara-Louise Cowan, Patrice Pottier, Katharina Ruthsatz, Elisa Thoral",
+   "journal": "Journal of Thermal Biology",
    "year": 2026,
-   "volume": "76",
+   "volume": null,
    "issue": null,
-   "pages": "101523",
+   "pages": "104574",
    "kind": "article",
    "isOA": false,
    "oaUrl": null,
-   "url": "https://doi.org/10.1016/j.cois.2026.101523",
+   "url": "https://doi.org/10.1016/j.jtherbio.2026.104574",
    "citations": 0,
-   "abstract": "Accumulating evidence suggests that heat tolerance varies substantially across insect development, yet patterns of variation remain difficult to generalise across species. We discuss how the diversity of insect developmental strategies shapes both the intensity and predictability of thermal environments across ontogeny, and how this likely generates variation in heat tolerance, plasticity, and carry-over effects. We hypothesise that large developmental variation is expected in holometabolous insects, and in species undergoing pronounced microhabitat or diel activity transitions. These transitions can modify heat exposure, behavioural thermoregulatory abilities, and the physiological or genetic regulatory network underlying heat tolerance, weakening correlations among life stages. We discuss when carry-over effects are likely to be adaptive, highlighting the importance of environmental predictability, ecological similarity among stages, and the balance between heat injury and repair. We argue that an ontogenetic perspective capturing the microenvironmental conditions experienced by each life stage is essential for predicting insect vulnerability to extreme heat.",
-   "preprintUrl": "https://doi.org/10.32942/x2936q",
+   "abstract": null,
+   "preprintUrl": null,
    "altmetric": null
   },
   {
@@ -1328,6 +1374,167 @@
    "url": "https://doi.org/10.32942/x2509k",
    "citations": 0,
    "abstract": "Climate change poses a growing threat to bees, which provide essential pollination services in natural and agricultural ecosystems. Although the critical thermal maximum (CTmax) is widely used to assess the vulnerability of pollinators to climate change, we lack a comprehensive understanding of the factors shaping heat tolerance across bee species globally. We conducted a systematic review and meta-analysis of experimental CTmax measurements, extracting 339 effect sizes from 35 studies spanning 198 bee species. Across all moderator variables tested, we found that only three variables were significantly associated with variation in heat tolerance: nesting behaviour, climate zone, and ramping rate. On average, the CTmax of below-ground nesting bees was 1.3oC lower than that of above-ground nesters. This difference was most pronounced in solitary species and weaker in eusocial species, which may benefit from colony-level behavioural thermoregulation. Tropical species had slightly lower CTmax than temperate species, while species distributed across both tropical and temperate regions had the highest thermal tolerance. We also found that CTmax increased strongly with ramping rate, consistent with predictions of heat injury accumulation during dynamic assays. However, sex, body size, and five other methodological factors were not significantly associated with variation in CTmax, which may reflect species-specific responses differing in direction and magnitude, obscuring any overall pattern. We also found that variation in heat tolerance is strongly phylogenetically structured (43% of explained heterogeneity), suggesting that evolutionary adaptation to historical environmental conditions has shaped present-day thermal limits. Our synthesis identified substantial geographic and taxonomic biases, highlighting key priorities for future experimental research. By identifying important ecological drivers of heat tolerance evolution, our study provides a foundation for predicting bee heat tolerance and potential vulnerability to climate change.",
+   "preprintUrl": null,
+   "altmetric": null
+  },
+  {
+   "id": "10.32942/x2x11q",
+   "doi": "10.32942/x2x11q",
+   "title": "Does tolerance to fast warming predict tolerance to slow warming in fishes?",
+   "authors": [
+    {
+     "name": "Emily Lechner",
+     "orcid": null,
+     "isSelf": false
+    },
+    {
+     "name": "Erin Stewart",
+     "orcid": null,
+     "isSelf": false
+    },
+    {
+     "name": "Alex Berry",
+     "orcid": null,
+     "isSelf": false
+    },
+    {
+     "name": "Christian Bihun",
+     "orcid": null,
+     "isSelf": false
+    },
+    {
+     "name": "Sandra Ann Binning",
+     "orcid": null,
+     "isSelf": false
+    },
+    {
+     "name": "Tamzin Blewett",
+     "orcid": null,
+     "isSelf": false
+    },
+    {
+     "name": "Ivan Cadonic",
+     "orcid": null,
+     "isSelf": false
+    },
+    {
+     "name": "Timothy Clark",
+     "orcid": null,
+     "isSelf": false
+    },
+    {
+     "name": "Zara-Louise Cowan",
+     "orcid": null,
+     "isSelf": false
+    },
+    {
+     "name": "Jeremy De Bonville",
+     "orcid": null,
+     "isSelf": false
+    },
+    {
+     "name": "Rasmus Ern",
+     "orcid": null,
+     "isSelf": false
+    },
+    {
+     "name": "Maryane Gradito",
+     "orcid": null,
+     "isSelf": false
+    },
+    {
+     "name": "Leon Green",
+     "orcid": null,
+     "isSelf": false
+    },
+    {
+     "name": "Elizabeth Hoots",
+     "orcid": null,
+     "isSelf": false
+    },
+    {
+     "name": "Luis Kuchenmüller",
+     "orcid": null,
+     "isSelf": false
+    },
+    {
+     "name": "Vincent Mélançon",
+     "orcid": null,
+     "isSelf": false
+    },
+    {
+     "name": "Moa Metz",
+     "orcid": null,
+     "isSelf": false
+    },
+    {
+     "name": "Leon Pfeufer",
+     "orcid": null,
+     "isSelf": false
+    },
+    {
+     "name": "Patrice Pottier",
+     "orcid": null,
+     "isSelf": true
+    },
+    {
+     "name": "Graham Raby",
+     "orcid": null,
+     "isSelf": false
+    },
+    {
+     "name": "Dominique Roche",
+     "orcid": null,
+     "isSelf": false
+    },
+    {
+     "name": "Josefin Sundin",
+     "orcid": "https://orcid.org/0000-0003-1853-4046",
+     "isSelf": false
+    },
+    {
+     "name": "Elena Tamarit-Castro",
+     "orcid": null,
+     "isSelf": false
+    },
+    {
+     "name": "Mafalda Tomás",
+     "orcid": null,
+     "isSelf": false
+    },
+    {
+     "name": "Juliane Vigneault",
+     "orcid": null,
+     "isSelf": false
+    },
+    {
+     "name": "Zacharia Zouhair",
+     "orcid": null,
+     "isSelf": false
+    },
+    {
+     "name": "Eirik Åsheim",
+     "orcid": null,
+     "isSelf": false
+    },
+    {
+     "name": "Fredrik Jutfelt",
+     "orcid": null,
+     "isSelf": false
+    }
+   ],
+   "authorLine": "Emily Lechner, Erin Stewart, Alex Berry, Christian Bihun, Sandra Ann Binning, Tamzin Blewett, Ivan Cadonic, Timothy Clark, Zara-Louise Cowan, Jeremy De Bonville, Rasmus Ern, Maryane Gradito, Leon Green, Elizabeth Hoots, Luis Kuchenmüller, Vincent Mélançon, Moa Metz, Leon Pfeufer, Patrice Pottier, Graham Raby, Dominique Roche, Josefin Sundin, Elena Tamarit-Castro, Mafalda Tomás, Juliane Vigneault, Zacharia Zouhair, Eirik Åsheim, Fredrik Jutfelt",
+   "journal": null,
+   "year": 2026,
+   "volume": null,
+   "issue": null,
+   "pages": null,
+   "kind": "preprint",
+   "isOA": true,
+   "oaUrl": "https://ecoevorxiv.org/repository/object/15023/download/26095/",
+   "url": "https://doi.org/10.32942/x2x11q",
+   "citations": 0,
+   "abstract": "1. Critical thermal maximum (CTmax) is widely used to quantify upper thermal limits in fishes, but its ecological relevance has been questioned because standard protocols use fast warming rates (0.3°C min-¹; 18°C h-¹) that rarely occur in nature, where thermal stress more typically unfolds over hours to days. Whether CTmax under fast warming predicts warming tolerance to slower, ecologically realistic warming remains a critical question for climate risk assessments and mechanistic species distribution models. 2. We measured thermal tolerance under fast (0.3°C min-¹) and slow (1°C h-¹) warming in the same individuals across seven temperate fish species. This paired design allowed us to estimate individual-level correlations between fast and slow warming tolerance and assess how this relationship varied among species. 3. We observed substantial interspecific variation in the direction of the fast–slow warming tolerance relationship. Slow CTmax was higher than fast CTmax in three-spined stickleback, lesser pipefish, corkwing wrasse, and European eel, while the opposite was true for European plaice, bluegill sunfish, and Atlantic cod. 4. Fast and slow CTmax were only weakly correlated at the individual level, and significant correlations were only detected in two of seven species. However, at the species level, fast and slow CTmax was significantly correlated (R² marginal = 0.873; between-species slope = 1.157). 5. Standard fast-warming CTmax does not consistently predict individual thermal tolerance under slower, more ecologically realistic warming rates and its usage may overlook biologically meaningful species-specific differences in thermal vulnerability. Fast-warming CTmax should be interpreted with caution in the context of ecological forecasting and climate risk assessments as it can over-estimate upper thermal tolerance and should be used at the appropriate biological scale.",
    "preprintUrl": null,
    "altmetric": null
   },
@@ -2897,7 +3104,7 @@
    "isOA": true,
    "oaUrl": "https://link.springer.com/content/pdf/10.1186/s12915-024-02101-x.pdf",
    "url": "https://doi.org/10.1186/s12915-024-02101-x",
-   "citations": 96,
+   "citations": 97,
    "abstract": "Although variation in effect sizes and predicted values among studies of similar phenomena is inevitable, such variation far exceeds what might be produced by sampling error alone. One possible explanation for variation among results is differences among researchers in the decisions they make regarding statistical analyses. A growing array of studies has explored this analytical variability in different fields and has found substantial variability among results despite analysts having the same data and research question. Many of these studies have been in the social sciences, but one small \"many analyst\" study found similar variability in ecology. We expanded the scope of this prior work by implementing a large-scale empirical exploration of the variation in effect sizes and model predictions generated by the analytical decisions of different researchers in ecology and evolutionary biology. We used two unpublished datasets, one from evolutionary ecology (blue tit, Cyanistes caeruleus, to compare sibling number and nestling growth) and one from conservation ecology (Eucalyptus, to compare grass cover and tree seedling recruitment). The project leaders recruited 174 analyst teams, comprising 246 analysts, to investigate the answers to prespecified research questions. Analyses conducted by these teams yielded 141 usable effects (compatible with our meta-analyses and with all necessary information provided) for the blue tit dataset, and 85 usable effects for the Eucalyptus dataset. We found substantial heterogeneity among results for both datasets, although the patterns of variation differed between them. For the blue tit analyses, the average effect was convincingly negative, with less growth for nestlings living with more siblings, but there was near continuous variation in effect size from large negative effects to effects near zero, and even effects crossing the traditional threshold of statistical significance in the opposite direction. In contrast, the average relationship between grass cover and Eucalyptus seedling number was only slightly negative and not convincingly different from zero, and most effects ranged from weakly negative to weakly positive, with about a third of effects crossing the traditional threshold of significance in one direction or the other. However, there were also several striking outliers in the Eucalyptus dataset, with effects far from zero. For both datasets, we found substantial variation in the variable selection and random effects structures among analyses, as well as in the ratings of the analytical methods by peer reviewers, but we found no strong relationship between any of these and deviation from the meta-analytic mean. In other words, analyses with results that were far from the mean were no more or less likely to have dissimilar variable sets, use random effects in their models, or receive poor peer reviews than those analyses that found results that were close to the mean. The existence of substantial variability among analysis outcomes raises important questions about how ecologists and evolutionary biologists should interpret published results, and how they should conduct analyses in the future.",
    "preprintUrl": "https://doi.org/10.32942/x2gg62",
    "altmetric": null
@@ -4459,7 +4666,7 @@
    "isOA": true,
    "oaUrl": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/2041-210X.14270",
    "url": "https://doi.org/10.1111/2041-210x.14270",
-   "citations": 38,
+   "citations": 39,
    "abstract": "Abstract Increasing attention has been drawn to the misuse of statistical methods over recent years, with particular concern about the prevalence of practices such as poor experimental design, cherry picking and inadequate reporting. These failures are largely unintentional and no more common in ecology than in other scientific disciplines, with many of them easily remedied given the right guidance. Originating from a discussion at the 2020 International Statistical Ecology Conference, we show how ecologists can build their research following four guiding principles for impactful statistical research practices: (1) define a focussed research question, then plan sampling and analysis to answer it; (2) develop a model that accounts for the distribution and dependence of your data; (3) emphasise effect sizes to replace statistical significance with ecological relevance; and (4) report your methods and findings in sufficient detail so that your research is valid and reproducible. These principles provide a framework for experimental design and reporting that guards against unsound practices. Starting with a well‐defined research question allows researchers to create an efficient study to answer it, and guards against poor research practices that lead to poor estimation of the direction, magnitude, and uncertainty of ecological relationships, and to poor replicability. Correct and appropriate statistical models give sound conclusions. Good reporting practices and a focus on ecological relevance make results impactful and replicable. Illustrated with two examples—an experiment to study the impact of disturbance on upland wetlands, and an observational study on blue tit colouring—this paper explains the rationale for the selection and use of effective statistical practices and provides practical guidance for ecologists seeking to improve their use of statistical methods.",
    "preprintUrl": "https://doi.org/10.48550/arxiv.2302.01528",
    "altmetric": null
@@ -5036,7 +5243,7 @@
    "isOA": true,
    "oaUrl": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/ele.14266",
    "url": "https://doi.org/10.1111/ele.14266",
-   "citations": 77,
+   "citations": 78,
    "abstract": "Coral reefs are under threat from disease as climate change alters environmental conditions. Rising temperatures exacerbate coral disease, but this relationship is likely complex as other factors also influence coral disease prevalence. To better understand this relationship, we meta-analytically examined 108 studies for changes in global coral disease over time alongside temperature, expressed using average summer sea surface temperature (SST) and cumulative heat stress as weekly sea surface temperature anomalies (WSSTAs). We found that both rising average summer SST and WSSTA were associated with global increases in the mean and variability in coral disease prevalence. Global coral disease prevalence tripled, reaching 9.92% in the 25 years examined, and the effect of 'year' became more stable (i.e. prevalence has lower variance over time), contrasting the effects of the two temperature stressors. Regional patterns diverged over time and differed in response to average summer SST. Our model predicted that, under the same trajectory, 76.8% of corals would be diseased globally by 2100, even assuming moderate average summer SST and WSSTA. These results highlight the need for urgent action to mitigate coral disease. Mitigating the impact of rising ocean temperatures on coral disease is a complex challenge requiring global discussion and further study.",
    "preprintUrl": "https://doi.org/10.32942/x2hp4p",
    "altmetric": null
@@ -5721,47 +5928,6 @@
    "altmetric": null
   },
   {
-   "id": "10.1007/s10682-022-10157-w",
-   "doi": "10.1007/s10682-022-10157-w",
-   "title": "Methodological inconsistencies define thermal bottlenecks in fish life cycle: a comment on Dahlke et al. 2020",
-   "authors": [
-    {
-     "name": "Patrice Pottier",
-     "orcid": "https://orcid.org/0000-0003-2106-6597",
-     "isSelf": true
-    },
-    {
-     "name": "Samantha Burke",
-     "orcid": "https://orcid.org/0000-0001-6902-974X",
-     "isSelf": false
-    },
-    {
-     "name": "Szymon M. Drobniak",
-     "orcid": "https://orcid.org/0000-0001-8101-6247",
-     "isSelf": false
-    },
-    {
-     "name": "Shinichi Nakagawa",
-     "orcid": "https://orcid.org/0000-0002-7765-5182",
-     "isSelf": false
-    }
-   ],
-   "authorLine": "Patrice Pottier, Samantha Burke, Szymon M. Drobniak, Shinichi Nakagawa",
-   "journal": "Evolutionary Ecology",
-   "year": 2022,
-   "volume": "36",
-   "issue": "2",
-   "pages": "287-292",
-   "kind": "article",
-   "isOA": true,
-   "oaUrl": "https://ruj.uj.edu.pl/xmlui/handle/item/307718",
-   "url": "https://doi.org/10.1007/s10682-022-10157-w",
-   "citations": 31,
-   "abstract": "Comparative analyses require researchers to not only ensure data quality, but also to make prudent and justifiable assumptions about data comparability. A failure to do so can lead to unreliable conclusions. As a case in point, we comment on a study that estimated the vulnerability of the world’s fish species to climate change using comparison between life stages (Dahlke et al. 2020, Science 369: 65-70). We highlight concerns with the data quality and argue that the metrics used to investigate ontogenetic differences in thermal tolerance were incomparable and confounded. Therefore, we provide caution when interpreting their results in the light of climate vulnerability. We suggest potential remedies and recommend thermal tolerance metrics that may be comparable across life stages. We also encourage the creation of guidelines to design, report, and assess comparative analyses to increase their reliability and reproducibility.",
-   "preprintUrl": "https://doi.org/10.32942/osf.io/hya68",
-   "altmetric": null
-  },
-  {
    "id": "10.1016/j.envpol.2022.119081",
    "doi": "10.1016/j.envpol.2022.119081",
    "title": "Thermal processing reduces PFAS concentrations in blue food – A systematic review and meta-analysis",
@@ -5930,6 +6096,47 @@
    "altmetric": null
   },
   {
+   "id": "10.1007/s10682-022-10157-w",
+   "doi": "10.1007/s10682-022-10157-w",
+   "title": "Methodological inconsistencies define thermal bottlenecks in fish life cycle: a comment on Dahlke et al. 2020",
+   "authors": [
+    {
+     "name": "Patrice Pottier",
+     "orcid": "https://orcid.org/0000-0003-2106-6597",
+     "isSelf": true
+    },
+    {
+     "name": "Samantha Burke",
+     "orcid": "https://orcid.org/0000-0001-6902-974X",
+     "isSelf": false
+    },
+    {
+     "name": "Szymon M. Drobniak",
+     "orcid": "https://orcid.org/0000-0001-8101-6247",
+     "isSelf": false
+    },
+    {
+     "name": "Shinichi Nakagawa",
+     "orcid": "https://orcid.org/0000-0002-7765-5182",
+     "isSelf": false
+    }
+   ],
+   "authorLine": "Patrice Pottier, Samantha Burke, Szymon M. Drobniak, Shinichi Nakagawa",
+   "journal": "Evolutionary Ecology",
+   "year": 2022,
+   "volume": "36",
+   "issue": "2",
+   "pages": "287-292",
+   "kind": "article",
+   "isOA": true,
+   "oaUrl": "https://doi.org/10.1007/s10682-022-10157-w",
+   "url": "https://doi.org/10.1007/s10682-022-10157-w",
+   "citations": 1,
+   "abstract": "Comparative analyses require researchers to not only ensure data quality, but also to make prudent and justifiable assumptions about data comparability. A failure to do so can lead to unreliable conclusions. As a case in point, we comment on a study that estimated the vulnerability of the world’s fish species to climate change using comparison between life stages (Dahlke et al. 2020, Science 369: 65-70). We highlight concerns with the data quality and argue that the metrics used to investigate ontogenetic differences in thermal tolerance were incomparable and confounded. Therefore, we provide caution when interpreting their results in the light of climate vulnerability. We suggest potential remedies and recommend thermal tolerance metrics that may be comparable across life stages. We also encourage the creation of guidelines to design, report, and assess comparative analyses to increase their reliability and reproducibility.",
+   "preprintUrl": "https://doi.org/10.32942/osf.io/hya68",
+   "altmetric": null
+  },
+  {
    "id": "10.1111/1365-2435.13899",
    "doi": "10.1111/1365-2435.13899",
    "title": "Sexual (in)equality? A meta‐analysis of sex differences in thermal acclimation capacity across ectotherms",
@@ -5970,7 +6177,7 @@
    "isOA": true,
    "oaUrl": "https://ruj.uj.edu.pl/xmlui/handle/item/285076",
    "url": "https://doi.org/10.1111/1365-2435.13899",
-   "citations": 76,
+   "citations": 77,
    "abstract": "Abstract Climate change is putting the fate of ectothermic animals at stake because their body temperature closely tracks environmental temperatures. The ability to adjust thermal limits and preference through acclimation (i.e. acclimation capacity) may compensate for temperature changes. However, although necessary for forecasting the future of ectotherms in a changing climate, knowledge on the factors modulating these plastic responses is fragmentary. For instance, the influence of an animal's sex in driving acclimation capacity has been underappreciated. Here, we present the first systematic review and meta‐analysis on sex differences in thermal acclimation capacity. Using 239 effect sizes from 37 studies and 44 species, we revealed that males and females did not differ significantly in their overall capacity to acclimate their thermal limits and preference. However, in some instances, females expressed significantly greater plastic responses than males. In wild animals, females had a greater heat tolerance plasticity than males. In addition, females had a greater cold tolerance plasticity in terrestrial habitats, but the strength and direction of this sexual dimorphism was associated with the duration of acclimation. We also found a negative correlation between body mass and plasticity. Finally, we demonstrated that the capacity for each sex to adjust their thermal tolerance and preference was remarkably limited. It is important to acknowledge that the above effects were weak and heterogeneous. Hence, in the species we investigated, minor differences in acclimation capacity may not translate into major ecological mismatch between sexes with climate change. Our systematic review also revealed that over 75% of the studies we identified either did not report or confounded the sex of the animals. This under‐reporting may cause to overlook ecologically relevant sex differences in plasticity in ectothermic taxa. We stress the need for further research on sex‐based responses to temperatures. Our synthesis provides additional evidence that the capacity for ectotherms to acclimate to temperatures is limited, and likely insufficient to compensate for the impacts of climate change. A free Plain Language Summary can be found within the Supporting Information of this article.",
    "preprintUrl": null,
    "altmetric": null
