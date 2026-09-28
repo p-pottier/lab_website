@@ -1,24 +1,20 @@
 {
-  "_comment": "Hand-checked corrections to the automatic co-author deduplication. OpenAlex mints more than one author entity for the same person, so the script folds entities together when they share an ORCID and the names are compatible, or when one entity carries no ORCID and the names match. Two cases still need a human: entities the rules cannot safely join, and entities they would wrongly join. Add to `merge` when `npm run data` reports an unresolved same-name pair you have checked. Add to `distinct` when OpenAlex has attached one person's ORCID to another person's entity.",
+  "_comment": "Hand-checked corrections to the automatic co-author deduplication. OpenAlex mints more than one author entity per person and publishers spell names inconsistently, so the script joins entities that share an ORCID with a compatible name, entities whose names match once case, accents and hyphens are normalised, and entities with no identifier whose name fits exactly one other person. What is left over is either one person registered under two ORCIDs or two people who share a name, and the data cannot tell those apart. Every run prints them; settle each one here.",
 
-  "_keys": "An entity is named by its OpenAlex author id (A5087260005, not the full URL). Entities OpenAlex left without an id are named by their display name exactly as it appears in collaborators.json, including any non-ASCII hyphen.",
+  "_keys": "An entity is named by its OpenAlex author id (A5087260005, not the full URL). Entities that reach the list without one, which is how every co-author known only to Crossref arrives, are named by their display name exactly as collaborators.json spells it, including any non-ASCII hyphen.",
 
-  "_mergeFormat": "Each entry joins every listed entity into one person. The first id is canonical: its ORCID and institution are the ones kept, and the fullest spelling of the name wins.",
+  "_mergeFormat": "Each entry joins every listed entity into one person. The first id is canonical: its ORCID and institution are kept, and the fullest spelling of the name wins.",
   "merge": [
     {
-      "why": "OpenAlex files Szymon Drobniak's papers under six spellings, and the entity carrying the Polish diminutive Szymek has neither an ORCID nor an OpenAlex id, so no automatic rule can reach it. The two never appear together on one paper, and the middle name matches.",
-      "ids": ["A5052648587", "Szymek Marian Drobniak"]
-    },
-    {
-      "why": "One person, two entities separated only by the hyphen character in the surname (U+2010 against U+002D). They carry different ORCIDs, so the automatic rules leave them apart: the id-less entity was given Jessica Abbott's ORCID by OpenAlex. A5030341892 is canonical because 0000-0002-1799-1440 is Abbey-Lee's own ORCID.",
-      "ids": ["A5030341892", "Robin N. Abbey-Lee"]
+      "why": "One person holding two ORCID records. The registry returns Erik Svensson for both 0000-0001-9006-016X and 0000-0002-9378-1218, and both entities sit at Lund University. A5015610644 is canonical because its ORCID is the one carrying a public Lund employment record.",
+      "ids": ["A5015610644", "A5136339600"]
     }
   ],
 
   "_distinctFormat": "Each entry keeps the listed entities apart, whatever the automatic rules conclude.",
   "distinct": [
     {
-      "why": "OpenAlex attaches ORCID 0000-0002-8743-2089 to both Jessica K. Abbott and an Abbey-Lee entity. The ORCID registry confirms it belongs to Jessica Abbott. The name guard already blocks the merge; this entry records the finding so it stays blocked if the names ever converge.",
+      "why": "Crossref tags Robin N. Abbey-Lee with ORCID 0000-0002-8743-2089 on 10.1186/s12915-024-02101-x, a paper they co-authored with Jessica Abbott. The ORCID registry returns Jessica Abbott for that identifier, so the publisher attached it to the wrong author. Merging on the shared ORCID would delete Abbey-Lee. The surname guard already blocks it; this entry records why, and the wrong ORCID is worth correcting with the journal.",
       "ids": ["A5087260005", "Robin N. Abbey-Lee"]
     }
   ]

@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-27",
+ "updated": "2026-09-28",
  "publications": [
   {
    "id": "10.1093/conphys/coag006",
@@ -110,62 +110,6 @@
    "citations": 7,
    "abstract": "Abstract Understanding how animals respond to environmental stressors across their life cycle is essential for predicting species' vulnerability to climate change. Here, we systematically reviewed the literature to quantify the variation in research effort on different life stages in the field of conservation physiology. Specifically, we reviewed experimental studies measuring physiological and life-history responses to climatic stressors across three representative scientific journals: Conservation Physiology, Journal of Thermal Biology and Journal of Experimental Biology. Our systematic map of 1276 studies revealed a pronounced underrepresentation of studies on embryos, representing only 8% to 9% of studies. This pattern was remarkably consistent across all axes considered (i.e. journals, taxonomic groups, physiological traits and environmental stressors). We also found that 80% of studies only investigated single life stages, and over 5% of studies did not clearly report the life stage(s) used. Despite the increasing recognition of the ecological importance and sensitivity of early life stages to environmental stressors, we found no evidence that research on embryos has gained traction over the past decade (2013–2024). We argue that these ontogenetic biases likely reflect a combination of historical precedents and enduring methodological and logistical constraints that continue to shape research agendas. To build a more holistic understanding across the life cycle, we: (i) call for a paradigm shift placing embryos at the center of experimental agendas, (ii) outline emerging methodological advances that increase the feasibility of research on early life stages, (iii) demonstrate how studies on embryos align with ethical considerations for animal research, (iv) highlight perspectives for future evidence syntheses and study reporting and (v) promote investigations of the mechanisms underlying physiological variation across ontogeny. Closing the ontogenetic gap will be key to improving our ability to predict population-level impacts of climate change and guiding more effective conservation and management interventions.",
    "preprintUrl": "https://doi.org/10.32942/x2kp96",
-   "altmetric": null
-  },
-  {
-   "id": "10.1093/icb/icag045",
-   "doi": "10.1093/icb/icag045",
-   "title": "Extreme Heat as the New Normal: A Methodological Roadmap Incorporating Behavior, Physiology, and Species Distributions",
-   "authors": [
-    {
-     "name": "Diego Ellis-Soto",
-     "orcid": "https://orcid.org/0000-0003-4766-021X",
-     "isSelf": false
-    },
-    {
-     "name": "Daniel W A Noble",
-     "orcid": null,
-     "isSelf": false
-    },
-    {
-     "name": "Pieter A Arnold",
-     "orcid": "https://orcid.org/0000-0002-6158-7752",
-     "isSelf": false
-    },
-    {
-     "name": "Patrice Pottier",
-     "orcid": "https://orcid.org/0000-0003-2106-6597",
-     "isSelf": true
-    },
-    {
-     "name": "Alison J Robey",
-     "orcid": null,
-     "isSelf": false
-    },
-    {
-     "name": "Christina Prokopenko",
-     "orcid": null,
-     "isSelf": false
-    },
-    {
-     "name": "Jeremy Cohen",
-     "orcid": null,
-     "isSelf": false
-    }
-   ],
-   "authorLine": "Diego Ellis-Soto, Daniel W A Noble, Pieter A Arnold, Patrice Pottier, Alison J Robey, Christina Prokopenko, Jeremy Cohen",
-   "journal": "Integrative And Comparative Biology",
-   "year": 2026,
-   "volume": "66",
-   "issue": null,
-   "pages": null,
-   "kind": "article",
-   "isOA": false,
-   "oaUrl": null,
-   "url": "https://doi.org/10.1093/icb/icag045",
-   "citations": 4,
-   "abstract": "A defining feature of climate change is the increasing frequency, intensity, and severity of extreme weather events. Among them, extreme heat is recognized as a critical driver of ecological and evolutionary change. Intense heat episodes can exceed physiological limits, alter animal movement, restructure geographic ranges, and increase extinction risk more than gradual changes to mean temperatures. Yet links between extreme heat events and organismal biology remain limited, in part because definitions and metrics are not standardized, and user-friendly workflows and guides are lacking for many biologists. We present a methodological roadmap, with reproducible code, for integrating extreme heat into studies of behavior, physiology, biophysical ecology, species distribution models (SDMs), and population dynamics. First, we provide standardized computational approaches to define and quantify extreme heat. Second, we fit SDMs for California quail (Callipepla californica) that include an extreme heat metric and showcase improved predictions of habitat suitability, particularly at range edges. Third, we compute biophysical simulations to quantify exposure to thermal stress in sleepy lizards (Tiliqua rugosa) across distinct macro- and microclimates. Finally, accounting for temporal autocorrelation in temperature profiles in population simulation models, we show that clustered heat extremes-missed by averages-can increase the risk of population collapse. As extreme heat events become more common, incorporating their dynamics is essential for understanding ecological and evolutionary change, designing experiments across species' geographic ranges, and supporting conservation in a rapidly warming world. Together, these case studies illustrate a reproducible, organism-informed roadmap to integrate extreme heat into predictions of ecological impacts and inference across levels of biological organization under ongoing climate change.",
-   "preprintUrl": "https://doi.org/10.64898/2026.02.25.707770",
    "altmetric": null
   },
   {
@@ -659,9 +603,65 @@
    "isOA": true,
    "oaUrl": "https://www.nature.com/articles/s41559-026-03117-y.pdf",
    "url": "https://doi.org/10.1038/s41559-026-03117-y",
-   "citations": 2,
+   "citations": 5,
    "abstract": "Global changes are leading to widespread species redistribution. Comprehensive assessments of range shift dynamics and their drivers are difficult, partly due to the variation in range shift detection over space and taxa. Here we compile documented range shift records for 1,758 butterfly species from 105 countries and territories, representing ~10% of the known diversity of these insects. Most species (80%) experienced range expansions, and most range shifts (79%) were associated with climate change and extreme weather events. A substantial proportion of species in our dataset contracted their ranges (27%) or shifted along elevational gradients (22%). We report widespread horizontal range expansions and contractions across tropical countries, with less evidence for elevational range shifts. We show that a clearer picture of range shift dynamics emerged only through the combination of different types of data, with expert assessments and non-English studies alleviating potential biases. Our findings of climate-driven range shifts call for concerted efforts to improve inclusive data monitoring and conservation efforts, especially for tropical countries, where human-induced land-use changes exert additional critical pressure.",
    "preprintUrl": null,
+   "altmetric": null
+  },
+  {
+   "id": "10.1093/icb/icag045",
+   "doi": "10.1093/icb/icag045",
+   "title": "Extreme Heat as the New Normal: A Methodological Roadmap Incorporating Behavior, Physiology, and Species Distributions",
+   "authors": [
+    {
+     "name": "Diego Ellis-Soto",
+     "orcid": "https://orcid.org/0000-0003-4766-021X",
+     "isSelf": false
+    },
+    {
+     "name": "Daniel W A Noble",
+     "orcid": null,
+     "isSelf": false
+    },
+    {
+     "name": "Pieter A Arnold",
+     "orcid": "https://orcid.org/0000-0002-6158-7752",
+     "isSelf": false
+    },
+    {
+     "name": "Patrice Pottier",
+     "orcid": "https://orcid.org/0000-0003-2106-6597",
+     "isSelf": true
+    },
+    {
+     "name": "Alison J Robey",
+     "orcid": null,
+     "isSelf": false
+    },
+    {
+     "name": "Christina Prokopenko",
+     "orcid": null,
+     "isSelf": false
+    },
+    {
+     "name": "Jeremy Cohen",
+     "orcid": null,
+     "isSelf": false
+    }
+   ],
+   "authorLine": "Diego Ellis-Soto, Daniel W A Noble, Pieter A Arnold, Patrice Pottier, Alison J Robey, Christina Prokopenko, Jeremy Cohen",
+   "journal": "Integrative And Comparative Biology",
+   "year": 2026,
+   "volume": "66",
+   "issue": null,
+   "pages": null,
+   "kind": "article",
+   "isOA": false,
+   "oaUrl": null,
+   "url": "https://doi.org/10.1093/icb/icag045",
+   "citations": 4,
+   "abstract": "A defining feature of climate change is the increasing frequency, intensity, and severity of extreme weather events. Among them, extreme heat is recognized as a critical driver of ecological and evolutionary change. Intense heat episodes can exceed physiological limits, alter animal movement, restructure geographic ranges, and increase extinction risk more than gradual changes to mean temperatures. Yet links between extreme heat events and organismal biology remain limited, in part because definitions and metrics are not standardized, and user-friendly workflows and guides are lacking for many biologists. We present a methodological roadmap, with reproducible code, for integrating extreme heat into studies of behavior, physiology, biophysical ecology, species distribution models (SDMs), and population dynamics. First, we provide standardized computational approaches to define and quantify extreme heat. Second, we fit SDMs for California quail (Callipepla californica) that include an extreme heat metric and showcase improved predictions of habitat suitability, particularly at range edges. Third, we compute biophysical simulations to quantify exposure to thermal stress in sleepy lizards (Tiliqua rugosa) across distinct macro- and microclimates. Finally, accounting for temporal autocorrelation in temperature profiles in population simulation models, we show that clustered heat extremes-missed by averages-can increase the risk of population collapse. As extreme heat events become more common, incorporating their dynamics is essential for understanding ecological and evolutionary change, designing experiments across species' geographic ranges, and supporting conservation in a rapidly warming world. Together, these case studies illustrate a reproducible, organism-informed roadmap to integrate extreme heat into predictions of ecological impacts and inference across levels of biological organization under ongoing climate change.",
+   "preprintUrl": "https://doi.org/10.64898/2026.02.25.707770",
    "altmetric": null
   },
   {
@@ -5928,6 +5928,47 @@
    "altmetric": null
   },
   {
+   "id": "10.1007/s10682-022-10157-w",
+   "doi": "10.1007/s10682-022-10157-w",
+   "title": "Methodological inconsistencies define thermal bottlenecks in fish life cycle: a comment on Dahlke et al. 2020",
+   "authors": [
+    {
+     "name": "Patrice Pottier",
+     "orcid": "https://orcid.org/0000-0003-2106-6597",
+     "isSelf": true
+    },
+    {
+     "name": "Samantha Burke",
+     "orcid": "https://orcid.org/0000-0001-6902-974X",
+     "isSelf": false
+    },
+    {
+     "name": "Szymon M. Drobniak",
+     "orcid": "https://orcid.org/0000-0001-8101-6247",
+     "isSelf": false
+    },
+    {
+     "name": "Shinichi Nakagawa",
+     "orcid": "https://orcid.org/0000-0002-7765-5182",
+     "isSelf": false
+    }
+   ],
+   "authorLine": "Patrice Pottier, Samantha Burke, Szymon M. Drobniak, Shinichi Nakagawa",
+   "journal": "Evolutionary Ecology",
+   "year": 2022,
+   "volume": "36",
+   "issue": "2",
+   "pages": "287-292",
+   "kind": "article",
+   "isOA": true,
+   "oaUrl": "https://ruj.uj.edu.pl/xmlui/handle/item/307718",
+   "url": "https://doi.org/10.1007/s10682-022-10157-w",
+   "citations": 31,
+   "abstract": "Comparative analyses require researchers to not only ensure data quality, but also to make prudent and justifiable assumptions about data comparability. A failure to do so can lead to unreliable conclusions. As a case in point, we comment on a study that estimated the vulnerability of the world’s fish species to climate change using comparison between life stages (Dahlke et al. 2020, Science 369: 65-70). We highlight concerns with the data quality and argue that the metrics used to investigate ontogenetic differences in thermal tolerance were incomparable and confounded. Therefore, we provide caution when interpreting their results in the light of climate vulnerability. We suggest potential remedies and recommend thermal tolerance metrics that may be comparable across life stages. We also encourage the creation of guidelines to design, report, and assess comparative analyses to increase their reliability and reproducibility.",
+   "preprintUrl": "https://doi.org/10.32942/osf.io/hya68",
+   "altmetric": null
+  },
+  {
    "id": "10.1016/j.envpol.2022.119081",
    "doi": "10.1016/j.envpol.2022.119081",
    "title": "Thermal processing reduces PFAS concentrations in blue food – A systematic review and meta-analysis",
@@ -6093,47 +6134,6 @@
    "citations": 4,
    "abstract": "Behavioural phenotyping is often time and labour-intensive, which can come at a cost to sample size and statistical precision. This is particularly a concern given that behaviours are often highly variable within and between individuals, so naturally requires a larger sample size. Drosophila melanogaster is a common model system in many research fields, and behavioural observations are frequently required. While D. melanogaster has a rapid lifecycle that enables large numbers of flies to be reared for experiments, they are still subject to methodological bottlenecks for behavioural observations. Additionally, their small and delicate bodies make it difficult to observe certain behaviours in real-time, for example, in movement tracking or when performing repeated assays on the same individuals. Here, we present a method, pilot data, custom data processing and analysis scripts for high-throughput behavioural phenotyping in D. melanogaster, as well as general remarks for future studies. We used automatic tracking units to measure three behaviours in the same individuals: locomotor activity, exploratory behaviour in a Y-maze, and habituation to a startle response stimulus. We then examined between-individual variation and trait correlations using our pilot data. Through this, we show that these behaviours are amenable to high-throughput automated tracking, with locomotor activity generating the most straightforward and high-quality data. These methods can be used to free up time and labour to allocate to increasing sample sizes and can be used to address a range of biological questions in ecology, evolution, and beyond.",
    "preprintUrl": null,
-   "altmetric": null
-  },
-  {
-   "id": "10.1007/s10682-022-10157-w",
-   "doi": "10.1007/s10682-022-10157-w",
-   "title": "Methodological inconsistencies define thermal bottlenecks in fish life cycle: a comment on Dahlke et al. 2020",
-   "authors": [
-    {
-     "name": "Patrice Pottier",
-     "orcid": "https://orcid.org/0000-0003-2106-6597",
-     "isSelf": true
-    },
-    {
-     "name": "Samantha Burke",
-     "orcid": "https://orcid.org/0000-0001-6902-974X",
-     "isSelf": false
-    },
-    {
-     "name": "Szymon M. Drobniak",
-     "orcid": "https://orcid.org/0000-0001-8101-6247",
-     "isSelf": false
-    },
-    {
-     "name": "Shinichi Nakagawa",
-     "orcid": "https://orcid.org/0000-0002-7765-5182",
-     "isSelf": false
-    }
-   ],
-   "authorLine": "Patrice Pottier, Samantha Burke, Szymon M. Drobniak, Shinichi Nakagawa",
-   "journal": "Evolutionary Ecology",
-   "year": 2022,
-   "volume": "36",
-   "issue": "2",
-   "pages": "287-292",
-   "kind": "article",
-   "isOA": true,
-   "oaUrl": "https://doi.org/10.1007/s10682-022-10157-w",
-   "url": "https://doi.org/10.1007/s10682-022-10157-w",
-   "citations": 1,
-   "abstract": "Comparative analyses require researchers to not only ensure data quality, but also to make prudent and justifiable assumptions about data comparability. A failure to do so can lead to unreliable conclusions. As a case in point, we comment on a study that estimated the vulnerability of the world’s fish species to climate change using comparison between life stages (Dahlke et al. 2020, Science 369: 65-70). We highlight concerns with the data quality and argue that the metrics used to investigate ontogenetic differences in thermal tolerance were incomparable and confounded. Therefore, we provide caution when interpreting their results in the light of climate vulnerability. We suggest potential remedies and recommend thermal tolerance metrics that may be comparable across life stages. We also encourage the creation of guidelines to design, report, and assess comparative analyses to increase their reliability and reproducibility.",
-   "preprintUrl": "https://doi.org/10.32942/osf.io/hya68",
    "altmetric": null
   },
   {

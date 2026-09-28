@@ -543,7 +543,17 @@ async function main() {
   await addAltmetric(pubs);
 
   console.log("Building collaborator list…");
-  const collab = await buildCollaborators(oaWorks, author.display_name);
+  /*
+   * Build it from the works the site actually lists, not from every OpenAlex
+   * record. The raw feed carries both halves of each preprint-and-article pair
+   * plus the Zenodo, figshare and peer-review records excluded above, so a
+   * co-author on a paper that went through review was counted twice, once per
+   * half, and often under two author entities because OpenAlex gives the
+   * preprint its own.
+   */
+  const keptOaWorks = [...deduped.values()].map((r) => r.oa).filter(Boolean);
+  console.log(`  ${keptOaWorks.length} of ${oaWorks.length} OpenAlex records are listed works`);
+  const collab = await buildCollaborators(keptOaWorks, pubs, author.display_name);
   console.log(`  ${collab.total} co-authors across ${collab.countries} countries`);
 
   /* --- 7. metrics --- */
@@ -623,11 +633,14 @@ async function addAltmetric(pubs) {
 
 /* -------------------------------------------------------- collaborators -- */
 
-async function buildCollaborators(works, selfName) {
+async function buildCollaborators(works, pubs, selfName) {
   const people = new Map();
   const instIds = new Set();
 
   for (const w of works) {
+    // Identify the paper by its DOI, because the same paper reaches this
+    // function from two sources and must not count twice.
+    const workId = cleanDOI(w.doi) || w.id;
     for (const a of w.authorships || []) {
       const name = a.author?.display_name;
       if (!name || name === selfName) continue;
@@ -644,7 +657,7 @@ async function buildCollaborators(works, selfName) {
       };
       // Counting work ids rather than authorships keeps the total right when a
       // person is listed twice on one paper, and makes merging exact.
-      if (w.id) rec.workIds.add(w.id);
+      if (workId) rec.workIds.add(workId);
       rec.lastYear = Math.max(rec.lastYear, w.publication_year ?? 0);
       for (const inst of a.institutions || []) {
         if (!inst.id) continue;
@@ -658,6 +671,53 @@ async function buildCollaborators(works, selfName) {
       people.set(key, rec);
     }
   }
+
+  /*
+   * OpenAlex carries the affiliations but not every author. Across the listed
+   * works it returns 843 authorship slots where ORCID and Crossref list 1049,
+   * so roughly a fifth of the co-authors are missing from it. Add them from the
+   * publication records, which is the same list the Publications page shows.
+   * They arrive without an institution, so they count but do not reach the map,
+   * exactly as the co-authors OpenAlex already leaves unplaced.
+   */
+  const byOrcidKey = new Map();
+  const byNameKey = new Map();
+  for (const [k, p] of people) {
+    const id = bareOrcid(p.orcid);
+    if (id && !byOrcidKey.has(id)) byOrcidKey.set(id, k);
+    const n = normName(p.name);
+    if (n && !byNameKey.has(n)) byNameKey.set(n, k);
+  }
+
+  let fromPubs = 0;
+  for (const pub of pubs || []) {
+    if (!pub.doi) continue;
+    for (const a of pub.authors || []) {
+      if (a.isSelf || !a.name) continue;
+      const id = bareOrcid(a.orcid);
+      const key = (id && byOrcidKey.get(id)) || byNameKey.get(normName(a.name));
+      if (key) {
+        const rec = people.get(key);
+        rec.workIds.add(pub.doi);
+        rec.lastYear = Math.max(rec.lastYear, pub.year ?? 0);
+        rec.orcid = rec.orcid || a.orcid || null;
+        continue;
+      }
+      const fresh = {
+        name: a.name,
+        orcid: a.orcid || null,
+        openalex: null,
+        workIds: new Set([pub.doi]),
+        lastYear: pub.year ?? 0,
+        institutions: new Map(),
+      };
+      people.set(a.name, fresh);
+      if (id) byOrcidKey.set(id, a.name);
+      byNameKey.set(normName(a.name), a.name);
+      fromPubs++;
+    }
+  }
+  console.log(`  ${fromPubs} co-authors came from the publication list, not OpenAlex`);
 
   await dedupePeople(people);
 
@@ -756,6 +816,17 @@ function namesCompatible(a, b) {
 
   const ta = na.split(" ");
   const tb = nb.split(" ");
+
+  // Some records arrive surname-first ("Smith, Jamie") or simply reversed
+  // ("Berry Alexander" against "Alex Berry"), so compare the name parts as a
+  // set before insisting on a surname position. Every part of the shorter name
+  // has to appear in the longer one, which still keeps Abbott and Abbey-Lee
+  // apart because they share no part at all.
+  const [short, long] = ta.length <= tb.length ? [ta, tb] : [tb, ta];
+  const matches = (x, y) =>
+    x === y || (x.length >= 3 && y.length >= 3 && (x.startsWith(y) || y.startsWith(x)));
+  if (short.every((t) => long.some((u) => matches(t, u)))) return true;
+
   if (ta[ta.length - 1] !== tb[tb.length - 1]) return false;
 
   // Surnames agree, so accept initials against a spelled-out given name
@@ -917,20 +988,19 @@ async function dedupePeople(people) {
     }
   }
 
-  /* --- 4. report only what the overrides did not already settle --- */
-  const stillApart = (keys) => new Set(keys.map(find)).size > 1;
-  const openOrcid = unresolvedOrcid.filter(([, a, b]) => stillApart([a, b]));
-  const openName = unresolvedName.filter(([, keys]) => stillApart(keys));
+  /* --- 4. identifier-less entities that match exactly one other person --- */
 
   /*
    * An entity with neither an ORCID nor an OpenAlex id can only be matched on
-   * its name, and a given name is not a stable thing to match on: OpenAlex
-   * carries Szymon Drobniak's diminutive "Szymek" as a separate person. Merging
-   * on a surname and a shared initial would also join two siblings in one lab,
-   * so these are reported for confirmation rather than joined.
+   * its name, which is why this runs last and is fenced. Among everyone sharing
+   * its surname, exactly one has to be compatible on the given names too. Erin
+   * Macartney therefore folds into Erin L. Macartney while Grania Polly Smith
+   * stays clear of Jamie L. Smith, and a name matching two people is reported
+   * rather than assigned to either.
    */
   const surnameOf = (s) => normName(s).split(" ").pop();
-  const candidates = [];
+  const ambiguous = [];
+  let byNeighbour = 0;
   for (const [k, p] of people) {
     if (p.orcid || p.openalex || find(k) !== k) continue;
     // Group by root, because the entities merged above are still in the map
@@ -940,12 +1010,32 @@ async function dedupePeople(people) {
         .filter((o) => find(o) !== find(k) && surnameOf(people.get(o).name) === surnameOf(p.name))
         .map(find)
     );
-    if (near.size !== 1) continue;
-    const other = people.get([...near][0]);
-    if (namesCompatible(p.name, other.name)) candidates.push([p.name, other.name]);
+    const fits = [...near].filter((o) => namesCompatible(p.name, people.get(o).name));
+    if (!fits.length) continue;
+    // Several matches are only a real ambiguity when they are different people.
+    // "Erin Macartney" fits both "Erin L. Macartney" and the misspelt "Erian
+    // Macartney", who are one person, so the name still lands somewhere safe.
+    const rivals = fits.some((x) =>
+      fits.some((y) => x !== y && !namesCompatible(people.get(x).name, people.get(y).name))
+    );
+    if (rivals) {
+      ambiguous.push([p.name, fits.length]);
+      continue;
+    }
+    // Join the best-attested of them and leave the rest to the ORCID rules,
+    // which is what keeps two ORCIDs from being merged behind a human's back.
+    const target = fits.reduce((a, b) =>
+      people.get(a).workIds.size >= people.get(b).workIds.size ? a : b
+    );
+    if (join(target, k)) byNeighbour++;
   }
 
-  /* --- 5. collapse each group into its root --- */
+  /* --- 5. report only what none of the rules above settled --- */
+  const stillApart = (keys) => new Set(keys.map(find)).size > 1;
+  const openOrcid = unresolvedOrcid.filter(([, a, b]) => stillApart([a, b]));
+  const openName = unresolvedName.filter(([, keys]) => stillApart(keys));
+
+  /* --- 6. collapse each group into its root --- */
   const before = people.size;
   for (const k of [...people.keys()]) {
     const root = find(k);
@@ -965,7 +1055,8 @@ async function dedupePeople(people) {
 
   console.log(
     `  merged ${before - people.size} duplicate author entities ` +
-      `(${byOrcid} by ORCID, ${byName} by name, ${byHand} by hand)`
+      `(${byOrcid} by ORCID, ${byName} by name, ${byNeighbour} by sole surname match, ` +
+      `${byHand} by hand)`
   );
   for (const [id, , , a, b] of openOrcid) {
     console.log(`    kept apart: "${a}" and "${b}" share ${id} but are not the same name`);
@@ -973,10 +1064,10 @@ async function dedupePeople(people) {
   for (const [name, , ids] of openName) {
     console.log(`    unresolved: "${name}" holds ${ids.length} ORCIDs (${ids.join(", ")})`);
   }
-  for (const [a, b] of candidates) {
-    console.log(`    possible pair: "${a}" has no identifier and may be "${b}"`);
+  for (const [name, n] of ambiguous) {
+    console.log(`    unresolved: "${name}" has no identifier and fits ${n} people equally well`);
   }
-  if (openName.length || candidates.length) {
+  if (openName.length || ambiguous.length) {
     console.log("    resolve these in scripts/collaborator-merges.json once checked by hand");
   }
 }
