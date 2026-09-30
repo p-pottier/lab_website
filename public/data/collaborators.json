@@ -1,16 +1,16 @@
 {
- "updated": "2026-09-29",
- "total": 730,
+ "updated": "2026-09-30",
+ "total": 727,
  "countries": 59,
- "institutions": 265,
+ "institutions": 266,
  "byCountry": {
   "Japan": 8,
   "Poland": 6,
-  "Australia": 114,
+  "Australia": 116,
   "Germany": 38,
   "France": 14,
   "Sweden": 25,
-  "United Kingdom": 45,
+  "United Kingdom": 46,
   "Mexico": 5,
   "United States": 60,
   "Canada": 32,
@@ -625,9 +625,9 @@
    "lon": 151.20732
   },
   {
-   "name": "Chloe Grace Hart",
-   "orcid": "https://orcid.org/0000-0002-8082-0484",
-   "openalex": "https://openalex.org/A5081074822",
+   "name": "Chloe Hart",
+   "orcid": null,
+   "openalex": null,
    "works": 2,
    "lastYear": 2026,
    "institution": "The University of Sydney",
@@ -903,12 +903,12 @@
    "openalex": "https://openalex.org/A5069066388",
    "works": 2,
    "lastYear": 2025,
-   "institution": "The University of Queensland",
-   "city": "Brisbane",
-   "country": "Australia",
-   "countryCode": "AU",
-   "lat": -27.46794,
-   "lon": 153.02809
+   "institution": "University of Oxford",
+   "city": "Oxford",
+   "country": "United Kingdom",
+   "countryCode": "GB",
+   "lat": 51.75222,
+   "lon": -1.25596
   },
   {
    "name": "Jessica Tam",
@@ -1501,12 +1501,12 @@
    "openalex": "https://openalex.org/A5010157529",
    "works": 1,
    "lastYear": 2024,
-   "institution": null,
-   "city": null,
-   "country": null,
-   "countryCode": null,
-   "lat": null,
-   "lon": null
+   "institution": "UNSW Sydney",
+   "city": "Sydney",
+   "country": "Australia",
+   "countryCode": "AU",
+   "lat": -33.86785,
+   "lon": 151.20732
   },
   {
    "name": "Agnes Birgitta Olin",
@@ -1861,8 +1861,8 @@
   },
   {
    "name": "Amélie Fontaine",
-   "orcid": "https://orcid.org/0000-0002-9713-5301",
-   "openalex": "https://openalex.org/A5066713320",
+   "orcid": null,
+   "openalex": null,
    "works": 1,
    "lastYear": 2025,
    "institution": "McGill University",
@@ -2447,7 +2447,7 @@
   {
    "name": "Brian Gallagher",
    "orcid": "https://orcid.org/0000-0002-9990-8363",
-   "openalex": "https://openalex.org/A5091799149",
+   "openalex": null,
    "works": 1,
    "lastYear": 2026,
    "institution": "Concordia University",
@@ -2692,9 +2692,9 @@
    "lon": -105.08442
   },
   {
-   "name": "Charlie Blake",
+   "name": "Charlie K. Blake",
    "orcid": "https://orcid.org/0000-0003-4649-3472",
-   "openalex": "https://openalex.org/A5080745300",
+   "openalex": null,
    "works": 1,
    "lastYear": 2025,
    "institution": "Southern Illinois University Edwardsville",
@@ -2926,19 +2926,6 @@
    "lon": null
   },
   {
-   "name": "D. R. Doty",
-   "orcid": "https://orcid.org/0009-0002-5130-2415",
-   "openalex": "https://openalex.org/A5109632356",
-   "works": 1,
-   "lastYear": 2026,
-   "institution": "University of Alberta",
-   "city": "Edmonton",
-   "country": "Canada",
-   "countryCode": "CA",
-   "lat": 53.55014,
-   "lon": -113.46871
-  },
-  {
    "name": "Da-Li Lin",
    "orcid": null,
    "openalex": null,
@@ -3100,19 +3087,6 @@
    "openalex": null,
    "works": 1,
    "lastYear": 2026,
-   "institution": null,
-   "city": null,
-   "country": null,
-   "countryCode": null,
-   "lat": null,
-   "lon": null
-  },
-  {
-   "name": "Danielle P. Santiago Ramos",
-   "orcid": "https://orcid.org/0000-0002-1231-9110",
-   "openalex": "https://openalex.org/A5000583816",
-   "works": 1,
-   "lastYear": 2026,
    "institution": "University of Exeter",
    "city": "Exeter",
    "country": "United Kingdom",
@@ -3139,12 +3113,12 @@
    "openalex": null,
    "works": 1,
    "lastYear": 2026,
-   "institution": null,
-   "city": null,
-   "country": null,
-   "countryCode": null,
-   "lat": null,
-   "lon": null
+   "institution": "University of Exeter",
+   "city": "Exeter",
+   "country": "United Kingdom",
+   "countryCode": "GB",
+   "lat": 50.72359848022461,
+   "lon": -3.527509927749634
   },
   {
    "name": "David C. Ensminger",
@@ -3210,19 +3184,6 @@
    "countryCode": null,
    "lat": null,
    "lon": null
-  },
-  {
-   "name": "David P. Roy",
-   "orcid": "https://orcid.org/0000-0002-1347-0250",
-   "openalex": "https://openalex.org/A5033254735",
-   "works": 1,
-   "lastYear": 2026,
-   "institution": "University of Exeter",
-   "city": "Exeter",
-   "country": "United Kingdom",
-   "countryCode": "GB",
-   "lat": 50.72359848022461,
-   "lon": -3.527509927749634
   },
   {
    "name": "David P. Wilkinson",
@@ -3485,6 +3446,19 @@
    "lon": -3.19648
   },
   {
+   "name": "Dustin Doty",
+   "orcid": "https://orcid.org/0009-0002-5130-2415",
+   "openalex": null,
+   "works": 1,
+   "lastYear": 2026,
+   "institution": "University of Alberta",
+   "city": "Edmonton",
+   "country": "Canada",
+   "countryCode": "CA",
+   "lat": 53.55014,
+   "lon": -113.46871
+  },
+  {
    "name": "Dustin G. Gannon",
    "orcid": "https://orcid.org/0000-0002-6936-8626",
    "openalex": "https://openalex.org/A5056992660",
@@ -3695,7 +3669,7 @@
   {
    "name": "Emily Lechner",
    "orcid": null,
-   "openalex": "https://openalex.org/A5023045124",
+   "openalex": null,
    "works": 1,
    "lastYear": 2026,
    "institution": "University of Gothenburg",
@@ -6493,12 +6467,12 @@
    "openalex": "https://openalex.org/A5065692815",
    "works": 1,
    "lastYear": 2024,
-   "institution": null,
-   "city": null,
-   "country": null,
-   "countryCode": null,
-   "lat": null,
-   "lon": null
+   "institution": "UNSW Sydney",
+   "city": "Sydney",
+   "country": "Australia",
+   "countryCode": "AU",
+   "lat": -33.86785,
+   "lon": 151.20732
   },
   {
    "name": "Marija Purgar",
@@ -7416,12 +7390,12 @@
    "openalex": "https://openalex.org/A5107511006",
    "works": 1,
    "lastYear": 2024,
-   "institution": null,
-   "city": null,
-   "country": null,
-   "countryCode": null,
-   "lat": null,
-   "lon": null
+   "institution": "UNSW Sydney",
+   "city": "Sydney",
+   "country": "Australia",
+   "countryCode": "AU",
+   "lat": -33.86785,
+   "lon": 151.20732
   },
   {
    "name": "Oz Ben Yehuda",
@@ -7947,19 +7921,6 @@
    "name": "Richard A. Fuller",
    "orcid": "https://orcid.org/0000-0001-9468-9678",
    "openalex": null,
-   "works": 1,
-   "lastYear": 2026,
-   "institution": null,
-   "city": null,
-   "country": null,
-   "countryCode": null,
-   "lat": null,
-   "lon": null
-  },
-  {
-   "name": "Richard Fuller",
-   "orcid": "https://orcid.org/0000-0002-4298-5069",
-   "openalex": "https://openalex.org/A5068960794",
    "works": 1,
    "lastYear": 2026,
    "institution": "The University of Queensland",
@@ -8725,8 +8686,8 @@
   },
   {
    "name": "Sujan Khanal",
-   "orcid": "https://orcid.org/0000-0002-9162-9095",
-   "openalex": "https://openalex.org/A5102760851",
+   "orcid": null,
+   "openalex": null,
    "works": 1,
    "lastYear": 2026,
    "institution": null,
@@ -9467,7 +9428,7 @@
   {
    "name": "Zachary Simpson",
    "orcid": "https://orcid.org/0000-0001-8075-810X",
-   "openalex": "https://openalex.org/A5066487122",
+   "openalex": null,
    "works": 1,
    "lastYear": 2026,
    "institution": "Agricultural Research Service",

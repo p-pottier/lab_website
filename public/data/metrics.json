@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-29",
+ "updated": "2026-09-30",
  "sources": [
   "ORCID",
   "Crossref",
@@ -13,7 +13,7 @@
  "articles": 40,
  "preprints": 8,
  "firstAuthor": 11,
- "coAuthors": 730,
+ "coAuthors": 727,
  "countries": 59,
  "citationsByYear": [
   {
@@ -30,7 +30,7 @@
   },
   {
    "year": 2023,
-   "cited_by_count": 228
+   "cited_by_count": 229
   },
   {
    "year": 2024,
@@ -42,7 +42,7 @@
   },
   {
    "year": 2026,
-   "cited_by_count": 451
+   "cited_by_count": 454
   }
  ]
 }
