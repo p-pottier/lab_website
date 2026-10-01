@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-30",
+ "updated": "2026-10-01",
  "publications": [
   {
    "id": "10.1093/conphys/coag006",
@@ -4550,7 +4550,7 @@
    "isOA": true,
    "oaUrl": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/2688-8319.12303",
    "url": "https://doi.org/10.1002/2688-8319.12303",
-   "citations": 42,
+   "citations": 43,
    "abstract": "Abstract Exposure to extreme temperatures can negatively affect animal reproduction, by disrupting the ability of individuals to produce any offspring (fertility), or the number of offspring produced by fertile individuals (fecundity). This has important ecological consequences, because reproduction is the ultimate measure of population fitness: a reduction in reproductive output lowers the population growth rate and increases the extinction risk. Despite this importance, there have been no large‐scale summaries of the evidence for effect of temperature on reproduction. We provide a systematic map of studies testing the relationship between temperature and animal reproduction. We systematically searched for published studies that statistically test for a direct link between temperature and animal reproduction, in terms of fertility, fecundity or indirect measures of reproductive potential (gamete and gonad traits). Overall, we collated a large and rich evidence base, with 1654 papers that met our inclusion criteria, encompassing 1191 species. The map revealed several important research gaps. Insects made up almost half of the dataset, but reptiles and amphibians were uncommon, as were non‐arthropod invertebrates. Fecundity was the most common reproductive trait examined, and relatively few studies measured fertility. It was uncommon for experimental studies to test exposure of different life stages, exposure to short‐term heat or cold shock, exposure to temperature fluctuations, or to independently assess male and female effects. Studies were most often published in journals focusing on entomology and pest control, ecology and evolution, aquaculture and fisheries science, and marine biology. Finally, while individuals were sampled from every continent, there was a strong sampling bias towards mid‐latitudes in the Northern Hemisphere, such that the tropics and polar regions are less well sampled. This map reveals a rich literature of studies testing the relationship between temperature and animal reproduction, but also uncovers substantial missing treatment of taxa, traits, and thermal regimes. This database will provide a valuable resource for future quantitative meta‐analyses, and direct future studies aiming to fill identified gaps.",
    "preprintUrl": null,
    "altmetric": null
@@ -5790,7 +5790,7 @@
    "isOA": true,
    "oaUrl": "https://doi.org/10.1038/s41467-022-32953-2",
    "url": "https://doi.org/10.1038/s41467-022-32953-2",
-   "citations": 140,
+   "citations": 141,
    "abstract": "Extreme temperature events are increasing in frequency and intensity due to climate change. Such events threaten insects, including pollinators, pests and disease vectors. Insect critical thermal limits can be enhanced through acclimation, yet evidence that plasticity aids survival at extreme temperatures is limited. Here, using meta-analyses across 1374 effect sizes, 74 studies and 102 species, we show that thermal limit plasticity is pervasive but generally weak: per 1 °C rise in acclimation temperature, critical thermal maximum increases by 0.09 °C; and per 1 °C decline, critical thermal minimum decreases by 0.15 °C. Moreover, small but significant publication bias suggests that the magnitude of plasticity is marginally overestimated. We find juvenile insects are more plastic than adults, highlighting that physiological responses of insects vary through ontogeny. Overall, we show critical thermal limit plasticity is likely of limited benefit to insects during extreme climatic events, yet we need more studies in under-represented taxa and geographic regions.",
    "preprintUrl": null,
    "altmetric": null
