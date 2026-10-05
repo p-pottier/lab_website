@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-04",
+ "updated": "2026-10-05",
  "sources": [
   "ORCID",
   "Crossref",
@@ -42,7 +42,7 @@
   },
   {
    "year": 2026,
-   "cited_by_count": 459
+   "cited_by_count": 460
   }
  ]
 }
