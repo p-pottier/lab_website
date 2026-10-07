@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-06",
+ "updated": "2026-10-07",
  "publications": [
   {
    "id": "10.1093/conphys/coag006",
@@ -596,9 +596,9 @@
    "authorLine": "Shawan Chowdhury, Upama Aich, Laura H. Antão, Stefan Pinkert, Perpetra Akite, Gilberto S. S. Almeida, Tatsuya Amano, Andras Ambrus, Jade A. T. Badon, Seung-Yun Baek, Maksims Balalaikins, Michal Barták, Vijay Barve, Michał Bełcik, Timothy C. Bonebrake, Simona Bonelli, Diana E. Bowler, Michael F. Braby, Roger Caritg, Sei-Woong Choi, Wen-Chen Chu, Eloisa Clain, Steve Collins, Johnattan H. Cumplido, Leonardo Dapporto, Gideon G. Deme, Matthias Dolek, Aleksandra Dolezal, Fahmi Idris Firdaus, Markus Franzén, André V. L. Freitas, Richard A. Fuller, Luisa Gensch, Eliza Grames, Elia Guariento, Bryan Haywood, Shiran Hershcovich, Kerstin Jantke, Eddie John, Henrik Kalivoda, Azadeh Karimi, Ryosuke Katayose, Akito Y. Kawahara, Sujan Khanal, Krushnamegh Kunte, Lionel L’Hoste, Magdalena Lenda, Jorge L. León-Cortés, Da-Li Lin, Yuet Fung Ling, Maria Lucia Lorini, Dirk Maes, Dino Martins, Thomas Merckx, Xavier Mestdagh, Yeray Monasterio, Akihiro Nakamura, Rachel R. Y. Oh, Lars B. Pettersson, Jeffrey S. Pippen, Clara Pladevall, Ingrid L. Pollet, Patrice Pottier, Muhammad A. Rafi, Danielle L. Ramos, Tharindu Ranasinghe, Fanie Rautenbach, Martin Reith, Abubakar S. Ringim, Federico Riva, David B. Roy, Nils Ryrholm, Marjo Saastamoinen, Josef Settele, William Sidemo-Holm, Piotr Skorka, Nigel E. Stork, Sanej P. Suwal, Giedrius Švitra, Ann B. Swengel, Scott R. Swengel, Nicolas Titeux, Robert Tropek, Olga Tzortzakaki, Chris van Swaay, Rudi Verovnik, Jerome L. Wiedmann, Martin Wiemers, Masaya Yago, Hossein Yazdandad, Oz B. Yehuda, Konstantina Zografou, Aletta Bonn, Guy Pe’er, Jonathan Lenoir",
    "journal": "Nature Ecology & Evolution",
    "year": 2026,
-   "volume": null,
-   "issue": null,
-   "pages": null,
+   "volume": "10",
+   "issue": "10",
+   "pages": "1900-1913",
    "kind": "article",
    "isOA": true,
    "oaUrl": "https://www.nature.com/articles/s41559-026-03117-y.pdf",
@@ -1030,9 +1030,9 @@
    "authorLine": "Mafalda Tomás, Patrice Pottier, Alexandro Autiero, Elena Tamarit‐Castro, Alex A. Berry, Tamzin A. Blewett, Ivan Cadonic, Dustin Doty, Maryane Gradito, Elizabeth C. Hoots, Luis L. Kuchenmüller, Sidney Martin, Vincent Mélançon, Juliane Vigneault, Timothy D. Clark, Zara‐Louise Cowan, Fredrik Jutfelt, Leon Green",
    "journal": "Journal of Animal Ecology",
    "year": 2026,
-   "volume": null,
-   "issue": null,
-   "pages": null,
+   "volume": "95",
+   "issue": "10",
+   "pages": "2088-2103",
    "kind": "article",
    "isOA": true,
    "oaUrl": "https://doi.org/10.1111/1365-2656.70332",
@@ -3175,7 +3175,7 @@
    "isOA": true,
    "oaUrl": "https://doi.org/10.1038/s41586-025-08665-0",
    "url": "https://doi.org/10.1038/s41586-025-08665-0",
-   "citations": 80,
+   "citations": 81,
    "abstract": "Abstract Amphibians are the most threatened vertebrates, yet their resilience to rising temperatures remains poorly understood 1,2 . This is primarily because knowledge of thermal tolerance is taxonomically and geographically biased 3 , compromising global climate vulnerability assessments. Here we used a phylogenetically informed data-imputation approach to predict the heat tolerance of 60% of amphibian species and assessed their vulnerability to daily temperature variations in thermal refugia. We found that 104 out of 5,203 species (2%) are currently exposed to overheating events in shaded terrestrial conditions. Despite accounting for heat-tolerance plasticity, a 4 °C global temperature increase would create a step change in impact severity, pushing 7.5% of species beyond their physiological limits. In the Southern Hemisphere, tropical species encounter disproportionally more overheating events, while non-tropical species are more susceptible in the Northern Hemisphere. These findings challenge evidence for a general latitudinal gradient in overheating risk 4–6 and underscore the importance of considering climatic variability in vulnerability assessments. We provide conservative estimates assuming access to cool shaded microenvironments. Thus, the impacts of global warming will probably exceed our projections. Our microclimate-explicit analyses demonstrate that vegetation and water bodies are critical in buffering amphibians during heat waves. Immediate action is needed to preserve and manage these microhabitat features.",
    "preprintUrl": "https://doi.org/10.32942/x2t02t",
    "altmetric": null
@@ -4666,7 +4666,7 @@
    "isOA": true,
    "oaUrl": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/2041-210X.14270",
    "url": "https://doi.org/10.1111/2041-210x.14270",
-   "citations": 39,
+   "citations": 40,
    "abstract": "Abstract Increasing attention has been drawn to the misuse of statistical methods over recent years, with particular concern about the prevalence of practices such as poor experimental design, cherry picking and inadequate reporting. These failures are largely unintentional and no more common in ecology than in other scientific disciplines, with many of them easily remedied given the right guidance. Originating from a discussion at the 2020 International Statistical Ecology Conference, we show how ecologists can build their research following four guiding principles for impactful statistical research practices: (1) define a focussed research question, then plan sampling and analysis to answer it; (2) develop a model that accounts for the distribution and dependence of your data; (3) emphasise effect sizes to replace statistical significance with ecological relevance; and (4) report your methods and findings in sufficient detail so that your research is valid and reproducible. These principles provide a framework for experimental design and reporting that guards against unsound practices. Starting with a well‐defined research question allows researchers to create an efficient study to answer it, and guards against poor research practices that lead to poor estimation of the direction, magnitude, and uncertainty of ecological relationships, and to poor replicability. Correct and appropriate statistical models give sound conclusions. Good reporting practices and a focus on ecological relevance make results impactful and replicable. Illustrated with two examples—an experiment to study the impact of disturbance on upland wetlands, and an observational study on blue tit colouring—this paper explains the rationale for the selection and use of effective statistical practices and provides practical guidance for ecologists seeking to improve their use of statistical methods.",
    "preprintUrl": "https://doi.org/10.48550/arxiv.2302.01528",
    "altmetric": null
