@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-07",
+ "updated": "2026-10-08",
  "total": 727,
  "countries": 59,
  "institutions": 266,
@@ -205,8 +205,8 @@
    "city": "Sapporo",
    "country": "Japan",
    "countryCode": "JP",
-   "lat": 43.07817840576172,
-   "lon": 141.3399658203125
+   "lat": 43.06667,
+   "lon": 141.35
   },
   {
    "name": "Kyle Morrison",
@@ -7498,8 +7498,8 @@
    "city": "Lancaster",
    "country": "United Kingdom",
    "countryCode": "GB",
-   "lat": 54.04648971557617,
-   "lon": -2.799880027770996
+   "lat": 54.04649,
+   "lon": -2.79988
   },
   {
    "name": "Paula Andrea Martinez",
@@ -8564,8 +8564,8 @@
    "city": "Juiz de Fora",
    "country": "Brazil",
    "countryCode": "BR",
-   "lat": -21.764169692993164,
-   "lon": -43.35028076171875
+   "lat": -21.76417,
+   "lon": -43.35028
   },
   {
    "name": "Skye M. Greenler",
@@ -8616,8 +8616,8 @@
    "city": "Marburg",
    "country": "Germany",
    "countryCode": "DE",
-   "lat": 50.80904006958008,
-   "lon": 8.770689964294434
+   "lat": 50.80904,
+   "lon": 8.77069
   },
   {
    "name": "Stefano Mammola",
