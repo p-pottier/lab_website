@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-08",
+ "updated": "2026-10-09",
  "total": 727,
  "countries": 59,
  "institutions": 266,
@@ -3448,7 +3448,7 @@
   {
    "name": "Dustin Doty",
    "orcid": "https://orcid.org/0009-0002-5130-2415",
-   "openalex": null,
+   "openalex": "https://openalex.org/A5004777429",
    "works": 1,
    "lastYear": 2026,
    "institution": "University of Alberta",
