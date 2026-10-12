@@ -1,19 +1,19 @@
 {
- "updated": "2026-10-11",
- "total": 727,
+ "updated": "2026-10-12",
+ "total": 724,
  "countries": 59,
  "institutions": 266,
  "byCountry": {
   "Japan": 8,
   "Poland": 6,
-  "Australia": 116,
+  "Australia": 114,
   "Germany": 38,
   "France": 14,
   "Sweden": 25,
   "United Kingdom": 46,
   "Mexico": 5,
   "United States": 60,
-  "Canada": 32,
+  "Canada": 31,
   "Portugal": 5,
   "Switzerland": 11,
   "Italy": 7,
@@ -274,6 +274,19 @@
    "lon": 153.02809
   },
   {
+   "name": "G. Gregory Neely",
+   "orcid": "https://orcid.org/0000-0002-1957-9732",
+   "openalex": "https://openalex.org/A5011997834",
+   "works": 4,
+   "lastYear": 2026,
+   "institution": "The University of Sydney",
+   "city": "Sydney",
+   "country": "Australia",
+   "countryCode": "AU",
+   "lat": -33.86785,
+   "lon": 151.20732
+  },
+  {
    "name": "Matthieu Paquet",
    "orcid": "https://orcid.org/0000-0003-1182-2299",
    "openalex": "https://openalex.org/A5038632134",
@@ -428,19 +441,6 @@
    "countryCode": "US",
    "lat": 42.098690032958984,
    "lon": -75.91796875
-  },
-  {
-   "name": "G. Gregory Neely",
-   "orcid": "https://orcid.org/0000-0002-1957-9732",
-   "openalex": "https://openalex.org/A5011997834",
-   "works": 3,
-   "lastYear": 2025,
-   "institution": "The University of Sydney",
-   "city": "Sydney",
-   "country": "Australia",
-   "countryCode": "AU",
-   "lat": -33.86785,
-   "lon": 151.20732
   },
   {
    "name": "Hester Weaving",
@@ -742,6 +742,19 @@
    "lon": 4.867459774017334
   },
   {
+   "name": "Elizabeth C. Hoots",
+   "orcid": "https://orcid.org/0000-0001-5698-1395",
+   "openalex": "https://openalex.org/A5073075381",
+   "works": 2,
+   "lastYear": 2026,
+   "institution": "Deakin University",
+   "city": "Burwood",
+   "country": "Australia",
+   "countryCode": "AU",
+   "lat": -37.84978,
+   "lon": 145.11901
+  },
+  {
    "name": "Elliot Gould",
    "orcid": "https://orcid.org/0000-0002-6585-538X",
    "openalex": "https://openalex.org/A5002465189",
@@ -755,7 +768,7 @@
    "lon": 144.96332
   },
   {
-   "name": "Erik I. Svensson",
+   "name": "ERIK I. SVENSSON",
    "orcid": "https://orcid.org/0000-0001-9006-016X",
    "openalex": "https://openalex.org/A5015610644",
    "works": 2,
@@ -1147,7 +1160,7 @@
   {
    "name": "Maryane Gradito",
    "orcid": "https://orcid.org/0009-0004-6609-0229",
-   "openalex": "https://openalex.org/A5129471259",
+   "openalex": "https://openalex.org/A5035875137",
    "works": 2,
    "lastYear": 2026,
    "institution": "Deakin University",
@@ -1351,6 +1364,19 @@
    "countryCode": "CH",
    "lat": 47.36667,
    "lon": 8.55
+  },
+  {
+   "name": "Tamzin A. Blewett",
+   "orcid": "https://orcid.org/0000-0001-6834-1571",
+   "openalex": "https://openalex.org/A5017115819",
+   "works": 2,
+   "lastYear": 2026,
+   "institution": "University of Alberta",
+   "city": "Edmonton",
+   "country": "Canada",
+   "countryCode": "CA",
+   "lat": 53.55014,
+   "lon": -113.46871
   },
   {
    "name": "Timothy Clark",
@@ -2367,9 +2393,9 @@
    "lon": 0.11667
   },
   {
-   "name": "Betina Kozlowsky-Suzuki",
+   "name": "Betina Kozlowsky‐Suzuki",
    "orcid": "https://orcid.org/0000-0002-6403-4619",
-   "openalex": "https://openalex.org/A5115859095",
+   "openalex": "https://openalex.org/A5071476832",
    "works": 1,
    "lastYear": 2026,
    "institution": "Universidade Federal do Estado do Rio de Janeiro",
@@ -2744,9 +2770,9 @@
    "lon": 5.653332710266113
   },
   {
-   "name": "Christian Bihun",
-   "orcid": null,
-   "openalex": "https://openalex.org/A5138815053",
+   "name": "Christian J. Bihun",
+   "orcid": "https://orcid.org/0000-0002-3992-6236",
+   "openalex": "https://openalex.org/A5005822412",
    "works": 1,
    "lastYear": 2026,
    "institution": null,
@@ -3602,32 +3628,6 @@
    "lon": -1.1248
   },
   {
-   "name": "Elizabeth C. Hoots",
-   "orcid": "https://orcid.org/0000-0001-5698-1395",
-   "openalex": "https://openalex.org/A5073075381",
-   "works": 1,
-   "lastYear": 2026,
-   "institution": "Deakin University",
-   "city": "Burwood",
-   "country": "Australia",
-   "countryCode": "AU",
-   "lat": -37.84978,
-   "lon": 145.11901
-  },
-  {
-   "name": "Elizabeth Hoots",
-   "orcid": null,
-   "openalex": "https://openalex.org/A5127632968",
-   "works": 1,
-   "lastYear": 2026,
-   "institution": "Deakin University",
-   "city": "Burwood",
-   "country": "Australia",
-   "countryCode": "AU",
-   "lat": -37.84978,
-   "lon": 145.11901
-  },
-  {
    "name": "Eloisa Clain",
    "orcid": null,
    "openalex": "https://openalex.org/A5119784462",
@@ -4330,6 +4330,19 @@
    "lon": 151.20732
   },
   {
+   "name": "Graham D. Raby",
+   "orcid": "https://orcid.org/0000-0002-0549-4017",
+   "openalex": "https://openalex.org/A5043706203",
+   "works": 1,
+   "lastYear": 2026,
+   "institution": "Trent University",
+   "city": "Peterborough",
+   "country": "Canada",
+   "countryCode": "CA",
+   "lat": 44.30012130737305,
+   "lon": -78.31623077392578
+  },
+  {
    "name": "Graham R. Fulton",
    "orcid": "https://orcid.org/0000-0002-5976-0333",
    "openalex": "https://openalex.org/A5060907103",
@@ -4341,19 +4354,6 @@
    "countryCode": "AU",
    "lat": -27.46794,
    "lon": 153.02809
-  },
-  {
-   "name": "Graham Raby",
-   "orcid": "https://orcid.org/0000-0002-0549-4017",
-   "openalex": "https://openalex.org/A5123496906",
-   "works": 1,
-   "lastYear": 2026,
-   "institution": "Trent University",
-   "city": "Peterborough",
-   "country": "Canada",
-   "countryCode": "CA",
-   "lat": 44.30012130737305,
-   "lon": -78.31623077392578
   },
   {
    "name": "Graham S. Frank",
@@ -4419,19 +4419,6 @@
    "countryCode": null,
    "lat": null,
    "lon": null
-  },
-  {
-   "name": "Gregory Neely",
-   "orcid": null,
-   "openalex": "https://openalex.org/A5130356339",
-   "works": 1,
-   "lastYear": 2026,
-   "institution": "The University of Sydney",
-   "city": "Sydney",
-   "country": "Australia",
-   "countryCode": "AU",
-   "lat": -33.86785,
-   "lon": 151.20732
   },
   {
    "name": "Guang Hao",
@@ -8815,32 +8802,6 @@
    "lon": 77.2148
   },
   {
-   "name": "Tamzin A. Blewett",
-   "orcid": "https://orcid.org/0000-0001-6834-1571",
-   "openalex": "https://openalex.org/A5017115819",
-   "works": 1,
-   "lastYear": 2026,
-   "institution": "University of Alberta",
-   "city": "Edmonton",
-   "country": "Canada",
-   "countryCode": "CA",
-   "lat": 53.55014,
-   "lon": -113.46871
-  },
-  {
-   "name": "Tamzin Blewett",
-   "orcid": null,
-   "openalex": "https://openalex.org/A5138642110",
-   "works": 1,
-   "lastYear": 2026,
-   "institution": "University of Alberta",
-   "city": "Edmonton",
-   "country": "Canada",
-   "countryCode": "CA",
-   "lat": 53.55014,
-   "lon": -113.46871
-  },
-  {
    "name": "Tanner J. Howard",
    "orcid": "https://orcid.org/0000-0001-7772-1613",
    "openalex": null,
@@ -9049,9 +9010,9 @@
    "lon": 114.12924
   },
   {
-   "name": "Timothy Parker",
+   "name": "Timothy H. Parker",
    "orcid": "https://orcid.org/0000-0003-2995-5284",
-   "openalex": "https://openalex.org/A5025933585",
+   "openalex": null,
    "works": 1,
    "lastYear": 2025,
    "institution": "Whitman College",
@@ -9218,7 +9179,7 @@
    "lon": -118.28878021240234
   },
   {
-   "name": "Vikram Pratap Narayan",
+   "name": "Vikram P. Narayan",
    "orcid": "https://orcid.org/0000-0002-3543-2394",
    "openalex": "https://openalex.org/A5034784566",
    "works": 1,
