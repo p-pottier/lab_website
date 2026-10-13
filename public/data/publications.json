@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-12",
+ "updated": "2026-10-13",
  "publications": [
   {
    "id": "10.1093/conphys/coag006",
@@ -3175,7 +3175,7 @@
    "isOA": true,
    "oaUrl": "https://doi.org/10.1038/s41586-025-08665-0",
    "url": "https://doi.org/10.1038/s41586-025-08665-0",
-   "citations": 87,
+   "citations": 78,
    "abstract": "Abstract Amphibians are the most threatened vertebrates, yet their resilience to rising temperatures remains poorly understood 1,2 . This is primarily because knowledge of thermal tolerance is taxonomically and geographically biased 3 , compromising global climate vulnerability assessments. Here we used a phylogenetically informed data-imputation approach to predict the heat tolerance of 60% of amphibian species and assessed their vulnerability to daily temperature variations in thermal refugia. We found that 104 out of 5,203 species (2%) are currently exposed to overheating events in shaded terrestrial conditions. Despite accounting for heat-tolerance plasticity, a 4 °C global temperature increase would create a step change in impact severity, pushing 7.5% of species beyond their physiological limits. In the Southern Hemisphere, tropical species encounter disproportionally more overheating events, while non-tropical species are more susceptible in the Northern Hemisphere. These findings challenge evidence for a general latitudinal gradient in overheating risk 4–6 and underscore the importance of considering climatic variability in vulnerability assessments. We provide conservative estimates assuming access to cool shaded microenvironments. Thus, the impacts of global warming will probably exceed our projections. Our microclimate-explicit analyses demonstrate that vegetation and water bodies are critical in buffering amphibians during heat waves. Immediate action is needed to preserve and manage these microhabitat features.",
    "preprintUrl": "https://doi.org/10.32942/x2t02t",
    "altmetric": null
@@ -3251,7 +3251,7 @@
    "isOA": true,
    "oaUrl": "https://doi.org/10.1038/s41467-025-65746-4",
    "url": "https://doi.org/10.1038/s41467-025-65746-4",
-   "citations": 35,
+   "citations": 37,
    "abstract": "Per- and polyfluoroalkyl substances (PFAS) threaten ecosystems worldwide due to their persistence, bioaccumulation, and toxicity. Through a global-scale meta-analysis of 119 aquatic and terrestrial food webs from 64 studies, we analyse 1009 trophic magnification factors (TMFs) for 72 PFAS and identify key variability drivers. On average, PFAS concentrations double with each trophic level increase (mean TMF = 2.00, 95% CI:1.64-2.45), though magnification varies considerably by compound. Notably, the industrial alternative F-53B exhibits the highest magnification (TMF = 3.07, 95% CI:2.41-3.92), a critical finding given its expanding use and minimal regulatory scrutiny. Methodological disparities across studies emerge as the dominant source of TMF variability. Our models explain 85% of the variation in TMFs, underscoring predictive capacity. This synthesis establishes PFAS as persistent trophic multipliers and provides a framework to prioritise high-risk compounds and harmonise biomagnification assessments. Our results call for consideration of stricter PFAS regulation to curb cascading ecological and health impacts. PFAS are “forever chemicals” that build up in living things and can move through food webs. This study shows their levels roughly double with each step up the food chain, highlighting widespread chemical magnification in nature.",
    "preprintUrl": "https://doi.org/10.32942/x2sp92",
    "altmetric": null
@@ -3332,7 +3332,7 @@
    "isOA": true,
    "oaUrl": "https://doi.org/10.1098/rsos.250759",
    "url": "https://doi.org/10.1098/rsos.250759",
-   "citations": 8,
+   "citations": 5,
    "abstract": "Meta-analyses are powerful tools to synthesize the literature in several fields of study, including ecology and evolution. However, it remains uncertain whether ecologists and evolutionary biologists fully comprehend meta-analyses' findings or effectively apply them when citing these studies in their own research. Here, we first discuss key meta-analytical concepts and provide a guide to researchers in ecology and evolution on how to harness meta-analyses' insights. For instance, we clarify the meaning of effect sizes and heterogeneity to improve understanding of meta-analyses' quantitative findings. In addition, we analysed articles published in 2023 in ecology and evolution to investigate how frequently and in what context meta-analyses were cited. We found that approximately 21% of articles cited at least one meta-analysis, and that the relative number of citations of meta-analyses (0.62% of all citations analysed) was greater than the publication frequency of meta-analytical articles (0.44% of all articles). Most importantly, we found that while the direction of mean effect sizes from cited meta-analyses was often mentioned, the magnitude of effect sizes and the limitations of the data analysed were frequently overlooked. These findings underscore the need for improved citation practices of meta-analyses in ecological and evolutionary research, which our recommendations seek to promote.",
    "preprintUrl": "https://doi.org/10.32942/x2pw5p",
    "altmetric": null
@@ -3809,9 +3809,9 @@
    "isOA": true,
    "oaUrl": "https://royalsocietypublishing.org/rspb/article-pdf/doi/10.1098/rspb.2024.1430/1264846/rspb.2024.1430.pdf",
    "url": "https://doi.org/10.1098/rspb.2024.1430",
-   "citations": 4,
+   "citations": 3,
    "abstract": "Learned societies, as professional bodies for scientists, are an integral part of the scientific system. However, their membership fees have the potential to be prohibitive to the most vulnerable members of the scientific community. To shed light on how membership fees are structured, we conducted a survey of 182 international learned societies relevant to researchers in ecology and evolution. We found that 83% of these societies offered fee concessions to students, but only 26% to postdoctoral researchers. An average regular membership fee-US$67.8, student fee-US$27.4 (42.7% of the regular fee) and postdoctoral fee-US$42.7 (52.9%). Other types of individual concessions, such as for emeritus, family or unemployed, were rare (2-20%). Of the surveyed societies, 43% had discounts for members from developing countries (Global South). Such discounts were more common among societies located in high-income countries. Societies with a publicly visible commitment to equity, diversity and inclusion were more likely to offer different types of concessions. Currently, fees may prevent researchers from vulnerable and underprivileged groups from accessing multiple professional benefits offered by learned societies in ecology and evolution. This includes postdoctoral researchers, who should receive more support. We recommend tangible actions towards making learned societies more affordable and accessible.",
-   "preprintUrl": "https://doi.org/10.32942/x2z90d",
+   "preprintUrl": null,
    "altmetric": null
   },
   {
@@ -3900,7 +3900,7 @@
    "isOA": true,
    "oaUrl": "https://doi.org/10.1038/s41597-025-06286-w",
    "url": "https://doi.org/10.1038/s41597-025-06286-w",
-   "citations": 3,
+   "citations": 2,
    "abstract": "Thermal traits are crucial to our understanding of the ecology and physiology of ectothermic animals. While rising global temperatures have increasingly pushed research towards the study of upper thermal limits, lower thermal limits and thermal preferences are essential for defining the thermal niche of ectotherms. Through a systematic review of the literature in seven languages, we expanded an existing database of amphibian heat tolerance by adding 1,009 estimates of cold tolerance and 816 estimates of thermal preference across 375 species. AmphiTherm is a comprehensive and reproducible database that contains 4,899 thermal trait estimates from a diverse sample of 659 species (~7.5% of all described amphibians) spanning 38 families. Despite its broad geographic coverage, we report evident gaps across amphibian biodiversity hotspots in Africa, most regions of Asia, central South America, and Western Australia. By providing a more holistic understanding of amphibian thermal tolerance and preferences, AmphiTherm is a valuable resource for advancing research in evolutionary biology, ecophysiology, and biogeography of amphibians, offering insights that are increasingly needed in changing climates.",
    "preprintUrl": "https://doi.org/10.32942/x2hw6h",
    "altmetric": null
@@ -4309,7 +4309,7 @@
    "isOA": true,
    "oaUrl": "https://doi.org/10.1098/rspb.2024.1222",
    "url": "https://doi.org/10.1098/rspb.2024.1222",
-   "citations": 53,
+   "citations": 54,
    "abstract": "In a growing digital landscape, enhancing the discoverability and resonance of scientific articles is essential. Here, we offer 10 recommendations to amplify the discoverability of studies in search engines and databases. Particularly, we argue that the strategic use and placement of key terms in the title, abstract and keyword sections can boost indexing and appeal. By surveying 230 journals in ecology and evolutionary biology, we found that current author guidelines may unintentionally limit article findability. Our survey of 5323 studies revealed that authors frequently exhaust abstract word limits-particularly those capped under 250 words. This suggests that current guidelines may be overly restrictive and not optimized to increase the dissemination and discoverability of digital publications. Additionally, 92% of studies used redundant keywords in the title or abstract, undermining optimal indexing in databases. We encourage adopting structured abstracts to maximize the incorporation of key terms in titles, abstracts and keywords. In addition, we encourage the relaxation of abstract and keyword limitations in journals with strict guidelines, and the inclusion of multilingual abstracts to broaden global accessibility. These recommendations to editors are designed to improve article engagement and facilitate evidence synthesis, thereby aligning scientific publishing with the modern needs of academic research.",
    "preprintUrl": "https://doi.org/10.1101/2023.10.02.559861",
    "altmetric": null
@@ -4666,7 +4666,7 @@
    "isOA": true,
    "oaUrl": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/2041-210X.14270",
    "url": "https://doi.org/10.1111/2041-210x.14270",
-   "citations": 41,
+   "citations": 40,
    "abstract": "Abstract Increasing attention has been drawn to the misuse of statistical methods over recent years, with particular concern about the prevalence of practices such as poor experimental design, cherry picking and inadequate reporting. These failures are largely unintentional and no more common in ecology than in other scientific disciplines, with many of them easily remedied given the right guidance. Originating from a discussion at the 2020 International Statistical Ecology Conference, we show how ecologists can build their research following four guiding principles for impactful statistical research practices: (1) define a focussed research question, then plan sampling and analysis to answer it; (2) develop a model that accounts for the distribution and dependence of your data; (3) emphasise effect sizes to replace statistical significance with ecological relevance; and (4) report your methods and findings in sufficient detail so that your research is valid and reproducible. These principles provide a framework for experimental design and reporting that guards against unsound practices. Starting with a well‐defined research question allows researchers to create an efficient study to answer it, and guards against poor research practices that lead to poor estimation of the direction, magnitude, and uncertainty of ecological relationships, and to poor replicability. Correct and appropriate statistical models give sound conclusions. Good reporting practices and a focus on ecological relevance make results impactful and replicable. Illustrated with two examples—an experiment to study the impact of disturbance on upland wetlands, and an observational study on blue tit colouring—this paper explains the rationale for the selection and use of effective statistical practices and provides practical guidance for ecologists seeking to improve their use of statistical methods.",
    "preprintUrl": "https://doi.org/10.48550/arxiv.2302.01528",
    "altmetric": null
@@ -5866,7 +5866,7 @@
    "isOA": true,
    "oaUrl": "https://www.nature.com/articles/s41597-022-01704-9.pdf",
    "url": "https://doi.org/10.1038/s41597-022-01704-9",
-   "citations": 55,
+   "citations": 54,
    "abstract": "Rising temperatures represent a significant threat to the survival of ectothermic animals. As such, upper thermal limits represent an important trait to assess the vulnerability of ectotherms to changing temperatures. For instance, one may use upper thermal limits to estimate current and future thermal safety margins (i.e., the proximity of upper thermal limits to experienced temperatures), use this trait together with other physiological traits in species distribution models, or investigate the plasticity and evolvability of these limits for buffering the impacts of changing temperatures. While datasets on thermal tolerance limits have been previously compiled, they sometimes report single estimates for a given species, do not present measures of data dispersion, and are biased towards certain parts of the globe. To overcome these limitations, we systematically searched the literature in seven languages to produce the most comprehensive dataset to date on amphibian upper thermal limits, spanning 3,095 estimates across 616 species. This resource will represent a useful tool to evaluate the vulnerability of amphibians, and ectotherms more generally, to changing temperatures.",
    "preprintUrl": null,
    "altmetric": null
@@ -5963,7 +5963,7 @@
    "isOA": true,
    "oaUrl": "https://doi.org/10.32942/osf.io/hya68",
    "url": "https://doi.org/10.1007/s10682-022-10157-w",
-   "citations": 30,
+   "citations": 29,
    "abstract": "Comparative analyses require researchers to not only ensure data quality, but to also make prudent and justifiable assumptions about data comparability. A failure to do so can lead to unreliable conclusions. As a case in point, we comment on a study that estimated the vulnerability of the world’s fish species to climate change using comparisons between life stages (Dahlke et al. 2020, Science 369: 65–70). We highlight concerns with the data quality and argue that the metrics used to investigate ontogenetic differences in thermal tolerance were incomparable and confounded. Therefore, we recommend caution when interpreting their results in light of climate vulnerability. We suggest potential remedies and recommend thermal tolerance metrics that may be comparable across life stages. We also encourage the creation of guidelines to design, report, and assess comparative analyses to increase their reliability and reproducibility.",
    "preprintUrl": "https://doi.org/10.32942/osf.io/hya68",
    "altmetric": null
@@ -6177,7 +6177,7 @@
    "isOA": true,
    "oaUrl": "https://ruj.uj.edu.pl/xmlui/handle/item/285076",
    "url": "https://doi.org/10.1111/1365-2435.13899",
-   "citations": 70,
+   "citations": 69,
    "abstract": "Abstract Climate change is putting the fate of ectothermic animals at stake because their body temperature closely tracks environmental temperatures. The ability to adjust thermal limits and preference through acclimation (i.e. acclimation capacity) may compensate for temperature changes. However, although necessary for forecasting the future of ectotherms in a changing climate, knowledge on the factors modulating these plastic responses is fragmentary. For instance, the influence of an animal's sex in driving acclimation capacity has been underappreciated. Here, we present the first systematic review and meta‐analysis on sex differences in thermal acclimation capacity. Using 239 effect sizes from 37 studies and 44 species, we revealed that males and females did not differ significantly in their overall capacity to acclimate their thermal limits and preference. However, in some instances, females expressed significantly greater plastic responses than males. In wild animals, females had a greater heat tolerance plasticity than males. In addition, females had a greater cold tolerance plasticity in terrestrial habitats, but the strength and direction of this sexual dimorphism was associated with the duration of acclimation. We also found a negative correlation between body mass and plasticity. Finally, we demonstrated that the capacity for each sex to adjust their thermal tolerance and preference was remarkably limited. It is important to acknowledge that the above effects were weak and heterogeneous. Hence, in the species we investigated, minor differences in acclimation capacity may not translate into major ecological mismatch between sexes with climate change. Our systematic review also revealed that over 75% of the studies we identified either did not report or confounded the sex of the animals. This under‐reporting may cause to overlook ecologically relevant sex differences in plasticity in ectothermic taxa. We stress the need for further research on sex‐based responses to temperatures. Our synthesis provides additional evidence that the capacity for ectotherms to acclimate to temperatures is limited, and likely insufficient to compensate for the impacts of climate change. A free Plain Language Summary can be found within the Supporting Information of this article.",
    "preprintUrl": null,
    "altmetric": null
