@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-14",
+ "updated": "2026-10-15",
  "publications": [
   {
    "id": "10.1093/conphys/coag006",
@@ -3251,7 +3251,7 @@
    "isOA": true,
    "oaUrl": "https://doi.org/10.1038/s41467-025-65746-4",
    "url": "https://doi.org/10.1038/s41467-025-65746-4",
-   "citations": 37,
+   "citations": 38,
    "abstract": "Per- and polyfluoroalkyl substances (PFAS) threaten ecosystems worldwide due to their persistence, bioaccumulation, and toxicity. Through a global-scale meta-analysis of 119 aquatic and terrestrial food webs from 64 studies, we analyse 1009 trophic magnification factors (TMFs) for 72 PFAS and identify key variability drivers. On average, PFAS concentrations double with each trophic level increase (mean TMF = 2.00, 95% CI:1.64-2.45), though magnification varies considerably by compound. Notably, the industrial alternative F-53B exhibits the highest magnification (TMF = 3.07, 95% CI:2.41-3.92), a critical finding given its expanding use and minimal regulatory scrutiny. Methodological disparities across studies emerge as the dominant source of TMF variability. Our models explain 85% of the variation in TMFs, underscoring predictive capacity. This synthesis establishes PFAS as persistent trophic multipliers and provides a framework to prioritise high-risk compounds and harmonise biomagnification assessments. Our results call for consideration of stricter PFAS regulation to curb cascading ecological and health impacts. PFAS are “forever chemicals” that build up in living things and can move through food webs. This study shows their levels roughly double with each step up the food chain, highlighting widespread chemical magnification in nature.",
    "preprintUrl": "https://doi.org/10.32942/x2sp92",
    "altmetric": null
@@ -3332,7 +3332,7 @@
    "isOA": true,
    "oaUrl": "https://doi.org/10.1098/rsos.250759",
    "url": "https://doi.org/10.1098/rsos.250759",
-   "citations": 5,
+   "citations": 6,
    "abstract": "Meta-analyses are powerful tools to synthesize the literature in several fields of study, including ecology and evolution. However, it remains uncertain whether ecologists and evolutionary biologists fully comprehend meta-analyses' findings or effectively apply them when citing these studies in their own research. Here, we first discuss key meta-analytical concepts and provide a guide to researchers in ecology and evolution on how to harness meta-analyses' insights. For instance, we clarify the meaning of effect sizes and heterogeneity to improve understanding of meta-analyses' quantitative findings. In addition, we analysed articles published in 2023 in ecology and evolution to investigate how frequently and in what context meta-analyses were cited. We found that approximately 21% of articles cited at least one meta-analysis, and that the relative number of citations of meta-analyses (0.62% of all citations analysed) was greater than the publication frequency of meta-analytical articles (0.44% of all articles). Most importantly, we found that while the direction of mean effect sizes from cited meta-analyses was often mentioned, the magnitude of effect sizes and the limitations of the data analysed were frequently overlooked. These findings underscore the need for improved citation practices of meta-analyses in ecological and evolutionary research, which our recommendations seek to promote.",
    "preprintUrl": "https://doi.org/10.32942/x2pw5p",
    "altmetric": null
@@ -4550,7 +4550,7 @@
    "isOA": true,
    "oaUrl": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/2688-8319.12303",
    "url": "https://doi.org/10.1002/2688-8319.12303",
-   "citations": 42,
+   "citations": 43,
    "abstract": "Abstract Exposure to extreme temperatures can negatively affect animal reproduction, by disrupting the ability of individuals to produce any offspring (fertility), or the number of offspring produced by fertile individuals (fecundity). This has important ecological consequences, because reproduction is the ultimate measure of population fitness: a reduction in reproductive output lowers the population growth rate and increases the extinction risk. Despite this importance, there have been no large‐scale summaries of the evidence for effect of temperature on reproduction. We provide a systematic map of studies testing the relationship between temperature and animal reproduction. We systematically searched for published studies that statistically test for a direct link between temperature and animal reproduction, in terms of fertility, fecundity or indirect measures of reproductive potential (gamete and gonad traits). Overall, we collated a large and rich evidence base, with 1654 papers that met our inclusion criteria, encompassing 1191 species. The map revealed several important research gaps. Insects made up almost half of the dataset, but reptiles and amphibians were uncommon, as were non‐arthropod invertebrates. Fecundity was the most common reproductive trait examined, and relatively few studies measured fertility. It was uncommon for experimental studies to test exposure of different life stages, exposure to short‐term heat or cold shock, exposure to temperature fluctuations, or to independently assess male and female effects. Studies were most often published in journals focusing on entomology and pest control, ecology and evolution, aquaculture and fisheries science, and marine biology. Finally, while individuals were sampled from every continent, there was a strong sampling bias towards mid‐latitudes in the Northern Hemisphere, such that the tropics and polar regions are less well sampled. This map reveals a rich literature of studies testing the relationship between temperature and animal reproduction, but also uncovers substantial missing treatment of taxa, traits, and thermal regimes. This database will provide a valuable resource for future quantitative meta‐analyses, and direct future studies aiming to fill identified gaps.",
    "preprintUrl": null,
    "altmetric": null
@@ -5061,65 +5061,9 @@
    "isOA": true,
    "oaUrl": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/2041-210X.14152",
    "url": "https://doi.org/10.1111/2041-210x.14152",
-   "citations": 183,
+   "citations": 184,
    "abstract": "Abstract Although meta‐analysis has become an essential tool in ecology and evolution, reporting of meta‐analytic results can still be much improved. To aid this, we have introduced the orchard plot, which presents not only overall estimates and their confidence intervals, but also shows corresponding heterogeneity (as prediction intervals) and individual effect sizes. Here, we have added significant enhancements by integrating many new functionalities into orchaRd 2.0 . This updated version allows the visualisation of heteroscedasticity (different variances across levels of a categorical moderator), marginal estimates (e.g. marginalising out effects other than the one visualised), conditional estimates (i.e. estimates of different groups conditioned upon specific values of a continuous variable) and visualisations of all types of interactions between two categorical/continuous moderators. orchaRd 2.0 has additional functions which calculate key statistics from multilevel meta‐analytic models such as I 2 and R 2 . Importantly, orchaRd 2.0 contributes to better reporting by complying with PRISMA‐EcoEvo (preferred reporting items for systematic reviews and meta‐analyses in ecology and evolution). Taken together, orchaRd 2.0 can improve the presentation of meta‐analytic results and facilitate the exploration of previously neglected patterns. In addition, as a part of a literature survey, we found that graphical packages are rarely cited (~3%). We plea that researchers credit developers and maintainers of graphical packages, for example, by citations in a figure legend, acknowledging the use of relevant packages.",
    "preprintUrl": "https://doi.org/10.32942/x2qc7k",
-   "altmetric": null
-  },
-  {
-   "id": "10.1111/ele.14266",
-   "doi": "10.1111/ele.14266",
-   "title": "The impact of rising temperatures on the prevalence of coral diseases and its predictability: A global meta‐analysis",
-   "authors": [
-    {
-     "name": "Samantha Burke",
-     "orcid": "https://orcid.org/0000-0001-6902-974X",
-     "isSelf": false
-    },
-    {
-     "name": "Patrice Pottier",
-     "orcid": "https://orcid.org/0000-0003-2106-6597",
-     "isSelf": true
-    },
-    {
-     "name": "Malgorzata Lagisz",
-     "orcid": "https://orcid.org/0000-0002-3993-6127",
-     "isSelf": false
-    },
-    {
-     "name": "Erin L. Macartney",
-     "orcid": "https://orcid.org/0000-0003-3866-143X",
-     "isSelf": false
-    },
-    {
-     "name": "Tracy Ainsworth",
-     "orcid": "https://orcid.org/0000-0001-6476-9263",
-     "isSelf": false
-    },
-    {
-     "name": "Szymon M. Drobniak",
-     "orcid": "https://orcid.org/0000-0001-8101-6247",
-     "isSelf": false
-    },
-    {
-     "name": "Shinichi Nakagawa",
-     "orcid": "https://orcid.org/0000-0002-7765-5182",
-     "isSelf": false
-    }
-   ],
-   "authorLine": "Samantha Burke, Patrice Pottier, Malgorzata Lagisz, Erin L. Macartney, Tracy Ainsworth, Szymon M. Drobniak, Shinichi Nakagawa",
-   "journal": "Ecology Letters",
-   "year": 2023,
-   "volume": "26",
-   "issue": "8",
-   "pages": "1466-1481",
-   "kind": "article",
-   "isOA": true,
-   "oaUrl": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/ele.14266",
-   "url": "https://doi.org/10.1111/ele.14266",
-   "citations": 75,
-   "abstract": "Coral reefs are under threat from disease as climate change alters environmental conditions. Rising temperatures exacerbate coral disease, but this relationship is likely complex as other factors also influence coral disease prevalence. To better understand this relationship, we meta-analytically examined 108 studies for changes in global coral disease over time alongside temperature, expressed using average summer sea surface temperature (SST) and cumulative heat stress as weekly sea surface temperature anomalies (WSSTAs). We found that both rising average summer SST and WSSTA were associated with global increases in the mean and variability in coral disease prevalence. Global coral disease prevalence tripled, reaching 9.92% in the 25 years examined, and the effect of 'year' became more stable (i.e. prevalence has lower variance over time), contrasting the effects of the two temperature stressors. Regional patterns diverged over time and differed in response to average summer SST. Our model predicted that, under the same trajectory, 76.8% of corals would be diseased globally by 2100, even assuming moderate average summer SST and WSSTA. These results highlight the need for urgent action to mitigate coral disease. Mitigating the impact of rising ocean temperatures on coral disease is a complex challenge requiring global discussion and further study.",
-   "preprintUrl": "https://doi.org/10.32942/x2hp4p",
    "altmetric": null
   },
   {
@@ -5243,9 +5187,65 @@
    "isOA": true,
    "oaUrl": "https://www.nature.com/articles/s41467-023-37039-1.pdf",
    "url": "https://doi.org/10.1038/s41467-023-37039-1",
-   "citations": 74,
+   "citations": 75,
    "abstract": "Contributor Roles Taxonomy (CRediT) has recently changed how author contributions are acknowledged. To extend and complement CRediT, we propose MeRIT, a new way of writing the Methods section using the author’s initials to further clarify contributor roles for reproducibility and replicability. Lack of information on authors’ contribution to specific aspects of a study hampers reproducibility and replicability. Here, the authors propose a new, easily implemented reporting system to clarify contributor roles in the Methods section of an article.",
    "preprintUrl": null,
+   "altmetric": null
+  },
+  {
+   "id": "10.1111/ele.14266",
+   "doi": "10.1111/ele.14266",
+   "title": "The impact of rising temperatures on the prevalence of coral diseases and its predictability: A global meta‐analysis",
+   "authors": [
+    {
+     "name": "Samantha Burke",
+     "orcid": "https://orcid.org/0000-0001-6902-974X",
+     "isSelf": false
+    },
+    {
+     "name": "Patrice Pottier",
+     "orcid": "https://orcid.org/0000-0003-2106-6597",
+     "isSelf": true
+    },
+    {
+     "name": "Malgorzata Lagisz",
+     "orcid": "https://orcid.org/0000-0002-3993-6127",
+     "isSelf": false
+    },
+    {
+     "name": "Erin L. Macartney",
+     "orcid": "https://orcid.org/0000-0003-3866-143X",
+     "isSelf": false
+    },
+    {
+     "name": "Tracy Ainsworth",
+     "orcid": "https://orcid.org/0000-0001-6476-9263",
+     "isSelf": false
+    },
+    {
+     "name": "Szymon M. Drobniak",
+     "orcid": "https://orcid.org/0000-0001-8101-6247",
+     "isSelf": false
+    },
+    {
+     "name": "Shinichi Nakagawa",
+     "orcid": "https://orcid.org/0000-0002-7765-5182",
+     "isSelf": false
+    }
+   ],
+   "authorLine": "Samantha Burke, Patrice Pottier, Malgorzata Lagisz, Erin L. Macartney, Tracy Ainsworth, Szymon M. Drobniak, Shinichi Nakagawa",
+   "journal": "Ecology Letters",
+   "year": 2023,
+   "volume": "26",
+   "issue": "8",
+   "pages": "1466-1481",
+   "kind": "article",
+   "isOA": true,
+   "oaUrl": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/ele.14266",
+   "url": "https://doi.org/10.1111/ele.14266",
+   "citations": 75,
+   "abstract": "Coral reefs are under threat from disease as climate change alters environmental conditions. Rising temperatures exacerbate coral disease, but this relationship is likely complex as other factors also influence coral disease prevalence. To better understand this relationship, we meta-analytically examined 108 studies for changes in global coral disease over time alongside temperature, expressed using average summer sea surface temperature (SST) and cumulative heat stress as weekly sea surface temperature anomalies (WSSTAs). We found that both rising average summer SST and WSSTA were associated with global increases in the mean and variability in coral disease prevalence. Global coral disease prevalence tripled, reaching 9.92% in the 25 years examined, and the effect of 'year' became more stable (i.e. prevalence has lower variance over time), contrasting the effects of the two temperature stressors. Regional patterns diverged over time and differed in response to average summer SST. Our model predicted that, under the same trajectory, 76.8% of corals would be diseased globally by 2100, even assuming moderate average summer SST and WSSTA. These results highlight the need for urgent action to mitigate coral disease. Mitigating the impact of rising ocean temperatures on coral disease is a complex challenge requiring global discussion and further study.",
+   "preprintUrl": "https://doi.org/10.32942/x2hp4p",
    "altmetric": null
   },
   {

@@ -1,12 +1,12 @@
 {
- "updated": "2026-10-14",
- "total": 724,
+ "updated": "2026-10-15",
+ "total": 725,
  "countries": 59,
  "institutions": 266,
  "byCountry": {
   "Japan": 8,
   "Poland": 6,
-  "Australia": 114,
+  "Australia": 115,
   "Germany": 38,
   "France": 14,
   "Sweden": 25,
@@ -911,9 +911,9 @@
    "lon": 145.11901
   },
   {
-   "name": "James Orr",
+   "name": "James A. Orr",
    "orcid": "https://orcid.org/0000-0002-6531-5623",
-   "openalex": "https://openalex.org/A5069066388",
+   "openalex": "https://openalex.org/A5158188425",
    "works": 2,
    "lastYear": 2025,
    "institution": "University of Oxford",
@@ -1458,8 +1458,8 @@
   },
   {
    "name": "Yong Qi Lin",
-   "orcid": "https://orcid.org/0000-0002-2839-5740",
-   "openalex": "https://openalex.org/A5048622739",
+   "orcid": null,
+   "openalex": null,
    "works": 2,
    "lastYear": 2026,
    "institution": "The University of Sydney",
@@ -2588,9 +2588,9 @@
    "lon": 2.16667
   },
   {
-   "name": "Carmen da Silva",
-   "orcid": null,
-   "openalex": "https://openalex.org/A5138684053",
+   "name": "Carmen R. B. da Silva",
+   "orcid": "https://orcid.org/0000-0003-0160-5872",
+   "openalex": "https://openalex.org/A5049582719",
    "works": 1,
    "lastYear": 2026,
    "institution": "Macquarie University",
@@ -2952,9 +2952,9 @@
    "lon": null
   },
   {
-   "name": "Da-Li Lin",
-   "orcid": null,
-   "openalex": null,
+   "name": "Da‐Li Lin",
+   "orcid": "https://orcid.org/0000-0003-0930-2374",
+   "openalex": "https://openalex.org/A5022710884",
    "works": 1,
    "lastYear": 2026,
    "institution": "National Taiwan University",
@@ -5827,7 +5827,7 @@
   {
    "name": "Kok Sin Woon",
    "orcid": "https://orcid.org/0000-0003-0149-6661",
-   "openalex": null,
+   "openalex": "https://openalex.org/A5071931892",
    "works": 1,
    "lastYear": 2026,
    "institution": "Xiamen University Malaysia",
@@ -6072,6 +6072,19 @@
    "lon": null
   },
   {
+   "name": "Lin Yong Qi",
+   "orcid": null,
+   "openalex": "https://openalex.org/A5011084589",
+   "works": 1,
+   "lastYear": 2026,
+   "institution": "The University of Sydney",
+   "city": "Sydney",
+   "country": "Australia",
+   "countryCode": "AU",
+   "lat": -33.86785,
+   "lon": 151.20732
+  },
+  {
    "name": "Lionel L’Hoste",
    "orcid": "https://orcid.org/0000-0003-0239-9468",
    "openalex": "https://openalex.org/A5042972205",
@@ -6202,7 +6215,7 @@
    "lon": 11.451959609985352
   },
   {
-   "name": "Luna Luisa Sanchez Reyes",
+   "name": "Luna L. Sánchez‐Reyes",
    "orcid": "https://orcid.org/0000-0001-7668-2528",
    "openalex": "https://openalex.org/A5052346049",
    "works": 1,
@@ -7907,7 +7920,7 @@
   {
    "name": "Richard A. Fuller",
    "orcid": "https://orcid.org/0000-0001-9468-9678",
-   "openalex": null,
+   "openalex": "https://openalex.org/A5036770672",
    "works": 1,
    "lastYear": 2026,
    "institution": "The University of Queensland",
@@ -9298,7 +9311,7 @@
   {
    "name": "Xuan Chen",
    "orcid": "https://orcid.org/0000-0002-9499-0054",
-   "openalex": null,
+   "openalex": "https://openalex.org/A5100446815",
    "works": 1,
    "lastYear": 2025,
    "institution": "Salisbury University",
