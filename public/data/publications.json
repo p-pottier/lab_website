@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-16",
+ "updated": "2026-10-17",
  "publications": [
   {
    "id": "10.1093/conphys/coag006",
@@ -3251,7 +3251,7 @@
    "isOA": true,
    "oaUrl": "https://doi.org/10.1038/s41467-025-65746-4",
    "url": "https://doi.org/10.1038/s41467-025-65746-4",
-   "citations": 39,
+   "citations": 40,
    "abstract": "Per- and polyfluoroalkyl substances (PFAS) threaten ecosystems worldwide due to their persistence, bioaccumulation, and toxicity. Through a global-scale meta-analysis of 119 aquatic and terrestrial food webs from 64 studies, we analyse 1009 trophic magnification factors (TMFs) for 72 PFAS and identify key variability drivers. On average, PFAS concentrations double with each trophic level increase (mean TMF = 2.00, 95% CI:1.64-2.45), though magnification varies considerably by compound. Notably, the industrial alternative F-53B exhibits the highest magnification (TMF = 3.07, 95% CI:2.41-3.92), a critical finding given its expanding use and minimal regulatory scrutiny. Methodological disparities across studies emerge as the dominant source of TMF variability. Our models explain 85% of the variation in TMFs, underscoring predictive capacity. This synthesis establishes PFAS as persistent trophic multipliers and provides a framework to prioritise high-risk compounds and harmonise biomagnification assessments. Our results call for consideration of stricter PFAS regulation to curb cascading ecological and health impacts. PFAS are “forever chemicals” that build up in living things and can move through food webs. This study shows their levels roughly double with each step up the food chain, highlighting widespread chemical magnification in nature.",
    "preprintUrl": "https://doi.org/10.32942/x2sp92",
    "altmetric": null
@@ -3332,7 +3332,7 @@
    "isOA": true,
    "oaUrl": "https://doi.org/10.1098/rsos.250759",
    "url": "https://doi.org/10.1098/rsos.250759",
-   "citations": 6,
+   "citations": 7,
    "abstract": "Meta-analyses are powerful tools to synthesize the literature in several fields of study, including ecology and evolution. However, it remains uncertain whether ecologists and evolutionary biologists fully comprehend meta-analyses' findings or effectively apply them when citing these studies in their own research. Here, we first discuss key meta-analytical concepts and provide a guide to researchers in ecology and evolution on how to harness meta-analyses' insights. For instance, we clarify the meaning of effect sizes and heterogeneity to improve understanding of meta-analyses' quantitative findings. In addition, we analysed articles published in 2023 in ecology and evolution to investigate how frequently and in what context meta-analyses were cited. We found that approximately 21% of articles cited at least one meta-analysis, and that the relative number of citations of meta-analyses (0.62% of all citations analysed) was greater than the publication frequency of meta-analytical articles (0.44% of all articles). Most importantly, we found that while the direction of mean effect sizes from cited meta-analyses was often mentioned, the magnitude of effect sizes and the limitations of the data analysed were frequently overlooked. These findings underscore the need for improved citation practices of meta-analyses in ecological and evolutionary research, which our recommendations seek to promote.",
    "preprintUrl": "https://doi.org/10.32942/x2pw5p",
    "altmetric": null
@@ -4213,7 +4213,7 @@
    "isOA": true,
    "oaUrl": "https://doi.org/10.1098/rspb.2023.2840",
    "url": "https://doi.org/10.1098/rspb.2023.2840",
-   "citations": 66,
+   "citations": 68,
    "abstract": "Scientific knowledge is produced in multiple languages but is predominantly published in English. This practice creates a language barrier to generate and transfer scientific knowledge between communities with diverse linguistic backgrounds, hindering the ability of scholars and communities to address global challenges and achieve diversity and equity in science, technology, engineering and mathematics (STEM). To overcome those barriers, publishers and journals should provide a fair system that supports non-native English speakers and disseminates knowledge across the globe. We surveyed policies of 736 journals in biological sciences to assess their linguistic inclusivity, identify predictors of inclusivity, and propose actions to overcome language barriers in academic publishing. Our assessment revealed a grim landscape where most journals were making minimal efforts to overcome language barriers. The impact factor of journals was negatively associated with adopting a number of inclusive policies whereas ownership by a scientific society tended to have a positive association. Contrary to our expectations, the proportion of both open access articles and editors based in non-English speaking countries did not have a major positive association with the adoption of linguistically inclusive policies. We proposed a set of actions to overcome language barriers in academic publishing, including the renegotiation of power dynamics between publishers and editorial boards.",
    "preprintUrl": "https://doi.org/10.32942/x2ns3k",
    "altmetric": null
@@ -5067,188 +5067,6 @@
    "altmetric": null
   },
   {
-   "id": "10.1038/s41467-023-37039-1",
-   "doi": "10.1038/s41467-023-37039-1",
-   "title": "Method Reporting with Initials for Transparency (MeRIT) promotes more granularity and accountability for author contributions",
-   "authors": [
-    {
-     "name": "Shinichi Nakagawa",
-     "orcid": "https://orcid.org/0000-0002-7765-5182",
-     "isSelf": false
-    },
-    {
-     "name": "Edward R. Ivimey-Cook",
-     "orcid": "https://orcid.org/0000-0003-4910-0443",
-     "isSelf": false
-    },
-    {
-     "name": "Matthew J. Grainger",
-     "orcid": null,
-     "isSelf": false
-    },
-    {
-     "name": "Rose E. O’Dea",
-     "orcid": "https://orcid.org/0000-0001-8177-5075",
-     "isSelf": false
-    },
-    {
-     "name": "Samantha Burke",
-     "orcid": "https://orcid.org/0000-0001-6902-974X",
-     "isSelf": false
-    },
-    {
-     "name": "Szymon M. Drobniak",
-     "orcid": "https://orcid.org/0000-0001-8101-6247",
-     "isSelf": false
-    },
-    {
-     "name": "Elliot Gould",
-     "orcid": "https://orcid.org/0000-0002-6585-538X",
-     "isSelf": false
-    },
-    {
-     "name": "Erin L. Macartney",
-     "orcid": "https://orcid.org/0000-0003-3866-143X",
-     "isSelf": false
-    },
-    {
-     "name": "April Robin Martinig",
-     "orcid": "https://orcid.org/0000-0002-0972-6903",
-     "isSelf": false
-    },
-    {
-     "name": "Kyle Morrison",
-     "orcid": "https://orcid.org/0000-0002-3700-2398",
-     "isSelf": false
-    },
-    {
-     "name": "Matthieu Paquet",
-     "orcid": "https://orcid.org/0000-0003-1182-2299",
-     "isSelf": false
-    },
-    {
-     "name": "Joel L. Pick",
-     "orcid": "https://orcid.org/0000-0002-6295-3742",
-     "isSelf": false
-    },
-    {
-     "name": "Patrice Pottier",
-     "orcid": "https://orcid.org/0000-0003-2106-6597",
-     "isSelf": true
-    },
-    {
-     "name": "Lorenzo Ricolfi",
-     "orcid": "https://orcid.org/0000-0001-7101-3309",
-     "isSelf": false
-    },
-    {
-     "name": "David P. Wilkinson",
-     "orcid": "https://orcid.org/0000-0002-9560-6499",
-     "isSelf": false
-    },
-    {
-     "name": "Aaron Willcox",
-     "orcid": "https://orcid.org/0000-0003-2536-2596",
-     "isSelf": false
-    },
-    {
-     "name": "Coralie Williams",
-     "orcid": "https://orcid.org/0000-0003-1312-4953",
-     "isSelf": false
-    },
-    {
-     "name": "Laura A. B. Wilson",
-     "orcid": "https://orcid.org/0000-0002-3779-8277",
-     "isSelf": false
-    },
-    {
-     "name": "Saras M. Windecker",
-     "orcid": "https://orcid.org/0000-0002-4870-8353",
-     "isSelf": false
-    },
-    {
-     "name": "Yefeng Yang",
-     "orcid": "https://orcid.org/0000-0002-8610-4016",
-     "isSelf": false
-    },
-    {
-     "name": "Malgorzata Lagisz",
-     "orcid": "https://orcid.org/0000-0002-3993-6127",
-     "isSelf": false
-    }
-   ],
-   "authorLine": "Shinichi Nakagawa, Edward R. Ivimey-Cook, Matthew J. Grainger, Rose E. O’Dea, Samantha Burke, Szymon M. Drobniak, Elliot Gould, Erin L. Macartney, April Robin Martinig, Kyle Morrison, Matthieu Paquet, Joel L. Pick, Patrice Pottier, Lorenzo Ricolfi, David P. Wilkinson, Aaron Willcox, Coralie Williams, Laura A. B. Wilson, Saras M. Windecker, Yefeng Yang, Malgorzata Lagisz",
-   "journal": "Nature Communications",
-   "year": 2023,
-   "volume": "14",
-   "issue": "1",
-   "pages": "1788",
-   "kind": "article",
-   "isOA": true,
-   "oaUrl": "https://www.nature.com/articles/s41467-023-37039-1.pdf",
-   "url": "https://doi.org/10.1038/s41467-023-37039-1",
-   "citations": 75,
-   "abstract": "Contributor Roles Taxonomy (CRediT) has recently changed how author contributions are acknowledged. To extend and complement CRediT, we propose MeRIT, a new way of writing the Methods section using the author’s initials to further clarify contributor roles for reproducibility and replicability. Lack of information on authors’ contribution to specific aspects of a study hampers reproducibility and replicability. Here, the authors propose a new, easily implemented reporting system to clarify contributor roles in the Methods section of an article.",
-   "preprintUrl": null,
-   "altmetric": null
-  },
-  {
-   "id": "10.1111/ele.14266",
-   "doi": "10.1111/ele.14266",
-   "title": "The impact of rising temperatures on the prevalence of coral diseases and its predictability: A global meta‐analysis",
-   "authors": [
-    {
-     "name": "Samantha Burke",
-     "orcid": "https://orcid.org/0000-0001-6902-974X",
-     "isSelf": false
-    },
-    {
-     "name": "Patrice Pottier",
-     "orcid": "https://orcid.org/0000-0003-2106-6597",
-     "isSelf": true
-    },
-    {
-     "name": "Malgorzata Lagisz",
-     "orcid": "https://orcid.org/0000-0002-3993-6127",
-     "isSelf": false
-    },
-    {
-     "name": "Erin L. Macartney",
-     "orcid": "https://orcid.org/0000-0003-3866-143X",
-     "isSelf": false
-    },
-    {
-     "name": "Tracy Ainsworth",
-     "orcid": "https://orcid.org/0000-0001-6476-9263",
-     "isSelf": false
-    },
-    {
-     "name": "Szymon M. Drobniak",
-     "orcid": "https://orcid.org/0000-0001-8101-6247",
-     "isSelf": false
-    },
-    {
-     "name": "Shinichi Nakagawa",
-     "orcid": "https://orcid.org/0000-0002-7765-5182",
-     "isSelf": false
-    }
-   ],
-   "authorLine": "Samantha Burke, Patrice Pottier, Malgorzata Lagisz, Erin L. Macartney, Tracy Ainsworth, Szymon M. Drobniak, Shinichi Nakagawa",
-   "journal": "Ecology Letters",
-   "year": 2023,
-   "volume": "26",
-   "issue": "8",
-   "pages": "1466-1481",
-   "kind": "article",
-   "isOA": true,
-   "oaUrl": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/ele.14266",
-   "url": "https://doi.org/10.1111/ele.14266",
-   "citations": 75,
-   "abstract": "Coral reefs are under threat from disease as climate change alters environmental conditions. Rising temperatures exacerbate coral disease, but this relationship is likely complex as other factors also influence coral disease prevalence. To better understand this relationship, we meta-analytically examined 108 studies for changes in global coral disease over time alongside temperature, expressed using average summer sea surface temperature (SST) and cumulative heat stress as weekly sea surface temperature anomalies (WSSTAs). We found that both rising average summer SST and WSSTA were associated with global increases in the mean and variability in coral disease prevalence. Global coral disease prevalence tripled, reaching 9.92% in the 25 years examined, and the effect of 'year' became more stable (i.e. prevalence has lower variance over time), contrasting the effects of the two temperature stressors. Regional patterns diverged over time and differed in response to average summer SST. Our model predicted that, under the same trajectory, 76.8% of corals would be diseased globally by 2100, even assuming moderate average summer SST and WSSTA. These results highlight the need for urgent action to mitigate coral disease. Mitigating the impact of rising ocean temperatures on coral disease is a complex challenge requiring global discussion and further study.",
-   "preprintUrl": "https://doi.org/10.32942/x2hp4p",
-   "altmetric": null
-  },
-  {
    "id": "10.1038/s41893-023-01087-8",
    "doi": "10.1038/s41893-023-01087-8",
    "title": "The role of non-English-language science in informing national biodiversity assessments",
@@ -5454,8 +5272,190 @@
    "isOA": true,
    "oaUrl": "https://www.dora.lib4ri.ch/wsl/dload/wsl:32987/PDF2/view",
    "url": "https://doi.org/10.1038/s41893-023-01087-8",
-   "citations": 73,
+   "citations": 76,
    "abstract": null,
+   "preprintUrl": null,
+   "altmetric": null
+  },
+  {
+   "id": "10.1111/ele.14266",
+   "doi": "10.1111/ele.14266",
+   "title": "The impact of rising temperatures on the prevalence of coral diseases and its predictability: A global meta‐analysis",
+   "authors": [
+    {
+     "name": "Samantha Burke",
+     "orcid": "https://orcid.org/0000-0001-6902-974X",
+     "isSelf": false
+    },
+    {
+     "name": "Patrice Pottier",
+     "orcid": "https://orcid.org/0000-0003-2106-6597",
+     "isSelf": true
+    },
+    {
+     "name": "Malgorzata Lagisz",
+     "orcid": "https://orcid.org/0000-0002-3993-6127",
+     "isSelf": false
+    },
+    {
+     "name": "Erin L. Macartney",
+     "orcid": "https://orcid.org/0000-0003-3866-143X",
+     "isSelf": false
+    },
+    {
+     "name": "Tracy Ainsworth",
+     "orcid": "https://orcid.org/0000-0001-6476-9263",
+     "isSelf": false
+    },
+    {
+     "name": "Szymon M. Drobniak",
+     "orcid": "https://orcid.org/0000-0001-8101-6247",
+     "isSelf": false
+    },
+    {
+     "name": "Shinichi Nakagawa",
+     "orcid": "https://orcid.org/0000-0002-7765-5182",
+     "isSelf": false
+    }
+   ],
+   "authorLine": "Samantha Burke, Patrice Pottier, Malgorzata Lagisz, Erin L. Macartney, Tracy Ainsworth, Szymon M. Drobniak, Shinichi Nakagawa",
+   "journal": "Ecology Letters",
+   "year": 2023,
+   "volume": "26",
+   "issue": "8",
+   "pages": "1466-1481",
+   "kind": "article",
+   "isOA": true,
+   "oaUrl": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/ele.14266",
+   "url": "https://doi.org/10.1111/ele.14266",
+   "citations": 76,
+   "abstract": "Coral reefs are under threat from disease as climate change alters environmental conditions. Rising temperatures exacerbate coral disease, but this relationship is likely complex as other factors also influence coral disease prevalence. To better understand this relationship, we meta-analytically examined 108 studies for changes in global coral disease over time alongside temperature, expressed using average summer sea surface temperature (SST) and cumulative heat stress as weekly sea surface temperature anomalies (WSSTAs). We found that both rising average summer SST and WSSTA were associated with global increases in the mean and variability in coral disease prevalence. Global coral disease prevalence tripled, reaching 9.92% in the 25 years examined, and the effect of 'year' became more stable (i.e. prevalence has lower variance over time), contrasting the effects of the two temperature stressors. Regional patterns diverged over time and differed in response to average summer SST. Our model predicted that, under the same trajectory, 76.8% of corals would be diseased globally by 2100, even assuming moderate average summer SST and WSSTA. These results highlight the need for urgent action to mitigate coral disease. Mitigating the impact of rising ocean temperatures on coral disease is a complex challenge requiring global discussion and further study.",
+   "preprintUrl": "https://doi.org/10.32942/x2hp4p",
+   "altmetric": null
+  },
+  {
+   "id": "10.1038/s41467-023-37039-1",
+   "doi": "10.1038/s41467-023-37039-1",
+   "title": "Method Reporting with Initials for Transparency (MeRIT) promotes more granularity and accountability for author contributions",
+   "authors": [
+    {
+     "name": "Shinichi Nakagawa",
+     "orcid": "https://orcid.org/0000-0002-7765-5182",
+     "isSelf": false
+    },
+    {
+     "name": "Edward R. Ivimey-Cook",
+     "orcid": "https://orcid.org/0000-0003-4910-0443",
+     "isSelf": false
+    },
+    {
+     "name": "Matthew J. Grainger",
+     "orcid": null,
+     "isSelf": false
+    },
+    {
+     "name": "Rose E. O’Dea",
+     "orcid": "https://orcid.org/0000-0001-8177-5075",
+     "isSelf": false
+    },
+    {
+     "name": "Samantha Burke",
+     "orcid": "https://orcid.org/0000-0001-6902-974X",
+     "isSelf": false
+    },
+    {
+     "name": "Szymon M. Drobniak",
+     "orcid": "https://orcid.org/0000-0001-8101-6247",
+     "isSelf": false
+    },
+    {
+     "name": "Elliot Gould",
+     "orcid": "https://orcid.org/0000-0002-6585-538X",
+     "isSelf": false
+    },
+    {
+     "name": "Erin L. Macartney",
+     "orcid": "https://orcid.org/0000-0003-3866-143X",
+     "isSelf": false
+    },
+    {
+     "name": "April Robin Martinig",
+     "orcid": "https://orcid.org/0000-0002-0972-6903",
+     "isSelf": false
+    },
+    {
+     "name": "Kyle Morrison",
+     "orcid": "https://orcid.org/0000-0002-3700-2398",
+     "isSelf": false
+    },
+    {
+     "name": "Matthieu Paquet",
+     "orcid": "https://orcid.org/0000-0003-1182-2299",
+     "isSelf": false
+    },
+    {
+     "name": "Joel L. Pick",
+     "orcid": "https://orcid.org/0000-0002-6295-3742",
+     "isSelf": false
+    },
+    {
+     "name": "Patrice Pottier",
+     "orcid": "https://orcid.org/0000-0003-2106-6597",
+     "isSelf": true
+    },
+    {
+     "name": "Lorenzo Ricolfi",
+     "orcid": "https://orcid.org/0000-0001-7101-3309",
+     "isSelf": false
+    },
+    {
+     "name": "David P. Wilkinson",
+     "orcid": "https://orcid.org/0000-0002-9560-6499",
+     "isSelf": false
+    },
+    {
+     "name": "Aaron Willcox",
+     "orcid": "https://orcid.org/0000-0003-2536-2596",
+     "isSelf": false
+    },
+    {
+     "name": "Coralie Williams",
+     "orcid": "https://orcid.org/0000-0003-1312-4953",
+     "isSelf": false
+    },
+    {
+     "name": "Laura A. B. Wilson",
+     "orcid": "https://orcid.org/0000-0002-3779-8277",
+     "isSelf": false
+    },
+    {
+     "name": "Saras M. Windecker",
+     "orcid": "https://orcid.org/0000-0002-4870-8353",
+     "isSelf": false
+    },
+    {
+     "name": "Yefeng Yang",
+     "orcid": "https://orcid.org/0000-0002-8610-4016",
+     "isSelf": false
+    },
+    {
+     "name": "Malgorzata Lagisz",
+     "orcid": "https://orcid.org/0000-0002-3993-6127",
+     "isSelf": false
+    }
+   ],
+   "authorLine": "Shinichi Nakagawa, Edward R. Ivimey-Cook, Matthew J. Grainger, Rose E. O’Dea, Samantha Burke, Szymon M. Drobniak, Elliot Gould, Erin L. Macartney, April Robin Martinig, Kyle Morrison, Matthieu Paquet, Joel L. Pick, Patrice Pottier, Lorenzo Ricolfi, David P. Wilkinson, Aaron Willcox, Coralie Williams, Laura A. B. Wilson, Saras M. Windecker, Yefeng Yang, Malgorzata Lagisz",
+   "journal": "Nature Communications",
+   "year": 2023,
+   "volume": "14",
+   "issue": "1",
+   "pages": "1788",
+   "kind": "article",
+   "isOA": true,
+   "oaUrl": "https://www.nature.com/articles/s41467-023-37039-1.pdf",
+   "url": "https://doi.org/10.1038/s41467-023-37039-1",
+   "citations": 75,
+   "abstract": "Contributor Roles Taxonomy (CRediT) has recently changed how author contributions are acknowledged. To extend and complement CRediT, we propose MeRIT, a new way of writing the Methods section using the author’s initials to further clarify contributor roles for reproducibility and replicability. Lack of information on authors’ contribution to specific aspects of a study hampers reproducibility and replicability. Here, the authors propose a new, easily implemented reporting system to clarify contributor roles in the Methods section of an article.",
    "preprintUrl": null,
    "altmetric": null
   },
@@ -5693,7 +5693,7 @@
    "isOA": true,
    "oaUrl": "https://doi.org/10.1098/rspb.2022.1113",
    "url": "https://doi.org/10.1098/rspb.2022.1113",
-   "citations": 182,
+   "citations": 186,
    "abstract": "The biological sciences community is increasingly recognizing the value of open, reproducible and transparent research practices for science and society at large. Despite this recognition, many researchers fail to share their data and code publicly. This pattern may arise from knowledge barriers about how to archive data and code, concerns about its reuse, and misaligned career incentives. Here, we define, categorize and discuss barriers to data and code sharing that are relevant to many research fields. We explore how real and perceived barriers might be overcome or reframed in the light of the benefits relative to costs. By elucidating these barriers and the contexts in which they arise, we can take steps to mitigate them and align our actions with the goals of open science, both as individual scientists and as a scientific community.",
    "preprintUrl": "https://doi.org/10.31222/osf.io/gaj43",
    "altmetric": null
@@ -5790,7 +5790,7 @@
    "isOA": true,
    "oaUrl": "https://doi.org/10.1038/s41467-022-32953-2",
    "url": "https://doi.org/10.1038/s41467-022-32953-2",
-   "citations": 135,
+   "citations": 138,
    "abstract": "Extreme temperature events are increasing in frequency and intensity due to climate change. Such events threaten insects, including pollinators, pests and disease vectors. Insect critical thermal limits can be enhanced through acclimation, yet evidence that plasticity aids survival at extreme temperatures is limited. Here, using meta-analyses across 1374 effect sizes, 74 studies and 102 species, we show that thermal limit plasticity is pervasive but generally weak: per 1 °C rise in acclimation temperature, critical thermal maximum increases by 0.09 °C; and per 1 °C decline, critical thermal minimum decreases by 0.15 °C. Moreover, small but significant publication bias suggests that the magnitude of plasticity is marginally overestimated. We find juvenile insects are more plastic than adults, highlighting that physiological responses of insects vary through ontogeny. Overall, we show critical thermal limit plasticity is likely of limited benefit to insects during extreme climatic events, yet we need more studies in under-represented taxa and geographic regions.",
    "preprintUrl": null,
    "altmetric": null
@@ -5866,7 +5866,7 @@
    "isOA": true,
    "oaUrl": "https://www.nature.com/articles/s41597-022-01704-9.pdf",
    "url": "https://doi.org/10.1038/s41597-022-01704-9",
-   "citations": 54,
+   "citations": 55,
    "abstract": "Rising temperatures represent a significant threat to the survival of ectothermic animals. As such, upper thermal limits represent an important trait to assess the vulnerability of ectotherms to changing temperatures. For instance, one may use upper thermal limits to estimate current and future thermal safety margins (i.e., the proximity of upper thermal limits to experienced temperatures), use this trait together with other physiological traits in species distribution models, or investigate the plasticity and evolvability of these limits for buffering the impacts of changing temperatures. While datasets on thermal tolerance limits have been previously compiled, they sometimes report single estimates for a given species, do not present measures of data dispersion, and are biased towards certain parts of the globe. To overcome these limitations, we systematically searched the literature in seven languages to produce the most comprehensive dataset to date on amphibian upper thermal limits, spanning 3,095 estimates across 616 species. This resource will represent a useful tool to evaluate the vulnerability of amphibians, and ectotherms more generally, to changing temperatures.",
    "preprintUrl": null,
    "altmetric": null
@@ -6177,7 +6177,7 @@
    "isOA": true,
    "oaUrl": "https://ruj.uj.edu.pl/xmlui/handle/item/285076",
    "url": "https://doi.org/10.1111/1365-2435.13899",
-   "citations": 69,
+   "citations": 70,
    "abstract": "Abstract Climate change is putting the fate of ectothermic animals at stake because their body temperature closely tracks environmental temperatures. The ability to adjust thermal limits and preference through acclimation (i.e. acclimation capacity) may compensate for temperature changes. However, although necessary for forecasting the future of ectotherms in a changing climate, knowledge on the factors modulating these plastic responses is fragmentary. For instance, the influence of an animal's sex in driving acclimation capacity has been underappreciated. Here, we present the first systematic review and meta‐analysis on sex differences in thermal acclimation capacity. Using 239 effect sizes from 37 studies and 44 species, we revealed that males and females did not differ significantly in their overall capacity to acclimate their thermal limits and preference. However, in some instances, females expressed significantly greater plastic responses than males. In wild animals, females had a greater heat tolerance plasticity than males. In addition, females had a greater cold tolerance plasticity in terrestrial habitats, but the strength and direction of this sexual dimorphism was associated with the duration of acclimation. We also found a negative correlation between body mass and plasticity. Finally, we demonstrated that the capacity for each sex to adjust their thermal tolerance and preference was remarkably limited. It is important to acknowledge that the above effects were weak and heterogeneous. Hence, in the species we investigated, minor differences in acclimation capacity may not translate into major ecological mismatch between sexes with climate change. Our systematic review also revealed that over 75% of the studies we identified either did not report or confounded the sex of the animals. This under‐reporting may cause to overlook ecologically relevant sex differences in plasticity in ectothermic taxa. We stress the need for further research on sex‐based responses to temperatures. Our synthesis provides additional evidence that the capacity for ectotherms to acclimate to temperatures is limited, and likely insufficient to compensate for the impacts of climate change. A free Plain Language Summary can be found within the Supporting Information of this article.",
    "preprintUrl": null,
    "altmetric": null
