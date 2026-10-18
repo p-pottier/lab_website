@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-17",
+ "updated": "2026-10-18",
  "total": 725,
  "countries": 59,
  "institutions": 266,
@@ -6852,7 +6852,7 @@
    "lon": null
   },
   {
-   "name": "Michael A. McCarthy",
+   "name": "Michael Andrew Mccarthy",
    "orcid": "https://orcid.org/0000-0003-1039-7980",
    "openalex": "https://openalex.org/A5025024507",
    "works": 1,
@@ -9192,7 +9192,7 @@
    "lon": -118.28878021240234
   },
   {
-   "name": "Vikram P. Narayan",
+   "name": "Vikram Pratap Narayan",
    "orcid": "https://orcid.org/0000-0002-3543-2394",
    "openalex": "https://openalex.org/A5034784566",
    "works": 1,
