@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-19",
+ "updated": "2026-10-20",
  "publications": [
   {
    "id": "10.1093/conphys/coag006",
@@ -609,6 +609,57 @@
    "altmetric": null
   },
   {
+   "id": "10.1016/j.cois.2026.101523",
+   "doi": "10.1016/j.cois.2026.101523",
+   "title": "Life cycle complexity drives variation in thermal tolerance and plasticity",
+   "authors": [
+    {
+     "name": "Patrice Pottier",
+     "orcid": "https://orcid.org/0000-0003-2106-6597",
+     "isSelf": true
+    },
+    {
+     "name": "Vanessa Kellermann",
+     "orcid": null,
+     "isSelf": false
+    },
+    {
+     "name": "Daniel WA Noble",
+     "orcid": null,
+     "isSelf": false
+    },
+    {
+     "name": "Carla M Sgrò",
+     "orcid": null,
+     "isSelf": false
+    },
+    {
+     "name": "John S Terblanche",
+     "orcid": null,
+     "isSelf": false
+    },
+    {
+     "name": "Belinda van Heerwaarden",
+     "orcid": null,
+     "isSelf": false
+    }
+   ],
+   "authorLine": "Patrice Pottier, Vanessa Kellermann, Daniel WA Noble, Carla M Sgrò, John S Terblanche, Belinda van Heerwaarden",
+   "journal": "Current Opinion in Insect Science",
+   "year": 2026,
+   "volume": "76",
+   "issue": null,
+   "pages": "101523",
+   "kind": "article",
+   "isOA": true,
+   "oaUrl": "https://doi.org/10.1016/j.cois.2026.101523",
+   "url": "https://doi.org/10.1016/j.cois.2026.101523",
+   "citations": 4,
+   "abstract": "Accumulating evidence suggests that heat tolerance varies substantially across insect development, yet patterns of variation remain difficult to generalise across species. We discuss how the diversity of insect developmental strategies shapes both the intensity and predictability of thermal environments across ontogeny, and how this likely generates variation in heat tolerance, plasticity and carry-over effects. We hypothesise that large developmental variation is expected in holometabolous insects and in species undergoing pronounced microhabitat or diel activity transitions. These transitions can modify heat exposure, behavioural thermoregulatory abilities and the physiological or genetic regulatory network underlying heat tolerance, weakening correlations among life stages. We discuss when carry-over effects are likely to be adaptive, highlighting the importance of environmental predictability, ecological similarity among stages and the balance between heat injury and repair. We argue that an ontogenetic perspective capturing the microenvironmental conditions experienced by each life stage is essential for predicting insect vulnerability to extreme heat.",
+   "preprintUrl": "https://doi.org/10.32942/x2936q",
+   "altmetric": null
+  },
+  {
    "id": "10.1093/icb/icag045",
    "doi": "10.1093/icb/icag045",
    "title": "Extreme Heat as the New Normal: A Methodological Roadmap Incorporating Behavior, Physiology, and Species Distributions",
@@ -878,57 +929,6 @@
    "citations": 3,
    "abstract": "Meta-analysis is commonly a core component of systematic reviews and has become an important method to reconcile conflicting findings, increase statistical power, and chart new research directions. However, poor reporting practices make it challenging to evaluate the validity of meta-analyses. Despite the existence of reporting checklists, a specifically designed tool has yet to be developed to appraise the completeness with which a meta-analysis has been reported. To bridge this gap, we introduce the Meta-analysis Appraisal Tool for Environmental Sciences (MATES). To develop MATES, we adapted a Delphi process involving experts in meta-analysis methodologies, researchers with experience in guideline/appraisal tool development, and editors of relevant journals. The Delphi process had five steps, including three workshops (11-16 participants), a survey (193 participants), and a validation task (30 participants). This iterative development process resulted in a 14-item appraisal tool that reflects the environmental science and research syntheses community's consensus on essential elements to appraise the completeness with which a meta-analysis has been reported. Validation across 50 meta-analyses demonstrated that the tool is repeatable (average agreement rate: 88.97 %) and time-efficient to implement (17.00 ± 12.23 min). We also outline guidance for interpreting MATES results, describe its potential applications, and reflect on the development process. The authors provide practical implementation guidance for each MATES item, illustrated with real examples in the supplementary material. We also report an extended development methodology to support reproducibility. Finally, we built created a ShinyApp that includes both a training module and an application tool to enhance the usability of MATES (https://kylemorrisonisshiny99.shinyapps.io/MATES_shiny/). Overall, MATES provides authors, readers, stakeholders, and editors with a reliable and accessible tool for appraising the completeness with which a meta-analysis in environmental sciences has been reported.",
    "preprintUrl": "https://doi.org/10.31222/osf.io/n3cta_v2",
-   "altmetric": null
-  },
-  {
-   "id": "10.1016/j.cois.2026.101523",
-   "doi": "10.1016/j.cois.2026.101523",
-   "title": "Life cycle complexity drives variation in thermal tolerance and plasticity",
-   "authors": [
-    {
-     "name": "Patrice Pottier",
-     "orcid": "https://orcid.org/0000-0003-2106-6597",
-     "isSelf": true
-    },
-    {
-     "name": "Vanessa Kellermann",
-     "orcid": null,
-     "isSelf": false
-    },
-    {
-     "name": "Daniel WA Noble",
-     "orcid": null,
-     "isSelf": false
-    },
-    {
-     "name": "Carla M Sgrò",
-     "orcid": null,
-     "isSelf": false
-    },
-    {
-     "name": "John S Terblanche",
-     "orcid": null,
-     "isSelf": false
-    },
-    {
-     "name": "Belinda van Heerwaarden",
-     "orcid": null,
-     "isSelf": false
-    }
-   ],
-   "authorLine": "Patrice Pottier, Vanessa Kellermann, Daniel WA Noble, Carla M Sgrò, John S Terblanche, Belinda van Heerwaarden",
-   "journal": "Current Opinion in Insect Science",
-   "year": 2026,
-   "volume": "76",
-   "issue": null,
-   "pages": "101523",
-   "kind": "article",
-   "isOA": true,
-   "oaUrl": "https://doi.org/10.1016/j.cois.2026.101523",
-   "url": "https://doi.org/10.1016/j.cois.2026.101523",
-   "citations": 1,
-   "abstract": "Accumulating evidence suggests that heat tolerance varies substantially across insect development, yet patterns of variation remain difficult to generalise across species. We discuss how the diversity of insect developmental strategies shapes both the intensity and predictability of thermal environments across ontogeny, and how this likely generates variation in heat tolerance, plasticity and carry-over effects. We hypothesise that large developmental variation is expected in holometabolous insects and in species undergoing pronounced microhabitat or diel activity transitions. These transitions can modify heat exposure, behavioural thermoregulatory abilities and the physiological or genetic regulatory network underlying heat tolerance, weakening correlations among life stages. We discuss when carry-over effects are likely to be adaptive, highlighting the importance of environmental predictability, ecological similarity among stages and the balance between heat injury and repair. We argue that an ontogenetic perspective capturing the microenvironmental conditions experienced by each life stage is essential for predicting insect vulnerability to extreme heat.",
-   "preprintUrl": "https://doi.org/10.32942/x2936q",
    "altmetric": null
   },
   {
@@ -5699,6 +5699,47 @@
    "altmetric": null
   },
   {
+   "id": "10.1038/s41467-022-32953-2",
+   "doi": "10.1038/s41467-022-32953-2",
+   "title": "Meta-analysis reveals weak but pervasive plasticity in insect thermal limits",
+   "authors": [
+    {
+     "name": "Hester Weaving",
+     "orcid": "https://orcid.org/0000-0002-9093-0556",
+     "isSelf": false
+    },
+    {
+     "name": "John S. Terblanche",
+     "orcid": "https://orcid.org/0000-0001-9665-9405",
+     "isSelf": false
+    },
+    {
+     "name": "Patrice Pottier",
+     "orcid": "https://orcid.org/0000-0003-2106-6597",
+     "isSelf": true
+    },
+    {
+     "name": "Sinead English",
+     "orcid": "https://orcid.org/0000-0003-2898-2301",
+     "isSelf": false
+    }
+   ],
+   "authorLine": "Hester Weaving, John S. Terblanche, Patrice Pottier, Sinead English",
+   "journal": "Nature Communications",
+   "year": 2022,
+   "volume": "13",
+   "issue": "1",
+   "pages": "5292",
+   "kind": "article",
+   "isOA": true,
+   "oaUrl": "https://doi.org/10.1038/s41467-022-32953-2",
+   "url": "https://doi.org/10.1038/s41467-022-32953-2",
+   "citations": 149,
+   "abstract": "Extreme temperature events are increasing in frequency and intensity due to climate change. Such events threaten insects, including pollinators, pests and disease vectors. Insect critical thermal limits can be enhanced through acclimation, yet evidence that plasticity aids survival at extreme temperatures is limited. Here, using meta-analyses across 1374 effect sizes, 74 studies and 102 species, we show that thermal limit plasticity is pervasive but generally weak: per 1 °C rise in acclimation temperature, critical thermal maximum increases by 0.09 °C; and per 1 °C decline, critical thermal minimum decreases by 0.15 °C. Moreover, small but significant publication bias suggests that the magnitude of plasticity is marginally overestimated. We find juvenile insects are more plastic than adults, highlighting that physiological responses of insects vary through ontogeny. Overall, we show critical thermal limit plasticity is likely of limited benefit to insects during extreme climatic events, yet we need more studies in under-represented taxa and geographic regions.",
+   "preprintUrl": null,
+   "altmetric": null
+  },
+  {
    "id": "10.1111/ele.14083",
    "doi": "10.1111/ele.14083",
    "title": "Developmental plasticity in thermal tolerance: Ontogenetic variation, persistence, and future directions",
@@ -5749,50 +5790,9 @@
    "isOA": true,
    "oaUrl": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/ele.14083",
    "url": "https://doi.org/10.1111/ele.14083",
-   "citations": 144,
+   "citations": 145,
    "abstract": "Understanding the factors affecting thermal tolerance is crucial for predicting the impact climate change will have on ectotherms. However, the role developmental plasticity plays in allowing populations to cope with thermal extremes is poorly understood. Here, we meta-analyse how thermal tolerance is initially and persistently impacted by early (embryonic and juvenile) thermal environments by using data from 150 experimental studies on 138 ectothermic species. Thermal tolerance only increased by 0.13°C per 1°C change in developmental temperature and substantial variation in plasticity (~36%) was the result of shared evolutionary history and species ecology. Aquatic ectotherms were more than three times as plastic as terrestrial ectotherms. Notably, embryos expressed weaker but more heterogenous plasticity than older life stages, with numerous responses appearing as non-adaptive. While developmental temperatures did not have persistent effects on thermal tolerance overall, persistent effects were vastly under-studied, and their direction and magnitude varied with ontogeny. Embryonic stages may represent a critical window of vulnerability to changing environments and we urge researchers to consider early life stages when assessing the climate vulnerability of ectotherms. Overall, our synthesis suggests that developmental changes in thermal tolerance rarely reach levels of perfect compensation and may provide limited benefit in changing environments.",
    "preprintUrl": "https://doi.org/10.22541/au.164573834.49438532/v1",
-   "altmetric": null
-  },
-  {
-   "id": "10.1038/s41467-022-32953-2",
-   "doi": "10.1038/s41467-022-32953-2",
-   "title": "Meta-analysis reveals weak but pervasive plasticity in insect thermal limits",
-   "authors": [
-    {
-     "name": "Hester Weaving",
-     "orcid": "https://orcid.org/0000-0002-9093-0556",
-     "isSelf": false
-    },
-    {
-     "name": "John S. Terblanche",
-     "orcid": "https://orcid.org/0000-0001-9665-9405",
-     "isSelf": false
-    },
-    {
-     "name": "Patrice Pottier",
-     "orcid": "https://orcid.org/0000-0003-2106-6597",
-     "isSelf": true
-    },
-    {
-     "name": "Sinead English",
-     "orcid": "https://orcid.org/0000-0003-2898-2301",
-     "isSelf": false
-    }
-   ],
-   "authorLine": "Hester Weaving, John S. Terblanche, Patrice Pottier, Sinead English",
-   "journal": "Nature Communications",
-   "year": 2022,
-   "volume": "13",
-   "issue": "1",
-   "pages": "5292",
-   "kind": "article",
-   "isOA": true,
-   "oaUrl": "https://doi.org/10.1038/s41467-022-32953-2",
-   "url": "https://doi.org/10.1038/s41467-022-32953-2",
-   "citations": 144,
-   "abstract": "Extreme temperature events are increasing in frequency and intensity due to climate change. Such events threaten insects, including pollinators, pests and disease vectors. Insect critical thermal limits can be enhanced through acclimation, yet evidence that plasticity aids survival at extreme temperatures is limited. Here, using meta-analyses across 1374 effect sizes, 74 studies and 102 species, we show that thermal limit plasticity is pervasive but generally weak: per 1 °C rise in acclimation temperature, critical thermal maximum increases by 0.09 °C; and per 1 °C decline, critical thermal minimum decreases by 0.15 °C. Moreover, small but significant publication bias suggests that the magnitude of plasticity is marginally overestimated. We find juvenile insects are more plastic than adults, highlighting that physiological responses of insects vary through ontogeny. Overall, we show critical thermal limit plasticity is likely of limited benefit to insects during extreme climatic events, yet we need more studies in under-represented taxa and geographic regions.",
-   "preprintUrl": null,
    "altmetric": null
   },
   {
