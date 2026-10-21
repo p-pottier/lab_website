@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-20",
+ "updated": "2026-10-21",
  "publications": [
   {
    "id": "10.1093/conphys/coag006",
@@ -3175,7 +3175,7 @@
    "isOA": true,
    "oaUrl": "https://doi.org/10.1038/s41586-025-08665-0",
    "url": "https://doi.org/10.1038/s41586-025-08665-0",
-   "citations": 78,
+   "citations": 79,
    "abstract": "Abstract Amphibians are the most threatened vertebrates, yet their resilience to rising temperatures remains poorly understood 1,2 . This is primarily because knowledge of thermal tolerance is taxonomically and geographically biased 3 , compromising global climate vulnerability assessments. Here we used a phylogenetically informed data-imputation approach to predict the heat tolerance of 60% of amphibian species and assessed their vulnerability to daily temperature variations in thermal refugia. We found that 104 out of 5,203 species (2%) are currently exposed to overheating events in shaded terrestrial conditions. Despite accounting for heat-tolerance plasticity, a 4 °C global temperature increase would create a step change in impact severity, pushing 7.5% of species beyond their physiological limits. In the Southern Hemisphere, tropical species encounter disproportionally more overheating events, while non-tropical species are more susceptible in the Northern Hemisphere. These findings challenge evidence for a general latitudinal gradient in overheating risk 4–6 and underscore the importance of considering climatic variability in vulnerability assessments. We provide conservative estimates assuming access to cool shaded microenvironments. Thus, the impacts of global warming will probably exceed our projections. Our microclimate-explicit analyses demonstrate that vegetation and water bodies are critical in buffering amphibians during heat waves. Immediate action is needed to preserve and manage these microhabitat features.",
    "preprintUrl": "https://doi.org/10.32942/x2t02t",
    "altmetric": null
@@ -3335,6 +3335,132 @@
    "citations": 7,
    "abstract": "Meta-analyses are powerful tools to synthesize the literature in several fields of study, including ecology and evolution. However, it remains uncertain whether ecologists and evolutionary biologists fully comprehend meta-analyses' findings or effectively apply them when citing these studies in their own research. Here, we first discuss key meta-analytical concepts and provide a guide to researchers in ecology and evolution on how to harness meta-analyses' insights. For instance, we clarify the meaning of effect sizes and heterogeneity to improve understanding of meta-analyses' quantitative findings. In addition, we analysed articles published in 2023 in ecology and evolution to investigate how frequently and in what context meta-analyses were cited. We found that approximately 21% of articles cited at least one meta-analysis, and that the relative number of citations of meta-analyses (0.62% of all citations analysed) was greater than the publication frequency of meta-analytical articles (0.44% of all articles). Most importantly, we found that while the direction of mean effect sizes from cited meta-analyses was often mentioned, the magnitude of effect sizes and the limitations of the data analysed were frequently overlooked. These findings underscore the need for improved citation practices of meta-analyses in ecological and evolutionary research, which our recommendations seek to promote.",
    "preprintUrl": "https://doi.org/10.32942/x2pw5p",
+   "altmetric": null
+  },
+  {
+   "id": "10.1098/rspb.2024.1430",
+   "doi": "10.1098/rspb.2024.1430",
+   "title": "Priced out of belonging? Insufficient concessions on membership fees across international societies in ecology and evolution",
+   "authors": [
+    {
+     "name": "Malgorzata Lagisz",
+     "orcid": "https://orcid.org/0000-0002-3993-6127",
+     "isSelf": false
+    },
+    {
+     "name": "Kevin R. Bairos-Novak",
+     "orcid": "https://orcid.org/0000-0002-0152-1452",
+     "isSelf": false
+    },
+    {
+     "name": "April Robin Martinig",
+     "orcid": "https://orcid.org/0000-0002-0972-6903",
+     "isSelf": false
+    },
+    {
+     "name": "Michael G. Bertram",
+     "orcid": "https://orcid.org/0000-0001-5320-8444",
+     "isSelf": false
+    },
+    {
+     "name": "Ayumi Mizuno",
+     "orcid": "https://orcid.org/0000-0003-0822-5637",
+     "isSelf": false
+    },
+    {
+     "name": "Saeed Shafiei Sabet",
+     "orcid": "https://orcid.org/0000-0001-5919-2527",
+     "isSelf": false
+    },
+    {
+     "name": "Matthieu Paquet",
+     "orcid": "https://orcid.org/0000-0003-1182-2299",
+     "isSelf": false
+    },
+    {
+     "name": "Manuela S. Santana",
+     "orcid": "https://orcid.org/0000-0002-4101-595X",
+     "isSelf": false
+    },
+    {
+     "name": "Eli S. J. Thoré",
+     "orcid": "https://orcid.org/0000-0002-0029-8404",
+     "isSelf": false
+    },
+    {
+     "name": "Nina Trubanová",
+     "orcid": "https://orcid.org/0000-0001-8156-3304",
+     "isSelf": false
+    },
+    {
+     "name": "Joanna Rutkowska",
+     "orcid": "https://orcid.org/0000-0003-0396-1790",
+     "isSelf": false
+    },
+    {
+     "name": "James A. Orr",
+     "orcid": "https://orcid.org/0000-0002-6531-5623",
+     "isSelf": false
+    },
+    {
+     "name": "Elina Takola",
+     "orcid": "https://orcid.org/0000-0003-1268-5513",
+     "isSelf": false
+    },
+    {
+     "name": "Yefeng Yang",
+     "orcid": "https://orcid.org/0000-0002-8610-4016",
+     "isSelf": false
+    },
+    {
+     "name": "Patrice Pottier",
+     "orcid": "https://orcid.org/0000-0003-2106-6597",
+     "isSelf": true
+    },
+    {
+     "name": "Dylan G. E. Gomes",
+     "orcid": "https://orcid.org/0000-0002-2642-3728",
+     "isSelf": false
+    },
+    {
+     "name": "Ying-Chi Chan",
+     "orcid": "https://orcid.org/0000-0002-7183-4411",
+     "isSelf": false
+    },
+    {
+     "name": "Zhenzhuo Xian",
+     "orcid": "https://orcid.org/0009-0000-4272-4857",
+     "isSelf": false
+    },
+    {
+     "name": "Caleb Onoja Akogwu",
+     "orcid": "https://orcid.org/0009-0004-8342-4964",
+     "isSelf": false
+    },
+    {
+     "name": "Szymon M. Drobniak",
+     "orcid": "https://orcid.org/0000-0001-8101-6247",
+     "isSelf": false
+    },
+    {
+     "name": "Shinichi Nakagawa",
+     "orcid": "https://orcid.org/0000-0002-7765-5182",
+     "isSelf": false
+    }
+   ],
+   "authorLine": "Malgorzata Lagisz, Kevin R. Bairos-Novak, April Robin Martinig, Michael G. Bertram, Ayumi Mizuno, Saeed Shafiei Sabet, Matthieu Paquet, Manuela S. Santana, Eli S. J. Thoré, Nina Trubanová, Joanna Rutkowska, James A. Orr, Elina Takola, Yefeng Yang, Patrice Pottier, Dylan G. E. Gomes, Ying-Chi Chan, Zhenzhuo Xian, Caleb Onoja Akogwu, Szymon M. Drobniak, Shinichi Nakagawa",
+   "journal": "Proceedings of the Royal Society B: Biological Sciences",
+   "year": 2025,
+   "volume": "292",
+   "issue": "2040",
+   "pages": "20241430",
+   "kind": "article",
+   "isOA": true,
+   "oaUrl": "https://royalsocietypublishing.org/rspb/article-pdf/doi/10.1098/rspb.2024.1430/1264846/rspb.2024.1430.pdf",
+   "url": "https://doi.org/10.1098/rspb.2024.1430",
+   "citations": 4,
+   "abstract": "Learned societies, as professional bodies for scientists, are an integral part of the scientific system. However, their membership fees have the potential to be prohibitive to the most vulnerable members of the scientific community. To shed light on how membership fees are structured, we conducted a survey of 182 international learned societies relevant to researchers in ecology and evolution. We found that 83% of these societies offered fee concessions to students, but only 26% to postdoctoral researchers. An average regular membership fee-US$67.8, student fee-US$27.4 (42.7% of the regular fee) and postdoctoral fee-US$42.7 (52.9%). Other types of individual concessions, such as for emeritus, family or unemployed, were rare (2-20%). Of the surveyed societies, 43% had discounts for members from developing countries (Global South). Such discounts were more common among societies located in high-income countries. Societies with a publicly visible commitment to equity, diversity and inclusion were more likely to offer different types of concessions. Currently, fees may prevent researchers from vulnerable and underprivileged groups from accessing multiple professional benefits offered by learned societies in ecology and evolution. This includes postdoctoral researchers, who should receive more support. We recommend tangible actions towards making learned societies more affordable and accessible.",
+   "preprintUrl": null,
    "altmetric": null
   },
   {
@@ -3686,132 +3812,6 @@
    "citations": 4,
    "abstract": "Publishing preprints is quickly becoming commonplace in ecology and evolutionary biology. Preprints can facilitate the rapid sharing of scientific knowledge establishing precedence and enabling feedback from the research community before peer review. Yet, significant barriers to preprint use exist, including language barriers, a lack of understanding about the benefits of preprints and a lack of diversity in the types of research outputs accepted (e.g. reports). Community-driven preprint initiatives can allow a research community to come together to break down these barriers to improve equity and coverage of global knowledge. Here, we explore the first preprints uploaded to EcoEvoRxiv ( n = 1216), a community-driven preprint server for ecologists and evolutionary biologists, to characterize preprint use in ecology, evolution and conservation. Our perspective piece highlights some of the unique initiatives that EcoEvoRxiv has taken to break down barriers to scientific publishing by exploring the composition of articles, how gender and career stage influence preprint use, whether preprints are associated with greater open science practices (e.g. code and data sharing) and tracking preprint publication outcomes. Our analysis identifies areas that we still need to improve upon but highlights how community-driven initiatives, such as EcoEvoRxiv , can play a crucial role in shaping publishing practices in biology.",
    "preprintUrl": "https://doi.org/10.32942/x2ss46",
-   "altmetric": null
-  },
-  {
-   "id": "10.1098/rspb.2024.1430",
-   "doi": "10.1098/rspb.2024.1430",
-   "title": "Priced out of belonging? Insufficient concessions on membership fees across international societies in ecology and evolution",
-   "authors": [
-    {
-     "name": "Malgorzata Lagisz",
-     "orcid": "https://orcid.org/0000-0002-3993-6127",
-     "isSelf": false
-    },
-    {
-     "name": "Kevin R. Bairos-Novak",
-     "orcid": "https://orcid.org/0000-0002-0152-1452",
-     "isSelf": false
-    },
-    {
-     "name": "April Robin Martinig",
-     "orcid": "https://orcid.org/0000-0002-0972-6903",
-     "isSelf": false
-    },
-    {
-     "name": "Michael G. Bertram",
-     "orcid": "https://orcid.org/0000-0001-5320-8444",
-     "isSelf": false
-    },
-    {
-     "name": "Ayumi Mizuno",
-     "orcid": "https://orcid.org/0000-0003-0822-5637",
-     "isSelf": false
-    },
-    {
-     "name": "Saeed Shafiei Sabet",
-     "orcid": "https://orcid.org/0000-0001-5919-2527",
-     "isSelf": false
-    },
-    {
-     "name": "Matthieu Paquet",
-     "orcid": "https://orcid.org/0000-0003-1182-2299",
-     "isSelf": false
-    },
-    {
-     "name": "Manuela S. Santana",
-     "orcid": "https://orcid.org/0000-0002-4101-595X",
-     "isSelf": false
-    },
-    {
-     "name": "Eli S. J. Thoré",
-     "orcid": "https://orcid.org/0000-0002-0029-8404",
-     "isSelf": false
-    },
-    {
-     "name": "Nina Trubanová",
-     "orcid": "https://orcid.org/0000-0001-8156-3304",
-     "isSelf": false
-    },
-    {
-     "name": "Joanna Rutkowska",
-     "orcid": "https://orcid.org/0000-0003-0396-1790",
-     "isSelf": false
-    },
-    {
-     "name": "James A. Orr",
-     "orcid": "https://orcid.org/0000-0002-6531-5623",
-     "isSelf": false
-    },
-    {
-     "name": "Elina Takola",
-     "orcid": "https://orcid.org/0000-0003-1268-5513",
-     "isSelf": false
-    },
-    {
-     "name": "Yefeng Yang",
-     "orcid": "https://orcid.org/0000-0002-8610-4016",
-     "isSelf": false
-    },
-    {
-     "name": "Patrice Pottier",
-     "orcid": "https://orcid.org/0000-0003-2106-6597",
-     "isSelf": true
-    },
-    {
-     "name": "Dylan G. E. Gomes",
-     "orcid": "https://orcid.org/0000-0002-2642-3728",
-     "isSelf": false
-    },
-    {
-     "name": "Ying-Chi Chan",
-     "orcid": "https://orcid.org/0000-0002-7183-4411",
-     "isSelf": false
-    },
-    {
-     "name": "Zhenzhuo Xian",
-     "orcid": "https://orcid.org/0009-0000-4272-4857",
-     "isSelf": false
-    },
-    {
-     "name": "Caleb Onoja Akogwu",
-     "orcid": "https://orcid.org/0009-0004-8342-4964",
-     "isSelf": false
-    },
-    {
-     "name": "Szymon M. Drobniak",
-     "orcid": "https://orcid.org/0000-0001-8101-6247",
-     "isSelf": false
-    },
-    {
-     "name": "Shinichi Nakagawa",
-     "orcid": "https://orcid.org/0000-0002-7765-5182",
-     "isSelf": false
-    }
-   ],
-   "authorLine": "Malgorzata Lagisz, Kevin R. Bairos-Novak, April Robin Martinig, Michael G. Bertram, Ayumi Mizuno, Saeed Shafiei Sabet, Matthieu Paquet, Manuela S. Santana, Eli S. J. Thoré, Nina Trubanová, Joanna Rutkowska, James A. Orr, Elina Takola, Yefeng Yang, Patrice Pottier, Dylan G. E. Gomes, Ying-Chi Chan, Zhenzhuo Xian, Caleb Onoja Akogwu, Szymon M. Drobniak, Shinichi Nakagawa",
-   "journal": "Proceedings of the Royal Society B: Biological Sciences",
-   "year": 2025,
-   "volume": "292",
-   "issue": "2040",
-   "pages": "20241430",
-   "kind": "article",
-   "isOA": true,
-   "oaUrl": "https://royalsocietypublishing.org/rspb/article-pdf/doi/10.1098/rspb.2024.1430/1264846/rspb.2024.1430.pdf",
-   "url": "https://doi.org/10.1098/rspb.2024.1430",
-   "citations": 3,
-   "abstract": "Learned societies, as professional bodies for scientists, are an integral part of the scientific system. However, their membership fees have the potential to be prohibitive to the most vulnerable members of the scientific community. To shed light on how membership fees are structured, we conducted a survey of 182 international learned societies relevant to researchers in ecology and evolution. We found that 83% of these societies offered fee concessions to students, but only 26% to postdoctoral researchers. An average regular membership fee-US$67.8, student fee-US$27.4 (42.7% of the regular fee) and postdoctoral fee-US$42.7 (52.9%). Other types of individual concessions, such as for emeritus, family or unemployed, were rare (2-20%). Of the surveyed societies, 43% had discounts for members from developing countries (Global South). Such discounts were more common among societies located in high-income countries. Societies with a publicly visible commitment to equity, diversity and inclusion were more likely to offer different types of concessions. Currently, fees may prevent researchers from vulnerable and underprivileged groups from accessing multiple professional benefits offered by learned societies in ecology and evolution. This includes postdoctoral researchers, who should receive more support. We recommend tangible actions towards making learned societies more affordable and accessible.",
-   "preprintUrl": null,
    "altmetric": null
   },
   {
