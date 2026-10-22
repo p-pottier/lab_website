@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-21",
+ "updated": "2026-10-22",
  "publications": [
   {
    "id": "10.1093/conphys/coag006",
@@ -4672,6 +4672,72 @@
    "altmetric": null
   },
   {
+   "id": "10.1016/j.tree.2023.12.004",
+   "doi": "10.1016/j.tree.2023.12.004",
+   "title": "New horizons for comparative studies and meta-analyses",
+   "authors": [
+    {
+     "name": "Patrice Pottier",
+     "orcid": "https://orcid.org/0000-0003-2106-6597",
+     "isSelf": true
+    },
+    {
+     "name": "Daniel W.A. Noble",
+     "orcid": "https://orcid.org/0000-0001-9460-8743",
+     "isSelf": false
+    },
+    {
+     "name": "Frank Seebacher",
+     "orcid": "https://orcid.org/0000-0002-2281-9311",
+     "isSelf": false
+    },
+    {
+     "name": "Nicholas C. Wu",
+     "orcid": "https://orcid.org/0000-0002-7130-1279",
+     "isSelf": false
+    },
+    {
+     "name": "Samantha Burke",
+     "orcid": "https://orcid.org/0000-0001-6902-974X",
+     "isSelf": false
+    },
+    {
+     "name": "Malgorzata Lagisz",
+     "orcid": "https://orcid.org/0000-0002-3993-6127",
+     "isSelf": false
+    },
+    {
+     "name": "Lisa E. Schwanz",
+     "orcid": "https://orcid.org/0000-0001-5864-7112",
+     "isSelf": false
+    },
+    {
+     "name": "Szymon M. Drobniak",
+     "orcid": "https://orcid.org/0000-0001-8101-6247",
+     "isSelf": false
+    },
+    {
+     "name": "Shinichi Nakagawa",
+     "orcid": "https://orcid.org/0000-0002-7765-5182",
+     "isSelf": false
+    }
+   ],
+   "authorLine": "Patrice Pottier, Daniel W.A. Noble, Frank Seebacher, Nicholas C. Wu, Samantha Burke, Malgorzata Lagisz, Lisa E. Schwanz, Szymon M. Drobniak, Shinichi Nakagawa",
+   "journal": "Trends in Ecology & Evolution",
+   "year": 2024,
+   "volume": "39",
+   "issue": "5",
+   "pages": "435-445",
+   "kind": "article",
+   "isOA": true,
+   "oaUrl": "http://www.cell.com/article/S016953472300335X/pdf",
+   "url": "https://doi.org/10.1016/j.tree.2023.12.004",
+   "citations": 22,
+   "abstract": "Comparative analyses and meta-analyses are key tools to elucidate broad biological principles, yet the two approaches often appear different in purpose. We propose an integrated approach that can generate deeper insights into eco-evolutionary processes. Marrying comparative and meta-analytic approaches will allow for 1) a more accurate investigation of drivers of biological variation; 2) a greater ability to account for sources of non-independence in experimental data; 3) more effective control of publication bias; and 4) improved transparency and reproducibility. Stronger integration of meta-analytic and comparative studies can also broaden the scope from species-centric investigations to community-level responses and function-valued traits (e.g., reaction norms). We illuminate commonalities, differences, and the transformative potential of combining these methodologies for advancing ecology and evolutionary biology.",
+   "preprintUrl": "https://doi.org/10.32942/x25599",
+   "altmetric": null
+  },
+  {
    "id": "10.1093/jeb/voae021",
    "doi": "10.1093/jeb/voae021",
    "title": "Systematic approaches to assessing high-temperature limits to fertility in animals",
@@ -4820,72 +4886,6 @@
    "citations": 21,
    "abstract": "Critical thermal limits (CTLs) gauge the physiological impact of temperature on survival or critical biological function, aiding predictions of species range shifts and climatic resilience. Two recent Drosophila species studies, using similar approaches to determine temperatures that induce sterility (thermal fertility limits [TFLs]), reveal that TFLs are often lower than CTLs and that TFLs better predict both current species distributions and extinction probability. Moreover, many studies show fertility is more sensitive at less extreme temperatures than survival (thermal sensitivity of fertility [TSF]). These results present a more pessimistic outlook on the consequences of climate change. However, unlike CTLs, TFL data are limited to Drosophila, and variability in TSF methods poses challenges in predicting species responses to increasing temperature. To address these data and methodological gaps, we propose 3 standardized approaches for assessing thermal impacts on fertility. We focus on adult obligate sexual terrestrial invertebrates but also provide modifications for other animal groups and life-history stages. We first outline a \"gold-standard\" protocol for determining TFLs, focussing on the effects of short-term heat shocks and simulating more frequent extreme heat events predicted by climate models. As this approach may be difficult to apply to some organisms, we then provide a standardized TSF protocol. Finally, we provide a framework to quantify fertility loss in response to extreme heat events in nature, given the limitations in laboratory approaches. Applying these standardized approaches across many taxa, similar to CTLs, will allow robust tests of the impact of fertility loss on species responses to increasing temperatures.",
    "preprintUrl": null,
-   "altmetric": null
-  },
-  {
-   "id": "10.1016/j.tree.2023.12.004",
-   "doi": "10.1016/j.tree.2023.12.004",
-   "title": "New horizons for comparative studies and meta-analyses",
-   "authors": [
-    {
-     "name": "Patrice Pottier",
-     "orcid": "https://orcid.org/0000-0003-2106-6597",
-     "isSelf": true
-    },
-    {
-     "name": "Daniel W.A. Noble",
-     "orcid": "https://orcid.org/0000-0001-9460-8743",
-     "isSelf": false
-    },
-    {
-     "name": "Frank Seebacher",
-     "orcid": "https://orcid.org/0000-0002-2281-9311",
-     "isSelf": false
-    },
-    {
-     "name": "Nicholas C. Wu",
-     "orcid": "https://orcid.org/0000-0002-7130-1279",
-     "isSelf": false
-    },
-    {
-     "name": "Samantha Burke",
-     "orcid": "https://orcid.org/0000-0001-6902-974X",
-     "isSelf": false
-    },
-    {
-     "name": "Malgorzata Lagisz",
-     "orcid": "https://orcid.org/0000-0002-3993-6127",
-     "isSelf": false
-    },
-    {
-     "name": "Lisa E. Schwanz",
-     "orcid": "https://orcid.org/0000-0001-5864-7112",
-     "isSelf": false
-    },
-    {
-     "name": "Szymon M. Drobniak",
-     "orcid": "https://orcid.org/0000-0001-8101-6247",
-     "isSelf": false
-    },
-    {
-     "name": "Shinichi Nakagawa",
-     "orcid": "https://orcid.org/0000-0002-7765-5182",
-     "isSelf": false
-    }
-   ],
-   "authorLine": "Patrice Pottier, Daniel W.A. Noble, Frank Seebacher, Nicholas C. Wu, Samantha Burke, Malgorzata Lagisz, Lisa E. Schwanz, Szymon M. Drobniak, Shinichi Nakagawa",
-   "journal": "Trends in Ecology & Evolution",
-   "year": 2024,
-   "volume": "39",
-   "issue": "5",
-   "pages": "435-445",
-   "kind": "article",
-   "isOA": true,
-   "oaUrl": "http://www.cell.com/article/S016953472300335X/pdf",
-   "url": "https://doi.org/10.1016/j.tree.2023.12.004",
-   "citations": 21,
-   "abstract": "Comparative analyses and meta-analyses are key tools to elucidate broad biological principles, yet the two approaches often appear different in purpose. We propose an integrated approach that can generate deeper insights into eco-evolutionary processes. Marrying comparative and meta-analytic approaches will allow for 1) a more accurate investigation of drivers of biological variation; 2) a greater ability to account for sources of non-independence in experimental data; 3) more effective control of publication bias; and 4) improved transparency and reproducibility. Stronger integration of meta-analytic and comparative studies can also broaden the scope from species-centric investigations to community-level responses and function-valued traits (e.g., reaction norms). We illuminate commonalities, differences, and the transformative potential of combining these methodologies for advancing ecology and evolutionary biology.",
-   "preprintUrl": "https://doi.org/10.32942/x25599",
    "altmetric": null
   },
   {
@@ -5061,7 +5061,7 @@
    "isOA": true,
    "oaUrl": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/2041-210X.14152",
    "url": "https://doi.org/10.1111/2041-210x.14152",
-   "citations": 185,
+   "citations": 186,
    "abstract": "Abstract Although meta‐analysis has become an essential tool in ecology and evolution, reporting of meta‐analytic results can still be much improved. To aid this, we have introduced the orchard plot, which presents not only overall estimates and their confidence intervals, but also shows corresponding heterogeneity (as prediction intervals) and individual effect sizes. Here, we have added significant enhancements by integrating many new functionalities into orchaRd 2.0 . This updated version allows the visualisation of heteroscedasticity (different variances across levels of a categorical moderator), marginal estimates (e.g. marginalising out effects other than the one visualised), conditional estimates (i.e. estimates of different groups conditioned upon specific values of a continuous variable) and visualisations of all types of interactions between two categorical/continuous moderators. orchaRd 2.0 has additional functions which calculate key statistics from multilevel meta‐analytic models such as I 2 and R 2 . Importantly, orchaRd 2.0 contributes to better reporting by complying with PRISMA‐EcoEvo (preferred reporting items for systematic reviews and meta‐analyses in ecology and evolution). Taken together, orchaRd 2.0 can improve the presentation of meta‐analytic results and facilitate the exploration of previously neglected patterns. In addition, as a part of a literature survey, we found that graphical packages are rarely cited (~3%). We plea that researchers credit developers and maintainers of graphical packages, for example, by citations in a figure legend, acknowledging the use of relevant packages.",
    "preprintUrl": "https://doi.org/10.32942/x2qc7k",
    "altmetric": null
@@ -5328,7 +5328,7 @@
    "isOA": true,
    "oaUrl": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/ele.14266",
    "url": "https://doi.org/10.1111/ele.14266",
-   "citations": 76,
+   "citations": 77,
    "abstract": "Coral reefs are under threat from disease as climate change alters environmental conditions. Rising temperatures exacerbate coral disease, but this relationship is likely complex as other factors also influence coral disease prevalence. To better understand this relationship, we meta-analytically examined 108 studies for changes in global coral disease over time alongside temperature, expressed using average summer sea surface temperature (SST) and cumulative heat stress as weekly sea surface temperature anomalies (WSSTAs). We found that both rising average summer SST and WSSTA were associated with global increases in the mean and variability in coral disease prevalence. Global coral disease prevalence tripled, reaching 9.92% in the 25 years examined, and the effect of 'year' became more stable (i.e. prevalence has lower variance over time), contrasting the effects of the two temperature stressors. Regional patterns diverged over time and differed in response to average summer SST. Our model predicted that, under the same trajectory, 76.8% of corals would be diseased globally by 2100, even assuming moderate average summer SST and WSSTA. These results highlight the need for urgent action to mitigate coral disease. Mitigating the impact of rising ocean temperatures on coral disease is a complex challenge requiring global discussion and further study.",
    "preprintUrl": "https://doi.org/10.32942/x2hp4p",
    "altmetric": null
