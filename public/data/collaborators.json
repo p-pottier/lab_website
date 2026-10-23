@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-22",
+ "updated": "2026-10-23",
  "total": 725,
  "countries": 59,
  "institutions": 265,
@@ -1310,8 +1310,8 @@
    "city": "Tokyo",
    "country": "Japan",
    "countryCode": "JP",
-   "lat": 35.68949890136719,
-   "lon": 139.69171142578125
+   "lat": 35.6895,
+   "lon": 139.69171
   },
   {
    "name": "Saeed Shafiei Sabet",
@@ -2493,8 +2493,8 @@
    "city": "Regina",
    "country": "Canada",
    "countryCode": "CA",
-   "lat": 50.45008087158203,
-   "lon": -104.6177978515625
+   "lat": 50.45008,
+   "lon": -104.6178
   },
   {
    "name": "Bruno Moreira",

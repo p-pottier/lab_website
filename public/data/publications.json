@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-22",
+ "updated": "2026-10-23",
  "publications": [
   {
    "id": "10.1093/conphys/coag006",
@@ -3900,7 +3900,7 @@
    "isOA": true,
    "oaUrl": "https://doi.org/10.1038/s41597-025-06286-w",
    "url": "https://doi.org/10.1038/s41597-025-06286-w",
-   "citations": 2,
+   "citations": 3,
    "abstract": "Thermal traits are crucial to our understanding of the ecology and physiology of ectothermic animals. While rising global temperatures have increasingly pushed research towards the study of upper thermal limits, lower thermal limits and thermal preferences are essential for defining the thermal niche of ectotherms. Through a systematic review of the literature in seven languages, we expanded an existing database of amphibian heat tolerance by adding 1,009 estimates of cold tolerance and 816 estimates of thermal preference across 375 species. AmphiTherm is a comprehensive and reproducible database that contains 4,899 thermal trait estimates from a diverse sample of 659 species (~7.5% of all described amphibians) spanning 38 families. Despite its broad geographic coverage, we report evident gaps across amphibian biodiversity hotspots in Africa, most regions of Asia, central South America, and Western Australia. By providing a more holistic understanding of amphibian thermal tolerance and preferences, AmphiTherm is a valuable resource for advancing research in evolutionary biology, ecophysiology, and biogeography of amphibians, offering insights that are increasingly needed in changing climates.",
    "preprintUrl": "https://doi.org/10.32942/x2hw6h",
    "altmetric": null
