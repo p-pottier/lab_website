@@ -1,21 +1,22 @@
 {
- "updated": "2026-10-24",
- "total": 725,
+ "updated": "2026-10-25",
+ "total": 729,
  "countries": 59,
- "institutions": 265,
+ "institutions": 267,
  "byCountry": {
   "Japan": 8,
   "Poland": 6,
-  "Australia": 116,
+  "Australia": 119,
   "Germany": 38,
   "France": 14,
   "Sweden": 25,
-  "United Kingdom": 45,
+  "United Kingdom": 46,
   "Mexico": 5,
+  "Canada": 32,
   "United States": 60,
-  "Canada": 31,
   "Portugal": 5,
   "Switzerland": 11,
+  "Croatia": 2,
   "Italy": 7,
   "New Zealand": 3,
   "Belgium": 2,
@@ -35,7 +36,6 @@
   "Malaysia": 2,
   "Thailand": 4,
   "Indonesia": 2,
-  "Croatia": 2,
   "Israel": 3,
   "Andorra": 2,
   "Taiwan": 2,
@@ -69,7 +69,7 @@
    "name": "Shinichi Nakagawa",
    "orcid": "https://orcid.org/0000-0002-7765-5182",
    "openalex": "https://openalex.org/A5064087878",
-   "works": 31,
+   "works": 32,
    "lastYear": 2026,
    "institution": "Okinawa Institute of Science and Technology Graduate University",
    "city": "Onna",
@@ -82,7 +82,7 @@
    "name": "Szymon Marian Drobniak",
    "orcid": "https://orcid.org/0000-0001-8101-6247",
    "openalex": "https://openalex.org/A5052648587",
-   "works": 26,
+   "works": 27,
    "lastYear": 2026,
    "institution": "Jagiellonian University",
    "city": "Krakow",
@@ -95,7 +95,7 @@
    "name": "Malgorzata Lagisz",
    "orcid": "https://orcid.org/0000-0002-3993-6127",
    "openalex": "https://openalex.org/A5007515715",
-   "works": 22,
+   "works": 23,
    "lastYear": 2026,
    "institution": "UNSW Sydney",
    "city": "Sydney",
@@ -196,6 +196,19 @@
    "lon": 151.20732
   },
   {
+   "name": "Rose E. O’Dea",
+   "orcid": "https://orcid.org/0000-0001-8177-5075",
+   "openalex": "https://openalex.org/A5073454661",
+   "works": 6,
+   "lastYear": 2026,
+   "institution": "Institute for Advanced Study",
+   "city": "Berlin",
+   "country": "Germany",
+   "countryCode": "DE",
+   "lat": 52.52437,
+   "lon": 13.41053
+  },
+  {
    "name": "Ayumi Mizuno",
    "orcid": "https://orcid.org/0000-0003-0822-5637",
    "openalex": "https://openalex.org/A5032735239",
@@ -246,19 +259,6 @@
    "countryCode": "AU",
    "lat": -33.59956,
    "lon": 150.75142
-  },
-  {
-   "name": "Rose E. O’Dea",
-   "orcid": "https://orcid.org/0000-0001-8177-5075",
-   "openalex": "https://openalex.org/A5073454661",
-   "works": 5,
-   "lastYear": 2026,
-   "institution": "Institute for Advanced Study",
-   "city": "Berlin",
-   "country": "Germany",
-   "countryCode": "DE",
-   "lat": 52.52437,
-   "lon": 13.41053
   },
   {
    "name": "Tatsuya Amano",
@@ -365,6 +365,19 @@
    "lon": -100.30222
   },
   {
+   "name": "Alfredo Sánchez‐Tójar",
+   "orcid": "https://orcid.org/0000-0002-2886-0649",
+   "openalex": "https://openalex.org/A5040342843",
+   "works": 3,
+   "lastYear": 2025,
+   "institution": "Bielefeld University",
+   "city": "Bielefeld",
+   "country": "Germany",
+   "countryCode": "DE",
+   "lat": 52.03333,
+   "lon": 8.53333
+  },
+  {
    "name": "Berta Canal Domènech",
    "orcid": "https://orcid.org/0000-0003-1447-5704",
    "openalex": "https://openalex.org/A5031406898",
@@ -404,6 +417,19 @@
    "lon": 17.63889
   },
   {
+   "name": "Dominique G. Roche",
+   "orcid": "https://orcid.org/0000-0002-3326-864X",
+   "openalex": "https://openalex.org/A5026876706",
+   "works": 3,
+   "lastYear": 2025,
+   "institution": "Carleton University",
+   "city": "Ottawa",
+   "country": "Canada",
+   "countryCode": "CA",
+   "lat": 45.411170959472656,
+   "lon": -75.6981201171875
+  },
+  {
    "name": "Dylan G. E. Gomes",
    "orcid": "https://orcid.org/0000-0002-2642-3728",
    "openalex": "https://openalex.org/A5074386555",
@@ -441,6 +467,19 @@
    "countryCode": "US",
    "lat": 42.098690032958984,
    "lon": -75.91796875
+  },
+  {
+   "name": "Elliot Gould",
+   "orcid": "https://orcid.org/0000-0002-6585-538X",
+   "openalex": "https://openalex.org/A5002465189",
+   "works": 3,
+   "lastYear": 2025,
+   "institution": "The University of Melbourne",
+   "city": "Melbourne",
+   "country": "Australia",
+   "countryCode": "AU",
+   "lat": -37.814,
+   "lon": 144.96332
   },
   {
    "name": "Hester Weaving",
@@ -547,19 +586,6 @@
    "lon": 8.55
   },
   {
-   "name": "Alfredo Sánchez‐Tójar",
-   "orcid": "https://orcid.org/0000-0002-2886-0649",
-   "openalex": "https://openalex.org/A5040342843",
-   "works": 2,
-   "lastYear": 2025,
-   "institution": "Bielefeld University",
-   "city": "Bielefeld",
-   "country": "Germany",
-   "countryCode": "DE",
-   "lat": 52.03333,
-   "lon": 8.53333
-  },
-  {
    "name": "Amanda J. Bretman",
    "orcid": "https://orcid.org/0000-0002-4421-3337",
    "openalex": "https://openalex.org/A5008689070",
@@ -584,6 +610,19 @@
    "countryCode": "FR",
    "lat": 47.39484,
    "lon": 0.70398
+  },
+  {
+   "name": "Antica Čulina",
+   "orcid": "https://orcid.org/0000-0003-2910-8085",
+   "openalex": "https://openalex.org/A5081669419",
+   "works": 2,
+   "lastYear": 2025,
+   "institution": "Ruđer Bošković Institute",
+   "city": "Zagreb",
+   "country": "Croatia",
+   "countryCode": "HR",
+   "lat": 45.81444,
+   "lon": 15.97798
   },
   {
    "name": "Benjamin Cole",
@@ -651,6 +690,19 @@
    "lon": 11.88586
   },
   {
+   "name": "Clint D. Kelly",
+   "orcid": "https://orcid.org/0000-0002-0693-7211",
+   "openalex": "https://openalex.org/A5076254090",
+   "works": 2,
+   "lastYear": 2025,
+   "institution": "Université du Québec à Montréal",
+   "city": "Montreal",
+   "country": "Canada",
+   "countryCode": "CA",
+   "lat": 45.50884,
+   "lon": -73.58781
+  },
+  {
    "name": "Cristina Tuni",
    "orcid": "https://orcid.org/0000-0002-7190-1143",
    "openalex": "https://openalex.org/A5008088369",
@@ -690,17 +742,17 @@
    "lon": 174.76349
   },
   {
-   "name": "Dominique G. Roche",
-   "orcid": "https://orcid.org/0000-0002-3326-864X",
-   "openalex": "https://openalex.org/A5026876706",
+   "name": "David P. Wilkinson",
+   "orcid": "https://orcid.org/0000-0002-9560-6499",
+   "openalex": "https://openalex.org/A5078476590",
    "works": 2,
-   "lastYear": 2025,
-   "institution": "Carleton University",
-   "city": "Ottawa",
-   "country": "Canada",
-   "countryCode": "CA",
-   "lat": 45.411170959472656,
-   "lon": -75.6981201171875
+   "lastYear": 2023,
+   "institution": "The University of Melbourne",
+   "city": "Melbourne",
+   "country": "Australia",
+   "countryCode": "AU",
+   "lat": -37.814,
+   "lon": 144.96332
   },
   {
    "name": "Edward R. Ivimey‐Cook",
@@ -755,19 +807,6 @@
    "lon": 145.11901
   },
   {
-   "name": "Elliot Gould",
-   "orcid": "https://orcid.org/0000-0002-6585-538X",
-   "openalex": "https://openalex.org/A5002465189",
-   "works": 2,
-   "lastYear": 2025,
-   "institution": "The University of Melbourne",
-   "city": "Melbourne",
-   "country": "Australia",
-   "countryCode": "AU",
-   "lat": -37.814,
-   "lon": 144.96332
-  },
-  {
    "name": "ERIK I. SVENSSON",
    "orcid": "https://orcid.org/0000-0001-9006-016X",
    "openalex": "https://openalex.org/A5015610644",
@@ -805,6 +844,19 @@
    "countryCode": "CA",
    "lat": 45.411170959472656,
    "lon": -75.6981201171875
+  },
+  {
+   "name": "Fiona M. Fidler",
+   "orcid": "https://orcid.org/0000-0002-2700-2562",
+   "openalex": "https://openalex.org/A5006406097",
+   "works": 2,
+   "lastYear": 2025,
+   "institution": "The University of Melbourne",
+   "city": "Melbourne",
+   "country": "Australia",
+   "countryCode": "AU",
+   "lat": -37.814,
+   "lon": 144.96332
   },
   {
    "name": "Fredrik Jutfelt",
@@ -1390,6 +1442,19 @@
    "countryCode": "AU",
    "lat": -37.84978,
    "lon": 145.11901
+  },
+  {
+   "name": "Timothy H. Parker",
+   "orcid": "https://orcid.org/0000-0003-2995-5284",
+   "openalex": null,
+   "works": 2,
+   "lastYear": 2025,
+   "institution": "Whitman College",
+   "city": "Walla Walla",
+   "country": "United States",
+   "countryCode": "US",
+   "lat": 46.06458,
+   "lon": -118.34302
   },
   {
    "name": "Tom A. R. Price",
@@ -2159,19 +2224,6 @@
    "lon": -3.34211
   },
   {
-   "name": "Antica Čulina",
-   "orcid": "https://orcid.org/0000-0003-2910-8085",
-   "openalex": "https://openalex.org/A5081669419",
-   "works": 1,
-   "lastYear": 2025,
-   "institution": "Ruđer Bošković Institute",
-   "city": "Zagreb",
-   "country": "Croatia",
-   "countryCode": "HR",
-   "lat": 45.81444,
-   "lon": 15.97798
-  },
-  {
    "name": "Antje Girndt",
    "orcid": "https://orcid.org/0000-0002-9558-1201",
    "openalex": null,
@@ -2456,6 +2508,19 @@
    "countryCode": null,
    "lat": null,
    "lon": null
+  },
+  {
+   "name": "Bonnie C. Wintle",
+   "orcid": "https://orcid.org/0000-0003-0236-6906",
+   "openalex": "https://openalex.org/A5079290857",
+   "works": 1,
+   "lastYear": 2021,
+   "institution": "The University of Melbourne",
+   "city": "Melbourne",
+   "country": "Australia",
+   "countryCode": "AU",
+   "lat": -37.814,
+   "lon": 144.96332
   },
   {
    "name": "Brian C. Verrelli",
@@ -2861,19 +2926,6 @@
    "lon": 1.4912899732589722
   },
   {
-   "name": "Clint D. Kelly",
-   "orcid": "https://orcid.org/0000-0002-0693-7211",
-   "openalex": null,
-   "works": 1,
-   "lastYear": 2025,
-   "institution": null,
-   "city": null,
-   "country": null,
-   "countryCode": null,
-   "lat": null,
-   "lon": null
-  },
-  {
    "name": "Connor Davidson Crouch",
    "orcid": "https://orcid.org/0000-0003-0353-5820",
    "openalex": "https://openalex.org/A5062192125",
@@ -3160,6 +3212,19 @@
    "lon": -121.89495849609375
   },
   {
+   "name": "David H. Duncan",
+   "orcid": "https://orcid.org/0000-0003-4411-8214",
+   "openalex": "https://openalex.org/A5015512845",
+   "works": 1,
+   "lastYear": 2021,
+   "institution": "The University of Melbourne",
+   "city": "Melbourne",
+   "country": "Australia",
+   "countryCode": "AU",
+   "lat": -37.814,
+   "lon": 144.96332
+  },
+  {
    "name": "David J. Pascall",
    "orcid": "https://orcid.org/0000-0002-7543-0860",
    "openalex": null,
@@ -3210,19 +3275,6 @@
    "countryCode": null,
    "lat": null,
    "lon": null
-  },
-  {
-   "name": "David P. Wilkinson",
-   "orcid": "https://orcid.org/0000-0002-9560-6499",
-   "openalex": "https://openalex.org/A5078476590",
-   "works": 1,
-   "lastYear": 2023,
-   "institution": "The University of Melbourne",
-   "city": "Melbourne",
-   "country": "Australia",
-   "countryCode": "AU",
-   "lat": -37.814,
-   "lon": 144.96332
   },
   {
    "name": "David William Wolfson",
@@ -4055,19 +4107,6 @@
    "countryCode": null,
    "lat": null,
    "lon": null
-  },
-  {
-   "name": "Fiona M. Fidler",
-   "orcid": "https://orcid.org/0000-0002-2700-2562",
-   "openalex": "https://openalex.org/A5006406097",
-   "works": 1,
-   "lastYear": 2025,
-   "institution": "The University of Melbourne",
-   "city": "Melbourne",
-   "country": "Australia",
-   "countryCode": "AU",
-   "lat": -37.814,
-   "lon": 144.96332
   },
   {
    "name": "Flemming T. Dahlke",
@@ -6332,6 +6371,19 @@
    "lon": 26.5333309173584
   },
   {
+   "name": "Malika Ihle",
+   "orcid": "https://orcid.org/0000-0002-3242-5981",
+   "openalex": "https://openalex.org/A5063832356",
+   "works": 1,
+   "lastYear": 2021,
+   "institution": "University of Oxford",
+   "city": "Oxford",
+   "country": "United Kingdom",
+   "countryCode": "GB",
+   "lat": 51.75222,
+   "lon": -1.25596
+  },
+  {
    "name": "Manuela S. Santana",
    "orcid": "https://orcid.org/0000-0002-4101-595X",
    "openalex": "https://openalex.org/A5078304418",
@@ -6727,7 +6779,7 @@
    "openalex": "https://openalex.org/A5074666110",
    "works": 1,
    "lastYear": 2026,
-   "institution": "The University of Tokyo",
+   "institution": "The University Museum, The University of Tokyo",
    "city": "Tokyo",
    "country": "Japan",
    "countryCode": "JP",
@@ -9023,19 +9075,6 @@
    "lon": 114.12924
   },
   {
-   "name": "Timothy H. Parker",
-   "orcid": "https://orcid.org/0000-0003-2995-5284",
-   "openalex": null,
-   "works": 1,
-   "lastYear": 2025,
-   "institution": "Whitman College",
-   "city": "Walla Walla",
-   "country": "United States",
-   "countryCode": "US",
-   "lat": 46.06458,
-   "lon": -118.34302
-  },
-  {
    "name": "Tom Bradfer‐Lawrence",
    "orcid": "https://orcid.org/0000-0001-6045-4360",
    "openalex": "https://openalex.org/A5029462870",
@@ -9372,6 +9411,19 @@
    "countryCode": "HK",
    "lat": 22.26861,
    "lon": 114.12924
+  },
+  {
+   "name": "Yung En Chee",
+   "orcid": "https://orcid.org/0000-0002-8478-373X",
+   "openalex": "https://openalex.org/A5010665151",
+   "works": 1,
+   "lastYear": 2021,
+   "institution": "The University of Melbourne",
+   "city": "Melbourne",
+   "country": "Australia",
+   "countryCode": "AU",
+   "lat": -37.814,
+   "lon": 144.96332
   },
   {
    "name": "Yushin Shinoda",

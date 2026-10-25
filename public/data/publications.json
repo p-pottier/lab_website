@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-24",
+ "updated": "2026-10-25",
  "publications": [
   {
    "id": "10.1093/conphys/coag006",
@@ -1076,7 +1076,7 @@
    "authorLine": "Flemming T. Dahlke, Zara-Louise Cowan, Patrice Pottier, Katharina Ruthsatz, Elisa Thoral",
    "journal": "Journal of Thermal Biology",
    "year": 2026,
-   "volume": null,
+   "volume": "141",
    "issue": null,
    "pages": "104574",
    "kind": "article",
@@ -4545,7 +4545,7 @@
    "year": 2024,
    "volume": "5",
    "issue": "1",
-   "pages": null,
+   "pages": "e12303",
    "kind": "article",
    "isOA": true,
    "oaUrl": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/2688-8319.12303",
@@ -6134,6 +6134,107 @@
    "citations": 2,
    "abstract": "Behavioural phenotyping is often time and labour-intensive, which can come at a cost to sample size and statistical precision. This is particularly a concern given that behaviours are often highly variable within and between individuals, so naturally requires a larger sample size. Drosophila melanogaster is a common model system in many research fields, and behavioural observations are frequently required. While D. melanogaster has a rapid lifecycle that enables large numbers of flies to be reared for experiments, they are still subject to methodological bottlenecks for behavioural observations. Additionally, their small and delicate bodies make it difficult to observe certain behaviours in real-time, for example, in movement tracking or when performing repeated assays on the same individuals. Here, we present a method, pilot data, custom data processing and analysis scripts for high-throughput behavioural phenotyping in D. melanogaster, as well as general remarks for future studies. We used automatic tracking units to measure three behaviours in the same individuals: locomotor activity, exploratory behaviour in a Y-maze, and habituation to a startle response stimulus. We then examined between-individual variation and trait correlations using our pilot data. Through this, we show that these behaviours are amenable to high-throughput automated tracking, with locomotor activity generating the most straightforward and high-quality data. These methods can be used to free up time and labour to allocate to increasing sample sizes and can be used to address a range of biological questions in ecology, evolution, and beyond.",
    "preprintUrl": null,
+   "altmetric": null
+  },
+  {
+   "id": "10.1186/s12915-021-01006-3",
+   "doi": "10.1186/s12915-021-01006-3",
+   "title": "Towards open, reliable, and transparent ecology and evolutionary biology",
+   "authors": [
+    {
+     "name": "Rose E. O’Dea",
+     "orcid": "https://orcid.org/0000-0001-8177-5075",
+     "isSelf": false
+    },
+    {
+     "name": "Timothy H. Parker",
+     "orcid": "https://orcid.org/0000-0003-2995-5284",
+     "isSelf": false
+    },
+    {
+     "name": "Yung En Chee",
+     "orcid": "https://orcid.org/0000-0002-8478-373X",
+     "isSelf": false
+    },
+    {
+     "name": "Antica Culina",
+     "orcid": "https://orcid.org/0000-0003-2910-8085",
+     "isSelf": false
+    },
+    {
+     "name": "Szymon M. Drobniak",
+     "orcid": "https://orcid.org/0000-0001-8101-6247",
+     "isSelf": false
+    },
+    {
+     "name": "David H. Duncan",
+     "orcid": "https://orcid.org/0000-0003-4411-8214",
+     "isSelf": false
+    },
+    {
+     "name": "Fiona Fidler",
+     "orcid": "https://orcid.org/0000-0002-2700-2562",
+     "isSelf": false
+    },
+    {
+     "name": "Elliot Gould",
+     "orcid": "https://orcid.org/0000-0002-6585-538X",
+     "isSelf": false
+    },
+    {
+     "name": "Malika Ihle",
+     "orcid": "https://orcid.org/0000-0002-3242-5981",
+     "isSelf": false
+    },
+    {
+     "name": "Clint D. Kelly",
+     "orcid": "https://orcid.org/0000-0002-0693-7211",
+     "isSelf": false
+    },
+    {
+     "name": "Malgorzata Lagisz",
+     "orcid": "https://orcid.org/0000-0002-3993-6127",
+     "isSelf": false
+    },
+    {
+     "name": "Dominique G. Roche",
+     "orcid": "https://orcid.org/0000-0002-3326-864X",
+     "isSelf": false
+    },
+    {
+     "name": "Alfredo Sánchez-Tójar",
+     "orcid": "https://orcid.org/0000-0002-2886-0649",
+     "isSelf": false
+    },
+    {
+     "name": "David P. Wilkinson",
+     "orcid": "https://orcid.org/0000-0002-9560-6499",
+     "isSelf": false
+    },
+    {
+     "name": "Bonnie C. Wintle",
+     "orcid": "https://orcid.org/0000-0003-0236-6906",
+     "isSelf": false
+    },
+    {
+     "name": "Shinichi Nakagawa",
+     "orcid": "https://orcid.org/0000-0002-7765-5182",
+     "isSelf": false
+    }
+   ],
+   "authorLine": "Rose E. O’Dea, Timothy H. Parker, Yung En Chee, Antica Culina, Szymon M. Drobniak, David H. Duncan, Fiona Fidler, Elliot Gould, Malika Ihle, Clint D. Kelly, Malgorzata Lagisz, Dominique G. Roche, Alfredo Sánchez-Tójar, David P. Wilkinson, Bonnie C. Wintle, Shinichi Nakagawa",
+   "journal": "BMC Biology",
+   "year": 2021,
+   "volume": "19",
+   "issue": "1",
+   "pages": "68",
+   "kind": "article",
+   "isOA": true,
+   "oaUrl": "https://bmcbiol.biomedcentral.com/track/pdf/10.1186/s12915-021-01006-3",
+   "url": "https://doi.org/10.1186/s12915-021-01006-3",
+   "citations": 73,
+   "abstract": "Unreliable research programmes waste funds, time, and even the lives of the organisms we seek to help and understand. Reducing this waste and increasing the value of scientific evidence require changing the actions of both individual researchers and the institutions they depend on for employment and promotion. While ecologists and evolutionary biologists have somewhat improved research transparency over the past decade (e.g. more data sharing), major obstacles remain. In this commentary, we lift our gaze to the horizon to imagine how researchers and institutions can clear the path towards more credible and effective research programmes.",
+   "preprintUrl": "https://doi.org/10.32942/x20400",
    "altmetric": null
   },
   {
