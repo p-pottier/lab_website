@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-27",
+ "updated": "2026-10-28",
  "publications": [
   {
    "id": "10.1093/conphys/coag006",
@@ -105,7 +105,7 @@
    "pages": "coag006",
    "kind": "article",
    "isOA": true,
-   "oaUrl": "https://doi.org/10.1093/conphys/coag006",
+   "oaUrl": "https://academic.oup.com/conphys/article-pdf/14/1/coag006/66982379/coag006.pdf",
    "url": "https://doi.org/10.1093/conphys/coag006",
    "citations": 7,
    "abstract": "Abstract Understanding how animals respond to environmental stressors across their life cycle is essential for predicting species' vulnerability to climate change. Here, we systematically reviewed the literature to quantify the variation in research effort on different life stages in the field of conservation physiology. Specifically, we reviewed experimental studies measuring physiological and life-history responses to climatic stressors across three representative scientific journals: Conservation Physiology, Journal of Thermal Biology and Journal of Experimental Biology. Our systematic map of 1276 studies revealed a pronounced underrepresentation of studies on embryos, representing only 8% to 9% of studies. This pattern was remarkably consistent across all axes considered (i.e. journals, taxonomic groups, physiological traits and environmental stressors). We also found that 80% of studies only investigated single life stages, and over 5% of studies did not clearly report the life stage(s) used. Despite the increasing recognition of the ecological importance and sensitivity of early life stages to environmental stressors, we found no evidence that research on embryos has gained traction over the past decade (2013–2024). We argue that these ontogenetic biases likely reflect a combination of historical precedents and enduring methodological and logistical constraints that continue to shape research agendas. To build a more holistic understanding across the life cycle, we: (i) call for a paradigm shift placing embryos at the center of experimental agendas, (ii) outline emerging methodological advances that increase the feasibility of research on early life stages, (iii) demonstrate how studies on embryos align with ethical considerations for animal research, (iv) highlight perspectives for future evidence syntheses and study reporting and (v) promote investigations of the mechanisms underlying physiological variation across ontogeny. Closing the ontogenetic gap will be key to improving our ability to predict population-level impacts of climate change and guiding more effective conservation and management interventions.",
@@ -3175,7 +3175,7 @@
    "isOA": true,
    "oaUrl": "https://doi.org/10.1038/s41586-025-08665-0",
    "url": "https://doi.org/10.1038/s41586-025-08665-0",
-   "citations": 79,
+   "citations": 80,
    "abstract": "Abstract Amphibians are the most threatened vertebrates, yet their resilience to rising temperatures remains poorly understood 1,2 . This is primarily because knowledge of thermal tolerance is taxonomically and geographically biased 3 , compromising global climate vulnerability assessments. Here we used a phylogenetically informed data-imputation approach to predict the heat tolerance of 60% of amphibian species and assessed their vulnerability to daily temperature variations in thermal refugia. We found that 104 out of 5,203 species (2%) are currently exposed to overheating events in shaded terrestrial conditions. Despite accounting for heat-tolerance plasticity, a 4 °C global temperature increase would create a step change in impact severity, pushing 7.5% of species beyond their physiological limits. In the Southern Hemisphere, tropical species encounter disproportionally more overheating events, while non-tropical species are more susceptible in the Northern Hemisphere. These findings challenge evidence for a general latitudinal gradient in overheating risk 4–6 and underscore the importance of considering climatic variability in vulnerability assessments. We provide conservative estimates assuming access to cool shaded microenvironments. Thus, the impacts of global warming will probably exceed our projections. Our microclimate-explicit analyses demonstrate that vegetation and water bodies are critical in buffering amphibians during heat waves. Immediate action is needed to preserve and manage these microhabitat features.",
    "preprintUrl": "https://doi.org/10.32942/x2t02t",
    "altmetric": null
@@ -3807,7 +3807,7 @@
    "pages": "20241487",
    "kind": "article",
    "isOA": true,
-   "oaUrl": "https://pure.knaw.nl/portal/en/publications/13dc11b8-5ad3-4c8b-9ccc-f452053c2e41",
+   "oaUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11775597/",
    "url": "https://doi.org/10.1098/rspb.2024.1487",
    "citations": 4,
    "abstract": "Publishing preprints is quickly becoming commonplace in ecology and evolutionary biology. Preprints can facilitate the rapid sharing of scientific knowledge establishing precedence and enabling feedback from the research community before peer review. Yet, significant barriers to preprint use exist, including language barriers, a lack of understanding about the benefits of preprints and a lack of diversity in the types of research outputs accepted (e.g. reports). Community-driven preprint initiatives can allow a research community to come together to break down these barriers to improve equity and coverage of global knowledge. Here, we explore the first preprints uploaded to EcoEvoRxiv ( n = 1216), a community-driven preprint server for ecologists and evolutionary biologists, to characterize preprint use in ecology, evolution and conservation. Our perspective piece highlights some of the unique initiatives that EcoEvoRxiv has taken to break down barriers to scientific publishing by exploring the composition of articles, how gender and career stage influence preprint use, whether preprints are associated with greater open science practices (e.g. code and data sharing) and tracking preprint publication outcomes. Our analysis identifies areas that we still need to improve upon but highlights how community-driven initiatives, such as EcoEvoRxiv , can play a crucial role in shaping publishing practices in biology.",

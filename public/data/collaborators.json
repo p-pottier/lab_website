@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-27",
+ "updated": "2026-10-28",
  "total": 729,
  "countries": 59,
  "institutions": 267,
@@ -1556,7 +1556,7 @@
    "institution": "Federal University Dutse",
    "city": "Dutse",
    "country": "Nigeria",
-   "countryCode": null,
+   "countryCode": "NG",
    "lat": 11.756179809570312,
    "lon": 9.338959693908691
   },
@@ -2921,7 +2921,7 @@
    "institution": "Andorra Recerca + Innovació",
    "city": "Sant Julià de Lòria",
    "country": "Andorra",
-   "countryCode": null,
+   "countryCode": "AD",
    "lat": 42.46371841430664,
    "lon": 1.4912899732589722
   },
@@ -4995,7 +4995,7 @@
   {
    "name": "Jelaine L. Gan",
    "orcid": "https://orcid.org/0000-0002-2472-8990",
-   "openalex": null,
+   "openalex": "https://openalex.org/A5029441705",
    "works": 1,
    "lastYear": 2026,
    "institution": "Newcastle University",
@@ -6249,7 +6249,7 @@
    "institution": "Max Planck Institute for Biological Intelligence",
    "city": "Martinsried",
    "country": "Germany",
-   "countryCode": null,
+   "countryCode": "DE",
    "lat": 48.10731887817383,
    "lon": 11.451959609985352
   },
@@ -7731,7 +7731,7 @@
    "institution": "Max Planck Institute for Biological Intelligence",
    "city": "Martinsried",
    "country": "Germany",
-   "countryCode": null,
+   "countryCode": "DE",
    "lat": 48.10731887817383,
    "lon": 11.451959609985352
   },
@@ -8082,7 +8082,7 @@
    "institution": "Andorra Recerca + Innovació",
    "city": "Sant Julià de Lòria",
    "country": "Andorra",
-   "countryCode": null,
+   "countryCode": "AD",
    "lat": 42.46371841430664,
    "lon": 1.4912899732589722
   },
@@ -9317,7 +9317,7 @@
    "institution": "Max Planck Institute for Biological Intelligence",
    "city": "Martinsried",
    "country": "Germany",
-   "countryCode": null,
+   "countryCode": "DE",
    "lat": 48.10731887817383,
    "lon": 11.451959609985352
   },
