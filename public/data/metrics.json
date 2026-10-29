@@ -1,12 +1,12 @@
 {
- "updated": "2026-10-28",
+ "updated": "2026-10-29",
  "sources": [
   "ORCID",
   "Crossref",
   "OpenAlex"
  ],
  "orcid": "0000-0003-2106-6597",
- "citations": 1737,
+ "citations": 1740,
  "hIndex": 22,
  "i10Index": 28,
  "works": 49,
@@ -42,7 +42,7 @@
   },
   {
    "year": 2026,
-   "cited_by_count": 505
+   "cited_by_count": 507
   }
  ]
 }

@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-28",
+ "updated": "2026-10-29",
  "total": 729,
  "countries": 59,
  "institutions": 267,
@@ -666,7 +666,7 @@
   {
    "name": "Chloe Hart",
    "orcid": null,
-   "openalex": null,
+   "openalex": "https://openalex.org/A5159752268",
    "works": 2,
    "lastYear": 2026,
    "institution": "The University of Sydney",
@@ -3719,19 +3719,6 @@
    "lon": -71.10561
   },
   {
-   "name": "Emily Lechner",
-   "orcid": null,
-   "openalex": null,
-   "works": 1,
-   "lastYear": 2026,
-   "institution": "University of Gothenburg",
-   "city": "Gothenburg",
-   "country": "Sweden",
-   "countryCode": "SE",
-   "lat": 57.70716,
-   "lon": 11.96679
-  },
-  {
    "name": "Emily M. Tompkins",
    "orcid": "https://orcid.org/0000-0002-1383-2039",
    "openalex": null,
@@ -3743,6 +3730,19 @@
    "countryCode": null,
    "lat": null,
    "lon": null
+  },
+  {
+   "name": "Emily R. Lechner",
+   "orcid": "https://orcid.org/0009-0006-1979-3436",
+   "openalex": "https://openalex.org/A5093305277",
+   "works": 1,
+   "lastYear": 2026,
+   "institution": "University of Gothenburg",
+   "city": "Gothenburg",
+   "country": "Sweden",
+   "countryCode": "SE",
+   "lat": 57.70716,
+   "lon": 11.96679
   },
   {
    "name": "Emily S. Choy",
