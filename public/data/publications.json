@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-30",
+ "updated": "2026-10-31",
  "publications": [
   {
    "id": "10.1093/conphys/coag006",
@@ -5922,7 +5922,7 @@
    "isOA": true,
    "oaUrl": "https://journals.biologists.com/jeb/article-pdf/225/Suppl_1/jeb243225/2135035/jeb243225.pdf",
    "url": "https://doi.org/10.1242/jeb.243225",
-   "citations": 47,
+   "citations": 48,
    "abstract": "Meta-analysis is a powerful tool used to generate quantitatively informed answers to pressing global challenges. By distilling data from broad sets of research designs and study systems into standardised effect sizes, meta-analyses provide physiologists with opportunities to estimate overall effect sizes and understand the drivers of effect variability. Despite this ambition, research designs in the field of comparative physiology can appear, at the outset, as being vastly different to each other because of 'nuisance heterogeneity' (e.g. different temperatures or treatment dosages used across studies). Methodological differences across studies have led many to believe that meta-analysis is an exercise in comparing 'apples with oranges'. Here, we dispel this myth by showing how standardised effect sizes can be used in conjunction with multilevel meta-regression models to both account for the factors driving differences across studies and make them more comparable. We assess the prevalence of nuisance heterogeneity in the comparative physiology literature - showing it is common and often not accounted for in analyses. We then formalise effect size measures (e.g. the temperature coefficient, Q10) that provide comparative physiologists with a means to remove nuisance heterogeneity without the need to resort to more complex statistical models that may be harder to interpret. We also describe more general approaches that can be applied to a variety of different contexts to derive new effect sizes and sampling variances, opening up new possibilities for quantitative synthesis. By using effect sizes that account for components of effect heterogeneity, in combination with existing meta-analytic models, comparative physiologists can explore exciting new questions while making results from large-scale data sets more accessible, comparable and widely interpretable.",
    "preprintUrl": null,
    "altmetric": null
