@@ -1,117 +1,6 @@
 {
- "updated": "2026-11-04",
+ "updated": "2026-11-05",
  "publications": [
-  {
-   "id": "10.1093/conphys/coag006",
-   "doi": "10.1093/conphys/coag006",
-   "title": "Embryos are largely understudied in a representative sample of journals in conservation physiology",
-   "authors": [
-    {
-     "name": "Patrice Pottier",
-     "orcid": "https://orcid.org/0000-0003-2106-6597",
-     "isSelf": true
-    },
-    {
-     "name": "Nicholas C Wu",
-     "orcid": "https://orcid.org/0000-0002-7130-1279",
-     "isSelf": false
-    },
-    {
-     "name": "Madison L Earhart",
-     "orcid": "https://orcid.org/0000-0002-8280-7857",
-     "isSelf": false
-    },
-    {
-     "name": "Malgorzata Lagisz",
-     "orcid": "https://orcid.org/0000-0002-3993-6127",
-     "isSelf": false
-    },
-    {
-     "name": "Katharina Alter",
-     "orcid": "https://orcid.org/0000-0002-1801-748X",
-     "isSelf": false
-    },
-    {
-     "name": "Rafael Angelakopoulos",
-     "orcid": "https://orcid.org/0000-0002-2354-2019",
-     "isSelf": false
-    },
-    {
-     "name": "Avishikta Chakraborty",
-     "orcid": "https://orcid.org/0000-0001-9053-8522",
-     "isSelf": false
-    },
-    {
-     "name": "Zara-Louise Cowan",
-     "orcid": "https://orcid.org/0000-0002-3862-7111",
-     "isSelf": false
-    },
-    {
-     "name": "Shaun S Killen",
-     "orcid": "https://orcid.org/0000-0003-4949-3988",
-     "isSelf": false
-    },
-    {
-     "name": "Jamie C S McCoy",
-     "orcid": "https://orcid.org/0000-0002-3238-9781",
-     "isSelf": false
-    },
-    {
-     "name": "Estefany Caroline Guevara-Molina",
-     "orcid": "https://orcid.org/0009-0000-9869-9347",
-     "isSelf": false
-    },
-    {
-     "name": "Marta Moyano",
-     "orcid": "https://orcid.org/0000-0002-3026-9225",
-     "isSelf": false
-    },
-    {
-     "name": "Amanda K Pettersen",
-     "orcid": "https://orcid.org/0000-0001-6191-6563",
-     "isSelf": false
-    },
-    {
-     "name": "Luca Pettinau",
-     "orcid": "https://orcid.org/0000-0001-6597-9908",
-     "isSelf": false
-    },
-    {
-     "name": "Daniel M Ripley",
-     "orcid": "https://orcid.org/0000-0001-5912-6722",
-     "isSelf": false
-    },
-    {
-     "name": "Bao-Jun Sun",
-     "orcid": "https://orcid.org/0000-0002-7318-6059",
-     "isSelf": false
-    },
-    {
-     "name": "Ramakrishnan Vasudeva",
-     "orcid": "https://orcid.org/0000-0002-3831-0384",
-     "isSelf": false
-    },
-    {
-     "name": "Katharina Ruthsatz",
-     "orcid": "https://orcid.org/0000-0002-3273-2826",
-     "isSelf": false
-    }
-   ],
-   "authorLine": "Patrice Pottier, Nicholas C Wu, Madison L Earhart, Malgorzata Lagisz, Katharina Alter, Rafael Angelakopoulos, Avishikta Chakraborty, Zara-Louise Cowan, Shaun S Killen, Jamie C S McCoy, Estefany Caroline Guevara-Molina, Marta Moyano, Amanda K Pettersen, Luca Pettinau, Daniel M Ripley, Bao-Jun Sun, Ramakrishnan Vasudeva, Katharina Ruthsatz",
-   "journal": "Conservation Physiology",
-   "year": 2026,
-   "volume": "14",
-   "issue": "1",
-   "pages": "coag006",
-   "kind": "article",
-   "isOA": true,
-   "oaUrl": "https://academic.oup.com/conphys/article-pdf/14/1/coag006/66982379/coag006.pdf",
-   "url": "https://doi.org/10.1093/conphys/coag006",
-   "citations": 7,
-   "abstract": "Abstract Understanding how animals respond to environmental stressors across their life cycle is essential for predicting species' vulnerability to climate change. Here, we systematically reviewed the literature to quantify the variation in research effort on different life stages in the field of conservation physiology. Specifically, we reviewed experimental studies measuring physiological and life-history responses to climatic stressors across three representative scientific journals: Conservation Physiology, Journal of Thermal Biology and Journal of Experimental Biology. Our systematic map of 1276 studies revealed a pronounced underrepresentation of studies on embryos, representing only 8% to 9% of studies. This pattern was remarkably consistent across all axes considered (i.e. journals, taxonomic groups, physiological traits and environmental stressors). We also found that 80% of studies only investigated single life stages, and over 5% of studies did not clearly report the life stage(s) used. Despite the increasing recognition of the ecological importance and sensitivity of early life stages to environmental stressors, we found no evidence that research on embryos has gained traction over the past decade (2013–2024). We argue that these ontogenetic biases likely reflect a combination of historical precedents and enduring methodological and logistical constraints that continue to shape research agendas. To build a more holistic understanding across the life cycle, we: (i) call for a paradigm shift placing embryos at the center of experimental agendas, (ii) outline emerging methodological advances that increase the feasibility of research on early life stages, (iii) demonstrate how studies on embryos align with ethical considerations for animal research, (iv) highlight perspectives for future evidence syntheses and study reporting and (v) promote investigations of the mechanisms underlying physiological variation across ontogeny. Closing the ontogenetic gap will be key to improving our ability to predict population-level impacts of climate change and guiding more effective conservation and management interventions.",
-   "preprintUrl": "https://doi.org/10.32942/x2kp96",
-   "altmetric": null
-  },
   {
    "id": "10.1038/s41559-026-03117-y",
    "doi": "10.1038/s41559-026-03117-y",
@@ -603,9 +492,120 @@
    "isOA": true,
    "oaUrl": "https://www.nature.com/articles/s41559-026-03117-y.pdf",
    "url": "https://doi.org/10.1038/s41559-026-03117-y",
-   "citations": 6,
+   "citations": 8,
    "abstract": "Global changes are leading to widespread species redistribution. Comprehensive assessments of range shift dynamics and their drivers are difficult, partly due to the variation in range shift detection over space and taxa. Here we compile documented range shift records for 1,758 butterfly species from 105 countries and territories, representing ~10% of the known diversity of these insects. Most species (80%) experienced range expansions, and most range shifts (79%) were associated with climate change and extreme weather events. A substantial proportion of species in our dataset contracted their ranges (27%) or shifted along elevational gradients (22%). We report widespread horizontal range expansions and contractions across tropical countries, with less evidence for elevational range shifts. We show that a clearer picture of range shift dynamics emerged only through the combination of different types of data, with expert assessments and non-English studies alleviating potential biases. Our findings of climate-driven range shifts call for concerted efforts to improve inclusive data monitoring and conservation efforts, especially for tropical countries, where human-induced land-use changes exert additional critical pressure.",
    "preprintUrl": null,
+   "altmetric": null
+  },
+  {
+   "id": "10.1093/conphys/coag006",
+   "doi": "10.1093/conphys/coag006",
+   "title": "Embryos are largely understudied in a representative sample of journals in conservation physiology",
+   "authors": [
+    {
+     "name": "Patrice Pottier",
+     "orcid": "https://orcid.org/0000-0003-2106-6597",
+     "isSelf": true
+    },
+    {
+     "name": "Nicholas C Wu",
+     "orcid": "https://orcid.org/0000-0002-7130-1279",
+     "isSelf": false
+    },
+    {
+     "name": "Madison L Earhart",
+     "orcid": "https://orcid.org/0000-0002-8280-7857",
+     "isSelf": false
+    },
+    {
+     "name": "Malgorzata Lagisz",
+     "orcid": "https://orcid.org/0000-0002-3993-6127",
+     "isSelf": false
+    },
+    {
+     "name": "Katharina Alter",
+     "orcid": "https://orcid.org/0000-0002-1801-748X",
+     "isSelf": false
+    },
+    {
+     "name": "Rafael Angelakopoulos",
+     "orcid": "https://orcid.org/0000-0002-2354-2019",
+     "isSelf": false
+    },
+    {
+     "name": "Avishikta Chakraborty",
+     "orcid": "https://orcid.org/0000-0001-9053-8522",
+     "isSelf": false
+    },
+    {
+     "name": "Zara-Louise Cowan",
+     "orcid": "https://orcid.org/0000-0002-3862-7111",
+     "isSelf": false
+    },
+    {
+     "name": "Shaun S Killen",
+     "orcid": "https://orcid.org/0000-0003-4949-3988",
+     "isSelf": false
+    },
+    {
+     "name": "Jamie C S McCoy",
+     "orcid": "https://orcid.org/0000-0002-3238-9781",
+     "isSelf": false
+    },
+    {
+     "name": "Estefany Caroline Guevara-Molina",
+     "orcid": "https://orcid.org/0009-0000-9869-9347",
+     "isSelf": false
+    },
+    {
+     "name": "Marta Moyano",
+     "orcid": "https://orcid.org/0000-0002-3026-9225",
+     "isSelf": false
+    },
+    {
+     "name": "Amanda K Pettersen",
+     "orcid": "https://orcid.org/0000-0001-6191-6563",
+     "isSelf": false
+    },
+    {
+     "name": "Luca Pettinau",
+     "orcid": "https://orcid.org/0000-0001-6597-9908",
+     "isSelf": false
+    },
+    {
+     "name": "Daniel M Ripley",
+     "orcid": "https://orcid.org/0000-0001-5912-6722",
+     "isSelf": false
+    },
+    {
+     "name": "Bao-Jun Sun",
+     "orcid": "https://orcid.org/0000-0002-7318-6059",
+     "isSelf": false
+    },
+    {
+     "name": "Ramakrishnan Vasudeva",
+     "orcid": "https://orcid.org/0000-0002-3831-0384",
+     "isSelf": false
+    },
+    {
+     "name": "Katharina Ruthsatz",
+     "orcid": "https://orcid.org/0000-0002-3273-2826",
+     "isSelf": false
+    }
+   ],
+   "authorLine": "Patrice Pottier, Nicholas C Wu, Madison L Earhart, Malgorzata Lagisz, Katharina Alter, Rafael Angelakopoulos, Avishikta Chakraborty, Zara-Louise Cowan, Shaun S Killen, Jamie C S McCoy, Estefany Caroline Guevara-Molina, Marta Moyano, Amanda K Pettersen, Luca Pettinau, Daniel M Ripley, Bao-Jun Sun, Ramakrishnan Vasudeva, Katharina Ruthsatz",
+   "journal": "Conservation Physiology",
+   "year": 2026,
+   "volume": "14",
+   "issue": "1",
+   "pages": "coag006",
+   "kind": "article",
+   "isOA": true,
+   "oaUrl": "https://academic.oup.com/conphys/article-pdf/14/1/coag006/66982379/coag006.pdf",
+   "url": "https://doi.org/10.1093/conphys/coag006",
+   "citations": 6,
+   "abstract": "Abstract Understanding how animals respond to environmental stressors across their life cycle is essential for predicting species' vulnerability to climate change. Here, we systematically reviewed the literature to quantify the variation in research effort on different life stages in the field of conservation physiology. Specifically, we reviewed experimental studies measuring physiological and life-history responses to climatic stressors across three representative scientific journals: Conservation Physiology, Journal of Thermal Biology and Journal of Experimental Biology. Our systematic map of 1276 studies revealed a pronounced underrepresentation of studies on embryos, representing only 8% to 9% of studies. This pattern was remarkably consistent across all axes considered (i.e. journals, taxonomic groups, physiological traits and environmental stressors). We also found that 80% of studies only investigated single life stages, and over 5% of studies did not clearly report the life stage(s) used. Despite the increasing recognition of the ecological importance and sensitivity of early life stages to environmental stressors, we found no evidence that research on embryos has gained traction over the past decade (2013–2024). We argue that these ontogenetic biases likely reflect a combination of historical precedents and enduring methodological and logistical constraints that continue to shape research agendas. To build a more holistic understanding across the life cycle, we: (i) call for a paradigm shift placing embryos at the center of experimental agendas, (ii) outline emerging methodological advances that increase the feasibility of research on early life stages, (iii) demonstrate how studies on embryos align with ethical considerations for animal research, (iv) highlight perspectives for future evidence syntheses and study reporting and (v) promote investigations of the mechanisms underlying physiological variation across ontogeny. Closing the ontogenetic gap will be key to improving our ability to predict population-level impacts of climate change and guiding more effective conservation and management interventions.",
+   "preprintUrl": "https://doi.org/10.32942/x2kp96",
    "altmetric": null
   },
   {
@@ -656,7 +656,7 @@
    "url": "https://doi.org/10.1016/j.cois.2026.101523",
    "citations": 6,
    "abstract": "Accumulating evidence suggests that heat tolerance varies substantially across insect development, yet patterns of variation remain difficult to generalise across species. We discuss how the diversity of insect developmental strategies shapes both the intensity and predictability of thermal environments across ontogeny, and how this likely generates variation in heat tolerance, plasticity and carry-over effects. We hypothesise that large developmental variation is expected in holometabolous insects and in species undergoing pronounced microhabitat or diel activity transitions. These transitions can modify heat exposure, behavioural thermoregulatory abilities and the physiological or genetic regulatory network underlying heat tolerance, weakening correlations among life stages. We discuss when carry-over effects are likely to be adaptive, highlighting the importance of environmental predictability, ecological similarity among stages and the balance between heat injury and repair. We argue that an ontogenetic perspective capturing the microenvironmental conditions experienced by each life stage is essential for predicting insect vulnerability to extreme heat.",
-   "preprintUrl": "https://doi.org/10.32942/x2936q",
+   "preprintUrl": null,
    "altmetric": null
   },
   {
@@ -923,8 +923,8 @@
    "issue": null,
    "pages": null,
    "kind": "article",
-   "isOA": false,
-   "oaUrl": null,
+   "isOA": true,
+   "oaUrl": "https://doi.org/10.64898/2026.02.25.707770",
    "url": "https://doi.org/10.1093/icb/icag045",
    "citations": 4,
    "abstract": "A defining feature of climate change is the increasing frequency, intensity, and severity of extreme weather events. Among them, extreme heat is recognized as a critical driver of ecological and evolutionary change. Intense heat episodes can exceed physiological limits, alter animal movement, restructure geographic ranges, and increase extinction risk more than gradual changes to mean temperatures. Yet links between extreme heat events and organismal biology remain limited, in part because definitions and metrics are not standardized, and user-friendly workflows and guides are lacking for many biologists. We present a methodological roadmap, with reproducible code, for integrating extreme heat into studies of behavior, physiology, biophysical ecology, species distribution models (SDMs), and population dynamics. First, we provide standardized computational approaches to define and quantify extreme heat. Second, we fit SDMs for California quail (Callipepla californica) that include an extreme heat metric and showcase improved predictions of habitat suitability, particularly at range edges. Third, we compute biophysical simulations to quantify exposure to thermal stress in sleepy lizards (Tiliqua rugosa) across distinct macro- and microclimates. Finally, accounting for temporal autocorrelation in temperature profiles in population simulation models, we show that clustered heat extremes-missed by averages-can increase the risk of population collapse. As extreme heat events become more common, incorporating their dynamics is essential for understanding ecological and evolutionary change, designing experiments across species' geographic ranges, and supporting conservation in a rapidly warming world. Together, these case studies illustrate a reproducible, organism-informed roadmap to integrate extreme heat into predictions of ecological impacts and inference across levels of biological organization under ongoing climate change.",
@@ -1037,8 +1037,49 @@
    "isOA": true,
    "oaUrl": "https://doi.org/10.1111/1365-2656.70332",
    "url": "https://doi.org/10.1111/1365-2656.70332",
-   "citations": 0,
+   "citations": 1,
    "abstract": "Abstract Marine heatwaves are increasing in frequency and intensity worldwide and represent a growing threat to coastal ecosystems and the animals inhabiting them. The vulnerability of marine species to these events depends on several factors, including upper thermal tolerance, the thermal sensitivity of physiological performance, and the capacity for rapid physiological acclimation. We examined upper thermal tolerance and short‐term acclimation capacity in 10 mobile macroinvertebrate species inhabiting shallow coastal ecosystems in the Northeast Atlantic. Individuals were exposed either to ambient thermal conditions at 15°C or to a simulated short‐term marine heatwave of 5 days at 5°C above ambient temperature. We then measured critical thermal maxima (CT max ) to quantify thermal limits and acclimation responses. Across species, CT max increased significantly following heatwave exposure, showing that these coastal invertebrates can undergo rapid physiological adjustment. However, the magnitude of the acclimation response was modest, indicating that short‐term plasticity provides only limited protection against acute thermal extremes. These limited acclimation responses suggest that some coastal invertebrates may remain vulnerable to intensifying marine heatwaves, particularly taxa with narrow thermal safety margins. Our findings provide an ecologically relevant assessment of thermal performance in coastal invertebrates and contribute to predictions of how nearshore communities may respond to accelerating ocean warming.",
+   "preprintUrl": null,
+   "altmetric": null
+  },
+  {
+   "id": "10.64898/2026.07.16.738378",
+   "doi": "10.64898/2026.07.16.738378",
+   "title": "A flexible modelling framework for estimating thermal tolerance and sensitivity",
+   "authors": [
+    {
+     "name": "Daniel W.A. Noble",
+     "orcid": "https://orcid.org/0000-0001-9460-8743",
+     "isSelf": false
+    },
+    {
+     "name": "Pieter A. Arnold",
+     "orcid": "https://orcid.org/0000-0002-6158-7752",
+     "isSelf": false
+    },
+    {
+     "name": "Shinichi Nakagawa",
+     "orcid": "https://orcid.org/0000-0002-7765-5182",
+     "isSelf": false
+    },
+    {
+     "name": "Patrice Pottier",
+     "orcid": "https://orcid.org/0000-0003-2106-6597",
+     "isSelf": true
+    }
+   ],
+   "authorLine": "Daniel W.A. Noble, Pieter A. Arnold, Shinichi Nakagawa, Patrice Pottier",
+   "journal": "bioRxiv (Cold Spring Harbor Laboratory)",
+   "year": 2026,
+   "volume": null,
+   "issue": null,
+   "pages": null,
+   "kind": "preprint",
+   "isOA": true,
+   "oaUrl": "https://www.biorxiv.org/content/biorxiv/early/2026/07/17/2026.07.16.738378.full.pdf",
+   "url": "https://doi.org/10.64898/2026.07.16.738378",
+   "citations": 1,
+   "abstract": "Abstract Extreme heat events are becoming more frequent, intense and prolonged, making it urgent to predict how heat intensity and exposure duration combine to threaten organisms. Thermal death time (TDT) and thermal load sensitivity (TLS) models provide this link, but conventional two-stage analyses often discard uncertainty, mishandle censored or overdispersed data and limit inference. Here, we show how the four-parameter log-logistic model can recover TDT/TLS quantities, including thermal tolerance ( CT max ), sensitivity ( z ), critical temperature ( T crit ), heat injury and survival, from one model. Simulations show the joint model reproduces classical estimates when two-stage assumptions hold and is more reliable when they fail. We introduce these workflows as Bayesian and frequentist R packages. Case studies across plant and animal taxa demonstrate this modelling framework can estimate group contrasts and predict survival from realistic field temperature-time series. This framework provides more robust inference and flexible tools for predicting organismal responses to extreme heat events.",
    "preprintUrl": null,
    "altmetric": null
   },
@@ -1166,47 +1207,6 @@
    "url": "https://doi.org/10.32942/x27h4g",
    "citations": 0,
    "abstract": "Genetic variance forms the basis for evolutionary inferences as it describes the evolutionary potential of traits. The major limitation of quantitative genetic studies is achieving sufficient power and sample sizes to estimate heritabilities with sufficient precision. This issue is especially important in the case of traits that are inherently susceptible to stochastic, nonbiological variation. Behavioural traits have long been associated with this group, often yielding quantitative estimates of genetic parameters that are subject to broad estimation errors, thereby hampering the discovery of genetic variation underlying such characters. Here, we used a well-established panel of inbred genetic lines of the fruit fly, Drosophila melanogaster, to estimate relevant genetic parameters in a range of behavioural traits associated with mobility and exploration. Using a high-throughput phenotyping approach and automated scoring of large numbers of individual animals, we provide precise estimates of the quantitative genetic background behind some basic characters associated with animal behaviour. Fruit flies turn out to harbour significant genetic variance in traits directly associated with mobility and substantially lower heritabilities of traits describing the temporal variability of Y-maze movements. Mobility traits also appeared to be only moderately genetically correlated, except for movement distance vs. variability traits, where we estimated strongly negative genetic correlations. In general, our results demonstrate the existence of evolutionary potential in behavioural trait proxies measured by high-throughput methods, additionally hinting at the potential for sex-specific effects. They also emphasise the growing importance of high-throughput phenotyping in modern behavioural biology and ecology.",
-   "preprintUrl": null,
-   "altmetric": null
-  },
-  {
-   "id": "10.64898/2026.07.16.738378",
-   "doi": "10.64898/2026.07.16.738378",
-   "title": "A flexible modelling framework for estimating thermal tolerance and sensitivity",
-   "authors": [
-    {
-     "name": "Daniel W.A. Noble",
-     "orcid": "https://orcid.org/0000-0001-9460-8743",
-     "isSelf": false
-    },
-    {
-     "name": "Pieter A. Arnold",
-     "orcid": "https://orcid.org/0000-0002-6158-7752",
-     "isSelf": false
-    },
-    {
-     "name": "Shinichi Nakagawa",
-     "orcid": "https://orcid.org/0000-0002-7765-5182",
-     "isSelf": false
-    },
-    {
-     "name": "Patrice Pottier",
-     "orcid": "https://orcid.org/0000-0003-2106-6597",
-     "isSelf": true
-    }
-   ],
-   "authorLine": "Daniel W.A. Noble, Pieter A. Arnold, Shinichi Nakagawa, Patrice Pottier",
-   "journal": "bioRxiv (Cold Spring Harbor Laboratory)",
-   "year": 2026,
-   "volume": null,
-   "issue": null,
-   "pages": null,
-   "kind": "preprint",
-   "isOA": true,
-   "oaUrl": "https://www.biorxiv.org/content/biorxiv/early/2026/07/17/2026.07.16.738378.full.pdf",
-   "url": "https://doi.org/10.64898/2026.07.16.738378",
-   "citations": 0,
-   "abstract": "Abstract Extreme heat events are becoming more frequent, intense and prolonged, making it urgent to predict how heat intensity and exposure duration combine to threaten organisms. Thermal death time (TDT) and thermal load sensitivity (TLS) models provide this link, but conventional two-stage analyses often discard uncertainty, mishandle censored or overdispersed data and limit inference. Here, we show how the four-parameter log-logistic model can recover TDT/TLS quantities, including thermal tolerance ( CT max ), sensitivity ( z ), critical temperature ( T crit ), heat injury and survival, from one model. Simulations show the joint model reproduces classical estimates when two-stage assumptions hold and is more reliable when they fail. We introduce these workflows as Bayesian and frequentist R packages. Case studies across plant and animal taxa demonstrate this modelling framework can estimate group contrasts and predict survival from realistic field temperature-time series. This framework provides more robust inference and flexible tools for predicting organismal responses to extreme heat events.",
    "preprintUrl": null,
    "altmetric": null
   },
@@ -3104,7 +3104,7 @@
    "isOA": true,
    "oaUrl": "https://link.springer.com/content/pdf/10.1186/s12915-024-02101-x.pdf",
    "url": "https://doi.org/10.1186/s12915-024-02101-x",
-   "citations": 97,
+   "citations": 110,
    "abstract": "Although variation in effect sizes and predicted values among studies of similar phenomena is inevitable, such variation far exceeds what might be produced by sampling error alone. One possible explanation for variation among results is differences among researchers in the decisions they make regarding statistical analyses. A growing array of studies has explored this analytical variability in different fields and has found substantial variability among results despite analysts having the same data and research question. Many of these studies have been in the social sciences, but one small \"many analyst\" study found similar variability in ecology. We expanded the scope of this prior work by implementing a large-scale empirical exploration of the variation in effect sizes and model predictions generated by the analytical decisions of different researchers in ecology and evolutionary biology. We used two unpublished datasets, one from evolutionary ecology (blue tit, Cyanistes caeruleus, to compare sibling number and nestling growth) and one from conservation ecology (Eucalyptus, to compare grass cover and tree seedling recruitment). The project leaders recruited 174 analyst teams, comprising 246 analysts, to investigate the answers to prespecified research questions. Analyses conducted by these teams yielded 141 usable effects (compatible with our meta-analyses and with all necessary information provided) for the blue tit dataset, and 85 usable effects for the Eucalyptus dataset. We found substantial heterogeneity among results for both datasets, although the patterns of variation differed between them. For the blue tit analyses, the average effect was convincingly negative, with less growth for nestlings living with more siblings, but there was near continuous variation in effect size from large negative effects to effects near zero, and even effects crossing the traditional threshold of statistical significance in the opposite direction. In contrast, the average relationship between grass cover and Eucalyptus seedling number was only slightly negative and not convincingly different from zero, and most effects ranged from weakly negative to weakly positive, with about a third of effects crossing the traditional threshold of significance in one direction or the other. However, there were also several striking outliers in the Eucalyptus dataset, with effects far from zero. For both datasets, we found substantial variation in the variable selection and random effects structures among analyses, as well as in the ratings of the analytical methods by peer reviewers, but we found no strong relationship between any of these and deviation from the meta-analytic mean. In other words, analyses with results that were far from the mean were no more or less likely to have dissimilar variable sets, use random effects in their models, or receive poor peer reviews than those analyses that found results that were close to the mean. The existence of substantial variability among analysis outcomes raises important questions about how ecologists and evolutionary biologists should interpret published results, and how they should conduct analyses in the future.",
    "preprintUrl": "https://doi.org/10.32942/x2gg62",
    "altmetric": null
@@ -3175,7 +3175,7 @@
    "isOA": true,
    "oaUrl": "https://doi.org/10.1038/s41586-025-08665-0",
    "url": "https://doi.org/10.1038/s41586-025-08665-0",
-   "citations": 81,
+   "citations": 91,
    "abstract": "Abstract Amphibians are the most threatened vertebrates, yet their resilience to rising temperatures remains poorly understood 1,2 . This is primarily because knowledge of thermal tolerance is taxonomically and geographically biased 3 , compromising global climate vulnerability assessments. Here we used a phylogenetically informed data-imputation approach to predict the heat tolerance of 60% of amphibian species and assessed their vulnerability to daily temperature variations in thermal refugia. We found that 104 out of 5,203 species (2%) are currently exposed to overheating events in shaded terrestrial conditions. Despite accounting for heat-tolerance plasticity, a 4 °C global temperature increase would create a step change in impact severity, pushing 7.5% of species beyond their physiological limits. In the Southern Hemisphere, tropical species encounter disproportionally more overheating events, while non-tropical species are more susceptible in the Northern Hemisphere. These findings challenge evidence for a general latitudinal gradient in overheating risk 4–6 and underscore the importance of considering climatic variability in vulnerability assessments. We provide conservative estimates assuming access to cool shaded microenvironments. Thus, the impacts of global warming will probably exceed our projections. Our microclimate-explicit analyses demonstrate that vegetation and water bodies are critical in buffering amphibians during heat waves. Immediate action is needed to preserve and manage these microhabitat features.",
    "preprintUrl": "https://doi.org/10.32942/x2t02t",
    "altmetric": null
@@ -3252,215 +3252,8 @@
    "oaUrl": "https://doi.org/10.1038/s41467-025-65746-4",
    "url": "https://doi.org/10.1038/s41467-025-65746-4",
    "citations": 43,
-   "abstract": "Per- and polyfluoroalkyl substances (PFAS) threaten ecosystems worldwide due to their persistence, bioaccumulation, and toxicity. Through a global-scale meta-analysis of 119 aquatic and terrestrial food webs from 64 studies, we analyse 1009 trophic magnification factors (TMFs) for 72 PFAS and identify key variability drivers. On average, PFAS concentrations double with each trophic level increase (mean TMF = 2.00, 95% CI:1.64-2.45), though magnification varies considerably by compound. Notably, the industrial alternative F-53B exhibits the highest magnification (TMF = 3.07, 95% CI:2.41-3.92), a critical finding given its expanding use and minimal regulatory scrutiny. Methodological disparities across studies emerge as the dominant source of TMF variability. Our models explain 85% of the variation in TMFs, underscoring predictive capacity. This synthesis establishes PFAS as persistent trophic multipliers and provides a framework to prioritise high-risk compounds and harmonise biomagnification assessments. Our results call for consideration of stricter PFAS regulation to curb cascading ecological and health impacts. PFAS are “forever chemicals” that build up in living things and can move through food webs. This study shows their levels roughly double with each step up the food chain, highlighting widespread chemical magnification in nature.",
+   "abstract": "Per- and polyfluoroalkyl substances (PFAS) threaten ecosystems worldwide due to their persistence, bioaccumulation, and toxicity. Through a global-scale meta-analysis of 122 aquatic and terrestrial food webs from 64 studies, we analyse 1,009 trophic magnification factors (TMFs) for 72 PFAS and identify key variability drivers. PFAS concentrations systematically doubled with each trophic level increase (mean TMF=2.00, 95% CI:1.64-2.45), confirming widespread biomagnification across ecosystems. Methodological disparities across studies emerged as the dominant source of TMF variability. Our models explained 84% of the variation in TMFs, underscoring predictive capacity. Notably, the industrial alternative F-53B exhibited the highest magnification (TMF=3.07, 95% CI:2.41-3.92), a critical finding given its expanding use and minimal regulatory scrutiny. This synthesis establishes PFAS as persistent trophic multipliers and provides a framework to prioritise high-risk compounds and harmonise biomagnification assessments. Our results call for consideration of stricter PFAS regulation to curb cascading ecological and health impacts.",
    "preprintUrl": "https://doi.org/10.32942/x2sp92",
-   "altmetric": null
-  },
-  {
-   "id": "10.1098/rsos.250759",
-   "doi": "10.1098/rsos.250759",
-   "title": "Harnessing meta-analyses’ insights in ecology and evolution research",
-   "authors": [
-    {
-     "name": "Pietro Pollo",
-     "orcid": "https://orcid.org/0000-0001-6555-5400",
-     "isSelf": false
-    },
-    {
-     "name": "April Robin Martinig",
-     "orcid": "https://orcid.org/0000-0002-0972-6903",
-     "isSelf": false
-    },
-    {
-     "name": "Ayumi Mizuno",
-     "orcid": "https://orcid.org/0000-0003-0822-5637",
-     "isSelf": false
-    },
-    {
-     "name": "Kyle Morrison",
-     "orcid": "https://orcid.org/0000-0002-3700-2398",
-     "isSelf": false
-    },
-    {
-     "name": "Patrice Pottier",
-     "orcid": "https://orcid.org/0000-0003-2106-6597",
-     "isSelf": true
-    },
-    {
-     "name": "Lorenzo Ricolfi",
-     "orcid": "https://orcid.org/0000-0001-7101-3309",
-     "isSelf": false
-    },
-    {
-     "name": "Jesse Tam",
-     "orcid": "https://orcid.org/0000-0003-3655-1974",
-     "isSelf": false
-    },
-    {
-     "name": "Coralie Williams",
-     "orcid": "https://orcid.org/0000-0003-1312-4953",
-     "isSelf": false
-    },
-    {
-     "name": "Yefeng Yang",
-     "orcid": "https://orcid.org/0000-0002-8610-4016",
-     "isSelf": false
-    },
-    {
-     "name": "Szymek Marian Drobniak",
-     "orcid": "https://orcid.org/0000-0001-8101-6247",
-     "isSelf": false
-    },
-    {
-     "name": "Malgorzata Lagisz",
-     "orcid": "https://orcid.org/0000-0002-3993-6127",
-     "isSelf": false
-    },
-    {
-     "name": "Shinichi Nakagawa",
-     "orcid": "https://orcid.org/0000-0002-7765-5182",
-     "isSelf": false
-    }
-   ],
-   "authorLine": "Pietro Pollo, April Robin Martinig, Ayumi Mizuno, Kyle Morrison, Patrice Pottier, Lorenzo Ricolfi, Jesse Tam, Coralie Williams, Yefeng Yang, Szymek Marian Drobniak, Malgorzata Lagisz, Shinichi Nakagawa",
-   "journal": "Royal Society Open Science",
-   "year": 2025,
-   "volume": "12",
-   "issue": "10",
-   "pages": "250759",
-   "kind": "article",
-   "isOA": true,
-   "oaUrl": "https://doi.org/10.1098/rsos.250759",
-   "url": "https://doi.org/10.1098/rsos.250759",
-   "citations": 6,
-   "abstract": "Meta-analyses are powerful tools to synthesize the literature in several fields of study, including ecology and evolution. However, it remains uncertain whether ecologists and evolutionary biologists fully comprehend meta-analyses' findings or effectively apply them when citing these studies in their own research. Here, we first discuss key meta-analytical concepts and provide a guide to researchers in ecology and evolution on how to harness meta-analyses' insights. For instance, we clarify the meaning of effect sizes and heterogeneity to improve understanding of meta-analyses' quantitative findings. In addition, we analysed articles published in 2023 in ecology and evolution to investigate how frequently and in what context meta-analyses were cited. We found that approximately 21% of articles cited at least one meta-analysis, and that the relative number of citations of meta-analyses (0.62% of all citations analysed) was greater than the publication frequency of meta-analytical articles (0.44% of all articles). Most importantly, we found that while the direction of mean effect sizes from cited meta-analyses was often mentioned, the magnitude of effect sizes and the limitations of the data analysed were frequently overlooked. These findings underscore the need for improved citation practices of meta-analyses in ecological and evolutionary research, which our recommendations seek to promote.",
-   "preprintUrl": "https://doi.org/10.32942/x2pw5p",
-   "altmetric": null
-  },
-  {
-   "id": "10.1098/rspb.2024.1430",
-   "doi": "10.1098/rspb.2024.1430",
-   "title": "Priced out of belonging? Insufficient concessions on membership fees across international societies in ecology and evolution",
-   "authors": [
-    {
-     "name": "Malgorzata Lagisz",
-     "orcid": "https://orcid.org/0000-0002-3993-6127",
-     "isSelf": false
-    },
-    {
-     "name": "Kevin R. Bairos-Novak",
-     "orcid": "https://orcid.org/0000-0002-0152-1452",
-     "isSelf": false
-    },
-    {
-     "name": "April Robin Martinig",
-     "orcid": "https://orcid.org/0000-0002-0972-6903",
-     "isSelf": false
-    },
-    {
-     "name": "Michael G. Bertram",
-     "orcid": "https://orcid.org/0000-0001-5320-8444",
-     "isSelf": false
-    },
-    {
-     "name": "Ayumi Mizuno",
-     "orcid": "https://orcid.org/0000-0003-0822-5637",
-     "isSelf": false
-    },
-    {
-     "name": "Saeed Shafiei Sabet",
-     "orcid": "https://orcid.org/0000-0001-5919-2527",
-     "isSelf": false
-    },
-    {
-     "name": "Matthieu Paquet",
-     "orcid": "https://orcid.org/0000-0003-1182-2299",
-     "isSelf": false
-    },
-    {
-     "name": "Manuela S. Santana",
-     "orcid": "https://orcid.org/0000-0002-4101-595X",
-     "isSelf": false
-    },
-    {
-     "name": "Eli S. J. Thoré",
-     "orcid": "https://orcid.org/0000-0002-0029-8404",
-     "isSelf": false
-    },
-    {
-     "name": "Nina Trubanová",
-     "orcid": "https://orcid.org/0000-0001-8156-3304",
-     "isSelf": false
-    },
-    {
-     "name": "Joanna Rutkowska",
-     "orcid": "https://orcid.org/0000-0003-0396-1790",
-     "isSelf": false
-    },
-    {
-     "name": "James A. Orr",
-     "orcid": "https://orcid.org/0000-0002-6531-5623",
-     "isSelf": false
-    },
-    {
-     "name": "Elina Takola",
-     "orcid": "https://orcid.org/0000-0003-1268-5513",
-     "isSelf": false
-    },
-    {
-     "name": "Yefeng Yang",
-     "orcid": "https://orcid.org/0000-0002-8610-4016",
-     "isSelf": false
-    },
-    {
-     "name": "Patrice Pottier",
-     "orcid": "https://orcid.org/0000-0003-2106-6597",
-     "isSelf": true
-    },
-    {
-     "name": "Dylan G. E. Gomes",
-     "orcid": "https://orcid.org/0000-0002-2642-3728",
-     "isSelf": false
-    },
-    {
-     "name": "Ying-Chi Chan",
-     "orcid": "https://orcid.org/0000-0002-7183-4411",
-     "isSelf": false
-    },
-    {
-     "name": "Zhenzhuo Xian",
-     "orcid": "https://orcid.org/0009-0000-4272-4857",
-     "isSelf": false
-    },
-    {
-     "name": "Caleb Onoja Akogwu",
-     "orcid": "https://orcid.org/0009-0004-8342-4964",
-     "isSelf": false
-    },
-    {
-     "name": "Szymon M. Drobniak",
-     "orcid": "https://orcid.org/0000-0001-8101-6247",
-     "isSelf": false
-    },
-    {
-     "name": "Shinichi Nakagawa",
-     "orcid": "https://orcid.org/0000-0002-7765-5182",
-     "isSelf": false
-    }
-   ],
-   "authorLine": "Malgorzata Lagisz, Kevin R. Bairos-Novak, April Robin Martinig, Michael G. Bertram, Ayumi Mizuno, Saeed Shafiei Sabet, Matthieu Paquet, Manuela S. Santana, Eli S. J. Thoré, Nina Trubanová, Joanna Rutkowska, James A. Orr, Elina Takola, Yefeng Yang, Patrice Pottier, Dylan G. E. Gomes, Ying-Chi Chan, Zhenzhuo Xian, Caleb Onoja Akogwu, Szymon M. Drobniak, Shinichi Nakagawa",
-   "journal": "Proceedings of the Royal Society B: Biological Sciences",
-   "year": 2025,
-   "volume": "292",
-   "issue": "2040",
-   "pages": "20241430",
-   "kind": "article",
-   "isOA": true,
-   "oaUrl": "https://royalsocietypublishing.org/rspb/article-pdf/doi/10.1098/rspb.2024.1430/1264846/rspb.2024.1430.pdf",
-   "url": "https://doi.org/10.1098/rspb.2024.1430",
-   "citations": 5,
-   "abstract": "Learned societies, as professional bodies for scientists, are an integral part of the scientific system. However, their membership fees have the potential to be prohibitive to the most vulnerable members of the scientific community. To shed light on how membership fees are structured, we conducted a survey of 182 international learned societies relevant to researchers in ecology and evolution. We found that 83% of these societies offered fee concessions to students, but only 26% to postdoctoral researchers. An average regular membership fee-US$67.8, student fee-US$27.4 (42.7% of the regular fee) and postdoctoral fee-US$42.7 (52.9%). Other types of individual concessions, such as for emeritus, family or unemployed, were rare (2-20%). Of the surveyed societies, 43% had discounts for members from developing countries (Global South). Such discounts were more common among societies located in high-income countries. Societies with a publicly visible commitment to equity, diversity and inclusion were more likely to offer different types of concessions. Currently, fees may prevent researchers from vulnerable and underprivileged groups from accessing multiple professional benefits offered by learned societies in ecology and evolution. This includes postdoctoral researchers, who should receive more support. We recommend tangible actions towards making learned societies more affordable and accessible.",
-   "preprintUrl": null,
    "altmetric": null
   },
   {
@@ -3809,9 +3602,216 @@
    "isOA": true,
    "oaUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11775597/",
    "url": "https://doi.org/10.1098/rspb.2024.1487",
-   "citations": 4,
+   "citations": 6,
    "abstract": "Publishing preprints is quickly becoming commonplace in ecology and evolutionary biology. Preprints can facilitate the rapid sharing of scientific knowledge establishing precedence and enabling feedback from the research community before peer review. Yet, significant barriers to preprint use exist, including language barriers, a lack of understanding about the benefits of preprints and a lack of diversity in the types of research outputs accepted (e.g. reports). Community-driven preprint initiatives can allow a research community to come together to break down these barriers to improve equity and coverage of global knowledge. Here, we explore the first preprints uploaded to EcoEvoRxiv ( n = 1216), a community-driven preprint server for ecologists and evolutionary biologists, to characterize preprint use in ecology, evolution and conservation. Our perspective piece highlights some of the unique initiatives that EcoEvoRxiv has taken to break down barriers to scientific publishing by exploring the composition of articles, how gender and career stage influence preprint use, whether preprints are associated with greater open science practices (e.g. code and data sharing) and tracking preprint publication outcomes. Our analysis identifies areas that we still need to improve upon but highlights how community-driven initiatives, such as EcoEvoRxiv , can play a crucial role in shaping publishing practices in biology.",
    "preprintUrl": "https://doi.org/10.32942/x2ss46",
+   "altmetric": null
+  },
+  {
+   "id": "10.1098/rsos.250759",
+   "doi": "10.1098/rsos.250759",
+   "title": "Harnessing meta-analyses’ insights in ecology and evolution research",
+   "authors": [
+    {
+     "name": "Pietro Pollo",
+     "orcid": "https://orcid.org/0000-0001-6555-5400",
+     "isSelf": false
+    },
+    {
+     "name": "April Robin Martinig",
+     "orcid": "https://orcid.org/0000-0002-0972-6903",
+     "isSelf": false
+    },
+    {
+     "name": "Ayumi Mizuno",
+     "orcid": "https://orcid.org/0000-0003-0822-5637",
+     "isSelf": false
+    },
+    {
+     "name": "Kyle Morrison",
+     "orcid": "https://orcid.org/0000-0002-3700-2398",
+     "isSelf": false
+    },
+    {
+     "name": "Patrice Pottier",
+     "orcid": "https://orcid.org/0000-0003-2106-6597",
+     "isSelf": true
+    },
+    {
+     "name": "Lorenzo Ricolfi",
+     "orcid": "https://orcid.org/0000-0001-7101-3309",
+     "isSelf": false
+    },
+    {
+     "name": "Jesse Tam",
+     "orcid": "https://orcid.org/0000-0003-3655-1974",
+     "isSelf": false
+    },
+    {
+     "name": "Coralie Williams",
+     "orcid": "https://orcid.org/0000-0003-1312-4953",
+     "isSelf": false
+    },
+    {
+     "name": "Yefeng Yang",
+     "orcid": "https://orcid.org/0000-0002-8610-4016",
+     "isSelf": false
+    },
+    {
+     "name": "Szymek Marian Drobniak",
+     "orcid": "https://orcid.org/0000-0001-8101-6247",
+     "isSelf": false
+    },
+    {
+     "name": "Malgorzata Lagisz",
+     "orcid": "https://orcid.org/0000-0002-3993-6127",
+     "isSelf": false
+    },
+    {
+     "name": "Shinichi Nakagawa",
+     "orcid": "https://orcid.org/0000-0002-7765-5182",
+     "isSelf": false
+    }
+   ],
+   "authorLine": "Pietro Pollo, April Robin Martinig, Ayumi Mizuno, Kyle Morrison, Patrice Pottier, Lorenzo Ricolfi, Jesse Tam, Coralie Williams, Yefeng Yang, Szymek Marian Drobniak, Malgorzata Lagisz, Shinichi Nakagawa",
+   "journal": "Royal Society Open Science",
+   "year": 2025,
+   "volume": "12",
+   "issue": "10",
+   "pages": "250759",
+   "kind": "article",
+   "isOA": true,
+   "oaUrl": "https://doi.org/10.1098/rsos.250759",
+   "url": "https://doi.org/10.1098/rsos.250759",
+   "citations": 6,
+   "abstract": "Meta-analyses are powerful tools to synthesize the literature in several fields of study, including ecology and evolution. However, it remains uncertain whether ecologists and evolutionary biologists fully comprehend meta-analyses' findings or effectively apply them when citing these studies in their own research. Here, we first discuss key meta-analytical concepts and provide a guide to researchers in ecology and evolution on how to harness meta-analyses' insights. For instance, we clarify the meaning of effect sizes and heterogeneity to improve understanding of meta-analyses' quantitative findings. In addition, we analysed articles published in 2023 in ecology and evolution to investigate how frequently and in what context meta-analyses were cited. We found that approximately 21% of articles cited at least one meta-analysis, and that the relative number of citations of meta-analyses (0.62% of all citations analysed) was greater than the publication frequency of meta-analytical articles (0.44% of all articles). Most importantly, we found that while the direction of mean effect sizes from cited meta-analyses was often mentioned, the magnitude of effect sizes and the limitations of the data analysed were frequently overlooked. These findings underscore the need for improved citation practices of meta-analyses in ecological and evolutionary research, which our recommendations seek to promote.",
+   "preprintUrl": "https://doi.org/10.32942/x2pw5p",
+   "altmetric": null
+  },
+  {
+   "id": "10.1098/rspb.2024.1430",
+   "doi": "10.1098/rspb.2024.1430",
+   "title": "Priced out of belonging? Insufficient concessions on membership fees across international societies in ecology and evolution",
+   "authors": [
+    {
+     "name": "Malgorzata Lagisz",
+     "orcid": "https://orcid.org/0000-0002-3993-6127",
+     "isSelf": false
+    },
+    {
+     "name": "Kevin R. Bairos-Novak",
+     "orcid": "https://orcid.org/0000-0002-0152-1452",
+     "isSelf": false
+    },
+    {
+     "name": "April Robin Martinig",
+     "orcid": "https://orcid.org/0000-0002-0972-6903",
+     "isSelf": false
+    },
+    {
+     "name": "Michael G. Bertram",
+     "orcid": "https://orcid.org/0000-0001-5320-8444",
+     "isSelf": false
+    },
+    {
+     "name": "Ayumi Mizuno",
+     "orcid": "https://orcid.org/0000-0003-0822-5637",
+     "isSelf": false
+    },
+    {
+     "name": "Saeed Shafiei Sabet",
+     "orcid": "https://orcid.org/0000-0001-5919-2527",
+     "isSelf": false
+    },
+    {
+     "name": "Matthieu Paquet",
+     "orcid": "https://orcid.org/0000-0003-1182-2299",
+     "isSelf": false
+    },
+    {
+     "name": "Manuela S. Santana",
+     "orcid": "https://orcid.org/0000-0002-4101-595X",
+     "isSelf": false
+    },
+    {
+     "name": "Eli S. J. Thoré",
+     "orcid": "https://orcid.org/0000-0002-0029-8404",
+     "isSelf": false
+    },
+    {
+     "name": "Nina Trubanová",
+     "orcid": "https://orcid.org/0000-0001-8156-3304",
+     "isSelf": false
+    },
+    {
+     "name": "Joanna Rutkowska",
+     "orcid": "https://orcid.org/0000-0003-0396-1790",
+     "isSelf": false
+    },
+    {
+     "name": "James A. Orr",
+     "orcid": "https://orcid.org/0000-0002-6531-5623",
+     "isSelf": false
+    },
+    {
+     "name": "Elina Takola",
+     "orcid": "https://orcid.org/0000-0003-1268-5513",
+     "isSelf": false
+    },
+    {
+     "name": "Yefeng Yang",
+     "orcid": "https://orcid.org/0000-0002-8610-4016",
+     "isSelf": false
+    },
+    {
+     "name": "Patrice Pottier",
+     "orcid": "https://orcid.org/0000-0003-2106-6597",
+     "isSelf": true
+    },
+    {
+     "name": "Dylan G. E. Gomes",
+     "orcid": "https://orcid.org/0000-0002-2642-3728",
+     "isSelf": false
+    },
+    {
+     "name": "Ying-Chi Chan",
+     "orcid": "https://orcid.org/0000-0002-7183-4411",
+     "isSelf": false
+    },
+    {
+     "name": "Zhenzhuo Xian",
+     "orcid": "https://orcid.org/0009-0000-4272-4857",
+     "isSelf": false
+    },
+    {
+     "name": "Caleb Onoja Akogwu",
+     "orcid": "https://orcid.org/0009-0004-8342-4964",
+     "isSelf": false
+    },
+    {
+     "name": "Szymon M. Drobniak",
+     "orcid": "https://orcid.org/0000-0001-8101-6247",
+     "isSelf": false
+    },
+    {
+     "name": "Shinichi Nakagawa",
+     "orcid": "https://orcid.org/0000-0002-7765-5182",
+     "isSelf": false
+    }
+   ],
+   "authorLine": "Malgorzata Lagisz, Kevin R. Bairos-Novak, April Robin Martinig, Michael G. Bertram, Ayumi Mizuno, Saeed Shafiei Sabet, Matthieu Paquet, Manuela S. Santana, Eli S. J. Thoré, Nina Trubanová, Joanna Rutkowska, James A. Orr, Elina Takola, Yefeng Yang, Patrice Pottier, Dylan G. E. Gomes, Ying-Chi Chan, Zhenzhuo Xian, Caleb Onoja Akogwu, Szymon M. Drobniak, Shinichi Nakagawa",
+   "journal": "Proceedings of the Royal Society B: Biological Sciences",
+   "year": 2025,
+   "volume": "292",
+   "issue": "2040",
+   "pages": "20241430",
+   "kind": "article",
+   "isOA": true,
+   "oaUrl": "https://royalsocietypublishing.org/rspb/article-pdf/doi/10.1098/rspb.2024.1430/1264846/rspb.2024.1430.pdf",
+   "url": "https://doi.org/10.1098/rspb.2024.1430",
+   "citations": 5,
+   "abstract": "Learned societies, as professional bodies for scientists, are an integral part of the scientific system. However, their membership fees have the potential to be prohibitive to the most vulnerable members of the scientific community. To shed light on how membership fees are structured, we conducted a survey of 182 international learned societies relevant to researchers in ecology and evolution. We found that 83% of these societies offered fee concessions to students, but only 26% to postdoctoral researchers. An average regular membership fee-US$67.8, student fee-US$27.4 (42.7% of the regular fee) and postdoctoral fee-US$42.7 (52.9%). Other types of individual concessions, such as for emeritus, family or unemployed, were rare (2-20%). Of the surveyed societies, 43% had discounts for members from developing countries (Global South). Such discounts were more common among societies located in high-income countries. Societies with a publicly visible commitment to equity, diversity and inclusion were more likely to offer different types of concessions. Currently, fees may prevent researchers from vulnerable and underprivileged groups from accessing multiple professional benefits offered by learned societies in ecology and evolution. This includes postdoctoral researchers, who should receive more support. We recommend tangible actions towards making learned societies more affordable and accessible.",
+   "preprintUrl": null,
    "altmetric": null
   },
   {
@@ -3971,7 +3971,7 @@
    "isOA": true,
    "oaUrl": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/ece3.71261",
    "url": "https://doi.org/10.1002/ece3.71261",
-   "citations": 1,
+   "citations": 2,
    "abstract": "ABSTRACT Environmental and individual experiences can result in immediate and persistent changes in behaviour. Often, such effects are also sex‐dependent. Intraspecific interactions can be one of the most important environments an individual faces. Such social interactions are expected to affect a suite of behavioural traits and their correlations. Here, we used Drosophila melanogaster and high‐throughput automated behavioural phenotyping to determine how social environment (group mixed sex, group single sex, and social isolation) and sex interact to affect basic behaviours (exploration, movement within a y‐maze, and habituation to a startle) that likely underlie more complex behaviours such as mate searching and foraging. We show that such behaviours and some behavioural correlations are indeed context‐ and sex‐dependent. Males tended to show greater exploration, while females were more likely to show a habituation response to startle. Males and females from the mixed sex and isolated treatments showed opposite exploratory behaviour in the Y‐maze, and social treatment interacted with sex to affect the rate of habituation to a startle. Females also tended to have slightly stronger trait correlations compared to males. These results show that social environment and sex can play a significant role in shaping behaviour in Drosophila melanogaster. Our study provides insights into how the type of social stimulation and sex can interact to affect behaviours that are important in forming critical behaviours related to foraging and mate searching.",
    "preprintUrl": "https://doi.org/10.22541/au.172514069.94507194/v1",
    "altmetric": null
@@ -4213,9 +4213,9 @@
    "isOA": true,
    "oaUrl": "https://doi.org/10.1098/rspb.2023.2840",
    "url": "https://doi.org/10.1098/rspb.2023.2840",
-   "citations": 67,
+   "citations": 69,
    "abstract": "Scientific knowledge is produced in multiple languages but is predominantly published in English. This practice creates a language barrier to generate and transfer scientific knowledge between communities with diverse linguistic backgrounds, hindering the ability of scholars and communities to address global challenges and achieve diversity and equity in science, technology, engineering and mathematics (STEM). To overcome those barriers, publishers and journals should provide a fair system that supports non-native English speakers and disseminates knowledge across the globe. We surveyed policies of 736 journals in biological sciences to assess their linguistic inclusivity, identify predictors of inclusivity, and propose actions to overcome language barriers in academic publishing. Our assessment revealed a grim landscape where most journals were making minimal efforts to overcome language barriers. The impact factor of journals was negatively associated with adopting a number of inclusive policies whereas ownership by a scientific society tended to have a positive association. Contrary to our expectations, the proportion of both open access articles and editors based in non-English speaking countries did not have a major positive association with the adoption of linguistically inclusive policies. We proposed a set of actions to overcome language barriers in academic publishing, including the renegotiation of power dynamics between publishers and editorial boards.",
-   "preprintUrl": "https://doi.org/10.32942/x2ns3k",
+   "preprintUrl": null,
    "altmetric": null
   },
   {
@@ -4309,7 +4309,7 @@
    "isOA": true,
    "oaUrl": "https://doi.org/10.1098/rspb.2024.1222",
    "url": "https://doi.org/10.1098/rspb.2024.1222",
-   "citations": 54,
+   "citations": 69,
    "abstract": "In a growing digital landscape, enhancing the discoverability and resonance of scientific articles is essential. Here, we offer 10 recommendations to amplify the discoverability of studies in search engines and databases. Particularly, we argue that the strategic use and placement of key terms in the title, abstract and keyword sections can boost indexing and appeal. By surveying 230 journals in ecology and evolutionary biology, we found that current author guidelines may unintentionally limit article findability. Our survey of 5323 studies revealed that authors frequently exhaust abstract word limits-particularly those capped under 250 words. This suggests that current guidelines may be overly restrictive and not optimized to increase the dissemination and discoverability of digital publications. Additionally, 92% of studies used redundant keywords in the title or abstract, undermining optimal indexing in databases. We encourage adopting structured abstracts to maximize the incorporation of key terms in titles, abstracts and keywords. In addition, we encourage the relaxation of abstract and keyword limitations in journals with strict guidelines, and the inclusion of multilingual abstracts to broaden global accessibility. These recommendations to editors are designed to improve article engagement and facilitate evidence synthesis, thereby aligning scientific publishing with the modern needs of academic research.",
    "preprintUrl": "https://doi.org/10.1101/2023.10.02.559861",
    "altmetric": null
@@ -4672,72 +4672,6 @@
    "altmetric": null
   },
   {
-   "id": "10.1016/j.tree.2023.12.004",
-   "doi": "10.1016/j.tree.2023.12.004",
-   "title": "New horizons for comparative studies and meta-analyses",
-   "authors": [
-    {
-     "name": "Patrice Pottier",
-     "orcid": "https://orcid.org/0000-0003-2106-6597",
-     "isSelf": true
-    },
-    {
-     "name": "Daniel W.A. Noble",
-     "orcid": "https://orcid.org/0000-0001-9460-8743",
-     "isSelf": false
-    },
-    {
-     "name": "Frank Seebacher",
-     "orcid": "https://orcid.org/0000-0002-2281-9311",
-     "isSelf": false
-    },
-    {
-     "name": "Nicholas C. Wu",
-     "orcid": "https://orcid.org/0000-0002-7130-1279",
-     "isSelf": false
-    },
-    {
-     "name": "Samantha Burke",
-     "orcid": "https://orcid.org/0000-0001-6902-974X",
-     "isSelf": false
-    },
-    {
-     "name": "Malgorzata Lagisz",
-     "orcid": "https://orcid.org/0000-0002-3993-6127",
-     "isSelf": false
-    },
-    {
-     "name": "Lisa E. Schwanz",
-     "orcid": "https://orcid.org/0000-0001-5864-7112",
-     "isSelf": false
-    },
-    {
-     "name": "Szymon M. Drobniak",
-     "orcid": "https://orcid.org/0000-0001-8101-6247",
-     "isSelf": false
-    },
-    {
-     "name": "Shinichi Nakagawa",
-     "orcid": "https://orcid.org/0000-0002-7765-5182",
-     "isSelf": false
-    }
-   ],
-   "authorLine": "Patrice Pottier, Daniel W.A. Noble, Frank Seebacher, Nicholas C. Wu, Samantha Burke, Malgorzata Lagisz, Lisa E. Schwanz, Szymon M. Drobniak, Shinichi Nakagawa",
-   "journal": "Trends in Ecology & Evolution",
-   "year": 2024,
-   "volume": "39",
-   "issue": "5",
-   "pages": "435-445",
-   "kind": "article",
-   "isOA": true,
-   "oaUrl": "http://www.cell.com/article/S016953472300335X/pdf",
-   "url": "https://doi.org/10.1016/j.tree.2023.12.004",
-   "citations": 23,
-   "abstract": "Comparative analyses and meta-analyses are key tools to elucidate broad biological principles, yet the two approaches often appear different in purpose. We propose an integrated approach that can generate deeper insights into ecoevolutionary processes. Marrying comparative and meta-analytic approaches will allow for (i) a more accurate investigation of drivers of biological variation, (ii) a greater ability to account for sources of non-independence in experimental data, (iii) more effective control of publication bias, and (iv) improved transparency and reproducibility. Stronger integration of meta-analytic and comparative studies can also broaden the scope from species-centric investigations to community-level responses and function-valued traits (e.g., reaction norms). We illuminate commonalities, differences, and the transformative potential of combining these methodologies for advancing ecology and evolutionary biology.",
-   "preprintUrl": "https://doi.org/10.32942/x25599",
-   "altmetric": null
-  },
-  {
    "id": "10.1093/jeb/voae021",
    "doi": "10.1093/jeb/voae021",
    "title": "Systematic approaches to assessing high-temperature limits to fertility in animals",
@@ -4883,8 +4817,74 @@
    "isOA": true,
    "oaUrl": "https://academic.oup.com/jeb/advance-article-pdf/doi/10.1093/jeb/voae021/56671509/voae021.pdf",
    "url": "https://doi.org/10.1093/jeb/voae021",
-   "citations": 21,
+   "citations": 22,
    "abstract": "Critical thermal limits (CTLs) gauge the physiological impact of temperature on survival or critical biological function, aiding predictions of species range shifts and climatic resilience. Two recent Drosophila species studies, using similar approaches to determine temperatures that induce sterility (thermal fertility limits [TFLs]), reveal that TFLs are often lower than CTLs and that TFLs better predict both current species distributions and extinction probability. Moreover, many studies show fertility is more sensitive at less extreme temperatures than survival (thermal sensitivity of fertility [TSF]). These results present a more pessimistic outlook on the consequences of climate change. However, unlike CTLs, TFL data are limited to Drosophila, and variability in TSF methods poses challenges in predicting species responses to increasing temperature. To address these data and methodological gaps, we propose 3 standardized approaches for assessing thermal impacts on fertility. We focus on adult obligate sexual terrestrial invertebrates but also provide modifications for other animal groups and life-history stages. We first outline a \"gold-standard\" protocol for determining TFLs, focussing on the effects of short-term heat shocks and simulating more frequent extreme heat events predicted by climate models. As this approach may be difficult to apply to some organisms, we then provide a standardized TSF protocol. Finally, we provide a framework to quantify fertility loss in response to extreme heat events in nature, given the limitations in laboratory approaches. Applying these standardized approaches across many taxa, similar to CTLs, will allow robust tests of the impact of fertility loss on species responses to increasing temperatures.",
+   "preprintUrl": null,
+   "altmetric": null
+  },
+  {
+   "id": "10.1016/j.tree.2023.12.004",
+   "doi": "10.1016/j.tree.2023.12.004",
+   "title": "New horizons for comparative studies and meta-analyses",
+   "authors": [
+    {
+     "name": "Patrice Pottier",
+     "orcid": "https://orcid.org/0000-0003-2106-6597",
+     "isSelf": true
+    },
+    {
+     "name": "Daniel W.A. Noble",
+     "orcid": "https://orcid.org/0000-0001-9460-8743",
+     "isSelf": false
+    },
+    {
+     "name": "Frank Seebacher",
+     "orcid": "https://orcid.org/0000-0002-2281-9311",
+     "isSelf": false
+    },
+    {
+     "name": "Nicholas C. Wu",
+     "orcid": "https://orcid.org/0000-0002-7130-1279",
+     "isSelf": false
+    },
+    {
+     "name": "Samantha Burke",
+     "orcid": "https://orcid.org/0000-0001-6902-974X",
+     "isSelf": false
+    },
+    {
+     "name": "Malgorzata Lagisz",
+     "orcid": "https://orcid.org/0000-0002-3993-6127",
+     "isSelf": false
+    },
+    {
+     "name": "Lisa E. Schwanz",
+     "orcid": "https://orcid.org/0000-0001-5864-7112",
+     "isSelf": false
+    },
+    {
+     "name": "Szymon M. Drobniak",
+     "orcid": "https://orcid.org/0000-0001-8101-6247",
+     "isSelf": false
+    },
+    {
+     "name": "Shinichi Nakagawa",
+     "orcid": "https://orcid.org/0000-0002-7765-5182",
+     "isSelf": false
+    }
+   ],
+   "authorLine": "Patrice Pottier, Daniel W.A. Noble, Frank Seebacher, Nicholas C. Wu, Samantha Burke, Malgorzata Lagisz, Lisa E. Schwanz, Szymon M. Drobniak, Shinichi Nakagawa",
+   "journal": "Trends in Ecology & Evolution",
+   "year": 2024,
+   "volume": "39",
+   "issue": "5",
+   "pages": "435-445",
+   "kind": "article",
+   "isOA": true,
+   "oaUrl": "http://www.cell.com/article/S016953472300335X/pdf",
+   "url": "https://doi.org/10.1016/j.tree.2023.12.004",
+   "citations": 21,
+   "abstract": "Comparative analyses and meta-analyses are key tools to elucidate broad biological principles, yet the two approaches often appear different in purpose. We propose an integrated approach that can generate deeper insights into ecoevolutionary processes. Marrying comparative and meta-analytic approaches will allow for (i) a more accurate investigation of drivers of biological variation, (ii) a greater ability to account for sources of non-independence in experimental data, (iii) more effective control of publication bias, and (iv) improved transparency and reproducibility. Stronger integration of meta-analytic and comparative studies can also broaden the scope from species-centric investigations to community-level responses and function-valued traits (e.g., reaction norms). We illuminate commonalities, differences, and the transformative potential of combining these methodologies for advancing ecology and evolutionary biology.",
    "preprintUrl": null,
    "altmetric": null
   },
@@ -4959,7 +4959,7 @@
    "isOA": true,
    "oaUrl": "https://doi.org/10.1016/j.cbpa.2024.111688",
    "url": "https://doi.org/10.1016/j.cbpa.2024.111688",
-   "citations": 10,
+   "citations": 9,
    "abstract": "Respirometry is an important tool for understanding whole-animal energy and water balance in relation to the environment. Consequently, the growing number of studies using respirometry over the last decade warrants reliable reporting and data sharing for effective dissemination and research synthesis. We provide a checklist guideline on five key sections to facilitate the transparency, reproducibility, and replicability of respirometry studies: 1) materials, set up, plumbing, 2) subject conditions/maintenance, 3) measurement conditions, 4) data processing, and 5) data reporting and statistics, each with explanations and example studies. Transparency in reporting and data availability has benefits on multiple fronts. Authors can use this checklist to design and report on their study, and reviewers and editors can use the checklist to assess the reporting quality of the manuscripts they review. Improved standards for reporting will enhance the value of primary studies and will greatly facilitate the ability to carry out higher quality research syntheses to address ecological and evolutionary theories.",
    "preprintUrl": "https://doi.org/10.32942/x2402m",
    "altmetric": null
@@ -5061,9 +5061,65 @@
    "isOA": true,
    "oaUrl": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/2041-210X.14152",
    "url": "https://doi.org/10.1111/2041-210x.14152",
-   "citations": 213,
+   "citations": 184,
    "abstract": "1. Although meta-analysis has become an essential tool in ecology and evolution, reporting of meta-analytic results can still be much improved. To aid this, we have introduced the orchard plot, which presents not only overall estimates and their confidence intervals but also shows corresponding heterogeneity (as prediction intervals) and individual effect sizes. 2. Here, we have added significant enhancements by integrating many new functionalities as orchaRd 2.0. This updated version allows the visualisation of heteroscedasticity (different variances across levels of a categorical moderator), marginal estimates (e.g., marginalising out effects other than the one visualized), conditional estimates (i.e., estimates of different groups conditioned upon specific values of a continuous variable), and visualizations of all types of interactions between two categorical/continuous moderators.3. orchaRd 2.0 has additional functions which calculate key statistics from multilevel meta-analytic models such as I2 and R2. Importantly, orchaRd 2.0 contributes to better reporting by complying with PRISMA-EcoEvo (preferred reporting items for systematic reviews and meta-analyses in ecology and evolution). Taken together, orchaRd 2.0 can improve the presentation of meta-analytic results and facilitate the exploration of previously neglected patterns. 4. In addition, as a part of a literature survey, we found that graphical packages are rarely cited (~3%). We plea that researchers credit developers and maintainers of graphical packages, e.g., by citations in a figure legend, acknowledging the use of relevant packages.",
-   "preprintUrl": "https://doi.org/10.32942/x2qc7k",
+   "preprintUrl": null,
+   "altmetric": null
+  },
+  {
+   "id": "10.1111/ele.14266",
+   "doi": "10.1111/ele.14266",
+   "title": "The impact of rising temperatures on the prevalence of coral diseases and its predictability: A global meta‐analysis",
+   "authors": [
+    {
+     "name": "Samantha Burke",
+     "orcid": "https://orcid.org/0000-0001-6902-974X",
+     "isSelf": false
+    },
+    {
+     "name": "Patrice Pottier",
+     "orcid": "https://orcid.org/0000-0003-2106-6597",
+     "isSelf": true
+    },
+    {
+     "name": "Malgorzata Lagisz",
+     "orcid": "https://orcid.org/0000-0002-3993-6127",
+     "isSelf": false
+    },
+    {
+     "name": "Erin L. Macartney",
+     "orcid": "https://orcid.org/0000-0003-3866-143X",
+     "isSelf": false
+    },
+    {
+     "name": "Tracy Ainsworth",
+     "orcid": "https://orcid.org/0000-0001-6476-9263",
+     "isSelf": false
+    },
+    {
+     "name": "Szymon M. Drobniak",
+     "orcid": "https://orcid.org/0000-0001-8101-6247",
+     "isSelf": false
+    },
+    {
+     "name": "Shinichi Nakagawa",
+     "orcid": "https://orcid.org/0000-0002-7765-5182",
+     "isSelf": false
+    }
+   ],
+   "authorLine": "Samantha Burke, Patrice Pottier, Malgorzata Lagisz, Erin L. Macartney, Tracy Ainsworth, Szymon M. Drobniak, Shinichi Nakagawa",
+   "journal": "Ecology Letters",
+   "year": 2023,
+   "volume": "26",
+   "issue": "8",
+   "pages": "1466-1481",
+   "kind": "article",
+   "isOA": true,
+   "oaUrl": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/ele.14266",
+   "url": "https://doi.org/10.1111/ele.14266",
+   "citations": 82,
+   "abstract": "Coral reefs are under threat from disease as climate change alters environmental conditions. Rising temperatures exacerbate coral disease, but this relationship is likely complex as other factors also influence coral disease prevalence. To better understand this relationship, we meta-analytically examined 108 studies for changes in global coral disease over time alongside temperature, expressed using average summer sea surface temperature (SST) and cumulative heat stress as weekly sea surface temperature anomalies (WSSTAs). We found that both rising average summer SST and WSSTA were associated with global increases in the mean and variability in coral disease prevalence. Global coral disease prevalence tripled, reaching 9.92% in the 25 years examined, and the effect of 'year' became more stable (i.e. prevalence has lower variance over time), contrasting the effects of the two temperature stressors. Regional patterns diverged over time and differed in response to average summer SST. Our model predicted that, under the same trajectory, 76.8% of corals would be diseased globally by 2100, even assuming moderate average summer SST and WSSTA. These results highlight the need for urgent action to mitigate coral disease. Mitigating the impact of rising ocean temperatures on coral disease is a complex challenge requiring global discussion and further study.",
+   "preprintUrl": null,
    "altmetric": null
   },
   {
@@ -5270,67 +5326,11 @@
    "pages": "845-854",
    "kind": "article",
    "isOA": true,
-   "oaUrl": "https://www.dora.lib4ri.ch/wsl/dload/wsl:32987/PDF2/view",
+   "oaUrl": "https://www.zora.uzh.ch/id/eprint/232497/1/s41893_023_01087_8.pdf",
    "url": "https://doi.org/10.1038/s41893-023-01087-8",
-   "citations": 77,
+   "citations": 79,
    "abstract": null,
    "preprintUrl": null,
-   "altmetric": null
-  },
-  {
-   "id": "10.1111/ele.14266",
-   "doi": "10.1111/ele.14266",
-   "title": "The impact of rising temperatures on the prevalence of coral diseases and its predictability: A global meta‐analysis",
-   "authors": [
-    {
-     "name": "Samantha Burke",
-     "orcid": "https://orcid.org/0000-0001-6902-974X",
-     "isSelf": false
-    },
-    {
-     "name": "Patrice Pottier",
-     "orcid": "https://orcid.org/0000-0003-2106-6597",
-     "isSelf": true
-    },
-    {
-     "name": "Malgorzata Lagisz",
-     "orcid": "https://orcid.org/0000-0002-3993-6127",
-     "isSelf": false
-    },
-    {
-     "name": "Erin L. Macartney",
-     "orcid": "https://orcid.org/0000-0003-3866-143X",
-     "isSelf": false
-    },
-    {
-     "name": "Tracy Ainsworth",
-     "orcid": "https://orcid.org/0000-0001-6476-9263",
-     "isSelf": false
-    },
-    {
-     "name": "Szymon M. Drobniak",
-     "orcid": "https://orcid.org/0000-0001-8101-6247",
-     "isSelf": false
-    },
-    {
-     "name": "Shinichi Nakagawa",
-     "orcid": "https://orcid.org/0000-0002-7765-5182",
-     "isSelf": false
-    }
-   ],
-   "authorLine": "Samantha Burke, Patrice Pottier, Malgorzata Lagisz, Erin L. Macartney, Tracy Ainsworth, Szymon M. Drobniak, Shinichi Nakagawa",
-   "journal": "Ecology Letters",
-   "year": 2023,
-   "volume": "26",
-   "issue": "8",
-   "pages": "1466-1481",
-   "kind": "article",
-   "isOA": true,
-   "oaUrl": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/ele.14266",
-   "url": "https://doi.org/10.1111/ele.14266",
-   "citations": 77,
-   "abstract": "Coral reefs are under threat from disease as climate change alters environmental conditions. Rising temperatures exacerbate coral disease, but this relationship is likely complex as other factors also influence coral disease prevalence. To better understand this relationship, we meta-analytically examined 108 studies for changes in global coral disease over time alongside temperature, expressed using average summer sea surface temperature (SST) and cumulative heat stress as weekly sea surface temperature anomalies (WSSTAs). We found that both rising average summer SST and WSSTA were associated with global increases in the mean and variability in coral disease prevalence. Global coral disease prevalence tripled, reaching 9.92% in the 25 years examined, and the effect of 'year' became more stable (i.e. prevalence has lower variance over time), contrasting the effects of the two temperature stressors. Regional patterns diverged over time and differed in response to average summer SST. Our model predicted that, under the same trajectory, 76.8% of corals would be diseased globally by 2100, even assuming moderate average summer SST and WSSTA. These results highlight the need for urgent action to mitigate coral disease. Mitigating the impact of rising ocean temperatures on coral disease is a complex challenge requiring global discussion and further study.",
-   "preprintUrl": "https://doi.org/10.32942/x2hp4p",
    "altmetric": null
   },
   {
@@ -5505,9 +5505,9 @@
    "isOA": true,
    "oaUrl": "https://royalsocietypublishing.org/doi/pdf/10.1098/rsbl.2023.0019",
    "url": "https://doi.org/10.1098/rsbl.2023.0019",
-   "citations": 15,
+   "citations": 14,
    "abstract": "On a global scale, organisms face significant challenges due to climate change and anthropogenic disturbance. In many ectotherms, developmental and physiological processes are sensitive to changes in temperature and resources. Developmental plasticity in thermal physiology may provide adaptive advantages to environmental extremes if early environmental conditions are predictable of late-life environments. Here, we conducted a laboratory experiment to test how developmental temperature and maternal resource investment influence thermal physiology (critical thermal maximum: CTmax & thermal preference: Tpref) in a common skink (Lampropholis delicata). We then compared our experimental findings more broadly across reptiles using meta-analysis. In both our experimental study and meta-analysis, we did not find evidence that developmental environments influence thermal physiology. Furthermore, the effects of developmental environments on thermal physiology did not vary by age, taxon, or climate zone (temperate/tropical) in reptiles. Overall, the magnitude of developmental plasticity on thermal physiology appears to be limited across reptile taxa. Our results suggest that behavioural or evolutionary processes, as opposed to developmental plasticity, may be more critical in mitigating the impacts of changing thermal conditions in reptiles in the future.",
-   "preprintUrl": "https://doi.org/10.32942/x2jp40",
+   "preprintUrl": null,
    "altmetric": null
   },
   {
@@ -5556,7 +5556,7 @@
    "isOA": true,
    "oaUrl": "https://www.authorea.com/doi/pdf/10.22541/au.167785097.78920686",
    "url": "https://doi.org/10.22541/au.167785097.78920686/v1",
-   "citations": 5,
+   "citations": 6,
    "abstract": "There are a wide variety of microbial inoculant types available to restoration practitioners, but little information as to which performs best under field conditions in dryland ecosystems. We used a meta-analysis of 62 dryland studies to provide the first quantitative comparison of native vs commercial, diverse vs single species, and fungal vs bacterial microbial inoculants. We found that while microbial inoculation increases plant growth compared to uninoculated counterparts, contrary to our expectations, the magnitude of effect was statistically similar for all the inoculant pairs. Our results suggest that land managers should use inoculant types that are readily available and easy to handle rather than complicated and expensive inoculants that combine multiple taxa of local origin microbes.",
    "preprintUrl": null,
    "altmetric": null
@@ -5693,49 +5693,8 @@
    "isOA": true,
    "oaUrl": "https://doi.org/10.1098/rspb.2022.1113",
    "url": "https://doi.org/10.1098/rspb.2022.1113",
-   "citations": 203,
+   "citations": 174,
    "abstract": "The biological sciences community is increasingly recognizing the value of open, reproducible and transparent research practices for science and society at large. Despite this recognition, many researchers fail to share their data and code publicly. This pattern may arise from knowledge barriers about how to archive data and code, concerns about its reuse, and misaligned career incentives. Here, we define, categorize and discuss barriers to data and code sharing that are relevant to many research fields. We explore how real and perceived barriers might be overcome or reframed in the light of the benefits relative to costs. By elucidating these barriers and the contexts in which they arise, we can take steps to mitigate them and align our actions with the goals of open science, both as individual scientists and as a scientific community.",
-   "preprintUrl": "https://doi.org/10.31222/osf.io/gaj43",
-   "altmetric": null
-  },
-  {
-   "id": "10.1038/s41467-022-32953-2",
-   "doi": "10.1038/s41467-022-32953-2",
-   "title": "Meta-analysis reveals weak but pervasive plasticity in insect thermal limits",
-   "authors": [
-    {
-     "name": "Hester Weaving",
-     "orcid": "https://orcid.org/0000-0002-9093-0556",
-     "isSelf": false
-    },
-    {
-     "name": "John S. Terblanche",
-     "orcid": "https://orcid.org/0000-0001-9665-9405",
-     "isSelf": false
-    },
-    {
-     "name": "Patrice Pottier",
-     "orcid": "https://orcid.org/0000-0003-2106-6597",
-     "isSelf": true
-    },
-    {
-     "name": "Sinead English",
-     "orcid": "https://orcid.org/0000-0003-2898-2301",
-     "isSelf": false
-    }
-   ],
-   "authorLine": "Hester Weaving, John S. Terblanche, Patrice Pottier, Sinead English",
-   "journal": "Nature Communications",
-   "year": 2022,
-   "volume": "13",
-   "issue": "1",
-   "pages": "5292",
-   "kind": "article",
-   "isOA": true,
-   "oaUrl": "https://doi.org/10.1038/s41467-022-32953-2",
-   "url": "https://doi.org/10.1038/s41467-022-32953-2",
-   "citations": 150,
-   "abstract": "Extreme temperature events are increasing in frequency and intensity due to climate change. Such events threaten insects, including pollinators, pests and disease vectors. Insect critical thermal limits can be enhanced through acclimation, yet evidence that plasticity aids survival at extreme temperatures is limited. Here, using meta-analyses across 1374 effect sizes, 74 studies and 102 species, we show that thermal limit plasticity is pervasive but generally weak: per 1 °C rise in acclimation temperature, critical thermal maximum increases by 0.09 °C; and per 1 °C decline, critical thermal minimum decreases by 0.15 °C. Moreover, small but significant publication bias suggests that the magnitude of plasticity is marginally overestimated. We find juvenile insects are more plastic than adults, highlighting that physiological responses of insects vary through ontogeny. Overall, we show critical thermal limit plasticity is likely of limited benefit to insects during extreme climatic events, yet we need more studies in under-represented taxa and geographic regions.",
    "preprintUrl": null,
    "altmetric": null
   },
@@ -5790,9 +5749,50 @@
    "isOA": true,
    "oaUrl": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/ele.14083",
    "url": "https://doi.org/10.1111/ele.14083",
-   "citations": 146,
+   "citations": 147,
    "abstract": "Understanding the factors affecting thermal tolerance is crucial for predicting the impact climate change will have on ectotherms. However, the role developmental plasticity plays in allowing populations to cope with thermal extremes is poorly understood. Here, we meta-analyse how thermal tolerance is initially and persistently impacted by early (embryonic and juvenile) thermal environments by using data from 150 experimental studies on 138 ectothermic species. Thermal tolerance only increased by 0.13°C per 1°C change in developmental temperature and substantial variation in plasticity (~36%) was the result of shared evolutionary history and species ecology. Aquatic ectotherms were more than three times as plastic as terrestrial ectotherms. Notably, embryos expressed weaker but more heterogenous plasticity than older life stages, with numerous responses appearing as non-adaptive. While developmental temperatures did not have persistent effects on thermal tolerance overall, persistent effects were vastly under-studied, and their direction and magnitude varied with ontogeny. Embryonic stages may represent a critical window of vulnerability to changing environments and we urge researchers to consider early life stages when assessing the climate vulnerability of ectotherms. Overall, our synthesis suggests that developmental changes in thermal tolerance rarely reach levels of perfect compensation and may provide limited benefit in changing environments.",
    "preprintUrl": "https://doi.org/10.22541/au.164573834.49438532/v1",
+   "altmetric": null
+  },
+  {
+   "id": "10.1038/s41467-022-32953-2",
+   "doi": "10.1038/s41467-022-32953-2",
+   "title": "Meta-analysis reveals weak but pervasive plasticity in insect thermal limits",
+   "authors": [
+    {
+     "name": "Hester Weaving",
+     "orcid": "https://orcid.org/0000-0002-9093-0556",
+     "isSelf": false
+    },
+    {
+     "name": "John S. Terblanche",
+     "orcid": "https://orcid.org/0000-0001-9665-9405",
+     "isSelf": false
+    },
+    {
+     "name": "Patrice Pottier",
+     "orcid": "https://orcid.org/0000-0003-2106-6597",
+     "isSelf": true
+    },
+    {
+     "name": "Sinead English",
+     "orcid": "https://orcid.org/0000-0003-2898-2301",
+     "isSelf": false
+    }
+   ],
+   "authorLine": "Hester Weaving, John S. Terblanche, Patrice Pottier, Sinead English",
+   "journal": "Nature Communications",
+   "year": 2022,
+   "volume": "13",
+   "issue": "1",
+   "pages": "5292",
+   "kind": "article",
+   "isOA": true,
+   "oaUrl": "https://doi.org/10.1038/s41467-022-32953-2",
+   "url": "https://doi.org/10.1038/s41467-022-32953-2",
+   "citations": 146,
+   "abstract": "Extreme temperature events are increasing in frequency and intensity due to climate change. Such events threaten insects, including pollinators, pests and disease vectors. Insect critical thermal limits can be enhanced through acclimation, yet evidence that plasticity aids survival at extreme temperatures is limited. Here, using meta-analyses across 1374 effect sizes, 74 studies and 102 species, we show that thermal limit plasticity is pervasive but generally weak: per 1 °C rise in acclimation temperature, critical thermal maximum increases by 0.09 °C; and per 1 °C decline, critical thermal minimum decreases by 0.15 °C. Moreover, small but significant publication bias suggests that the magnitude of plasticity is marginally overestimated. We find juvenile insects are more plastic than adults, highlighting that physiological responses of insects vary through ontogeny. Overall, we show critical thermal limit plasticity is likely of limited benefit to insects during extreme climatic events, yet we need more studies in under-represented taxa and geographic regions.",
+   "preprintUrl": null,
    "altmetric": null
   },
   {
@@ -5866,7 +5866,7 @@
    "isOA": true,
    "oaUrl": "https://www.nature.com/articles/s41597-022-01704-9.pdf",
    "url": "https://doi.org/10.1038/s41597-022-01704-9",
-   "citations": 54,
+   "citations": 52,
    "abstract": "Rising temperatures represent a significant threat to the survival of ectothermic animals. As such, upper thermal limits represent an important trait to assess the vulnerability of ectotherms to changing temperatures. For instance, one may use upper thermal limits to estimate current and future thermal safety margins (i.e., the proximity of upper thermal limits to experienced temperatures), use this trait together with other physiological traits in species distribution models, or investigate the plasticity and evolvability of these limits for buffering the impacts of changing temperatures. While datasets on thermal tolerance limits have been previously compiled, they sometimes report single estimates for a given species, do not present measures of data dispersion, and are biased towards certain parts of the globe. To overcome these limitations, we systematically searched the literature in seven languages to produce the most comprehensive dataset to date on amphibian upper thermal limits, spanning 3,095 estimates across 616 species. This resource will represent a useful tool to evaluate the vulnerability of amphibians, and ectotherms more generally, to changing temperatures.",
    "preprintUrl": null,
    "altmetric": null
@@ -6027,10 +6027,10 @@
    "pages": "119081",
    "kind": "article",
    "isOA": true,
-   "oaUrl": "https://doi.org/10.1016/j.envpol.2022.119081",
+   "oaUrl": "https://doi.org/10.32942/osf.io/yqspb",
    "url": "https://doi.org/10.1016/j.envpol.2022.119081",
-   "citations": 27,
-   "abstract": "Per- and polyfluoroalkyl substances (PFAS) are ubiquitous in the environment and often ingested with food. PFAS exposure in people can have detrimental health consequences. Therefore, reducing PFAS burdens in food items is of great importance to public health. Here, we investigated whether cooking reduces PFAS concentrations in animal-derived food products by synthesizing experimental studies. Further, we examined the moderating effects of the following five variables: cooking time, liquid / food item ratio, cooking temperature, carbon chain length of PFAS and the cooking category (oil-based, water-based & no-liquid cooking). In our systematic review searches (including the grey literature), we obtained 512 effect sizes from 10 relevant studies. These studies exclusively explored changes in PFAS concentrations in cooked seafood and freshwater fish. Our phylogenetically controlled multilevel-meta-analysis has revealed that, on average, cooking reduced PFAS concentrations by 28%, although heterogeneity among effect sizes was very high (I2 = 94.65%). Our five moderators cumulatively explained 36% of the observed heterogeneity. Specifically, an increase in cooking time and liquid / animal tissue ratio, as well as shorter carbon chain length of PFAS (when cooked with oil) were associated with significant reductions in PFAS concentrations. The effects of different ways of cooking depended on the other moderators, while the effect of cooking temperature itself was not significant. Overall, cooking can reduce PFAS concentrations in blue food (seafood and freshwater fish). However, it is important to note that complete PFAS elimination requires unrealistically long cooking times and large liquid / animal tissue ratios. Currently, literature on the impact of cooking of terrestrial animal produce on PFAS concentrations is lacking, which limits the inference and generalisation of our meta-analysis. However, our work represents the first step towards developing guidelines to reduce PFAS in food via cooking exclusively with common kitchen items and techniques.",
+   "citations": 26,
+   "abstract": "Per- and polyfluoroalkyl substances (PFAS) are ubiquitous in the environment and often ingested with food. PFAS exposure in people can have detrimental health consequences. Therefore, reducing PFAS burdens in food items is of great importance to public health. Here, we investigated whether cooking reduces PFAS concentrations in animal-derived food products by synthesizing experimental studies. Further, we examined the moderating effects of the following five variables: cooking time, liquid/animal tissue ratio, cooking temperature, carbon chain length of PFAS and the cooking category (oil-based, water-based & no-liquid cooking). In our systematic review searches, we obtained 512 effect sizes (relative differences in PFAS concentration between raw and cooked samples) from 10 relevant studies. These studies exclusively explored changes in PFAS concentrations in cooked seafood and freshwater fish . Our multilevel-meta-analysis has revealed that, on average, cooking reduced PFAS concentrations by 29%, although heterogeneity among effect sizes was very high ( I 2 = 94.65%). Our five moderators cumulatively explained 49% of the observed heterogeneity. Specifically, an increase in cooking time and liquid/animal tissue ratio, as well as shorter carbon chain length of PFAS (when cooked with oil) were associated with significant reductions in PFAS concentrations. The effects of different ways of cooking depended on the other moderators, while the effect of cooking temperature itself was not significant. Overall, cooking can reduce PFAS concentrations in blue food (seafood and freshwater fish). However, it is important to note that complete PFAS elimination requires unrealistically long cooking times and large liquid/animal tissue ratios. Currently, literature on the impact of cooking of terrestrial animal produce on PFAS concentrations is lacking, which limits the inference and generalisation of our meta-analysis. However, our work represents the first step towards developing guidelines to reduce PFAS in food via cooking exclusively with common kitchen items and techniques.",
    "preprintUrl": "https://doi.org/10.32942/osf.io/yqspb",
    "altmetric": null
   },
@@ -6085,7 +6085,7 @@
    "isOA": true,
    "oaUrl": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/2688-8319.12190",
    "url": "https://doi.org/10.1002/2688-8319.12190",
-   "citations": 4,
+   "citations": 6,
    "abstract": "Abstract The health of coral reef ecosystems is declining. As research examining this decline has grown, review articles (secondary literature) have emerged. Secondary literature can include narrative reviews, systematic reviews, and bibliometric analyses. Synthesizing secondary literature can influence research directions, as syntheses visualize both the current state of knowledge and trends in research. Therefore, we propose to use the combination of bibliometric mapping and systematic mapping techniques to synthesize the secondary literature on coral health and coral reef decline. We will examine secondary literature on coral health published in peer‐reviewed journals and indexed in Scopus or Web of Science databases. After screening the title, abstract, and keywords of each paper, we will extract information that encompasses the type and purpose of the review, the identified factors affecting coral health, and the health‐related outcomes on coral reefs. We will also conduct a critical appraisal using the Collaboration for Environmental Evidence Synthesis Assessment Tool (CEESAT) criteria for papers that are self‐reported to be systematic reviews. We will also extract bibliometric data to identify author affiliations, collaboration networks, and journals. We will communicate our results from systematic and bibliometric mapping using visualizations and tabulations. Our systematic map aims to reveal gaps and clusters of topics in review articles on coral health. These findings can guide future research into coral health in both primary and secondary literature. Our critical appraisal will evaluate the robustness of systematic reviews, informing researchers on how to identify and conduct high‐quality reviews. Our bibliometric map will uncover the extent and connectivity of researchers synthesizing evidence on coral health, highlighting the diversity (or lack thereof) of those engaging in coral health research.",
    "preprintUrl": null,
    "altmetric": null
@@ -6232,7 +6232,7 @@
    "isOA": true,
    "oaUrl": "https://bmcbiol.biomedcentral.com/track/pdf/10.1186/s12915-021-01006-3",
    "url": "https://doi.org/10.1186/s12915-021-01006-3",
-   "citations": 73,
+   "citations": 69,
    "abstract": "Unreliable research programmes waste funds, time, and even the lives of the organisms we seek to help and understand. Reducing this waste and increasing the value of scientific evidence require changing the actions of both individual researchers and the institutions they depend on for employment and promotion. While ecologists and evolutionary biologists have somewhat improved research transparency over the past decade (e.g. more data sharing), major obstacles remain. In this commentary, we lift our gaze to the horizon to imagine how researchers and institutions can clear the path towards more credible and effective research programmes.",
    "preprintUrl": "https://doi.org/10.32942/x20400",
    "altmetric": null
@@ -6278,7 +6278,7 @@
    "isOA": true,
    "oaUrl": "https://ruj.uj.edu.pl/xmlui/handle/item/285076",
    "url": "https://doi.org/10.1111/1365-2435.13899",
-   "citations": 69,
+   "citations": 67,
    "abstract": "Abstract Climate change is putting the fate of ectothermic animals at stake because their body temperature closely tracks environmental temperatures. The ability to adjust thermal limits and preference through acclimation (i.e. acclimation capacity) may compensate for temperature changes. However, although necessary for forecasting the future of ectotherms in a changing climate, knowledge on the factors modulating these plastic responses is fragmentary. For instance, the influence of an animal's sex in driving acclimation capacity has been underappreciated. Here, we present the first systematic review and meta‐analysis on sex differences in thermal acclimation capacity. Using 239 effect sizes from 37 studies and 44 species, we revealed that males and females did not differ significantly in their overall capacity to acclimate their thermal limits and preference. However, in some instances, females expressed significantly greater plastic responses than males. In wild animals, females had a greater heat tolerance plasticity than males. In addition, females had a greater cold tolerance plasticity in terrestrial habitats, but the strength and direction of this sexual dimorphism was associated with the duration of acclimation. We also found a negative correlation between body mass and plasticity. Finally, we demonstrated that the capacity for each sex to adjust their thermal tolerance and preference was remarkably limited. It is important to acknowledge that the above effects were weak and heterogeneous. Hence, in the species we investigated, minor differences in acclimation capacity may not translate into major ecological mismatch between sexes with climate change. Our systematic review also revealed that over 75% of the studies we identified either did not report or confounded the sex of the animals. This under‐reporting may cause to overlook ecologically relevant sex differences in plasticity in ectothermic taxa. We stress the need for further research on sex‐based responses to temperatures. Our synthesis provides additional evidence that the capacity for ectotherms to acclimate to temperatures is limited, and likely insufficient to compensate for the impacts of climate change. A free Plain Language Summary can be found within the Supporting Information of this article.",
    "preprintUrl": null,
    "altmetric": null
@@ -6314,7 +6314,7 @@
    "isOA": true,
    "oaUrl": "https://www.sciencedirect.com/science/article/am/pii/S0003347219300910?via%3Dihub",
    "url": "https://doi.org/10.1016/j.anbehav.2019.03.012",
-   "citations": 17,
+   "citations": 16,
    "abstract": null,
    "preprintUrl": null,
    "altmetric": null
