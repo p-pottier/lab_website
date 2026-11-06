@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-05",
+ "updated": "2026-11-06",
  "publications": [
   {
    "id": "10.1038/s41559-026-03117-y",
@@ -4018,6 +4018,102 @@
    "altmetric": null
   },
   {
+   "id": "10.1098/rspb.2024.1222",
+   "doi": "10.1098/rspb.2024.1222",
+   "title": "Title, abstract and keywords: a practical guide to maximize the visibility and impact of academic papers",
+   "authors": [
+    {
+     "name": "Patrice Pottier",
+     "orcid": "https://orcid.org/0000-0003-2106-6597",
+     "isSelf": true
+    },
+    {
+     "name": "Malgorzata Lagisz",
+     "orcid": "https://orcid.org/0000-0002-3993-6127",
+     "isSelf": false
+    },
+    {
+     "name": "Samantha Burke",
+     "orcid": "https://orcid.org/0000-0001-6902-974X",
+     "isSelf": false
+    },
+    {
+     "name": "Szymon M. Drobniak",
+     "orcid": "https://orcid.org/0000-0001-8101-6247",
+     "isSelf": false
+    },
+    {
+     "name": "Philip A. Downing",
+     "orcid": "https://orcid.org/0000-0002-5286-3153",
+     "isSelf": false
+    },
+    {
+     "name": "Erin L. Macartney",
+     "orcid": "https://orcid.org/0000-0003-3866-143X",
+     "isSelf": false
+    },
+    {
+     "name": "April Robin Martinig",
+     "orcid": "https://orcid.org/0000-0002-0972-6903",
+     "isSelf": false
+    },
+    {
+     "name": "Ayumi Mizuno",
+     "orcid": "https://orcid.org/0000-0003-0822-5637",
+     "isSelf": false
+    },
+    {
+     "name": "Kyle Morrison",
+     "orcid": "https://orcid.org/0000-0002-3700-2398",
+     "isSelf": false
+    },
+    {
+     "name": "Pietro Pollo",
+     "orcid": "https://orcid.org/0000-0001-6555-5400",
+     "isSelf": false
+    },
+    {
+     "name": "Lorenzo Ricolfi",
+     "orcid": "https://orcid.org/0000-0001-7101-3309",
+     "isSelf": false
+    },
+    {
+     "name": "Jesse Tam",
+     "orcid": "https://orcid.org/0000-0003-3655-1974",
+     "isSelf": false
+    },
+    {
+     "name": "Coralie Williams",
+     "orcid": "https://orcid.org/0000-0003-1312-4953",
+     "isSelf": false
+    },
+    {
+     "name": "Yefeng Yang",
+     "orcid": "https://orcid.org/0000-0002-8610-4016",
+     "isSelf": false
+    },
+    {
+     "name": "Shinichi Nakagawa",
+     "orcid": "https://orcid.org/0000-0002-7765-5182",
+     "isSelf": false
+    }
+   ],
+   "authorLine": "Patrice Pottier, Malgorzata Lagisz, Samantha Burke, Szymon M. Drobniak, Philip A. Downing, Erin L. Macartney, April Robin Martinig, Ayumi Mizuno, Kyle Morrison, Pietro Pollo, Lorenzo Ricolfi, Jesse Tam, Coralie Williams, Yefeng Yang, Shinichi Nakagawa",
+   "journal": "Proceedings of the Royal Society B: Biological Sciences",
+   "year": 2024,
+   "volume": "291",
+   "issue": "2027",
+   "pages": "20241222",
+   "kind": "article",
+   "isOA": true,
+   "oaUrl": "https://doi.org/10.1098/rspb.2024.1222",
+   "url": "https://doi.org/10.1098/rspb.2024.1222",
+   "citations": 70,
+   "abstract": "In a growing digital landscape, enhancing the discoverability and resonance of scientific articles is essential. Here, we offer 10 recommendations to amplify the discoverability of studies in search engines and databases. Particularly, we argue that the strategic use and placement of key terms in the title, abstract and keyword sections can boost indexing and appeal. By surveying 230 journals in ecology and evolutionary biology, we found that current author guidelines may unintentionally limit article findability. Our survey of 5323 studies revealed that authors frequently exhaust abstract word limits-particularly those capped under 250 words. This suggests that current guidelines may be overly restrictive and not optimized to increase the dissemination and discoverability of digital publications. Additionally, 92% of studies used redundant keywords in the title or abstract, undermining optimal indexing in databases. We encourage adopting structured abstracts to maximize the incorporation of key terms in titles, abstracts and keywords. In addition, we encourage the relaxation of abstract and keyword limitations in journals with strict guidelines, and the inclusion of multilingual abstracts to broaden global accessibility. These recommendations to editors are designed to improve article engagement and facilitate evidence synthesis, thereby aligning scientific publishing with the modern needs of academic research.",
+   "preprintUrl": "https://doi.org/10.1101/2023.10.02.559861",
+   "altmetric": null
+  },
+  {
    "id": "10.1098/rspb.2023.2840",
    "doi": "10.1098/rspb.2023.2840",
    "title": "Academic publishing requires linguistically inclusive policies",
@@ -4216,102 +4312,6 @@
    "citations": 69,
    "abstract": "Scientific knowledge is produced in multiple languages but is predominantly published in English. This practice creates a language barrier to generate and transfer scientific knowledge between communities with diverse linguistic backgrounds, hindering the ability of scholars and communities to address global challenges and achieve diversity and equity in science, technology, engineering and mathematics (STEM). To overcome those barriers, publishers and journals should provide a fair system that supports non-native English speakers and disseminates knowledge across the globe. We surveyed policies of 736 journals in biological sciences to assess their linguistic inclusivity, identify predictors of inclusivity, and propose actions to overcome language barriers in academic publishing. Our assessment revealed a grim landscape where most journals were making minimal efforts to overcome language barriers. The impact factor of journals was negatively associated with adopting a number of inclusive policies whereas ownership by a scientific society tended to have a positive association. Contrary to our expectations, the proportion of both open access articles and editors based in non-English speaking countries did not have a major positive association with the adoption of linguistically inclusive policies. We proposed a set of actions to overcome language barriers in academic publishing, including the renegotiation of power dynamics between publishers and editorial boards.",
    "preprintUrl": null,
-   "altmetric": null
-  },
-  {
-   "id": "10.1098/rspb.2024.1222",
-   "doi": "10.1098/rspb.2024.1222",
-   "title": "Title, abstract and keywords: a practical guide to maximize the visibility and impact of academic papers",
-   "authors": [
-    {
-     "name": "Patrice Pottier",
-     "orcid": "https://orcid.org/0000-0003-2106-6597",
-     "isSelf": true
-    },
-    {
-     "name": "Malgorzata Lagisz",
-     "orcid": "https://orcid.org/0000-0002-3993-6127",
-     "isSelf": false
-    },
-    {
-     "name": "Samantha Burke",
-     "orcid": "https://orcid.org/0000-0001-6902-974X",
-     "isSelf": false
-    },
-    {
-     "name": "Szymon M. Drobniak",
-     "orcid": "https://orcid.org/0000-0001-8101-6247",
-     "isSelf": false
-    },
-    {
-     "name": "Philip A. Downing",
-     "orcid": "https://orcid.org/0000-0002-5286-3153",
-     "isSelf": false
-    },
-    {
-     "name": "Erin L. Macartney",
-     "orcid": "https://orcid.org/0000-0003-3866-143X",
-     "isSelf": false
-    },
-    {
-     "name": "April Robin Martinig",
-     "orcid": "https://orcid.org/0000-0002-0972-6903",
-     "isSelf": false
-    },
-    {
-     "name": "Ayumi Mizuno",
-     "orcid": "https://orcid.org/0000-0003-0822-5637",
-     "isSelf": false
-    },
-    {
-     "name": "Kyle Morrison",
-     "orcid": "https://orcid.org/0000-0002-3700-2398",
-     "isSelf": false
-    },
-    {
-     "name": "Pietro Pollo",
-     "orcid": "https://orcid.org/0000-0001-6555-5400",
-     "isSelf": false
-    },
-    {
-     "name": "Lorenzo Ricolfi",
-     "orcid": "https://orcid.org/0000-0001-7101-3309",
-     "isSelf": false
-    },
-    {
-     "name": "Jesse Tam",
-     "orcid": "https://orcid.org/0000-0003-3655-1974",
-     "isSelf": false
-    },
-    {
-     "name": "Coralie Williams",
-     "orcid": "https://orcid.org/0000-0003-1312-4953",
-     "isSelf": false
-    },
-    {
-     "name": "Yefeng Yang",
-     "orcid": "https://orcid.org/0000-0002-8610-4016",
-     "isSelf": false
-    },
-    {
-     "name": "Shinichi Nakagawa",
-     "orcid": "https://orcid.org/0000-0002-7765-5182",
-     "isSelf": false
-    }
-   ],
-   "authorLine": "Patrice Pottier, Malgorzata Lagisz, Samantha Burke, Szymon M. Drobniak, Philip A. Downing, Erin L. Macartney, April Robin Martinig, Ayumi Mizuno, Kyle Morrison, Pietro Pollo, Lorenzo Ricolfi, Jesse Tam, Coralie Williams, Yefeng Yang, Shinichi Nakagawa",
-   "journal": "Proceedings of the Royal Society B: Biological Sciences",
-   "year": 2024,
-   "volume": "291",
-   "issue": "2027",
-   "pages": "20241222",
-   "kind": "article",
-   "isOA": true,
-   "oaUrl": "https://doi.org/10.1098/rspb.2024.1222",
-   "url": "https://doi.org/10.1098/rspb.2024.1222",
-   "citations": 69,
-   "abstract": "In a growing digital landscape, enhancing the discoverability and resonance of scientific articles is essential. Here, we offer 10 recommendations to amplify the discoverability of studies in search engines and databases. Particularly, we argue that the strategic use and placement of key terms in the title, abstract and keyword sections can boost indexing and appeal. By surveying 230 journals in ecology and evolutionary biology, we found that current author guidelines may unintentionally limit article findability. Our survey of 5323 studies revealed that authors frequently exhaust abstract word limits-particularly those capped under 250 words. This suggests that current guidelines may be overly restrictive and not optimized to increase the dissemination and discoverability of digital publications. Additionally, 92% of studies used redundant keywords in the title or abstract, undermining optimal indexing in databases. We encourage adopting structured abstracts to maximize the incorporation of key terms in titles, abstracts and keywords. In addition, we encourage the relaxation of abstract and keyword limitations in journals with strict guidelines, and the inclusion of multilingual abstracts to broaden global accessibility. These recommendations to editors are designed to improve article engagement and facilitate evidence synthesis, thereby aligning scientific publishing with the modern needs of academic research.",
-   "preprintUrl": "https://doi.org/10.1101/2023.10.02.559861",
    "altmetric": null
   },
   {
