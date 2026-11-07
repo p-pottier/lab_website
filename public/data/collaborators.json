@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-06",
- "total": 729,
+ "updated": "2026-11-07",
+ "total": 728,
  "countries": 59,
  "institutions": 267,
  "byCountry": {
   "Japan": 8,
   "Poland": 6,
-  "Australia": 119,
+  "Australia": 118,
   "Germany": 38,
   "France": 14,
   "Sweden": 25,
@@ -1524,7 +1524,7 @@
   {
    "name": "Yong Qi Lin",
    "orcid": null,
-   "openalex": null,
+   "openalex": "https://openalex.org/A5011084589",
    "works": 2,
    "lastYear": 2026,
    "institution": "The University of Sydney",
@@ -3758,7 +3758,7 @@
    "lon": -79.84963
   },
   {
-   "name": "Emma Judith Hudgins",
+   "name": "Emma J. Hudgins",
    "orcid": "https://orcid.org/0000-0002-8402-5111",
    "openalex": "https://openalex.org/A5012811435",
    "works": 1,
@@ -5981,7 +5981,7 @@
    "lon": null
   },
   {
-   "name": "LARS B. PETTERSSON",
+   "name": "Lars Pettersson",
    "orcid": "https://orcid.org/0000-0001-5745-508X",
    "openalex": "https://openalex.org/A5022635963",
    "works": 1,
@@ -6109,19 +6109,6 @@
    "countryCode": null,
    "lat": null,
    "lon": null
-  },
-  {
-   "name": "Lin Yong Qi",
-   "orcid": null,
-   "openalex": "https://openalex.org/A5011084589",
-   "works": 1,
-   "lastYear": 2026,
-   "institution": "The University of Sydney",
-   "city": "Sydney",
-   "country": "Australia",
-   "countryCode": "AU",
-   "lat": -33.86785,
-   "lon": 151.20732
   },
   {
    "name": "Lionel L’Hoste",
@@ -9231,7 +9218,7 @@
    "lon": -118.28878021240234
   },
   {
-   "name": "Vikram Pratap Narayan",
+   "name": "Vikram P. Narayan",
    "orcid": "https://orcid.org/0000-0002-3543-2394",
    "openalex": "https://openalex.org/A5034784566",
    "works": 1,
