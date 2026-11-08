@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-07",
+ "updated": "2026-11-08",
  "publications": [
   {
    "id": "10.1038/s41559-026-03117-y",
@@ -498,6 +498,57 @@
    "altmetric": null
   },
   {
+   "id": "10.1016/j.cois.2026.101523",
+   "doi": "10.1016/j.cois.2026.101523",
+   "title": "Life cycle complexity drives variation in thermal tolerance and plasticity",
+   "authors": [
+    {
+     "name": "Patrice Pottier",
+     "orcid": "https://orcid.org/0000-0003-2106-6597",
+     "isSelf": true
+    },
+    {
+     "name": "Vanessa Kellermann",
+     "orcid": null,
+     "isSelf": false
+    },
+    {
+     "name": "Daniel WA Noble",
+     "orcid": null,
+     "isSelf": false
+    },
+    {
+     "name": "Carla M Sgrò",
+     "orcid": null,
+     "isSelf": false
+    },
+    {
+     "name": "John S Terblanche",
+     "orcid": null,
+     "isSelf": false
+    },
+    {
+     "name": "Belinda van Heerwaarden",
+     "orcid": null,
+     "isSelf": false
+    }
+   ],
+   "authorLine": "Patrice Pottier, Vanessa Kellermann, Daniel WA Noble, Carla M Sgrò, John S Terblanche, Belinda van Heerwaarden",
+   "journal": "Current Opinion in Insect Science",
+   "year": 2026,
+   "volume": "76",
+   "issue": null,
+   "pages": "101523",
+   "kind": "article",
+   "isOA": true,
+   "oaUrl": "https://doi.org/10.1016/j.cois.2026.101523",
+   "url": "https://doi.org/10.1016/j.cois.2026.101523",
+   "citations": 7,
+   "abstract": "Accumulating evidence suggests that heat tolerance varies substantially across insect development, yet patterns of variation remain difficult to generalise across species. We discuss how the diversity of insect developmental strategies shapes both the intensity and predictability of thermal environments across ontogeny, and how this likely generates variation in heat tolerance, plasticity and carry-over effects. We hypothesise that large developmental variation is expected in holometabolous insects and in species undergoing pronounced microhabitat or diel activity transitions. These transitions can modify heat exposure, behavioural thermoregulatory abilities and the physiological or genetic regulatory network underlying heat tolerance, weakening correlations among life stages. We discuss when carry-over effects are likely to be adaptive, highlighting the importance of environmental predictability, ecological similarity among stages and the balance between heat injury and repair. We argue that an ontogenetic perspective capturing the microenvironmental conditions experienced by each life stage is essential for predicting insect vulnerability to extreme heat.",
+   "preprintUrl": null,
+   "altmetric": null
+  },
+  {
    "id": "10.1093/conphys/coag006",
    "doi": "10.1093/conphys/coag006",
    "title": "Embryos are largely understudied in a representative sample of journals in conservation physiology",
@@ -606,57 +657,6 @@
    "citations": 6,
    "abstract": "Abstract Understanding how animals respond to environmental stressors across their life cycle is essential for predicting species' vulnerability to climate change. Here, we systematically reviewed the literature to quantify the variation in research effort on different life stages in the field of conservation physiology. Specifically, we reviewed experimental studies measuring physiological and life-history responses to climatic stressors across three representative scientific journals: Conservation Physiology, Journal of Thermal Biology and Journal of Experimental Biology. Our systematic map of 1276 studies revealed a pronounced underrepresentation of studies on embryos, representing only 8% to 9% of studies. This pattern was remarkably consistent across all axes considered (i.e. journals, taxonomic groups, physiological traits and environmental stressors). We also found that 80% of studies only investigated single life stages, and over 5% of studies did not clearly report the life stage(s) used. Despite the increasing recognition of the ecological importance and sensitivity of early life stages to environmental stressors, we found no evidence that research on embryos has gained traction over the past decade (2013–2024). We argue that these ontogenetic biases likely reflect a combination of historical precedents and enduring methodological and logistical constraints that continue to shape research agendas. To build a more holistic understanding across the life cycle, we: (i) call for a paradigm shift placing embryos at the center of experimental agendas, (ii) outline emerging methodological advances that increase the feasibility of research on early life stages, (iii) demonstrate how studies on embryos align with ethical considerations for animal research, (iv) highlight perspectives for future evidence syntheses and study reporting and (v) promote investigations of the mechanisms underlying physiological variation across ontogeny. Closing the ontogenetic gap will be key to improving our ability to predict population-level impacts of climate change and guiding more effective conservation and management interventions.",
    "preprintUrl": "https://doi.org/10.32942/x2kp96",
-   "altmetric": null
-  },
-  {
-   "id": "10.1016/j.cois.2026.101523",
-   "doi": "10.1016/j.cois.2026.101523",
-   "title": "Life cycle complexity drives variation in thermal tolerance and plasticity",
-   "authors": [
-    {
-     "name": "Patrice Pottier",
-     "orcid": "https://orcid.org/0000-0003-2106-6597",
-     "isSelf": true
-    },
-    {
-     "name": "Vanessa Kellermann",
-     "orcid": null,
-     "isSelf": false
-    },
-    {
-     "name": "Daniel WA Noble",
-     "orcid": null,
-     "isSelf": false
-    },
-    {
-     "name": "Carla M Sgrò",
-     "orcid": null,
-     "isSelf": false
-    },
-    {
-     "name": "John S Terblanche",
-     "orcid": null,
-     "isSelf": false
-    },
-    {
-     "name": "Belinda van Heerwaarden",
-     "orcid": null,
-     "isSelf": false
-    }
-   ],
-   "authorLine": "Patrice Pottier, Vanessa Kellermann, Daniel WA Noble, Carla M Sgrò, John S Terblanche, Belinda van Heerwaarden",
-   "journal": "Current Opinion in Insect Science",
-   "year": 2026,
-   "volume": "76",
-   "issue": null,
-   "pages": "101523",
-   "kind": "article",
-   "isOA": true,
-   "oaUrl": "https://doi.org/10.1016/j.cois.2026.101523",
-   "url": "https://doi.org/10.1016/j.cois.2026.101523",
-   "citations": 6,
-   "abstract": "Accumulating evidence suggests that heat tolerance varies substantially across insect development, yet patterns of variation remain difficult to generalise across species. We discuss how the diversity of insect developmental strategies shapes both the intensity and predictability of thermal environments across ontogeny, and how this likely generates variation in heat tolerance, plasticity and carry-over effects. We hypothesise that large developmental variation is expected in holometabolous insects and in species undergoing pronounced microhabitat or diel activity transitions. These transitions can modify heat exposure, behavioural thermoregulatory abilities and the physiological or genetic regulatory network underlying heat tolerance, weakening correlations among life stages. We discuss when carry-over effects are likely to be adaptive, highlighting the importance of environmental predictability, ecological similarity among stages and the balance between heat injury and repair. We argue that an ontogenetic perspective capturing the microenvironmental conditions experienced by each life stage is essential for predicting insect vulnerability to extreme heat.",
-   "preprintUrl": null,
    "altmetric": null
   },
   {
@@ -870,7 +870,7 @@
    "isOA": true,
    "oaUrl": "https://doi.org/10.1016/j.envint.2025.109935",
    "url": "https://doi.org/10.1016/j.envint.2025.109935",
-   "citations": 4,
+   "citations": 5,
    "abstract": "Meta-analysis is commonly a core component of systematic reviews and has become an important method to reconcile conflicting findings, increase statistical power, and chart new research directions. However, poor reporting practices make it challenging to evaluate the validity of meta-analyses. Despite the existence of reporting checklists, a specifically designed tool has yet to be developed to appraise the completeness with which a meta-analysis has been reported. To bridge this gap, we introduce the Meta-analysis Appraisal Tool for Environmental Sciences (MATES). To develop MATES, we adapted a Delphi process involving experts in meta-analysis methodologies, researchers with experience in guideline/appraisal tool development, and editors of relevant journals. The Delphi process had five steps, including three workshops (11-16 participants), a survey (193 participants), and a validation task (30 participants). This iterative development process resulted in a 14-item appraisal tool that reflects the environmental science and research syntheses community's consensus on essential elements to appraise the completeness with which a meta-analysis has been reported. Validation across 50 meta-analyses demonstrated that the tool is repeatable (average agreement rate: 88.97 %) and time-efficient to implement (17.00 ± 12.23 min). We also outline guidance for interpreting MATES results, describe its potential applications, and reflect on the development process. The authors provide practical implementation guidance for each MATES item, illustrated with real examples in the supplementary material. We also report an extended development methodology to support reproducibility. Finally, we built created a ShinyApp that includes both a training module and an application tool to enhance the usability of MATES (https://kylemorrisonisshiny99.shinyapps.io/MATES_shiny/). Overall, MATES provides authors, readers, stakeholders, and editors with a reliable and accessible tool for appraising the completeness with which a meta-analysis in environmental sciences has been reported.",
    "preprintUrl": "https://doi.org/10.31222/osf.io/n3cta_v2",
    "altmetric": null
@@ -3104,7 +3104,7 @@
    "isOA": true,
    "oaUrl": "https://link.springer.com/content/pdf/10.1186/s12915-024-02101-x.pdf",
    "url": "https://doi.org/10.1186/s12915-024-02101-x",
-   "citations": 111,
+   "citations": 123,
    "abstract": "Although variation in effect sizes and predicted values among studies of similar phenomena is inevitable, such variation far exceeds what might be produced by sampling error alone. One possible explanation for variation among results is differences among researchers in the decisions they make regarding statistical analyses. A growing array of studies has explored this analytical variability in different fields and has found substantial variability among results despite analysts having the same data and research question. Many of these studies have been in the social sciences, but one small \"many analyst\" study found similar variability in ecology. We expanded the scope of this prior work by implementing a large-scale empirical exploration of the variation in effect sizes and model predictions generated by the analytical decisions of different researchers in ecology and evolutionary biology. We used two unpublished datasets, one from evolutionary ecology (blue tit, Cyanistes caeruleus, to compare sibling number and nestling growth) and one from conservation ecology (Eucalyptus, to compare grass cover and tree seedling recruitment). The project leaders recruited 174 analyst teams, comprising 246 analysts, to investigate the answers to prespecified research questions. Analyses conducted by these teams yielded 141 usable effects (compatible with our meta-analyses and with all necessary information provided) for the blue tit dataset, and 85 usable effects for the Eucalyptus dataset. We found substantial heterogeneity among results for both datasets, although the patterns of variation differed between them. For the blue tit analyses, the average effect was convincingly negative, with less growth for nestlings living with more siblings, but there was near continuous variation in effect size from large negative effects to effects near zero, and even effects crossing the traditional threshold of statistical significance in the opposite direction. In contrast, the average relationship between grass cover and Eucalyptus seedling number was only slightly negative and not convincingly different from zero, and most effects ranged from weakly negative to weakly positive, with about a third of effects crossing the traditional threshold of significance in one direction or the other. However, there were also several striking outliers in the Eucalyptus dataset, with effects far from zero. For both datasets, we found substantial variation in the variable selection and random effects structures among analyses, as well as in the ratings of the analytical methods by peer reviewers, but we found no strong relationship between any of these and deviation from the meta-analytic mean. In other words, analyses with results that were far from the mean were no more or less likely to have dissimilar variable sets, use random effects in their models, or receive poor peer reviews than those analyses that found results that were close to the mean. The existence of substantial variability among analysis outcomes raises important questions about how ecologists and evolutionary biologists should interpret published results, and how they should conduct analyses in the future.",
    "preprintUrl": "https://doi.org/10.32942/x2gg62",
    "altmetric": null
@@ -3175,7 +3175,7 @@
    "isOA": true,
    "oaUrl": "https://doi.org/10.1038/s41586-025-08665-0",
    "url": "https://doi.org/10.1038/s41586-025-08665-0",
-   "citations": 92,
+   "citations": 100,
    "abstract": "Abstract Amphibians are the most threatened vertebrates, yet their resilience to rising temperatures remains poorly understood 1,2 . This is primarily because knowledge of thermal tolerance is taxonomically and geographically biased 3 , compromising global climate vulnerability assessments. Here we used a phylogenetically informed data-imputation approach to predict the heat tolerance of 60% of amphibian species and assessed their vulnerability to daily temperature variations in thermal refugia. We found that 104 out of 5,203 species (2%) are currently exposed to overheating events in shaded terrestrial conditions. Despite accounting for heat-tolerance plasticity, a 4 °C global temperature increase would create a step change in impact severity, pushing 7.5% of species beyond their physiological limits. In the Southern Hemisphere, tropical species encounter disproportionally more overheating events, while non-tropical species are more susceptible in the Northern Hemisphere. These findings challenge evidence for a general latitudinal gradient in overheating risk 4–6 and underscore the importance of considering climatic variability in vulnerability assessments. We provide conservative estimates assuming access to cool shaded microenvironments. Thus, the impacts of global warming will probably exceed our projections. Our microclimate-explicit analyses demonstrate that vegetation and water bodies are critical in buffering amphibians during heat waves. Immediate action is needed to preserve and manage these microhabitat features.",
    "preprintUrl": "https://doi.org/10.32942/x2t02t",
    "altmetric": null
@@ -3251,9 +3251,90 @@
    "isOA": true,
    "oaUrl": "https://doi.org/10.1038/s41467-025-65746-4",
    "url": "https://doi.org/10.1038/s41467-025-65746-4",
-   "citations": 43,
+   "citations": 45,
    "abstract": "Per- and polyfluoroalkyl substances (PFAS) threaten ecosystems worldwide due to their persistence, bioaccumulation, and toxicity. Through a global-scale meta-analysis of 122 aquatic and terrestrial food webs from 64 studies, we analyse 1,009 trophic magnification factors (TMFs) for 72 PFAS and identify key variability drivers. PFAS concentrations systematically doubled with each trophic level increase (mean TMF=2.00, 95% CI:1.64-2.45), confirming widespread biomagnification across ecosystems. Methodological disparities across studies emerged as the dominant source of TMF variability. Our models explained 84% of the variation in TMFs, underscoring predictive capacity. Notably, the industrial alternative F-53B exhibited the highest magnification (TMF=3.07, 95% CI:2.41-3.92), a critical finding given its expanding use and minimal regulatory scrutiny. This synthesis establishes PFAS as persistent trophic multipliers and provides a framework to prioritise high-risk compounds and harmonise biomagnification assessments. Our results call for consideration of stricter PFAS regulation to curb cascading ecological and health impacts.",
    "preprintUrl": "https://doi.org/10.32942/x2sp92",
+   "altmetric": null
+  },
+  {
+   "id": "10.1098/rsos.250759",
+   "doi": "10.1098/rsos.250759",
+   "title": "Harnessing meta-analyses’ insights in ecology and evolution research",
+   "authors": [
+    {
+     "name": "Pietro Pollo",
+     "orcid": "https://orcid.org/0000-0001-6555-5400",
+     "isSelf": false
+    },
+    {
+     "name": "April Robin Martinig",
+     "orcid": "https://orcid.org/0000-0002-0972-6903",
+     "isSelf": false
+    },
+    {
+     "name": "Ayumi Mizuno",
+     "orcid": "https://orcid.org/0000-0003-0822-5637",
+     "isSelf": false
+    },
+    {
+     "name": "Kyle Morrison",
+     "orcid": "https://orcid.org/0000-0002-3700-2398",
+     "isSelf": false
+    },
+    {
+     "name": "Patrice Pottier",
+     "orcid": "https://orcid.org/0000-0003-2106-6597",
+     "isSelf": true
+    },
+    {
+     "name": "Lorenzo Ricolfi",
+     "orcid": "https://orcid.org/0000-0001-7101-3309",
+     "isSelf": false
+    },
+    {
+     "name": "Jesse Tam",
+     "orcid": "https://orcid.org/0000-0003-3655-1974",
+     "isSelf": false
+    },
+    {
+     "name": "Coralie Williams",
+     "orcid": "https://orcid.org/0000-0003-1312-4953",
+     "isSelf": false
+    },
+    {
+     "name": "Yefeng Yang",
+     "orcid": "https://orcid.org/0000-0002-8610-4016",
+     "isSelf": false
+    },
+    {
+     "name": "Szymek Marian Drobniak",
+     "orcid": "https://orcid.org/0000-0001-8101-6247",
+     "isSelf": false
+    },
+    {
+     "name": "Malgorzata Lagisz",
+     "orcid": "https://orcid.org/0000-0002-3993-6127",
+     "isSelf": false
+    },
+    {
+     "name": "Shinichi Nakagawa",
+     "orcid": "https://orcid.org/0000-0002-7765-5182",
+     "isSelf": false
+    }
+   ],
+   "authorLine": "Pietro Pollo, April Robin Martinig, Ayumi Mizuno, Kyle Morrison, Patrice Pottier, Lorenzo Ricolfi, Jesse Tam, Coralie Williams, Yefeng Yang, Szymek Marian Drobniak, Malgorzata Lagisz, Shinichi Nakagawa",
+   "journal": "Royal Society Open Science",
+   "year": 2025,
+   "volume": "12",
+   "issue": "10",
+   "pages": "250759",
+   "kind": "article",
+   "isOA": true,
+   "oaUrl": "https://doi.org/10.1098/rsos.250759",
+   "url": "https://doi.org/10.1098/rsos.250759",
+   "citations": 8,
+   "abstract": "Meta-analyses are powerful tools to synthesize the literature in several fields of study, including ecology and evolution. However, it remains uncertain whether ecologists and evolutionary biologists fully comprehend meta-analyses' findings or effectively apply them when citing these studies in their own research. Here, we first discuss key meta-analytical concepts and provide a guide to researchers in ecology and evolution on how to harness meta-analyses' insights. For instance, we clarify the meaning of effect sizes and heterogeneity to improve understanding of meta-analyses' quantitative findings. In addition, we analysed articles published in 2023 in ecology and evolution to investigate how frequently and in what context meta-analyses were cited. We found that approximately 21% of articles cited at least one meta-analysis, and that the relative number of citations of meta-analyses (0.62% of all citations analysed) was greater than the publication frequency of meta-analytical articles (0.44% of all articles). Most importantly, we found that while the direction of mean effect sizes from cited meta-analyses was often mentioned, the magnitude of effect sizes and the limitations of the data analysed were frequently overlooked. These findings underscore the need for improved citation practices of meta-analyses in ecological and evolutionary research, which our recommendations seek to promote.",
+   "preprintUrl": "https://doi.org/10.32942/x2pw5p",
    "altmetric": null
   },
   {
@@ -3605,87 +3686,6 @@
    "citations": 6,
    "abstract": "Publishing preprints is quickly becoming commonplace in ecology and evolutionary biology. Preprints can facilitate the rapid sharing of scientific knowledge establishing precedence and enabling feedback from the research community before peer review. Yet, significant barriers to preprint use exist, including language barriers, a lack of understanding about the benefits of preprints and a lack of diversity in the types of research outputs accepted (e.g. reports). Community-driven preprint initiatives can allow a research community to come together to break down these barriers to improve equity and coverage of global knowledge. Here, we explore the first preprints uploaded to EcoEvoRxiv ( n = 1216), a community-driven preprint server for ecologists and evolutionary biologists, to characterize preprint use in ecology, evolution and conservation. Our perspective piece highlights some of the unique initiatives that EcoEvoRxiv has taken to break down barriers to scientific publishing by exploring the composition of articles, how gender and career stage influence preprint use, whether preprints are associated with greater open science practices (e.g. code and data sharing) and tracking preprint publication outcomes. Our analysis identifies areas that we still need to improve upon but highlights how community-driven initiatives, such as EcoEvoRxiv , can play a crucial role in shaping publishing practices in biology.",
    "preprintUrl": "https://doi.org/10.32942/x2ss46",
-   "altmetric": null
-  },
-  {
-   "id": "10.1098/rsos.250759",
-   "doi": "10.1098/rsos.250759",
-   "title": "Harnessing meta-analyses’ insights in ecology and evolution research",
-   "authors": [
-    {
-     "name": "Pietro Pollo",
-     "orcid": "https://orcid.org/0000-0001-6555-5400",
-     "isSelf": false
-    },
-    {
-     "name": "April Robin Martinig",
-     "orcid": "https://orcid.org/0000-0002-0972-6903",
-     "isSelf": false
-    },
-    {
-     "name": "Ayumi Mizuno",
-     "orcid": "https://orcid.org/0000-0003-0822-5637",
-     "isSelf": false
-    },
-    {
-     "name": "Kyle Morrison",
-     "orcid": "https://orcid.org/0000-0002-3700-2398",
-     "isSelf": false
-    },
-    {
-     "name": "Patrice Pottier",
-     "orcid": "https://orcid.org/0000-0003-2106-6597",
-     "isSelf": true
-    },
-    {
-     "name": "Lorenzo Ricolfi",
-     "orcid": "https://orcid.org/0000-0001-7101-3309",
-     "isSelf": false
-    },
-    {
-     "name": "Jesse Tam",
-     "orcid": "https://orcid.org/0000-0003-3655-1974",
-     "isSelf": false
-    },
-    {
-     "name": "Coralie Williams",
-     "orcid": "https://orcid.org/0000-0003-1312-4953",
-     "isSelf": false
-    },
-    {
-     "name": "Yefeng Yang",
-     "orcid": "https://orcid.org/0000-0002-8610-4016",
-     "isSelf": false
-    },
-    {
-     "name": "Szymek Marian Drobniak",
-     "orcid": "https://orcid.org/0000-0001-8101-6247",
-     "isSelf": false
-    },
-    {
-     "name": "Malgorzata Lagisz",
-     "orcid": "https://orcid.org/0000-0002-3993-6127",
-     "isSelf": false
-    },
-    {
-     "name": "Shinichi Nakagawa",
-     "orcid": "https://orcid.org/0000-0002-7765-5182",
-     "isSelf": false
-    }
-   ],
-   "authorLine": "Pietro Pollo, April Robin Martinig, Ayumi Mizuno, Kyle Morrison, Patrice Pottier, Lorenzo Ricolfi, Jesse Tam, Coralie Williams, Yefeng Yang, Szymek Marian Drobniak, Malgorzata Lagisz, Shinichi Nakagawa",
-   "journal": "Royal Society Open Science",
-   "year": 2025,
-   "volume": "12",
-   "issue": "10",
-   "pages": "250759",
-   "kind": "article",
-   "isOA": true,
-   "oaUrl": "https://doi.org/10.1098/rsos.250759",
-   "url": "https://doi.org/10.1098/rsos.250759",
-   "citations": 6,
-   "abstract": "Meta-analyses are powerful tools to synthesize the literature in several fields of study, including ecology and evolution. However, it remains uncertain whether ecologists and evolutionary biologists fully comprehend meta-analyses' findings or effectively apply them when citing these studies in their own research. Here, we first discuss key meta-analytical concepts and provide a guide to researchers in ecology and evolution on how to harness meta-analyses' insights. For instance, we clarify the meaning of effect sizes and heterogeneity to improve understanding of meta-analyses' quantitative findings. In addition, we analysed articles published in 2023 in ecology and evolution to investigate how frequently and in what context meta-analyses were cited. We found that approximately 21% of articles cited at least one meta-analysis, and that the relative number of citations of meta-analyses (0.62% of all citations analysed) was greater than the publication frequency of meta-analytical articles (0.44% of all articles). Most importantly, we found that while the direction of mean effect sizes from cited meta-analyses was often mentioned, the magnitude of effect sizes and the limitations of the data analysed were frequently overlooked. These findings underscore the need for improved citation practices of meta-analyses in ecological and evolutionary research, which our recommendations seek to promote.",
-   "preprintUrl": "https://doi.org/10.32942/x2pw5p",
    "altmetric": null
   },
   {
@@ -4108,7 +4108,7 @@
    "isOA": true,
    "oaUrl": "https://doi.org/10.1098/rspb.2024.1222",
    "url": "https://doi.org/10.1098/rspb.2024.1222",
-   "citations": 70,
+   "citations": 80,
    "abstract": "In a growing digital landscape, enhancing the discoverability and resonance of scientific articles is essential. Here, we offer 10 recommendations to amplify the discoverability of studies in search engines and databases. Particularly, we argue that the strategic use and placement of key terms in the title, abstract and keyword sections can boost indexing and appeal. By surveying 230 journals in ecology and evolutionary biology, we found that current author guidelines may unintentionally limit article findability. Our survey of 5323 studies revealed that authors frequently exhaust abstract word limits-particularly those capped under 250 words. This suggests that current guidelines may be overly restrictive and not optimized to increase the dissemination and discoverability of digital publications. Additionally, 92% of studies used redundant keywords in the title or abstract, undermining optimal indexing in databases. We encourage adopting structured abstracts to maximize the incorporation of key terms in titles, abstracts and keywords. In addition, we encourage the relaxation of abstract and keyword limitations in journals with strict guidelines, and the inclusion of multilingual abstracts to broaden global accessibility. These recommendations to editors are designed to improve article engagement and facilitate evidence synthesis, thereby aligning scientific publishing with the modern needs of academic research.",
    "preprintUrl": "https://doi.org/10.1101/2023.10.02.559861",
    "altmetric": null
@@ -4309,7 +4309,7 @@
    "isOA": true,
    "oaUrl": "https://doi.org/10.1098/rspb.2023.2840",
    "url": "https://doi.org/10.1098/rspb.2023.2840",
-   "citations": 69,
+   "citations": 73,
    "abstract": "Scientific knowledge is produced in multiple languages but is predominantly published in English. This practice creates a language barrier to generate and transfer scientific knowledge between communities with diverse linguistic backgrounds, hindering the ability of scholars and communities to address global challenges and achieve diversity and equity in science, technology, engineering and mathematics (STEM). To overcome those barriers, publishers and journals should provide a fair system that supports non-native English speakers and disseminates knowledge across the globe. We surveyed policies of 736 journals in biological sciences to assess their linguistic inclusivity, identify predictors of inclusivity, and propose actions to overcome language barriers in academic publishing. Our assessment revealed a grim landscape where most journals were making minimal efforts to overcome language barriers. The impact factor of journals was negatively associated with adopting a number of inclusive policies whereas ownership by a scientific society tended to have a positive association. Contrary to our expectations, the proportion of both open access articles and editors based in non-English speaking countries did not have a major positive association with the adoption of linguistically inclusive policies. We proposed a set of actions to overcome language barriers in academic publishing, including the renegotiation of power dynamics between publishers and editorial boards.",
    "preprintUrl": null,
    "altmetric": null
@@ -4425,7 +4425,7 @@
    "isOA": true,
    "oaUrl": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/2041-210X.14270",
    "url": "https://doi.org/10.1111/2041-210x.14270",
-   "citations": 45,
+   "citations": 51,
    "abstract": "Abstract Increasing attention has been drawn to the misuse of statistical methods over recent years, with particular concern about the prevalence of practices such as poor experimental design, cherry picking and inadequate reporting. These failures are largely unintentional and no more common in ecology than in other scientific disciplines, with many of them easily remedied given the right guidance. Originating from a discussion at the 2020 International Statistical Ecology Conference, we show how ecologists can build their research following four guiding principles for impactful statistical research practices: (1) define a focussed research question, then plan sampling and analysis to answer it; (2) develop a model that accounts for the distribution and dependence of your data; (3) emphasise effect sizes to replace statistical significance with ecological relevance; and (4) report your methods and findings in sufficient detail so that your research is valid and reproducible. These principles provide a framework for experimental design and reporting that guards against unsound practices. Starting with a well‐defined research question allows researchers to create an efficient study to answer it, and guards against poor research practices that lead to poor estimation of the direction, magnitude, and uncertainty of ecological relationships, and to poor replicability. Correct and appropriate statistical models give sound conclusions. Good reporting practices and a focus on ecological relevance make results impactful and replicable. Illustrated with two examples—an experiment to study the impact of disturbance on upland wetlands, and an observational study on blue tit colouring—this paper explains the rationale for the selection and use of effective statistical practices and provides practical guidance for ecologists seeking to improve their use of statistical methods.",
    "preprintUrl": "https://doi.org/10.48550/arxiv.2302.01528",
    "altmetric": null
@@ -4666,8 +4666,74 @@
    "isOA": true,
    "oaUrl": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/2688-8319.12303",
    "url": "https://doi.org/10.1002/2688-8319.12303",
-   "citations": 42,
+   "citations": 47,
    "abstract": "Abstract Exposure to extreme temperatures can negatively affect animal reproduction, by disrupting the ability of individuals to produce any offspring (fertility), or the number of offspring produced by fertile individuals (fecundity). This has important ecological consequences, because reproduction is the ultimate measure of population fitness: a reduction in reproductive output lowers the population growth rate and increases the extinction risk. Despite this importance, there have been no large‐scale summaries of the evidence for effect of temperature on reproduction. We provide a systematic map of studies testing the relationship between temperature and animal reproduction. We systematically searched for published studies that statistically test for a direct link between temperature and animal reproduction, in terms of fertility, fecundity or indirect measures of reproductive potential (gamete and gonad traits). Overall, we collated a large and rich evidence base, with 1654 papers that met our inclusion criteria, encompassing 1191 species. The map revealed several important research gaps. Insects made up almost half of the dataset, but reptiles and amphibians were uncommon, as were non‐arthropod invertebrates. Fecundity was the most common reproductive trait examined, and relatively few studies measured fertility. It was uncommon for experimental studies to test exposure of different life stages, exposure to short‐term heat or cold shock, exposure to temperature fluctuations, or to independently assess male and female effects. Studies were most often published in journals focusing on entomology and pest control, ecology and evolution, aquaculture and fisheries science, and marine biology. Finally, while individuals were sampled from every continent, there was a strong sampling bias towards mid‐latitudes in the Northern Hemisphere, such that the tropics and polar regions are less well sampled. This map reveals a rich literature of studies testing the relationship between temperature and animal reproduction, but also uncovers substantial missing treatment of taxa, traits, and thermal regimes. This database will provide a valuable resource for future quantitative meta‐analyses, and direct future studies aiming to fill identified gaps.",
+   "preprintUrl": null,
+   "altmetric": null
+  },
+  {
+   "id": "10.1016/j.tree.2023.12.004",
+   "doi": "10.1016/j.tree.2023.12.004",
+   "title": "New horizons for comparative studies and meta-analyses",
+   "authors": [
+    {
+     "name": "Patrice Pottier",
+     "orcid": "https://orcid.org/0000-0003-2106-6597",
+     "isSelf": true
+    },
+    {
+     "name": "Daniel W.A. Noble",
+     "orcid": "https://orcid.org/0000-0001-9460-8743",
+     "isSelf": false
+    },
+    {
+     "name": "Frank Seebacher",
+     "orcid": "https://orcid.org/0000-0002-2281-9311",
+     "isSelf": false
+    },
+    {
+     "name": "Nicholas C. Wu",
+     "orcid": "https://orcid.org/0000-0002-7130-1279",
+     "isSelf": false
+    },
+    {
+     "name": "Samantha Burke",
+     "orcid": "https://orcid.org/0000-0001-6902-974X",
+     "isSelf": false
+    },
+    {
+     "name": "Malgorzata Lagisz",
+     "orcid": "https://orcid.org/0000-0002-3993-6127",
+     "isSelf": false
+    },
+    {
+     "name": "Lisa E. Schwanz",
+     "orcid": "https://orcid.org/0000-0001-5864-7112",
+     "isSelf": false
+    },
+    {
+     "name": "Szymon M. Drobniak",
+     "orcid": "https://orcid.org/0000-0001-8101-6247",
+     "isSelf": false
+    },
+    {
+     "name": "Shinichi Nakagawa",
+     "orcid": "https://orcid.org/0000-0002-7765-5182",
+     "isSelf": false
+    }
+   ],
+   "authorLine": "Patrice Pottier, Daniel W.A. Noble, Frank Seebacher, Nicholas C. Wu, Samantha Burke, Malgorzata Lagisz, Lisa E. Schwanz, Szymon M. Drobniak, Shinichi Nakagawa",
+   "journal": "Trends in Ecology & Evolution",
+   "year": 2024,
+   "volume": "39",
+   "issue": "5",
+   "pages": "435-445",
+   "kind": "article",
+   "isOA": true,
+   "oaUrl": "http://www.cell.com/article/S016953472300335X/pdf",
+   "url": "https://doi.org/10.1016/j.tree.2023.12.004",
+   "citations": 22,
+   "abstract": "Comparative analyses and meta-analyses are key tools to elucidate broad biological principles, yet the two approaches often appear different in purpose. We propose an integrated approach that can generate deeper insights into ecoevolutionary processes. Marrying comparative and meta-analytic approaches will allow for (i) a more accurate investigation of drivers of biological variation, (ii) a greater ability to account for sources of non-independence in experimental data, (iii) more effective control of publication bias, and (iv) improved transparency and reproducibility. Stronger integration of meta-analytic and comparative studies can also broaden the scope from species-centric investigations to community-level responses and function-valued traits (e.g., reaction norms). We illuminate commonalities, differences, and the transformative potential of combining these methodologies for advancing ecology and evolutionary biology.",
    "preprintUrl": null,
    "altmetric": null
   },
@@ -4823,72 +4889,6 @@
    "altmetric": null
   },
   {
-   "id": "10.1016/j.tree.2023.12.004",
-   "doi": "10.1016/j.tree.2023.12.004",
-   "title": "New horizons for comparative studies and meta-analyses",
-   "authors": [
-    {
-     "name": "Patrice Pottier",
-     "orcid": "https://orcid.org/0000-0003-2106-6597",
-     "isSelf": true
-    },
-    {
-     "name": "Daniel W.A. Noble",
-     "orcid": "https://orcid.org/0000-0001-9460-8743",
-     "isSelf": false
-    },
-    {
-     "name": "Frank Seebacher",
-     "orcid": "https://orcid.org/0000-0002-2281-9311",
-     "isSelf": false
-    },
-    {
-     "name": "Nicholas C. Wu",
-     "orcid": "https://orcid.org/0000-0002-7130-1279",
-     "isSelf": false
-    },
-    {
-     "name": "Samantha Burke",
-     "orcid": "https://orcid.org/0000-0001-6902-974X",
-     "isSelf": false
-    },
-    {
-     "name": "Malgorzata Lagisz",
-     "orcid": "https://orcid.org/0000-0002-3993-6127",
-     "isSelf": false
-    },
-    {
-     "name": "Lisa E. Schwanz",
-     "orcid": "https://orcid.org/0000-0001-5864-7112",
-     "isSelf": false
-    },
-    {
-     "name": "Szymon M. Drobniak",
-     "orcid": "https://orcid.org/0000-0001-8101-6247",
-     "isSelf": false
-    },
-    {
-     "name": "Shinichi Nakagawa",
-     "orcid": "https://orcid.org/0000-0002-7765-5182",
-     "isSelf": false
-    }
-   ],
-   "authorLine": "Patrice Pottier, Daniel W.A. Noble, Frank Seebacher, Nicholas C. Wu, Samantha Burke, Malgorzata Lagisz, Lisa E. Schwanz, Szymon M. Drobniak, Shinichi Nakagawa",
-   "journal": "Trends in Ecology & Evolution",
-   "year": 2024,
-   "volume": "39",
-   "issue": "5",
-   "pages": "435-445",
-   "kind": "article",
-   "isOA": true,
-   "oaUrl": "http://www.cell.com/article/S016953472300335X/pdf",
-   "url": "https://doi.org/10.1016/j.tree.2023.12.004",
-   "citations": 21,
-   "abstract": "Comparative analyses and meta-analyses are key tools to elucidate broad biological principles, yet the two approaches often appear different in purpose. We propose an integrated approach that can generate deeper insights into ecoevolutionary processes. Marrying comparative and meta-analytic approaches will allow for (i) a more accurate investigation of drivers of biological variation, (ii) a greater ability to account for sources of non-independence in experimental data, (iii) more effective control of publication bias, and (iv) improved transparency and reproducibility. Stronger integration of meta-analytic and comparative studies can also broaden the scope from species-centric investigations to community-level responses and function-valued traits (e.g., reaction norms). We illuminate commonalities, differences, and the transformative potential of combining these methodologies for advancing ecology and evolutionary biology.",
-   "preprintUrl": null,
-   "altmetric": null
-  },
-  {
    "id": "10.1016/j.cbpa.2024.111688",
    "doi": "10.1016/j.cbpa.2024.111688",
    "title": "Reporting guidelines for terrestrial respirometry: Building openness, transparency of metabolic rate and evaporative water loss data",
@@ -4959,7 +4959,7 @@
    "isOA": true,
    "oaUrl": "https://doi.org/10.1016/j.cbpa.2024.111688",
    "url": "https://doi.org/10.1016/j.cbpa.2024.111688",
-   "citations": 9,
+   "citations": 10,
    "abstract": "Respirometry is an important tool for understanding whole-animal energy and water balance in relation to the environment. Consequently, the growing number of studies using respirometry over the last decade warrants reliable reporting and data sharing for effective dissemination and research synthesis. We provide a checklist guideline on five key sections to facilitate the transparency, reproducibility, and replicability of respirometry studies: 1) materials, set up, plumbing, 2) subject conditions/maintenance, 3) measurement conditions, 4) data processing, and 5) data reporting and statistics, each with explanations and example studies. Transparency in reporting and data availability has benefits on multiple fronts. Authors can use this checklist to design and report on their study, and reviewers and editors can use the checklist to assess the reporting quality of the manuscripts they review. Improved standards for reporting will enhance the value of primary studies and will greatly facilitate the ability to carry out higher quality research syntheses to address ecological and evolutionary theories.",
    "preprintUrl": "https://doi.org/10.32942/x2402m",
    "altmetric": null
@@ -5000,7 +5000,7 @@
    "isOA": true,
    "oaUrl": "https://iopscience.iop.org/article/10.1088/1748-9326/ad7ee1/pdf",
    "url": "https://doi.org/10.1088/1748-9326/ad7ee1",
-   "citations": 7,
+   "citations": 8,
    "abstract": "Abstract Coastal infrastructure has reduced habitat complexity and altered light regimes compared to natural habitats, altering ecological communities and reducing overall biodiversity. Although, many studies have assessed effects of infrastructure on the overall biodiversity, these were often restricted in scope, by assessing only a particular type of infrastructure, such as coastal defence structures, or by focusing solely on diversity metrics. Therefore, we still have little knowledge on the functional impacts of infrastructure, in general, on coastal habitats. To address this knowledge gap, we conducted a systematic review and meta-analysis comparing the functional composition of natural and artificial marine habitats. We analysed a total of 68 publications from 26 countries, with data collected between 1995–2019. We found up to 60% more habitat-forming algae on natural habitats than on infrastructure at most tidal heights, but no differences were found when looking at all species of macro-algal, i.e. including non-habitat-formers. In contrast, we found more habitat-forming filter feeders, such as oysters and mussels, on subtidal vertical and floating structures, such as pylons and pontoons, respectively, than on natural habitats. Differences on the abundance of grazers varied with tidal height and/or the type of infrastructure. For example, in the subtidal, grazers were significantly more abundant on natural boulders than on infrastructure, while at low tidal heights, we found significantly less grazers on artificial floating structures and on vertical structures than on natural habitats. With coastal development on the rise, these differences have significant implications for productivity, energy and nutrient flow in coastal systems. Our findings highlight the importance of adopting a functional approach to have a more holistic understanding on the environmental impacts associated to marine urbanisation and thus better inform management and restoration efforts.",
    "preprintUrl": null,
    "altmetric": null
@@ -5061,64 +5061,8 @@
    "isOA": true,
    "oaUrl": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/2041-210X.14152",
    "url": "https://doi.org/10.1111/2041-210x.14152",
-   "citations": 184,
+   "citations": 200,
    "abstract": "1. Although meta-analysis has become an essential tool in ecology and evolution, reporting of meta-analytic results can still be much improved. To aid this, we have introduced the orchard plot, which presents not only overall estimates and their confidence intervals but also shows corresponding heterogeneity (as prediction intervals) and individual effect sizes. 2. Here, we have added significant enhancements by integrating many new functionalities as orchaRd 2.0. This updated version allows the visualisation of heteroscedasticity (different variances across levels of a categorical moderator), marginal estimates (e.g., marginalising out effects other than the one visualized), conditional estimates (i.e., estimates of different groups conditioned upon specific values of a continuous variable), and visualizations of all types of interactions between two categorical/continuous moderators.3. orchaRd 2.0 has additional functions which calculate key statistics from multilevel meta-analytic models such as I2 and R2. Importantly, orchaRd 2.0 contributes to better reporting by complying with PRISMA-EcoEvo (preferred reporting items for systematic reviews and meta-analyses in ecology and evolution). Taken together, orchaRd 2.0 can improve the presentation of meta-analytic results and facilitate the exploration of previously neglected patterns. 4. In addition, as a part of a literature survey, we found that graphical packages are rarely cited (~3%). We plea that researchers credit developers and maintainers of graphical packages, e.g., by citations in a figure legend, acknowledging the use of relevant packages.",
-   "preprintUrl": null,
-   "altmetric": null
-  },
-  {
-   "id": "10.1111/ele.14266",
-   "doi": "10.1111/ele.14266",
-   "title": "The impact of rising temperatures on the prevalence of coral diseases and its predictability: A global meta‐analysis",
-   "authors": [
-    {
-     "name": "Samantha Burke",
-     "orcid": "https://orcid.org/0000-0001-6902-974X",
-     "isSelf": false
-    },
-    {
-     "name": "Patrice Pottier",
-     "orcid": "https://orcid.org/0000-0003-2106-6597",
-     "isSelf": true
-    },
-    {
-     "name": "Malgorzata Lagisz",
-     "orcid": "https://orcid.org/0000-0002-3993-6127",
-     "isSelf": false
-    },
-    {
-     "name": "Erin L. Macartney",
-     "orcid": "https://orcid.org/0000-0003-3866-143X",
-     "isSelf": false
-    },
-    {
-     "name": "Tracy Ainsworth",
-     "orcid": "https://orcid.org/0000-0001-6476-9263",
-     "isSelf": false
-    },
-    {
-     "name": "Szymon M. Drobniak",
-     "orcid": "https://orcid.org/0000-0001-8101-6247",
-     "isSelf": false
-    },
-    {
-     "name": "Shinichi Nakagawa",
-     "orcid": "https://orcid.org/0000-0002-7765-5182",
-     "isSelf": false
-    }
-   ],
-   "authorLine": "Samantha Burke, Patrice Pottier, Malgorzata Lagisz, Erin L. Macartney, Tracy Ainsworth, Szymon M. Drobniak, Shinichi Nakagawa",
-   "journal": "Ecology Letters",
-   "year": 2023,
-   "volume": "26",
-   "issue": "8",
-   "pages": "1466-1481",
-   "kind": "article",
-   "isOA": true,
-   "oaUrl": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/ele.14266",
-   "url": "https://doi.org/10.1111/ele.14266",
-   "citations": 82,
-   "abstract": "Coral reefs are under threat from disease as climate change alters environmental conditions. Rising temperatures exacerbate coral disease, but this relationship is likely complex as other factors also influence coral disease prevalence. To better understand this relationship, we meta-analytically examined 108 studies for changes in global coral disease over time alongside temperature, expressed using average summer sea surface temperature (SST) and cumulative heat stress as weekly sea surface temperature anomalies (WSSTAs). We found that both rising average summer SST and WSSTA were associated with global increases in the mean and variability in coral disease prevalence. Global coral disease prevalence tripled, reaching 9.92% in the 25 years examined, and the effect of 'year' became more stable (i.e. prevalence has lower variance over time), contrasting the effects of the two temperature stressors. Regional patterns diverged over time and differed in response to average summer SST. Our model predicted that, under the same trajectory, 76.8% of corals would be diseased globally by 2100, even assuming moderate average summer SST and WSSTA. These results highlight the need for urgent action to mitigate coral disease. Mitigating the impact of rising ocean temperatures on coral disease is a complex challenge requiring global discussion and further study.",
    "preprintUrl": null,
    "altmetric": null
   },
@@ -5328,7 +5272,7 @@
    "isOA": true,
    "oaUrl": "https://www.zora.uzh.ch/id/eprint/232497/1/s41893_023_01087_8.pdf",
    "url": "https://doi.org/10.1038/s41893-023-01087-8",
-   "citations": 79,
+   "citations": 86,
    "abstract": null,
    "preprintUrl": null,
    "altmetric": null
@@ -5454,8 +5398,64 @@
    "isOA": true,
    "oaUrl": "https://www.nature.com/articles/s41467-023-37039-1.pdf",
    "url": "https://doi.org/10.1038/s41467-023-37039-1",
-   "citations": 76,
+   "citations": 86,
    "abstract": "Contributor Roles Taxonomy (CRediT) has recently changed how author contributions are acknowledged. To extend and complement CRediT, we propose MeRIT, a new way of writing the Methods section using the author’s initials to further clarify contributor roles for reproducibility and replicability. Lack of information on authors’ contribution to specific aspects of a study hampers reproducibility and replicability. Here, the authors propose a new, easily implemented reporting system to clarify contributor roles in the Methods section of an article.",
+   "preprintUrl": null,
+   "altmetric": null
+  },
+  {
+   "id": "10.1111/ele.14266",
+   "doi": "10.1111/ele.14266",
+   "title": "The impact of rising temperatures on the prevalence of coral diseases and its predictability: A global meta‐analysis",
+   "authors": [
+    {
+     "name": "Samantha Burke",
+     "orcid": "https://orcid.org/0000-0001-6902-974X",
+     "isSelf": false
+    },
+    {
+     "name": "Patrice Pottier",
+     "orcid": "https://orcid.org/0000-0003-2106-6597",
+     "isSelf": true
+    },
+    {
+     "name": "Malgorzata Lagisz",
+     "orcid": "https://orcid.org/0000-0002-3993-6127",
+     "isSelf": false
+    },
+    {
+     "name": "Erin L. Macartney",
+     "orcid": "https://orcid.org/0000-0003-3866-143X",
+     "isSelf": false
+    },
+    {
+     "name": "Tracy Ainsworth",
+     "orcid": "https://orcid.org/0000-0001-6476-9263",
+     "isSelf": false
+    },
+    {
+     "name": "Szymon M. Drobniak",
+     "orcid": "https://orcid.org/0000-0001-8101-6247",
+     "isSelf": false
+    },
+    {
+     "name": "Shinichi Nakagawa",
+     "orcid": "https://orcid.org/0000-0002-7765-5182",
+     "isSelf": false
+    }
+   ],
+   "authorLine": "Samantha Burke, Patrice Pottier, Malgorzata Lagisz, Erin L. Macartney, Tracy Ainsworth, Szymon M. Drobniak, Shinichi Nakagawa",
+   "journal": "Ecology Letters",
+   "year": 2023,
+   "volume": "26",
+   "issue": "8",
+   "pages": "1466-1481",
+   "kind": "article",
+   "isOA": true,
+   "oaUrl": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/ele.14266",
+   "url": "https://doi.org/10.1111/ele.14266",
+   "citations": 86,
+   "abstract": "Coral reefs are under threat from disease as climate change alters environmental conditions. Rising temperatures exacerbate coral disease, but this relationship is likely complex as other factors also influence coral disease prevalence. To better understand this relationship, we meta-analytically examined 108 studies for changes in global coral disease over time alongside temperature, expressed using average summer sea surface temperature (SST) and cumulative heat stress as weekly sea surface temperature anomalies (WSSTAs). We found that both rising average summer SST and WSSTA were associated with global increases in the mean and variability in coral disease prevalence. Global coral disease prevalence tripled, reaching 9.92% in the 25 years examined, and the effect of 'year' became more stable (i.e. prevalence has lower variance over time), contrasting the effects of the two temperature stressors. Regional patterns diverged over time and differed in response to average summer SST. Our model predicted that, under the same trajectory, 76.8% of corals would be diseased globally by 2100, even assuming moderate average summer SST and WSSTA. These results highlight the need for urgent action to mitigate coral disease. Mitigating the impact of rising ocean temperatures on coral disease is a complex challenge requiring global discussion and further study.",
    "preprintUrl": null,
    "altmetric": null
   },
@@ -5511,57 +5511,6 @@
    "altmetric": null
   },
   {
-   "id": "10.22541/au.167785097.78920686/v1",
-   "doi": "10.22541/au.167785097.78920686/v1",
-   "title": "Native and commercial microbial inoculants show equal effects on plant growth in dryland ecosystems",
-   "authors": [
-    {
-     "name": "Frederick Dadzie",
-     "orcid": "https://orcid.org/0000-0001-6130-9907",
-     "isSelf": false
-    },
-    {
-     "name": "Miriam Muñoz-Rojas",
-     "orcid": null,
-     "isSelf": false
-    },
-    {
-     "name": "Eve Slavich",
-     "orcid": null,
-     "isSelf": false
-    },
-    {
-     "name": "Patrice Pottier",
-     "orcid": "https://orcid.org/0000-0003-2106-6597",
-     "isSelf": true
-    },
-    {
-     "name": "Karen Zeng",
-     "orcid": "https://orcid.org/0000-0003-3338-3733",
-     "isSelf": false
-    },
-    {
-     "name": "Angela Moles",
-     "orcid": "https://orcid.org/0000-0003-2041-7762",
-     "isSelf": false
-    }
-   ],
-   "authorLine": "Frederick Dadzie, Miriam Muñoz-Rojas, Eve Slavich, Patrice Pottier, Karen Zeng, Angela Moles",
-   "journal": null,
-   "year": 2023,
-   "volume": null,
-   "issue": null,
-   "pages": null,
-   "kind": "preprint",
-   "isOA": true,
-   "oaUrl": "https://www.authorea.com/doi/pdf/10.22541/au.167785097.78920686",
-   "url": "https://doi.org/10.22541/au.167785097.78920686/v1",
-   "citations": 6,
-   "abstract": "There are a wide variety of microbial inoculant types available to restoration practitioners, but little information as to which performs best under field conditions in dryland ecosystems. We used a meta-analysis of 62 dryland studies to provide the first quantitative comparison of native vs commercial, diverse vs single species, and fungal vs bacterial microbial inoculants. We found that while microbial inoculation increases plant growth compared to uninoculated counterparts, contrary to our expectations, the magnitude of effect was statistically similar for all the inoculant pairs. Our results suggest that land managers should use inoculant types that are readily available and easy to handle rather than complicated and expensive inoculants that combine multiple taxa of local origin microbes.",
-   "preprintUrl": null,
-   "altmetric": null
-  },
-  {
    "id": "10.1002/2688-8319.12287",
    "doi": "10.1002/2688-8319.12287",
    "title": "Mapping literature reviews on coral health: A review map, critical appraisal and bibliometric analysis",
@@ -5612,8 +5561,59 @@
    "isOA": true,
    "oaUrl": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/2688-8319.12287",
    "url": "https://doi.org/10.1002/2688-8319.12287",
-   "citations": 4,
+   "citations": 8,
    "abstract": "Abstract The state of coral reefs has been of great concern, as documented in the growing amount of primary literature. These reports on coral health have accumulated, resulting in reviews of the primary studies (i.e. secondary literature). Recently, such reviews have also accumulated, creating an opportunity to review the secondary literature. Second‐order syntheses (reviews of secondary literature) provide an overview of the field, which can be used to guide future research. Based on our previously published protocol, we compiled peer‐reviewed secondary literature on coral health from Scopus and Web of Science databases. We synthesised 335 secondary literature papers on coral health, 35 of which underwent critical appraisal and 333 of which also underwent bibliometric analysis. The secondary literature consisted primarily of qualitative reviews (78%). Over 80% of papers stated informing coral conservation as the review's purpose. Climate change (50%) and coral resilience (42%) were the most studied topics, and bioerosion was the least (3.6%). Critically appraised papers scored poorly on Collaboration for Environmental Evidence Synthesis Assessment Tool criteria (studies did not meet standards 55% of the time). The authors of the secondary literature were highly interconnected (with 30% of the authors having more than 15 coauthors within our dataset) and included authors from countries with coral reefs (predominantly in Australia and USA; 79% of papers). The secondary literature on coral health had a median Altmetric score of 5.27. We have revealed key gaps in coral health topics for further review (e.g. coral range shifts and microbial biodiversity), particularly when considering conservation policy. Incorporating research in policy could be improved through greater research accessibility and continuing to gather public interest in coral reefs. We further recommend broadening research collaborations to include even more researchers from countries with coral reefs (e.g. Maldives). Finally, the secondary literature on coral health needs better reporting transparency (e.g. publishing code). Our second‐order synthesis is timely, pushing coral health research in a new direction—one which produces research of higher quality, collaboration, and efficiency. As coral reefs decline, we should also aim to rebuild public trust in research and strengthen the evidence base for conservation.",
+   "preprintUrl": null,
+   "altmetric": null
+  },
+  {
+   "id": "10.22541/au.167785097.78920686/v1",
+   "doi": "10.22541/au.167785097.78920686/v1",
+   "title": "Native and commercial microbial inoculants show equal effects on plant growth in dryland ecosystems",
+   "authors": [
+    {
+     "name": "Frederick Dadzie",
+     "orcid": "https://orcid.org/0000-0001-6130-9907",
+     "isSelf": false
+    },
+    {
+     "name": "Miriam Muñoz-Rojas",
+     "orcid": null,
+     "isSelf": false
+    },
+    {
+     "name": "Eve Slavich",
+     "orcid": null,
+     "isSelf": false
+    },
+    {
+     "name": "Patrice Pottier",
+     "orcid": "https://orcid.org/0000-0003-2106-6597",
+     "isSelf": true
+    },
+    {
+     "name": "Karen Zeng",
+     "orcid": "https://orcid.org/0000-0003-3338-3733",
+     "isSelf": false
+    },
+    {
+     "name": "Angela Moles",
+     "orcid": "https://orcid.org/0000-0003-2041-7762",
+     "isSelf": false
+    }
+   ],
+   "authorLine": "Frederick Dadzie, Miriam Muñoz-Rojas, Eve Slavich, Patrice Pottier, Karen Zeng, Angela Moles",
+   "journal": null,
+   "year": 2023,
+   "volume": null,
+   "issue": null,
+   "pages": null,
+   "kind": "preprint",
+   "isOA": true,
+   "oaUrl": "https://www.authorea.com/doi/pdf/10.22541/au.167785097.78920686",
+   "url": "https://doi.org/10.22541/au.167785097.78920686/v1",
+   "citations": 6,
+   "abstract": "There are a wide variety of microbial inoculant types available to restoration practitioners, but little information as to which performs best under field conditions in dryland ecosystems. We used a meta-analysis of 62 dryland studies to provide the first quantitative comparison of native vs commercial, diverse vs single species, and fungal vs bacterial microbial inoculants. We found that while microbial inoculation increases plant growth compared to uninoculated counterparts, contrary to our expectations, the magnitude of effect was statistically similar for all the inoculant pairs. Our results suggest that land managers should use inoculant types that are readily available and easy to handle rather than complicated and expensive inoculants that combine multiple taxa of local origin microbes.",
    "preprintUrl": null,
    "altmetric": null
   },
@@ -5693,7 +5693,7 @@
    "isOA": true,
    "oaUrl": "https://doi.org/10.1098/rspb.2022.1113",
    "url": "https://doi.org/10.1098/rspb.2022.1113",
-   "citations": 174,
+   "citations": 203,
    "abstract": "The biological sciences community is increasingly recognizing the value of open, reproducible and transparent research practices for science and society at large. Despite this recognition, many researchers fail to share their data and code publicly. This pattern may arise from knowledge barriers about how to archive data and code, concerns about its reuse, and misaligned career incentives. Here, we define, categorize and discuss barriers to data and code sharing that are relevant to many research fields. We explore how real and perceived barriers might be overcome or reframed in the light of the benefits relative to costs. By elucidating these barriers and the contexts in which they arise, we can take steps to mitigate them and align our actions with the goals of open science, both as individual scientists and as a scientific community.",
    "preprintUrl": null,
    "altmetric": null
@@ -5749,7 +5749,7 @@
    "isOA": true,
    "oaUrl": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/ele.14083",
    "url": "https://doi.org/10.1111/ele.14083",
-   "citations": 148,
+   "citations": 159,
    "abstract": "Understanding the factors affecting thermal tolerance is crucial for predicting the impact climate change will have on ectotherms. However, the role developmental plasticity plays in allowing populations to cope with thermal extremes is poorly understood. Here, we meta-analyse how thermal tolerance is initially and persistently impacted by early (embryonic and juvenile) thermal environments by using data from 150 experimental studies on 138 ectothermic species. Thermal tolerance only increased by 0.13°C per 1°C change in developmental temperature and substantial variation in plasticity (~36%) was the result of shared evolutionary history and species ecology. Aquatic ectotherms were more than three times as plastic as terrestrial ectotherms. Notably, embryos expressed weaker but more heterogenous plasticity than older life stages, with numerous responses appearing as non-adaptive. While developmental temperatures did not have persistent effects on thermal tolerance overall, persistent effects were vastly under-studied, and their direction and magnitude varied with ontogeny. Embryonic stages may represent a critical window of vulnerability to changing environments and we urge researchers to consider early life stages when assessing the climate vulnerability of ectotherms. Overall, our synthesis suggests that developmental changes in thermal tolerance rarely reach levels of perfect compensation and may provide limited benefit in changing environments.",
    "preprintUrl": "https://doi.org/10.22541/au.164573834.49438532/v1",
    "altmetric": null
@@ -5790,7 +5790,7 @@
    "isOA": true,
    "oaUrl": "https://doi.org/10.1038/s41467-022-32953-2",
    "url": "https://doi.org/10.1038/s41467-022-32953-2",
-   "citations": 146,
+   "citations": 151,
    "abstract": "Extreme temperature events are increasing in frequency and intensity due to climate change. Such events threaten insects, including pollinators, pests and disease vectors. Insect critical thermal limits can be enhanced through acclimation, yet evidence that plasticity aids survival at extreme temperatures is limited. Here, using meta-analyses across 1374 effect sizes, 74 studies and 102 species, we show that thermal limit plasticity is pervasive but generally weak: per 1 °C rise in acclimation temperature, critical thermal maximum increases by 0.09 °C; and per 1 °C decline, critical thermal minimum decreases by 0.15 °C. Moreover, small but significant publication bias suggests that the magnitude of plasticity is marginally overestimated. We find juvenile insects are more plastic than adults, highlighting that physiological responses of insects vary through ontogeny. Overall, we show critical thermal limit plasticity is likely of limited benefit to insects during extreme climatic events, yet we need more studies in under-represented taxa and geographic regions.",
    "preprintUrl": null,
    "altmetric": null
@@ -5866,7 +5866,7 @@
    "isOA": true,
    "oaUrl": "https://www.nature.com/articles/s41597-022-01704-9.pdf",
    "url": "https://doi.org/10.1038/s41597-022-01704-9",
-   "citations": 52,
+   "citations": 57,
    "abstract": "Rising temperatures represent a significant threat to the survival of ectothermic animals. As such, upper thermal limits represent an important trait to assess the vulnerability of ectotherms to changing temperatures. For instance, one may use upper thermal limits to estimate current and future thermal safety margins (i.e., the proximity of upper thermal limits to experienced temperatures), use this trait together with other physiological traits in species distribution models, or investigate the plasticity and evolvability of these limits for buffering the impacts of changing temperatures. While datasets on thermal tolerance limits have been previously compiled, they sometimes report single estimates for a given species, do not present measures of data dispersion, and are biased towards certain parts of the globe. To overcome these limitations, we systematically searched the literature in seven languages to produce the most comprehensive dataset to date on amphibian upper thermal limits, spanning 3,095 estimates across 616 species. This resource will represent a useful tool to evaluate the vulnerability of amphibians, and ectotherms more generally, to changing temperatures.",
    "preprintUrl": null,
    "altmetric": null
@@ -5922,7 +5922,7 @@
    "isOA": true,
    "oaUrl": "https://journals.biologists.com/jeb/article-pdf/225/Suppl_1/jeb243225/2135035/jeb243225.pdf",
    "url": "https://doi.org/10.1242/jeb.243225",
-   "citations": 49,
+   "citations": 52,
    "abstract": "Meta-analysis is a powerful tool used to generate quantitatively informed answers to pressing global challenges. By distilling data from broad sets of research designs and study systems into standardised effect sizes, meta-analyses provide physiologists with opportunities to estimate overall effect sizes and understand the drivers of effect variability. Despite this ambition, research designs in the field of comparative physiology can appear, at the outset, as being vastly different to each other because of 'nuisance heterogeneity' (e.g. different temperatures or treatment dosages used across studies). Methodological differences across studies have led many to believe that meta-analysis is an exercise in comparing 'apples with oranges'. Here, we dispel this myth by showing how standardised effect sizes can be used in conjunction with multilevel meta-regression models to both account for the factors driving differences across studies and make them more comparable. We assess the prevalence of nuisance heterogeneity in the comparative physiology literature - showing it is common and often not accounted for in analyses. We then formalise effect size measures (e.g. the temperature coefficient, Q10) that provide comparative physiologists with a means to remove nuisance heterogeneity without the need to resort to more complex statistical models that may be harder to interpret. We also describe more general approaches that can be applied to a variety of different contexts to derive new effect sizes and sampling variances, opening up new possibilities for quantitative synthesis. By using effect sizes that account for components of effect heterogeneity, in combination with existing meta-analytic models, comparative physiologists can explore exciting new questions while making results from large-scale data sets more accessible, comparable and widely interpretable.",
    "preprintUrl": null,
    "altmetric": null
@@ -5963,7 +5963,7 @@
    "isOA": true,
    "oaUrl": "https://doi.org/10.32942/osf.io/hya68",
    "url": "https://doi.org/10.1007/s10682-022-10157-w",
-   "citations": 29,
+   "citations": 33,
    "abstract": "Comparative analyses require researchers to not only ensure data quality, but to also make prudent and justifiable assumptions about data comparability. A failure to do so can lead to unreliable conclusions. As a case in point, we comment on a study that estimated the vulnerability of the world’s fish species to climate change using comparisons between life stages (Dahlke et al. 2020, Science 369: 65–70). We highlight concerns with the data quality and argue that the metrics used to investigate ontogenetic differences in thermal tolerance were incomparable and confounded. Therefore, we recommend caution when interpreting their results in light of climate vulnerability. We suggest potential remedies and recommend thermal tolerance metrics that may be comparable across life stages. We also encourage the creation of guidelines to design, report, and assess comparative analyses to increase their reliability and reproducibility.",
    "preprintUrl": "https://doi.org/10.32942/osf.io/hya68",
    "altmetric": null
@@ -6085,7 +6085,7 @@
    "isOA": true,
    "oaUrl": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/2688-8319.12190",
    "url": "https://doi.org/10.1002/2688-8319.12190",
-   "citations": 6,
+   "citations": 8,
    "abstract": "Abstract The health of coral reef ecosystems is declining. As research examining this decline has grown, review articles (secondary literature) have emerged. Secondary literature can include narrative reviews, systematic reviews, and bibliometric analyses. Synthesizing secondary literature can influence research directions, as syntheses visualize both the current state of knowledge and trends in research. Therefore, we propose to use the combination of bibliometric mapping and systematic mapping techniques to synthesize the secondary literature on coral health and coral reef decline. We will examine secondary literature on coral health published in peer‐reviewed journals and indexed in Scopus or Web of Science databases. After screening the title, abstract, and keywords of each paper, we will extract information that encompasses the type and purpose of the review, the identified factors affecting coral health, and the health‐related outcomes on coral reefs. We will also conduct a critical appraisal using the Collaboration for Environmental Evidence Synthesis Assessment Tool (CEESAT) criteria for papers that are self‐reported to be systematic reviews. We will also extract bibliometric data to identify author affiliations, collaboration networks, and journals. We will communicate our results from systematic and bibliometric mapping using visualizations and tabulations. Our systematic map aims to reveal gaps and clusters of topics in review articles on coral health. These findings can guide future research into coral health in both primary and secondary literature. Our critical appraisal will evaluate the robustness of systematic reviews, informing researchers on how to identify and conduct high‐quality reviews. Our bibliometric map will uncover the extent and connectivity of researchers synthesizing evidence on coral health, highlighting the diversity (or lack thereof) of those engaging in coral health research.",
    "preprintUrl": null,
    "altmetric": null
@@ -6232,7 +6232,7 @@
    "isOA": true,
    "oaUrl": "https://bmcbiol.biomedcentral.com/track/pdf/10.1186/s12915-021-01006-3",
    "url": "https://doi.org/10.1186/s12915-021-01006-3",
-   "citations": 69,
+   "citations": 76,
    "abstract": "Unreliable research programmes waste funds, time, and even the lives of the organisms we seek to help and understand. Reducing this waste and increasing the value of scientific evidence require changing the actions of both individual researchers and the institutions they depend on for employment and promotion. While ecologists and evolutionary biologists have somewhat improved research transparency over the past decade (e.g. more data sharing), major obstacles remain. In this commentary, we lift our gaze to the horizon to imagine how researchers and institutions can clear the path towards more credible and effective research programmes.",
    "preprintUrl": "https://doi.org/10.32942/x20400",
    "altmetric": null
@@ -6278,7 +6278,7 @@
    "isOA": true,
    "oaUrl": "https://ruj.uj.edu.pl/xmlui/handle/item/285076",
    "url": "https://doi.org/10.1111/1365-2435.13899",
-   "citations": 67,
+   "citations": 74,
    "abstract": "Abstract Climate change is putting the fate of ectothermic animals at stake because their body temperature closely tracks environmental temperatures. The ability to adjust thermal limits and preference through acclimation (i.e. acclimation capacity) may compensate for temperature changes. However, although necessary for forecasting the future of ectotherms in a changing climate, knowledge on the factors modulating these plastic responses is fragmentary. For instance, the influence of an animal's sex in driving acclimation capacity has been underappreciated. Here, we present the first systematic review and meta‐analysis on sex differences in thermal acclimation capacity. Using 239 effect sizes from 37 studies and 44 species, we revealed that males and females did not differ significantly in their overall capacity to acclimate their thermal limits and preference. However, in some instances, females expressed significantly greater plastic responses than males. In wild animals, females had a greater heat tolerance plasticity than males. In addition, females had a greater cold tolerance plasticity in terrestrial habitats, but the strength and direction of this sexual dimorphism was associated with the duration of acclimation. We also found a negative correlation between body mass and plasticity. Finally, we demonstrated that the capacity for each sex to adjust their thermal tolerance and preference was remarkably limited. It is important to acknowledge that the above effects were weak and heterogeneous. Hence, in the species we investigated, minor differences in acclimation capacity may not translate into major ecological mismatch between sexes with climate change. Our systematic review also revealed that over 75% of the studies we identified either did not report or confounded the sex of the animals. This under‐reporting may cause to overlook ecologically relevant sex differences in plasticity in ectothermic taxa. We stress the need for further research on sex‐based responses to temperatures. Our synthesis provides additional evidence that the capacity for ectotherms to acclimate to temperatures is limited, and likely insufficient to compensate for the impacts of climate change. A free Plain Language Summary can be found within the Supporting Information of this article.",
    "preprintUrl": null,
    "altmetric": null
