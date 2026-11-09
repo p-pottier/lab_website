@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-08",
+ "updated": "2026-11-09",
  "publications": [
   {
    "id": "10.1038/s41559-026-03117-y",
@@ -5061,7 +5061,7 @@
    "isOA": true,
    "oaUrl": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/2041-210X.14152",
    "url": "https://doi.org/10.1111/2041-210x.14152",
-   "citations": 200,
+   "citations": 201,
    "abstract": "1. Although meta-analysis has become an essential tool in ecology and evolution, reporting of meta-analytic results can still be much improved. To aid this, we have introduced the orchard plot, which presents not only overall estimates and their confidence intervals but also shows corresponding heterogeneity (as prediction intervals) and individual effect sizes. 2. Here, we have added significant enhancements by integrating many new functionalities as orchaRd 2.0. This updated version allows the visualisation of heteroscedasticity (different variances across levels of a categorical moderator), marginal estimates (e.g., marginalising out effects other than the one visualized), conditional estimates (i.e., estimates of different groups conditioned upon specific values of a continuous variable), and visualizations of all types of interactions between two categorical/continuous moderators.3. orchaRd 2.0 has additional functions which calculate key statistics from multilevel meta-analytic models such as I2 and R2. Importantly, orchaRd 2.0 contributes to better reporting by complying with PRISMA-EcoEvo (preferred reporting items for systematic reviews and meta-analyses in ecology and evolution). Taken together, orchaRd 2.0 can improve the presentation of meta-analytic results and facilitate the exploration of previously neglected patterns. 4. In addition, as a part of a literature survey, we found that graphical packages are rarely cited (~3%). We plea that researchers credit developers and maintainers of graphical packages, e.g., by citations in a figure legend, acknowledging the use of relevant packages.",
    "preprintUrl": null,
    "altmetric": null
@@ -5749,7 +5749,7 @@
    "isOA": true,
    "oaUrl": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/ele.14083",
    "url": "https://doi.org/10.1111/ele.14083",
-   "citations": 159,
+   "citations": 160,
    "abstract": "Understanding the factors affecting thermal tolerance is crucial for predicting the impact climate change will have on ectotherms. However, the role developmental plasticity plays in allowing populations to cope with thermal extremes is poorly understood. Here, we meta-analyse how thermal tolerance is initially and persistently impacted by early (embryonic and juvenile) thermal environments by using data from 150 experimental studies on 138 ectothermic species. Thermal tolerance only increased by 0.13°C per 1°C change in developmental temperature and substantial variation in plasticity (~36%) was the result of shared evolutionary history and species ecology. Aquatic ectotherms were more than three times as plastic as terrestrial ectotherms. Notably, embryos expressed weaker but more heterogenous plasticity than older life stages, with numerous responses appearing as non-adaptive. While developmental temperatures did not have persistent effects on thermal tolerance overall, persistent effects were vastly under-studied, and their direction and magnitude varied with ontogeny. Embryonic stages may represent a critical window of vulnerability to changing environments and we urge researchers to consider early life stages when assessing the climate vulnerability of ectotherms. Overall, our synthesis suggests that developmental changes in thermal tolerance rarely reach levels of perfect compensation and may provide limited benefit in changing environments.",
    "preprintUrl": "https://doi.org/10.22541/au.164573834.49438532/v1",
    "altmetric": null
