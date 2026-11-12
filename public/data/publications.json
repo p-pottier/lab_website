@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-11",
+ "updated": "2026-11-12",
  "publications": [
   {
    "id": "10.1038/s41559-026-03117-y",
@@ -498,6 +498,117 @@
    "altmetric": null
   },
   {
+   "id": "10.1093/conphys/coag006",
+   "doi": "10.1093/conphys/coag006",
+   "title": "Embryos are largely understudied in a representative sample of journals in conservation physiology",
+   "authors": [
+    {
+     "name": "Patrice Pottier",
+     "orcid": "https://orcid.org/0000-0003-2106-6597",
+     "isSelf": true
+    },
+    {
+     "name": "Nicholas C Wu",
+     "orcid": "https://orcid.org/0000-0002-7130-1279",
+     "isSelf": false
+    },
+    {
+     "name": "Madison L Earhart",
+     "orcid": "https://orcid.org/0000-0002-8280-7857",
+     "isSelf": false
+    },
+    {
+     "name": "Malgorzata Lagisz",
+     "orcid": "https://orcid.org/0000-0002-3993-6127",
+     "isSelf": false
+    },
+    {
+     "name": "Katharina Alter",
+     "orcid": "https://orcid.org/0000-0002-1801-748X",
+     "isSelf": false
+    },
+    {
+     "name": "Rafael Angelakopoulos",
+     "orcid": "https://orcid.org/0000-0002-2354-2019",
+     "isSelf": false
+    },
+    {
+     "name": "Avishikta Chakraborty",
+     "orcid": "https://orcid.org/0000-0001-9053-8522",
+     "isSelf": false
+    },
+    {
+     "name": "Zara-Louise Cowan",
+     "orcid": "https://orcid.org/0000-0002-3862-7111",
+     "isSelf": false
+    },
+    {
+     "name": "Shaun S Killen",
+     "orcid": "https://orcid.org/0000-0003-4949-3988",
+     "isSelf": false
+    },
+    {
+     "name": "Jamie C S McCoy",
+     "orcid": "https://orcid.org/0000-0002-3238-9781",
+     "isSelf": false
+    },
+    {
+     "name": "Estefany Caroline Guevara-Molina",
+     "orcid": "https://orcid.org/0009-0000-9869-9347",
+     "isSelf": false
+    },
+    {
+     "name": "Marta Moyano",
+     "orcid": "https://orcid.org/0000-0002-3026-9225",
+     "isSelf": false
+    },
+    {
+     "name": "Amanda K Pettersen",
+     "orcid": "https://orcid.org/0000-0001-6191-6563",
+     "isSelf": false
+    },
+    {
+     "name": "Luca Pettinau",
+     "orcid": "https://orcid.org/0000-0001-6597-9908",
+     "isSelf": false
+    },
+    {
+     "name": "Daniel M Ripley",
+     "orcid": "https://orcid.org/0000-0001-5912-6722",
+     "isSelf": false
+    },
+    {
+     "name": "Bao-Jun Sun",
+     "orcid": "https://orcid.org/0000-0002-7318-6059",
+     "isSelf": false
+    },
+    {
+     "name": "Ramakrishnan Vasudeva",
+     "orcid": "https://orcid.org/0000-0002-3831-0384",
+     "isSelf": false
+    },
+    {
+     "name": "Katharina Ruthsatz",
+     "orcid": "https://orcid.org/0000-0002-3273-2826",
+     "isSelf": false
+    }
+   ],
+   "authorLine": "Patrice Pottier, Nicholas C Wu, Madison L Earhart, Malgorzata Lagisz, Katharina Alter, Rafael Angelakopoulos, Avishikta Chakraborty, Zara-Louise Cowan, Shaun S Killen, Jamie C S McCoy, Estefany Caroline Guevara-Molina, Marta Moyano, Amanda K Pettersen, Luca Pettinau, Daniel M Ripley, Bao-Jun Sun, Ramakrishnan Vasudeva, Katharina Ruthsatz",
+   "journal": "Conservation Physiology",
+   "year": 2026,
+   "volume": "14",
+   "issue": "1",
+   "pages": "coag006",
+   "kind": "article",
+   "isOA": true,
+   "oaUrl": "https://academic.oup.com/conphys/article-pdf/14/1/coag006/66982379/coag006.pdf",
+   "url": "https://doi.org/10.1093/conphys/coag006",
+   "citations": 7,
+   "abstract": "Abstract Understanding how animals respond to environmental stressors across their life cycle is essential for predicting species' vulnerability to climate change. Here, we systematically reviewed the literature to quantify the variation in research effort on different life stages in the field of conservation physiology. Specifically, we reviewed experimental studies measuring physiological and life-history responses to climatic stressors across three representative scientific journals: Conservation Physiology, Journal of Thermal Biology and Journal of Experimental Biology. Our systematic map of 1276 studies revealed a pronounced underrepresentation of studies on embryos, representing only 8% to 9% of studies. This pattern was remarkably consistent across all axes considered (i.e. journals, taxonomic groups, physiological traits and environmental stressors). We also found that 80% of studies only investigated single life stages, and over 5% of studies did not clearly report the life stage(s) used. Despite the increasing recognition of the ecological importance and sensitivity of early life stages to environmental stressors, we found no evidence that research on embryos has gained traction over the past decade (2013–2024). We argue that these ontogenetic biases likely reflect a combination of historical precedents and enduring methodological and logistical constraints that continue to shape research agendas. To build a more holistic understanding across the life cycle, we: (i) call for a paradigm shift placing embryos at the center of experimental agendas, (ii) outline emerging methodological advances that increase the feasibility of research on early life stages, (iii) demonstrate how studies on embryos align with ethical considerations for animal research, (iv) highlight perspectives for future evidence syntheses and study reporting and (v) promote investigations of the mechanisms underlying physiological variation across ontogeny. Closing the ontogenetic gap will be key to improving our ability to predict population-level impacts of climate change and guiding more effective conservation and management interventions.",
+   "preprintUrl": "https://doi.org/10.32942/x2kp96",
+   "altmetric": null
+  },
+  {
    "id": "10.1016/j.envint.2025.109935",
    "doi": "10.1016/j.envint.2025.109935",
    "title": "MATES: A tool for appraising the completeness with which a meta-analysis has been reported",
@@ -711,117 +822,6 @@
    "citations": 6,
    "abstract": "Meta-analysis is commonly a core component of systematic reviews and has become an important method to reconcile conflicting findings, increase statistical power, and chart new research directions. However, poor reporting practices make it challenging to evaluate the validity of meta-analyses. Despite the existence of reporting checklists, a specifically designed tool has yet to be developed to appraise the completeness with which a meta-analysis has been reported. To bridge this gap, we introduce the Meta-analysis Appraisal Tool for Environmental Sciences (MATES). To develop MATES, we adapted a Delphi process involving experts in meta-analysis methodologies, researchers with experience in guideline/appraisal tool development, and editors of relevant journals. The Delphi process had five steps, including three workshops (11-16 participants), a survey (193 participants), and a validation task (30 participants). This iterative development process resulted in a 14-item appraisal tool that reflects the environmental science and research syntheses community's consensus on essential elements to appraise the completeness with which a meta-analysis has been reported. Validation across 50 meta-analyses demonstrated that the tool is repeatable (average agreement rate: 88.97 %) and time-efficient to implement (17.00 ± 12.23 min). We also outline guidance for interpreting MATES results, describe its potential applications, and reflect on the development process. The authors provide practical implementation guidance for each MATES item, illustrated with real examples in the supplementary material. We also report an extended development methodology to support reproducibility. Finally, we built created a ShinyApp that includes both a training module and an application tool to enhance the usability of MATES (https://kylemorrisonisshiny99.shinyapps.io/MATES_shiny/). Overall, MATES provides authors, readers, stakeholders, and editors with a reliable and accessible tool for appraising the completeness with which a meta-analysis in environmental sciences has been reported.",
    "preprintUrl": "https://doi.org/10.31222/osf.io/n3cta_v2",
-   "altmetric": null
-  },
-  {
-   "id": "10.1093/conphys/coag006",
-   "doi": "10.1093/conphys/coag006",
-   "title": "Embryos are largely understudied in a representative sample of journals in conservation physiology",
-   "authors": [
-    {
-     "name": "Patrice Pottier",
-     "orcid": "https://orcid.org/0000-0003-2106-6597",
-     "isSelf": true
-    },
-    {
-     "name": "Nicholas C Wu",
-     "orcid": "https://orcid.org/0000-0002-7130-1279",
-     "isSelf": false
-    },
-    {
-     "name": "Madison L Earhart",
-     "orcid": "https://orcid.org/0000-0002-8280-7857",
-     "isSelf": false
-    },
-    {
-     "name": "Malgorzata Lagisz",
-     "orcid": "https://orcid.org/0000-0002-3993-6127",
-     "isSelf": false
-    },
-    {
-     "name": "Katharina Alter",
-     "orcid": "https://orcid.org/0000-0002-1801-748X",
-     "isSelf": false
-    },
-    {
-     "name": "Rafael Angelakopoulos",
-     "orcid": "https://orcid.org/0000-0002-2354-2019",
-     "isSelf": false
-    },
-    {
-     "name": "Avishikta Chakraborty",
-     "orcid": "https://orcid.org/0000-0001-9053-8522",
-     "isSelf": false
-    },
-    {
-     "name": "Zara-Louise Cowan",
-     "orcid": "https://orcid.org/0000-0002-3862-7111",
-     "isSelf": false
-    },
-    {
-     "name": "Shaun S Killen",
-     "orcid": "https://orcid.org/0000-0003-4949-3988",
-     "isSelf": false
-    },
-    {
-     "name": "Jamie C S McCoy",
-     "orcid": "https://orcid.org/0000-0002-3238-9781",
-     "isSelf": false
-    },
-    {
-     "name": "Estefany Caroline Guevara-Molina",
-     "orcid": "https://orcid.org/0009-0000-9869-9347",
-     "isSelf": false
-    },
-    {
-     "name": "Marta Moyano",
-     "orcid": "https://orcid.org/0000-0002-3026-9225",
-     "isSelf": false
-    },
-    {
-     "name": "Amanda K Pettersen",
-     "orcid": "https://orcid.org/0000-0001-6191-6563",
-     "isSelf": false
-    },
-    {
-     "name": "Luca Pettinau",
-     "orcid": "https://orcid.org/0000-0001-6597-9908",
-     "isSelf": false
-    },
-    {
-     "name": "Daniel M Ripley",
-     "orcid": "https://orcid.org/0000-0001-5912-6722",
-     "isSelf": false
-    },
-    {
-     "name": "Bao-Jun Sun",
-     "orcid": "https://orcid.org/0000-0002-7318-6059",
-     "isSelf": false
-    },
-    {
-     "name": "Ramakrishnan Vasudeva",
-     "orcid": "https://orcid.org/0000-0002-3831-0384",
-     "isSelf": false
-    },
-    {
-     "name": "Katharina Ruthsatz",
-     "orcid": "https://orcid.org/0000-0002-3273-2826",
-     "isSelf": false
-    }
-   ],
-   "authorLine": "Patrice Pottier, Nicholas C Wu, Madison L Earhart, Malgorzata Lagisz, Katharina Alter, Rafael Angelakopoulos, Avishikta Chakraborty, Zara-Louise Cowan, Shaun S Killen, Jamie C S McCoy, Estefany Caroline Guevara-Molina, Marta Moyano, Amanda K Pettersen, Luca Pettinau, Daniel M Ripley, Bao-Jun Sun, Ramakrishnan Vasudeva, Katharina Ruthsatz",
-   "journal": "Conservation Physiology",
-   "year": 2026,
-   "volume": "14",
-   "issue": "1",
-   "pages": "coag006",
-   "kind": "article",
-   "isOA": true,
-   "oaUrl": "https://academic.oup.com/conphys/article-pdf/14/1/coag006/66982379/coag006.pdf",
-   "url": "https://doi.org/10.1093/conphys/coag006",
-   "citations": 6,
-   "abstract": "Abstract Understanding how animals respond to environmental stressors across their life cycle is essential for predicting species' vulnerability to climate change. Here, we systematically reviewed the literature to quantify the variation in research effort on different life stages in the field of conservation physiology. Specifically, we reviewed experimental studies measuring physiological and life-history responses to climatic stressors across three representative scientific journals: Conservation Physiology, Journal of Thermal Biology and Journal of Experimental Biology. Our systematic map of 1276 studies revealed a pronounced underrepresentation of studies on embryos, representing only 8% to 9% of studies. This pattern was remarkably consistent across all axes considered (i.e. journals, taxonomic groups, physiological traits and environmental stressors). We also found that 80% of studies only investigated single life stages, and over 5% of studies did not clearly report the life stage(s) used. Despite the increasing recognition of the ecological importance and sensitivity of early life stages to environmental stressors, we found no evidence that research on embryos has gained traction over the past decade (2013–2024). We argue that these ontogenetic biases likely reflect a combination of historical precedents and enduring methodological and logistical constraints that continue to shape research agendas. To build a more holistic understanding across the life cycle, we: (i) call for a paradigm shift placing embryos at the center of experimental agendas, (ii) outline emerging methodological advances that increase the feasibility of research on early life stages, (iii) demonstrate how studies on embryos align with ethical considerations for animal research, (iv) highlight perspectives for future evidence syntheses and study reporting and (v) promote investigations of the mechanisms underlying physiological variation across ontogeny. Closing the ontogenetic gap will be key to improving our ability to predict population-level impacts of climate change and guiding more effective conservation and management interventions.",
-   "preprintUrl": "https://doi.org/10.32942/x2kp96",
    "altmetric": null
   },
   {
@@ -3175,7 +3175,7 @@
    "isOA": true,
    "oaUrl": "https://doi.org/10.1038/s41586-025-08665-0",
    "url": "https://doi.org/10.1038/s41586-025-08665-0",
-   "citations": 115,
+   "citations": 116,
    "abstract": "Abstract Amphibians are the most threatened vertebrates, yet their resilience to rising temperatures remains poorly understood 1,2 . This is primarily because knowledge of thermal tolerance is taxonomically and geographically biased 3 , compromising global climate vulnerability assessments. Here we used a phylogenetically informed data-imputation approach to predict the heat tolerance of 60% of amphibian species and assessed their vulnerability to daily temperature variations in thermal refugia. We found that 104 out of 5,203 species (2%) are currently exposed to overheating events in shaded terrestrial conditions. Despite accounting for heat-tolerance plasticity, a 4 °C global temperature increase would create a step change in impact severity, pushing 7.5% of species beyond their physiological limits. In the Southern Hemisphere, tropical species encounter disproportionally more overheating events, while non-tropical species are more susceptible in the Northern Hemisphere. These findings challenge evidence for a general latitudinal gradient in overheating risk 4–6 and underscore the importance of considering climatic variability in vulnerability assessments. We provide conservative estimates assuming access to cool shaded microenvironments. Thus, the impacts of global warming will probably exceed our projections. Our microclimate-explicit analyses demonstrate that vegetation and water bodies are critical in buffering amphibians during heat waves. Immediate action is needed to preserve and manage these microhabitat features.",
    "preprintUrl": "https://doi.org/10.32942/x2t02t",
    "altmetric": null
@@ -3252,7 +3252,7 @@
    "oaUrl": "https://doi.org/10.1038/s41467-025-65746-4",
    "url": "https://doi.org/10.1038/s41467-025-65746-4",
    "citations": 49,
-   "abstract": "Per- and polyfluoroalkyl substances (PFAS) threaten ecosystems worldwide due to their persistence, bioaccumulation, and toxicity. Through a global-scale meta-analysis of 122 aquatic and terrestrial food webs from 64 studies, we analyse 1,009 trophic magnification factors (TMFs) for 72 PFAS and identify key variability drivers. PFAS concentrations systematically doubled with each trophic level increase (mean TMF=2.00, 95% CI:1.64-2.45), confirming widespread biomagnification across ecosystems. Methodological disparities across studies emerged as the dominant source of TMF variability. Our models explained 84% of the variation in TMFs, underscoring predictive capacity. Notably, the industrial alternative F-53B exhibited the highest magnification (TMF=3.07, 95% CI:2.41-3.92), a critical finding given its expanding use and minimal regulatory scrutiny. This synthesis establishes PFAS as persistent trophic multipliers and provides a framework to prioritise high-risk compounds and harmonise biomagnification assessments. Our results call for consideration of stricter PFAS regulation to curb cascading ecological and health impacts.",
+   "abstract": "Per- and polyfluoroalkyl substances (PFAS) threaten ecosystems worldwide due to their persistence, bioaccumulation, and toxicity. Through a global-scale meta-analysis of 119 aquatic and terrestrial food webs from 64 studies, we analyse 1009 trophic magnification factors (TMFs) for 72 PFAS and identify key variability drivers. On average, PFAS concentrations double with each trophic level increase (mean TMF = 2.00, 95% CI:1.64-2.45), though magnification varies considerably by compound. Notably, the industrial alternative F-53B exhibits the highest magnification (TMF = 3.07, 95% CI:2.41-3.92), a critical finding given its expanding use and minimal regulatory scrutiny. Methodological disparities across studies emerge as the dominant source of TMF variability. Our models explain 85% of the variation in TMFs, underscoring predictive capacity. This synthesis establishes PFAS as persistent trophic multipliers and provides a framework to prioritise high-risk compounds and harmonise biomagnification assessments. Our results call for consideration of stricter PFAS regulation to curb cascading ecological and health impacts. PFAS are “forever chemicals” that build up in living things and can move through food webs. This study shows their levels roughly double with each step up the food chain, highlighting widespread chemical magnification in nature.",
    "preprintUrl": "https://doi.org/10.32942/x2sp92",
    "altmetric": null
   },
@@ -5061,8 +5061,8 @@
    "isOA": true,
    "oaUrl": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/2041-210X.14152",
    "url": "https://doi.org/10.1111/2041-210x.14152",
-   "citations": 221,
-   "abstract": "1. Although meta-analysis has become an essential tool in ecology and evolution, reporting of meta-analytic results can still be much improved. To aid this, we have introduced the orchard plot, which presents not only overall estimates and their confidence intervals but also shows corresponding heterogeneity (as prediction intervals) and individual effect sizes. 2. Here, we have added significant enhancements by integrating many new functionalities as orchaRd 2.0. This updated version allows the visualisation of heteroscedasticity (different variances across levels of a categorical moderator), marginal estimates (e.g., marginalising out effects other than the one visualized), conditional estimates (i.e., estimates of different groups conditioned upon specific values of a continuous variable), and visualizations of all types of interactions between two categorical/continuous moderators.3. orchaRd 2.0 has additional functions which calculate key statistics from multilevel meta-analytic models such as I2 and R2. Importantly, orchaRd 2.0 contributes to better reporting by complying with PRISMA-EcoEvo (preferred reporting items for systematic reviews and meta-analyses in ecology and evolution). Taken together, orchaRd 2.0 can improve the presentation of meta-analytic results and facilitate the exploration of previously neglected patterns. 4. In addition, as a part of a literature survey, we found that graphical packages are rarely cited (~3%). We plea that researchers credit developers and maintainers of graphical packages, e.g., by citations in a figure legend, acknowledging the use of relevant packages.",
+   "citations": 222,
+   "abstract": "Abstract Although meta‐analysis has become an essential tool in ecology and evolution, reporting of meta‐analytic results can still be much improved. To aid this, we have introduced the orchard plot, which presents not only overall estimates and their confidence intervals, but also shows corresponding heterogeneity (as prediction intervals) and individual effect sizes. Here, we have added significant enhancements by integrating many new functionalities into orchaRd 2.0 . This updated version allows the visualisation of heteroscedasticity (different variances across levels of a categorical moderator), marginal estimates (e.g. marginalising out effects other than the one visualised), conditional estimates (i.e. estimates of different groups conditioned upon specific values of a continuous variable) and visualisations of all types of interactions between two categorical/continuous moderators. orchaRd 2.0 has additional functions which calculate key statistics from multilevel meta‐analytic models such as I 2 and R 2 . Importantly, orchaRd 2.0 contributes to better reporting by complying with PRISMA‐EcoEvo (preferred reporting items for systematic reviews and meta‐analyses in ecology and evolution). Taken together, orchaRd 2.0 can improve the presentation of meta‐analytic results and facilitate the exploration of previously neglected patterns. In addition, as a part of a literature survey, we found that graphical packages are rarely cited (~3%). We plea that researchers credit developers and maintainers of graphical packages, for example, by citations in a figure legend, acknowledging the use of relevant packages.",
    "preprintUrl": null,
    "altmetric": null
   },
@@ -5506,7 +5506,7 @@
    "oaUrl": "https://royalsocietypublishing.org/doi/pdf/10.1098/rsbl.2023.0019",
    "url": "https://doi.org/10.1098/rsbl.2023.0019",
    "citations": 15,
-   "abstract": "On a global scale, organisms face significant challenges due to climate change and anthropogenic disturbance. In many ectotherms, developmental and physiological processes are sensitive to changes in temperature and resources. Developmental plasticity in thermal physiology may provide adaptive advantages to environmental extremes if early environmental conditions are predictable of late-life environments. Here, we conducted a laboratory experiment to test how developmental temperature and maternal resource investment influence thermal physiology (critical thermal maximum: CTmax & thermal preference: Tpref) in a common skink (Lampropholis delicata). We then compared our experimental findings more broadly across reptiles using meta-analysis. In both our experimental study and meta-analysis, we did not find evidence that developmental environments influence thermal physiology. Furthermore, the effects of developmental environments on thermal physiology did not vary by age, taxon, or climate zone (temperate/tropical) in reptiles. Overall, the magnitude of developmental plasticity on thermal physiology appears to be limited across reptile taxa. Our results suggest that behavioural or evolutionary processes, as opposed to developmental plasticity, may be more critical in mitigating the impacts of changing thermal conditions in reptiles in the future.",
+   "abstract": "On a global scale, organisms face significant challenges due to climate change and anthropogenic disturbance. In many ectotherms, developmental and physiological processes are sensitive to changes in temperature and resources. Developmental plasticity in thermal physiology may provide adaptive advantages to environmental extremes if early environmental conditions are predictive of late-life environments. Here, we conducted a laboratory experiment to test how developmental temperature and maternal resource investment influence thermal physiological traits (critical thermal maximum: CT max and thermal preference: T pref ) in a common skink ( Lampropholis delicata ). We then compared our experimental findings more broadly across reptiles (snakes, lizards and turtles) using meta-analysis. In both our experimental study and meta-analysis, we did not find evidence that developmental environments influence CT max or T pref . Furthermore, the effects of developmental environments on thermal physiology did not vary by age, taxon or climate zone (temperate/tropical). Overall, the magnitude of developmental plasticity on thermal physiology appears to be limited across reptile taxa suggesting that behavioural or evolutionary processes may be more important. However, there is a paucity of information across most reptile taxa, and a broader focus on thermal performance curves themselves will be critical in understanding the impacts of changing thermal conditions on reptiles in the future.",
    "preprintUrl": null,
    "altmetric": null
   },
@@ -6278,7 +6278,7 @@
    "isOA": true,
    "oaUrl": "https://ruj.uj.edu.pl/xmlui/handle/item/285076",
    "url": "https://doi.org/10.1111/1365-2435.13899",
-   "citations": 77,
+   "citations": 78,
    "abstract": "Abstract Climate change is putting the fate of ectothermic animals at stake because their body temperature closely tracks environmental temperatures. The ability to adjust thermal limits and preference through acclimation (i.e. acclimation capacity) may compensate for temperature changes. However, although necessary for forecasting the future of ectotherms in a changing climate, knowledge on the factors modulating these plastic responses is fragmentary. For instance, the influence of an animal's sex in driving acclimation capacity has been underappreciated. Here, we present the first systematic review and meta‐analysis on sex differences in thermal acclimation capacity. Using 239 effect sizes from 37 studies and 44 species, we revealed that males and females did not differ significantly in their overall capacity to acclimate their thermal limits and preference. However, in some instances, females expressed significantly greater plastic responses than males. In wild animals, females had a greater heat tolerance plasticity than males. In addition, females had a greater cold tolerance plasticity in terrestrial habitats, but the strength and direction of this sexual dimorphism was associated with the duration of acclimation. We also found a negative correlation between body mass and plasticity. Finally, we demonstrated that the capacity for each sex to adjust their thermal tolerance and preference was remarkably limited. It is important to acknowledge that the above effects were weak and heterogeneous. Hence, in the species we investigated, minor differences in acclimation capacity may not translate into major ecological mismatch between sexes with climate change. Our systematic review also revealed that over 75% of the studies we identified either did not report or confounded the sex of the animals. This under‐reporting may cause to overlook ecologically relevant sex differences in plasticity in ectothermic taxa. We stress the need for further research on sex‐based responses to temperatures. Our synthesis provides additional evidence that the capacity for ectotherms to acclimate to temperatures is limited, and likely insufficient to compensate for the impacts of climate change. A free Plain Language Summary can be found within the Supporting Information of this article.",
    "preprintUrl": null,
    "altmetric": null
