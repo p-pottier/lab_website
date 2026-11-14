@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-13",
+ "updated": "2026-11-14",
  "publications": [
   {
    "id": "10.1038/s41559-026-03117-y",
@@ -3251,7 +3251,7 @@
    "isOA": true,
    "oaUrl": "https://doi.org/10.1038/s41467-025-65746-4",
    "url": "https://doi.org/10.1038/s41467-025-65746-4",
-   "citations": 49,
+   "citations": 51,
    "abstract": "Per- and polyfluoroalkyl substances (PFAS) threaten ecosystems worldwide due to their persistence, bioaccumulation, and toxicity. Through a global-scale meta-analysis of 119 aquatic and terrestrial food webs from 64 studies, we analyse 1009 trophic magnification factors (TMFs) for 72 PFAS and identify key variability drivers. On average, PFAS concentrations double with each trophic level increase (mean TMF = 2.00, 95% CI:1.64-2.45), though magnification varies considerably by compound. Notably, the industrial alternative F-53B exhibits the highest magnification (TMF = 3.07, 95% CI:2.41-3.92), a critical finding given its expanding use and minimal regulatory scrutiny. Methodological disparities across studies emerge as the dominant source of TMF variability. Our models explain 85% of the variation in TMFs, underscoring predictive capacity. This synthesis establishes PFAS as persistent trophic multipliers and provides a framework to prioritise high-risk compounds and harmonise biomagnification assessments. Our results call for consideration of stricter PFAS regulation to curb cascading ecological and health impacts. PFAS are “forever chemicals” that build up in living things and can move through food webs. This study shows their levels roughly double with each step up the food chain, highlighting widespread chemical magnification in nature.",
    "preprintUrl": "https://doi.org/10.32942/x2sp92",
    "altmetric": null
@@ -6122,14 +6122,14 @@
     }
    ],
    "authorLine": "Erin Macartney, Patrice Pottier, Samantha Burke, Szymon Drobniak, Shinichi Nakagawa",
-   "journal": null,
+   "journal": "EcoEvoRxiv",
    "year": 2022,
    "volume": null,
    "issue": null,
    "pages": null,
    "kind": "preprint",
    "isOA": true,
-   "oaUrl": "https://doi.org/10.32942/x22s39",
+   "oaUrl": "https://ecoevorxiv.org/repository/object/4784/download/9529/",
    "url": "https://doi.org/10.32942/x22s39",
    "citations": 2,
    "abstract": "Behavioural phenotyping is often time and labour-intensive, which can come at a cost to sample size and statistical precision. This is particularly a concern given that behaviours are often highly variable within and between individuals, so naturally requires a larger sample size. Drosophila melanogaster is a common model system in many research fields, and behavioural observations are frequently required. While D. melanogaster has a rapid lifecycle that enables large numbers of flies to be reared for experiments, they are still subject to methodological bottlenecks for behavioural observations. Additionally, their small and delicate bodies make it difficult to observe certain behaviours in real-time, for example, in movement tracking or when performing repeated assays on the same individuals. Here, we present a method, pilot data, custom data processing and analysis scripts for high-throughput behavioural phenotyping in D. melanogaster, as well as general remarks for future studies. We used automatic tracking units to measure three behaviours in the same individuals: locomotor activity, exploratory behaviour in a Y-maze, and habituation to a startle response stimulus. We then examined between-individual variation and trait correlations using our pilot data. Through this, we show that these behaviours are amenable to high-throughput automated tracking, with locomotor activity generating the most straightforward and high-quality data. These methods can be used to free up time and labour to allocate to increasing sample sizes and can be used to address a range of biological questions in ecology, evolution, and beyond.",
