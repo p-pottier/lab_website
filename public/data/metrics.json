@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-17",
+ "updated": "2026-11-18",
  "sources": [
   "ORCID",
   "Crossref",
   "OpenAlex"
  ],
  "orcid": "0000-0003-2106-6597",
- "citations": 2272,
+ "citations": 2276,
  "hIndex": 22,
  "i10Index": 28,
  "works": 49,
@@ -26,11 +26,11 @@
   },
   {
    "year": 2022,
-   "cited_by_count": 42
+   "cited_by_count": 41
   },
   {
    "year": 2023,
-   "cited_by_count": 206
+   "cited_by_count": 207
   },
   {
    "year": 2024,
@@ -42,7 +42,7 @@
   },
   {
    "year": 2026,
-   "cited_by_count": 880
+   "cited_by_count": 884
   }
  ]
 }
