@@ -1,16 +1,16 @@
 {
- "updated": "2026-11-18",
- "total": 728,
+ "updated": "2026-11-19",
+ "total": 739,
  "countries": 59,
- "institutions": 268,
+ "institutions": 271,
  "byCountry": {
   "Japan": 8,
   "Poland": 6,
   "Australia": 118,
   "Germany": 38,
   "France": 14,
-  "Sweden": 25,
-  "United Kingdom": 46,
+  "Sweden": 35,
+  "United Kingdom": 47,
   "Mexico": 5,
   "Canada": 32,
   "United States": 61,
@@ -508,6 +508,19 @@
    "lon": -75.6981201171875
   },
   {
+   "name": "Jack A. Brand",
+   "orcid": "https://orcid.org/0000-0003-3312-941X",
+   "openalex": "https://openalex.org/A5047614182",
+   "works": 3,
+   "lastYear": 2026,
+   "institution": "Swedish University of Agricultural Sciences",
+   "city": "Uppsala",
+   "country": "Sweden",
+   "countryCode": "SE",
+   "lat": 59.85882,
+   "lon": 17.63889
+  },
+  {
    "name": "Lisa E. Schwanz",
    "orcid": "https://orcid.org/0000-0001-5864-7112",
    "openalex": "https://openalex.org/A5013179590",
@@ -935,19 +948,6 @@
    "countryCode": "NL",
    "lat": 52.37403,
    "lon": 4.88969
-  },
-  {
-   "name": "Jack A. Brand",
-   "orcid": "https://orcid.org/0000-0003-3312-941X",
-   "openalex": "https://openalex.org/A5047614182",
-   "works": 2,
-   "lastYear": 2025,
-   "institution": "Swedish University of Agricultural Sciences",
-   "city": "Uppsala",
-   "country": "Sweden",
-   "countryCode": "SE",
-   "lat": 59.85882,
-   "lon": 17.63889
   },
   {
    "name": "Jake M. Martin",
@@ -1652,7 +1652,7 @@
    "lon": null
   },
   {
-   "name": "Alec P. Christie",
+   "name": "Alec Philip Christie",
    "orcid": "https://orcid.org/0000-0002-8465-8410",
    "openalex": "https://openalex.org/A5043859909",
    "works": 1,
@@ -2016,6 +2016,19 @@
    "lon": 153.02809
   },
   {
+   "name": "Anders Kagervall",
+   "orcid": "https://orcid.org/0000-0003-4790-2696",
+   "openalex": "https://openalex.org/A5091567899",
+   "works": 1,
+   "lastYear": 2026,
+   "institution": "Swedish University of Agricultural Sciences",
+   "city": "Uppsala",
+   "country": "Sweden",
+   "countryCode": "SE",
+   "lat": 59.85882,
+   "lon": 17.63889
+  },
+  {
    "name": "Andes Hamuraby Rozak",
    "orcid": "https://orcid.org/0000-0001-9641-5830",
    "openalex": "https://openalex.org/A5061550500",
@@ -2079,6 +2092,19 @@
    "countryCode": "US",
    "lat": 26.30174,
    "lon": -98.16334
+  },
+  {
+   "name": "Andreas T. Ekström",
+   "orcid": "https://orcid.org/0000-0002-9966-8160",
+   "openalex": "https://openalex.org/A5024123972",
+   "works": 1,
+   "lastYear": 2026,
+   "institution": "University of Gothenburg",
+   "city": "Gothenburg",
+   "country": "Sweden",
+   "countryCode": "SE",
+   "lat": 57.70716,
+   "lon": 11.96679
   },
   {
    "name": "Andrew E. McKechnie",
@@ -2235,6 +2261,19 @@
    "countryCode": null,
    "lat": null,
    "lon": null
+  },
+  {
+   "name": "Anton Halldén",
+   "orcid": null,
+   "openalex": "https://openalex.org/A5071830669",
+   "works": 1,
+   "lastYear": 2026,
+   "institution": "Region Jönköpings län",
+   "city": "Jönköping",
+   "country": "Sweden",
+   "countryCode": "SE",
+   "lat": 57.78144836425781,
+   "lon": 14.156180381774902
   },
   {
    "name": "Argelia Rodríguez‐Contreras",
@@ -3132,6 +3171,19 @@
    "countryCode": "AE",
    "lat": 24.45118,
    "lon": 54.39696
+  },
+  {
+   "name": "Daniel Palm",
+   "orcid": "https://orcid.org/0000-0002-2354-5498",
+   "openalex": "https://openalex.org/A5082001992",
+   "works": 1,
+   "lastYear": 2026,
+   "institution": "Swedish University of Agricultural Sciences",
+   "city": "Uppsala",
+   "country": "Sweden",
+   "countryCode": "SE",
+   "lat": 59.85882,
+   "lon": 17.63889
   },
   {
    "name": "Daniela Oliveira de Lima",
@@ -4213,6 +4265,19 @@
    "lon": 151.20732
   },
   {
+   "name": "Fred Halldén",
+   "orcid": null,
+   "openalex": "https://openalex.org/A5156790930",
+   "works": 1,
+   "lastYear": 2026,
+   "institution": "University of Gothenburg",
+   "city": "Gothenburg",
+   "country": "Sweden",
+   "countryCode": "SE",
+   "lat": 57.70716,
+   "lon": 11.96679
+  },
+  {
    "name": "Frederick Asankom Dadzie",
    "orcid": "https://orcid.org/0000-0001-6130-9907",
    "openalex": "https://openalex.org/A5081321539",
@@ -4471,6 +4536,19 @@
    "countryCode": "CN",
    "lat": 23.116670608520508,
    "lon": 113.25
+  },
+  {
+   "name": "Gustav Hellström",
+   "orcid": "https://orcid.org/0000-0002-3163-6971",
+   "openalex": "https://openalex.org/A5076925168",
+   "works": 1,
+   "lastYear": 2026,
+   "institution": "Swedish University of Agricultural Sciences",
+   "city": "Uppsala",
+   "country": "Sweden",
+   "countryCode": "SE",
+   "lat": 59.85882,
+   "lon": 17.63889
   },
   {
    "name": "Gustav Nilsonne",
@@ -6943,6 +7021,19 @@
    "lon": null
   },
   {
+   "name": "Michael J. Williamson",
+   "orcid": "https://orcid.org/0000-0001-9681-8920",
+   "openalex": "https://openalex.org/A5027052665",
+   "works": 1,
+   "lastYear": 2026,
+   "institution": "Zoological Society of London",
+   "city": "London",
+   "country": "United Kingdom",
+   "countryCode": "GB",
+   "lat": 51.50853,
+   "lon": -0.12574
+  },
+  {
    "name": "Michael James Roast",
    "orcid": "https://orcid.org/0000-0002-9454-7562",
    "openalex": null,
@@ -7437,6 +7528,19 @@
    "lon": 151.20732
   },
   {
+   "name": "Oscar Nordahl",
+   "orcid": "https://orcid.org/0000-0001-9667-1228",
+   "openalex": "https://openalex.org/A5037782613",
+   "works": 1,
+   "lastYear": 2026,
+   "institution": "Linnaeus University",
+   "city": "Vaxjo",
+   "country": "Sweden",
+   "countryCode": "SE",
+   "lat": 56.87767028808594,
+   "lon": 14.809060096740723
+  },
+  {
    "name": "Oz Ben Yehuda",
    "orcid": null,
    "openalex": "https://openalex.org/A5021939127",
@@ -7682,6 +7786,32 @@
    "countryCode": null,
    "lat": null,
    "lon": null
+  },
+  {
+   "name": "Petter Lundberg",
+   "orcid": "https://orcid.org/0000-0003-3481-5163",
+   "openalex": "https://openalex.org/A5027261802",
+   "works": 1,
+   "lastYear": 2026,
+   "institution": "Swedish University of Agricultural Sciences",
+   "city": "Uppsala",
+   "country": "Sweden",
+   "countryCode": "SE",
+   "lat": 59.85882,
+   "lon": 17.63889
+  },
+  {
+   "name": "Petter Tibblin",
+   "orcid": "https://orcid.org/0000-0001-6804-5342",
+   "openalex": "https://openalex.org/A5025377365",
+   "works": 1,
+   "lastYear": 2026,
+   "institution": "Linnaeus University",
+   "city": "Vaxjo",
+   "country": "Sweden",
+   "countryCode": "SE",
+   "lat": 56.87767028808594,
+   "lon": 14.809060096740723
   },
   {
    "name": "Philip A. Downing",
@@ -9086,6 +9216,19 @@
    "countryCode": "ZA",
    "lat": -25.74486,
    "lon": 28.18783
+  },
+  {
+   "name": "Tomas Brodin",
+   "orcid": null,
+   "openalex": "https://openalex.org/A5158477790",
+   "works": 1,
+   "lastYear": 2026,
+   "institution": "Swedish University of Agricultural Sciences",
+   "city": "Uppsala",
+   "country": "Sweden",
+   "countryCode": "SE",
+   "lat": 59.85882,
+   "lon": 17.63889
   },
   {
    "name": "Tommaso Jucker",
