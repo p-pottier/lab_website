@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21",
+ "updated": "2026-11-22",
  "publications": [
   {
    "id": "10.1038/s41559-026-03117-y",
@@ -6050,7 +6050,7 @@
    "oaUrl": "https://doi.org/10.32942/osf.io/hya68",
    "url": "https://doi.org/10.1007/s10682-022-10157-w",
    "citations": 36,
-   "abstract": null,
+   "abstract": "Comparative analyses require researchers to not only ensure data quality, but also to make prudent and justifiable assumptions about data comparability. A failure to do so can lead to unreliable conclusions. As a case in point, we comment on a study that estimated the vulnerability of the world’s fish species to climate change using comparison between life stages (Dahlke et al. 2020, Science 369: 65-70). We highlight concerns with the data quality and argue that the metrics used to investigate ontogenetic differences in thermal tolerance were incomparable and confounded. Therefore, we provide caution when interpreting their results in the light of climate vulnerability. We suggest potential remedies and recommend thermal tolerance metrics that may be comparable across life stages. We also encourage the creation of guidelines to design, report, and assess comparative analyses to increase their reliability and reproducibility.",
    "preprintUrl": "https://doi.org/10.32942/osf.io/hya68",
    "altmetric": null
   },
@@ -6318,7 +6318,7 @@
    "isOA": true,
    "oaUrl": "https://bmcbiol.biomedcentral.com/track/pdf/10.1186/s12915-021-01006-3",
    "url": "https://doi.org/10.1186/s12915-021-01006-3",
-   "citations": 87,
+   "citations": 90,
    "abstract": "Unreliable research programmes waste funds, time, and even the lives of the organisms we seek to help and understand. Reducing this waste and increasing the value of scientific evidence require changing the actions of both individual researchers and the institutions they depend on for employment and promotion. While ecologists and evolutionary biologists have somewhat improved research transparency over the past decade (e.g. more data sharing), major obstacles remain. In this commentary, we lift our gaze to the horizon to imagine how researchers and institutions can clear the path towards more credible and effective research programmes.",
    "preprintUrl": "https://doi.org/10.32942/x20400",
    "altmetric": null

@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21",
+ "updated": "2026-11-22",
  "total": 739,
  "countries": 59,
  "institutions": 271,
@@ -426,8 +426,8 @@
    "city": "Ottawa",
    "country": "Canada",
    "countryCode": "CA",
-   "lat": 45.411170959472656,
-   "lon": -75.6981201171875
+   "lat": 45.41117,
+   "lon": -75.69812
   },
   {
    "name": "Dylan G. E. Gomes",
@@ -504,8 +504,8 @@
    "city": "Ottawa",
    "country": "Canada",
    "countryCode": "CA",
-   "lat": 45.411170959472656,
-   "lon": -75.6981201171875
+   "lat": 45.41117,
+   "lon": -75.69812
   },
   {
    "name": "Jack A. Brand",
@@ -842,8 +842,8 @@
    "city": "Regensburg",
    "country": "Germany",
    "countryCode": "DE",
-   "lat": 49.01512908935547,
-   "lon": 12.10161018371582
+   "lat": 49.01513,
+   "lon": 12.10161
   },
   {
    "name": "Federico Riva",
@@ -855,8 +855,8 @@
    "city": "Ottawa",
    "country": "Canada",
    "countryCode": "CA",
-   "lat": 45.411170959472656,
-   "lon": -75.6981201171875
+   "lat": 45.41117,
+   "lon": -75.69812
   },
   {
    "name": "Fiona M. Fidler",
@@ -1674,8 +1674,8 @@
    "city": "Guelph",
    "country": "Canada",
    "countryCode": "CA",
-   "lat": 43.54594039916992,
-   "lon": -80.25598907470703
+   "lat": 43.54594,
+   "lon": -80.25599
   },
   {
    "name": "Alessio N. De Nardo",
@@ -3650,8 +3650,8 @@
    "city": "Peterborough",
    "country": "Canada",
    "countryCode": "CA",
-   "lat": 44.30012130737305,
-   "lon": -78.31623077392578
+   "lat": 44.30012,
+   "lon": -78.31623
   },
   {
    "name": "Ekaterina N. Ovsyanikova",
@@ -3819,8 +3819,8 @@
    "city": "Ottawa",
    "country": "Canada",
    "countryCode": "CA",
-   "lat": 45.411170959472656,
-   "lon": -75.6981201171875
+   "lat": 45.41117,
+   "lon": -75.69812
   },
   {
    "name": "Emma M. Dunne",
@@ -3897,8 +3897,8 @@
    "city": "Peterborough",
    "country": "Canada",
    "countryCode": "CA",
-   "lat": 44.30012130737305,
-   "lon": -78.31623077392578
+   "lat": 44.30012,
+   "lon": -78.31623
   },
   {
    "name": "Esperanza C. Iranzo",
@@ -4443,8 +4443,8 @@
    "city": "Peterborough",
    "country": "Canada",
    "countryCode": "CA",
-   "lat": 44.30012130737305,
-   "lon": -78.31623077392578
+   "lat": 44.30012,
+   "lon": -78.31623
   },
   {
    "name": "Graham R. Fulton",
@@ -6936,7 +6936,7 @@
    "works": 1,
    "lastYear": 2025,
    "institution": "Indiana University – Purdue University Indianapolis",
-   "city": "Indpls",
+   "city": "Indianapolis",
    "country": "United States",
    "countryCode": "US",
    "lat": 39.76838,
@@ -7329,8 +7329,8 @@
    "city": "Edinburgh",
    "country": "United Kingdom",
    "countryCode": "GB",
-   "lat": 55.95206069946289,
-   "lon": -3.1964800357818604
+   "lat": 55.95206,
+   "lon": -3.19648
   },
   {
    "name": "Nicholas M. Grebe",
@@ -8122,8 +8122,8 @@
    "city": "Berkeley",
    "country": "United States",
    "countryCode": "US",
-   "lat": 37.87158966064453,
-   "lon": -122.27275085449219
+   "lat": 37.87159,
+   "lon": -122.27275
   },
   {
    "name": "Robert P. Dunn",
@@ -8590,8 +8590,8 @@
    "city": "Guelph",
    "country": "Canada",
    "countryCode": "CA",
-   "lat": 43.54594039916992,
-   "lon": -80.25598907470703
+   "lat": 43.54594,
+   "lon": -80.25599
   },
   {
    "name": "Shannon E. Currie",
@@ -9500,8 +9500,8 @@
    "city": "Guelph",
    "country": "Canada",
    "countryCode": "CA",
-   "lat": 43.54594039916992,
-   "lon": -80.25598907470703
+   "lat": 43.54594,
+   "lon": -80.25599
   },
   {
    "name": "Yeray Monasterio",
