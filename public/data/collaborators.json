@@ -1,8 +1,8 @@
 {
- "updated": "2026-11-22",
+ "updated": "2026-11-23",
  "total": 739,
  "countries": 59,
- "institutions": 271,
+ "institutions": 273,
  "byCountry": {
   "Japan": 8,
   "Poland": 6,
@@ -1488,7 +1488,7 @@
    "openalex": "https://openalex.org/A5078883119",
    "works": 2,
    "lastYear": 2026,
-   "institution": "Université de Montréal",
+   "institution": "Groupe de recherche interuniversitaire en limnologie et en environnement aquatique",
    "city": "Montreal",
    "country": "Canada",
    "countryCode": "CA",
@@ -5336,12 +5336,12 @@
    "openalex": "https://openalex.org/A5086841102",
    "works": 1,
    "lastYear": 2026,
-   "institution": "Radboud University Nijmegen",
+   "institution": "Radboud University Medical Center",
    "city": "Nijmegen",
    "country": "The Netherlands",
    "countryCode": "NL",
-   "lat": 51.8425,
-   "lon": 5.85278
+   "lat": 51.842498779296875,
+   "lon": 5.852779865264893
   },
   {
    "name": "Joanne Potts",
@@ -6697,7 +6697,7 @@
   },
   {
    "name": "Marta A. Santos",
-   "orcid": "https://orcid.org/0000-0003-1463-6037",
+   "orcid": "https://orcid.org/0000-0002-5014-7145",
    "openalex": "https://openalex.org/A5031006029",
    "works": 1,
    "lastYear": 2024,
