@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24",
+ "updated": "2026-11-25",
  "sources": [
   "ORCID",
   "Crossref",
@@ -30,19 +30,19 @@
   },
   {
    "year": 2023,
-   "cited_by_count": 206
+   "cited_by_count": 204
   },
   {
    "year": 2024,
-   "cited_by_count": 443
+   "cited_by_count": 438
   },
   {
    "year": 2025,
-   "cited_by_count": 660
+   "cited_by_count": 655
   },
   {
    "year": 2026,
-   "cited_by_count": 927
+   "cited_by_count": 924
   }
  ]
 }

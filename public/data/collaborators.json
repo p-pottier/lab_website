@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-24",
+ "updated": "2026-11-25",
  "total": 739,
  "countries": 59,
- "institutions": 273,
+ "institutions": 274,
  "byCountry": {
   "Japan": 8,
   "Poland": 6,
-  "Australia": 118,
+  "Australia": 119,
   "Germany": 38,
   "France": 14,
   "Sweden": 35,
@@ -2619,12 +2619,12 @@
    "openalex": "https://openalex.org/A5002961452",
    "works": 1,
    "lastYear": 2026,
-   "institution": null,
-   "city": null,
-   "country": null,
-   "countryCode": null,
-   "lat": null,
-   "lon": null
+   "institution": "Nature Glenelg Trust",
+   "city": "Mount Gambier",
+   "country": "Australia",
+   "countryCode": "AU",
+   "lat": -37.8318,
+   "lon": 140.77919
   },
   {
    "name": "Caitlin P. Mandeville",
