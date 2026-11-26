@@ -1,21 +1,21 @@
 {
- "updated": "2026-11-25",
- "total": 739,
+ "updated": "2026-11-26",
+ "total": 738,
  "countries": 59,
- "institutions": 274,
+ "institutions": 273,
  "byCountry": {
   "Japan": 8,
   "Poland": 6,
   "Australia": 119,
   "Germany": 38,
+  "Canada": 32,
   "France": 14,
   "Sweden": 35,
   "United Kingdom": 47,
   "Mexico": 5,
-  "Canada": 32,
   "United States": 61,
   "Portugal": 5,
-  "Switzerland": 11,
+  "Switzerland": 10,
   "Croatia": 2,
   "Italy": 7,
   "New Zealand": 3,
@@ -274,6 +274,19 @@
    "lon": 153.02809
   },
   {
+   "name": "Dominique G. Roche",
+   "orcid": "https://orcid.org/0000-0002-3326-864X",
+   "openalex": "https://openalex.org/A5026876706",
+   "works": 4,
+   "lastYear": 2026,
+   "institution": "Carleton University",
+   "city": "Ottawa",
+   "country": "Canada",
+   "countryCode": "CA",
+   "lat": 45.41117,
+   "lon": -75.69812
+  },
+  {
    "name": "G. Gregory Neely",
    "orcid": "https://orcid.org/0000-0002-1957-9732",
    "openalex": "https://openalex.org/A5011997834",
@@ -417,19 +430,6 @@
    "lon": 17.63889
   },
   {
-   "name": "Dominique G. Roche",
-   "orcid": "https://orcid.org/0000-0002-3326-864X",
-   "openalex": "https://openalex.org/A5026876706",
-   "works": 3,
-   "lastYear": 2025,
-   "institution": "Carleton University",
-   "city": "Ottawa",
-   "country": "Canada",
-   "countryCode": "CA",
-   "lat": 45.41117,
-   "lon": -75.69812
-  },
-  {
    "name": "Dylan G. E. Gomes",
    "orcid": "https://orcid.org/0000-0002-2642-3728",
    "openalex": "https://openalex.org/A5074386555",
@@ -456,9 +456,9 @@
    "lon": 12.37129
   },
   {
-   "name": "Eliza Grames",
+   "name": "Eliza M. Grames",
    "orcid": "https://orcid.org/0000-0003-1743-6815",
-   "openalex": "https://openalex.org/A5019569959",
+   "openalex": "https://openalex.org/A5062529837",
    "works": 3,
    "lastYear": 2026,
    "institution": "Binghamton University",
@@ -3496,19 +3496,6 @@
    "countryCode": null,
    "lat": null,
    "lon": null
-  },
-  {
-   "name": "Dominique Roche",
-   "orcid": null,
-   "openalex": "https://openalex.org/A5151785610",
-   "works": 1,
-   "lastYear": 2026,
-   "institution": "University of Neuchâtel",
-   "city": "Neuchâtel",
-   "country": "Switzerland",
-   "countryCode": "CH",
-   "lat": 46.991790771484375,
-   "lon": 6.931000232696533
   },
   {
    "name": "Don-Jean Léandri-Breton",
@@ -9219,8 +9206,8 @@
   },
   {
    "name": "Tomas Brodin",
-   "orcid": null,
-   "openalex": "https://openalex.org/A5158477790",
+   "orcid": "https://orcid.org/0000-0003-1086-7567",
+   "openalex": "https://openalex.org/A5076872617",
    "works": 1,
    "lastYear": 2026,
    "institution": "Swedish University of Agricultural Sciences",
