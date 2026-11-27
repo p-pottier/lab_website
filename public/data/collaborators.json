@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26",
+ "updated": "2026-11-27",
  "total": 738,
  "countries": 59,
  "institutions": 273,
@@ -820,7 +820,7 @@
    "lon": 145.11901
   },
   {
-   "name": "ERIK I. SVENSSON",
+   "name": "Erik I. Svensson",
    "orcid": "https://orcid.org/0000-0001-9006-016X",
    "openalex": "https://openalex.org/A5015610644",
    "works": 2,

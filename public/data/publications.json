@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26",
+ "updated": "2026-11-27",
  "publications": [
   {
    "id": "10.1038/s41559-026-03117-y",
@@ -4194,7 +4194,7 @@
    "isOA": true,
    "oaUrl": "https://doi.org/10.1098/rspb.2024.1222",
    "url": "https://doi.org/10.1098/rspb.2024.1222",
-   "citations": 102,
+   "citations": 103,
    "abstract": "In a growing digital landscape, enhancing the discoverability and resonance of scientific articles is essential. Here, we offer 10 recommendations to amplify the discoverability of studies in search engines and databases. Particularly, we argue that the strategic use and placement of key terms in the title, abstract and keyword sections can boost indexing and appeal. By surveying 230 journals in ecology and evolutionary biology, we found that current author guidelines may unintentionally limit article findability. Our survey of 5323 studies revealed that authors frequently exhaust abstract word limits-particularly those capped under 250 words. This suggests that current guidelines may be overly restrictive and not optimized to increase the dissemination and discoverability of digital publications. Additionally, 92% of studies used redundant keywords in the title or abstract, undermining optimal indexing in databases. We encourage adopting structured abstracts to maximize the incorporation of key terms in titles, abstracts and keywords. In addition, we encourage the relaxation of abstract and keyword limitations in journals with strict guidelines, and the inclusion of multilingual abstracts to broaden global accessibility. These recommendations to editors are designed to improve article engagement and facilitate evidence synthesis, thereby aligning scientific publishing with the modern needs of academic research.",
    "preprintUrl": "https://doi.org/10.1101/2023.10.02.559861",
    "altmetric": null
@@ -4511,7 +4511,7 @@
    "isOA": true,
    "oaUrl": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/2041-210X.14270",
    "url": "https://doi.org/10.1111/2041-210x.14270",
-   "citations": 64,
+   "citations": 65,
    "abstract": "Increasing attention has been drawn to the misuse of statistical methods over recent years, with particular concern about the prevalence of practices such as poor experimental design, cherry picking and inadequate reporting. These failures are largely unintentional and no more common in ecology than in other scientific disciplines, with many of them easily remedied given the right guidance. Originating from a discussion at the 2020 International Statistical Ecology Conference, we show how ecologists can build their research following four guiding principles for impactful statistical research practices: (1) define a focussed research question, then plan sampling and analysis to answer it; (2) develop a model that accounts for the distribution and dependence of your data; (3) emphasise effect sizes to replace statistical significance with ecological relevance; and (4) report your methods and findings in sufficient detail so that your research is valid and reproducible. These principles provide a framework for experimental design and reporting that guards against unsound practices. Starting with a well‐defined research question allows researchers to create an efficient study to answer it, and guards against poor research practices that lead to poor estimation of the direction, magnitude, and uncertainty of ecological relationships, and to poor replicability. Correct and appropriate statistical models give sound conclusions. Good reporting practices and a focus on ecological relevance make results impactful and replicable. Illustrated with two examples—an experiment to study the impact of disturbance on upland wetlands, and an observational study on blue tit colouring—this paper explains the rationale for the selection and use of effective statistical practices and provides practical guidance for ecologists seeking to improve their use of statistical methods.",
    "preprintUrl": "https://doi.org/10.48550/arxiv.2302.01528",
    "altmetric": null
@@ -6050,7 +6050,7 @@
    "oaUrl": "https://doi.org/10.32942/osf.io/hya68",
    "url": "https://doi.org/10.1007/s10682-022-10157-w",
    "citations": 36,
-   "abstract": "Comparative analyses require researchers to not only ensure data quality, but also to make prudent and justifiable assumptions about data comparability. A failure to do so can lead to unreliable conclusions. As a case in point, we comment on a study that estimated the vulnerability of the world’s fish species to climate change using comparison between life stages (Dahlke et al. 2020, Science 369: 65-70). We highlight concerns with the data quality and argue that the metrics used to investigate ontogenetic differences in thermal tolerance were incomparable and confounded. Therefore, we provide caution when interpreting their results in the light of climate vulnerability. We suggest potential remedies and recommend thermal tolerance metrics that may be comparable across life stages. We also encourage the creation of guidelines to design, report, and assess comparative analyses to increase their reliability and reproducibility.",
+   "abstract": null,
    "preprintUrl": "https://doi.org/10.32942/osf.io/hya68",
    "altmetric": null
   },
