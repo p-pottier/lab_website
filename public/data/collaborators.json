@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27",
+ "updated": "2026-11-28",
  "total": 738,
  "countries": 59,
  "institutions": 273,
@@ -1548,7 +1548,7 @@
    "lon": 144.96332
   },
   {
-   "name": "Abubakar S. Ringim",
+   "name": "Abubakar Ringim",
    "orcid": "https://orcid.org/0000-0003-0968-0842",
    "openalex": "https://openalex.org/A5048716085",
    "works": 1,
